@@ -1,6 +1,6 @@
-const CACHE='qcm-agent-douanes-v1';
+const CACHE='qcm-agent-douanes-v2';
 const ASSETS=[
-  './','./index.html','./helper.js','./engine-math.js','./engine-logic.js','./math-course-links.js','./app.js','./cours-maths.html','./manifest.webmanifest','./icon-192.svg','./icon-512.svg',
+  './','./index.html','./helper.js','./engine-math.js','./engine-logic.js','./knowledge-engine.js','./math-course-links.js','./app.js','./cours-maths.html','./manifest.webmanifest','./icon-192.svg','./icon-512.svg',
   './bank-01.txt','./bank-02.txt','./bank-03.txt','./bank-04.txt','./bank-05.txt','./bank-06.txt','./bank-07.txt','./bank-08.txt','./bank-09.txt','./bank-10.txt','./bank-11.txt','./bank-12.txt'
 ];
 self.addEventListener('install',event=>{
