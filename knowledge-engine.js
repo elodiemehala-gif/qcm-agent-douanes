@@ -1,110 +1,43 @@
 window.QKNOW=(()=>{
-  const clean=s=>String(s||'').replace(/^[•●▪–—-]\s*/,'').replace(/\s+/g,' ').trim();
-  const uniq=a=>[...new Set(a.filter(Boolean).map(String))];
-  const near=(x,K)=>K.filter(y=>y.ci===x.ci&&y.id!==x.id).sort((a,b)=>Math.abs((a.page||0)-(x.page||0))-Math.abs((b.page||0)-(x.page||0)));
-  const pickOptions=(answer,pool,H)=>{
-    let d=uniq(pool).filter(v=>v!==String(answer));
-    d=H.sh(d).slice(0,3);
-    while(d.length<3){
-      const filler=String(Number(answer)+H.r(1,9));
-      if(!d.includes(filler)&&filler!==String(answer))d.push(filler);
-    }
-    const o=H.sh([String(answer),...d]);
-    return {o,ans:o.indexOf(String(answer))};
-  };
-  const yearPool=(x,K)=>uniq(near(x,K).flatMap(y=>clean(y.text).match(/\b(?:1[5-9]\d{2}|20\d{2})\b/g)||[]));
-  const periodPool=(x,K)=>uniq(near(x,K).flatMap(y=>clean(y.text).match(/\b(?:1[5-9]\d{2}|20\d{2})\s*[–—‑-]\s*(?:1[5-9]\d{2}|20\d{2})\b/g)||[]));
-  const numPool=(x,K)=>uniq(near(x,K).flatMap(y=>clean(y.text).match(/\b\d+(?:[,.]\d+)?\s*%|\b\d+(?:[,.]\d+)?\b/g)||[]));
-  const colonParts=s=>{const i=s.indexOf(':');if(i<2||i>s.length-4)return null;return [s.slice(0,i).trim(),s.slice(i+1).trim()]};
-  const defPool=(x,K)=>uniq(near(x,K).map(y=>colonParts(clean(y.text))).filter(Boolean).map(p=>p[1]).filter(v=>v.length>2&&v.length<240));
-  const rhsPool=(x,K)=>uniq(near(x,K).map(y=>{const s=clean(y.text),m=s.match(/^(.{1,80}?)\s*=\s*(.{1,180})$/);return m&&m[2].trim()}).filter(Boolean));
-  const properNames=s=>uniq((s.match(/\b[A-ZÉÈÀÂÊÎÔÛÙÇ][a-zéèàâêîôûùç'’-]+(?:\s+[A-ZÉÈÀÂÊÎÔÛÙÇ][a-zéèàâêîôûùç'’-]+)+\b/g)||[]).filter(v=>!/^Version|Cours|Préparation/.test(v)));
-  const namePool=(x,K)=>uniq(near(x,K).flatMap(y=>properNames(clean(y.text))));
-  function make(x,K,H){
-    const s=clean(x.text);
-    let m;
-
-    // Mandats / périodes, ex. « Mitterrand (1981-1995) : ... »
-    m=s.match(/^([^:()]{2,70}?)\s*\(((?:1[5-9]\d{2}|20\d{2})\s*[–—‑-]\s*(?:1[5-9]\d{2}|20\d{2}))\)\s*:/);
-    if(m){
-      const subject=m[1].trim(),answer=m[2].replace(/\s+/g,' '), pool=periodPool(x,K);
-      const q=pickOptions(answer,pool.length>=3?pool:[answer.replace(/\d{4}/g,y=>String(+y-7)),answer.replace(/\d{4}/g,y=>String(+y+5)),answer.replace(/\d{4}/g,y=>String(+y+10))],H);
-      return {kind:'k',cat:x.cat,topic:x.id,prompt:`Quelle est la période correspondant à ${subject} ?`,o:q.o,ans:q.ans,x,why:s};
-    }
-
-    // Année placée en tête : tableau « 1981 Abolition de la peine de mort... »
-    m=s.match(/^((?:1[5-9]\d{2}|20\d{2}))\s+(.{4,220})$/);
-    if(m){
-      const answer=m[1],event=m[2].replace(/[.;]$/,'').trim(),q=pickOptions(answer,yearPool(x,K),H);
-      return {kind:'k',cat:x.cat,topic:x.id,prompt:`En quelle année ${event.charAt(0).toLowerCase()+event.slice(1)} ?`,o:q.o,ans:q.ans,x,why:s};
-    }
-
-    // Période n'importe où dans la phrase
-    m=s.match(/\b((?:1[5-9]\d{2}|20\d{2})\s*[–—‑-]\s*(?:1[5-9]\d{2}|20\d{2}))\b/);
-    if(m){
-      const answer=m[1],context=s.replace(m[0],'_____').replace(/\s+/g,' '),q=pickOptions(answer,periodPool(x,K),H);
-      return {kind:'k',cat:x.cat,topic:x.id,prompt:`Quelle période complète correctement cette information ?\n${context}`,o:q.o,ans:q.ans,x,why:s};
-    }
-
-    // Une date précise
-    const years=s.match(/\b(?:1[5-9]\d{2}|20\d{2})\b/g)||[];
-    if(years.length===1){
-      const answer=years[0],context=s.replace(answer,'_____'),q=pickOptions(answer,yearPool(x,K),H);
-      return {kind:'k',cat:x.cat,topic:x.id,prompt:`Quelle année complète correctement cette information ?\n${context}`,o:q.o,ans:q.ans,x,why:s};
-    }
-
-    // Définitions / associations de type « Notion : définition »
-    const cp=colonParts(s);
-    if(cp&&cp[0].length<=90&&cp[1].length<=240){
-      const [term,answer]=cp,q=pickOptions(answer,defPool(x,K),H);
-      const low=term.toLowerCase();
-      let prompt=/siège|capitale/.test(answer.toLowerCase())?`Quelle information est correcte concernant ${term} ?`:`Que faut-il associer à « ${term} » ?`;
-      if(/définition|désigne|processus|principe|notion/.test((term+' '+answer).toLowerCase()))prompt=`Quelle définition correspond à « ${term} » ?`;
-      return {kind:'k',cat:x.cat,topic:x.id,prompt,o:q.o,ans:q.ans,x,why:s};
-    }
-
-    // Formule / égalité
-    m=s.match(/^(.{1,90}?)\s*=\s*(.{1,180})$/);
-    if(m){
-      const left=m[1].trim(),answer=m[2].trim(),q=pickOptions(answer,rhsPool(x,K),H);
-      return {kind:'k',cat:x.cat,topic:x.id,prompt:`À quoi correspond « ${left} » ?`,o:q.o,ans:q.ans,x,why:s};
-    }
-
-    // Missions, sièges et relations « X est / a pour mission / comprend... »
-    m=s.match(/^(.{2,90}?)\s+(a pour mission(?:s)?(?: principale(?:s)?)?|siège à|est situé(?:e)? à|est|sont|désigne|correspond à|comprend|compte)\s+(.{2,180})$/i);
-    if(m){
-      const subject=m[1].trim(),verb=m[2].toLowerCase(),answer=m[3].replace(/[.;]$/,'').trim(),pool=defPool(x,K).concat(rhsPool(x,K));
-      let prompt=`Que faut-il associer à « ${subject} » ?`;
-      if(verb.startsWith('a pour mission'))prompt=`Quelle est la mission de ${subject} ?`;
-      else if(verb.includes('siège')||verb.includes('situé'))prompt=`Où se situe ${subject} ?`;
-      else if(verb==='désigne'||verb==='correspond à')prompt=`Que désigne « ${subject} » ?`;
-      else if(verb==='comprend'||verb==='compte')prompt=`Que comprend ${subject} ?`;
-      else if(verb==='est'||verb==='sont')prompt=`Qu'est-ce qui caractérise ${subject} ?`;
-      const q=pickOptions(answer,pool,H);
-      return {kind:'k',cat:x.cat,topic:x.id,prompt,o:q.o,ans:q.ans,x,why:s};
-    }
-
-    // Valeurs, pourcentages, nombres : masquer uniquement la valeur à retenir.
-    const nums=s.match(/\b\d+(?:[,.]\d+)?\s*%|\b\d+(?:[,.]\d+)?\b/g)||[];
-    if(nums.length===1){
-      const answer=nums[0],context=s.replace(answer,'_____'),q=pickOptions(answer,numPool(x,K),H);
-      return {kind:'k',cat:x.cat,topic:x.id,prompt:`Quelle valeur complète correctement cette information ?\n${context}`,o:q.o,ans:q.ans,x,why:s};
-    }
-
-    // Personne / auteur / responsable : question à trou sur le nom propre.
-    const names=properNames(s);
-    if(names.length){
-      const answer=names[names.length-1],context=s.replace(answer,'_____'),q=pickOptions(answer,namePool(x,K),H);
-      return {kind:'k',cat:x.cat,topic:x.id,prompt:`Qui complète correctement cette information ?\n${context}`,o:q.o,ans:q.ans,x,why:s};
-    }
-
-    // Dernier recours : transformer une relation en question de rappel, sans jamais demander « est-ce dans le cours ? ».
-    const words=s.split(' ');
-    const cut=Math.max(2,Math.min(7,Math.floor(words.length/3)));
-    const subject=words.slice(0,cut).join(' '),answer=words.slice(cut).join(' ');
-    const pool=near(x,K).map(y=>clean(y.text).split(' ').slice(cut).join(' ')).filter(v=>v.length>3&&v.length<220);
-    const q=pickOptions(answer,pool,H);
-    return {kind:'k',cat:x.cat,topic:x.id,prompt:`Quelle proposition complète correctement : « ${subject}… » ?`,o:q.o,ans:q.ans,x,why:s};
+  const uniq=a=>[...new Set((a||[]).filter(Boolean).map(v=>String(v).trim()).filter(Boolean))];
+  const clean=s=>String(s||'').replace(/[\u00a0\u202f]/g,' ').replace(/^[•●▪◦–—-]\s*/,'').replace(/\s+/g,' ').replace(/\s+([,.;:!?])/g,'$1').trim();
+  const lowerLead=s=>s.replace(/^(Le|La|Les|L’|L')\b/,m=>m.toLowerCase());
+  const trimPunct=s=>clean(s).replace(/^[,:;\-–—]+\s*/,'').replace(/[.;:,]+$/,'').trim();
+  const wc=s=>clean(s).split(/\s+/).filter(Boolean).length;
+  const headingRx=/^(?:[A-F](?:\.\d+)*|\d+(?:\.\d+)*)\s*[-–—.]?\s+[A-ZÀÂÉÈÊÎÔÙÛÇ][^.!?]{0,95}$/;
+  const editorialRx=/^(?:pièges?\s*qcm|pièges?\s*courants?|à retenir|fiche(?:\s+express)?|stratégie|correction(?:\s+importante)?|version\b|cours\s+source|programme\b|remarques?\b|priorité\s+concours|notion\s+à connaître)/i;
+  const badStartRx=/^(?:penser que|ne pas|toujours|attention\b|confondre\b|oublier\b|vérifier\b|règle\s*:|méthode\s*:|exemple\s*:|piège\s*:)/i;
+  function stripHeadingPrefix(s){s=clean(s);const dm=s.match(/(?:^|\s)Définition\s*:\s*(.+)$/i);if(dm&&/^(?:[A-F](?:\.\d+)*|\d+(?:\.\d+)*)\b/.test(s))s=dm[1];s=s.replace(/^(?:[A-F](?:\.\d+)*|\d+(?:\.\d+)*)\s*[-–—.]?\s*[^:]{2,95}:\s*/,'');return clean(s)}
+  function splitOutsideParens(s,sep=','){const out=[];let buf='',depth=0;for(const ch of s){if(ch==='('||ch==='[')depth++;if(ch===')'||ch===']')depth=Math.max(0,depth-1);if(ch===sep&&depth===0){out.push(buf.trim());buf=''}else buf+=ch}if(buf.trim())out.push(buf.trim());return out}
+  function useful(s){s=trimPunct(s);if(!s||s.length<8||wc(s)<2)return false;if(headingRx.test(s)||editorialRx.test(s)||badStartRx.test(s))return false;if(/^[-–—]?\s*(?:figure|grandeur|notion|année|rang|pays|formule|repères?)\s*$/i.test(s))return false;if(/^(?:cette partie|ce chapitre|ce cours|la version initiale|la version révisée)\b/i.test(s))return false;return true}
+  function sentencePieces(s){s=stripHeadingPrefix(s);s=s.replace(/\s+(?:Pièges? QCM|Pièges? courants?|À retenir|Fiche express|Correction importante)\b.*$/i,'');const first=s.split(/(?<=[.!?])\s+(?=[A-ZÀÂÉÈÊÎÔÙÛÇ0-9])/),out=[];for(let piece of first){piece=trimPunct(piece);if(!piece)continue;const semis=piece.split(/\s*;\s*/).filter(Boolean);if(semis.length>1&&semis.every(z=>wc(z)>=3))out.push(...semis);else out.push(piece)}return out}
+  function expandOne(x){let s=stripHeadingPrefix(x.text);if(!s)return[];const atoms=[];let m=s.match(/^([^:()]{2,70}?)\s*\(((?:1[5-9]\d{2}|20\d{2})\s*[–—‑-]\s*(?:1[5-9]\d{2}|20\d{2}|aujourd'hui|présent))\)\s*:\s*(.+)$/i);if(m){const subject=trimPunct(m[1]),period=trimPunct(m[2]),tail=trimPunct(m[3]);atoms.push(`${subject} (${period})`);let items=splitOutsideParens(tail,',');if(items.length<2)items=tail.split(/\s*;\s*/);for(const it of items){const v=trimPunct(it);if(useful(v))atoms.push(`${subject} : ${v}`)}}else{const cp=s.match(/^([^:]{2,85})\s*:\s*(.+)$/);if(cp&&!/^(?:définition|exemple|méthode|piège|correction|remarque)$/i.test(cp[1].trim())){const subject=trimPunct(cp[1]),tail=trimPunct(cp[2]),parts=tail.split(/\s*;\s*/).filter(Boolean);if(parts.length>1&&parts.every(v=>wc(v)>=3)){for(const p of parts){const v=trimPunct(p);if(useful(v))atoms.push(`${subject} : ${v}`)}}else atoms.push(...sentencePieces(s))}else atoms.push(...sentencePieces(s))}return uniq(atoms).filter(useful).map((text,i)=>({...x,text,sourceText:clean(x.text),id:`${x.id}.${i+1}`}))}
+  function expand(K){return K.flatMap(expandOne)}
+  function kindOf(s){s=clean(s);if(/\b(?:1[5-9]\d{2}|20\d{2})\s*[–—‑-]\s*(?:1[5-9]\d{2}|20\d{2}|aujourd'hui|présent)\b/i.test(s))return'period';if(/^\s*(?:1[5-9]\d{2}|20\d{2})\b/.test(s))return'year-event';if(/\b(?:écrit(?:e)?|porté(?:e)?|élaboré(?:e)?|fondé(?:e)?|créé(?:e)?|dirigé(?:e)?|présidé(?:e)?|voulu(?:e)?|signé(?:e)?|adopté(?:e)?)\s+par\s+[A-Z]/i.test(s))return'person';if(/\b(?:siège à|situé(?:e)? à|se situe à|capitale(?: de)?|chef-lieu)\b/i.test(s))return'place';if(/\b\d+(?:[,.]\d+)?\s*%\b/.test(s))return'percent';if(/^.+?\s*=\s*.+$/.test(s))return'formula';if(/^.{2,85}:\s+.{2,220}$/.test(s))return'definition';if(/\b(?:est|sont|désigne|correspond à|comprend|compte|permet|dispose de|assure|contrôle|vote|dirige|conduit|conseille|gère|recouvre|collecte|lutte contre|représente)\b/i.test(s))return'relation';if((s.match(/\b(?:1[5-9]\d{2}|20\d{2})\b/g)||[]).length===1)return'year';if((s.match(/\b\d+(?:[,.]\d+)?\b/g)||[]).length===1)return'number';return'other'}
+  const sameCatPool=(x,K,kind)=>K.filter(y=>y.cat===x.cat&&y.id!==x.id&&(!kind||kindOf(y.text)===kind));
+  const nearbySort=(x,a)=>[...a].sort((u,v)=>Math.abs((u.page||0)-(x.page||0))-Math.abs((v.page||0)-(x.page||0)));
+  function comparable(answer,arr,get,H){const aw=Math.max(1,wc(answer));let cand=uniq(arr.map(get).filter(Boolean).map(trimPunct)).filter(v=>v!==trimPunct(answer));const close=cand.filter(v=>{const n=wc(v);return n>=Math.max(1,Math.floor(aw*.55))&&n<=Math.ceil(aw*1.8)});if(close.length>=3)cand=close;return H.sh(cand.slice(0,18)).slice(0,3)}
+  function options(answer,distractors,H,fallback=[]){let d=uniq([...(distractors||[]),...(fallback||[])]).filter(v=>v!==String(answer)).slice(0,8);d=H.sh(d).slice(0,3);if(d.length<3)return null;const o=H.sh([String(answer),...d]);return{o,ans:o.indexOf(String(answer))}}
+  const yearFallback=y=>{const n=+y;return[n-5,n-2,n+3,n+7].filter(v=>v>=1500&&v<=2035).map(String)};
+  const periodFallback=p=>{const m=p.match(/(\d{4}).*?(\d{4})/);if(!m)return[];const a=+m[1],b=+m[2];return[`${a-7}-${b-7}`,`${a+5}-${b+5}`,`${a+10}-${b+10}`]};
+  function qBase(x,prompt,answer,distractors,H,fallback=[]){const q=options(trimPunct(answer),distractors,H,fallback);if(!q)return null;return{kind:'k',cat:x.cat,topic:x.id,prompt,o:q.o,ans:q.ans,x,why:trimPunct(x.text)}}
+  function make(x,K,H){const s=trimPunct(x.text);let m;
+    m=s.match(/^(.+?)\s*\(((?:1[5-9]\d{2}|20\d{2})\s*[–—‑-]\s*(?:1[5-9]\d{2}|20\d{2}|aujourd'hui|présent))\)$/i);if(m){const subject=trimPunct(m[1]),answer=m[2],pool=nearbySort(x,sameCatPool(x,K,'period')).map(y=>(y.text.match(/\b((?:1[5-9]\d{2}|20\d{2})\s*[–—‑-]\s*(?:1[5-9]\d{2}|20\d{2}|aujourd'hui|présent))\b/i)||[])[1]);return qBase(x,`Quelle est la période correspondant à ${subject} ?`,answer,pool,H,periodFallback(answer))}
+    m=s.match(/^((?:1[5-9]\d{2}|20\d{2}))\s+(.+)$/);if(m){const answer=m[1],event=trimPunct(m[2]),pool=nearbySort(x,sameCatPool(x,K,'year-event')).map(y=>(y.text.match(/^((?:1[5-9]\d{2}|20\d{2}))\b/)||[])[1]);return qBase(x,`À quelle année associe-t-on ${lowerLead(event)} ?`,answer,pool,H,yearFallback(answer))}
+    m=s.match(/^(.+?)\b(écrit(?:e)?|porté(?:e)?|élaboré(?:e)?|fondé(?:e)?|créé(?:e)?|dirigé(?:e)?|présidé(?:e)?|voulu(?:e)?|signé(?:e)?|adopté(?:e)?)\s+par\s+([A-ZÀÂÉÈÊÎÔÙÛÇ][A-Za-zÀ-ÿ'’.-]+(?:\s+[A-ZÀÂÉÈÊÎÔÙÛÇ][A-Za-zÀ-ÿ'’.-]+)+)/i);if(m){const before=trimPunct(m[1]),verb=m[2].toLowerCase(),answer=m[3],pool=nearbySort(x,sameCatPool(x,K,'person')).flatMap(y=>{const z=y.text.match(/\bpar\s+([A-ZÀÂÉÈÊÎÔÙÛÇ][A-Za-zÀ-ÿ'’.-]+(?:\s+[A-ZÀÂÉÈÊÎÔÙÛÇ][A-Za-zÀ-ÿ'’.-]+)+)/);return z?[z[1]]:[]});let prompt=`Par qui ${lowerLead(before)} a-t-il été ${verb} ?`;if(/écrit/.test(verb))prompt=`Qui a écrit ${lowerLead(before)} ?`;else if(/porté/.test(verb))prompt=`Qui a porté ${lowerLead(before)} ?`;else if(/élaboré/.test(verb))prompt=`Par qui ${lowerLead(before)} a-t-il été élaboré ?`;return qBase(x,prompt,answer,pool,H)}
+    m=s.match(/^([^=]{1,70}?)\s*=\s*([^=]{1,90}?)(?:\s*=\s*([^=]{1,90}))?$/);if(m&&/\d/.test(m[1])){const left=trimPunct(m[1]),answer=trimPunct(m[3]||m[2]),pool=nearbySort(x,sameCatPool(x,K,'formula')).flatMap(y=>{const z=y.text.match(/^([^=]{1,70}?)\s*=\s*([^=]{1,90}?)(?:\s*=\s*([^=]{1,90}))?$/);return z?[trimPunct(z[3]||z[2])]:[]});return qBase(x,`À quoi correspond ${left} ?`,answer,comparable(answer,pool,v=>v,H),H)}
+    m=s.match(/^(Le|La)\s+(.+?)\s+est\s+en\s+base\s+(\d+)\b/i);if(m){const subject=`${m[1]} ${m[2]}`,answer=`base ${m[3]}`;return qBase(x,`Sur quelle base repose ${lowerLead(subject)} ?`,answer,[],H,['base 2','base 8','base 10','base 16'])}
+    m=s.match(/^(.+?)\s+(?:est|sont)\s+considéré(?:e|es|s)?\s+comme\s+(.+)$/i);if(m){const subject=trimPunct(m[1]),answer=trimPunct(m[2]),pool=nearbySort(x,sameCatPool(x,K,'relation')).flatMap(y=>{const z=y.text.match(/^.+?\s+(?:est|sont)\s+(?:considéré(?:e|es|s)?\s+comme\s+)?(.+)$/i);return z?[trimPunct(z[1])]:[]});return qBase(x,`Comment ${lowerLead(subject)} ${/^les\b/i.test(subject)?'sont-ils':'est-il'} considéré${/^les\b/i.test(subject)?'s':''} ?`,answer,comparable(answer,pool,v=>v,H),H)}
+    m=s.match(/^(.+?)\s+(?:siège à|est situé(?:e)? à|se situe à)\s+(.+)$/i);if(m){const subject=trimPunct(m[1]),answer=trimPunct(m[2]),pool=nearbySort(x,sameCatPool(x,K,'place')).flatMap(y=>{const z=y.text.match(/\b(?:siège à|est situé(?:e)? à|se situe à)\s+(.+)$/i);return z?[trimPunct(z[1])]:[]});return qBase(x,`Où se situe ${subject} ?`,answer,comparable(answer,pool,v=>v,H),H)}
+    const perc=s.match(/\b(\d+(?:[,.]\d+)?)\s*%\b/g)||[];if(perc.length===1){const answer=perc[0].replace(/\s+/g,' '),context=trimPunct(s.replace(perc[0],'_____')),pool=nearbySort(x,sameCatPool(x,K,'percent')).flatMap(y=>y.text.match(/\b\d+(?:[,.]\d+)?\s*%\b/g)||[]);return qBase(x,`Quel pourcentage complète correctement cette information ?\n${context}`,answer,pool,H,['5 %','10 %','20 %','25 %','50 %'])}
+    const years=s.match(/\b(?:1[5-9]\d{2}|20\d{2})\b/g)||[];if(years.length===1){const answer=years[0],context=trimPunct(s.replace(answer,'_____')),pool=nearbySort(x,K.filter(y=>y.cat===x.cat&&y.id!==x.id)).flatMap(y=>y.text.match(/\b(?:1[5-9]\d{2}|20\d{2})\b/g)||[]);return qBase(x,`À quelle année associe-t-on l'information suivante ?\n${context}`,answer,pool,H,yearFallback(answer))}
+    m=s.match(/^([^:]{2,85})\s*:\s*(.{2,220})$/);if(m){const subject=trimPunct(m[1]),answer=trimPunct(m[2]);if(headingRx.test(subject)||editorialRx.test(subject))return null;const defs=nearbySort(x,sameCatPool(x,K,'definition')).flatMap(y=>{const z=y.text.match(/^([^:]{2,85})\s*:\s*(.{2,220})$/);return z?[trimPunct(z[2])]:[]}),pool=comparable(answer,defs,v=>v,H);let prompt=`Que faut-il savoir sur « ${subject} » ?`;if(/^(?:rôle|mission|fonction)/i.test(answer)||/\b(?:contrôle|vote|dirige|conduit|conseille|gère|recouvre|collecte|assure|lutte)\b/i.test(answer))prompt=`Quel est le rôle de ${subject} ?`;else if(/^(?:bleu|rouge|vert|noir|blanc|jaune)\b/i.test(answer)&&/,/.test(answer))prompt=`Quels éléments correspondent à ${subject} ?`;else if(/\b(?:désigne|processus|système|ensemble|principe|titre|institution|régime|figure|rapport|valeur)\b/i.test(answer))prompt=`Quelle définition correspond à « ${subject} » ?`;return qBase(x,prompt,answer,pool,H)}
+    const relations=[['permet','Que permet'],['comprend','Que comprend'],['compte','Que compte'],['dispose de','De quoi dispose'],['assure','Qu’assure'],['contrôle','Que contrôle'],['vote','Que vote'],['dirige','Que dirige'],['conduit','Que conduit'],['conseille','Qui conseille'],['gère','Que gère'],['recouvre','Que recouvre'],['collecte','Que collecte'],['représente','Que représente'],['désigne','Que désigne']];for(const[verb,start]of relations){const re=new RegExp(`^(.+?)\\s+${verb.replace(' ','\\s+')}\\s+(.+)$`,'i'),z=s.match(re);if(!z)continue;const subject=trimPunct(z[1]),answer=trimPunct(z[2]),pool=nearbySort(x,sameCatPool(x,K,'relation')).flatMap(y=>{const zz=y.text.match(re);return zz?[trimPunct(zz[2])]:[]});return qBase(x,`${start} ${lowerLead(subject)} ?`,answer,comparable(answer,pool,v=>v,H),H)}
+    m=s.match(/^(.{2,100}?)\s+(est|sont)\s+(.{2,190})$/i);if(m){const subject=trimPunct(m[1]),verb=m[2].toLowerCase(),answer=trimPunct(m[3]);if(headingRx.test(subject))return null;const rels=nearbySort(x,sameCatPool(x,K,'relation')).flatMap(y=>{const z=y.text.match(/^.{2,100}?\s+(?:est|sont)\s+(.{2,190})$/i);return z?[trimPunct(z[1])]:[]}),pool=comparable(answer,rels,v=>v,H),prompt=verb==='sont'?`Que sont ${lowerLead(subject)} ?`:`Qu'est-ce qui caractérise ${lowerLead(subject)} ?`;return qBase(x,prompt,answer,pool,H)}
+    const nums=s.match(/\b\d+(?:[,.]\d+)?\b/g)||[];if(nums.length===1){const answer=nums[0],context=trimPunct(s.replace(answer,'_____')),pool=nearbySort(x,K.filter(y=>y.cat===x.cat&&y.id!==x.id)).flatMap(y=>y.text.match(/\b\d+(?:[,.]\d+)?\b/g)||[]);return qBase(x,`Quelle valeur complète correctement cette information ?\n${context}`,answer,pool,H,[String(+answer+1),String(Math.max(0,+answer-1)),String(+answer+10)])}
+    return null
   }
-  return {make};
+  function quizworthy(x){const s=typeof x==='string'?x:(x?.text||''),k=kindOf(s);if(k==='other')return false;if(k==='formula'&&!/^\s*\d/.test(s))return false;return useful(s)}
+  function canQuestion(x,K,H){try{return!!make(x,K,H)}catch{return false}}
+  return{expand,make,canQuestion,quizworthy,kindOf};
 })();
