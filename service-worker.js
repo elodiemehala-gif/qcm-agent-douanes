@@ -1,6 +1,6 @@
-const CACHE='qcm-agent-douanes-v9';
+const CACHE='qcm-agent-douanes-v10';
 const ASSETS=[
-  './','./index.html','./v2.html','./style-v2.css','./qcm-v4.css','./helper.js','./engine-math.js','./engine-logic.js','./knowledge-engine.js','./chapter-map.js','./qcm-engine-v8.js','./math-course-links.js','./app-v6.js','./cours-maths.html','./manifest.webmanifest','./icon-192.svg','./icon-512.svg',
+  './','./index.html','./v2.html','./style-v2.css','./qcm-v4.css','./helper.js','./engine-math.js','./engine-logic.js','./knowledge-engine.js','./chapter-map.js','./qcm-engine-v8.js','./qcm-quality-guard.js','./math-course-links.js','./app-v6.js','./cours-maths.html','./manifest.webmanifest','./icon-192.svg','./icon-512.svg',
   './bank-01.txt','./bank-02.txt','./bank-03.txt','./bank-04.txt','./bank-05.txt','./bank-06.txt','./bank-07.txt','./bank-08.txt','./bank-09.txt','./bank-10.txt','./bank-11.txt','./bank-12.txt'
 ];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
