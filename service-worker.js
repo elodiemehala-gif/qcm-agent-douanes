@@ -1,4 +1,4 @@
-const CACHE='qcm-agent-douanes-v14';
+const CACHE='qcm-agent-douanes-v15';
 const ASSETS=[
   './','./index.html','./v2.html','./style-v2.css','./qcm-v4.css','./helper.js','./math-contest-bank.js','./engine-logic.js','./knowledge-engine.js','./chapter-map.js','./qcm-engine-v8.js','./qcm-quality-guard.js','./pedagogy-v11.js','./formulation-v13.js','./app-v7.js','./install-app.js','./cours-maths.html','./manifest.webmanifest','./icon-192.svg','./icon-512.svg',
   './bank-01.txt','./bank-02.txt','./bank-03.txt','./bank-04.txt','./bank-05.txt','./bank-06.txt','./bank-07.txt','./bank-08.txt','./bank-09.txt','./bank-10.txt','./bank-11.txt','./bank-12.txt'
