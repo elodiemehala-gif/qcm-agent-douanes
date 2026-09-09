@@ -11,6 +11,7 @@ load('qcm-quality-guard.js');
 load('pedagogy-v11.js');
 load('formulation-v13.js');
 load('strict-qcm-v25.js');
+load('structured-qcm-v26.js');
 
 const chunks=[];for(let i=1;i<=12;i++)chunks.push(fs.readFileSync(`bank-${String(i).padStart(2,'0')}.txt`,'utf8').trim());
 const p=JSON.parse(zlib.gunzipSync(Buffer.from(chunks.join(''),'base64')).toString('utf8'));
