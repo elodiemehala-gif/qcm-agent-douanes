@@ -1,4 +1,4 @@
-const CACHE='qcm-agent-douanes-v23';
+const CACHE='qcm-agent-douanes-v24';
 const ASSETS=[
   './','./index.html','./v2.html','./cours.html','./programme.html','./informatique.html','./style-v2.css','./qcm-v4.css','./course-access.css','./programme.css','./informatique.css','./informatique-course.css','./helper.js','./math-contest-bank.js','./engine-logic.js','./knowledge-engine.js','./chapter-map.js','./qcm-engine-v8.js','./qcm-quality-guard.js','./pedagogy-v11.js','./formulation-v13.js','./app-v7.js','./course-access.js','./course-index.js','./course-viewer.js','./programme.js','./informatique-bank.js','./informatique-bank-patch.js','./informatique-entry.js','./informatique-course.js','./informatique-course-view.js','./informatique.js','./install-app.js','./cours-maths.html','./manifest.webmanifest','./icon-192.svg','./icon-512.svg',
   './course-histoire.dat','./course-geographie.dat','./course-emc.dat','./clean-actualite.dat','./clean-organisation.dat','./clean-mathematiques.dat','./clean-logique.dat','./clean-culture-generale.dat',
