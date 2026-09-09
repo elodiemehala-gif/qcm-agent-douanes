@@ -1,6 +1,6 @@
-const CACHE='qcm-agent-douanes-v24';
+const CACHE='qcm-agent-douanes-v25';
 const ASSETS=[
-  './','./index.html','./v2.html','./cours.html','./programme.html','./informatique.html','./style-v2.css','./qcm-v4.css','./course-access.css','./programme.css','./informatique.css','./informatique-course.css','./helper.js','./math-contest-bank.js','./engine-logic.js','./knowledge-engine.js','./chapter-map.js','./qcm-engine-v8.js','./qcm-quality-guard.js','./pedagogy-v11.js','./formulation-v13.js','./app-v7.js','./course-access.js','./course-index.js','./course-viewer.js','./programme.js','./informatique-bank.js','./informatique-bank-patch.js','./informatique-entry.js','./informatique-course.js','./informatique-course-view.js','./informatique.js','./install-app.js','./cours-maths.html','./manifest.webmanifest','./icon-192.svg','./icon-512.svg',
+  './','./index.html','./v2.html','./cours.html','./programme.html','./informatique.html','./style-v2.css','./qcm-v4.css','./course-access.css','./programme.css','./informatique.css','./informatique-course.css','./helper.js','./math-contest-bank.js','./engine-logic.js','./knowledge-engine.js','./chapter-map.js','./qcm-engine-v8.js','./qcm-quality-guard.js','./pedagogy-v11.js','./formulation-v13.js','./strict-qcm-v25.js','./app-v7.js','./course-access.js','./course-index.js','./course-viewer.js','./programme.js','./informatique-bank.js','./informatique-bank-patch.js','./informatique-entry.js','./informatique-course.js','./informatique-course-view.js','./informatique.js','./install-app.js','./cours-maths.html','./manifest.webmanifest','./icon-192.svg','./icon-512.svg',
   './course-histoire.dat','./course-geographie.dat','./course-emc.dat','./clean-actualite.dat','./clean-organisation.dat','./clean-mathematiques.dat','./clean-logique.dat','./clean-culture-generale.dat',
   './bank-01.txt','./bank-02.txt','./bank-03.txt','./bank-04.txt','./bank-05.txt','./bank-06.txt','./bank-07.txt','./bank-08.txt','./bank-09.txt','./bank-10.txt','./bank-11.txt','./bank-12.txt'
 ];
@@ -10,5 +10,5 @@ self.addEventListener('fetch',event=>{
   if(event.request.method!=='GET')return;
   const url=new URL(event.request.url),isCore=event.request.mode==='navigate'||/\.(?:js|css|html|webmanifest)$/.test(url.pathname);
   if(isCore){event.respondWith(fetch(event.request).then(async r=>{if(r&&r.ok&&url.origin===self.location.origin){const c=await caches.open(CACHE);c.put(event.request,r.clone())}return r}).catch(async()=>await caches.match(event.request,{ignoreSearch:true})||await caches.match('./v2.html')));return}
-  event.respondWith(caches.match(event.request,{ignoreSearch:true}).then(cached=>cached||fetch(event.request).then(async r=>{if(r&&r.ok&&url.origin===self.location.origin){const c=await caches.open(CACHE);c.put(event.request,r.clone())}return r})));
+  event.respondWith(caches.match(event.request,{ignoreSearch:true}).then(cached=>cached||fetch(event.request).then(async r=>{if(r&&r.ok&&url.origin===self.location.origin){const c=await caches.open(CACHE);c.put(event.request,r.clone())}return r}));
 });
