@@ -10,5 +10,5 @@ self.addEventListener('fetch',event=>{
   if(event.request.method!=='GET')return;
   const url=new URL(event.request.url),isCore=event.request.mode==='navigate'||/\.(?:js|css|html|webmanifest)$/.test(url.pathname);
   if(isCore){event.respondWith(fetch(event.request).then(async r=>{if(r&&r.ok&&url.origin===self.location.origin){const c=await caches.open(CACHE);c.put(event.request,r.clone())}return r}).catch(async()=>await caches.match(event.request,{ignoreSearch:true})||await caches.match('./v2.html')));return}
-  event.respondWith(caches.match(event.request,{ignoreSearch:true}).then(cached=>cached||fetch(event.request).then(async r=>{if(r&&r.ok&&url.origin===self.location.origin){const c=await caches.open(CACHE);c.put(event.request,r.clone())}return r}));
+  event.respondWith(caches.match(event.request,{ignoreSearch:true}).then(cached=>cached||fetch(event.request).then(async r=>{if(r&&r.ok&&url.origin===self.location.origin){const c=await caches.open(CACHE);c.put(event.request,r.clone())}return r})));
 });
