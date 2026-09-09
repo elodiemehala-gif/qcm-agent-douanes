@@ -1,0 +1,24 @@
+name: QCM quality audit
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Audit all knowledge facts
+        run: node audit-qcm.mjs
+      - name: Upload audit report
+        uses: actions/upload-artifact@v4
+        with:
+          name: qcm-audit-report
+          path: |
+            audit-summary.json
+            audit-report.json
