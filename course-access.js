@@ -1,5 +1,5 @@
 (()=>{
-  const openCourse=c=>{location.href='cours.html?matiere='+encodeURIComponent(c)+'&rev=23'};
+  const openCourse=c=>{location.href='cours.html?matiere='+encodeURIComponent(c)+'&rev=24'};
   function addPill(card,c,compact=false){
     if(!card||!c||card.querySelector('.course-pill'))return;
     const b=document.createElement('button');
