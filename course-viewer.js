@@ -1,47 +1,96 @@
 (async()=>{
-  const A=document.querySelector('#courseApp');
+  const A=document.querySelector('#courseApp'), INDEX=window.QCOURSE_INDEX||{};
   const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
-  const pct=(a,b)=>b?Math.round(100*a/b):0;
-  const params=new URLSearchParams(location.search);
-  const wanted=params.get('matiere')||'';
-  let chunks=[];
-  for(let i=1;i<=12;i++){
-    const r=await fetch(`bank-${String(i).padStart(2,'0')}.txt`,{cache:'no-store'});
-    if(!r.ok)throw Error('Banque de cours introuvable');
-    chunks.push((await r.text()).trim());
+  const norm=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+  const params=new URLSearchParams(location.search), wanted=params.get('matiere')||'';
+  const PREF={'Histoire':'HIS','Géographie':'GEO','Enseignement moral et civique':'EMC','Actualité':'ACT','Organisation et missions des ministères économiques et financiers':'ORG','Mathématiques':'MAT','Raisonnement logique':'LOG','Culture générale':'CG'};
+  let progressCache=null;
+
+  const dataFiles={
+    'histoire':'course-histoire.dat',
+    'geographie':'course-geographie.dat',
+    'emc':'course-emc.dat',
+    'actualite':'clean-actualite.dat',
+    'organisation':'clean-organisation.dat',
+    'mathematiques':'clean-mathematiques.dat',
+    'logique':'clean-logique.dat',
+    'culture-generale':'clean-culture-generale.dat'
+  };
+  async function loadCourseData(meta,name){
+    if(window.QCOURSE_TRANSCRIPTS?.[name])return;
+    const file=dataFiles[meta.slug]||`clean-${meta.slug}.dat`;
+    const r=await fetch(`${file}?v=23`,{cache:'no-store'});
+    if(!r.ok)throw Error('Impossible de charger le cours');
+    const s=(await r.text()).trim(),bin=atob(s),u=new Uint8Array(bin.length);
+    for(let i=0;i<bin.length;i++)u[i]=bin.charCodeAt(i);
+    const ds=new DecompressionStream('gzip');
+    const code=await new Response(new Blob([u]).stream().pipeThrough(ds)).text();
+    Function(code)();
   }
-  const bin=atob(chunks.join('')),u=new Uint8Array(bin.length);
-  for(let i=0;i<bin.length;i++)u[i]=bin.charCodeAt(i);
-  const ds=new DecompressionStream('gzip');
-  const p=JSON.parse(await new Response(new Blob([u]).stream().pipeThrough(ds)).text());
-  const cats=p.c,pref=['HIS','GEO','EMC','ACT','ORG','MAT','LOG','CG'],n=Array(8).fill(0);
-  const raw=p.k.map(([ci,page,text])=>({ci,page,text:String(text||'').replace(/\s+/g,' ').trim(),cat:cats[ci],id:`${pref[ci]}-${String(++n[ci]).padStart(4,'0')}`}));
-  const P=JSON.parse(localStorage.getItem('qcm-v10')||'{}');
-  const E=JSON.parse(localStorage.getItem('qcm-ex-v4')||'{}');
-  const state=id=>{const r=P[id];if(!r||!r.a)return'new';if(r.s>=2&&r.c>=2)return'mastered';if(r.w&&r.s===0)return'error';return'seen'};
-  const labelState=s=>({new:'Pas encore vue',seen:'Vue',error:'À revoir',mastered:'Maîtrisée'}[s]||s);
-  const chapterOf=x=>window.QCHAPTER?.chapter?window.QCHAPTER.chapter(x):'Cours';
+
+  async function loadProgress(){
+    if(progressCache)return progressCache;
+    try{
+      const chunks=[];
+      for(let i=1;i<=12;i++){
+        const r=await fetch(`bank-${String(i).padStart(2,'0')}.txt`,{cache:'no-store'});
+        if(!r.ok)throw Error('banque');
+        chunks.push((await r.text()).trim());
+      }
+      const bin=atob(chunks.join('')),u=new Uint8Array(bin.length);
+      for(let i=0;i<bin.length;i++)u[i]=bin.charCodeAt(i);
+      const ds=new DecompressionStream('gzip');
+      const p=JSON.parse(await new Response(new Blob([u]).stream().pipeThrough(ds)).text());
+      const cats=p.c,n=Array(cats.length).fill(0),rows=p.k.map(([ci])=>({cat:cats[ci],id:`${PREF[cats[ci]]||'X'}-${String(++n[ci]).padStart(4,'0')}`}));
+      const P=JSON.parse(localStorage.getItem('qcm-v10')||'{}'),E=JSON.parse(localStorage.getItem('qcm-ex-v4')||'{}'),out={};
+      cats.forEach(cat=>{
+        if(cat==='Mathématiques'){
+          const e=E['Mathématiques']||{a:0,c:0};
+          out[cat]={seen:e.a||0,total:e.a||0,mastered:e.c||0,errors:Math.max(0,(e.a||0)-(e.c||0)),rate:e.a?Math.round(100*e.c/e.a):0,exercise:true};
+          return;
+        }
+        const rr=rows.filter(x=>x.cat===cat);let seen=0,mastered=0,errors=0;
+        rr.forEach(x=>{const r=P[x.id];if(r?.a)seen++;if(r?.s>=2&&r?.c>=2)mastered++;if(r?.w&&r?.s===0)errors++});
+        out[cat]={seen,total:rr.length,mastered,errors,rate:rr.length?Math.round(100*seen/rr.length):0};
+      });
+      progressCache=out;return out;
+    }catch(e){progressCache={};return progressCache}
+  }
 
   function subjectList(){
-    A.innerHTML=`<div class="hero card"><h1 class="course-title">Choisis une matière</h1><p class="course-sub">Chaque cours est présenté par chapitres avec ta progression actuelle.</p></div><div class="course-list">${cats.map(c=>`<a href="cours.html?matiere=${encodeURIComponent(c)}"><div class="card"><b>${esc(c)}</b><p class="muted small">Ouvrir le cours →</p></div></a>`).join('')}</div>`;
+    const cards=Object.entries(INDEX).map(([name,m])=>`<a class="course-subject-card" href="cours.html?matiere=${encodeURIComponent(name)}&rev=23"><div class="card"><div class="course-subject-top"><div><b>${esc(m.title)}</b><span>${m.chapters} chapitre${m.chapters>1?'s':''}</span></div><span class="course-open">→</span></div><p>Lire le cours transcrit et structuré</p></div></a>`).join('');
+    A.innerHTML=`<div class="hero card transcript-hero"><span class="tag">Bibliothèque de cours</span><h1 class="course-title">Cours complets</h1><p class="course-sub">Les cours sont indépendants des QCM : lecture rapide, recherche par mot-clé et navigation par chapitre.</p></div><div class="course-library">${cards}<a class="course-subject-card info-special" href="informatique.html?rev=23"><div class="card"><div class="course-subject-top"><div><b>Informatique / Culture numérique</b><span>10 chapitres</span></div><span class="course-open">→</span></div><p>Ouvrir le cours de culture numérique</p></div></a></div>`;
   }
 
-  function mathView(){
-    const templates=Object.values(window.QMATH_BANK?.templates||{});
-    const groups={};templates.forEach(t=>(groups[t.chapter]||(groups[t.chapter]=[])).push(t));
-    const er=E['Mathématiques']||{a:0,c:0},acc=er.a?pct(er.c,er.a):0;
-    A.innerHTML=`<div class="hero card"><h1 class="course-title">Mathématiques</h1><p class="course-sub">Retrouve le cours de référence et les familles d’exercices utilisées dans le QCM.</p><a class="btn course-math-link" href="cours-maths.html">📖 Ouvrir le cours complet de maths</a></div><div class="course-summary"><div class="card"><div class="course-kpi">${acc}%</div><span class="muted small">réussite aux exercices</span></div><div class="card"><div class="course-kpi">${er.a||0}</div><span class="muted small">exercices tentés</span></div><div class="card"><div class="course-kpi">${templates.length}</div><span class="muted small">familles d’exercices</span></div></div>${Object.entries(groups).map(([ch,arr])=>`<div class="card course-chapter"><details><summary><h3>${esc(ch)}</h3><div class="chapter-meta">${arr.length} type(s) d’exercice</div></summary><div class="course-points">${arr.map(t=>`<div class="course-point seen"><span class="course-dot"></span><div><p>${esc(t.title)}</p><small>Exercice renouvelable</small></div></div>`).join('')}</div></details></div>`).join('')}`;
+  const allText=sec=>[sec.title,...(sec.body||[]),...(sec.key||[])].join(' ');
+  const matchSection=(sec,q)=>!q||norm(allText(sec)).includes(norm(q));
+  const matchChapter=(ch,q)=>!q||norm(ch.title).includes(norm(q))||(ch.sections||[]).some(sec=>matchSection(sec,q));
+  const hilite=(text,q)=>{const safe=esc(text);if(!q)return safe;const needle=esc(q).replace(/[.*+?^${}()|[\]\\]/g,'\\$&');try{return safe.replace(new RegExp(`(${needle})`,'ig'),'<mark>$1</mark>')}catch{return safe}};
+
+  function sectionHTML(sec,q){
+    if(q&&!matchSection(sec,q)&&!norm(sec.title).includes(norm(q)))return'';
+    const body=(sec.body||[]).map(t=>`<p>${hilite(t,q)}</p>`).join('');
+    const key=sec.key?.length?`<div class="remember-box"><b>À retenir</b><ul>${sec.key.map(k=>`<li>${hilite(k,q)}</li>`).join('')}</ul></div>`:'';
+    return `<section class="lesson-section"><div class="lesson-title-row"><h3>${hilite(sec.title,q)}</h3>${sec.source?`<span>${esc(sec.source)}</span>`:''}</div>${body}${key}</section>`;
   }
 
-  function normalView(cat){
-    const rows=raw.filter(x=>x.cat===cat);
-    if(!rows.length){A.innerHTML='<div class="card course-empty">Aucun contenu trouvé pour cette matière.</div>';return}
-    const groups={};rows.forEach(x=>{const ch=chapterOf(x)||'Cours';(groups[ch]||(groups[ch]=[])).push(x)});
-    let seen=0,mastered=0,errors=0;rows.forEach(x=>{const s=state(x.id);if(s!=='new')seen++;if(s==='mastered')mastered++;if(s==='error')errors++});
-    A.innerHTML=`<div class="hero card"><h1 class="course-title">${esc(cat)}</h1><p class="course-sub">Vue structurée des contenus utilisés par le QCM. Tu peux ouvrir chaque chapitre pour revoir les points du cours.</p></div><div class="course-summary"><div class="card"><div class="course-kpi">${pct(seen,rows.length)}%</div><span class="muted small">du cours rencontré</span></div><div class="card"><div class="course-kpi">${mastered}</div><span class="muted small">points maîtrisés</span></div><div class="card"><div class="course-kpi">${errors}</div><span class="muted small">points à revoir</span></div></div>${Object.entries(groups).map(([ch,arr])=>{let cs=0,cm=0,ce=0;arr.forEach(x=>{const s=state(x.id);if(s!=='new')cs++;if(s==='mastered')cm++;if(s==='error')ce++});return`<div class="card course-chapter"><details><summary><h3>${esc(ch)}</h3><div class="chapter-meta">${cs}/${arr.length} vus · ${cm} maîtrisés${ce?' · '+ce+' à revoir':''}</div><div class="bar"><i style="width:${pct(cs,arr.length)}%"></i></div></summary><div class="course-points">${arr.map(x=>{const s=state(x.id);return`<div class="course-point ${s}"><span class="course-dot"></span><div><p>${esc(x.text)}</p><small>Page ${x.page} · ${labelState(s)}</small></div></div>`}).join('')}</div></details></div>`}).join('')}`;
+  async function renderSubject(name){
+    const meta=INDEX[name];if(!meta){subjectList();return}
+    await loadCourseData(meta,name);
+    const C=window.QCOURSE_TRANSCRIPTS?.[name];if(!C)throw Error('Cours introuvable');
+    let focus=params.get('chapitre')||'',query='';
+    const progress=await loadProgress(),pr=progress[name]||null;
+
+    const render=()=>{
+      const chapters=C.chapters.filter(ch=>(!focus||ch.id===focus)&&matchChapter(ch,query));
+      const stat=pr?(pr.exercise?`<div class="course-summary compact"><div class="card"><div class="course-kpi">${pr.rate}%</div><span class="muted small">réussite aux exercices</span></div><div class="card"><div class="course-kpi">${pr.seen}</div><span class="muted small">exercices tentés</span></div><div class="card"><div class="course-kpi">${pr.errors}</div><span class="muted small">erreurs enregistrées</span></div></div>`:`<div class="course-summary compact"><div class="card"><div class="course-kpi">${pr.rate}%</div><span class="muted small">du QCM rencontré</span></div><div class="card"><div class="course-kpi">${pr.mastered}</div><span class="muted small">points maîtrisés</span></div><div class="card"><div class="course-kpi">${pr.errors}</div><span class="muted small">points à revoir</span></div></div>`):'';
+      A.innerHTML=`<div class="hero card transcript-hero"><div class="transcript-title-row"><div><span class="tag">Cours indépendant des QCM</span><h1 class="course-title">${esc(C.title)}</h1><p class="course-sub">Transcription propre et structurée du cours pour une consultation rapide.</p></div><a class="btn alt transcript-qcm-link" href="v2.html?rev=23">Retour aux QCM</a></div><label class="course-search"><span>⌕</span><input id="courseSearch" value="${esc(query)}" placeholder="Rechercher une notion, une date, un nom…"></label><div class="course-jump"><button class="chip ${!focus?'on':''}" data-ch="">Tout le cours</button>${C.chapters.map(ch=>`<button class="chip ${focus===ch.id?'on':''}" data-ch="${ch.id}">${esc(ch.title.replace(/^(?:[IVX]+\.|[A-M]\.|[A-F]\s*[-–]|[0-9]+\.)\s*/,''))}</button>`).join('')}</div></div>${stat}<div id="courseResults">${chapters.length?chapters.map(ch=>{const sections=(ch.sections||[]).map(sec=>sectionHTML(sec,query)).join('');return `<article class="card real-course-chapter" id="${esc(ch.id)}"><div class="course-chapter-head"><div><span class="course-kicker">Chapitre</span><h2>${hilite(ch.title,query)}</h2></div></div>${sections}</article>`}).join(''):`<div class="card course-empty"><h2>Aucun résultat</h2><p>Essaie un autre mot-clé.</p></div>`}</div><div class="card source-card"><h2>Source du cours</h2><p class="muted">${esc(C.source)}</p><small>Le contenu est remis en forme pour la lecture. Les QCM restent séparés du cours.</small></div>`;
+      document.querySelectorAll('[data-ch]').forEach(b=>b.onclick=()=>{focus=b.dataset.ch||'';query='';render();scrollTo({top:0,behavior:'smooth'})});
+      const input=document.getElementById('courseSearch');let timer;input.oninput=e=>{query=e.target.value.trim();clearTimeout(timer);timer=setTimeout(render,160)};
+    };
+    render();
   }
 
-  if(!wanted||!cats.includes(wanted))subjectList();
-  else if(wanted==='Mathématiques')mathView();
-  else normalView(wanted);
-})().catch(e=>{document.querySelector('#courseApp').innerHTML=`<div class="card"><h2>Impossible de charger le cours</h2><p>${String(e.message||e)}</p></div>`;console.error(e)});
+  try{if(!wanted||!INDEX[wanted])subjectList();else await renderSubject(wanted)}
+  catch(e){A.innerHTML=`<div class="card"><h2>Impossible de charger le cours</h2><p>${esc(e.message||e)}</p></div>`;console.error(e)}
+})();
