@@ -1,12 +1,12 @@
 (()=>{
-  const openCourse=c=>{location.href='cours.html?matiere='+encodeURIComponent(c)};
+  const openCourse=c=>{location.href='cours.html?matiere='+encodeURIComponent(c)+'&rev=23'};
   function addPill(card,c,compact=false){
     if(!card||!c||card.querySelector('.course-pill'))return;
     const b=document.createElement('button');
     b.type='button';
     b.className='course-pill'+(compact?' compact':'');
     b.innerHTML='📖 <span>Cours</span>';
-    b.title='Ouvrir le cours et voir ta progression';
+    b.title='Ouvrir le cours transcrit et voir ta progression';
     b.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();openCourse(c)});
     card.appendChild(b);
   }
