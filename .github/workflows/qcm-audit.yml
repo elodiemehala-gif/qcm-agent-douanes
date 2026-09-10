@@ -7,7 +7,7 @@ jobs:
   audit:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -15,6 +15,21 @@ jobs:
           node-version: '20'
       - name: Audit all knowledge facts
         run: node audit-qcm.mjs
+      - name: Build priority snapshot
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const report = JSON.parse(fs.readFileSync('audit-report.json','utf8'));
+          const rows = report.rows
+            .filter(r => !r.allPass)
+            .sort((a,b) => {
+              const sa = a.sourceRejected ? 0 : (a.anyQuestion ? 2 : 1);
+              const sb = b.sourceRejected ? 0 : (b.anyQuestion ? 2 : 1);
+              return sa - sb || (b.issues?.length || 0) - (a.issues?.length || 0);
+            })
+            .slice(0,250);
+          fs.writeFileSync('audit-priority.json', JSON.stringify({summary: report.summary, rows}, null, 2));
+          NODE
       - name: Upload audit report
         uses: actions/upload-artifact@v4
         with:
@@ -22,3 +37,13 @@ jobs:
           path: |
             audit-summary.json
             audit-report.json
+            audit-priority.json
+      - name: Persist audit snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-summary.json audit-priority.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update QCM audit snapshot [skip ci]"
+            git push
+          fi
