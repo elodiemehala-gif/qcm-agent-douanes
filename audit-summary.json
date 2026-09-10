@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T13:40:18.080Z",
+  "generatedAt": "2026-09-10T13:44:31.034Z",
   "rawFragments": 2349,
   "sourceFacts": 2203,
   "enrichedFacts": 2484,
@@ -17,12 +17,12 @@
   "byCat": {
     "Histoire": {
       "facts": 463,
-      "pass": 457,
+      "pass": 458,
       "noQuestion": 0,
-      "flagged": 1,
+      "flagged": 0,
       "sourceRejected": 0,
       "resolvedNonAtomic": 5,
-      "remaining": 1
+      "remaining": 0
     },
     "Géographie": {
       "facts": 393,
@@ -53,12 +53,12 @@
     },
     "Organisation et missions": {
       "facts": 95,
-      "pass": 84,
+      "pass": 86,
       "noQuestion": 0,
-      "flagged": 2,
+      "flagged": 0,
       "sourceRejected": 0,
       "resolvedNonAtomic": 9,
-      "remaining": 2
+      "remaining": 0
     },
     "Mathématiques": {
       "facts": 125,
@@ -88,15 +88,12 @@
       "remaining": 0
     }
   },
-  "issueCounts": {
-    "answer_not_literal_in_source": 1,
-    "mixed_semantic_types": 2
-  },
-  "fullyCompliant": 2093,
+  "issueCounts": {},
+  "fullyCompliant": 2096,
   "resolvedNonAtomic": 107,
-  "resolvedTotal": 2200,
-  "remaining": 3,
-  "flagged": 3,
+  "resolvedTotal": 2203,
+  "remaining": 0,
+  "flagged": 0,
   "noQuestion": 0,
   "withQuestion": 2096,
   "sourceRejected": 0
