@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-10T08:36:11.123Z",
+  "generatedAt": "2026-09-10T08:38:49.598Z",
   "rawFragments": 2349,
   "sourceFacts": 2203,
-  "enrichedFacts": 2292,
+  "enrichedFacts": 2299,
   "auditedSourceFacts": 2203,
   "categories": [
     "Histoire",
@@ -44,12 +44,12 @@
     },
     "Actualité": {
       "facts": 119,
-      "pass": 81,
-      "noQuestion": 29,
-      "flagged": 38,
+      "pass": 95,
+      "noQuestion": 2,
+      "flagged": 19,
       "sourceRejected": 0,
-      "resolvedNonAtomic": 0,
-      "remaining": 38
+      "resolvedNonAtomic": 5,
+      "remaining": 19
     },
     "Organisation et missions": {
       "facts": 95,
@@ -90,18 +90,18 @@
   },
   "issueCounts": {
     "answer_too_broad": 120,
-    "mixed_semantic_types": 218,
-    "correct_length_gives_clue": 24,
-    "no_question": 180,
-    "option_length_imbalance": 15,
+    "mixed_semantic_types": 224,
+    "correct_length_gives_clue": 25,
+    "no_question": 158,
+    "option_length_imbalance": 16,
     "answer_not_literal_in_source": 2
   },
-  "fullyCompliant": 1688,
-  "resolvedNonAtomic": 16,
-  "resolvedTotal": 1704,
-  "remaining": 499,
-  "flagged": 499,
-  "noQuestion": 145,
-  "withQuestion": 2042,
+  "fullyCompliant": 1702,
+  "resolvedNonAtomic": 21,
+  "resolvedTotal": 1723,
+  "remaining": 480,
+  "flagged": 480,
+  "noQuestion": 118,
+  "withQuestion": 2064,
   "sourceRejected": 0
 }

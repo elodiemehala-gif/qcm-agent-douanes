@@ -1,9 +1,9 @@
 {
   "summary": {
-    "generatedAt": "2026-09-10T08:36:11.123Z",
+    "generatedAt": "2026-09-10T08:38:49.598Z",
     "rawFragments": 2349,
     "sourceFacts": 2203,
-    "enrichedFacts": 2292,
+    "enrichedFacts": 2299,
     "auditedSourceFacts": 2203,
     "categories": [
       "Histoire",
@@ -45,12 +45,12 @@
       },
       "Actualité": {
         "facts": 119,
-        "pass": 81,
-        "noQuestion": 29,
-        "flagged": 38,
+        "pass": 95,
+        "noQuestion": 2,
+        "flagged": 19,
         "sourceRejected": 0,
-        "resolvedNonAtomic": 0,
-        "remaining": 38
+        "resolvedNonAtomic": 5,
+        "remaining": 19
       },
       "Organisation et missions": {
         "facts": 95,
@@ -91,1474 +91,22 @@
     },
     "issueCounts": {
       "answer_too_broad": 120,
-      "mixed_semantic_types": 218,
-      "correct_length_gives_clue": 24,
-      "no_question": 180,
-      "option_length_imbalance": 15,
+      "mixed_semantic_types": 224,
+      "correct_length_gives_clue": 25,
+      "no_question": 158,
+      "option_length_imbalance": 16,
       "answer_not_literal_in_source": 2
     },
-    "fullyCompliant": 1688,
-    "resolvedNonAtomic": 16,
-    "resolvedTotal": 1704,
-    "remaining": 499,
-    "flagged": 499,
-    "noQuestion": 145,
-    "withQuestion": 2042,
+    "fullyCompliant": 1702,
+    "resolvedNonAtomic": 21,
+    "resolvedTotal": 1723,
+    "remaining": 480,
+    "flagged": 480,
+    "noQuestion": 118,
+    "withQuestion": 2064,
     "sourceRejected": 0
   },
   "rows": [
-    {
-      "id": "ACT-0006",
-      "cat": "Actualité",
-      "page": 2,
-      "chapter": "1. Politique française",
-      "topic": "1. Politique française",
-      "source": "Actualité - QCM Agent DGFiP / Contrôleur des douanes - version arrêtée au 31 août 2026",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0006",
-          "chapter": "1. Politique française",
-          "topic": "1. Politique française",
-          "source": "Actualité - QCM Agent DGFiP / Contrôleur des douanes - version arrêtée au 31 août 2026",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0005",
-        "source": "Intérieur — À retenir au 31 août 2026: Laurent Nunez.",
-        "cat": "Actualité",
-        "page": 2
-      },
-      "nextSource": {
-        "id": "ACT-0007",
-        "source": "Justice — À retenir au 31 août 2026: Gérald Darmanin, garde des Sceaux.",
-        "cat": "Actualité",
-        "page": 3
-      }
-    },
-    {
-      "id": "ACT-0012",
-      "cat": "Actualité",
-      "page": 3,
-      "chapter": "2. Économie et finances",
-      "topic": "2. Économie et finances",
-      "source": "À compter du 1er septembre 2026, l’âge légal à 64 ans concerne la génération 1969, et non plus la génération 1968.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0012",
-          "chapter": "2. Économie et finances",
-          "topic": "2. Économie et finances",
-          "source": "À compter du 1er septembre 2026, l’âge légal à 64 ans concerne la génération 1969, et non plus la génération 1968.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0011",
-        "source": "Réforme des retraites: la loi de financement de la Sécurité sociale pour 2026 suspend jusqu’en 2028 une partie de la montée en charge de la réforme de 2023.",
-        "cat": "Actualité",
-        "page": 3
-      },
-      "nextSource": {
-        "id": "ACT-0013",
-        "source": "Facturation électronique: au 1er septembre 2026, toutes les entreprises assujetties concernées doivent pouvoir recevoir des factures électroniques",
-        "cat": "Actualité",
-        "page": 3
-      }
-    },
-    {
-      "id": "ACT-0015",
-      "cat": "Actualité",
-      "page": 3,
-      "chapter": "2. Économie et finances",
-      "topic": "2. Économie et finances",
-      "source": "L’obligation d’émission pour les PME et micro-entreprises intervient au 1er septembre 2027.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0015",
-          "chapter": "2. Économie et finances",
-          "topic": "2. Économie et finances",
-          "source": "L’obligation d’émission pour les PME et micro-entreprises intervient au 1er septembre 2027.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0014",
-        "source": "Facturation électronique: les grandes entreprises et ETI doivent aussi les émettre.",
-        "cat": "Actualité",
-        "page": 3
-      },
-      "nextSource": {
-        "id": "ACT-0016",
-        "source": "Les réformes liées au pouvoir d’achat, à l’emploi, aux finances publiques, à l’école et à la santé sont des thèmes classiques de QCM: retenir l’objectif de la mesure, sa date d’entrée en vigueur et le public concerné.",
-        "cat": "Actualité",
-        "page": 3
-      }
-    },
-    {
-      "id": "ACT-0016",
-      "cat": "Actualité",
-      "page": 3,
-      "chapter": "2. Économie et finances",
-      "topic": "2. Économie et finances",
-      "source": "Les réformes liées au pouvoir d’achat, à l’emploi, aux finances publiques, à l’école et à la santé sont des thèmes classiques de QCM: retenir l’objectif de la mesure, sa date d’entrée en vigueur et le public concerné.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0016",
-          "chapter": "2. Économie et finances",
-          "topic": "2. Économie et finances",
-          "source": "Les réformes liées au pouvoir d’achat, à l’emploi, aux finances publiques, à l’école et à la santé sont des thèmes classiques de QCM: retenir l’objectif de la mesure, sa date d’entrée en vigueur et le public concerné.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0015",
-        "source": "L’obligation d’émission pour les PME et micro-entreprises intervient au 1er septembre 2027.",
-        "cat": "Actualité",
-        "page": 3
-      },
-      "nextSource": {
-        "id": "ACT-0017",
-        "source": "Élections européennes de 2024 en France: scrutin de liste à la représentation proportionnelle à un tour.",
-        "cat": "Actualité",
-        "page": 3
-      }
-    },
-    {
-      "id": "ACT-0037",
-      "cat": "Actualité",
-      "page": 4,
-      "chapter": "2. Économie et finances",
-      "topic": "2. Économie et finances",
-      "source": "Inflation = évolution des prix.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0037",
-          "chapter": "2. Économie et finances",
-          "topic": "2. Économie et finances",
-          "source": "Inflation = évolution des prix.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0036",
-        "source": "Dépenses publiques 2025 — Interprétation QCM: Ordre de grandeur à connaître, pas le chiffre au dixième à vie.",
-        "cat": "Actualité",
-        "page": 4
-      },
-      "nextSource": {
-        "id": "ACT-0038",
-        "source": "Croissance = évolution du PIB.",
-        "cat": "Actualité",
-        "page": 4
-      }
-    },
-    {
-      "id": "ACT-0038",
-      "cat": "Actualité",
-      "page": 4,
-      "chapter": "2. Économie et finances",
-      "topic": "2. Économie et finances",
-      "source": "Croissance = évolution du PIB.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0038",
-          "chapter": "2. Économie et finances",
-          "topic": "2. Économie et finances",
-          "source": "Croissance = évolution du PIB.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0037",
-        "source": "Inflation = évolution des prix.",
-        "cat": "Actualité",
-        "page": 4
-      },
-      "nextSource": {
-        "id": "ACT-0039",
-        "source": "En avril 2025, les États-Unis ont instauré un droit additionnel de base de 10 % sur de nombreuses importations, complété par des taux spécifiques selon les pays et ensuite modifié par des négociations et décisions successives.",
-        "cat": "Actualité",
-        "page": 4
-      }
-    },
-    {
-      "id": "ACT-0039",
-      "cat": "Actualité",
-      "page": 4,
-      "chapter": "2. Économie et finances",
-      "topic": "2. Économie et finances",
-      "source": "En avril 2025, les États-Unis ont instauré un droit additionnel de base de 10 % sur de nombreuses importations, complété par des taux spécifiques selon les pays et ensuite modifié par des négociations et décisions successives.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0039",
-          "chapter": "2. Économie et finances",
-          "topic": "2. Économie et finances",
-          "source": "En avril 2025, les États-Unis ont instauré un droit additionnel de base de 10 % sur de nombreuses importations, complété par des taux spécifiques selon les pays et ensuite modifié par des négociations et décisions successives.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0038",
-        "source": "Croissance = évolution du PIB.",
-        "cat": "Actualité",
-        "page": 4
-      },
-      "nextSource": {
-        "id": "ACT-0040",
-        "source": "Un droit de douane est une taxe prélevée sur certaines marchandises à l’importation.",
-        "cat": "Actualité",
-        "page": 4
-      }
-    },
-    {
-      "id": "ACT-0041",
-      "cat": "Actualité",
-      "page": 4,
-      "chapter": "2. Économie et finances",
-      "topic": "2. Économie et finances",
-      "source": "Il peut protéger un secteur national mais aussi renchérir le prix des produits importés et provoquer des mesures de rétorsion.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0041",
-          "chapter": "2. Économie et finances",
-          "topic": "2. Économie et finances",
-          "source": "Il peut protéger un secteur national mais aussi renchérir le prix des produits importés et provoquer des mesures de rétorsion.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0040",
-        "source": "Un droit de douane est une taxe prélevée sur certaines marchandises à l’importation.",
-        "cat": "Actualité",
-        "page": 4
-      },
-      "nextSource": {
-        "id": "ACT-0042",
-        "source": "La France a accueilli le sommet du G7 à Évian-les-Bains du 15 au 17 juin 2026.",
-        "cat": "Actualité",
-        "page": 4
-      }
-    },
-    {
-      "id": "ACT-0042",
-      "cat": "Actualité",
-      "page": 4,
-      "chapter": "2. Économie et finances",
-      "topic": "2. Économie et finances",
-      "source": "La France a accueilli le sommet du G7 à Évian-les-Bains du 15 au 17 juin 2026.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0042",
-          "chapter": "2. Économie et finances",
-          "topic": "2. Économie et finances",
-          "source": "La France a accueilli le sommet du G7 à Évian-les-Bains du 15 au 17 juin 2026.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0041",
-        "source": "Il peut protéger un secteur national mais aussi renchérir le prix des produits importés et provoquer des mesures de rétorsion.",
-        "cat": "Actualité",
-        "page": 4
-      },
-      "nextSource": {
-        "id": "ACT-0043",
-        "source": "Principaux thèmes: Ukraine et sécurité européenne, crises au Moyen-Orient, croissance durable et partagée, sécurité économique, partenariats internationaux et intelligence artificielle.",
-        "cat": "Actualité",
-        "page": 4
-      }
-    },
-    {
-      "id": "ACT-0044",
-      "cat": "Actualité",
-      "page": 5,
-      "chapter": "3. Actualité internationale",
-      "topic": "3. Actualité internationale",
-      "source": "Le G7 réunit Allemagne, Canada, États-Unis, France, Italie, Japon et Royaume-Uni, avec l’Union européenne représentée aux travaux.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0044",
-          "chapter": "3. Actualité internationale",
-          "topic": "3. Actualité internationale",
-          "source": "Le G7 réunit Allemagne, Canada, États-Unis, France, Italie, Japon et Royaume-Uni, avec l’Union européenne représentée aux travaux.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0043",
-        "source": "Principaux thèmes: Ukraine et sécurité européenne, crises au Moyen-Orient, croissance durable et partagée, sécurité économique, partenariats internationaux et intelligence artificielle.",
-        "cat": "Actualité",
-        "page": 4
-      },
-      "nextSource": {
-        "id": "ACT-0045",
-        "source": "La guerre déclenchée par l’invasion russe à grande échelle de février 2022 se poursuit en 2026.",
-        "cat": "Actualité",
-        "page": 5
-      }
-    },
-    {
-      "id": "ACT-0046",
-      "cat": "Actualité",
-      "page": 5,
-      "chapter": "3. Actualité internationale",
-      "topic": "3. Actualité internationale",
-      "source": "L’Ukraine n’est pas membre de l’OTAN.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0046",
-          "chapter": "3. Actualité internationale",
-          "topic": "3. Actualité internationale",
-          "source": "L’Ukraine n’est pas membre de l’OTAN.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0045",
-        "source": "La guerre déclenchée par l’invasion russe à grande échelle de février 2022 se poursuit en 2026.",
-        "cat": "Actualité",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "ACT-0047",
-        "source": "Les discussions diplomatiques et les rapports de force militaires évoluent rapidement: retenir les acteurs, le statut de l’Ukraine et le rôle des organisations plutôt que des détails tactiques qui vieillissent en quelques jours.",
-        "cat": "Actualité",
-        "page": 5
-      }
-    },
-    {
-      "id": "ACT-0053",
-      "cat": "Actualité",
-      "page": 5,
-      "chapter": "3. Actualité internationale",
-      "topic": "3. Actualité internationale",
-      "source": "Le sommet de l’OTAN à Ankara s’est tenu en juillet 2026.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0053",
-          "chapter": "3. Actualité internationale",
-          "topic": "3. Actualité internationale",
-          "source": "Le sommet de l’OTAN à Ankara s’est tenu en juillet 2026.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0052",
-        "source": "Mark Rutte est secrétaire général de l’OTAN depuis le 1er octobre 2024.",
-        "cat": "Actualité",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "ACT-0054",
-        "source": "Les Alliés ont réaffirmé l’article 5 et la poursuite du soutien à l’Ukraine.",
-        "cat": "Actualité",
-        "page": 5
-      }
-    },
-    {
-      "id": "ACT-0054",
-      "cat": "Actualité",
-      "page": 5,
-      "chapter": "3. Actualité internationale",
-      "topic": "3. Actualité internationale",
-      "source": "Les Alliés ont réaffirmé l’article 5 et la poursuite du soutien à l’Ukraine.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0054",
-          "chapter": "3. Actualité internationale",
-          "topic": "3. Actualité internationale",
-          "source": "Les Alliés ont réaffirmé l’article 5 et la poursuite du soutien à l’Ukraine.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0053",
-        "source": "Le sommet de l’OTAN à Ankara s’est tenu en juillet 2026.",
-        "cat": "Actualité",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "ACT-0055",
-        "source": "Objectif adopté au sommet de La Haye en 2025: parvenir d’ici 2035 à 5 % du PIB pour les dépenses de défense et de sécurité au sens large, dont au moins 3,5 % pour les besoins de défense proprement dits.",
-        "cat": "Actualité",
-        "page": 5
-      }
-    },
-    {
-      "id": "ACT-0056",
-      "cat": "Actualité",
-      "page": 5,
-      "chapter": "3. Actualité internationale",
-      "topic": "3. Actualité internationale",
-      "source": "L’Irlande exerce la présidence tournante du Conseil de l’Union européenne du 1er juillet au 31 décembre 2026.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0056",
-          "chapter": "3. Actualité internationale",
-          "topic": "3. Actualité internationale",
-          "source": "L’Irlande exerce la présidence tournante du Conseil de l’Union européenne du 1er juillet au 31 décembre 2026.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0055",
-        "source": "Objectif adopté au sommet de La Haye en 2025: parvenir d’ici 2035 à 5 % du PIB pour les dépenses de défense et de sécurité au sens large, dont au moins 3,5 % pour les besoins de défense proprement dits.",
-        "cat": "Actualité",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "ACT-0057",
-        "source": "Elle succède à Chypre et sera suivie par la Lituanie au premier semestre 2027.",
-        "cat": "Actualité",
-        "page": 5
-      }
-    },
-    {
-      "id": "ACT-0057",
-      "cat": "Actualité",
-      "page": 5,
-      "chapter": "3. Actualité internationale",
-      "topic": "3. Actualité internationale",
-      "source": "Elle succède à Chypre et sera suivie par la Lituanie au premier semestre 2027.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0057",
-          "chapter": "3. Actualité internationale",
-          "topic": "3. Actualité internationale",
-          "source": "Elle succède à Chypre et sera suivie par la Lituanie au premier semestre 2027.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0056",
-        "source": "L’Irlande exerce la présidence tournante du Conseil de l’Union européenne du 1er juillet au 31 décembre 2026.",
-        "cat": "Actualité",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "ACT-0058",
-        "source": "Ne pas confondre la présidence tournante du Conseil de l’UE avec le président du Conseil européen, fonction permanente occupée par António Costa depuis le 1er décembre 2024.",
-        "cat": "Actualité",
-        "page": 5
-      }
-    },
-    {
-      "id": "ACT-0061",
-      "cat": "Actualité",
-      "page": 6,
-      "chapter": "3. Actualité internationale",
-      "topic": "3. Actualité internationale",
-      "source": "L’Organisation météorologique mondiale a confirmé que 2025 a été l’une des trois années les plus chaudes jamais enregistrées.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0061",
-          "chapter": "3. Actualité internationale",
-          "topic": "3. Actualité internationale",
-          "source": "L’Organisation météorologique mondiale a confirmé que 2025 a été l’une des trois années les plus chaudes jamais enregistrées.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0060",
-        "source": "Naissances en 2025 — Valeur à retenir: 645 000.",
-        "cat": "Actualité",
-        "page": 6
-      },
-      "nextSource": {
-        "id": "ACT-0062",
-        "source": "Les onze années 2015-2025 sont les onze années les plus chaudes des séries mondiales utilisées par l’OMM.",
-        "cat": "Actualité",
-        "page": 6
-      }
-    },
-    {
-      "id": "ACT-0063",
-      "cat": "Actualité",
-      "page": 6,
-      "chapter": "3. Actualité internationale",
-      "topic": "3. Actualité internationale",
-      "source": "La neutralité climatique de l’Union européenne est visée à l’horizon 2050.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0063",
-          "chapter": "3. Actualité internationale",
-          "topic": "3. Actualité internationale",
-          "source": "La neutralité climatique de l’Union européenne est visée à l’horizon 2050.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0062",
-        "source": "Les onze années 2015-2025 sont les onze années les plus chaudes des séries mondiales utilisées par l’OMM.",
-        "cat": "Actualité",
-        "page": 6
-      },
-      "nextSource": {
-        "id": "ACT-0064",
-        "source": "Accord BBNJ sur la biodiversité marine en haute mer: adopté le 19 juin 2023 et entré en vigueur le 17 janvier 2026.",
-        "cat": "Actualité",
-        "page": 6
-      }
-    },
-    {
-      "id": "ACT-0066",
-      "cat": "Actualité",
-      "page": 6,
-      "chapter": "3. Actualité internationale",
-      "topic": "3. Actualité internationale",
-      "source": "Un épisode de canicule très étendu a touché la France hexagonale du 4 au 22 juillet 2026; tous les habitants de l’Hexagone ont été concernés par au moins un jour de vigilance orange.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0066",
-          "chapter": "3. Actualité internationale",
-          "topic": "3. Actualité internationale",
-          "source": "Un épisode de canicule très étendu a touché la France hexagonale du 4 au 22 juillet 2026; tous les habitants de l’Hexagone ont été concernés par au moins un jour de vigilance orange.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0065",
-        "source": "Objectif: conservation et utilisation durable de la biodiversité marine au-delà des juridictions nationales.",
-        "cat": "Actualité",
-        "page": 6
-      },
-      "nextSource": {
-        "id": "ACT-0067",
-        "source": "Du 10 au 15 juillet, 37 départements ont été placés en vigilance rouge canicule.",
-        "cat": "Actualité",
-        "page": 6
-      }
-    },
-    {
-      "id": "ACT-0067",
-      "cat": "Actualité",
-      "page": 6,
-      "chapter": "3. Actualité internationale",
-      "topic": "3. Actualité internationale",
-      "source": "Du 10 au 15 juillet, 37 départements ont été placés en vigilance rouge canicule.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0067",
-          "chapter": "3. Actualité internationale",
-          "topic": "3. Actualité internationale",
-          "source": "Du 10 au 15 juillet, 37 départements ont été placés en vigilance rouge canicule.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0066",
-        "source": "Un épisode de canicule très étendu a touché la France hexagonale du 4 au 22 juillet 2026; tous les habitants de l’Hexagone ont été concernés par au moins un jour de vigilance orange.",
-        "cat": "Actualité",
-        "page": 6
-      },
-      "nextSource": {
-        "id": "ACT-0068",
-        "source": "Un nouvel épisode a débuté fin juillet; entre le 29 juillet et le 10 août, 28 % de la population hexagonale a connu au moins un jour de vigilance orange.",
-        "cat": "Actualité",
-        "page": 6
-      }
-    },
-    {
-      "id": "ACT-0068",
-      "cat": "Actualité",
-      "page": 6,
-      "chapter": "3. Actualité internationale",
-      "topic": "3. Actualité internationale",
-      "source": "Un nouvel épisode a débuté fin juillet; entre le 29 juillet et le 10 août, 28 % de la population hexagonale a connu au moins un jour de vigilance orange.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0068",
-          "chapter": "3. Actualité internationale",
-          "topic": "3. Actualité internationale",
-          "source": "Un nouvel épisode a débuté fin juillet; entre le 29 juillet et le 10 août, 28 % de la population hexagonale a connu au moins un jour de vigilance orange.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0067",
-        "source": "Du 10 au 15 juillet, 37 départements ont été placés en vigilance rouge canicule.",
-        "cat": "Actualité",
-        "page": 6
-      },
-      "nextSource": {
-        "id": "ACT-0069",
-        "source": "Décès en 2025 — Valeur à retenir: 651 000.",
-        "cat": "Actualité",
-        "page": 7
-      }
-    },
-    {
-      "id": "ACT-0076",
-      "cat": "Actualité",
-      "page": 7,
-      "chapter": "4. Écologie et énergie",
-      "topic": "4. Écologie et énergie",
-      "source": "détecté depuis le 2 janvier au point de situation du 11 août 2026.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0076",
-          "chapter": "4. Écologie et énergie",
-          "topic": "4. Écologie et énergie",
-          "source": "détecté depuis le 2 janvier au point de situation du 11 août 2026.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0075",
-        "source": "Première détection en France: 29 juin 2025 en Savoie.",
-        "cat": "Actualité",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "ACT-0077",
-        "source": "La stratégie repose sur détection, restrictions de mouvements, dépeuplement des foyers et vaccination; une campagne vaccinale 2026 a été lancée.",
-        "cat": "Actualité",
-        "page": 7
-      }
-    },
-    {
-      "id": "ACT-0077",
-      "cat": "Actualité",
-      "page": 7,
-      "chapter": "4. Écologie et énergie",
-      "topic": "4. Écologie et énergie",
-      "source": "La stratégie repose sur détection, restrictions de mouvements, dépeuplement des foyers et vaccination; une campagne vaccinale 2026 a été lancée.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0077",
-          "chapter": "4. Écologie et énergie",
-          "topic": "4. Écologie et énergie",
-          "source": "La stratégie repose sur détection, restrictions de mouvements, dépeuplement des foyers et vaccination; une campagne vaccinale 2026 a été lancée.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0076",
-        "source": "détecté depuis le 2 janvier au point de situation du 11 août 2026.",
-        "cat": "Actualité",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "ACT-0078",
-        "source": "À partir du 1er septembre 2026, la suspension partielle de la réforme des retraites modifie le calendrier de relèvement de l’âge légal et de la durée d’assurance.",
-        "cat": "Actualité",
-        "page": 7
-      }
-    },
     {
       "id": "ACT-0078",
       "cat": "Actualité",
@@ -1578,7 +126,7 @@
           "id": "ACT-0078",
           "chapter": "4. Écologie et énergie",
           "topic": "4. Écologie et énergie",
-          "source": "À partir du 1er septembre 2026, la suspension partielle de la réforme des retraites modifie le calendrier de relèvement de l’âge légal et de la durée d’assurance.",
+          "source": "Suspension partielle de la réforme des retraites à partir du 1er septembre 2026 — rôle: modifie le calendrier de relèvement de l’âge légal et de la durée d’assurance",
           "allPass": false,
           "anyQuestion": false,
           "issues": [
@@ -1626,270 +174,6 @@
       }
     },
     {
-      "id": "ACT-0079",
-      "cat": "Actualité",
-      "page": 7,
-      "chapter": "4. Écologie et énergie",
-      "topic": "4. Écologie et énergie",
-      "source": "La génération 1968 a désormais un âge légal de 63 ans et 9 mois; l’âge de 64 ans s’applique à partir de la génération 1969.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0079",
-          "chapter": "4. Écologie et énergie",
-          "topic": "4. Écologie et énergie",
-          "source": "La génération 1968 a désormais un âge légal de 63 ans et 9 mois; l’âge de 64 ans s’applique à partir de la génération 1969.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0078",
-        "source": "À partir du 1er septembre 2026, la suspension partielle de la réforme des retraites modifie le calendrier de relèvement de l’âge légal et de la durée d’assurance.",
-        "cat": "Actualité",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "ACT-0080",
-        "source": "Les sujets de société à surveiller pour les QCM: vieillissement démographique, natalité, pouvoir d’achat, emploi, immigration, école, santé et protection sociale.",
-        "cat": "Actualité",
-        "page": 7
-      }
-    },
-    {
-      "id": "ACT-0081",
-      "cat": "Actualité",
-      "page": 7,
-      "chapter": "4. Écologie et énergie",
-      "topic": "4. Écologie et énergie",
-      "source": "Positionnement — Cette partie porte sur l’actualité technologique générale, pas sur les connaissances techniques d’environnement informatique qui sont travaillées séparément.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0081",
-          "chapter": "4. Écologie et énergie",
-          "topic": "4. Écologie et énergie",
-          "source": "Positionnement — Cette partie porte sur l’actualité technologique générale, pas sur les connaissances techniques d’environnement informatique qui sont travaillées séparément.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0080",
-        "source": "Les sujets de société à surveiller pour les QCM: vieillissement démographique, natalité, pouvoir d’achat, emploi, immigration, école, santé et protection sociale.",
-        "cat": "Actualité",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "ACT-0082",
-        "source": "Le règlement européen sur l’intelligence artificielle (AI Act) adopte une approche fondée sur les niveaux de risque.",
-        "cat": "Actualité",
-        "page": 7
-      }
-    },
-    {
-      "id": "ACT-0082",
-      "cat": "Actualité",
-      "page": 7,
-      "chapter": "4. Écologie et énergie",
-      "topic": "4. Écologie et énergie",
-      "source": "Le règlement européen sur l’intelligence artificielle (AI Act) adopte une approche fondée sur les niveaux de risque.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0082",
-          "chapter": "4. Écologie et énergie",
-          "topic": "4. Écologie et énergie",
-          "source": "Le règlement européen sur l’intelligence artificielle (AI Act) adopte une approche fondée sur les niveaux de risque.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0081",
-        "source": "Positionnement — Cette partie porte sur l’actualité technologique générale, pas sur les connaissances techniques d’environnement informatique qui sont travaillées séparément.",
-        "cat": "Actualité",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "ACT-0083",
-        "source": "Depuis le 2 août 2026, la Commission européenne commence à faire appliquer de nouvelles dispositions, notamment des exigences de transparence pour certains systèmes d’IA.",
-        "cat": "Actualité",
-        "page": 7
-      }
-    },
-    {
-      "id": "ACT-0083",
-      "cat": "Actualité",
-      "page": 7,
-      "chapter": "4. Écologie et énergie",
-      "topic": "4. Écologie et énergie",
-      "source": "Depuis le 2 août 2026, la Commission européenne commence à faire appliquer de nouvelles dispositions, notamment des exigences de transparence pour certains systèmes d’IA.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0083",
-          "chapter": "4. Écologie et énergie",
-          "topic": "4. Écologie et énergie",
-          "source": "Depuis le 2 août 2026, la Commission européenne commence à faire appliquer de nouvelles dispositions, notamment des exigences de transparence pour certains systèmes d’IA.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0082",
-        "source": "Le règlement européen sur l’intelligence artificielle (AI Act) adopte une approche fondée sur les niveaux de risque.",
-        "cat": "Actualité",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "ACT-0086",
-        "source": "Banque mondiale — Siège / repère: Washington",
-        "cat": "Actualité",
-        "page": 8
-      }
-    },
-    {
       "id": "ACT-0094",
       "cat": "Actualité",
       "page": 8,
@@ -1908,7 +192,7 @@
           "id": "ACT-0094",
           "chapter": "5. Santé et société",
           "topic": "5. Santé et société",
-          "source": "Les règles principales relatives à de nombreux systèmes à haut risque de l’annexe III doivent s’appliquer plus tard, à partir du 2 décembre 2027.",
+          "source": "Règles principales de nombreux systèmes à haut risque de l’annexe III — repère: application à partir du 2 décembre 2027",
           "allPass": false,
           "anyQuestion": false,
           "issues": [
@@ -1951,72 +235,6 @@
       "nextSource": {
         "id": "ACT-0095",
         "source": "À partir du 11 septembre 2026, les fabricants doivent notamment signaler certaines vulnérabilités activement exploitées et certains incidents graves.",
-        "cat": "Actualité",
-        "page": 8
-      }
-    },
-    {
-      "id": "ACT-0095",
-      "cat": "Actualité",
-      "page": 8,
-      "chapter": "5. Santé et société",
-      "topic": "5. Santé et société",
-      "source": "À partir du 11 septembre 2026, les fabricants doivent notamment signaler certaines vulnérabilités activement exploitées et certains incidents graves.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0095",
-          "chapter": "5. Santé et société",
-          "topic": "5. Santé et société",
-          "source": "À partir du 11 septembre 2026, les fabricants doivent notamment signaler certaines vulnérabilités activement exploitées et certains incidents graves.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0094",
-        "source": "Les règles principales relatives à de nombreux systèmes à haut risque de l’annexe III doivent s’appliquer plus tard, à partir du 2 décembre 2027.",
-        "cat": "Actualité",
-        "page": 8
-      },
-      "nextSource": {
-        "id": "ACT-0096",
-        "source": "Ne pas confondre: RGPD = protection des données personnelles",
         "cat": "Actualité",
         "page": 8
       }
@@ -9942,6 +8160,175 @@
       }
     },
     {
+      "id": "ACT-0057",
+      "cat": "Actualité",
+      "page": 5,
+      "chapter": "3. Actualité internationale",
+      "topic": "3. Actualité internationale",
+      "source": "Elle succède à Chypre et sera suivie par la Lituanie au premier semestre 2027.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "no_question",
+        "option_length_imbalance"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "ACT-0057-v28b-1",
+          "chapter": "3. Actualité internationale",
+          "topic": "3. Actualité internationale",
+          "source": "Irlande — association: succède à Chypre à la présidence tournante du Conseil de l’UE",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Irlande — association?",
+                "o": [
+                  "conservation et utilisation durable de la biodiversité marine au-delà des juridictions nationales",
+                  "succède à Chypre à la présidence tournante du Conseil de l’UE",
+                  "présidence tournante du Conseil de l’UE au premier semestre 2027",
+                  "passage stratégique pour les hydrocarbures mondiaux"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Irlande — association?",
+                "o": [
+                  "adopté le 19 juin 2023 et entré en vigueur le 17 janvier 2026",
+                  "présidence tournante du Conseil de l’UE au premier semestre 2027",
+                  "du 29 juillet au 10 août",
+                  "succède à Chypre à la présidence tournante du Conseil de l’UE"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Irlande — association?",
+                "o": [
+                  "l’une des trois années les plus chaudes jamais enregistrées selon l’OMM",
+                  "succède à Chypre à la présidence tournante du Conseil de l’UE",
+                  "tous les habitants ont connu au moins un jour de vigilance orange",
+                  "conservation et utilisation durable de la biodiversité marine au-delà des juridictions nationales"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ACT-0057-v28b-2",
+          "chapter": "3. Actualité internationale",
+          "topic": "3. Actualité internationale",
+          "source": "Lituanie — association: présidence tournante du Conseil de l’UE au premier semestre 2027",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "option_length_imbalance"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Lituanie — association?",
+                "o": [
+                  "conservation et utilisation durable de la biodiversité marine au-delà des juridictions nationales",
+                  "présidence tournante du Conseil de l’UE au premier semestre 2027",
+                  "un cessez-le-feu soutenu par les États-Unis est en place depuis octobre 2025, mais des frappes et incidents armés continuent en 2026; sa mise en œuvre reste fragile",
+                  "Allemagne, Canada, États-Unis, France, Italie, Japon et Royaume-Uni"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "option_length_imbalance"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Lituanie — association?",
+                "o": [
+                  "présidence tournante du Conseil de l’UE au premier semestre 2027",
+                  "passage stratégique pour les hydrocarbures mondiaux",
+                  "tous les habitants ont connu au moins un jour de vigilance orange",
+                  "le conflit s’est fortement aggravé en 2026"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Lituanie — association?",
+                "o": [
+                  "passage stratégique pour les hydrocarbures mondiaux",
+                  "Allemagne, Canada, États-Unis, France, Italie, Japon et Royaume-Uni",
+                  "présidence tournante du Conseil de l’UE au premier semestre 2027",
+                  "succède à Chypre à la présidence tournante du Conseil de l’UE"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Lituanie — association?",
+                "o": [
+                  "le conflit s’est fortement aggravé en 2026",
+                  "du 29 juillet au 10 août",
+                  "conservation et utilisation durable de la biodiversité marine au-delà des juridictions nationales",
+                  "présidence tournante du Conseil de l’UE au premier semestre 2027"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "ACT-0056",
+        "source": "L’Irlande exerce la présidence tournante du Conseil de l’Union européenne du 1er juillet au 31 décembre 2026.",
+        "cat": "Actualité",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "ACT-0058",
+        "source": "Ne pas confondre la présidence tournante du Conseil de l’UE avec le président du Conseil européen, fonction permanente occupée par António Costa depuis le 1er décembre 2024.",
+        "cat": "Actualité",
+        "page": 5
+      }
+    },
+    {
       "id": "ORG-0055",
       "cat": "Organisation et missions",
       "page": 6,
@@ -12421,6 +10808,406 @@
         "source": "Rôle de la CNIL: autorité de contrôle en France, elle veille au respect de la loi Informatique et libertés (1978 modifiée) et du RGPD.",
         "cat": "Enseignement moral et civique",
         "page": 14
+      }
+    },
+    {
+      "id": "ACT-0042",
+      "cat": "Actualité",
+      "page": 4,
+      "chapter": "2. Économie et finances",
+      "topic": "2. Économie et finances",
+      "source": "La France a accueilli le sommet du G7 à Évian-les-Bains du 15 au 17 juin 2026.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "ACT-0042-v28b-1",
+          "chapter": "2. Économie et finances",
+          "topic": "2. Économie et finances",
+          "source": "Sommet du G7 de juin 2026 — localisation: Évian-les-Bains",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Où se situe « Sommet du G7 de juin 2026 »?",
+                "o": [
+                  "Washington",
+                  "Strasbourg / Bruxelles",
+                  "Évian-les-Bains",
+                  "Strasbourg"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « Sommet du G7 de juin 2026 »?",
+                "o": [
+                  "Washington",
+                  "Strasbourg / Bruxelles",
+                  "Strasbourg",
+                  "Évian-les-Bains"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « Sommet du G7 de juin 2026 »?",
+                "o": [
+                  "Washington",
+                  "Bruxelles",
+                  "Strasbourg",
+                  "Évian-les-Bains"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « Sommet du G7 de juin 2026 »?",
+                "o": [
+                  "Strasbourg / Bruxelles",
+                  "Évian-les-Bains",
+                  "Strasbourg",
+                  "Washington"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "ACT-0042-v28b-2",
+          "chapter": "2. Économie et finances",
+          "topic": "2. Économie et finances",
+          "source": "Sommet du G7 à Évian-les-Bains — repère: du 15 au 17 juin 2026",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Sommet du G7 à Évian-les-Bains — repère?",
+                "o": [
+                  "du 15 au 17 juin 2026",
+                  "députés élus au scrutin uninominal majoritaire à deux tours dans des circonscriptions",
+                  "+2,4 % sur un an en août 2026 (provisoire)",
+                  "émettre des factures électroniques à compter du 1er septembre 2027"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Sommet du G7 à Évian-les-Bains — repère?",
+                "o": [
+                  "Ukraine et sécurité européenne, crises au Moyen-Orient, croissance durable et partagée, sécurité économique, partenariats internationaux et intelligence artificielle",
+                  "députés élus au scrutin uninominal majoritaire à deux tours dans des circonscriptions",
+                  "suffrage universel direct, scrutin majoritaire à deux tours",
+                  "du 15 au 17 juin 2026"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Sommet du G7 à Évian-les-Bains — repère?",
+                "o": [
+                  "8,3 % au 2e trimestre 2026",
+                  "+2,4 % sur un an en août 2026 (provisoire)",
+                  "au 1er septembre 2026, toutes les entreprises assujetties concernées doivent pouvoir recevoir des factures électroniques",
+                  "du 15 au 17 juin 2026"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "ACT-0041",
+        "source": "Il peut protéger un secteur national mais aussi renchérir le prix des produits importés et provoquer des mesures de rétorsion.",
+        "cat": "Actualité",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "ACT-0043",
+        "source": "Principaux thèmes: Ukraine et sécurité européenne, crises au Moyen-Orient, croissance durable et partagée, sécurité économique, partenariats internationaux et intelligence artificielle.",
+        "cat": "Actualité",
+        "page": 4
+      }
+    },
+    {
+      "id": "ACT-0061",
+      "cat": "Actualité",
+      "page": 6,
+      "chapter": "3. Actualité internationale",
+      "topic": "3. Actualité internationale",
+      "source": "L’Organisation météorologique mondiale a confirmé que 2025 a été l’une des trois années les plus chaudes jamais enregistrées.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "ACT-0061",
+          "chapter": "3. Actualité internationale",
+          "topic": "3. Actualité internationale",
+          "source": "Année 2025 — repère: l’une des trois années les plus chaudes jamais enregistrées selon l’OMM",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Année 2025 — repère?",
+                "o": [
+                  "le conflit s’est fortement aggravé en 2026",
+                  "l’une des trois années les plus chaudes jamais enregistrées selon l’OMM",
+                  "présidence tournante du Conseil de l’UE au premier semestre 2027",
+                  "président du Conseil européen depuis le 1er décembre 2024"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Année 2025 — repère?",
+                "o": [
+                  "du 4 au 22 juillet 2026",
+                  "adopté le 19 juin 2023 et entré en vigueur le 17 janvier 2026",
+                  "l’une des trois années les plus chaudes jamais enregistrées selon l’OMM",
+                  "passage stratégique pour les hydrocarbures mondiaux"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Année 2025 — repère?",
+                "o": [
+                  "l’une des trois années les plus chaudes jamais enregistrées selon l’OMM",
+                  "présidence tournante du Conseil de l’UE au premier semestre 2027",
+                  "parvenir d’ici 2035 à 5 % du PIB pour les dépenses de défense et de sécurité au sens large, dont au moins 3,5 % pour les besoins de défense proprement dits",
+                  "un cessez-le-feu soutenu par les États-Unis est en place depuis octobre 2025, mais des frappes et incidents armés continuent en 2026; sa mise en œuvre reste fragile"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "ACT-0060",
+        "source": "Naissances en 2025 — Valeur à retenir: 645 000.",
+        "cat": "Actualité",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "ACT-0062",
+        "source": "Les onze années 2015-2025 sont les onze années les plus chaudes des séries mondiales utilisées par l’OMM.",
+        "cat": "Actualité",
+        "page": 6
+      }
+    },
+    {
+      "id": "ACT-0068",
+      "cat": "Actualité",
+      "page": 6,
+      "chapter": "3. Actualité internationale",
+      "topic": "3. Actualité internationale",
+      "source": "Un nouvel épisode a débuté fin juillet; entre le 29 juillet et le 10 août, 28 % de la population hexagonale a connu au moins un jour de vigilance orange.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "no_question",
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "ACT-0068-v28b-1",
+          "chapter": "3. Actualité internationale",
+          "topic": "3. Actualité internationale",
+          "source": "Nouvel épisode de canicule de fin juillet 2026 — repère: du 29 juillet au 10 août",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "no_question",
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Nouvel épisode de canicule de fin juillet 2026 — repère?",
+                "o": [
+                  "l’une des trois années les plus chaudes jamais enregistrées selon l’OMM",
+                  "du 29 juillet au 10 août",
+                  "conservation et utilisation durable de la biodiversité marine au-delà des juridictions nationales",
+                  "adopté le 19 juin 2023 et entré en vigueur le 17 janvier 2026"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Nouvel épisode de canicule de fin juillet 2026 — repère?",
+                "o": [
+                  "du 29 juillet au 10 août",
+                  "succède à Chypre à la présidence tournante du Conseil de l’UE",
+                  "les perturbations du trafic influencent rapidement les prix du pétrole",
+                  "Allemagne, Canada, États-Unis, France, Italie, Japon et Royaume-Uni"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ACT-0068-v28b-2",
+          "chapter": "3. Actualité internationale",
+          "topic": "3. Actualité internationale",
+          "source": "Population hexagonale ayant connu au moins un jour de vigilance orange entre le 29 juillet et le 10 août — valeur: 28 %",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle valeur faut-il associer à Population hexagonale ayant connu au moins un jour de vigilance orange entre le 29 juillet et le 10 août?",
+                "o": [
+                  "22,4 %",
+                  "10 %",
+                  "33,6 %",
+                  "28 %"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle valeur faut-il associer à Population hexagonale ayant connu au moins un jour de vigilance orange entre le 29 juillet et le 10 août?",
+                "o": [
+                  "10 %",
+                  "28 %",
+                  "25,2 %",
+                  "22,4 %"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle valeur faut-il associer à Population hexagonale ayant connu au moins un jour de vigilance orange entre le 29 juillet et le 10 août?",
+                "o": [
+                  "22,4 %",
+                  "28 %",
+                  "10 %",
+                  "25,2 %"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle valeur faut-il associer à Population hexagonale ayant connu au moins un jour de vigilance orange entre le 29 juillet et le 10 août?",
+                "o": [
+                  "30,8 %",
+                  "10 %",
+                  "28 %",
+                  "22,4 %"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "ACT-0067",
+        "source": "Du 10 au 15 juillet, 37 départements ont été placés en vigilance rouge canicule.",
+        "cat": "Actualité",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "ACT-0069",
+        "source": "Décès en 2025 — Valeur à retenir: 651 000.",
+        "cat": "Actualité",
+        "page": 7
       }
     },
     {
@@ -20660,6 +19447,2391 @@
         "source": "Kalahari — Localisation: Afrique australe",
         "cat": "Géographie",
         "page": 5
+      }
+    },
+    {
+      "id": "GEO-0111",
+      "cat": "Géographie",
+      "page": 5,
+      "chapter": "I.2 Reliefs, montagnes et déserts",
+      "topic": "Reliefs et déserts",
+      "source": "Atacama — Type / repère: Extrême aridité liée au courant de Humboldt et à l’ombre pluviométrique des Andes.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0111",
+          "chapter": "I.2 Reliefs, montagnes et déserts",
+          "topic": "Reliefs et déserts",
+          "source": "Atacama — repère: Extrême aridité liée au courant de Humboldt et à l’ombre pluviométrique des Andes.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Atacama — repère?",
+                "o": [
+                  "Extrême aridité liée au courant de Humboldt et à l’ombre pluviométrique des Andes",
+                  "grands pôles au Brésil et au Mexique",
+                  "Mer Rouge, golfe d’Aden, Éthiopie, Érythrée, Djibouti, Somalie",
+                  "Plus grand pays d’Asie du Sud-Est par la population"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Atacama — repère?",
+                "o": [
+                  "Extrême aridité liée au courant de Humboldt et à l’ombre pluviométrique des Andes",
+                  "Australie, Nouvelle-Zélande et archipels du Pacifique",
+                  "il fait partie de l’axe mer Rouge-Suez",
+                  "Plus grand pays d’Asie du Sud-Est par la population"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Atacama — repère?",
+                "o": [
+                  "Extrême aridité liée au courant de Humboldt et à l’ombre pluviométrique des Andes",
+                  "Plus grande étendue d’eau intérieure fermée",
+                  "Mer Noire, Crimée, Donbass, frontières Russie-Ukraine, façade ukrainienne",
+                  "Océan Arctique, Russie, Canada, États-Unis, pays nordiques"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Atacama — repère?",
+                "o": [
+                  "Mer Rouge, golfe d’Aden, Éthiopie, Érythrée, Djibouti, Somalie",
+                  "collision des plaques indienne et eurasiatique",
+                  "Extrême aridité liée au courant de Humboldt et à l’ombre pluviométrique des Andes",
+                  "Golfe Persique, Ormuz, mer Rouge, Bab-el- Mandeb, Israël/Palestine, Iran, péninsule Arabique"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0110",
+        "source": "Atacama — Localisation: Chili / Pérou",
+        "cat": "Géographie",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "GEO-0112",
+        "source": "Déserts australiens — Localisation: Intérieur de l’Australie",
+        "cat": "Géographie",
+        "page": 5
+      }
+    },
+    {
+      "id": "GEO-0113",
+      "cat": "Géographie",
+      "page": 5,
+      "chapter": "I.2 Reliefs, montagnes et déserts",
+      "topic": "Reliefs et déserts",
+      "source": "Déserts australiens — Type / repère: Grand Victoria, Great Sandy, Simpson, etc.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0113",
+          "chapter": "I.2 Reliefs, montagnes et déserts",
+          "topic": "Reliefs et déserts",
+          "source": "Déserts australiens — repère: Grand Victoria, Great Sandy, Simpson, etc.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Déserts australiens — repère?",
+                "o": [
+                  "grands pôles au Brésil et au Mexique",
+                  "Grand Victoria, Great Sandy, Simpson, etc",
+                  "Océan Arctique, Russie, Canada, États-Unis, pays nordiques",
+                  "continent le plus froid et désertique"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Déserts australiens — repère?",
+                "o": [
+                  "Grand Victoria, Great Sandy, Simpson, etc",
+                  "PIB nominal 2026 (ordre de grandeur)",
+                  "Asie du Sud, entre sous-continent indien et plateau tibétain",
+                  "grands pôles au Brésil et au Mexique"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Déserts australiens — repère?",
+                "o": [
+                  "PIB nominal 2026 (ordre de grandeur)",
+                  "Rub al-Khali parmi les plus grands déserts de sable",
+                  "Océan Arctique, Russie, Canada, États-Unis, pays nordiques",
+                  "Grand Victoria, Great Sandy, Simpson, etc"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Déserts australiens — repère?",
+                "o": [
+                  "PIB nominal 2026 (ordre de grandeur)",
+                  "Rub al-Khali parmi les plus grands déserts de sable",
+                  "Golfe Persique, Ormuz, mer Rouge, Bab-el- Mandeb, Israël/Palestine, Iran, péninsule Arabique",
+                  "Grand Victoria, Great Sandy, Simpson, etc"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0112",
+        "source": "Déserts australiens — Localisation: Intérieur de l’Australie",
+        "cat": "Géographie",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "GEO-0114",
+        "source": "Cours d’eau — Type / repère: Embouchure / repère",
+        "cat": "Géographie",
+        "page": 5
+      }
+    },
+    {
+      "id": "GEO-0116",
+      "cat": "Géographie",
+      "page": 5,
+      "chapter": "I.2 Reliefs, montagnes et déserts",
+      "topic": "Fleuves et lacs",
+      "source": "Amazone — Type / repère: Atlantique",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "correct_length_gives_clue"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0116",
+          "chapter": "I.2 Reliefs, montagnes et déserts",
+          "topic": "Fleuves et lacs",
+          "source": "Amazone — repère: Atlantique",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "correct_length_gives_clue"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Amazone — repère?",
+                "o": [
+                  "Mont Mitchell, 2 037 m",
+                  "Malaisie / Indonésie",
+                  "Amérique du Sud",
+                  "Atlantique"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Amazone — repère?",
+                "o": [
+                  "Mer de Chine orientale",
+                  "bassin amazonien majeur",
+                  "Atlantique",
+                  "Amérique du Sud"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Amazone — repère?",
+                "o": [
+                  "Mer de Chine orientale",
+                  "Amérique du Sud",
+                  "Chaîne ancienne et érodée",
+                  "Atlantique"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Amazone — repère?",
+                "o": [
+                  "Atlantique",
+                  "Chaîne ancienne et érodée",
+                  "vastes glaciers de haute montagne",
+                  "plus long fleuve d’Asie"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0115",
+        "source": "Amazone — Localisation: Amérique du Sud",
+        "cat": "Géographie",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "GEO-0117",
+        "source": "Amazone — Type / repère: plus grand débit fluvial mondial",
+        "cat": "Géographie",
+        "page": 5
+      }
+    },
+    {
+      "id": "GEO-0122",
+      "cat": "Géographie",
+      "page": 5,
+      "chapter": "I.2 Reliefs, montagnes et déserts",
+      "topic": "Fleuves et lacs",
+      "source": "Un fleuve se jette dans une mer ou un océan; une rivière se jette dans un autre cours d’eau.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0122-v28-1",
+          "chapter": "I.2 Reliefs, montagnes et déserts",
+          "topic": "Fleuves et lacs",
+          "source": "Fleuve — définition: cours d’eau qui se jette dans une mer ou un océan",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Que désigne « Fleuve »?",
+                "o": [
+                  "cours d’eau qui se jette dans une mer ou un océan",
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire",
+                  "cours d’eau qui se jette dans un autre cours d’eau",
+                  "vaste région urbaine continue ou fortement connectée regroupant plusieurs métropoles"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Fleuve »?",
+                "o": [
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire",
+                  "très grande agglomération, souvent définie par un seuil de 10 millions d’habitants",
+                  "cours d’eau qui se jette dans une mer ou un océan",
+                  "cours d’eau qui se jette dans un autre cours d’eau"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Fleuve »?",
+                "o": [
+                  "cours d’eau qui se jette dans une mer ou un océan",
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire",
+                  "très grande agglomération, souvent définie par un seuil de 10 millions d’habitants",
+                  "cours d’eau qui se jette dans un autre cours d’eau"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Fleuve »?",
+                "o": [
+                  "cours d’eau qui se jette dans un autre cours d’eau",
+                  "cours d’eau qui se jette dans une mer ou un océan",
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire",
+                  "très grande agglomération, souvent définie par un seuil de 10 millions d’habitants"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "GEO-0122-v28-2",
+          "chapter": "I.2 Reliefs, montagnes et déserts",
+          "topic": "Fleuves et lacs",
+          "source": "Rivière — définition: cours d’eau qui se jette dans un autre cours d’eau",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Que désigne « Rivière »?",
+                "o": [
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire",
+                  "cours d’eau qui se jette dans une mer ou un océan",
+                  "vaste région urbaine continue ou fortement connectée regroupant plusieurs métropoles",
+                  "cours d’eau qui se jette dans un autre cours d’eau"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Rivière »?",
+                "o": [
+                  "cours d’eau qui se jette dans une mer ou un océan",
+                  "valeur des biens et services produits sur un territoire pendant une période donnée",
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire",
+                  "cours d’eau qui se jette dans un autre cours d’eau"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Rivière »?",
+                "o": [
+                  "vaste région urbaine continue ou fortement connectée regroupant plusieurs métropoles",
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire",
+                  "cours d’eau qui se jette dans une mer ou un océan",
+                  "cours d’eau qui se jette dans un autre cours d’eau"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Rivière »?",
+                "o": [
+                  "cours d’eau qui se jette dans une mer ou un océan",
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire",
+                  "cours d’eau qui se jette dans un autre cours d’eau",
+                  "valeur des biens et services produits sur un territoire pendant une période donnée"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0121",
+        "source": "Atacama = façade pacifique d’Amérique du Sud; Gobi = Asie intérieure.",
+        "cat": "Géographie",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "GEO-0123",
+        "source": "Les longueurs peuvent varier selon la méthode de mesure: il faut surtout connaître les grands bassins, les embouchures et les pays traversés.",
+        "cat": "Géographie",
+        "page": 5
+      }
+    },
+    {
+      "id": "GEO-0127",
+      "cat": "Géographie",
+      "page": 6,
+      "chapter": "I.2 Reliefs, montagnes et déserts",
+      "topic": "Fleuves et lacs",
+      "source": "Mississippi-Missouri — Localisation: États-Unis",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "correct_length_gives_clue"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0127",
+          "chapter": "I.2 Reliefs, montagnes et déserts",
+          "topic": "Fleuves et lacs",
+          "source": "Mississippi-Missouri — localisation: États-Unis",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "correct_length_gives_clue"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Où se situe « Mississippi-Missouri »?",
+                "o": [
+                  "États-Unis",
+                  "Malaisie / Indonésie",
+                  "États-Unis / Canada",
+                  "Amérique du Sud"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « Mississippi-Missouri »?",
+                "o": [
+                  "États-Unis / Canada",
+                  "Amérique du Sud",
+                  "États-Unis",
+                  "Malaisie / Indonésie"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « Mississippi-Missouri »?",
+                "o": [
+                  "États-Unis / Canada",
+                  "Amérique du Sud",
+                  "États-Unis",
+                  "Malaisie / Indonésie"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « Mississippi-Missouri »?",
+                "o": [
+                  "États-Unis",
+                  "États-Unis / Canada",
+                  "Malaisie / Indonésie",
+                  "Amérique du Sud"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0126",
+        "source": "Yangzi Jiang (Yangtsé) — Type / repère: barrage des Trois-Gorges.",
+        "cat": "Géographie",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "GEO-0128",
+        "source": "Mississippi-Missouri — Type / repère: Golfe du Mexique",
+        "cat": "Géographie",
+        "page": 6
+      }
+    },
+    {
+      "id": "GEO-0137",
+      "cat": "Géographie",
+      "page": 6,
+      "chapter": "I.2 Reliefs, montagnes et déserts",
+      "topic": "Reliefs et déserts",
+      "source": "Mer Caspienne — Repère: Plus grande étendue d’eau intérieure fermée",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0137",
+          "chapter": "I.2 Reliefs, montagnes et déserts",
+          "topic": "Reliefs et déserts",
+          "source": "Mer Caspienne — repère: Plus grande étendue d’eau intérieure fermée",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Mer Caspienne — repère?",
+                "o": [
+                  "Extrême aridité liée au courant de Humboldt et à l’ombre pluviométrique des Andes",
+                  "Australie, Nouvelle-Zélande et archipels du Pacifique",
+                  "Mer Rouge, golfe d’Aden, Éthiopie, Érythrée, Djibouti, Somalie",
+                  "Plus grande étendue d’eau intérieure fermée"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Mer Caspienne — repère?",
+                "o": [
+                  "Plus grande étendue d’eau intérieure fermée",
+                  "Plus grand pays d’Asie du Sud-Est par la population",
+                  "Océan Arctique, Russie, Canada, États-Unis, pays nordiques",
+                  "continent le plus froid et désertique"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Mer Caspienne — repère?",
+                "o": [
+                  "Asie du Sud, entre sous-continent indien et plateau tibétain",
+                  "Golfe Persique, Ormuz, mer Rouge, Bab-el- Mandeb, Israël/Palestine, Iran, péninsule Arabique",
+                  "Plus grande étendue d’eau intérieure fermée",
+                  "collision des plaques indienne et eurasiatique"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Mer Caspienne — repère?",
+                "o": [
+                  "Plus grande étendue d’eau intérieure fermée",
+                  "PIB nominal 2026 (ordre de grandeur)",
+                  "il fait partie de l’axe mer Rouge-Suez",
+                  "Mer Rouge, golfe d’Aden, Éthiopie, Érythrée, Djibouti, Somalie"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0136",
+        "source": "Mer Caspienne — Localisation: Entre Europe et Asie",
+        "cat": "Géographie",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "GEO-0138",
+        "source": "Mer Caspienne — Repère: eau saumâtre.",
+        "cat": "Géographie",
+        "page": 6
+      }
+    },
+    {
+      "id": "GEO-0141",
+      "cat": "Géographie",
+      "page": 6,
+      "chapter": "I.2 Reliefs, montagnes et déserts",
+      "topic": "Fleuves et lacs",
+      "source": "Lac Supérieur — Repère: plus grand lac d’eau douce par superficie.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0141",
+          "chapter": "I.2 Reliefs, montagnes et déserts",
+          "topic": "Fleuves et lacs",
+          "source": "Lac Supérieur — repère: plus grand lac d’eau douce par superficie.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Lac Supérieur — repère?",
+                "o": [
+                  "plus grand lac d’eau douce par superficie",
+                  "Industrie, agriculture, estuaire de la Loire",
+                  "Atlantique via l’estuaire de la Gironde",
+                  "Bordeaux, Bourgogne, Champagne, vallée du Rhône, Loire, Alsace, Languedoc, Provence, etc"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Lac Supérieur — repère?",
+                "o": [
+                  "Bordeaux, Bourgogne, Champagne, vallée du Rhône, Loire, Alsace, Languedoc, Provence, etc",
+                  "Vallée de la Seine, ports, agriculture, énergie",
+                  "plus grand lac d’eau douce par superficie",
+                  "Alpes, vallée du Rhône, industrie, services, tourisme"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Lac Supérieur — repère?",
+                "o": [
+                  "plus grand lac d’eau douce par superficie",
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire",
+                  "Conflue avec la Dordogne pour former l’estuaire de la Gironde",
+                  "Océan Indien ↔ mer de Chine méridionale"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Lac Supérieur — repère?",
+                "o": [
+                  "Bordeaux, Bourgogne, Champagne, vallée du Rhône, Loire, Alsace, Languedoc, Provence, etc",
+                  "Beauce, châteaux de la Loire, agriculture",
+                  "Grand lac d’altitude navigable dans les Andes",
+                  "plus grand lac d’eau douce par superficie"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0140",
+        "source": "Lac Supérieur — Repère: Plus vaste des Grands Lacs",
+        "cat": "Géographie",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "GEO-0142",
+        "source": "Victoria — Localisation: Afrique de l’Est",
+        "cat": "Géographie",
+        "page": 6
+      }
+    },
+    {
+      "id": "GEO-0146",
+      "cat": "Géographie",
+      "page": 6,
+      "chapter": "I.2 Reliefs, montagnes et déserts",
+      "topic": "Fleuves et lacs",
+      "source": "Titicaca — Repère: Grand lac d’altitude navigable dans les Andes.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0146",
+          "chapter": "I.2 Reliefs, montagnes et déserts",
+          "topic": "Fleuves et lacs",
+          "source": "Titicaca — repère: Grand lac d’altitude navigable dans les Andes.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Titicaca — repère?",
+                "o": [
+                  "grandes plaines et vallées de la Garonne",
+                  "Grand lac d’altitude navigable dans les Andes",
+                  "Océan Indien ↔ mer de Chine méridionale",
+                  "Alpes, vallée du Rhône, industrie, services, tourisme"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Titicaca — repère?",
+                "o": [
+                  "Grand lac d’altitude navigable dans les Andes",
+                  "Marseille-Fos (grand port de marchandises et d’hydrocarbures), Haropa Port/Le Havre (conteneurs et axe Seine), Dunkerque, Nantes-Saint-Nazaire, Rouen, Bordeaux, etc",
+                  "Bordeaux, Bourgogne, Champagne, vallée du Rhône, Loire, Alsace, Languedoc, Provence, etc",
+                  "plus grand lac d’eau douce par superficie"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Titicaca — repère?",
+                "o": [
+                  "Atlantique via l’estuaire de la Gironde",
+                  "Bordeaux, Bourgogne, Champagne, vallée du Rhône, Loire, Alsace, Languedoc, Provence, etc",
+                  "Grand lac d’altitude navigable dans les Andes",
+                  "grandes plaines et vallées de la Garonne"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Titicaca — repère?",
+                "o": [
+                  "Alpes, vallée du Rhône, industrie, services, tourisme",
+                  "Conflue avec la Dordogne pour former l’estuaire de la Gironde",
+                  "les places peuvent donc évoluer rapidement",
+                  "Grand lac d’altitude navigable dans les Andes"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0145",
+        "source": "Titicaca — Localisation: Pérou / Bolivie",
+        "cat": "Géographie",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "GEO-0149",
+        "source": "A - tropical — Exemples: Amazonie, bassin du Congo, Asie du Sud-Est.",
+        "cat": "Géographie",
+        "page": 6
+      }
+    },
+    {
+      "id": "GEO-0161",
+      "cat": "Géographie",
+      "page": 6,
+      "chapter": "I.4 Climats et biomes",
+      "topic": "Climats et biomes",
+      "source": "Climat montagnard — Caractéristiques: étagement de la végétation",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0161",
+          "chapter": "I.4 Climats et biomes",
+          "topic": "Climats et biomes",
+          "source": "Climat montagnard — caractéristiques: étagement de la végétation",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Climat montagnard?",
+                "o": [
+                  "Grand port méditerranéen",
+                  "fruits, légumes, olivier, viticulture",
+                  "étagement de la végétation",
+                  "Variations tropicales et subtropicales"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Climat montagnard?",
+                "o": [
+                  "étagement de la végétation",
+                  "fruits, légumes, olivier, viticulture",
+                  "irrigation localement importante",
+                  "Variations tropicales et subtropicales"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Climat montagnard?",
+                "o": [
+                  "Variations tropicales et subtropicales",
+                  "fruits, légumes, olivier, viticulture",
+                  "Températures élevées",
+                  "étagement de la végétation"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Climat montagnard?",
+                "o": [
+                  "courant circumpolaire",
+                  "étagement de la végétation",
+                  "fruits, légumes, olivier, viticulture",
+                  "Variations tropicales et subtropicales"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0160",
+        "source": "Climat montagnard — Caractéristiques: Effet de l’altitude",
+        "cat": "Géographie",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "GEO-0162",
+        "source": "Climat montagnard — Exemples: Alpes, Himalaya, Andes.",
+        "cat": "Géographie",
+        "page": 6
+      }
+    },
+    {
+      "id": "GEO-0162",
+      "cat": "Géographie",
+      "page": 6,
+      "chapter": "I.4 Climats et biomes",
+      "topic": "Climats et biomes",
+      "source": "Climat montagnard — Exemples: Alpes, Himalaya, Andes.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0162",
+          "chapter": "I.4 Climats et biomes",
+          "topic": "Climats et biomes",
+          "source": "Climat montagnard — caractéristiques: Alpes, Himalaya, Andes.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Climat montagnard?",
+                "o": [
+                  "Alpes, Himalaya, Andes",
+                  "Effet de l’altitude",
+                  "courant circumpolaire",
+                  "forte influence océanique"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Climat montagnard?",
+                "o": [
+                  "Alpes, Himalaya, Andes",
+                  "forte influence océanique",
+                  "Grand port méditerranéen",
+                  "Effet de l’altitude"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Climat montagnard?",
+                "o": [
+                  "Alpes, Himalaya, Andes",
+                  "Grand port méditerranéen",
+                  "forte influence océanique",
+                  "Effet de l’altitude"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Climat montagnard?",
+                "o": [
+                  "Effet de l’altitude",
+                  "Alpes, Himalaya, Andes",
+                  "forte influence océanique",
+                  "Températures élevées"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0161",
+        "source": "Climat montagnard — Caractéristiques: étagement de la végétation",
+        "cat": "Géographie",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "GEO-0163",
+        "source": "Géographie - QCM Agent DGFiP & Contrôleur des douanes Nil ou Amazone: lequel est le plus long?",
+        "cat": "Géographie",
+        "page": 6
+      }
+    },
+    {
+      "id": "GEO-0165",
+      "cat": "Géographie",
+      "page": 6,
+      "chapter": "I.2 Reliefs, montagnes et déserts",
+      "topic": "Fleuves et lacs",
+      "source": "L’Amazone est sans ambiguïté le fleuve au plus grand débit.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0165",
+          "chapter": "I.2 Reliefs, montagnes et déserts",
+          "topic": "Fleuves et lacs",
+          "source": "L’Amazone est sans ambiguïté le fleuve au plus grand débit.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à L’Amazone?",
+                "o": [
+                  "dans une phase de vieillissement, tandis qu’une grande partie de l’Afrique subsaharienne conserve une forte croissance naturelle",
+                  "sans ambiguïté le fleuve au plus grand débit",
+                  "des canaux artificiels; Gibraltar, Ormuz, Malacca et Béring sont des détroits naturels",
+                  "utile mais doit être nuancé par la montée de l’Inde, du Golfe et d’autres économies émergentes"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à L’Amazone?",
+                "o": [
+                  "sans ambiguïté le fleuve au plus grand débit",
+                  "des passages maritimes naturels; les canaux sont artificiels",
+                  "un forum de coordination politique et économique du « Sud global »",
+                  "devenu légèrement négatif en France pour la première fois depuis la fin de la Seconde Guerre mondiale"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à L’Amazone?",
+                "o": [
+                  "sans ambiguïté le fleuve au plus grand débit",
+                  "plus de 75 % du commerce international et environ deux tiers de la population mondiale",
+                  "l’intensification des flux de marchandises, capitaux, informations et personnes",
+                  "des canaux artificiels; Gibraltar, Ormuz, Malacca et Béring sont des détroits naturels"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à L’Amazone?",
+                "o": [
+                  "des passages maritimes naturels; les canaux sont artificiels",
+                  "devenu légèrement négatif en France pour la première fois depuis la fin de la Seconde Guerre mondiale",
+                  "sans ambiguïté le fleuve au plus grand débit",
+                  "cependant une faible part de la valeur ajoutée totale (environ 1,5 % en 2025)"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0164",
+        "source": "Le classement dépend de la définition de la source et des méthodes de mesure.",
+        "cat": "Géographie",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "GEO-0166",
+        "source": "Le climat dépend principalement de la latitude, de l’altitude, de la continentalité, des courants marins et du relief.",
+        "cat": "Géographie",
+        "page": 6
+      }
+    },
+    {
+      "id": "GEO-0168",
+      "cat": "Géographie",
+      "page": 6,
+      "chapter": "I.4 Climats et biomes",
+      "topic": "Climats et biomes",
+      "source": "Un biome combine climat, végétation dominante et faune adaptée.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0168",
+          "chapter": "I.4 Climats et biomes",
+          "topic": "Climats et biomes",
+          "source": "Biome — définition: combinaison d’un climat, d’une végétation dominante et d’une faune adaptée",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Que désigne « Biome »?",
+                "o": [
+                  "combinaison d’un climat, d’une végétation dominante et d’une faune adaptée",
+                  "vaste région urbaine continue ou fortement connectée regroupant plusieurs métropoles",
+                  "cours d’eau qui se jette dans un autre cours d’eau",
+                  "valeur des biens et services produits sur un territoire pendant une période donnée"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Biome »?",
+                "o": [
+                  "vaste région urbaine continue ou fortement connectée regroupant plusieurs métropoles",
+                  "cours d’eau qui se jette dans un autre cours d’eau",
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire",
+                  "combinaison d’un climat, d’une végétation dominante et d’une faune adaptée"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Biome »?",
+                "o": [
+                  "combinaison d’un climat, d’une végétation dominante et d’une faune adaptée",
+                  "valeur des biens et services produits sur un territoire pendant une période donnée",
+                  "vaste région urbaine continue ou fortement connectée regroupant plusieurs métropoles",
+                  "cours d’eau qui se jette dans un autre cours d’eau"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Biome »?",
+                "o": [
+                  "vaste région urbaine continue ou fortement connectée regroupant plusieurs métropoles",
+                  "cours d’eau qui se jette dans un autre cours d’eau",
+                  "combinaison d’un climat, d’une végétation dominante et d’une faune adaptée",
+                  "très grande agglomération, souvent définie par un seuil de 10 millions d’habitants"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0167",
+        "source": "Biomes à connaître: forêt équatoriale, savane, steppe, désert, forêt méditerranéenne, forêt tempérée, taïga, toundra.",
+        "cat": "Géographie",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "GEO-0169",
+        "source": "Méditerranéen = été chaud et sec, hiver plus doux et plus humide.",
+        "cat": "Géographie",
+        "page": 6
+      }
+    },
+    {
+      "id": "GEO-0185",
+      "cat": "Géographie",
+      "page": 7,
+      "chapter": "I.6 Économie mondiale et mondialisation",
+      "topic": "Reliefs et déserts",
+      "source": "Rang indicatif 2026 — Date: PIB nominal 2026 (ordre de grandeur)",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0185",
+          "chapter": "I.6 Économie mondiale et mondialisation",
+          "topic": "Reliefs et déserts",
+          "source": "Rang indicatif 2026 — date: PIB nominal 2026 (ordre de grandeur)",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Rang indicatif 2026 — date?",
+                "o": [
+                  "collision des plaques indienne et eurasiatique",
+                  "PIB nominal 2026 (ordre de grandeur)",
+                  "il fait partie de l’axe mer Rouge-Suez",
+                  "grands pôles au Brésil et au Mexique"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Rang indicatif 2026 — date?",
+                "o": [
+                  "Océan Arctique, Russie, Canada, États-Unis, pays nordiques",
+                  "Extrême aridité liée au courant de Humboldt et à l’ombre pluviométrique des Andes",
+                  "PIB nominal 2026 (ordre de grandeur)",
+                  "grands pôles au Brésil et au Mexique"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Rang indicatif 2026 — date?",
+                "o": [
+                  "Extrême aridité liée au courant de Humboldt et à l’ombre pluviométrique des Andes",
+                  "Troisième grand pôle démographique et économique parmi les pays très développés",
+                  "PIB nominal 2026 (ordre de grandeur)",
+                  "Plus grand pays d’Asie du Sud-Est par la population"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Rang indicatif 2026 — date?",
+                "o": [
+                  "Grand Victoria, Great Sandy, Simpson, etc",
+                  "Golfe Persique, Ormuz, mer Rouge, Bab-el- Mandeb, Israël/Palestine, Iran, péninsule Arabique",
+                  "PIB nominal 2026 (ordre de grandeur)",
+                  "grands pôles au Brésil et au Mexique"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0184",
+        "source": "Éthiopie — À retenir: Croissance rapide en Afrique de l’Est.",
+        "cat": "Géographie",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "GEO-0186",
+        "source": "La population mondiale dépasse 8,2 milliards d’habitants.",
+        "cat": "Géographie",
+        "page": 7
+      }
+    },
+    {
+      "id": "GEO-0188",
+      "cat": "Géographie",
+      "page": 7,
+      "chapter": "I.3 Fleuves, lacs et hydrographie",
+      "topic": "Reliefs et déserts",
+      "source": "Beaucoup de pays européens et d’Asie orientale sont dans une phase de vieillissement, tandis qu’une grande partie de l’Afrique subsaharienne conserve une forte croissance naturelle.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0188",
+          "chapter": "I.3 Fleuves, lacs et hydrographie",
+          "topic": "Reliefs et déserts",
+          "source": "Beaucoup de pays européens et d’Asie orientale sont dans une phase de vieillissement, tandis qu’une grande partie de l’Afrique subsaharienne conserve une forte croissance naturelle.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Beaucoup de pays européens et d’Asie orientale?",
+                "o": [
+                  "dans une phase de vieillissement, tandis qu’une grande partie de l’Afrique subsaharienne conserve une forte croissance naturelle",
+                  "plus de 75 % du commerce international et environ deux tiers de la population mondiale",
+                  "une grande puissance agricole mais l’agriculture ne représente qu’une petite fraction du PIB/valeur ajoutée",
+                  "sans ambiguïté le fleuve au plus grand débit"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Beaucoup de pays européens et d’Asie orientale?",
+                "o": [
+                  "des canaux artificiels; Gibraltar, Ormuz, Malacca et Béring sont des détroits naturels",
+                  "devenu légèrement négatif en France pour la première fois depuis la fin de la Seconde Guerre mondiale",
+                  "dans une phase de vieillissement, tandis qu’une grande partie de l’Afrique subsaharienne conserve une forte croissance naturelle",
+                  "l’intensification des flux de marchandises, capitaux, informations et personnes"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Beaucoup de pays européens et d’Asie orientale?",
+                "o": [
+                  "utile mais doit être nuancé par la montée de l’Inde, du Golfe et d’autres économies émergentes",
+                  "des canaux artificiels; Gibraltar, Ormuz, Malacca et Béring sont des détroits naturels",
+                  "dans une phase de vieillissement, tandis qu’une grande partie de l’Afrique subsaharienne conserve une forte croissance naturelle",
+                  "devenue « Département-Région de Mayotte » au 1er janvier 2026"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Beaucoup de pays européens et d’Asie orientale?",
+                "o": [
+                  "plus de 75 % du commerce international et environ deux tiers de la population mondiale",
+                  "devenu légèrement négatif en France pour la première fois depuis la fin de la Seconde Guerre mondiale",
+                  "dans une phase de vieillissement, tandis qu’une grande partie de l’Afrique subsaharienne conserve une forte croissance naturelle",
+                  "située dans l’Indopacifique; la ZEE française est la deuxième au monde, autour de 10,2 millions de km2 selon les données officielles récentes"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0187",
+        "source": "Transition démographique: passage d’un régime à forte natalité et forte mortalité à un régime de faible natalité et faible mortalité.",
+        "cat": "Géographie",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "GEO-0189",
+        "source": "Urbanisation: les comparaisons varient selon la définition retenue.",
+        "cat": "Géographie",
+        "page": 7
+      }
+    },
+    {
+      "id": "GEO-0191",
+      "cat": "Géographie",
+      "page": 7,
+      "chapter": "I.3 Fleuves, lacs et hydrographie",
+      "topic": "Reliefs et déserts",
+      "source": "Vocabulaire à corriger Mégapole = très grande agglomération, souvent définie par un seuil de 10 millions d’habitants.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0191",
+          "chapter": "I.3 Fleuves, lacs et hydrographie",
+          "topic": "Reliefs et déserts",
+          "source": "Mégapole — définition: très grande agglomération, souvent définie par un seuil de 10 millions d’habitants",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Que désigne « Mégapole »?",
+                "o": [
+                  "vaste région urbaine continue ou fortement connectée regroupant plusieurs métropoles",
+                  "très grande agglomération, souvent définie par un seuil de 10 millions d’habitants",
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire",
+                  "cours d’eau qui se jette dans un autre cours d’eau"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Mégapole »?",
+                "o": [
+                  "cours d’eau qui se jette dans une mer ou un océan",
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire",
+                  "vaste région urbaine continue ou fortement connectée regroupant plusieurs métropoles",
+                  "très grande agglomération, souvent définie par un seuil de 10 millions d’habitants"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Mégapole »?",
+                "o": [
+                  "très grande agglomération, souvent définie par un seuil de 10 millions d’habitants",
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire",
+                  "vaste région urbaine continue ou fortement connectée regroupant plusieurs métropoles",
+                  "cours d’eau qui se jette dans une mer ou un océan"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Mégapole »?",
+                "o": [
+                  "cours d’eau qui se jette dans une mer ou un océan",
+                  "très grande agglomération, souvent définie par un seuil de 10 millions d’habitants",
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire",
+                  "vaste région urbaine continue ou fortement connectée regroupant plusieurs métropoles"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0190",
+        "source": "Le rapport ONU « World Urbanization Prospects 2025 » utilise une nouvelle définition harmonisée et recense 33 mégapoles de 10 millions d’habitants ou plus en 2025.",
+        "cat": "Géographie",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "GEO-0192",
+        "source": "Mégalopole = vaste région urbaine continue ou fortement connectée regroupant plusieurs métropoles (ex.",
+        "cat": "Géographie",
+        "page": 7
+      }
+    },
+    {
+      "id": "GEO-0192",
+      "cat": "Géographie",
+      "page": 7,
+      "chapter": "I.3 Fleuves, lacs et hydrographie",
+      "topic": "Démographie",
+      "source": "Mégalopole = vaste région urbaine continue ou fortement connectée regroupant plusieurs métropoles (ex.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0192",
+          "chapter": "I.3 Fleuves, lacs et hydrographie",
+          "topic": "Démographie",
+          "source": "Mégalopole — définition: vaste région urbaine continue ou fortement connectée regroupant plusieurs métropoles",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Que désigne « Mégalopole »?",
+                "o": [
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire",
+                  "très grande agglomération, souvent définie par un seuil de 10 millions d’habitants",
+                  "vaste région urbaine continue ou fortement connectée regroupant plusieurs métropoles",
+                  "cours d’eau qui se jette dans une mer ou un océan"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Mégalopole »?",
+                "o": [
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire",
+                  "valeur des biens et services produits sur un territoire pendant une période donnée",
+                  "vaste région urbaine continue ou fortement connectée regroupant plusieurs métropoles",
+                  "très grande agglomération, souvent définie par un seuil de 10 millions d’habitants"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Mégalopole »?",
+                "o": [
+                  "cours d’eau qui se jette dans un autre cours d’eau",
+                  "vaste région urbaine continue ou fortement connectée regroupant plusieurs métropoles",
+                  "très grande agglomération, souvent définie par un seuil de 10 millions d’habitants",
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Mégalopole »?",
+                "o": [
+                  "très grande agglomération, souvent définie par un seuil de 10 millions d’habitants",
+                  "cours d’eau qui se jette dans un autre cours d’eau",
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire",
+                  "vaste région urbaine continue ou fortement connectée regroupant plusieurs métropoles"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0191",
+        "source": "Vocabulaire à corriger Mégapole = très grande agglomération, souvent définie par un seuil de 10 millions d’habitants.",
+        "cat": "Géographie",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "GEO-0193",
+        "source": "Les deux mots ne sont pas synonymes.",
+        "cat": "Géographie",
+        "page": 7
+      }
+    },
+    {
+      "id": "GEO-0198",
+      "cat": "Géographie",
+      "page": 8,
+      "chapter": "I.3 Fleuves, lacs et hydrographie",
+      "topic": "Reliefs et déserts",
+      "source": "Moyen-Orient — Population 2026 (ordre de grandeur): Golfe Persique, Ormuz, mer Rouge, Bab-el- Mandeb, Israël/Palestine, Iran, péninsule Arabique",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0198",
+          "chapter": "I.3 Fleuves, lacs et hydrographie",
+          "topic": "Reliefs et déserts",
+          "source": "Moyen-Orient — population: Golfe Persique, Ormuz, mer Rouge, Bab-el- Mandeb, Israël/Palestine, Iran, péninsule Arabique",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Moyen-Orient — population?",
+                "o": [
+                  "Golfe Persique, Ormuz, mer Rouge, Bab-el- Mandeb, Israël/Palestine, Iran, péninsule Arabique",
+                  "il faut surtout connaître les grands bassins, les embouchures et les pays traversés",
+                  "continent le plus froid et désertique",
+                  "Australie, Nouvelle-Zélande et archipels du Pacifique"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Moyen-Orient — population?",
+                "o": [
+                  "Golfe Persique, Ormuz, mer Rouge, Bab-el- Mandeb, Israël/Palestine, Iran, péninsule Arabique",
+                  "Maillon de la route maritime Asie-Europe passant par Suez",
+                  "Plus grand pays d’Asie du Sud-Est par la population",
+                  "Australie, Nouvelle-Zélande et archipels du Pacifique"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Moyen-Orient — population?",
+                "o": [
+                  "Golfe Persique, Ormuz, mer Rouge, Bab-el- Mandeb, Israël/Palestine, Iran, péninsule Arabique",
+                  "Troisième grand pôle démographique et économique parmi les pays très développés",
+                  "PIB nominal 2026 (ordre de grandeur)",
+                  "il faut surtout connaître les grands bassins, les embouchures et les pays traversés"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Moyen-Orient — population?",
+                "o": [
+                  "il faut surtout connaître les grands bassins, les embouchures et les pays traversés",
+                  "collision des plaques indienne et eurasiatique",
+                  "PIB nominal 2026 (ordre de grandeur)",
+                  "Golfe Persique, Ormuz, mer Rouge, Bab-el- Mandeb, Israël/Palestine, Iran, péninsule Arabique"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0197",
+        "source": "Europe orientale / Ukraine — À retenir: Sécurité européenne, accès maritime, céréales, énergie, rôle de l’OTAN et de l’UE.",
+        "cat": "Géographie",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "GEO-0199",
+        "source": "Moyen-Orient — À retenir: Hydrocarbures, routes maritimes, rivalités régionales et questions territoriales.",
+        "cat": "Géographie",
+        "page": 8
+      }
+    },
+    {
+      "id": "GEO-0209",
+      "cat": "Géographie",
+      "page": 8,
+      "chapter": "I.6 Économie mondiale et mondialisation",
+      "topic": "Économie mondiale",
+      "source": "Le groupe BRICS est un forum de coordination politique et économique du « Sud global ».",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0209",
+          "chapter": "I.6 Économie mondiale et mondialisation",
+          "topic": "Économie mondiale",
+          "source": "Le groupe BRICS est un forum de coordination politique et économique du « Sud global ».",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le groupe BRICS?",
+                "o": [
+                  "rangé dans la sous-région « Amérique centrale »",
+                  "un forum de coordination politique et économique du « Sud global »",
+                  "l’intensification des flux de marchandises, capitaux, informations et personnes",
+                  "des canaux artificiels; Gibraltar, Ormuz, Malacca et Béring sont des détroits naturels"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le groupe BRICS?",
+                "o": [
+                  "issue de la loi du 16 janvier 2015 relative à la délimitation des régions; la nouvelle carte est entrée en vigueur le 1er janvier 2016",
+                  "un forum de coordination politique et économique du « Sud global »",
+                  "devenue « Département-Région de Mayotte » au 1er janvier 2026",
+                  "rangé dans la sous-région « Amérique centrale »"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le groupe BRICS?",
+                "o": [
+                  "issue de la loi du 16 janvier 2015 relative à la délimitation des régions; la nouvelle carte est entrée en vigueur le 1er janvier 2016",
+                  "cependant une faible part de la valeur ajoutée totale (environ 1,5 % en 2025)",
+                  "rangé dans la sous-région « Amérique centrale »",
+                  "un forum de coordination politique et économique du « Sud global »"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le groupe BRICS?",
+                "o": [
+                  "sans ambiguïté le fleuve au plus grand débit",
+                  "un forum de coordination politique et économique du « Sud global »",
+                  "conservés ici uniquement parce que le cours de géographie initial les associait à l’administration territoriale",
+                  "devenue « Département-Région de Mayotte » au 1er janvier 2026"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0208",
+        "source": "Le G7 n’est pas une organisation dotée d’un traité constitutif comparable à l’ONU.",
+        "cat": "Géographie",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "GEO-0210",
+        "source": "En 2026, il compte 11 membres à part entière: Brésil, Russie, Inde, Chine, Afrique du Sud, Arabie saoudite, Égypte, Émirats arabes unis, Éthiopie, Indonésie et Iran.",
+        "cat": "Géographie",
+        "page": 8
+      }
+    },
+    {
+      "id": "GEO-0216",
+      "cat": "Géographie",
+      "page": 8,
+      "chapter": "I.6 Économie mondiale et mondialisation",
+      "topic": "Reliefs et déserts",
+      "source": "La mondialisation correspond à l’intensification des flux de marchandises, capitaux, informations et personnes.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0216",
+          "chapter": "I.6 Économie mondiale et mondialisation",
+          "topic": "Reliefs et déserts",
+          "source": "La mondialisation correspond à l’intensification des flux de marchandises, capitaux, informations et personnes.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Que désigne La mondialisation?",
+                "o": [
+                  "utile mais doit être nuancé par la montée de l’Inde, du Golfe et d’autres économies émergentes",
+                  "l’intensification des flux de marchandises, capitaux, informations et personnes",
+                  "issue de la loi du 16 janvier 2015 relative à la délimitation des régions; la nouvelle carte est entrée en vigueur le 1er janvier 2016",
+                  "conservés ici uniquement parce que le cours de géographie initial les associait à l’administration territoriale"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne La mondialisation?",
+                "o": [
+                  "dans une phase de vieillissement, tandis qu’une grande partie de l’Afrique subsaharienne conserve une forte croissance naturelle",
+                  "cependant une faible part de la valeur ajoutée totale (environ 1,5 % en 2025)",
+                  "des canaux artificiels; Gibraltar, Ormuz, Malacca et Béring sont des détroits naturels",
+                  "l’intensification des flux de marchandises, capitaux, informations et personnes"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne La mondialisation?",
+                "o": [
+                  "sans ambiguïté le fleuve au plus grand débit",
+                  "dans une phase de vieillissement, tandis qu’une grande partie de l’Afrique subsaharienne conserve une forte croissance naturelle",
+                  "devenue « Département-Région de Mayotte » au 1er janvier 2026",
+                  "l’intensification des flux de marchandises, capitaux, informations et personnes"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne La mondialisation?",
+                "o": [
+                  "utile mais doit être nuancé par la montée de l’Inde, du Golfe et d’autres économies émergentes",
+                  "l’intensification des flux de marchandises, capitaux, informations et personnes",
+                  "un forum de coordination politique et économique du « Sud global »",
+                  "marqué — population: environ 22 % de la population a 65 ans ou plus"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0215",
+        "source": "Pays partenaires: ne pas confondre les deux listes.",
+        "cat": "Géographie",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "GEO-0217",
+        "source": "Transport maritime: plus de 80 % du commerce mondial de marchandises en volume passe par mer selon la",
+        "cat": "Géographie",
+        "page": 8
+      }
+    },
+    {
+      "id": "GEO-0221",
+      "cat": "Géographie",
+      "page": 8,
+      "chapter": "I.3 Fleuves, lacs et hydrographie",
+      "topic": "Fleuves et lacs",
+      "source": "Routes commerciales sensibles: Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0221",
+          "chapter": "I.3 Fleuves, lacs et hydrographie",
+          "topic": "Fleuves et lacs",
+          "source": "Routes commerciales sensibles — définition: Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Que désigne « Routes commerciales sensibles »?",
+                "o": [
+                  "cours d’eau qui se jette dans un autre cours d’eau",
+                  "cours d’eau qui se jette dans une mer ou un océan",
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire",
+                  "très grande agglomération, souvent définie par un seuil de 10 millions d’habitants"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Routes commerciales sensibles »?",
+                "o": [
+                  "très grande agglomération, souvent définie par un seuil de 10 millions d’habitants",
+                  "cours d’eau qui se jette dans une mer ou un océan",
+                  "cours d’eau qui se jette dans un autre cours d’eau",
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Routes commerciales sensibles »?",
+                "o": [
+                  "très grande agglomération, souvent définie par un seuil de 10 millions d’habitants",
+                  "cours d’eau qui se jette dans un autre cours d’eau",
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire",
+                  "cours d’eau qui se jette dans une mer ou un océan"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Routes commerciales sensibles »?",
+                "o": [
+                  "cours d’eau qui se jette dans un autre cours d’eau",
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire",
+                  "très grande agglomération, souvent définie par un seuil de 10 millions d’habitants",
+                  "cours d’eau qui se jette dans une mer ou un océan"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0220",
+        "source": "Triade historique: ce schéma reste utile mais doit être nuancé par la montée de l’Inde, du Golfe et d’autres économies émergentes.",
+        "cat": "Géographie",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "GEO-0222",
+        "source": "Organisation / groupe — Population 2026 (ordre de grandeur): Composition / aire",
+        "cat": "Géographie",
+        "page": 9
+      }
+    },
+    {
+      "id": "GEO-0240",
+      "cat": "Géographie",
+      "page": 10,
+      "chapter": "I.5 Démographie mondiale",
+      "topic": "Reliefs et déserts",
+      "source": "Massif central — Localisation: Centre-sud",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "correct_length_gives_clue"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0240",
+          "chapter": "I.5 Démographie mondiale",
+          "topic": "Reliefs et déserts",
+          "source": "Massif central — localisation: Centre-sud",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "correct_length_gives_clue"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Où se situe « Massif central »?",
+                "o": [
+                  "Mer Rouge ↔ golfe d’Aden",
+                  "Bretagne et ouest",
+                  "Intérieur de l’Australie",
+                  "Centre-sud"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « Massif central »?",
+                "o": [
+                  "Centre-sud",
+                  "Mer Rouge ↔ golfe d’Aden",
+                  "Bretagne et ouest",
+                  "Intérieur de l’Australie"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « Massif central »?",
+                "o": [
+                  "Yémen / Djibouti- Érythrée",
+                  "Bretagne et ouest",
+                  "Intérieur de l’Australie",
+                  "Centre-sud"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « Massif central »?",
+                "o": [
+                  "Intérieur de l’Australie",
+                  "Bretagne et ouest",
+                  "Centre-sud",
+                  "Yémen / Djibouti- Érythrée"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0239",
+        "source": "Pyrénées — Repère: vignemale côté français parmi les sommets majeurs.",
+        "cat": "Géographie",
+        "page": 10
+      },
+      "nextSource": {
+        "id": "GEO-0241",
+        "source": "Massif central — Repère: Ancien massif volcanique",
+        "cat": "Géographie",
+        "page": 10
+      }
+    },
+    {
+      "id": "GEO-0243",
+      "cat": "Géographie",
+      "page": 10,
+      "chapter": "I.5 Démographie mondiale",
+      "topic": "Reliefs et déserts",
+      "source": "Massif central — Repère: Auvergne.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "correct_length_gives_clue"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0243",
+          "chapter": "I.5 Démographie mondiale",
+          "topic": "Reliefs et déserts",
+          "source": "Massif central — repère: Auvergne.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "correct_length_gives_clue"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Massif central — repère?",
+                "o": [
+                  "≈ 255-260 millions",
+                  "Intérieur de l’Australie",
+                  "Auvergne",
+                  "≈ 343 millions"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Massif central — repère?",
+                "o": [
+                  "Mer Rouge ↔ golfe d’Aden",
+                  "Auvergne",
+                  "Sahara, Arabie, Atacama, Asie centrale",
+                  "Everest, 8 849 m"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Massif central — repère?",
+                "o": [
+                  "Yémen / Djibouti- Érythrée",
+                  "vulnérable aux tensions régionales",
+                  "Intérieur de l’Australie",
+                  "Auvergne"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Massif central — repère?",
+                "o": [
+                  "Part du monde",
+                  "Auvergne",
+                  "Grande barrière orographique",
+                  "≈ 285-290 millions"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0242",
+        "source": "Massif central — Repère: puy de Sancy 1 886 m",
+        "cat": "Géographie",
+        "page": 10
+      },
+      "nextSource": {
+        "id": "GEO-0244",
+        "source": "Massif armoricain — Localisation: Bretagne et ouest",
+        "cat": "Géographie",
+        "page": 10
+      }
+    },
+    {
+      "id": "GEO-0251",
+      "cat": "Géographie",
+      "page": 10,
+      "chapter": "I.5 Démographie mondiale",
+      "topic": "Fleuves et lacs",
+      "source": "Bassin aquitain — Repère: grandes plaines et vallées de la Garonne.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0251",
+          "chapter": "I.5 Démographie mondiale",
+          "topic": "Fleuves et lacs",
+          "source": "Bassin aquitain — repère: grandes plaines et vallées de la Garonne.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Bassin aquitain — repère?",
+                "o": [
+                  "Alpes, vallée du Rhône, industrie, services, tourisme",
+                  "Marseille-Fos (grand port de marchandises et d’hydrocarbures), Haropa Port/Le Havre (conteneurs et axe Seine), Dunkerque, Nantes-Saint-Nazaire, Rouen, Bordeaux, etc",
+                  "Bordeaux, Bourgogne, Champagne, vallée du Rhône, Loire, Alsace, Languedoc, Provence, etc",
+                  "grandes plaines et vallées de la Garonne"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Bassin aquitain — repère?",
+                "o": [
+                  "grandes plaines et vallées de la Garonne",
+                  "Bordeaux, Bourgogne, Champagne, vallée du Rhône, Loire, Alsace, Languedoc, Provence, etc",
+                  "Alpes, vallée du Rhône, industrie, services, tourisme",
+                  "Atlantique via l’estuaire de la Gironde"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Bassin aquitain — repère?",
+                "o": [
+                  "Voie vitale pour les échanges de l’Asie orientale et ses importations énergétiques",
+                  "Océan Indien ↔ mer de Chine méridionale",
+                  "grandes plaines et vallées de la Garonne",
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Bassin aquitain — repère?",
+                "o": [
+                  "Beauce, châteaux de la Loire, agriculture",
+                  "grandes plaines et vallées de la Garonne",
+                  "Atlantique via l’estuaire de la Gironde",
+                  "Vallée de la Seine, ports, agriculture, énergie"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0250",
+        "source": "Bassin aquitain — Repère: Bassin sédimentaire ouvert vers l’Atlantique",
+        "cat": "Géographie",
+        "page": 10
+      },
+      "nextSource": {
+        "id": "GEO-0252",
+        "source": "Garonne — Auteur: Pyrénées espagnoles",
+        "cat": "Géographie",
+        "page": 10
       }
     }
   ]
