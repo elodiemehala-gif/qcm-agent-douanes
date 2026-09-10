@@ -15,7 +15,7 @@ jobs:
           node-version: '20'
       - name: Audit all knowledge facts
         run: node audit-run-v28.mjs
-      - name: Build priority snapshot
+      - name: Build audit snapshots
         run: |
           node - <<'NODE'
           const fs = require('fs');
@@ -34,6 +34,19 @@ jobs:
             })
             .slice(0,250);
           fs.writeFileSync('audit-priority.json', JSON.stringify({summary: report.summary, rows}, null, 2));
+
+          const noQuestion = indexed
+            .filter(r => !r.sourceResolvedNonAtomic && !r.anyQuestion)
+            .map(r => ({
+              id:r.id, cat:r.cat, page:r.page, chapter:r.chapter, topic:r.topic,
+              source:r.source, previousSource:r.previousSource, nextSource:r.nextSource
+            }));
+          fs.writeFileSync('audit-no-question.json', JSON.stringify({
+            generatedAt: report.summary.generatedAt,
+            count: noQuestion.length,
+            byCat: noQuestion.reduce((m,r)=>(m[r.cat]=(m[r.cat]||0)+1,m),{}),
+            rows:noQuestion
+          }, null, 2));
           NODE
       - name: Upload audit report
         uses: actions/upload-artifact@v4
@@ -43,11 +56,12 @@ jobs:
             audit-summary.json
             audit-report.json
             audit-priority.json
+            audit-no-question.json
       - name: Persist audit snapshot
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add audit-summary.json audit-priority.json
+          git add audit-summary.json audit-priority.json audit-no-question.json
           if ! git diff --cached --quiet; then
             git commit -m "Update QCM audit snapshot [skip ci]"
             git push
