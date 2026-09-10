@@ -1,0 +1,3689 @@
+{
+  "generatedAt": "2026-09-10T08:33:22.728Z",
+  "count": 184,
+  "byCat": {
+    "Enseignement moral et civique": 39,
+    "Actualité": 29,
+    "Organisation et missions": 21,
+    "Mathématiques": 41,
+    "Raisonnement logique": 5,
+    "Culture générale": 49
+  },
+  "rows": [
+    {
+      "id": "EMC-0004",
+      "cat": "Enseignement moral et civique",
+      "page": 3,
+      "chapter": "A-B. Valeurs et symboles de la République",
+      "topic": "Valeurs de la République",
+      "source": "La loi du 29 juillet 1881 garantit la liberté de la presse tout en encadrant les abus.",
+      "previousSource": {
+        "id": "EMC-0003",
+        "source": "11): tout citoyen peut « parler, écrire, imprimer librement ».",
+        "cat": "Enseignement moral et civique",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "EMC-0005",
+        "source": "Applications: liberté de conscience, de culte, de presse, de réunion, d’association, de circulation, d’entreprendre, etc.",
+        "cat": "Enseignement moral et civique",
+        "page": 3
+      }
+    },
+    {
+      "id": "EMC-0008",
+      "cat": "Enseignement moral et civique",
+      "page": 3,
+      "chapter": "A-B. Valeurs et symboles de la République",
+      "topic": "Valeurs de la République",
+      "source": "L’égalité devant la loi implique l’interdiction des discriminations et la mise en place de politiques de lutte contre les discriminations (racisme, sexisme, homophobie, handicap, etc.).",
+      "previousSource": {
+        "id": "EMC-0007",
+        "source": "A.2 Égalité Principe: égalité en droits de tous les citoyens sans distinction d’origine, de religion ou de sexe.",
+        "cat": "Enseignement moral et civique",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "EMC-0010",
+        "source": "A.3 Fraternité Sens: solidarité entre citoyens et devoir d’entraide.",
+        "cat": "Enseignement moral et civique",
+        "page": 3
+      }
+    },
+    {
+      "id": "EMC-0011",
+      "cat": "Enseignement moral et civique",
+      "page": 3,
+      "chapter": "A-B. Valeurs et symboles de la République",
+      "topic": "A-B. Valeurs et symboles de la République",
+      "source": "Ce principe fonde l’État social (sécurité sociale, services publics, solidarité fiscale) et alimente les politiques de cohésion nationale et de lutte contre la pauvreté.",
+      "previousSource": {
+        "id": "EMC-0010",
+        "source": "A.3 Fraternité Sens: solidarité entre citoyens et devoir d’entraide.",
+        "cat": "Enseignement moral et civique",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "EMC-0012",
+        "source": "Illustrations: système de santé universel, assurance chômage, RSA, aide au développement.",
+        "cat": "Enseignement moral et civique",
+        "page": 3
+      }
+    },
+    {
+      "id": "EMC-0014",
+      "cat": "Enseignement moral et civique",
+      "page": 3,
+      "chapter": "A-B. Valeurs et symboles de la République",
+      "topic": "Valeurs de la République",
+      "source": "La loi du 9 décembre 1905 proclame la liberté de conscience et le libre exercice des cultes et pose la séparation des Églises et de l’État: « La République ne reconnaît, ne salarie ni ne subventionne aucun culte ».",
+      "previousSource": {
+        "id": "EMC-0013",
+        "source": "A.4 Laïcité Définition constitutionnelle: principe de neutralité de l’État et des services publics qui garantit la liberté de conscience et l’égalité de toutes les religions.",
+        "cat": "Enseignement moral et civique",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "EMC-0015",
+        "source": "L’État devient neutre et tous les cultes sont traités de manière égale.",
+        "cat": "Enseignement moral et civique",
+        "page": 3
+      }
+    },
+    {
+      "id": "EMC-0017",
+      "cat": "Enseignement moral et civique",
+      "page": 3,
+      "chapter": "A-B. Valeurs et symboles de la République",
+      "topic": "A-B. Valeurs et symboles de la République",
+      "source": "La loi de 1905 fixe également les conditions des associations cultuelles et l’utilisation des édifices religieux.",
+      "previousSource": {
+        "id": "EMC-0016",
+        "source": "Compléments: le préambule de la Constitution (1946) réaffirme la laïcité de l’enseignement public.",
+        "cat": "Enseignement moral et civique",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "EMC-0018",
+        "source": "La laïcité n’interdit pas l’expression religieuse, mais elle proscrit le prosélytisme dans les services publics et garantit le respect de toutes les croyances.",
+        "cat": "Enseignement moral et civique",
+        "page": 3
+      }
+    },
+    {
+      "id": "EMC-0018",
+      "cat": "Enseignement moral et civique",
+      "page": 3,
+      "chapter": "G-H. Laïcité, citoyenneté et devoirs",
+      "topic": "Laïcité",
+      "source": "La laïcité n’interdit pas l’expression religieuse, mais elle proscrit le prosélytisme dans les services publics et garantit le respect de toutes les croyances.",
+      "previousSource": {
+        "id": "EMC-0017",
+        "source": "La loi de 1905 fixe également les conditions des associations cultuelles et l’utilisation des édifices religieux.",
+        "cat": "Enseignement moral et civique",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "EMC-0019",
+        "source": "A.5 Indivisibilité Concept: la République est une et indivisible.",
+        "cat": "Enseignement moral et civique",
+        "page": 3
+      }
+    },
+    {
+      "id": "EMC-0020",
+      "cat": "Enseignement moral et civique",
+      "page": 3,
+      "chapter": "A-B. Valeurs et symboles de la République",
+      "topic": "A-B. Valeurs et symboles de la République",
+      "source": "Aucun territoire n’est habilité à faire sécession et les lois s’appliquent uniformément sur tout le territoire, à l’exception de régimes 3",
+      "previousSource": {
+        "id": "EMC-0019",
+        "source": "A.5 Indivisibilité Concept: la République est une et indivisible.",
+        "cat": "Enseignement moral et civique",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "EMC-0021",
+        "source": "Symbole — Localisation: Description et signification",
+        "cat": "Enseignement moral et civique",
+        "page": 4
+      }
+    },
+    {
+      "id": "EMC-0033",
+      "cat": "Enseignement moral et civique",
+      "page": 4,
+      "chapter": "D. Institutions françaises",
+      "topic": "Institutions françaises",
+      "source": "Le Parlement vote la loi et contrôle le gouvernement.",
+      "previousSource": {
+        "id": "EMC-0032",
+        "source": "Le suffrage universel est la base de l’élection des députés, du Président de la République et des représentants européens.",
+        "cat": "Enseignement moral et civique",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "EMC-0034",
+        "source": "République sociale: la Constitution de 1946 et le préambule de 1958 reconnaissent le droit à la protection de la santé, à la sécurité matérielle, au repos et aux loisirs, à l’instruction, à l’emploi et à la participation à la vie économique.",
+        "cat": "Enseignement moral et civique",
+        "page": 4
+      }
+    },
+    {
+      "id": "EMC-0035",
+      "cat": "Enseignement moral et civique",
+      "page": 4,
+      "chapter": "A-B. Valeurs et symboles de la République",
+      "topic": "Valeurs de la République",
+      "source": "L’État intervient pour réduire les inégalités et protéger les plus fragiles.",
+      "previousSource": {
+        "id": "EMC-0034",
+        "source": "République sociale: la Constitution de 1946 et le préambule de 1958 reconnaissent le droit à la protection de la santé, à la sécurité matérielle, au repos et aux loisirs, à l’instruction, à l’emploi et à la participation à la vie économique.",
+        "cat": "Enseignement moral et civique",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "EMC-0038",
+        "source": "De même, l’égalité n’est pas uniformité: les politiques d’égalité réelle peuvent créer des dispositifs différenciés (discrimination positive).",
+        "cat": "Enseignement moral et civique",
+        "page": 4
+      }
+    },
+    {
+      "id": "EMC-0051",
+      "cat": "Enseignement moral et civique",
+      "page": 5,
+      "chapter": "C. Textes fondamentaux",
+      "topic": "Valeurs de la République",
+      "source": "Il fonde la notion de République sociale.",
+      "previousSource": {
+        "id": "EMC-0050",
+        "source": "C.2 Préambule de 1946 et Constitution de 1958 Préambule de 1946: réaffirme les droits proclamés en 1789 et ajoute des droits économiques et sociaux (droit au travail, au repos, à la santé, à l’instruction, à la culture).",
+        "cat": "Enseignement moral et civique",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "EMC-0052",
+        "source": "Constitution de 1958: organise les pouvoirs publics de la Ve République.",
+        "cat": "Enseignement moral et civique",
+        "page": 5
+      }
+    },
+    {
+      "id": "EMC-0053",
+      "cat": "Enseignement moral et civique",
+      "page": 5,
+      "chapter": "G-H. Laïcité, citoyenneté et devoirs",
+      "topic": "Laïcité",
+      "source": "Elle réaffirme les principes d’indivisibilité, de démocratie et de laïcité.",
+      "previousSource": {
+        "id": "EMC-0052",
+        "source": "Constitution de 1958: organise les pouvoirs publics de la Ve République.",
+        "cat": "Enseignement moral et civique",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "EMC-0054",
+        "source": "C.3 Charte de l’environnement (2004, intégrée en 2005) Valeur constitutionnelle: la Charte a été intégrée au bloc de constitutionnalité en 2005.",
+        "cat": "Enseignement moral et civique",
+        "page": 5
+      }
+    },
+    {
+      "id": "EMC-0057",
+      "cat": "Enseignement moral et civique",
+      "page": 6,
+      "chapter": "I-J. Justice, Europe et organisations internationales",
+      "topic": "Valeurs de la République",
+      "source": "Elle protège les droits fondamentaux (droit à la vie, interdiction de la torture, liberté d’expression, droit au procès équitable) et crée un système juridictionnel: la Cour européenne des droits de l’homme à Strasbourg.",
+      "previousSource": {
+        "id": "EMC-0056",
+        "source": "C.4 Convention européenne des droits de l’homme (CEDH) Adoption: 1950, entrée en vigueur en 1953.",
+        "cat": "Enseignement moral et civique",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "EMC-0058",
+        "source": "Article 10 CEDH: liberté d’expression, parfois cité dans les QCM pour montrer la complémentarité avec l’article 11 de la DDHC.",
+        "cat": "Enseignement moral et civique",
+        "page": 6
+      }
+    },
+    {
+      "id": "EMC-0060",
+      "cat": "Enseignement moral et civique",
+      "page": 6,
+      "chapter": "C. Textes fondamentaux",
+      "topic": "C. Textes fondamentaux",
+      "source": "L’article 8 reconnaît le droit à la protection des données personnelles et constitue le socle du RGPD.",
+      "previousSource": {
+        "id": "EMC-0059",
+        "source": "C.5 Charte des droits fondamentaux de l’UE Adoption: 2000, intégrée aux traités en 2009 avec le traité de Lisbonne.",
+        "cat": "Enseignement moral et civique",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "EMC-0062",
+        "source": "Le Préambule de 1946 et la Charte de l’environnement sont intégrés à la Constitution.",
+        "cat": "Enseignement moral et civique",
+        "page": 6
+      }
+    },
+    {
+      "id": "EMC-0069",
+      "cat": "Enseignement moral et civique",
+      "page": 6,
+      "chapter": "C. Textes fondamentaux",
+      "topic": "C. Textes fondamentaux",
+      "source": "Il signe les décrets, prépare les projets de loi et présente le budget.",
+      "previousSource": {
+        "id": "EMC-0068",
+        "source": "Il détient le pouvoir réglementaire et est responsable de la défense nationale.",
+        "cat": "Enseignement moral et civique",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "EMC-0070",
+        "source": "Gouvernement: composé de ministres, ministres délégués et secrétaires d’État.",
+        "cat": "Enseignement moral et civique",
+        "page": 6
+      }
+    },
+    {
+      "id": "EMC-0071",
+      "cat": "Enseignement moral et civique",
+      "page": 6,
+      "chapter": "C. Textes fondamentaux",
+      "topic": "C. Textes fondamentaux",
+      "source": "Il détermine et conduit la politique de la Nation.",
+      "previousSource": {
+        "id": "EMC-0070",
+        "source": "Gouvernement: composé de ministres, ministres délégués et secrétaires d’État.",
+        "cat": "Enseignement moral et civique",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "EMC-0072",
+        "source": "Il est responsable devant le Parlement qui peut mettre en jeu sa responsabilité via une motion de censure.",
+        "cat": "Enseignement moral et civique",
+        "page": 6
+      }
+    },
+    {
+      "id": "EMC-0074",
+      "cat": "Enseignement moral et civique",
+      "page": 7,
+      "chapter": "D. Institutions françaises",
+      "topic": "Institutions françaises",
+      "source": "Les parlementaires votent la loi, contrôlent le Gouvernement et évaluent les politiques publiques.",
+      "previousSource": {
+        "id": "EMC-0073",
+        "source": "D.3 Le Parlement Structure: bicaméralisme imparfait comprenant l’Assemblée nationale (députés élus au suffrage universel direct pour cinq ans) et le Sénat (sénateurs élus au suffrage indirect pour six ans).",
+        "cat": "Enseignement moral et civique",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "EMC-0075",
+        "source": "Pouvoir législatif: le Parlement vote les lois, autorise les déclarations de guerre et ratifie les traités.",
+        "cat": "Enseignement moral et civique",
+        "page": 7
+      }
+    },
+    {
+      "id": "EMC-0080",
+      "cat": "Enseignement moral et civique",
+      "page": 7,
+      "chapter": "D. Institutions françaises",
+      "topic": "Textes fondamentaux",
+      "source": "Depuis 2008, la QPC (question prioritaire de constitutionnalité) permet aux citoyens de contester la constitutionnalité d’une loi.",
+      "previousSource": {
+        "id": "EMC-0079",
+        "source": "D.4 Le Conseil constitutionnel Mission: contrôle de constitutionnalité des lois, vérification de la régularité des élections nationales et référendums, contrôle des incompatibilités des parlementaires.",
+        "cat": "Enseignement moral et civique",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "EMC-0081",
+        "source": "Composition: neuf membres nommés pour neuf ans (trois par le Président, trois par le président de l’Assemblée nationale, trois par le président du Sénat) plus les anciens Présidents de la République membres de droit.",
+        "cat": "Enseignement moral et civique",
+        "page": 7
+      }
+    },
+    {
+      "id": "EMC-0083",
+      "cat": "Enseignement moral et civique",
+      "page": 7,
+      "chapter": "D. Institutions françaises",
+      "topic": "Institutions françaises",
+      "source": "Il conseille le Gouvernement (avis sur les projets de loi et ordonnances) et juge en dernier ressort les litiges entre les particuliers et l’administration.",
+      "previousSource": {
+        "id": "EMC-0082",
+        "source": "D.5 Le Conseil d’État et la justice administrative Conseil d’État: plus haute juridiction administrative.",
+        "cat": "Enseignement moral et civique",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "EMC-0084",
+        "source": "Le contentieux administratif comprend notamment les recours pour excès de pouvoir.",
+        "cat": "Enseignement moral et civique",
+        "page": 7
+      }
+    },
+    {
+      "id": "EMC-0084",
+      "cat": "Enseignement moral et civique",
+      "page": 7,
+      "chapter": "D. Institutions françaises",
+      "topic": "Justice",
+      "source": "Le contentieux administratif comprend notamment les recours pour excès de pouvoir.",
+      "previousSource": {
+        "id": "EMC-0083",
+        "source": "Il conseille le Gouvernement (avis sur les projets de loi et ordonnances) et juge en dernier ressort les litiges entre les particuliers et l’administration.",
+        "cat": "Enseignement moral et civique",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "EMC-0085",
+        "source": "Organisation: tribunaux administratifs, cours administratives d’appel et Conseil d’État.",
+        "cat": "Enseignement moral et civique",
+        "page": 7
+      }
+    },
+    {
+      "id": "EMC-0089",
+      "cat": "Enseignement moral et civique",
+      "page": 7,
+      "chapter": "D. Institutions françaises",
+      "topic": "D. Institutions françaises",
+      "source": "Elles disposent de compétences propres (urbanisme, action sociale, transports scolaires, développement économique...) et sont dirigées par des assemblées élues (maire, conseil départemental, conseil régional).",
+      "previousSource": {
+        "id": "EMC-0088",
+        "source": "D.7 Les collectivités territoriales Niveaux: communes, départements, régions, collectivités et territoires d’outre‐mer.",
+        "cat": "Enseignement moral et civique",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "EMC-0090",
+        "source": "La décentralisation, entamée en 1982, renforce leurs pouvoirs.",
+        "cat": "Enseignement moral et civique",
+        "page": 7
+      }
+    },
+    {
+      "id": "EMC-0105",
+      "cat": "Enseignement moral et civique",
+      "page": 8,
+      "chapter": "D. Institutions françaises",
+      "topic": "Institutions françaises",
+      "source": "Depuis 2015, un référendum d’initiative partagée peut être déclenché par un cinquième des parlementaires soutenu par 10 % des électeurs inscrits.",
+      "previousSource": {
+        "id": "EMC-0104",
+        "source": "Référendum: procédure de démocratie directe (article 11 de la Constitution).",
+        "cat": "Enseignement moral et civique",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "EMC-0106",
+        "source": "E.2 Séparation des pouvoirs Concept: la Constitution répartit les pouvoirs législatif (Parlement), exécutif (Président + Gouvernement) et judiciaire (juridictions).",
+        "cat": "Enseignement moral et civique",
+        "page": 8
+      }
+    },
+    {
+      "id": "EMC-0111",
+      "cat": "Enseignement moral et civique",
+      "page": 9,
+      "chapter": "C. Textes fondamentaux",
+      "topic": "Textes fondamentaux",
+      "source": "La CEDH et la Cour de justice de l’UE renforcent ce contrôle.",
+      "previousSource": {
+        "id": "EMC-0110",
+        "source": "État de droit: soumission de l’État et des citoyens à la loi, hiérarchie des normes (Constitution, lois, règlements).",
+        "cat": "Enseignement moral et civique",
+        "page": 9
+      },
+      "nextSource": {
+        "id": "EMC-0112",
+        "source": "Pluralisme: reconnaissance du rôle des partis politiques, des syndicats et des associations.",
+        "cat": "Enseignement moral et civique",
+        "page": 9
+      }
+    },
+    {
+      "id": "EMC-0119",
+      "cat": "Enseignement moral et civique",
+      "page": 9,
+      "chapter": "E-F. Principes démocratiques, droits et libertés",
+      "topic": "E-F. Principes démocratiques, droits et libertés",
+      "source": "La procédure exige la signature d’au moins 10 % du corps électoral.",
+      "previousSource": {
+        "id": "EMC-0118",
+        "source": "Référendum: attention au référendum d’initiative partagée (RIP), différent du référendum d’initiative citoyenne (non reconnu).",
+        "cat": "Enseignement moral et civique",
+        "page": 9
+      },
+      "nextSource": {
+        "id": "EMC-0120",
+        "source": "F.1 Libertés individuelles Liberté d’expression: protégée par l’article 11 de la DDHC et l’article 10 de la CEDH.",
+        "cat": "Enseignement moral et civique",
+        "page": 9
+      }
+    },
+    {
+      "id": "EMC-0121",
+      "cat": "Enseignement moral et civique",
+      "page": 9,
+      "chapter": "E-F. Principes démocratiques, droits et libertés",
+      "topic": "E-F. Principes démocratiques, droits et libertés",
+      "source": "La loi du 29 juillet 1881 encadre les délits de presse (diffamation, injure, provocation à la haine).",
+      "previousSource": {
+        "id": "EMC-0120",
+        "source": "F.1 Libertés individuelles Liberté d’expression: protégée par l’article 11 de la DDHC et l’article 10 de la CEDH.",
+        "cat": "Enseignement moral et civique",
+        "page": 9
+      },
+      "nextSource": {
+        "id": "EMC-0122",
+        "source": "Liberté de conscience et de religion: garantie par l’article 10 de la DDHC et la loi de 1905.",
+        "cat": "Enseignement moral et civique",
+        "page": 9
+      }
+    },
+    {
+      "id": "EMC-0124",
+      "cat": "Enseignement moral et civique",
+      "page": 9,
+      "chapter": "E-F. Principes démocratiques, droits et libertés",
+      "topic": "Valeurs de la République",
+      "source": "La loi de 1901 garantit la liberté d’association.",
+      "previousSource": {
+        "id": "EMC-0123",
+        "source": "Liberté de réunion et d’association: droit de se rassembler pacifiquement sans armes, pour une finalité licite.",
+        "cat": "Enseignement moral et civique",
+        "page": 9
+      },
+      "nextSource": {
+        "id": "EMC-0125",
+        "source": "Liberté syndicale: tout agent public peut créer ou adhérer à un syndicat sans discrimination.",
+        "cat": "Enseignement moral et civique",
+        "page": 9
+      }
+    },
+    {
+      "id": "EMC-0129",
+      "cat": "Enseignement moral et civique",
+      "page": 9,
+      "chapter": "E-F. Principes démocratiques, droits et libertés",
+      "topic": "E-F. Principes démocratiques, droits et libertés",
+      "source": "L’abstention n’est pas sanctionnée mais peut être mentionnée dans les",
+      "previousSource": {
+        "id": "EMC-0128",
+        "source": "Le vote est secret et personnel.",
+        "cat": "Enseignement moral et civique",
+        "page": 9
+      },
+      "nextSource": {
+        "id": "EMC-0130",
+        "source": "Droit à la participation: pétitions, consultations publiques, référendums, participation aux conseils municipaux et aux jurys populaires (assises).",
+        "cat": "Enseignement moral et civique",
+        "page": 9
+      }
+    },
+    {
+      "id": "EMC-0134",
+      "cat": "Enseignement moral et civique",
+      "page": 10,
+      "chapter": "E-F. Principes démocratiques, droits et libertés",
+      "topic": "E-F. Principes démocratiques, droits et libertés",
+      "source": "Le droit de grève doit être exercé collectivement et de manière pacifique; des limitations existent pour certains services publics.",
+      "previousSource": {
+        "id": "EMC-0133",
+        "source": "Droits syndicaux et droit de grève: reconnus à tous les salariés.",
+        "cat": "Enseignement moral et civique",
+        "page": 10
+      },
+      "nextSource": {
+        "id": "EMC-0135",
+        "source": "F.4 Droits collectifs Droit à un environnement sain: la Charte de l’environnement reconnaît un droit à vivre dans un environnement équilibré et respectueux de la santé.",
+        "cat": "Enseignement moral et civique",
+        "page": 10
+      }
+    },
+    {
+      "id": "EMC-0139",
+      "cat": "Enseignement moral et civique",
+      "page": 10,
+      "chapter": "C. Textes fondamentaux",
+      "topic": "Textes fondamentaux",
+      "source": "Une opinion raciste n’est pas protégée par l’article 11 de la DDHC.",
+      "previousSource": {
+        "id": "EMC-0137",
+        "source": "Il rappelle que la protection des données est un droit fondamental inscrit dans l’article 8 de la Charte des droits fondamentaux.",
+        "cat": "Enseignement moral et civique",
+        "page": 10
+      },
+      "nextSource": {
+        "id": "EMC-0140",
+        "source": "Liberté de réunion: ne pas confondre la liberté de réunion (sans arme, but licite) et la liberté de manifester sur la voie publique, qui nécessite parfois une déclaration préalable.",
+        "cat": "Enseignement moral et civique",
+        "page": 10
+      }
+    },
+    {
+      "id": "EMC-0144",
+      "cat": "Enseignement moral et civique",
+      "page": 10,
+      "chapter": "E-F. Principes démocratiques, droits et libertés",
+      "topic": "Valeurs de la République",
+      "source": "Elle garantit la liberté de conscience et le libre exercice des cultes, supprime les cultes reconnus et rend l’État neutre.",
+      "previousSource": {
+        "id": "EMC-0143",
+        "source": "Loi de 1905: marque la séparation des Églises et de l’État.",
+        "cat": "Enseignement moral et civique",
+        "page": 10
+      },
+      "nextSource": {
+        "id": "EMC-0145",
+        "source": "Les édifices cultuels antérieurs deviennent propriété publique, et les associations cultuelles gèrent l’exercice des cultes.",
+        "cat": "Enseignement moral et civique",
+        "page": 10
+      }
+    },
+    {
+      "id": "EMC-0145",
+      "cat": "Enseignement moral et civique",
+      "page": 10,
+      "chapter": "E-F. Principes démocratiques, droits et libertés",
+      "topic": "E-F. Principes démocratiques, droits et libertés",
+      "source": "Les édifices cultuels antérieurs deviennent propriété publique, et les associations cultuelles gèrent l’exercice des cultes.",
+      "previousSource": {
+        "id": "EMC-0144",
+        "source": "Elle garantit la liberté de conscience et le libre exercice des cultes, supprime les cultes reconnus et rend l’État neutre.",
+        "cat": "Enseignement moral et civique",
+        "page": 10
+      },
+      "nextSource": {
+        "id": "EMC-0146",
+        "source": "Les manifestations religieuses dans l’espace public sont réglementées.",
+        "cat": "Enseignement moral et civique",
+        "page": 10
+      }
+    },
+    {
+      "id": "EMC-0150",
+      "cat": "Enseignement moral et civique",
+      "page": 10,
+      "chapter": "G-H. Laïcité, citoyenneté et devoirs",
+      "topic": "Laïcité",
+      "source": "La laïcité protège également les non‐croyants.",
+      "previousSource": {
+        "id": "EMC-0149",
+        "source": "Liberté de conscience: chacun est libre de croire ou de ne pas croire.",
+        "cat": "Enseignement moral et civique",
+        "page": 10
+      },
+      "nextSource": {
+        "id": "EMC-0151",
+        "source": "Égalité des cultes: tous les cultes sont placés sur un pied d’égalité et soumis au droit commun (associations cultuelles, police des cultes).",
+        "cat": "Enseignement moral et civique",
+        "page": 11
+      }
+    },
+    {
+      "id": "EMC-0159",
+      "cat": "Enseignement moral et civique",
+      "page": 11,
+      "chapter": "G-H. Laïcité, citoyenneté et devoirs",
+      "topic": "G-H. Laïcité, citoyenneté et devoirs",
+      "source": "Elle s’acquiert par filiation (droit du sang), par naissance en France et résidence (droit du sol), par naturalisation ou par mariage.",
+      "previousSource": {
+        "id": "EMC-0158",
+        "source": "H.1 Nationalité et citoyenneté Nationalité: qualité juridique définie par le Code civil.",
+        "cat": "Enseignement moral et civique",
+        "page": 11
+      },
+      "nextSource": {
+        "id": "EMC-0160",
+        "source": "Citoyenneté: renvoie à la participation à la vie de la cité.",
+        "cat": "Enseignement moral et civique",
+        "page": 11
+      }
+    },
+    {
+      "id": "EMC-0161",
+      "cat": "Enseignement moral et civique",
+      "page": 11,
+      "chapter": "G-H. Laïcité, citoyenneté et devoirs",
+      "topic": "Citoyenneté",
+      "source": "Tous les citoyens français majeurs jouissent des droits civiques et politiques (vote, être élu).",
+      "previousSource": {
+        "id": "EMC-0160",
+        "source": "Citoyenneté: renvoie à la participation à la vie de la cité.",
+        "cat": "Enseignement moral et civique",
+        "page": 11
+      },
+      "nextSource": {
+        "id": "EMC-0163",
+        "source": "H.2 Devoirs du citoyen Respect des lois: chacun doit respecter l’ordre public.",
+        "cat": "Enseignement moral et civique",
+        "page": 11
+      }
+    },
+    {
+      "id": "EMC-0198",
+      "cat": "Enseignement moral et civique",
+      "page": 13,
+      "chapter": "K-L. Environnement et responsabilités",
+      "topic": "Justice",
+      "source": "Les principaux organes sont l’Assemblée générale (tous les États membres), le Conseil de sécurité (15 membres dont 5 permanents), le Secrétariat général et la Cour internationale de justice.",
+      "previousSource": {
+        "id": "EMC-0197",
+        "source": "J.3 ONU et OTAN ONU: organisation mondiale fondée en 1945 pour la paix, la sécurité et la coopération.",
+        "cat": "Enseignement moral et civique",
+        "page": 13
+      },
+      "nextSource": {
+        "id": "EMC-0199",
+        "source": "La France est membre permanent du Conseil de sécurité.",
+        "cat": "Enseignement moral et civique",
+        "page": 13
+      }
+    },
+    {
+      "id": "EMC-0208",
+      "cat": "Enseignement moral et civique",
+      "page": 14,
+      "chapter": "D. Institutions françaises",
+      "topic": "Institutions françaises",
+      "source": "Les États membres et le Parlement peuvent solliciter la Commission mais ne peuvent pas déposer de projets de loi européens.",
+      "previousSource": {
+        "id": "EMC-0207",
+        "source": "Commission européenne: elle seule a l’initiative législative au niveau européen.",
+        "cat": "Enseignement moral et civique",
+        "page": 14
+      },
+      "nextSource": {
+        "id": "EMC-0209",
+        "source": "Droit de veto: seuls les États permanents du Conseil de sécurité de l’ONU disposent d’un droit de veto, pas les États au sein de l’UE.",
+        "cat": "Enseignement moral et civique",
+        "page": 14
+      }
+    },
+    {
+      "id": "EMC-0216",
+      "cat": "Enseignement moral et civique",
+      "page": 14,
+      "chapter": "K-L. Environnement et responsabilités",
+      "topic": "K-L. Environnement et responsabilités",
+      "source": "Protéger son identité passe par des mots de passe sécurisés, la vigilance face au phishing et le contrôle des paramètres de confidentialité.",
+      "previousSource": {
+        "id": "EMC-0215",
+        "source": "K.2 Citoyenneté numérique Identité numérique: ensemble des traces laissées sur Internet (réseaux sociaux, courriels).",
+        "cat": "Enseignement moral et civique",
+        "page": 14
+      },
+      "nextSource": {
+        "id": "EMC-0217",
+        "source": "Réseaux sociaux: espaces de partage qui posent des enjeux de diffusion de fausses informations.",
+        "cat": "Enseignement moral et civique",
+        "page": 14
+      }
+    },
+    {
+      "id": "EMC-0219",
+      "cat": "Enseignement moral et civique",
+      "page": 14,
+      "chapter": "K-L. Environnement et responsabilités",
+      "topic": "K-L. Environnement et responsabilités",
+      "source": "Les plateformes et la loi renforcent la protection des mineurs.",
+      "previousSource": {
+        "id": "EMC-0218",
+        "source": "Cyberharcèlement et cyberviolence: infractions pénales (injure, diffamation, menaces) passibles d’amendes et d’emprisonnement.",
+        "cat": "Enseignement moral et civique",
+        "page": 14
+      },
+      "nextSource": {
+        "id": "EMC-0220",
+        "source": "K.3 Services publics en ligne Dématérialisation: l’administration numérique offre de nombreux services (impôts, démarches sociales, demande de carte d’identité, etc.).",
+        "cat": "Enseignement moral et civique",
+        "page": 15
+      }
+    },
+    {
+      "id": "EMC-0245",
+      "cat": "Enseignement moral et civique",
+      "page": 16,
+      "chapter": "M. Égalité et lutte contre les discriminations",
+      "topic": "Valeurs de la République",
+      "source": "La loi de 2014 sur l’égalité réelle vise à résorber les écarts de salaires et de carrières.",
+      "previousSource": {
+        "id": "EMC-0244",
+        "source": "Lois sur la parité (2000, 2007) imposent des quotas de femmes dans les listes électorales et les instances dirigeantes.",
+        "cat": "Enseignement moral et civique",
+        "page": 16
+      },
+      "nextSource": {
+        "id": "EMC-0246",
+        "source": "Lutte contre le racisme et l’antisémitisme: la loi Pleven (1972) crée un délit de provocation à la discrimination et à la haine raciale, complétée par la loi Gayssot (1990) qui réprime la contestation des crimes contre l’humanité.",
+        "cat": "Enseignement moral et civique",
+        "page": 16
+      }
+    },
+    {
+      "id": "EMC-0250",
+      "cat": "Enseignement moral et civique",
+      "page": 16,
+      "chapter": "M. Égalité et lutte contre les discriminations",
+      "topic": "Valeurs de la République",
+      "source": "La HALDE (Haute Autorité de lutte contre les discriminations et pour l’égalité) a été remplacée par le Défenseur des droits (2011).",
+      "previousSource": {
+        "id": "EMC-0249",
+        "source": "Discriminations multiples: origines, sexe, orientation sexuelle, situation de handicap, âge, religion.",
+        "cat": "Enseignement moral et civique",
+        "page": 16
+      },
+      "nextSource": {
+        "id": "EMC-0251",
+        "source": "M.2 Politiques publiques Éducation: programmes d’éducation morale et civique dès l’école primaire pour promouvoir l’égalité et le respect.",
+        "cat": "Enseignement moral et civique",
+        "page": 16
+      }
+    },
+    {
+      "id": "ACT-0006",
+      "cat": "Actualité",
+      "page": 2,
+      "chapter": "1. Politique française",
+      "topic": "1. Politique française",
+      "source": "Actualité - QCM Agent DGFiP / Contrôleur des douanes - version arrêtée au 31 août 2026",
+      "previousSource": {
+        "id": "ACT-0005",
+        "source": "Intérieur — À retenir au 31 août 2026: Laurent Nunez.",
+        "cat": "Actualité",
+        "page": 2
+      },
+      "nextSource": {
+        "id": "ACT-0007",
+        "source": "Justice — À retenir au 31 août 2026: Gérald Darmanin, garde des Sceaux.",
+        "cat": "Actualité",
+        "page": 3
+      }
+    },
+    {
+      "id": "ACT-0012",
+      "cat": "Actualité",
+      "page": 3,
+      "chapter": "2. Économie et finances",
+      "topic": "2. Économie et finances",
+      "source": "À compter du 1er septembre 2026, l’âge légal à 64 ans concerne la génération 1969, et non plus la génération 1968.",
+      "previousSource": {
+        "id": "ACT-0011",
+        "source": "Réforme des retraites: la loi de financement de la Sécurité sociale pour 2026 suspend jusqu’en 2028 une partie de la montée en charge de la réforme de 2023.",
+        "cat": "Actualité",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "ACT-0013",
+        "source": "Facturation électronique: au 1er septembre 2026, toutes les entreprises assujetties concernées doivent pouvoir recevoir des factures électroniques",
+        "cat": "Actualité",
+        "page": 3
+      }
+    },
+    {
+      "id": "ACT-0015",
+      "cat": "Actualité",
+      "page": 3,
+      "chapter": "2. Économie et finances",
+      "topic": "2. Économie et finances",
+      "source": "L’obligation d’émission pour les PME et micro-entreprises intervient au 1er septembre 2027.",
+      "previousSource": {
+        "id": "ACT-0014",
+        "source": "Facturation électronique: les grandes entreprises et ETI doivent aussi les émettre.",
+        "cat": "Actualité",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "ACT-0016",
+        "source": "Les réformes liées au pouvoir d’achat, à l’emploi, aux finances publiques, à l’école et à la santé sont des thèmes classiques de QCM: retenir l’objectif de la mesure, sa date d’entrée en vigueur et le public concerné.",
+        "cat": "Actualité",
+        "page": 3
+      }
+    },
+    {
+      "id": "ACT-0016",
+      "cat": "Actualité",
+      "page": 3,
+      "chapter": "2. Économie et finances",
+      "topic": "2. Économie et finances",
+      "source": "Les réformes liées au pouvoir d’achat, à l’emploi, aux finances publiques, à l’école et à la santé sont des thèmes classiques de QCM: retenir l’objectif de la mesure, sa date d’entrée en vigueur et le public concerné.",
+      "previousSource": {
+        "id": "ACT-0015",
+        "source": "L’obligation d’émission pour les PME et micro-entreprises intervient au 1er septembre 2027.",
+        "cat": "Actualité",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "ACT-0017",
+        "source": "Élections européennes de 2024 en France: scrutin de liste à la représentation proportionnelle à un tour.",
+        "cat": "Actualité",
+        "page": 3
+      }
+    },
+    {
+      "id": "ACT-0037",
+      "cat": "Actualité",
+      "page": 4,
+      "chapter": "2. Économie et finances",
+      "topic": "2. Économie et finances",
+      "source": "Inflation = évolution des prix.",
+      "previousSource": {
+        "id": "ACT-0036",
+        "source": "Dépenses publiques 2025 — Interprétation QCM: Ordre de grandeur à connaître, pas le chiffre au dixième à vie.",
+        "cat": "Actualité",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "ACT-0038",
+        "source": "Croissance = évolution du PIB.",
+        "cat": "Actualité",
+        "page": 4
+      }
+    },
+    {
+      "id": "ACT-0038",
+      "cat": "Actualité",
+      "page": 4,
+      "chapter": "2. Économie et finances",
+      "topic": "2. Économie et finances",
+      "source": "Croissance = évolution du PIB.",
+      "previousSource": {
+        "id": "ACT-0037",
+        "source": "Inflation = évolution des prix.",
+        "cat": "Actualité",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "ACT-0039",
+        "source": "En avril 2025, les États-Unis ont instauré un droit additionnel de base de 10 % sur de nombreuses importations, complété par des taux spécifiques selon les pays et ensuite modifié par des négociations et décisions successives.",
+        "cat": "Actualité",
+        "page": 4
+      }
+    },
+    {
+      "id": "ACT-0039",
+      "cat": "Actualité",
+      "page": 4,
+      "chapter": "2. Économie et finances",
+      "topic": "2. Économie et finances",
+      "source": "En avril 2025, les États-Unis ont instauré un droit additionnel de base de 10 % sur de nombreuses importations, complété par des taux spécifiques selon les pays et ensuite modifié par des négociations et décisions successives.",
+      "previousSource": {
+        "id": "ACT-0038",
+        "source": "Croissance = évolution du PIB.",
+        "cat": "Actualité",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "ACT-0040",
+        "source": "Un droit de douane est une taxe prélevée sur certaines marchandises à l’importation.",
+        "cat": "Actualité",
+        "page": 4
+      }
+    },
+    {
+      "id": "ACT-0041",
+      "cat": "Actualité",
+      "page": 4,
+      "chapter": "2. Économie et finances",
+      "topic": "2. Économie et finances",
+      "source": "Il peut protéger un secteur national mais aussi renchérir le prix des produits importés et provoquer des mesures de rétorsion.",
+      "previousSource": {
+        "id": "ACT-0040",
+        "source": "Un droit de douane est une taxe prélevée sur certaines marchandises à l’importation.",
+        "cat": "Actualité",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "ACT-0042",
+        "source": "La France a accueilli le sommet du G7 à Évian-les-Bains du 15 au 17 juin 2026.",
+        "cat": "Actualité",
+        "page": 4
+      }
+    },
+    {
+      "id": "ACT-0042",
+      "cat": "Actualité",
+      "page": 4,
+      "chapter": "2. Économie et finances",
+      "topic": "2. Économie et finances",
+      "source": "La France a accueilli le sommet du G7 à Évian-les-Bains du 15 au 17 juin 2026.",
+      "previousSource": {
+        "id": "ACT-0041",
+        "source": "Il peut protéger un secteur national mais aussi renchérir le prix des produits importés et provoquer des mesures de rétorsion.",
+        "cat": "Actualité",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "ACT-0043",
+        "source": "Principaux thèmes: Ukraine et sécurité européenne, crises au Moyen-Orient, croissance durable et partagée, sécurité économique, partenariats internationaux et intelligence artificielle.",
+        "cat": "Actualité",
+        "page": 4
+      }
+    },
+    {
+      "id": "ACT-0044",
+      "cat": "Actualité",
+      "page": 5,
+      "chapter": "3. Actualité internationale",
+      "topic": "3. Actualité internationale",
+      "source": "Le G7 réunit Allemagne, Canada, États-Unis, France, Italie, Japon et Royaume-Uni, avec l’Union européenne représentée aux travaux.",
+      "previousSource": {
+        "id": "ACT-0043",
+        "source": "Principaux thèmes: Ukraine et sécurité européenne, crises au Moyen-Orient, croissance durable et partagée, sécurité économique, partenariats internationaux et intelligence artificielle.",
+        "cat": "Actualité",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "ACT-0045",
+        "source": "La guerre déclenchée par l’invasion russe à grande échelle de février 2022 se poursuit en 2026.",
+        "cat": "Actualité",
+        "page": 5
+      }
+    },
+    {
+      "id": "ACT-0046",
+      "cat": "Actualité",
+      "page": 5,
+      "chapter": "3. Actualité internationale",
+      "topic": "3. Actualité internationale",
+      "source": "L’Ukraine n’est pas membre de l’OTAN.",
+      "previousSource": {
+        "id": "ACT-0045",
+        "source": "La guerre déclenchée par l’invasion russe à grande échelle de février 2022 se poursuit en 2026.",
+        "cat": "Actualité",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "ACT-0047",
+        "source": "Les discussions diplomatiques et les rapports de force militaires évoluent rapidement: retenir les acteurs, le statut de l’Ukraine et le rôle des organisations plutôt que des détails tactiques qui vieillissent en quelques jours.",
+        "cat": "Actualité",
+        "page": 5
+      }
+    },
+    {
+      "id": "ACT-0053",
+      "cat": "Actualité",
+      "page": 5,
+      "chapter": "3. Actualité internationale",
+      "topic": "3. Actualité internationale",
+      "source": "Le sommet de l’OTAN à Ankara s’est tenu en juillet 2026.",
+      "previousSource": {
+        "id": "ACT-0052",
+        "source": "Mark Rutte est secrétaire général de l’OTAN depuis le 1er octobre 2024.",
+        "cat": "Actualité",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "ACT-0054",
+        "source": "Les Alliés ont réaffirmé l’article 5 et la poursuite du soutien à l’Ukraine.",
+        "cat": "Actualité",
+        "page": 5
+      }
+    },
+    {
+      "id": "ACT-0054",
+      "cat": "Actualité",
+      "page": 5,
+      "chapter": "3. Actualité internationale",
+      "topic": "3. Actualité internationale",
+      "source": "Les Alliés ont réaffirmé l’article 5 et la poursuite du soutien à l’Ukraine.",
+      "previousSource": {
+        "id": "ACT-0053",
+        "source": "Le sommet de l’OTAN à Ankara s’est tenu en juillet 2026.",
+        "cat": "Actualité",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "ACT-0055",
+        "source": "Objectif adopté au sommet de La Haye en 2025: parvenir d’ici 2035 à 5 % du PIB pour les dépenses de défense et de sécurité au sens large, dont au moins 3,5 % pour les besoins de défense proprement dits.",
+        "cat": "Actualité",
+        "page": 5
+      }
+    },
+    {
+      "id": "ACT-0056",
+      "cat": "Actualité",
+      "page": 5,
+      "chapter": "3. Actualité internationale",
+      "topic": "3. Actualité internationale",
+      "source": "L’Irlande exerce la présidence tournante du Conseil de l’Union européenne du 1er juillet au 31 décembre 2026.",
+      "previousSource": {
+        "id": "ACT-0055",
+        "source": "Objectif adopté au sommet de La Haye en 2025: parvenir d’ici 2035 à 5 % du PIB pour les dépenses de défense et de sécurité au sens large, dont au moins 3,5 % pour les besoins de défense proprement dits.",
+        "cat": "Actualité",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "ACT-0057",
+        "source": "Elle succède à Chypre et sera suivie par la Lituanie au premier semestre 2027.",
+        "cat": "Actualité",
+        "page": 5
+      }
+    },
+    {
+      "id": "ACT-0057",
+      "cat": "Actualité",
+      "page": 5,
+      "chapter": "3. Actualité internationale",
+      "topic": "3. Actualité internationale",
+      "source": "Elle succède à Chypre et sera suivie par la Lituanie au premier semestre 2027.",
+      "previousSource": {
+        "id": "ACT-0056",
+        "source": "L’Irlande exerce la présidence tournante du Conseil de l’Union européenne du 1er juillet au 31 décembre 2026.",
+        "cat": "Actualité",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "ACT-0058",
+        "source": "Ne pas confondre la présidence tournante du Conseil de l’UE avec le président du Conseil européen, fonction permanente occupée par António Costa depuis le 1er décembre 2024.",
+        "cat": "Actualité",
+        "page": 5
+      }
+    },
+    {
+      "id": "ACT-0061",
+      "cat": "Actualité",
+      "page": 6,
+      "chapter": "3. Actualité internationale",
+      "topic": "3. Actualité internationale",
+      "source": "L’Organisation météorologique mondiale a confirmé que 2025 a été l’une des trois années les plus chaudes jamais enregistrées.",
+      "previousSource": {
+        "id": "ACT-0060",
+        "source": "Naissances en 2025 — Valeur à retenir: 645 000.",
+        "cat": "Actualité",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "ACT-0062",
+        "source": "Les onze années 2015-2025 sont les onze années les plus chaudes des séries mondiales utilisées par l’OMM.",
+        "cat": "Actualité",
+        "page": 6
+      }
+    },
+    {
+      "id": "ACT-0063",
+      "cat": "Actualité",
+      "page": 6,
+      "chapter": "3. Actualité internationale",
+      "topic": "3. Actualité internationale",
+      "source": "La neutralité climatique de l’Union européenne est visée à l’horizon 2050.",
+      "previousSource": {
+        "id": "ACT-0062",
+        "source": "Les onze années 2015-2025 sont les onze années les plus chaudes des séries mondiales utilisées par l’OMM.",
+        "cat": "Actualité",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "ACT-0064",
+        "source": "Accord BBNJ sur la biodiversité marine en haute mer: adopté le 19 juin 2023 et entré en vigueur le 17 janvier 2026.",
+        "cat": "Actualité",
+        "page": 6
+      }
+    },
+    {
+      "id": "ACT-0066",
+      "cat": "Actualité",
+      "page": 6,
+      "chapter": "3. Actualité internationale",
+      "topic": "3. Actualité internationale",
+      "source": "Un épisode de canicule très étendu a touché la France hexagonale du 4 au 22 juillet 2026; tous les habitants de l’Hexagone ont été concernés par au moins un jour de vigilance orange.",
+      "previousSource": {
+        "id": "ACT-0065",
+        "source": "Objectif: conservation et utilisation durable de la biodiversité marine au-delà des juridictions nationales.",
+        "cat": "Actualité",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "ACT-0067",
+        "source": "Du 10 au 15 juillet, 37 départements ont été placés en vigilance rouge canicule.",
+        "cat": "Actualité",
+        "page": 6
+      }
+    },
+    {
+      "id": "ACT-0067",
+      "cat": "Actualité",
+      "page": 6,
+      "chapter": "3. Actualité internationale",
+      "topic": "3. Actualité internationale",
+      "source": "Du 10 au 15 juillet, 37 départements ont été placés en vigilance rouge canicule.",
+      "previousSource": {
+        "id": "ACT-0066",
+        "source": "Un épisode de canicule très étendu a touché la France hexagonale du 4 au 22 juillet 2026; tous les habitants de l’Hexagone ont été concernés par au moins un jour de vigilance orange.",
+        "cat": "Actualité",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "ACT-0068",
+        "source": "Un nouvel épisode a débuté fin juillet; entre le 29 juillet et le 10 août, 28 % de la population hexagonale a connu au moins un jour de vigilance orange.",
+        "cat": "Actualité",
+        "page": 6
+      }
+    },
+    {
+      "id": "ACT-0068",
+      "cat": "Actualité",
+      "page": 6,
+      "chapter": "3. Actualité internationale",
+      "topic": "3. Actualité internationale",
+      "source": "Un nouvel épisode a débuté fin juillet; entre le 29 juillet et le 10 août, 28 % de la population hexagonale a connu au moins un jour de vigilance orange.",
+      "previousSource": {
+        "id": "ACT-0067",
+        "source": "Du 10 au 15 juillet, 37 départements ont été placés en vigilance rouge canicule.",
+        "cat": "Actualité",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "ACT-0069",
+        "source": "Décès en 2025 — Valeur à retenir: 651 000.",
+        "cat": "Actualité",
+        "page": 7
+      }
+    },
+    {
+      "id": "ACT-0076",
+      "cat": "Actualité",
+      "page": 7,
+      "chapter": "4. Écologie et énergie",
+      "topic": "4. Écologie et énergie",
+      "source": "détecté depuis le 2 janvier au point de situation du 11 août 2026.",
+      "previousSource": {
+        "id": "ACT-0075",
+        "source": "Première détection en France: 29 juin 2025 en Savoie.",
+        "cat": "Actualité",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "ACT-0077",
+        "source": "La stratégie repose sur détection, restrictions de mouvements, dépeuplement des foyers et vaccination; une campagne vaccinale 2026 a été lancée.",
+        "cat": "Actualité",
+        "page": 7
+      }
+    },
+    {
+      "id": "ACT-0077",
+      "cat": "Actualité",
+      "page": 7,
+      "chapter": "4. Écologie et énergie",
+      "topic": "4. Écologie et énergie",
+      "source": "La stratégie repose sur détection, restrictions de mouvements, dépeuplement des foyers et vaccination; une campagne vaccinale 2026 a été lancée.",
+      "previousSource": {
+        "id": "ACT-0076",
+        "source": "détecté depuis le 2 janvier au point de situation du 11 août 2026.",
+        "cat": "Actualité",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "ACT-0078",
+        "source": "À partir du 1er septembre 2026, la suspension partielle de la réforme des retraites modifie le calendrier de relèvement de l’âge légal et de la durée d’assurance.",
+        "cat": "Actualité",
+        "page": 7
+      }
+    },
+    {
+      "id": "ACT-0078",
+      "cat": "Actualité",
+      "page": 7,
+      "chapter": "4. Écologie et énergie",
+      "topic": "4. Écologie et énergie",
+      "source": "À partir du 1er septembre 2026, la suspension partielle de la réforme des retraites modifie le calendrier de relèvement de l’âge légal et de la durée d’assurance.",
+      "previousSource": {
+        "id": "ACT-0077",
+        "source": "La stratégie repose sur détection, restrictions de mouvements, dépeuplement des foyers et vaccination; une campagne vaccinale 2026 a été lancée.",
+        "cat": "Actualité",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "ACT-0079",
+        "source": "La génération 1968 a désormais un âge légal de 63 ans et 9 mois; l’âge de 64 ans s’applique à partir de la génération 1969.",
+        "cat": "Actualité",
+        "page": 7
+      }
+    },
+    {
+      "id": "ACT-0079",
+      "cat": "Actualité",
+      "page": 7,
+      "chapter": "4. Écologie et énergie",
+      "topic": "4. Écologie et énergie",
+      "source": "La génération 1968 a désormais un âge légal de 63 ans et 9 mois; l’âge de 64 ans s’applique à partir de la génération 1969.",
+      "previousSource": {
+        "id": "ACT-0078",
+        "source": "À partir du 1er septembre 2026, la suspension partielle de la réforme des retraites modifie le calendrier de relèvement de l’âge légal et de la durée d’assurance.",
+        "cat": "Actualité",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "ACT-0080",
+        "source": "Les sujets de société à surveiller pour les QCM: vieillissement démographique, natalité, pouvoir d’achat, emploi, immigration, école, santé et protection sociale.",
+        "cat": "Actualité",
+        "page": 7
+      }
+    },
+    {
+      "id": "ACT-0081",
+      "cat": "Actualité",
+      "page": 7,
+      "chapter": "4. Écologie et énergie",
+      "topic": "4. Écologie et énergie",
+      "source": "Positionnement — Cette partie porte sur l’actualité technologique générale, pas sur les connaissances techniques d’environnement informatique qui sont travaillées séparément.",
+      "previousSource": {
+        "id": "ACT-0080",
+        "source": "Les sujets de société à surveiller pour les QCM: vieillissement démographique, natalité, pouvoir d’achat, emploi, immigration, école, santé et protection sociale.",
+        "cat": "Actualité",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "ACT-0082",
+        "source": "Le règlement européen sur l’intelligence artificielle (AI Act) adopte une approche fondée sur les niveaux de risque.",
+        "cat": "Actualité",
+        "page": 7
+      }
+    },
+    {
+      "id": "ACT-0082",
+      "cat": "Actualité",
+      "page": 7,
+      "chapter": "4. Écologie et énergie",
+      "topic": "4. Écologie et énergie",
+      "source": "Le règlement européen sur l’intelligence artificielle (AI Act) adopte une approche fondée sur les niveaux de risque.",
+      "previousSource": {
+        "id": "ACT-0081",
+        "source": "Positionnement — Cette partie porte sur l’actualité technologique générale, pas sur les connaissances techniques d’environnement informatique qui sont travaillées séparément.",
+        "cat": "Actualité",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "ACT-0083",
+        "source": "Depuis le 2 août 2026, la Commission européenne commence à faire appliquer de nouvelles dispositions, notamment des exigences de transparence pour certains systèmes d’IA.",
+        "cat": "Actualité",
+        "page": 7
+      }
+    },
+    {
+      "id": "ACT-0083",
+      "cat": "Actualité",
+      "page": 7,
+      "chapter": "4. Écologie et énergie",
+      "topic": "4. Écologie et énergie",
+      "source": "Depuis le 2 août 2026, la Commission européenne commence à faire appliquer de nouvelles dispositions, notamment des exigences de transparence pour certains systèmes d’IA.",
+      "previousSource": {
+        "id": "ACT-0082",
+        "source": "Le règlement européen sur l’intelligence artificielle (AI Act) adopte une approche fondée sur les niveaux de risque.",
+        "cat": "Actualité",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "ACT-0086",
+        "source": "Banque mondiale — Siège / repère: Washington",
+        "cat": "Actualité",
+        "page": 8
+      }
+    },
+    {
+      "id": "ACT-0094",
+      "cat": "Actualité",
+      "page": 8,
+      "chapter": "5. Santé et société",
+      "topic": "5. Santé et société",
+      "source": "Les règles principales relatives à de nombreux systèmes à haut risque de l’annexe III doivent s’appliquer plus tard, à partir du 2 décembre 2027.",
+      "previousSource": {
+        "id": "ACT-0093",
+        "source": "Conseil de l’Europe — Dirigeant / fait à retenir: ce n’est pas une institution de l’UE.",
+        "cat": "Actualité",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "ACT-0095",
+        "source": "À partir du 11 septembre 2026, les fabricants doivent notamment signaler certaines vulnérabilités activement exploitées et certains incidents graves.",
+        "cat": "Actualité",
+        "page": 8
+      }
+    },
+    {
+      "id": "ACT-0095",
+      "cat": "Actualité",
+      "page": 8,
+      "chapter": "5. Santé et société",
+      "topic": "5. Santé et société",
+      "source": "À partir du 11 septembre 2026, les fabricants doivent notamment signaler certaines vulnérabilités activement exploitées et certains incidents graves.",
+      "previousSource": {
+        "id": "ACT-0094",
+        "source": "Les règles principales relatives à de nombreux systèmes à haut risque de l’annexe III doivent s’appliquer plus tard, à partir du 2 décembre 2027.",
+        "cat": "Actualité",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "ACT-0096",
+        "source": "Ne pas confondre: RGPD = protection des données personnelles",
+        "cat": "Actualité",
+        "page": 8
+      }
+    },
+    {
+      "id": "ORG-0002",
+      "cat": "Organisation et missions",
+      "page": 1,
+      "chapter": "1-2. Bercy, directions et services",
+      "topic": "1-2. Bercy, directions et services",
+      "source": "Organisation et missions des ministères économiques et financiers",
+      "previousSource": {
+        "id": "ORG-0001",
+        "source": "Le périmètre comprend aussi l’économie, le budget, la douane, la concurrence, les entreprises, la statistique publique, la dette de l’État et le renseignement financier.",
+        "cat": "Organisation et missions",
+        "page": 1
+      },
+      "nextSource": {
+        "id": "ORG-0003",
+        "source": "Responsable — Lauréat(s): Portefeuille",
+        "cat": "Organisation et missions",
+        "page": 2
+      }
+    },
+    {
+      "id": "ORG-0026",
+      "cat": "Organisation et missions",
+      "page": 3,
+      "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+      "topic": "DGFiP et fiscalité",
+      "source": "Elle réunit des missions fiscales et des missions de gestion publique.",
+      "previousSource": {
+        "id": "ORG-0025",
+        "source": "La Direction générale des Finances publiques (DGFiP), créée en 2008, est l’une des principales directions de Bercy.",
+        "cat": "Organisation et missions",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "ORG-0027",
+        "source": "Produire et contrôler la qualité des comptes de l’État.",
+        "cat": "Organisation et missions",
+        "page": 3
+      }
+    },
+    {
+      "id": "ORG-0027",
+      "cat": "Organisation et missions",
+      "page": 3,
+      "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+      "topic": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+      "source": "Produire et contrôler la qualité des comptes de l’État.",
+      "previousSource": {
+        "id": "ORG-0026",
+        "source": "Elle réunit des missions fiscales et des missions de gestion publique.",
+        "cat": "Organisation et missions",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "ORG-0028",
+        "source": "Participer au paiement et au contrôle des dépenses publiques.",
+        "cat": "Organisation et missions",
+        "page": 3
+      }
+    },
+    {
+      "id": "ORG-0029",
+      "cat": "Organisation et missions",
+      "page": 3,
+      "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+      "topic": "DGFiP et fiscalité",
+      "source": "DGFiP = impôts + recettes publiques + comptes publics + foncier + conseil financier au secteur public.",
+      "previousSource": {
+        "id": "ORG-0028",
+        "source": "Participer au paiement et au contrôle des dépenses publiques.",
+        "cat": "Organisation et missions",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "ORG-0030",
+        "source": "Le « Trésor public » n’est pas la DG Trésor: les centres des finances publiques relèvent de la DGFiP.",
+        "cat": "Organisation et missions",
+        "page": 3
+      }
+    },
+    {
+      "id": "ORG-0036",
+      "cat": "Organisation et missions",
+      "page": 4,
+      "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+      "topic": "DGCCRF",
+      "source": "La Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF) garantit l’ordre public économique et la confiance entre consommateurs et entreprises.",
+      "previousSource": {
+        "id": "ORG-0035",
+        "source": "Son domaine distinctif est celui des frontières, des marchandises, des échanges et des droits indirects.",
+        "cat": "Organisation et missions",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "ORG-0037",
+        "source": "Mener des enquêtes et contrôles, prononcer ou proposer des sanctions selon les cas.",
+        "cat": "Organisation et missions",
+        "page": 4
+      }
+    },
+    {
+      "id": "ORG-0037",
+      "cat": "Organisation et missions",
+      "page": 4,
+      "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+      "topic": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+      "source": "Mener des enquêtes et contrôles, prononcer ou proposer des sanctions selon les cas.",
+      "previousSource": {
+        "id": "ORG-0036",
+        "source": "La Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF) garantit l’ordre public économique et la confiance entre consommateurs et entreprises.",
+        "cat": "Organisation et missions",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "ORG-0038",
+        "source": "À ne pas confondre — DGCCRF = consommateurs et concurrence; DGDDI = marchandises et frontières; DGFiP = fiscalité et gestion publique.",
+        "cat": "Organisation et missions",
+        "page": 4
+      }
+    },
+    {
+      "id": "ORG-0039",
+      "cat": "Organisation et missions",
+      "page": 4,
+      "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+      "topic": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+      "source": "Supervise l’Agence France Trésor pour la dette et la trésorerie de l’État.",
+      "previousSource": {
+        "id": "ORG-0038",
+        "source": "À ne pas confondre — DGCCRF = consommateurs et concurrence; DGDDI = marchandises et frontières; DGFiP = fiscalité et gestion publique.",
+        "cat": "Organisation et missions",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "ORG-0041",
+        "source": "Cotisation sociale — Définition simplifiée: Prélèvement affecté au financement de la protection sociale.",
+        "cat": "Organisation et missions",
+        "page": 5
+      }
+    },
+    {
+      "id": "ORG-0044",
+      "cat": "Organisation et missions",
+      "page": 5,
+      "chapter": "7. Impôts, TVA et tarif douanier",
+      "topic": "7. Impôts, TVA et tarif douanier",
+      "source": "Réalise notamment le recensement de la population et de nombreuses enquêtes.",
+      "previousSource": {
+        "id": "ORG-0043",
+        "source": "Exerce et coordonne le contrôle budgétaire.",
+        "cat": "Organisation et missions",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "ORG-0045",
+        "source": "Exerce ses travaux avec indépendance professionnelle.",
+        "cat": "Organisation et missions",
+        "page": 5
+      }
+    },
+    {
+      "id": "ORG-0045",
+      "cat": "Organisation et missions",
+      "page": 5,
+      "chapter": "7. Impôts, TVA et tarif douanier",
+      "topic": "7. Impôts, TVA et tarif douanier",
+      "source": "Exerce ses travaux avec indépendance professionnelle.",
+      "previousSource": {
+        "id": "ORG-0044",
+        "source": "Réalise notamment le recensement de la population et de nombreuses enquêtes.",
+        "cat": "Organisation et missions",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "ORG-0046",
+        "source": "Gère la dette négociable de l’État au mieux des intérêts du contribuable.",
+        "cat": "Organisation et missions",
+        "page": 5
+      }
+    },
+    {
+      "id": "ORG-0046",
+      "cat": "Organisation et missions",
+      "page": 5,
+      "chapter": "7. Impôts, TVA et tarif douanier",
+      "topic": "7. Impôts, TVA et tarif douanier",
+      "source": "Gère la dette négociable de l’État au mieux des intérêts du contribuable.",
+      "previousSource": {
+        "id": "ORG-0045",
+        "source": "Exerce ses travaux avec indépendance professionnelle.",
+        "cat": "Organisation et missions",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "ORG-0047",
+        "source": "TVA signifie « taxe sur la valeur ajoutée ».",
+        "cat": "Organisation et missions",
+        "page": 5
+      }
+    },
+    {
+      "id": "ORG-0047",
+      "cat": "Organisation et missions",
+      "page": 5,
+      "chapter": "7. Impôts, TVA et tarif douanier",
+      "topic": "7. Impôts, TVA et tarif douanier",
+      "source": "TVA signifie « taxe sur la valeur ajoutée ».",
+      "previousSource": {
+        "id": "ORG-0046",
+        "source": "Gère la dette négociable de l’État au mieux des intérêts du contribuable.",
+        "cat": "Organisation et missions",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "ORG-0048",
+        "source": "C’est un impôt indirect sur la consommation: le consommateur final en supporte le coût, tandis que les entreprises la collectent et la reversent selon les règles applicables.",
+        "cat": "Organisation et missions",
+        "page": 5
+      }
+    },
+    {
+      "id": "ORG-0051",
+      "cat": "Organisation et missions",
+      "page": 5,
+      "chapter": "7. Impôts, TVA et tarif douanier",
+      "topic": "7. Impôts, TVA et tarif douanier",
+      "source": "TVA à payer: en simplifiant, TVA collectée – TVA déductible.",
+      "previousSource": {
+        "id": "ORG-0050",
+        "source": "TVA déductible: TVA supportée sur des achats ouvrant droit à déduction.",
+        "cat": "Organisation et missions",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "ORG-0052",
+        "source": "Principaux taux métropolitains: 20 %, 10 %, 5,5 % et 2,1 % selon les biens et services.",
+        "cat": "Organisation et missions",
+        "page": 5
+      }
+    },
+    {
+      "id": "ORG-0053",
+      "cat": "Organisation et missions",
+      "page": 5,
+      "chapter": "7. Impôts, TVA et tarif douanier",
+      "topic": "7. Impôts, TVA et tarif douanier",
+      "source": "Question type — « Qu’est-ce que la TVA? » → Taxe sur la valeur ajoutée.",
+      "previousSource": {
+        "id": "ORG-0052",
+        "source": "Principaux taux métropolitains: 20 %, 10 %, 5,5 % et 2,1 % selon les biens et services.",
+        "cat": "Organisation et missions",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "ORG-0054",
+        "source": "Question type — Au niveau du sujet test 2026, retenir simplement qu’un tarif douanier correspond à un droit de douane appliqué aux marchandises importées.",
+        "cat": "Organisation et missions",
+        "page": 5
+      }
+    },
+    {
+      "id": "ORG-0054",
+      "cat": "Organisation et missions",
+      "page": 5,
+      "chapter": "7. Impôts, TVA et tarif douanier",
+      "topic": "DGDDI et douane",
+      "source": "Question type — Au niveau du sujet test 2026, retenir simplement qu’un tarif douanier correspond à un droit de douane appliqué aux marchandises importées.",
+      "previousSource": {
+        "id": "ORG-0053",
+        "source": "Question type — « Qu’est-ce que la TVA? » → Taxe sur la valeur ajoutée.",
+        "cat": "Organisation et missions",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "ORG-0055",
+        "source": "Le contrôle fiscal est l’ensemble des vérifications effectuées par l’administration fiscale pour s’assurer que les contribuables – particuliers ou entreprises – respectent leurs obligations et que leurs déclarations sont exactes.",
+        "cat": "Organisation et missions",
+        "page": 6
+      }
+    },
+    {
+      "id": "ORG-0062",
+      "cat": "Organisation et missions",
+      "page": 6,
+      "chapter": "8-9. Contrôle fiscal, recouvrement et contentieux",
+      "topic": "DGFiP et fiscalité",
+      "source": "Dans un QCM de base, « recouvrement des impôts » = collecte / encaissement des impôts.",
+      "previousSource": {
+        "id": "ORG-0061",
+        "source": "Le recouvrement est l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt.",
+        "cat": "Organisation et missions",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "ORG-0063",
+        "source": "Recouvrement amiable ou spontané: le contribuable paie dans les délais.",
+        "cat": "Organisation et missions",
+        "page": 6
+      }
+    },
+    {
+      "id": "ORG-0073",
+      "cat": "Organisation et missions",
+      "page": 7,
+      "chapter": "10-11. Comptabilité publique et facturation électronique",
+      "topic": "10-11. Comptabilité publique et facturation électronique",
+      "source": "Depuis le 1er janvier 2023, l’ancien régime spécifique de responsabilité personnelle et pécuniaire des comptables a été remplacé par un régime unifié de responsabilité financière des gestionnaires publics.",
+      "previousSource": {
+        "id": "ORG-0072",
+        "source": "Principe de séparation: les fonctions d’ordonnateur et de comptable sont distinctes.",
+        "cat": "Organisation et missions",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "ORG-0074",
+        "source": "Ce n’est pas le comptable qui « réquisitionne l’ordonnateur ».",
+        "cat": "Organisation et missions",
+        "page": 7
+      }
+    },
+    {
+      "id": "ORG-0074",
+      "cat": "Organisation et missions",
+      "page": 7,
+      "chapter": "10-11. Comptabilité publique et facturation électronique",
+      "topic": "Comptabilité publique",
+      "source": "Ce n’est pas le comptable qui « réquisitionne l’ordonnateur ».",
+      "previousSource": {
+        "id": "ORG-0073",
+        "source": "Depuis le 1er janvier 2023, l’ancien régime spécifique de responsabilité personnelle et pécuniaire des comptables a été remplacé par un régime unifié de responsabilité financière des gestionnaires publics.",
+        "cat": "Organisation et missions",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "ORG-0075",
+        "source": "Chaîne classique de la dépense: engagement → liquidation → ordonnancement / ordre de payer paiement.",
+        "cat": "Organisation et missions",
+        "page": 7
+      }
+    },
+    {
+      "id": "ORG-0081",
+      "cat": "Organisation et missions",
+      "page": 7,
+      "chapter": "10-11. Comptabilité publique et facturation électronique",
+      "topic": "10-11. Comptabilité publique et facturation électronique",
+      "source": "Au 1er septembre 2026, l’obligation de réception concerne toutes les entreprises, mais l’obligation d’émission ne concerne pas encore les PME et micro-entreprises: pour elles, l’échéance d’émission est le 1er septembre 2027.",
+      "previousSource": {
+        "id": "ORG-0080",
+        "source": "Une facture électronique n’est pas simplement un PDF envoyé par courriel: elle doit respecter le format et le circuit prévus par la réforme.",
+        "cat": "Organisation et missions",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "ORG-0082",
+        "source": "Mot-clé — Obligation: Réponse réflexe",
+        "cat": "Organisation et missions",
+        "page": 8
+      }
+    },
+    {
+      "id": "ORG-0094",
+      "cat": "Organisation et missions",
+      "page": 8,
+      "chapter": "10-11. Comptabilité publique et facturation électronique",
+      "topic": "DGFiP et fiscalité",
+      "source": "La fraude fiscale consiste à se soustraire illégalement à l’impôt, par exemple en dissimulant volontairement des revenus, une activité ou des opérations imposables.",
+      "previousSource": {
+        "id": "ORG-0093",
+        "source": "Facturation électronique 01/09/2027 — Obligation: Émission pour PME et micro-entreprises.",
+        "cat": "Organisation et missions",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "ORG-0095",
+        "source": "Elle se distingue de l’optimisation fiscale licite, qui utilise les règles prévues par la loi.",
+        "cat": "Organisation et missions",
+        "page": 8
+      }
+    },
+    {
+      "id": "ORG-0095",
+      "cat": "Organisation et missions",
+      "page": 8,
+      "chapter": "10-11. Comptabilité publique et facturation électronique",
+      "topic": "DGFiP et fiscalité",
+      "source": "Elle se distingue de l’optimisation fiscale licite, qui utilise les règles prévues par la loi.",
+      "previousSource": {
+        "id": "ORG-0094",
+        "source": "La fraude fiscale consiste à se soustraire illégalement à l’impôt, par exemple en dissimulant volontairement des revenus, une activité ou des opérations imposables.",
+        "cat": "Organisation et missions",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "ORG-0096",
+        "source": "Tracfin est le service de renseignement financier de Bercy.",
+        "cat": "Organisation et missions",
+        "page": 8
+      }
+    },
+    {
+      "id": "ORG-0097",
+      "cat": "Organisation et missions",
+      "page": 8,
+      "chapter": "10-11. Comptabilité publique et facturation électronique",
+      "topic": "Tracfin et fraude",
+      "source": "Tracfin n’est pas un service auquel les particuliers adressent directement leurs signalements ordinaires.",
+      "previousSource": {
+        "id": "ORG-0096",
+        "source": "Tracfin est le service de renseignement financier de Bercy.",
+        "cat": "Organisation et missions",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "MAT-0001",
+        "source": "Diviseur — Obligation: Critère rapide",
+        "cat": "Mathématiques",
+        "page": 2
+      }
+    },
+    {
+      "id": "MAT-0004",
+      "cat": "Mathématiques",
+      "page": 2,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "Le système binaire est en base 2 (chiffres 0 et 1).",
+      "previousSource": {
+        "id": "MAT-0003",
+        "source": "A.0 Systèmes de numération: décimal et binaire Définition: Le système décimal est en base 10 (chiffres 0 à 9).",
+        "cat": "Mathématiques",
+        "page": 2
+      },
+      "nextSource": {
+        "id": "MAT-0005",
+        "source": "Chaque position représente une puissance de la base.",
+        "cat": "Mathématiques",
+        "page": 2
+      }
+    },
+    {
+      "id": "MAT-0008",
+      "cat": "Mathématiques",
+      "page": 2,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "Ne pas lire 10110₂ comme le nombre dix mille cent dix.",
+      "previousSource": {
+        "id": "MAT-0006",
+        "source": "Décimal: 3 482 = 3×10³ + 4×10² + 8×10 + 2 Binaire: 10110₂ = 1×2⁴ + 0×2³ + 1×2² + 1×2 + 0 = 22₁₀ Méthode binaire → décimal: Associer de droite à gauche les puissances 2⁰, 2¹, 2², 2³... puis additionner les puissances correspondant aux chiffres 1.",
+        "cat": "Mathématiques",
+        "page": 2
+      },
+      "nextSource": {
+        "id": "MAT-0009",
+        "source": "Le chiffre le plus à droite correspond toujours à 2 0 = 1.",
+        "cat": "Mathématiques",
+        "page": 2
+      }
+    },
+    {
+      "id": "MAT-0009",
+      "cat": "Mathématiques",
+      "page": 2,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "Le chiffre le plus à droite correspond toujours à 2 0 = 1.",
+      "previousSource": {
+        "id": "MAT-0008",
+        "source": "Ne pas lire 10110₂ comme le nombre dix mille cent dix.",
+        "cat": "Mathématiques",
+        "page": 2
+      },
+      "nextSource": {
+        "id": "MAT-0010",
+        "source": "A.1 Entiers et priorités opératoires Définition: Un entier peut être naturel (0, 1, 2,...) ou relatif (..., -2, -1, 0, 1, 2,...).",
+        "cat": "Mathématiques",
+        "page": 2
+      }
+    },
+    {
+      "id": "MAT-0018",
+      "cat": "Mathématiques",
+      "page": 2,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "On peut utiliser l’algorithme d’Euclide.",
+      "previousSource": {
+        "id": "MAT-0017",
+        "source": "PGCD: Plus grand diviseur commun.",
+        "cat": "Mathématiques",
+        "page": 2
+      },
+      "nextSource": {
+        "id": "MAT-0019",
+        "source": "PPCM: Plus petit multiple commun positif.",
+        "cat": "Mathématiques",
+        "page": 2
+      }
+    },
+    {
+      "id": "MAT-0020",
+      "cat": "Mathématiques",
+      "page": 3,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "Mathématiques - QCM Agent DGFiP & Contrôleur des douanes PGCD(a,b) × PPCM(a,b) = |a×b| Exemple: 84 = 2²×3×7",
+      "previousSource": {
+        "id": "MAT-0019",
+        "source": "PPCM: Plus petit multiple commun positif.",
+        "cat": "Mathématiques",
+        "page": 2
+      },
+      "nextSource": {
+        "id": "MAT-0021",
+        "source": "Mathématiques - QCM Agent DGFiP & Contrôleur des douanes PGCD(a,b) × PPCM(a,b) = |a×b| Exemple: 60 = 2²×3×5 → PGCD = 12",
+        "cat": "Mathématiques",
+        "page": 3
+      }
+    },
+    {
+      "id": "MAT-0021",
+      "cat": "Mathématiques",
+      "page": 3,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "Mathématiques - QCM Agent DGFiP & Contrôleur des douanes PGCD(a,b) × PPCM(a,b) = |a×b| Exemple: 60 = 2²×3×5 → PGCD = 12",
+      "previousSource": {
+        "id": "MAT-0020",
+        "source": "Mathématiques - QCM Agent DGFiP & Contrôleur des douanes PGCD(a,b) × PPCM(a,b) = |a×b| Exemple: 84 = 2²×3×7",
+        "cat": "Mathématiques",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "MAT-0022",
+        "source": "Mathématiques - QCM Agent DGFiP & Contrôleur des douanes PGCD(a,b) × PPCM(a,b) = |a×b| Exemple: PPCM = 420 Pièges QCM Confondre PGCD et PPCM.",
+        "cat": "Mathématiques",
+        "page": 3
+      }
+    },
+    {
+      "id": "MAT-0022",
+      "cat": "Mathématiques",
+      "page": 3,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "Mathématiques - QCM Agent DGFiP & Contrôleur des douanes PGCD(a,b) × PPCM(a,b) = |a×b| Exemple: PPCM = 420 Pièges QCM Confondre PGCD et PPCM.",
+      "previousSource": {
+        "id": "MAT-0021",
+        "source": "Mathématiques - QCM Agent DGFiP & Contrôleur des douanes PGCD(a,b) × PPCM(a,b) = |a×b| Exemple: 60 = 2²×3×5 → PGCD = 12",
+        "cat": "Mathématiques",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "MAT-0023",
+        "source": "Pour 2024 et 11: 2 - 0 + 2 - 4 = 0, donc 2024 est divisible par 11.",
+        "cat": "Mathématiques",
+        "page": 3
+      }
+    },
+    {
+      "id": "MAT-0027",
+      "cat": "Mathématiques",
+      "page": 3,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "A.4 Racines, puissances et notation scientifique √(ab) = √a × √b; √(a/b) = √a / √b (pour a ≥ 0, b > 0) aᵐ×aⁿ = aᵐ⁺ⁿ; aᵐ/aⁿ = aᵐ⁻ⁿ; (aᵐ)ⁿ = aᵐⁿ Notation scientifique: a×10ⁿ avec 1 ≤ |a| < 10 Exemples: √75 = √(25×3) = 5√3; 3 500 = 3,5×10³; 0,042 = 4,2×10⁻².",
+      "previousSource": {
+        "id": "MAT-0025",
+        "source": "Addition: a/b + c/d = (ad + bc)/(bd) Multiplication: a/b × c/d = ac/bd Division: a/b ÷ c/d = a/b × d/c (avec c ≠ 0) Simplification: Diviser le numérateur et le dénominateur par leur PGCD.",
+        "cat": "Mathématiques",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "MAT-0028",
+        "source": "√(a+b) n’est pas égal à √a + √b en général.",
+        "cat": "Mathématiques",
+        "page": 3
+      }
+    },
+    {
+      "id": "MAT-0028",
+      "cat": "Mathématiques",
+      "page": 3,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "√(a+b) n’est pas égal à √a + √b en général.",
+      "previousSource": {
+        "id": "MAT-0027",
+        "source": "A.4 Racines, puissances et notation scientifique √(ab) = √a × √b; √(a/b) = √a / √b (pour a ≥ 0, b > 0) aᵐ×aⁿ = aᵐ⁺ⁿ; aᵐ/aⁿ = aᵐ⁻ⁿ; (aᵐ)ⁿ = aᵐⁿ Notation scientifique: a×10ⁿ avec 1 ≤ |a| < 10 Exemples: √75 = √(25×3) = 5√3; 3 500 = 3,5×10³; 0,042 = 4,2×10⁻².",
+        "cat": "Mathématiques",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "MAT-0029",
+        "source": "Le signe d’une puissance dépend des parenthèses: (-3)² = 9 mais -3² = -9.",
+        "cat": "Mathématiques",
+        "page": 3
+      }
+    },
+    {
+      "id": "MAT-0037",
+      "cat": "Mathématiques",
+      "page": 3,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "Prix de revient = prix d’achat + frais Bénéfice = prix de vente - prix de revient; perte si le résultat est négatif",
+      "previousSource": {
+        "id": "MAT-0035",
+        "source": "+20 % puis -20 % ne ramène pas à la valeur initiale: 1,20×0,80 = 0,96.",
+        "cat": "Mathématiques",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "MAT-0038",
+        "source": "Obligation — À connaître pour le QCM: Titre de dette. L’investisseur prête à un émetteur",
+        "cat": "Mathématiques",
+        "page": 4
+      }
+    },
+    {
+      "id": "MAT-0040",
+      "cat": "Mathématiques",
+      "page": 4,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "Mathématiques - QCM Agent DGFiP & Contrôleur des douanes Taux de marge = marge / coût d’achat × 100; taux de marque = marge / prix de vente × 100 TVA: Prix TTC = prix HT × (1 + taux de TVA).",
+      "previousSource": {
+        "id": "MAT-0039",
+        "source": "Obligation — À connaître pour le QCM: il peut recevoir un coupon et le remboursement du nominal à l’échéance.",
+        "cat": "Mathématiques",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "MAT-0041",
+        "source": "Donc prix HT = prix TTC / (1 + taux).",
+        "cat": "Mathématiques",
+        "page": 4
+      }
+    },
+    {
+      "id": "MAT-0041",
+      "cat": "Mathématiques",
+      "page": 4,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "Donc prix HT = prix TTC / (1 + taux).",
+      "previousSource": {
+        "id": "MAT-0040",
+        "source": "Mathématiques - QCM Agent DGFiP & Contrôleur des douanes Taux de marge = marge / coût d’achat × 100; taux de marque = marge / prix de vente × 100 TVA: Prix TTC = prix HT × (1 + taux de TVA).",
+        "cat": "Mathématiques",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "MAT-0044",
+        "source": "I = C×t×n; montant final = C + I C = capital initial, t = taux par période sous forme décimale, n = nombre de périodes.",
+        "cat": "Mathématiques",
+        "page": 4
+      }
+    },
+    {
+      "id": "MAT-0044",
+      "cat": "Mathématiques",
+      "page": 4,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "I = C×t×n; montant final = C + I C = capital initial, t = taux par période sous forme décimale, n = nombre de périodes.",
+      "previousSource": {
+        "id": "MAT-0041",
+        "source": "Donc prix HT = prix TTC / (1 + taux).",
+        "cat": "Mathématiques",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "MAT-0046",
+        "source": "Définition: L’escompte est l’intérêt retranché à une somme payable dans le futur lorsqu’elle est versée avant l’échéance.",
+        "cat": "Mathématiques",
+        "page": 4
+      }
+    },
+    {
+      "id": "MAT-0047",
+      "cat": "Mathématiques",
+      "page": 4,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "Escompte simple E = N×t×n; valeur actuelle = N - E N = valeur nominale, t = taux, n = durée exprimée dans l’unité compatible avec le taux.",
+      "previousSource": {
+        "id": "MAT-0046",
+        "source": "Définition: L’escompte est l’intérêt retranché à une somme payable dans le futur lorsqu’elle est versée avant l’échéance.",
+        "cat": "Mathématiques",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "MAT-0048",
+        "source": "Si l’énoncé utilise des jours, appliquer la convention indiquée dans la question.",
+        "cat": "Mathématiques",
+        "page": 4
+      }
+    },
+    {
+      "id": "MAT-0048",
+      "cat": "Mathématiques",
+      "page": 4,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "Si l’énoncé utilise des jours, appliquer la convention indiquée dans la question.",
+      "previousSource": {
+        "id": "MAT-0047",
+        "source": "Escompte simple E = N×t×n; valeur actuelle = N - E N = valeur nominale, t = taux, n = durée exprimée dans l’unité compatible avec le taux.",
+        "cat": "Mathématiques",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "MAT-0049",
+        "source": "Action = propriété; obligation = créance.",
+        "cat": "Mathématiques",
+        "page": 4
+      }
+    },
+    {
+      "id": "MAT-0049",
+      "cat": "Mathématiques",
+      "page": 4,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "Action = propriété; obligation = créance.",
+      "previousSource": {
+        "id": "MAT-0048",
+        "source": "Si l’énoncé utilise des jours, appliquer la convention indiquée dans la question.",
+        "cat": "Mathématiques",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "MAT-0050",
+        "source": "Un taux de 3 % doit être utilisé sous la forme 0,03 dans les calculs.",
+        "cat": "Mathématiques",
+        "page": 4
+      }
+    },
+    {
+      "id": "MAT-0050",
+      "cat": "Mathématiques",
+      "page": 4,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "Un taux de 3 % doit être utilisé sous la forme 0,03 dans les calculs.",
+      "previousSource": {
+        "id": "MAT-0049",
+        "source": "Action = propriété; obligation = créance.",
+        "cat": "Mathématiques",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "MAT-0052",
+        "source": "Partage égal: Chaque part = total / nombre de parts.",
+        "cat": "Mathématiques",
+        "page": 4
+      }
+    },
+    {
+      "id": "MAT-0060",
+      "cat": "Mathématiques",
+      "page": 5,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "Mathématiques - QCM Agent DGFiP & Contrôleur des douanes Pièges QCM Ne pas faire la moyenne simple de 10 % et 20 % si les volumes sont différents.",
+      "previousSource": {
+        "id": "MAT-0058",
+        "source": "Moyenne pondérée: Pour une grandeur additive par masse ou volume, calculer la quantité totale de substance puis diviser par la quantité totale du mélange.",
+        "cat": "Mathématiques",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "MAT-0061",
+        "source": "Toujours harmoniser les unités avant d’utiliser ρ = m/V.",
+        "cat": "Mathématiques",
+        "page": 5
+      }
+    },
+    {
+      "id": "MAT-0061",
+      "cat": "Mathématiques",
+      "page": 5,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "Toujours harmoniser les unités avant d’utiliser ρ = m/V.",
+      "previousSource": {
+        "id": "MAT-0060",
+        "source": "Mathématiques - QCM Agent DGFiP & Contrôleur des douanes Pièges QCM Ne pas faire la moyenne simple de 10 % et 20 % si les volumes sont différents.",
+        "cat": "Mathématiques",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "MAT-0062",
+        "source": "B.1 Calcul littéral, monômes, polynômes et identités remarquables Distributivité: a(b+c) = ab + ac (a+b)² = a² + 2ab + b²",
+        "cat": "Mathématiques",
+        "page": 5
+      }
+    },
+    {
+      "id": "MAT-0079",
+      "cat": "Mathématiques",
+      "page": 5,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "Pour obtenir 40 €, 50 € et 60 €, la somme totale doit être 150 €, et non 160 €.",
+      "previousSource": {
+        "id": "MAT-0078",
+        "source": "Donc cet énoncé ne donne pas 40, 50, 60: la version initiale contenait également ici une incohérence numérique.",
+        "cat": "Mathématiques",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "MAT-0080",
+        "source": "Longueur — Repères: 1 km = 1 000 m",
+        "cat": "Mathématiques",
+        "page": 6
+      }
+    },
+    {
+      "id": "MAT-0088",
+      "cat": "Mathématiques",
+      "page": 6,
+      "chapter": "B. Algèbre",
+      "topic": "B. Algèbre",
+      "source": "Mathématiques - QCM Agent DGFiP & Contrôleur des douanes Pièges QCM Un résultat non entier peut être mathématiquement juste mais impossible si l’inconnue représente un nombre d’objets.",
+      "previousSource": {
+        "id": "MAT-0087",
+        "source": "Mesures agraires — Repères: 1 hectare = 100 ares = 10 000 m²",
+        "cat": "Mathématiques",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "MAT-0089",
+        "source": "C - Mesures et géométrie C.1 Unités et conversions Règle: Pour les surfaces, chaque changement d’unité est au carré",
+        "cat": "Mathématiques",
+        "page": 6
+      }
+    },
+    {
+      "id": "MAT-0097",
+      "cat": "Mathématiques",
+      "page": 6,
+      "chapter": "B. Algèbre",
+      "topic": "B. Algèbre",
+      "source": "La longitude n’est pas mesurée depuis l’équateur.",
+      "previousSource": {
+        "id": "MAT-0096",
+        "source": "Ne pas confondre diamètre et rayon: d = 2r.",
+        "cat": "Mathématiques",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "MAT-0099",
+        "source": "Triangle — Périmètre: somme des côtés",
+        "cat": "Mathématiques",
+        "page": 7
+      }
+    },
+    {
+      "id": "MAT-0099",
+      "cat": "Mathématiques",
+      "page": 7,
+      "chapter": "C. Mesures et géométrie",
+      "topic": "C. Mesures et géométrie",
+      "source": "Triangle — Périmètre: somme des côtés",
+      "previousSource": {
+        "id": "MAT-0097",
+        "source": "La longitude n’est pas mesurée depuis l’équateur.",
+        "cat": "Mathématiques",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "MAT-0100",
+        "source": "Trapèze — Aire: (B+b)×h/2",
+        "cat": "Mathématiques",
+        "page": 7
+      }
+    },
+    {
+      "id": "MAT-0101",
+      "cat": "Mathématiques",
+      "page": 7,
+      "chapter": "C. Mesures et géométrie",
+      "topic": "C. Mesures et géométrie",
+      "source": "Trapèze — Périmètre: somme des côtés",
+      "previousSource": {
+        "id": "MAT-0100",
+        "source": "Trapèze — Aire: (B+b)×h/2",
+        "cat": "Mathématiques",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "MAT-0102",
+        "source": "Parallélépipède rectangle — Priorité concours: Programme Douanes",
+        "cat": "Mathématiques",
+        "page": 7
+      }
+    },
+    {
+      "id": "MAT-0102",
+      "cat": "Mathématiques",
+      "page": 7,
+      "chapter": "C. Mesures et géométrie",
+      "topic": "C. Mesures et géométrie",
+      "source": "Parallélépipède rectangle — Priorité concours: Programme Douanes",
+      "previousSource": {
+        "id": "MAT-0101",
+        "source": "Trapèze — Périmètre: somme des côtés",
+        "cat": "Mathématiques",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "MAT-0103",
+        "source": "Cylindre — Priorité concours: Programme Douanes",
+        "cat": "Mathématiques",
+        "page": 7
+      }
+    },
+    {
+      "id": "MAT-0103",
+      "cat": "Mathématiques",
+      "page": 7,
+      "chapter": "C. Mesures et géométrie",
+      "topic": "C. Mesures et géométrie",
+      "source": "Cylindre — Priorité concours: Programme Douanes",
+      "previousSource": {
+        "id": "MAT-0102",
+        "source": "Parallélépipède rectangle — Priorité concours: Programme Douanes",
+        "cat": "Mathématiques",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "MAT-0104",
+        "source": "Cône / pyramide — Volume: aire de base × h / 3",
+        "cat": "Mathématiques",
+        "page": 7
+      }
+    },
+    {
+      "id": "MAT-0105",
+      "cat": "Mathématiques",
+      "page": 7,
+      "chapter": "C. Mesures et géométrie",
+      "topic": "C. Mesures et géométrie",
+      "source": "Cône / pyramide — Priorité concours: Complément Agent",
+      "previousSource": {
+        "id": "MAT-0104",
+        "source": "Cône / pyramide — Volume: aire de base × h / 3",
+        "cat": "Mathématiques",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "MAT-0106",
+        "source": "Mathématiques - QCM Agent DGFiP & Contrôleur des douanes Exemple: Rectangle de 540 m × 300 m: aire = 162 000 m² = 16,2 ha.",
+        "cat": "Mathématiques",
+        "page": 7
+      }
+    },
+    {
+      "id": "MAT-0108",
+      "cat": "Mathématiques",
+      "page": 7,
+      "chapter": "C. Mesures et géométrie",
+      "topic": "C. Mesures et géométrie",
+      "source": "La distance du centre (intersection des diagonales) à un sommet vaut 3√2, et non 3 cm.",
+      "previousSource": {
+        "id": "MAT-0106",
+        "source": "Mathématiques - QCM Agent DGFiP & Contrôleur des douanes Exemple: Rectangle de 540 m × 300 m: aire = 162 000 m² = 16,2 ha.",
+        "cat": "Mathématiques",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "MAT-0109",
+        "source": "C.4 Volumes et capacités Aquarium 120 cm × 50 cm × 60 cm = 360 000 cm³ = 360 L Remplissage: Pour comparer un volume et un débit, convertir dans des unités compatibles (par exemple litres et minutes).",
+        "cat": "Mathématiques",
+        "page": 7
+      }
+    },
+    {
+      "id": "MAT-0110",
+      "cat": "Mathématiques",
+      "page": 7,
+      "chapter": "C. Mesures et géométrie",
+      "topic": "C. Mesures et géométrie",
+      "source": "Aire en unités2; volume en unités3.",
+      "previousSource": {
+        "id": "MAT-0109",
+        "source": "C.4 Volumes et capacités Aquarium 120 cm × 50 cm × 60 cm = 360 000 cm³ = 360 L Remplissage: Pour comparer un volume et un débit, convertir dans des unités compatibles (par exemple litres et minutes).",
+        "cat": "Mathématiques",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "MAT-0111",
+        "source": "C.5 Propriétés géométriques utiles Pythagore: dans un triangle rectangle, hypoténuse² = côté₁² + côté₂² Triplet utile: 3-4-5: 3²+4²=5².",
+        "cat": "Mathématiques",
+        "page": 7
+      }
+    },
+    {
+      "id": "MAT-0118",
+      "cat": "Mathématiques",
+      "page": 7,
+      "chapter": "C. Mesures et géométrie",
+      "topic": "C. Mesures et géométrie",
+      "source": "Longueur réelle = longueur sur le plan × n Aire réelle = aire sur le plan × n² Volume réel = volume sur le modèle × n³",
+      "previousSource": {
+        "id": "MAT-0117",
+        "source": "C.6 Échelles de cartes et de plans Échelle 1: n: 1 unité sur la carte correspond à n unités réelles.",
+        "cat": "Mathématiques",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "MAT-0119",
+        "source": "Mathématiques - QCM Agent DGFiP & Contrôleur des douanes Exemple: au 1/25 000, 3 cm → 75 000 cm = 750 m Au 1/1 500, rectangle 4,5 cm × 0,8 cm → 67,5 m × 12 m = 810 m² Pièges QCM Pour une surface, ne pas multiplier simplement par n: il faut n2.",
+        "cat": "Mathématiques",
+        "page": 8
+      }
+    },
+    {
+      "id": "MAT-0120",
+      "cat": "Mathématiques",
+      "page": 8,
+      "chapter": "C. Mesures et géométrie",
+      "topic": "C. Mesures et géométrie",
+      "source": "D - Mouvement et problèmes appliqués D.1 Mouvement uniforme et vitesses moyennes Distance = vitesse × temps; vitesse = distance / temps; temps = distance / vitesse",
+      "previousSource": {
+        "id": "MAT-0119",
+        "source": "Mathématiques - QCM Agent DGFiP & Contrôleur des douanes Exemple: au 1/25 000, 3 cm → 75 000 cm = 750 m Au 1/1 500, rectangle 4,5 cm × 0,8 cm → 67,5 m × 12 m = 810 m² Pièges QCM Pour une surface, ne pas multiplier simplement par n: il faut n2.",
+        "cat": "Mathématiques",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "MAT-0121",
+        "source": "Vitesse moyenne: Vitesse moyenne = distance totale / temps total.",
+        "cat": "Mathématiques",
+        "page": 8
+      }
+    },
+    {
+      "id": "MAT-0122",
+      "cat": "Mathématiques",
+      "page": 8,
+      "chapter": "C. Mesures et géométrie",
+      "topic": "C. Mesures et géométrie",
+      "source": "Elle n’est généralement pas la moyenne arithmétique des vitesses.",
+      "previousSource": {
+        "id": "MAT-0121",
+        "source": "Vitesse moyenne: Vitesse moyenne = distance totale / temps total.",
+        "cat": "Mathématiques",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "MAT-0125",
+        "source": "Convertir minutes en heures avant d’utiliser une vitesse en km/h.",
+        "cat": "Mathématiques",
+        "page": 8
+      }
+    },
+    {
+      "id": "MAT-0125",
+      "cat": "Mathématiques",
+      "page": 8,
+      "chapter": "C. Mesures et géométrie",
+      "topic": "C. Mesures et géométrie",
+      "source": "Convertir minutes en heures avant d’utiliser une vitesse en km/h.",
+      "previousSource": {
+        "id": "MAT-0122",
+        "source": "Elle n’est généralement pas la moyenne arithmétique des vitesses.",
+        "cat": "Mathématiques",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "MAT-0126",
+        "source": "D.2 Débits, remplissage et travaux Débit = quantité / temps; quantité = débit × temps Débits simultanés: Si deux robinets remplissent ensemble, leurs débits s’additionnent.",
+        "cat": "Mathématiques",
+        "page": 8
+      }
+    },
+    {
+      "id": "MAT-0126",
+      "cat": "Mathématiques",
+      "page": 8,
+      "chapter": "C. Mesures et géométrie",
+      "topic": "C. Mesures et géométrie",
+      "source": "D.2 Débits, remplissage et travaux Débit = quantité / temps; quantité = débit × temps Débits simultanés: Si deux robinets remplissent ensemble, leurs débits s’additionnent.",
+      "previousSource": {
+        "id": "MAT-0125",
+        "source": "Convertir minutes en heures avant d’utiliser une vitesse en km/h.",
+        "cat": "Mathématiques",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "MAT-0128",
+        "source": "Une hausse du nombre d’ouvriers ne multiplie pas forcément la durée: à travail fixe, elle la réduit.",
+        "cat": "Mathématiques",
+        "page": 8
+      }
+    },
+    {
+      "id": "MAT-0128",
+      "cat": "Mathématiques",
+      "page": 8,
+      "chapter": "C. Mesures et géométrie",
+      "topic": "C. Mesures et géométrie",
+      "source": "Une hausse du nombre d’ouvriers ne multiplie pas forcément la durée: à travail fixe, elle la réduit.",
+      "previousSource": {
+        "id": "MAT-0126",
+        "source": "D.2 Débits, remplissage et travaux Débit = quantité / temps; quantité = débit × temps Débits simultanés: Si deux robinets remplissent ensemble, leurs débits s’additionnent.",
+        "cat": "Mathématiques",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "MAT-0129",
+        "source": "Vérifier si les productivités sont supposées identiques.",
+        "cat": "Mathématiques",
+        "page": 8
+      }
+    },
+    {
+      "id": "MAT-0130",
+      "cat": "Mathématiques",
+      "page": 8,
+      "chapter": "C. Mesures et géométrie",
+      "topic": "C. Mesures et géométrie",
+      "source": "E - Statistiques et probabilités - complément Agent Ces notions figuraient dans le cours initial.",
+      "previousSource": {
+        "id": "MAT-0129",
+        "source": "Vérifier si les productivités sont supposées identiques.",
+        "cat": "Mathématiques",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "MAT-0131",
+        "source": "Elles ne constituent pas un bloc détaillé du programme historique Douanes, mais elles restent cohérentes avec le niveau mathématique attendu en catégorie C et sont conservées comme complément utile pour Agent.",
+        "cat": "Mathématiques",
+        "page": 8
+      }
+    },
+    {
+      "id": "MAT-0131",
+      "cat": "Mathématiques",
+      "page": 8,
+      "chapter": "C. Mesures et géométrie",
+      "topic": "C. Mesures et géométrie",
+      "source": "Elles ne constituent pas un bloc détaillé du programme historique Douanes, mais elles restent cohérentes avec le niveau mathématique attendu en catégorie C et sont conservées comme complément utile pour Agent.",
+      "previousSource": {
+        "id": "MAT-0130",
+        "source": "E - Statistiques et probabilités - complément Agent Ces notions figuraient dans le cours initial.",
+        "cat": "Mathématiques",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "MAT-0132",
+        "source": "E.1 Moyenne, médiane et mode Moyenne = somme des valeurs / effectif Moyenne pondérée = somme(valeur×coefficient) / somme(coefficients) Médiane: Valeur centrale d’une série ordonnée; si l’effectif est pair, moyenne des deux valeurs centrales pour une série numérique.",
+        "cat": "Mathématiques",
+        "page": 8
+      }
+    },
+    {
+      "id": "MAT-0132",
+      "cat": "Mathématiques",
+      "page": 8,
+      "chapter": "C. Mesures et géométrie",
+      "topic": "C. Mesures et géométrie",
+      "source": "E.1 Moyenne, médiane et mode Moyenne = somme des valeurs / effectif Moyenne pondérée = somme(valeur×coefficient) / somme(coefficients) Médiane: Valeur centrale d’une série ordonnée; si l’effectif est pair, moyenne des deux valeurs centrales pour une série numérique.",
+      "previousSource": {
+        "id": "MAT-0131",
+        "source": "Elles ne constituent pas un bloc détaillé du programme historique Douanes, mais elles restent cohérentes avec le niveau mathématique attendu en catégorie C et sont conservées comme complément utile pour Agent.",
+        "cat": "Mathématiques",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "MAT-0133",
+        "source": "Mode: Valeur la plus fréquente.",
+        "cat": "Mathématiques",
+        "page": 8
+      }
+    },
+    {
+      "id": "MAT-0134",
+      "cat": "Mathématiques",
+      "page": 8,
+      "chapter": "C. Mesures et géométrie",
+      "topic": "C. Mesures et géométrie",
+      "source": "Pour des données groupées, classe modale = classe de plus grand effectif.",
+      "previousSource": {
+        "id": "MAT-0133",
+        "source": "Mode: Valeur la plus fréquente.",
+        "cat": "Mathématiques",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "MAT-0135",
+        "source": "Ne pas confondre moyenne et médiane.",
+        "cat": "Mathématiques",
+        "page": 8
+      }
+    },
+    {
+      "id": "MAT-0136",
+      "cat": "Mathématiques",
+      "page": 8,
+      "chapter": "C. Mesures et géométrie",
+      "topic": "C. Mesures et géométrie",
+      "source": "E.2 Probabilités élémentaires P(A) = nombre de cas favorables / nombre de cas possibles, si les issues sont équiprobables",
+      "previousSource": {
+        "id": "MAT-0135",
+        "source": "Ne pas confondre moyenne et médiane.",
+        "cat": "Mathématiques",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "MAT-0137",
+        "source": "Pourcentage — Formule: p % de Q = Q×p/100",
+        "cat": "Mathématiques",
+        "page": 9
+      }
+    },
+    {
+      "id": "MAT-0149",
+      "cat": "Mathématiques",
+      "page": 9,
+      "chapter": "D. Mouvement et problèmes appliqués",
+      "topic": "D. Mouvement et problèmes appliqués",
+      "source": "Mathématiques - QCM Agent DGFiP & Contrôleur des douanes Événement contraire: P(non A) = 1 - P(A) Sans remise: Le nombre de cas possibles change après le premier tirage.",
+      "previousSource": {
+        "id": "MAT-0148",
+        "source": "Échelle — Formule: aire × n²",
+        "cat": "Mathématiques",
+        "page": 9
+      },
+      "nextSource": {
+        "id": "MAT-0150",
+        "source": "Deux dés: somme égale à 3 → (1,2) ou (2,1) → 2/36 = 1/18 Pièges QCM Avec deux dés, il y a 36 couples ordonnés équiprobables.",
+        "cat": "Mathématiques",
+        "page": 9
+      }
+    },
+    {
+      "id": "LOG-0008",
+      "cat": "Raisonnement logique",
+      "page": 2,
+      "chapter": "A. Logique mathématique",
+      "topic": "A. Logique mathématique",
+      "source": "Les tests de raisonnement numérique évaluent la capacité à manipuler des nombres, à comprendre des relations quantitatives et à raisonner avec des données (pourcentages, proportions, vitesses, temps, conversions, moyennes, intérêts, tableaux et graphiques).",
+      "previousSource": {
+        "id": "LOG-0007",
+        "source": "Variante piège — Détails: Les données incluent des pauses ou des jours chômés, ou la question demande un minimum entier (ne pas arrondir à la baisse).",
+        "cat": "Raisonnement logique",
+        "page": 2
+      },
+      "nextSource": {
+        "id": "LOG-0009",
+        "source": "Ce type d’épreuves est très présent dans les concours administratifs.",
+        "cat": "Raisonnement logique",
+        "page": 2
+      }
+    },
+    {
+      "id": "LOG-0009",
+      "cat": "Raisonnement logique",
+      "page": 2,
+      "chapter": "A. Logique mathématique",
+      "topic": "A. Logique mathématique",
+      "source": "Ce type d’épreuves est très présent dans les concours administratifs.",
+      "previousSource": {
+        "id": "LOG-0008",
+        "source": "Les tests de raisonnement numérique évaluent la capacité à manipuler des nombres, à comprendre des relations quantitatives et à raisonner avec des données (pourcentages, proportions, vitesses, temps, conversions, moyennes, intérêts, tableaux et graphiques).",
+        "cat": "Raisonnement logique",
+        "page": 2
+      },
+      "nextSource": {
+        "id": "LOG-0010",
+        "source": "Reconnaissance rapide — Détails: Présence de mots tels que « taux », « pourcentage », « augmentation/diminution de x % », « indice 100 ».",
+        "cat": "Raisonnement logique",
+        "page": 3
+      }
+    },
+    {
+      "id": "LOG-0078",
+      "cat": "Raisonnement logique",
+      "page": 7,
+      "chapter": "B. Logique verbale",
+      "topic": "B. Logique verbale",
+      "source": "Les exercices de logique verbale évaluent la capacité à comprendre et à interpréter un langage, à déduire des informations implicites, à manipuler des affirmations et à raisonner sur des relations sémantiques.",
+      "previousSource": {
+        "id": "LOG-0077",
+        "source": "Variante piège — Détails: des quantificateurs négatifs (« aucun », « pas de ») nécessitant une attention particulière.",
+        "cat": "Raisonnement logique",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "LOG-0079",
+        "source": "Reconnaissance rapide — Détails: Énoncés courts (affirmations A, B, C) avec une question du type « laquelle est vraie/faux? », « quelle conclusion peut‐on tirer? ».",
+        "cat": "Raisonnement logique",
+        "page": 8
+      }
+    },
+    {
+      "id": "LOG-0106",
+      "cat": "Raisonnement logique",
+      "page": 10,
+      "chapter": "C. Logique spatiale",
+      "topic": "C. Logique spatiale",
+      "source": "Les exercices de raisonnement spatial mesurent l’aptitude à visualiser et à manipuler mentalement des objets en deux et trois dimensions.",
+      "previousSource": {
+        "id": "LOG-0105",
+        "source": "Variante piège — Détails: L’énoncé inclut des rotations (tourner de 90° à droite puis avancer), ou la grille n’est pas orthogonale (hexagone).",
+        "cat": "Raisonnement logique",
+        "page": 10
+      },
+      "nextSource": {
+        "id": "LOG-0107",
+        "source": "Reconnaissance rapide — Détails: Questions du type « quelle figure obtiendra‐t‐on après rotation de 90°? », « quel patron de cube correspond à ce pliage? », « quelle vue en perspective correspond à ce plan? ».",
+        "cat": "Raisonnement logique",
+        "page": 11
+      }
+    },
+    {
+      "id": "LOG-0192",
+      "cat": "Raisonnement logique",
+      "page": 16,
+      "chapter": "E. Suites et structures",
+      "topic": "E. Suites et structures",
+      "source": "Les suites logiques (numériques ou alphabétiques), analogies et matrices permettent d’évaluer la capacité à détecter des régularités, des progressions ou des relations entre des éléments.",
+      "previousSource": {
+        "id": "LOG-0191",
+        "source": "Procédé mental — Détails: repérer des déplacements (avance de 2 lettres, recul de 1, etc.), des inversions, ou des relations de type synonyme/antonyme.",
+        "cat": "Raisonnement logique",
+        "page": 16
+      },
+      "nextSource": {
+        "id": "LOG-0194",
+        "source": "Astuces — Détails: 1. Mémoriser la numérotation des lettres (A=1, E=5, J=10, O=15, T=20, Z=26). 2. Pour les analogies, se concentrer sur la relation (profession → outil, pays → capitale). 3. En cas de cycle, appliquer un modulo 26 pour revenir au début.",
+        "cat": "Raisonnement logique",
+        "page": 17
+      }
+    },
+    {
+      "id": "CG-0052",
+      "cat": "Culture générale",
+      "page": 2,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Culture générale - Contrôleur des douanes | 2",
+      "previousSource": {
+        "id": "CG-0051",
+        "source": "Trois ordres architecturaux sont à distinguer: dorique (sobre, chapiteau simple), ionique (volutes) et corinthien (feuilles d’acanthe).",
+        "cat": "Culture générale",
+        "page": 2
+      },
+      "nextSource": {
+        "id": "CG-0053",
+        "source": "À distinguer — Priorité concours: Gothique",
+        "cat": "Culture générale",
+        "page": 3
+      }
+    },
+    {
+      "id": "CG-0088",
+      "cat": "Culture générale",
+      "page": 3,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Panthéon = nom générique de certains temples et monument célèbre à Rome; le Panthéon de Paris est un autre édifice, devenu nécropole nationale.",
+      "previousSource": {
+        "id": "CG-0087",
+        "source": "Le Colisée est un amphithéâtre de Rome; le Panthéon de Rome est célèbre pour sa coupole.",
+        "cat": "Culture générale",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "CG-0089",
+        "source": "Elle utilise l’arc en plein cintre, des murs épais et des ouvertures limitées.",
+        "cat": "Culture générale",
+        "page": 3
+      }
+    },
+    {
+      "id": "CG-0089",
+      "cat": "Culture générale",
+      "page": 3,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Elle utilise l’arc en plein cintre, des murs épais et des ouvertures limitées.",
+      "previousSource": {
+        "id": "CG-0088",
+        "source": "Panthéon = nom générique de certains temples et monument célèbre à Rome; le Panthéon de Paris est un autre édifice, devenu nécropole nationale.",
+        "cat": "Culture générale",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "CG-0090",
+        "source": "L’architecture gothique apparaît au XIIe siècle et permet des édifices plus hauts et plus lumineux grâce à l’arc brisé, la croisée d’ogives et les arcs-boutants.",
+        "cat": "Culture générale",
+        "page": 3
+      }
+    },
+    {
+      "id": "CG-0094",
+      "cat": "Culture générale",
+      "page": 3,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Culture générale - Contrôleur des douanes | 3",
+      "previousSource": {
+        "id": "CG-0093",
+        "source": "Jacques-Louis David en est une figure essentielle: Le Serment des Horaces, La Mort de Marat et Le Sacre de Napoléon.",
+        "cat": "Culture générale",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "CG-0095",
+        "source": "Impressionnisme — Artiste: Claude Monet",
+        "cat": "Culture générale",
+        "page": 4
+      }
+    },
+    {
+      "id": "CG-0156",
+      "cat": "Culture générale",
+      "page": 4,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Culture générale - Contrôleur des douanes | 4",
+      "previousSource": {
+        "id": "CG-0155",
+        "source": "Louis Daguerre: daguerréotype, procédé photographique présenté en 1839.",
+        "cat": "Culture générale",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "CG-0157",
+        "source": "Compositeur — Œuvre / monument: Époque / pays",
+        "cat": "Culture générale",
+        "page": 5
+      }
+    },
+    {
+      "id": "CG-0215",
+      "cat": "Culture générale",
+      "page": 5,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Les Quatre Saisons = Vivaldi.",
+      "previousSource": {
+        "id": "CG-0214",
+        "source": "L'Ode à la joie de Beethoven est utilisée comme hymne européen.",
+        "cat": "Culture générale",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "CG-0216",
+        "source": "Culture générale - Contrôleur des douanes | 5",
+        "cat": "Culture générale",
+        "page": 5
+      }
+    },
+    {
+      "id": "CG-0216",
+      "cat": "Culture générale",
+      "page": 5,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Culture générale - Contrôleur des douanes | 5",
+      "previousSource": {
+        "id": "CG-0215",
+        "source": "Les Quatre Saisons = Vivaldi.",
+        "cat": "Culture générale",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "CG-0217",
+        "source": "Charlie Chaplin — Œuvres / repères: Charlot",
+        "cat": "Culture générale",
+        "page": 6
+      }
+    },
+    {
+      "id": "CG-0229",
+      "cat": "Culture générale",
+      "page": 6,
+      "chapter": "I. Arts",
+      "topic": "Arts",
+      "source": "Jean-Luc Godard — Œuvres / repères: À bout de souffle",
+      "previousSource": {
+        "id": "CG-0228",
+        "source": "François Truffaut — Œuvres / repères: Nouvelle Vague",
+        "cat": "Culture générale",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "CG-0230",
+        "source": "Jean-Luc Godard — Œuvres / repères: Nouvelle Vague",
+        "cat": "Culture générale",
+        "page": 6
+      }
+    },
+    {
+      "id": "CG-0248",
+      "cat": "Culture générale",
+      "page": 6,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Les frères Lumière organisent des projections publiques à partir de 1895.",
+      "previousSource": {
+        "id": "CG-0247",
+        "source": "Les Schtroumpfs — Repère: BD franco-belge",
+        "cat": "Culture générale",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "CG-0249",
+        "source": "Georges Méliès développe très tôt les trucages et le cinéma fantastique avec Le Voyage dans la Lune (1902).",
+        "cat": "Culture générale",
+        "page": 6
+      }
+    },
+    {
+      "id": "CG-0264",
+      "cat": "Culture générale",
+      "page": 6,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Samuel Beckett: En attendant Godot",
+      "previousSource": {
+        "id": "CG-0263",
+        "source": "Georges Feydeau: Un fil à la patte.",
+        "cat": "Culture générale",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "CG-0265",
+        "source": "Samuel Beckett: théâtre de l’absurde.",
+        "cat": "Culture générale",
+        "page": 6
+      }
+    },
+    {
+      "id": "CG-0270",
+      "cat": "Culture générale",
+      "page": 6,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Culture générale - Contrôleur des douanes | 6",
+      "previousSource": {
+        "id": "CG-0269",
+        "source": "Opéra: œuvre dramatique chantée, accompagnée de musique; Mozart, Verdi, Puccini, Wagner sont des noms majeurs.",
+        "cat": "Culture générale",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "CG-0271",
+        "source": "Cosplay — Créateur / origine: Culture fan contemporaine",
+        "cat": "Culture générale",
+        "page": 7
+      }
+    },
+    {
+      "id": "CG-0274",
+      "cat": "Culture générale",
+      "page": 7,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Manga = bande dessinée japonaise.",
+      "previousSource": {
+        "id": "CG-0273",
+        "source": "Cosplay — Repère: question 2025",
+        "cat": "Culture générale",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "CG-0275",
+        "source": "Cosplay = pratique consistant à incarner visuellement un personnage, généralement par costume et accessoires.",
+        "cat": "Culture générale",
+        "page": 7
+      }
+    },
+    {
+      "id": "CG-0275",
+      "cat": "Culture générale",
+      "page": 7,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Cosplay = pratique consistant à incarner visuellement un personnage, généralement par costume et accessoires.",
+      "previousSource": {
+        "id": "CG-0274",
+        "source": "Manga = bande dessinée japonaise.",
+        "cat": "Culture générale",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "CG-0276",
+        "source": "La science est interrogée comme culture générale: vocabulaire du vivant et de l’environnement, accidents et grandes découvertes, notions élémentaires de physique ou de biologie.",
+        "cat": "Culture générale",
+        "page": 7
+      }
+    },
+    {
+      "id": "CG-0280",
+      "cat": "Culture générale",
+      "page": 7,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "L’accélération mesure la variation de la vitesse.",
+      "previousSource": {
+        "id": "CG-0279",
+        "source": "La vitesse est le rapport entre distance parcourue et durée.",
+        "cat": "Culture générale",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "CG-0281",
+        "source": "Newton: lois du mouvement et gravitation universelle.",
+        "cat": "Culture générale",
+        "page": 7
+      }
+    },
+    {
+      "id": "CG-0286",
+      "cat": "Culture générale",
+      "page": 7,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Principe de conservation: dans un système isolé, la quantité totale d’énergie se conserve.",
+      "previousSource": {
+        "id": "CG-0285",
+        "source": "Principe de conservation: l’énergie se transforme",
+        "cat": "Culture générale",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "CG-0287",
+        "source": "Puissance: énergie transférée par unité de temps",
+        "cat": "Culture générale",
+        "page": 7
+      }
+    },
+    {
+      "id": "CG-0289",
+      "cat": "Culture générale",
+      "page": 7,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Culture générale - Contrôleur des douanes | 7",
+      "previousSource": {
+        "id": "CG-0288",
+        "source": "Puissance: unité = watt.",
+        "cat": "Culture générale",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "CG-0290",
+        "source": "Hydrogène — Repère: élément le plus léger",
+        "cat": "Culture générale",
+        "page": 8
+      }
+    },
+    {
+      "id": "CG-0306",
+      "cat": "Culture générale",
+      "page": 8,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Le proton porte une charge positive, l’électron une charge négative et le neutron est électriquement neutre.",
+      "previousSource": {
+        "id": "CG-0305",
+        "source": "Un atome comprend un noyau formé de protons et de neutrons, autour duquel se trouvent des électrons.",
+        "cat": "Culture générale",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "CG-0307",
+        "source": "Le numéro atomique Z correspond au nombre de protons.",
+        "cat": "Culture générale",
+        "page": 8
+      }
+    },
+    {
+      "id": "CG-0312",
+      "cat": "Culture générale",
+      "page": 8,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Culture générale - Contrôleur des douanes | 8",
+      "previousSource": {
+        "id": "CG-0311",
+        "source": "pH < 7: solution acide; pH = 7: neutre; pH > 7: basique (à 25 °C, approximation scolaire).",
+        "cat": "Culture générale",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "CG-0313",
+        "source": "Système — Symbole: Fonction principale",
+        "cat": "Culture générale",
+        "page": 9
+      }
+    },
+    {
+      "id": "CG-0335",
+      "cat": "Culture générale",
+      "page": 9,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "ADN = acide désoxyribonucléique; support principal de l’information génétique.",
+      "previousSource": {
+        "id": "CG-0334",
+        "source": "La cellule est l’unité structurale fondamentale du vivant.",
+        "cat": "Culture générale",
+        "page": 9
+      },
+      "nextSource": {
+        "id": "CG-0336",
+        "source": "Gène = segment d’ADN contribuant à un caractère ou à la production d’un ARN / d’une protéine.",
+        "cat": "Culture générale",
+        "page": 9
+      }
+    },
+    {
+      "id": "CG-0336",
+      "cat": "Culture générale",
+      "page": 9,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Gène = segment d’ADN contribuant à un caractère ou à la production d’un ARN / d’une protéine.",
+      "previousSource": {
+        "id": "CG-0335",
+        "source": "ADN = acide désoxyribonucléique; support principal de l’information génétique.",
+        "cat": "Culture générale",
+        "page": 9
+      },
+      "nextSource": {
+        "id": "CG-0337",
+        "source": "Chromosomes humains: généralement 46 dans les cellules somatiques, organisés en 23 paires.",
+        "cat": "Culture générale",
+        "page": 9
+      }
+    },
+    {
+      "id": "CG-0340",
+      "cat": "Culture générale",
+      "page": 9,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Watson et Crick ont proposé le modèle de double hélice de l’ADN en 1953, en s’appuyant notamment sur les données expérimentales de Rosalind Franklin et Maurice Wilkins.",
+      "previousSource": {
+        "id": "CG-0339",
+        "source": "Mitochondries: organites essentiels à la production d’énergie cellulaire.",
+        "cat": "Culture générale",
+        "page": 9
+      },
+      "nextSource": {
+        "id": "CG-0341",
+        "source": "Charles Darwin est associé à la théorie de l’évolution par sélection naturelle.",
+        "cat": "Culture générale",
+        "page": 9
+      }
+    },
+    {
+      "id": "CG-0342",
+      "cat": "Culture générale",
+      "page": 9,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Les populations évoluent au fil des générations sous l’effet de variations héréditaires et de différences de succès reproductif.",
+      "previousSource": {
+        "id": "CG-0341",
+        "source": "Charles Darwin est associé à la théorie de l’évolution par sélection naturelle.",
+        "cat": "Culture générale",
+        "page": 9
+      },
+      "nextSource": {
+        "id": "CG-0343",
+        "source": "L’évolution ne poursuit pas un objectif prédéterminé.",
+        "cat": "Culture générale",
+        "page": 9
+      }
+    },
+    {
+      "id": "CG-0343",
+      "cat": "Culture générale",
+      "page": 9,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "L’évolution ne poursuit pas un objectif prédéterminé.",
+      "previousSource": {
+        "id": "CG-0342",
+        "source": "Les populations évoluent au fil des générations sous l’effet de variations héréditaires et de différences de succès reproductif.",
+        "cat": "Culture générale",
+        "page": 9
+      },
+      "nextSource": {
+        "id": "CG-0344",
+        "source": "Espèce: ensemble d’individus capables, dans une définition classique, de se reproduire entre eux et d’avoir une descendance fertile.",
+        "cat": "Culture générale",
+        "page": 9
+      }
+    },
+    {
+      "id": "CG-0354",
+      "cat": "Culture générale",
+      "page": 9,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Culture générale - Contrôleur des douanes | 9",
+      "previousSource": {
+        "id": "CG-0353",
+        "source": "Antibiotiques: ils ne traitent pas les infections virales.",
+        "cat": "Culture générale",
+        "page": 9
+      },
+      "nextSource": {
+        "id": "CG-0355",
+        "source": "Gaz principal de l’air sec — Œuvres / repères: Part approximative",
+        "cat": "Culture générale",
+        "page": 10
+      }
+    },
+    {
+      "id": "CG-0381",
+      "cat": "Culture générale",
+      "page": 10,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "L’augmentation anthropique de CO2, CH4 et N2O renforce cet effet et contribue au réchauffement climatique.",
+      "previousSource": {
+        "id": "CG-0380",
+        "source": "L’effet de serre est un phénomène naturel: certains gaz absorbent et réémettent une partie du rayonnement infrarouge, maintenant une température compatible avec la vie.",
+        "cat": "Culture générale",
+        "page": 10
+      },
+      "nextSource": {
+        "id": "CG-0382",
+        "source": "Météo = état de l’atmosphère à court terme; climat = statistiques du temps sur une longue période.",
+        "cat": "Culture générale",
+        "page": 10
+      }
+    },
+    {
+      "id": "CG-0382",
+      "cat": "Culture générale",
+      "page": 10,
+      "chapter": "II. Sciences",
+      "topic": "Sciences",
+      "source": "Météo = état de l’atmosphère à court terme; climat = statistiques du temps sur une longue période.",
+      "previousSource": {
+        "id": "CG-0381",
+        "source": "L’augmentation anthropique de CO2, CH4 et N2O renforce cet effet et contribue au réchauffement climatique.",
+        "cat": "Culture générale",
+        "page": 10
+      },
+      "nextSource": {
+        "id": "CG-0383",
+        "source": "Gaz à effet de serre importants: CO2, méthane (CH4), protoxyde d’azote (N2O), vapeur d’eau.",
+        "cat": "Culture générale",
+        "page": 10
+      }
+    },
+    {
+      "id": "CG-0389",
+      "cat": "Culture générale",
+      "page": 10,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Culture générale - Contrôleur des douanes | 10",
+      "previousSource": {
+        "id": "CG-0388",
+        "source": "Fukushima: accident nucléaire de",
+        "cat": "Culture générale",
+        "page": 10
+      },
+      "nextSource": {
+        "id": "CG-0390",
+        "source": "Jupiter — Repère: plus grande planète du système solaire",
+        "cat": "Culture générale",
+        "page": 11
+      }
+    },
+    {
+      "id": "CG-0415",
+      "cat": "Culture générale",
+      "page": 11,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Culture générale - Contrôleur des douanes | 11",
+      "previousSource": {
+        "id": "CG-0414",
+        "source": "Ordre des planètes depuis le Soleil: Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus, Neptune.",
+        "cat": "Culture générale",
+        "page": 11
+      },
+      "nextSource": {
+        "id": "CG-0416",
+        "source": "Ménages — Rôle principal: consommer, offrir du travail, épargner",
+        "cat": "Culture générale",
+        "page": 12
+      }
+    },
+    {
+      "id": "CG-0426",
+      "cat": "Culture générale",
+      "page": 12,
+      "chapter": "III. Économie",
+      "topic": "Économie",
+      "source": "L'annale 2025 demandait par exemple l'indice principal de la Bourse de Tokyo.",
+      "previousSource": {
+        "id": "CG-0425",
+        "source": "Reste du monde — Exemples: exportations, importations, capitaux",
+        "cat": "Culture générale",
+        "page": 12
+      },
+      "nextSource": {
+        "id": "CG-0427",
+        "source": "La rareté implique des choix: utiliser une ressource pour un usage signifie renoncer à d’autres usages possibles.",
+        "cat": "Culture générale",
+        "page": 12
+      }
+    },
+    {
+      "id": "CG-0433",
+      "cat": "Culture générale",
+      "page": 12,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "Valeur ajoutée = valeur de la production - consommations intermédiaires.",
+      "previousSource": {
+        "id": "CG-0432",
+        "source": "Production: création de biens et services.",
+        "cat": "Culture générale",
+        "page": 12
+      },
+      "nextSource": {
+        "id": "CG-0434",
+        "source": "Facteurs de production: principalement travail et capital",
+        "cat": "Culture générale",
+        "page": 12
+      }
+    },
+    {
+      "id": "CG-0437",
+      "cat": "Culture générale",
+      "page": 12,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "Le prix d’équilibre correspond au niveau où quantité offerte et quantité demandée coïncident.",
+      "previousSource": {
+        "id": "CG-0436",
+        "source": "Capital fixe: machines, bâtiments, équipements utilisés durablement pour produire.",
+        "cat": "Culture générale",
+        "page": 12
+      },
+      "nextSource": {
+        "id": "CG-0438",
+        "source": "Substitut: bien pouvant remplacer un autre (ex. train / avion selon usage).",
+        "cat": "Culture générale",
+        "page": 12
+      }
+    },
+    {
+      "id": "CG-0444",
+      "cat": "Culture générale",
+      "page": 12,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "Culture générale - Contrôleur des douanes | 12",
+      "previousSource": {
+        "id": "CG-0443",
+        "source": "Concurrence: elle peut porter sur les prix, la qualité, l’innovation, la marque.",
+        "cat": "Culture générale",
+        "page": 12
+      },
+      "nextSource": {
+        "id": "CG-0445",
+        "source": "PIB nominal — Définition / piège: calculé aux prix courants",
+        "cat": "Culture générale",
+        "page": 13
+      }
+    },
+    {
+      "id": "CG-0459",
+      "cat": "Culture générale",
+      "page": 13,
+      "chapter": "III. Économie",
+      "topic": "Économie",
+      "source": "Le produit intérieur brut (PIB) mesure la valeur de la production finale réalisée sur un territoire pendant une période donnée.",
+      "previousSource": {
+        "id": "CG-0458",
+        "source": "Indice des prix à la consommation — Définition / piège: outil statistique de mesure de l’évolution des prix d’un panier de biens et services",
+        "cat": "Culture générale",
+        "page": 13
+      },
+      "nextSource": {
+        "id": "CG-0460",
+        "source": "La croissance économique désigne l’augmentation du PIB en volume, c’est-à-dire corrigé des variations de prix.",
+        "cat": "Culture générale",
+        "page": 13
+      }
+    },
+    {
+      "id": "CG-0463",
+      "cat": "Culture générale",
+      "page": 13,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "La population active regroupe les personnes en emploi et les chômeurs.",
+      "previousSource": {
+        "id": "CG-0462",
+        "source": "Au sens du Bureau international du travail (BIT), un chômeur est une personne sans emploi, disponible pour travailler et ayant entrepris des démarches actives de recherche ou ayant trouvé un emploi commençant prochainement.",
+        "cat": "Culture générale",
+        "page": 13
+      },
+      "nextSource": {
+        "id": "CG-0464",
+        "source": "Taux de chômage = nombre de chômeurs / population active × 100.",
+        "cat": "Culture générale",
+        "page": 13
+      }
+    },
+    {
+      "id": "CG-0464",
+      "cat": "Culture générale",
+      "page": 13,
+      "chapter": "III. Économie",
+      "topic": "Économie",
+      "source": "Taux de chômage = nombre de chômeurs / population active × 100.",
+      "previousSource": {
+        "id": "CG-0463",
+        "source": "La population active regroupe les personnes en emploi et les chômeurs.",
+        "cat": "Culture générale",
+        "page": 13
+      },
+      "nextSource": {
+        "id": "CG-0465",
+        "source": "Chômage conjoncturel: lié au ralentissement de l’activité.",
+        "cat": "Culture générale",
+        "page": 13
+      }
+    },
+    {
+      "id": "CG-0470",
+      "cat": "Culture générale",
+      "page": 13,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "Culture générale - Contrôleur des douanes | 13",
+      "previousSource": {
+        "id": "CG-0469",
+        "source": "La monnaie fiduciaire comprend billets et pièces; la monnaie scripturale correspond aux dépôts utilisables par moyens de paiement.",
+        "cat": "Culture générale",
+        "page": 13
+      },
+      "nextSource": {
+        "id": "CG-0471",
+        "source": "Budgétaire — Acteur principal: État / administrations publiques",
+        "cat": "Culture générale",
+        "page": 14
+      }
+    },
+    {
+      "id": "CG-0482",
+      "cat": "Culture générale",
+      "page": 14,
+      "chapter": "III. Économie",
+      "topic": "Économie",
+      "source": "Dans les économies modernes, les banques commerciales créent une grande partie de la monnaie scripturale lorsqu’elles accordent des crédits, sous contraintes réglementaires et financières.",
+      "previousSource": {
+        "id": "CG-0481",
+        "source": "Redistribution — Exemple / définition: transferts et prélèvements modifiant la répartition primaire des revenus",
+        "cat": "Culture générale",
+        "page": 14
+      },
+      "nextSource": {
+        "id": "CG-0483",
+        "source": "Les banques centrales émettent la monnaie centrale et conduisent la politique monétaire.",
+        "cat": "Culture générale",
+        "page": 14
+      }
+    },
+    {
+      "id": "CG-0483",
+      "cat": "Culture générale",
+      "page": 14,
+      "chapter": "III. Économie",
+      "topic": "Économie",
+      "source": "Les banques centrales émettent la monnaie centrale et conduisent la politique monétaire.",
+      "previousSource": {
+        "id": "CG-0482",
+        "source": "Dans les économies modernes, les banques commerciales créent une grande partie de la monnaie scripturale lorsqu’elles accordent des crédits, sous contraintes réglementaires et financières.",
+        "cat": "Culture générale",
+        "page": 14
+      },
+      "nextSource": {
+        "id": "CG-0484",
+        "source": "BCE = Banque centrale européenne; siège à Francfort.",
+        "cat": "Culture générale",
+        "page": 14
+      }
+    },
+    {
+      "id": "CG-0484",
+      "cat": "Culture générale",
+      "page": 14,
+      "chapter": "III. Économie",
+      "topic": "Économie",
+      "source": "BCE = Banque centrale européenne; siège à Francfort.",
+      "previousSource": {
+        "id": "CG-0483",
+        "source": "Les banques centrales émettent la monnaie centrale et conduisent la politique monétaire.",
+        "cat": "Culture générale",
+        "page": 14
+      },
+      "nextSource": {
+        "id": "CG-0485",
+        "source": "Elle conduit la politique monétaire de la zone euro avec les banques centrales nationales de l’Eurosystème.",
+        "cat": "Culture générale",
+        "page": 14
+      }
+    },
+    {
+      "id": "CG-0485",
+      "cat": "Culture générale",
+      "page": 14,
+      "chapter": "III. Économie",
+      "topic": "Économie",
+      "source": "Elle conduit la politique monétaire de la zone euro avec les banques centrales nationales de l’Eurosystème.",
+      "previousSource": {
+        "id": "CG-0484",
+        "source": "BCE = Banque centrale européenne; siège à Francfort.",
+        "cat": "Culture générale",
+        "page": 14
+      },
+      "nextSource": {
+        "id": "CG-0486",
+        "source": "Objectif principal: stabilité des prix",
+        "cat": "Culture générale",
+        "page": 14
+      }
+    },
+    {
+      "id": "CG-0495",
+      "cat": "Culture générale",
+      "page": 14,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "Un budget peut être en déficit une année tout en ayant déjà une dette importante accumulée.",
+      "previousSource": {
+        "id": "CG-0494",
+        "source": "Dette publique: c’est un stock.",
+        "cat": "Culture générale",
+        "page": 14
+      },
+      "nextSource": {
+        "id": "CG-0496",
+        "source": "Prélèvements obligatoires: impôts et cotisations sociales effectivement reçus par les administrations publiques et institutions européennes selon la définition statistique.",
+        "cat": "Culture générale",
+        "page": 14
+      }
+    },
+    {
+      "id": "CG-0500",
+      "cat": "Culture générale",
+      "page": 14,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "Culture générale - Contrôleur des douanes | 14",
+      "previousSource": {
+        "id": "CG-0499",
+        "source": "Coût variable: varie avec la production (matières premières, certaines consommations).",
+        "cat": "Culture générale",
+        "page": 14
+      },
+      "nextSource": {
+        "id": "CG-0501",
+        "source": "Instrument — Rôle principal: Ce que c’est",
+        "cat": "Culture générale",
+        "page": 15
+      }
+    },
+    {
+      "id": "CG-0527",
+      "cat": "Culture générale",
+      "page": 15,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "Obligation = dette.",
+      "previousSource": {
+        "id": "CG-0526",
+        "source": "Productivité du travail: production rapportée à la quantité de travail utilisée.",
+        "cat": "Culture générale",
+        "page": 15
+      },
+      "nextSource": {
+        "id": "CG-0528",
+        "source": "Culture générale - Contrôleur des douanes | 15",
+        "cat": "Culture générale",
+        "page": 15
+      }
+    },
+    {
+      "id": "CG-0528",
+      "cat": "Culture générale",
+      "page": 15,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "Culture générale - Contrôleur des douanes | 15",
+      "previousSource": {
+        "id": "CG-0527",
+        "source": "Obligation = dette.",
+        "cat": "Culture générale",
+        "page": 15
+      },
+      "nextSource": {
+        "id": "CG-0529",
+        "source": "Banque mondiale — Siège / repère: Washington",
+        "cat": "Culture générale",
+        "page": 16
+      }
+    },
+    {
+      "id": "CG-0534",
+      "cat": "Culture générale",
+      "page": 16,
+      "chapter": "III. Économie",
+      "topic": "Économie",
+      "source": "Une appréciation signifie qu’une monnaie gagne de la valeur par rapport à une autre; une dépréciation signifie qu’elle en perd.",
+      "previousSource": {
+        "id": "CG-0533",
+        "source": "Le taux de change est le prix d’une monnaie exprimé dans une autre.",
+        "cat": "Culture générale",
+        "page": 16
+      },
+      "nextSource": {
+        "id": "CG-0535",
+        "source": "Les taux de change dépendent de nombreux facteurs: taux d’intérêt, anticipations, commerce, flux de capitaux, situation politique et économique.",
+        "cat": "Culture générale",
+        "page": 16
+      }
+    },
+    {
+      "id": "CG-0545",
+      "cat": "Culture générale",
+      "page": 16,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "Culture générale - Contrôleur des douanes | 16",
+      "previousSource": {
+        "id": "CG-0544",
+        "source": "Pauvreté monétaire: définie par rapport à un seuil de revenu ou de niveau de vie.",
+        "cat": "Culture générale",
+        "page": 16
+      },
+      "nextSource": {
+        "id": "CG-0546",
+        "source": "La Joconde — Association: Léonard de Vinci",
+        "cat": "Culture générale",
+        "page": 17
+      }
+    },
+    {
+      "id": "CG-0576",
+      "cat": "Culture générale",
+      "page": 17,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "Arts - 40 associations prioritaires Culture générale - Contrôleur des douanes | 17",
+      "previousSource": {
+        "id": "CG-0575",
+        "source": "Développement durable: satisfaire les besoins présents sans compromettre la capacité des générations futures à satisfaire les leurs, formulation issue du rapport Brundtland.",
+        "cat": "Culture générale",
+        "page": 17
+      },
+      "nextSource": {
+        "id": "CG-0577",
+        "source": "Le Sacre du printemps — Association: Stravinsky",
+        "cat": "Culture générale",
+        "page": 18
+      }
+    },
+    {
+      "id": "CG-0594",
+      "cat": "Culture générale",
+      "page": 18,
+      "chapter": "IV. Fiches express à mémoriser",
+      "topic": "IV. Fiches express à mémoriser",
+      "source": "Sciences - 40 repères prioritaires Culture générale - Contrôleur des douanes | 18",
+      "previousSource": {
+        "id": "CG-0593",
+        "source": "Relativité — Association: Einstein",
+        "cat": "Culture générale",
+        "page": 18
+      },
+      "nextSource": {
+        "id": "CG-0595",
+        "source": "Cellule somatique humaine — Association: 46 chromosomes en général",
+        "cat": "Culture générale",
+        "page": 19
+      }
+    },
+    {
+      "id": "CG-0616",
+      "cat": "Culture générale",
+      "page": 19,
+      "chapter": "IV. Fiches express à mémoriser",
+      "topic": "Économie",
+      "source": "Économie - 40 repères prioritaires Culture générale - Contrôleur des douanes | 19",
+      "previousSource": {
+        "id": "CG-0615",
+        "source": "Productivité — Association: production / facteurs utilisés",
+        "cat": "Culture générale",
+        "page": 19
+      },
+      "nextSource": null
+    }
+  ]
+}
