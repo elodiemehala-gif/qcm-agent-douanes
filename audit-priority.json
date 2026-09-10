@@ -1,9 +1,9 @@
 {
   "summary": {
-    "generatedAt": "2026-09-10T08:18:02.028Z",
+    "generatedAt": "2026-09-10T08:20:25.078Z",
     "rawFragments": 2349,
     "sourceFacts": 2203,
-    "enrichedFacts": 2247,
+    "enrichedFacts": 2254,
     "auditedSourceFacts": 2203,
     "categories": [
       "Histoire",
@@ -27,12 +27,12 @@
       },
       "Géographie": {
         "facts": 393,
-        "pass": 317,
-        "noQuestion": 24,
-        "flagged": 76,
+        "pass": 333,
+        "noQuestion": 0,
+        "flagged": 57,
         "sourceRejected": 0,
-        "resolvedNonAtomic": 0,
-        "remaining": 76
+        "resolvedNonAtomic": 3,
+        "remaining": 57
       },
       "Enseignement moral et civique": {
         "facts": 233,
@@ -91,1606 +91,22 @@
     },
     "issueCounts": {
       "answer_too_broad": 120,
-      "mixed_semantic_types": 199,
+      "mixed_semantic_types": 206,
       "correct_length_gives_clue": 24,
-      "no_question": 239,
+      "no_question": 216,
       "option_length_imbalance": 16,
       "answer_not_literal_in_source": 2
     },
-    "fullyCompliant": 1645,
-    "resolvedNonAtomic": 12,
-    "resolvedTotal": 1657,
-    "remaining": 546,
-    "flagged": 546,
-    "noQuestion": 208,
-    "withQuestion": 1983,
+    "fullyCompliant": 1661,
+    "resolvedNonAtomic": 15,
+    "resolvedTotal": 1676,
+    "remaining": 527,
+    "flagged": 527,
+    "noQuestion": 184,
+    "withQuestion": 2004,
     "sourceRejected": 0
   },
   "rows": [
-    {
-      "id": "GEO-0033",
-      "cat": "Géographie",
-      "page": 3,
-      "chapter": "I.1 Continents, océans et détroits",
-      "topic": "I.1 Continents, océans et détroits",
-      "source": "Géographie - QCM Agent DGFiP & Contrôleur des douanes",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0033",
-          "chapter": "I.1 Continents, océans et détroits",
-          "topic": "I.1 Continents, océans et détroits",
-          "source": "Géographie - QCM Agent DGFiP & Contrôleur des douanes",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0032",
-        "source": "Antarctique — Particularités: continent le plus froid et désertique.",
-        "cat": "Géographie",
-        "page": 3
-      },
-      "nextSource": {
-        "id": "GEO-0034",
-        "source": "Latitude ≠ longitude: latitude = nord/sud",
-        "cat": "Géographie",
-        "page": 3
-      }
-    },
-    {
-      "id": "GEO-0036",
-      "cat": "Géographie",
-      "page": 3,
-      "chapter": "I.1 Continents, océans et détroits",
-      "topic": "I.1 Continents, océans et détroits",
-      "source": "Le méridien de changement de date suit approximativement le 180e méridien mais présente des déviations.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0036",
-          "chapter": "I.1 Continents, océans et détroits",
-          "topic": "I.1 Continents, océans et détroits",
-          "source": "Le méridien de changement de date suit approximativement le 180e méridien mais présente des déviations.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0035",
-        "source": "Latitude ≠ longitude: longitude = est/ouest.",
-        "cat": "Géographie",
-        "page": 3
-      },
-      "nextSource": {
-        "id": "GEO-0037",
-        "source": "Pour les statistiques démographiques, l’ONU utilise plutôt de grandes régions géographiques.",
-        "cat": "Géographie",
-        "page": 3
-      }
-    },
-    {
-      "id": "GEO-0037",
-      "cat": "Géographie",
-      "page": 3,
-      "chapter": "I.5 Démographie mondiale",
-      "topic": "Reliefs et déserts",
-      "source": "Pour les statistiques démographiques, l’ONU utilise plutôt de grandes régions géographiques.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0037",
-          "chapter": "I.5 Démographie mondiale",
-          "topic": "Reliefs et déserts",
-          "source": "Pour les statistiques démographiques, l’ONU utilise plutôt de grandes régions géographiques.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0036",
-        "source": "Le méridien de changement de date suit approximativement le 180e méridien mais présente des déviations.",
-        "cat": "Géographie",
-        "page": 3
-      },
-      "nextSource": {
-        "id": "GEO-0038",
-        "source": "Dans la nomenclature statistique M49 de l’ONU, il est rangé dans la sous-région « Amérique centrale ».",
-        "cat": "Géographie",
-        "page": 3
-      }
-    },
-    {
-      "id": "GEO-0079",
-      "cat": "Géographie",
-      "page": 4,
-      "chapter": "I.1 Continents, océans et détroits",
-      "topic": "I.1 Continents, océans et détroits",
-      "source": "Ormuz = Iran/Oman, pas Iran/Arabie saoudite ni Iran/Émirats arabes unis.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0079",
-          "chapter": "I.1 Continents, océans et détroits",
-          "topic": "I.1 Continents, océans et détroits",
-          "source": "Ormuz = Iran/Oman, pas Iran/Arabie saoudite ni Iran/Émirats arabes unis.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0078",
-        "source": "Les détroits sont des passages maritimes naturels; les canaux sont artificiels.",
-        "cat": "Géographie",
-        "page": 4
-      },
-      "nextSource": {
-        "id": "GEO-0080",
-        "source": "Bab-el-Mandeb n’est pas une route « alternative » à Suez: il fait partie de l’axe mer Rouge-Suez.",
-        "cat": "Géographie",
-        "page": 4
-      }
-    },
-    {
-      "id": "GEO-0120",
-      "cat": "Géographie",
-      "page": 5,
-      "chapter": "I.4 Climats et biomes",
-      "topic": "Climats et biomes",
-      "source": "« Plus grand désert » = Antarctique si l’on retient la définition climatique; « plus grand désert chaud » = Sahara.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0120",
-          "chapter": "I.4 Climats et biomes",
-          "topic": "Climats et biomes",
-          "source": "« Plus grand désert » = Antarctique si l’on retient la définition climatique; « plus grand désert chaud » = Sahara.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0119",
-        "source": "L’Antarctique et l’Arctique sont donc des déserts polaires.",
-        "cat": "Géographie",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "GEO-0121",
-        "source": "Atacama = façade pacifique d’Amérique du Sud; Gobi = Asie intérieure.",
-        "cat": "Géographie",
-        "page": 5
-      }
-    },
-    {
-      "id": "GEO-0121",
-      "cat": "Géographie",
-      "page": 5,
-      "chapter": "I.2 Reliefs, montagnes et déserts",
-      "topic": "I.2 Reliefs, montagnes et déserts",
-      "source": "Atacama = façade pacifique d’Amérique du Sud; Gobi = Asie intérieure.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0121",
-          "chapter": "I.2 Reliefs, montagnes et déserts",
-          "topic": "I.2 Reliefs, montagnes et déserts",
-          "source": "Atacama = façade pacifique d’Amérique du Sud; Gobi = Asie intérieure.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0120",
-        "source": "« Plus grand désert » = Antarctique si l’on retient la définition climatique; « plus grand désert chaud » = Sahara.",
-        "cat": "Géographie",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "GEO-0122",
-        "source": "Un fleuve se jette dans une mer ou un océan; une rivière se jette dans un autre cours d’eau.",
-        "cat": "Géographie",
-        "page": 5
-      }
-    },
-    {
-      "id": "GEO-0122",
-      "cat": "Géographie",
-      "page": 5,
-      "chapter": "I.2 Reliefs, montagnes et déserts",
-      "topic": "Fleuves et lacs",
-      "source": "Un fleuve se jette dans une mer ou un océan; une rivière se jette dans un autre cours d’eau.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0122",
-          "chapter": "I.2 Reliefs, montagnes et déserts",
-          "topic": "Fleuves et lacs",
-          "source": "Un fleuve se jette dans une mer ou un océan; une rivière se jette dans un autre cours d’eau.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0121",
-        "source": "Atacama = façade pacifique d’Amérique du Sud; Gobi = Asie intérieure.",
-        "cat": "Géographie",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "GEO-0123",
-        "source": "Les longueurs peuvent varier selon la méthode de mesure: il faut surtout connaître les grands bassins, les embouchures et les pays traversés.",
-        "cat": "Géographie",
-        "page": 5
-      }
-    },
-    {
-      "id": "GEO-0163",
-      "cat": "Géographie",
-      "page": 6,
-      "chapter": "I.2 Reliefs, montagnes et déserts",
-      "topic": "Fleuves et lacs",
-      "source": "Géographie - QCM Agent DGFiP & Contrôleur des douanes Nil ou Amazone: lequel est le plus long?",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0163",
-          "chapter": "I.2 Reliefs, montagnes et déserts",
-          "topic": "Fleuves et lacs",
-          "source": "Géographie - QCM Agent DGFiP & Contrôleur des douanes Nil ou Amazone — rôle: lequel est le plus long?",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0162",
-        "source": "Climat montagnard — Exemples: Alpes, Himalaya, Andes.",
-        "cat": "Géographie",
-        "page": 6
-      },
-      "nextSource": {
-        "id": "GEO-0164",
-        "source": "Le classement dépend de la définition de la source et des méthodes de mesure.",
-        "cat": "Géographie",
-        "page": 6
-      }
-    },
-    {
-      "id": "GEO-0164",
-      "cat": "Géographie",
-      "page": 6,
-      "chapter": "I.2 Reliefs, montagnes et déserts",
-      "topic": "I.2 Reliefs, montagnes et déserts",
-      "source": "Le classement dépend de la définition de la source et des méthodes de mesure.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0164",
-          "chapter": "I.2 Reliefs, montagnes et déserts",
-          "topic": "I.2 Reliefs, montagnes et déserts",
-          "source": "Le classement dépend de la définition de la source et des méthodes de mesure.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0163",
-        "source": "Géographie - QCM Agent DGFiP & Contrôleur des douanes Nil ou Amazone: lequel est le plus long?",
-        "cat": "Géographie",
-        "page": 6
-      },
-      "nextSource": {
-        "id": "GEO-0165",
-        "source": "L’Amazone est sans ambiguïté le fleuve au plus grand débit.",
-        "cat": "Géographie",
-        "page": 6
-      }
-    },
-    {
-      "id": "GEO-0166",
-      "cat": "Géographie",
-      "page": 6,
-      "chapter": "I.4 Climats et biomes",
-      "topic": "Climats et biomes",
-      "source": "Le climat dépend principalement de la latitude, de l’altitude, de la continentalité, des courants marins et du relief.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0166",
-          "chapter": "I.4 Climats et biomes",
-          "topic": "Climats et biomes",
-          "source": "Le climat dépend principalement de la latitude, de l’altitude, de la continentalité, des courants marins et du relief.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0165",
-        "source": "L’Amazone est sans ambiguïté le fleuve au plus grand débit.",
-        "cat": "Géographie",
-        "page": 6
-      },
-      "nextSource": {
-        "id": "GEO-0167",
-        "source": "Biomes à connaître: forêt équatoriale, savane, steppe, désert, forêt méditerranéenne, forêt tempérée, taïga, toundra.",
-        "cat": "Géographie",
-        "page": 6
-      }
-    },
-    {
-      "id": "GEO-0168",
-      "cat": "Géographie",
-      "page": 6,
-      "chapter": "I.4 Climats et biomes",
-      "topic": "Climats et biomes",
-      "source": "Un biome combine climat, végétation dominante et faune adaptée.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0168",
-          "chapter": "I.4 Climats et biomes",
-          "topic": "Climats et biomes",
-          "source": "Un biome combine climat, végétation dominante et faune adaptée.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0167",
-        "source": "Biomes à connaître: forêt équatoriale, savane, steppe, désert, forêt méditerranéenne, forêt tempérée, taïga, toundra.",
-        "cat": "Géographie",
-        "page": 6
-      },
-      "nextSource": {
-        "id": "GEO-0169",
-        "source": "Méditerranéen = été chaud et sec, hiver plus doux et plus humide.",
-        "cat": "Géographie",
-        "page": 6
-      }
-    },
-    {
-      "id": "GEO-0169",
-      "cat": "Géographie",
-      "page": 6,
-      "chapter": "I.4 Climats et biomes",
-      "topic": "Climats et biomes",
-      "source": "Méditerranéen = été chaud et sec, hiver plus doux et plus humide.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0169",
-          "chapter": "I.4 Climats et biomes",
-          "topic": "Climats et biomes",
-          "source": "Méditerranéen = été chaud et sec, hiver plus doux et plus humide.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0168",
-        "source": "Un biome combine climat, végétation dominante et faune adaptée.",
-        "cat": "Géographie",
-        "page": 6
-      },
-      "nextSource": {
-        "id": "GEO-0170",
-        "source": "Taïga = forêt boréale de conifères; toundra = végétation basse sans forêt continue.",
-        "cat": "Géographie",
-        "page": 6
-      }
-    },
-    {
-      "id": "GEO-0170",
-      "cat": "Géographie",
-      "page": 6,
-      "chapter": "I.2 Reliefs, montagnes et déserts",
-      "topic": "I.2 Reliefs, montagnes et déserts",
-      "source": "Taïga = forêt boréale de conifères; toundra = végétation basse sans forêt continue.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0170",
-          "chapter": "I.2 Reliefs, montagnes et déserts",
-          "topic": "I.2 Reliefs, montagnes et déserts",
-          "source": "Taïga = forêt boréale de conifères; toundra = végétation basse sans forêt continue.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0169",
-        "source": "Méditerranéen = été chaud et sec, hiver plus doux et plus humide.",
-        "cat": "Géographie",
-        "page": 6
-      },
-      "nextSource": {
-        "id": "GEO-0171",
-        "source": "Le climat n’est pas la météo: le climat correspond à des tendances de longue durée.",
-        "cat": "Géographie",
-        "page": 6
-      }
-    },
-    {
-      "id": "GEO-0186",
-      "cat": "Géographie",
-      "page": 7,
-      "chapter": "I.5 Démographie mondiale",
-      "topic": "Démographie",
-      "source": "La population mondiale dépasse 8,2 milliards d’habitants.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0186",
-          "chapter": "I.5 Démographie mondiale",
-          "topic": "Démographie",
-          "source": "La population mondiale dépasse 8,2 milliards d’habitants.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0185",
-        "source": "Rang indicatif 2026 — Date: PIB nominal 2026 (ordre de grandeur)",
-        "cat": "Géographie",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "GEO-0187",
-        "source": "Transition démographique: passage d’un régime à forte natalité et forte mortalité à un régime de faible natalité et faible mortalité.",
-        "cat": "Géographie",
-        "page": 7
-      }
-    },
-    {
-      "id": "GEO-0190",
-      "cat": "Géographie",
-      "page": 7,
-      "chapter": "I.7 Géopolitique mondiale",
-      "topic": "Démographie",
-      "source": "Le rapport ONU « World Urbanization Prospects 2025 » utilise une nouvelle définition harmonisée et recense 33 mégapoles de 10 millions d’habitants ou plus en 2025.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0190",
-          "chapter": "I.7 Géopolitique mondiale",
-          "topic": "Démographie",
-          "source": "Le rapport ONU « World Urbanization Prospects 2025 » utilise une nouvelle définition harmonisée et recense 33 mégapoles de 10 millions d’habitants ou plus en 2025.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0189",
-        "source": "Urbanisation: les comparaisons varient selon la définition retenue.",
-        "cat": "Géographie",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "GEO-0191",
-        "source": "Vocabulaire à corriger Mégapole = très grande agglomération, souvent définie par un seuil de 10 millions d’habitants.",
-        "cat": "Géographie",
-        "page": 7
-      }
-    },
-    {
-      "id": "GEO-0191",
-      "cat": "Géographie",
-      "page": 7,
-      "chapter": "I.3 Fleuves, lacs et hydrographie",
-      "topic": "Reliefs et déserts",
-      "source": "Vocabulaire à corriger Mégapole = très grande agglomération, souvent définie par un seuil de 10 millions d’habitants.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0191",
-          "chapter": "I.3 Fleuves, lacs et hydrographie",
-          "topic": "Reliefs et déserts",
-          "source": "Vocabulaire à corriger Mégapole = très grande agglomération, souvent définie par un seuil de 10 millions d’habitants.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0190",
-        "source": "Le rapport ONU « World Urbanization Prospects 2025 » utilise une nouvelle définition harmonisée et recense 33 mégapoles de 10 millions d’habitants ou plus en 2025.",
-        "cat": "Géographie",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "GEO-0192",
-        "source": "Mégalopole = vaste région urbaine continue ou fortement connectée regroupant plusieurs métropoles (ex.",
-        "cat": "Géographie",
-        "page": 7
-      }
-    },
-    {
-      "id": "GEO-0192",
-      "cat": "Géographie",
-      "page": 7,
-      "chapter": "I.3 Fleuves, lacs et hydrographie",
-      "topic": "Démographie",
-      "source": "Mégalopole = vaste région urbaine continue ou fortement connectée regroupant plusieurs métropoles (ex.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0192",
-          "chapter": "I.3 Fleuves, lacs et hydrographie",
-          "topic": "Démographie",
-          "source": "Mégalopole = vaste région urbaine continue ou fortement connectée regroupant plusieurs métropoles (ex.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0191",
-        "source": "Vocabulaire à corriger Mégapole = très grande agglomération, souvent définie par un seuil de 10 millions d’habitants.",
-        "cat": "Géographie",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "GEO-0193",
-        "source": "Les deux mots ne sont pas synonymes.",
-        "cat": "Géographie",
-        "page": 7
-      }
-    },
-    {
-      "id": "GEO-0194",
-      "cat": "Géographie",
-      "page": 7,
-      "chapter": "I.6 Économie mondiale et mondialisation",
-      "topic": "Économie mondiale",
-      "source": "Le PIB mesure la valeur des biens et services produits sur un territoire pendant une période donnée.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0194",
-          "chapter": "I.6 Économie mondiale et mondialisation",
-          "topic": "Économie mondiale",
-          "source": "Le PIB mesure la valeur des biens et services produits sur un territoire pendant une période donnée.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0193",
-        "source": "Les deux mots ne sont pas synonymes.",
-        "cat": "Géographie",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "GEO-0195",
-        "source": "Le classement en dollars courants dépend des taux de change: les places peuvent donc évoluer rapidement.",
-        "cat": "Géographie",
-        "page": 7
-      }
-    },
-    {
-      "id": "GEO-0206",
-      "cat": "Géographie",
-      "page": 8,
-      "chapter": "I.5 Démographie mondiale",
-      "topic": "Démographie",
-      "source": "mondial, plus de 75 % du commerce international et environ deux tiers de la population mondiale.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0206",
-          "chapter": "I.5 Démographie mondiale",
-          "topic": "Démographie",
-          "source": "mondial, plus de 75 % du commerce international et environ deux tiers de la population mondiale.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0205",
-        "source": "Corne de l’Afrique — À retenir: Accès maritime, bases militaires, sécurité du trafic à Bab-el-Mandeb.",
-        "cat": "Géographie",
-        "page": 8
-      },
-      "nextSource": {
-        "id": "GEO-0207",
-        "source": "Le G20 n’est plus « 19 pays + UE seulement »: l’Union africaine est membre depuis 2023.",
-        "cat": "Géographie",
-        "page": 8
-      }
-    },
-    {
-      "id": "GEO-0208",
-      "cat": "Géographie",
-      "page": 8,
-      "chapter": "I.6 Économie mondiale et mondialisation",
-      "topic": "Économie mondiale",
-      "source": "Le G7 n’est pas une organisation dotée d’un traité constitutif comparable à l’ONU.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0208",
-          "chapter": "I.6 Économie mondiale et mondialisation",
-          "topic": "Économie mondiale",
-          "source": "Le G7 n’est pas une organisation dotée d’un traité constitutif comparable à l’ONU.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0207",
-        "source": "Le G20 n’est plus « 19 pays + UE seulement »: l’Union africaine est membre depuis 2023.",
-        "cat": "Géographie",
-        "page": 8
-      },
-      "nextSource": {
-        "id": "GEO-0209",
-        "source": "Le groupe BRICS est un forum de coordination politique et économique du « Sud global ».",
-        "cat": "Géographie",
-        "page": 8
-      }
-    },
-    {
-      "id": "GEO-0295",
-      "cat": "Géographie",
-      "page": 11,
-      "chapter": "I.6 Économie mondiale et mondialisation",
-      "topic": "Démographie",
-      "source": "Au 1er janvier 2026, la France compte environ 69,1 millions d’habitants, dont 66,8 millions en métropole.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0295",
-          "chapter": "I.6 Économie mondiale et mondialisation",
-          "topic": "Démographie",
-          "source": "Au 1er janvier 2026, la France compte environ 69,1 millions d’habitants, dont 66,8 millions en métropole.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0294",
-        "source": "Rennes / Montpellier — Événement: Métropoles régionales dynamiques, enseignement supérieur et services.",
-        "cat": "Géographie",
-        "page": 11
-      },
-      "nextSource": {
-        "id": "GEO-0296",
-        "source": "Le vieillissement de la population est marqué: environ 22 % de la population a 65 ans ou plus.",
-        "cat": "Géographie",
-        "page": 11
-      }
-    },
-    {
-      "id": "GEO-0303",
-      "cat": "Géographie",
-      "page": 11,
-      "chapter": "I.6 Économie mondiale et mondialisation",
-      "topic": "Reliefs et déserts",
-      "source": "La France dispose de la plus grande surface agricole utilisée de l’Union européenne et reste le premier producteur agricole européen en valeur.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0303",
-          "chapter": "I.6 Économie mondiale et mondialisation",
-          "topic": "Reliefs et déserts",
-          "source": "La France dispose de la plus grande surface agricole utilisée de l’Union européenne et reste le premier producteur agricole européen en valeur.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0302",
-        "source": "Urbanisation: Paris domine le système urbain mais Lyon, Marseille-Aix, Toulouse, Lille, Bordeaux, Nice, Nantes, Strasbourg, Rennes ou Montpellier structurent de grands pôles régionaux.",
-        "cat": "Géographie",
-        "page": 11
-      },
-      "nextSource": {
-        "id": "GEO-0304",
-        "source": "L’agriculture représente cependant une faible part de la valeur ajoutée totale (environ 1,5 % en 2025).",
-        "cat": "Géographie",
-        "page": 11
-      }
-    },
-    {
-      "id": "GEO-0345",
-      "cat": "Géographie",
-      "page": 12,
-      "chapter": "I.4 Climats et biomes",
-      "topic": "Climats et biomes",
-      "source": "Toulouse = aéronautique/spatial; Marseille = grand port méditerranéen; Le Havre = premier grand port français de conteneurs.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0345",
-          "chapter": "I.4 Climats et biomes",
-          "topic": "Climats et biomes",
-          "source": "Toulouse = aéronautique/spatial; Marseille = grand port méditerranéen; Le Havre = premier grand port français de conteneurs.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0344",
-        "source": "La France reste une grande puissance agricole mais l’agriculture ne représente qu’une petite fraction du PIB/valeur ajoutée.",
-        "cat": "Géographie",
-        "page": 12
-      },
-      "nextSource": {
-        "id": "GEO-0346",
-        "source": "Ports: Marseille-Fos (grand port de marchandises et d’hydrocarbures), Haropa Port/Le Havre (conteneurs et axe Seine), Dunkerque, Nantes-Saint-Nazaire, Rouen, Bordeaux, etc.",
-        "cat": "Géographie",
-        "page": 12
-      }
-    },
-    {
-      "id": "GEO-0352",
-      "cat": "Géographie",
-      "page": 12,
-      "chapter": "I.6 Économie mondiale et mondialisation",
-      "topic": "I.6 Économie mondiale et mondialisation",
-      "source": "La loi NOTRe du 7 août 2015 a, elle, redéfini la répartition des compétences entre collectivités.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0352",
-          "chapter": "I.6 Économie mondiale et mondialisation",
-          "topic": "I.6 Économie mondiale et mondialisation",
-          "source": "La loi NOTRe du 7 août 2015 a, elle, redéfini la répartition des compétences entre collectivités.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0351",
-        "source": "La réduction de 22 à 13 régions métropolitaines est issue de la loi du 16 janvier 2015 relative à la délimitation des régions; la nouvelle carte est entrée en vigueur le 1er janvier 2016.",
-        "cat": "Géographie",
-        "page": 12
-      },
-      "nextSource": {
-        "id": "GEO-0353",
-        "source": "Provence-Alpes-Côte d’Azur — Auteur: Marseille",
-        "cat": "Géographie",
-        "page": 13
-      }
-    },
     {
       "id": "EMC-0004",
       "cat": "Enseignement moral et civique",
@@ -14001,6 +12417,105 @@
       }
     },
     {
+      "id": "GEO-0361",
+      "cat": "Géographie",
+      "page": 13,
+      "chapter": "I.6 Économie mondiale et mondialisation",
+      "topic": "I.6 Économie mondiale et mondialisation",
+      "source": "Martinique — Auteur: Collectivité territoriale unique régie par l’art. 73, Caraïbes",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "no_question",
+        "answer_too_broad",
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0361",
+          "chapter": "I.6 Économie mondiale et mondialisation",
+          "topic": "I.6 Économie mondiale et mondialisation",
+          "source": "Martinique — auteur: Collectivité territoriale unique régie par l’art. 73, Caraïbes",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "no_question",
+            "answer_too_broad",
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Martinique — auteur?",
+                "o": [
+                  "Collectivité territoriale unique régie par l’art. 73, Caraïbes",
+                  "Partage l’île avec Sint Maarten (royaume des Pays-Bas)",
+                  "57 réacteurs EDF en fonctionnement en 2026",
+                  "Martinique et Guyane sont des collectivités territoriales uniques"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Martinique — auteur?",
+                "o": [
+                  "Orly, Nice, Lyon, Marseille, Toulouse, Bâle-Mulhouse parmi les principaux",
+                  "Partage l’île avec Sint Maarten (royaume des Pays-Bas)",
+                  "Collectivité territoriale unique régie par l’art. 73, Caraïbes",
+                  "en 2025, il est devenu légèrement négatif en France pour la première fois depuis la fin de la Seconde Guerre mondiale"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Martinique — auteur?",
+                "o": [
+                  "Collectivité territoriale unique régie par l’art. 73, Caraïbes",
+                  "Partage l’île avec Sint Maarten (royaume des Pays-Bas)",
+                  "projets et aménagements liés à la logistique et à la décarbonation",
+                  "57 réacteurs EDF en fonctionnement en 2026"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0360",
+        "source": "Guadeloupe — Particularités: volcan de la Soufrière.",
+        "cat": "Géographie",
+        "page": 13
+      },
+      "nextSource": {
+        "id": "GEO-0362",
+        "source": "Martinique — Date: Fort-de-France",
+        "cat": "Géographie",
+        "page": 13
+      }
+    },
+    {
       "id": "ORG-0055",
       "cat": "Organisation et missions",
       "page": 6,
@@ -14830,24 +13345,9 @@
               "q": {
                 "prompt": "Quelle caractéristique est associée à Canal de Suez — repère?",
                 "o": [
-                  "son blocage ou les tensions en mer Rouge entraînent des détours par le cap de Bonne-Espérance",
-                  "Distance angulaire à l’est ou à l’ouest de Greenwich",
-                  "Accès maritime des États riverains de la mer Noire",
-                  "Toujours comprise entre 0° et 180° E/O"
-                ],
-                "ans": 0
-              },
-              "issues": [
-                "mixed_semantic_types"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Canal de Suez — repère?",
-                "o": [
-                  "Distance angulaire au nord ou au sud de l’équateur",
-                  "son blocage ou les tensions en mer Rouge entraînent des détours par le cap de Bonne-Espérance",
                   "régime encadré par la convention de Montreux",
+                  "son blocage ou les tensions en mer Rouge entraînent des détours par le cap de Bonne-Espérance",
+                  "ouverture progressive de routes maritimes et enjeux de ressources",
                   "15° de longitude ≈ 1 heure"
                 ],
                 "ans": 1
@@ -14861,27 +13361,44 @@
               "q": {
                 "prompt": "Quelle caractéristique est associée à Canal de Suez — repère?",
                 "o": [
-                  "Distance angulaire à l’est ou à l’ouest de Greenwich",
+                  "les frontières réelles suivent souvent les États",
                   "son blocage ou les tensions en mer Rouge entraînent des détours par le cap de Bonne-Espérance",
-                  "Toujours comprise entre 0° et 180° E/O",
-                  "Seul débouché naturel de la Méditerranée occidentale vers l’Atlantique"
+                  "Toujours comprise entre 0° et 90° N/S",
+                  "Évite le contournement de l’Amérique du Sud"
                 ],
                 "ans": 1
               },
               "issues": [
-                "mixed_semantic_types"
+                "mixed_semantic_types",
+                "correct_length_gives_clue"
               ]
             },
             {
               "q": {
                 "prompt": "Quelle caractéristique est associée à Canal de Suez — repère?",
                 "o": [
+                  "Toujours comprise entre 0° et 180° E/O",
+                  "Mer Noire ↔ mer Égée / Méditerranée",
                   "son blocage ou les tensions en mer Rouge entraînent des détours par le cap de Bonne-Espérance",
-                  "Sépare les hémisphères Nord et Sud",
-                  "Seul débouché naturel de la Méditerranée occidentale vers l’Atlantique",
-                  "limites et dénomination peuvent varier selon les institutions"
+                  "les frontières réelles suivent souvent les États"
                 ],
-                "ans": 0
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Canal de Suez — repère?",
+                "o": [
+                  "régime encadré par la convention de Montreux",
+                  "son blocage ou les tensions en mer Rouge entraînent des détours par le cap de Bonne-Espérance",
+                  "ouverture progressive de routes maritimes et enjeux de ressources",
+                  "Distance angulaire à l’est ou à l’ouest de Greenwich"
+                ],
+                "ans": 1
               },
               "issues": [
                 "mixed_semantic_types"
@@ -14936,9 +13453,9 @@
                 "prompt": "Quelle caractéristique correspond à Les détroits?",
                 "o": [
                   "devenu légèrement négatif en France pour la première fois depuis la fin de la Seconde Guerre mondiale",
-                  "conservés ici uniquement parce que le cours de géographie initial les associait à l’administration territoriale",
+                  "plus de 75 % du commerce international et environ deux tiers de la population mondiale",
                   "des passages maritimes naturels; les canaux sont artificiels",
-                  "devenue « Département-Région de Mayotte » au 1er janvier 2026"
+                  "conservés ici uniquement parce que le cours de géographie initial les associait à l’administration territoriale"
                 ],
                 "ans": 2
               },
@@ -14952,9 +13469,9 @@
                 "prompt": "Quelle caractéristique correspond à Les détroits?",
                 "o": [
                   "utile mais doit être nuancé par la montée de l’Inde, du Golfe et d’autres économies émergentes",
-                  "une grande puissance agricole mais l’agriculture ne représente qu’une petite fraction du PIB/valeur ajoutée",
+                  "issue de la loi du 16 janvier 2015 relative à la délimitation des régions; la nouvelle carte est entrée en vigueur le 1er janvier 2016",
                   "des passages maritimes naturels; les canaux sont artificiels",
-                  "le premier producteur agricole européen en valeur"
+                  "cependant une faible part de la valeur ajoutée totale (environ 1,5 % en 2025)"
                 ],
                 "ans": 2
               },
@@ -14970,7 +13487,7 @@
                   "des passages maritimes naturels; les canaux sont artificiels",
                   "dans une phase de vieillissement, tandis qu’une grande partie de l’Afrique subsaharienne conserve une forte croissance naturelle",
                   "l’intensification des flux de marchandises, capitaux, informations et personnes",
-                  "le premier producteur agricole européen en valeur"
+                  "cependant une faible part de la valeur ajoutée totale (environ 1,5 % en 2025)"
                 ],
                 "ans": 0
               },
@@ -14985,7 +13502,7 @@
                 "o": [
                   "des passages maritimes naturels; les canaux sont artificiels",
                   "l’intensification des flux de marchandises, capitaux, informations et personnes",
-                  "située dans l’Indopacifique; la ZEE française est la deuxième au monde, autour de 10,2 millions de km2 selon les données officielles récentes",
+                  "devenue « Département-Région de Mayotte » au 1er janvier 2026",
                   "utile mais doit être nuancé par la montée de l’Inde, du Golfe et d’autres économies émergentes"
                 ],
                 "ans": 0
@@ -15044,8 +13561,8 @@
                 "prompt": "Quelle caractéristique correspond à Panama et Suez?",
                 "o": [
                   "des canaux artificiels; Gibraltar, Ormuz, Malacca et Béring sont des détroits naturels",
-                  "située dans l’Indopacifique; la ZEE française est la deuxième au monde, autour de 10,2 millions de km2 selon les données officielles récentes",
-                  "le premier producteur agricole européen en valeur",
+                  "devenue « Département-Région de Mayotte » au 1er janvier 2026",
+                  "cependant une faible part de la valeur ajoutée totale (environ 1,5 % en 2025)",
                   "sans ambiguïté le fleuve au plus grand débit"
                 ],
                 "ans": 0
@@ -15059,10 +13576,10 @@
               "q": {
                 "prompt": "Quelle caractéristique correspond à Panama et Suez?",
                 "o": [
-                  "issue de la loi du 16 janvier 2015 relative à la délimitation des régions; la nouvelle carte est entrée en vigueur le 1er janvier 2016",
+                  "située dans l’Indopacifique; la ZEE française est la deuxième au monde, autour de 10,2 millions de km2 selon les données officielles récentes",
                   "des canaux artificiels; Gibraltar, Ormuz, Malacca et Béring sont des détroits naturels",
                   "rangé dans la sous-région « Amérique centrale »",
-                  "devenue « Département-Région de Mayotte » au 1er janvier 2026"
+                  "conservés ici uniquement parce que le cours de géographie initial les associait à l’administration territoriale"
                 ],
                 "ans": 1
               },
@@ -15077,8 +13594,8 @@
                 "o": [
                   "des canaux artificiels; Gibraltar, Ormuz, Malacca et Béring sont des détroits naturels",
                   "l’intensification des flux de marchandises, capitaux, informations et personnes",
-                  "une grande puissance agricole mais l’agriculture ne représente qu’une petite fraction du PIB/valeur ajoutée",
-                  "cependant une faible part de la valeur ajoutée totale (environ 1,5 % en 2025)"
+                  "issue de la loi du 16 janvier 2015 relative à la délimitation des régions; la nouvelle carte est entrée en vigueur le 1er janvier 2016",
+                  "une grande puissance agricole mais l’agriculture ne représente qu’une petite fraction du PIB/valeur ajoutée"
                 ],
                 "ans": 0
               },
@@ -15091,7 +13608,7 @@
               "q": {
                 "prompt": "Quelle caractéristique correspond à Panama et Suez?",
                 "o": [
-                  "cependant une faible part de la valeur ajoutée totale (environ 1,5 % en 2025)",
+                  "une grande puissance agricole mais l’agriculture ne représente qu’une petite fraction du PIB/valeur ajoutée",
                   "des canaux artificiels; Gibraltar, Ormuz, Malacca et Béring sont des détroits naturels",
                   "des passages maritimes naturels; les canaux sont artificiels",
                   "utile mais doit être nuancé par la montée de l’Inde, du Golfe et d’autres économies émergentes"
@@ -15120,59 +13637,75 @@
       }
     },
     {
-      "id": "GEO-0361",
+      "id": "GEO-0334",
       "cat": "Géographie",
-      "page": 13,
+      "page": 12,
       "chapter": "I.6 Économie mondiale et mondialisation",
       "topic": "I.6 Économie mondiale et mondialisation",
-      "source": "Martinique — Auteur: Collectivité territoriale unique régie par l’art. 73, Caraïbes",
+      "source": "Géographie - QCM Agent DGFiP & Contrôleur des douanes Automobile: pôles historiques dans le nord, l’est et l’ouest",
       "allPass": false,
       "anyQuestion": true,
       "issues": [
-        "no_question",
-        "answer_too_broad"
+        "mixed_semantic_types",
+        "no_question"
       ],
       "sourceRejected": false,
       "sourceResolvedNonAtomic": false,
       "variants": [
         {
-          "id": "GEO-0361",
+          "id": "GEO-0334",
           "chapter": "I.6 Économie mondiale et mondialisation",
           "topic": "I.6 Économie mondiale et mondialisation",
-          "source": "Martinique — auteur: Collectivité territoriale unique régie par l’art. 73, Caraïbes",
+          "source": "Géographie - QCM Agent DGFiP & Contrôleur des douanes Automobile — rôle: pôles historiques dans le nord, l’est et l’ouest",
           "allPass": false,
           "anyQuestion": true,
           "issues": [
-            "no_question",
-            "answer_too_broad"
+            "mixed_semantic_types",
+            "no_question"
           ],
           "attempts": [
             {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
               "q": {
-                "prompt": "Quelle caractéristique est associée à Martinique — auteur?",
+                "prompt": "Quelle caractéristique est associée à Géographie - QCM Agent DGFiP & Contrôleur des douanes Automobile — rôle?",
                 "o": [
+                  "57 réacteurs EDF en fonctionnement en 2026",
                   "Orly, Nice, Lyon, Marseille, Toulouse, Bâle-Mulhouse parmi les principaux",
-                  "Département-Région depuis le 1er janvier 2026, océan Indien",
-                  "Nouvelle-Calédonie a un statut sui generis",
-                  "Collectivité territoriale unique régie par l’art. 73, Caraïbes"
+                  "projets et aménagements liés à la logistique et à la décarbonation",
+                  "pôles historiques dans le nord, l’est et l’ouest"
                 ],
                 "ans": 3
               },
               "issues": [
-                "answer_too_broad"
+                "mixed_semantic_types"
               ]
             },
             {
-              "q": null,
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Géographie - QCM Agent DGFiP & Contrôleur des douanes Automobile — rôle?",
+                "o": [
+                  "Orly, Nice, Lyon, Marseille, Toulouse, Bâle-Mulhouse parmi les principaux",
+                  "Partage l’île avec Sint Maarten (royaume des Pays-Bas)",
+                  "pôles historiques dans le nord, l’est et l’ouest",
+                  "en 2025 le nucléaire a produit 373 TWh, soit 68,1 % de l’électricité française"
+                ],
+                "ans": 2
+              },
               "issues": [
-                "no_question"
+                "mixed_semantic_types"
               ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Géographie - QCM Agent DGFiP & Contrôleur des douanes Automobile — rôle?",
+                "o": [
+                  "redéfinit la répartition des compétences entre collectivités",
+                  "Nouvelle-Calédonie a un statut sui generis",
+                  "Département-Région depuis le 1er janvier 2026, océan Indien",
+                  "pôles historiques dans le nord, l’est et l’ouest"
+                ],
+                "ans": 3
+              },
+              "issues": []
             },
             {
               "q": null,
@@ -15184,14 +13717,170 @@
         }
       ],
       "previousSource": {
-        "id": "GEO-0360",
-        "source": "Guadeloupe — Particularités: volcan de la Soufrière.",
+        "id": "GEO-0333",
+        "source": "Pays de la Loire — Particularités: Industrie, agriculture, estuaire de la Loire.",
         "cat": "Géographie",
-        "page": 13
+        "page": 12
       },
       "nextSource": {
-        "id": "GEO-0362",
-        "source": "Martinique — Date: Fort-de-France",
+        "id": "GEO-0335",
+        "source": "Géographie - QCM Agent DGFiP & Contrôleur des douanes Automobile: filière en transition vers l’électrification.",
+        "cat": "Géographie",
+        "page": 12
+      }
+    },
+    {
+      "id": "GEO-0352",
+      "cat": "Géographie",
+      "page": 12,
+      "chapter": "I.6 Économie mondiale et mondialisation",
+      "topic": "I.6 Économie mondiale et mondialisation",
+      "source": "La loi NOTRe du 7 août 2015 a, elle, redéfini la répartition des compétences entre collectivités.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "no_question",
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0352-v28-1",
+          "chapter": "I.6 Économie mondiale et mondialisation",
+          "topic": "I.6 Économie mondiale et mondialisation",
+          "source": "Loi NOTRe — date: 7 août 2015",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle date est associée à « Loi NOTRe »?",
+                "o": [
+                  "Basse-Terre",
+                  "Chef-lieu ou capitale",
+                  "7 août 2015",
+                  "Marigot"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle date est associée à « Loi NOTRe »?",
+                "o": [
+                  "Chef-lieu ou capitale",
+                  "Basse-Terre",
+                  "7 août 2015",
+                  "Mamoudzou"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle date est associée à « Loi NOTRe »?",
+                "o": [
+                  "Chef-lieu ou capitale",
+                  "7 août 2015",
+                  "Papeete",
+                  "Basse-Terre"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle date est associée à « Loi NOTRe »?",
+                "o": [
+                  "Chef-lieu ou capitale",
+                  "Basse-Terre",
+                  "Mamoudzou",
+                  "7 août 2015"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "GEO-0352-v28-2",
+          "chapter": "I.6 Économie mondiale et mondialisation",
+          "topic": "I.6 Économie mondiale et mondialisation",
+          "source": "Loi NOTRe — rôle: redéfinit la répartition des compétences entre collectivités",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "no_question",
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Loi NOTRe — rôle?",
+                "o": [
+                  "Département-Région depuis le 1er janvier 2026, océan Indien",
+                  "redéfinit la répartition des compétences entre collectivités",
+                  "référendums en 2018, 2020 et 2021",
+                  "Martinique et Guyane sont des collectivités territoriales uniques"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Loi NOTRe — rôle?",
+                "o": [
+                  "57 réacteurs EDF en fonctionnement en 2026",
+                  "projets et aménagements liés à la logistique et à la décarbonation",
+                  "redéfinit la répartition des compétences entre collectivités",
+                  "Partage l’île avec Sint Maarten (royaume des Pays-Bas)"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Loi NOTRe — rôle?",
+                "o": [
+                  "102 millions d’arrivées internationales en 2025 selon Atout France, ce qui maintient la France au premier rang mondial en nombre d’arrivées",
+                  "Partage l’île avec Sint Maarten (royaume des Pays-Bas)",
+                  "en 2025, il est devenu légèrement négatif en France pour la première fois depuis la fin de la Seconde Guerre mondiale",
+                  "redéfinit la répartition des compétences entre collectivités"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0351",
+        "source": "La réduction de 22 à 13 régions métropolitaines est issue de la loi du 16 janvier 2015 relative à la délimitation des régions; la nouvelle carte est entrée en vigueur le 1er janvier 2016.",
+        "cat": "Géographie",
+        "page": 12
+      },
+      "nextSource": {
+        "id": "GEO-0353",
+        "source": "Provence-Alpes-Côte d’Azur — Auteur: Marseille",
         "cat": "Géographie",
         "page": 13
       }
@@ -17937,6 +16626,2534 @@
         "source": "Paul Gauguin — Notion-clé: Couleurs, symbolisme, Tahiti",
         "cat": "Culture générale",
         "page": 4
+      }
+    },
+    {
+      "id": "CG-0279",
+      "cat": "Culture générale",
+      "page": 7,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "La vitesse est le rapport entre distance parcourue et durée.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "CG-0279",
+          "chapter": "II. Sciences",
+          "topic": "II. Sciences",
+          "source": "La vitesse est le rapport entre distance parcourue et durée.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La vitesse?",
+                "o": [
+                  "une onde mécanique — caractéristiques: il a besoin d’un milieu matériel",
+                  "pas identiques — caractéristiques: la masse s’exprime en kg",
+                  "le rapport entre distance parcourue et durée",
+                  "une onde électromagnétique et peut se propager dans le vide"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La vitesse?",
+                "o": [
+                  "une onde mécanique — caractéristiques: il a besoin d’un milieu matériel",
+                  "le rapport entre distance parcourue et durée",
+                  "pas identiques — caractéristiques: la masse s’exprime en kg",
+                  "surtout celui d’un candidat cultivé, pas d’un spécialiste"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La vitesse?",
+                "o": [
+                  "le rapport entre distance parcourue et durée",
+                  "pas identiques — caractéristiques: la masse s’exprime en kg",
+                  "une onde électromagnétique et peut se propager dans le vide",
+                  "pathogènes, beaucoup sont inoffensives ou utiles"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0278",
+        "source": "Une théorie scientifique n’est pas une simple opinion: elle organise un ensemble d’explications soutenues par des preuves et reste révisable.",
+        "cat": "Culture générale",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "CG-0280",
+        "source": "L’accélération mesure la variation de la vitesse.",
+        "cat": "Culture générale",
+        "page": 7
+      }
+    },
+    {
+      "id": "CG-0308",
+      "cat": "Culture générale",
+      "page": 8,
+      "chapter": "II. Sciences",
+      "topic": "Arts",
+      "source": "Dmitri Mendeleïev est associé à la construction du tableau périodique au XIXe siècle.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "CG-0308",
+          "chapter": "II. Sciences",
+          "topic": "Arts",
+          "source": "Dmitri Mendeleïev est associé à la construction du tableau périodique au XIXe siècle.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Dmitri Mendeleïev?",
+                "o": [
+                  "une onde électromagnétique et peut se propager dans le vide",
+                  "pas identiques — caractéristiques: la masse s’exprime en kg",
+                  "associé à la construction du tableau périodique au XIXe siècle",
+                  "un amphithéâtre de Rome; le Panthéon de Rome est célèbre pour sa coupole"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Dmitri Mendeleïev?",
+                "o": [
+                  "un noyau formé de protons et de neutrons, autour duquel se trouvent des électrons",
+                  "une figure essentielle — caractéristiques: Le Serment des Horaces, La Mort de Marat et Le Sacre de Napoléon",
+                  "associé à la construction du tableau périodique au XIXe siècle",
+                  "un amphithéâtre de Rome; le Panthéon de Rome est célèbre pour sa coupole"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Dmitri Mendeleïev?",
+                "o": [
+                  "pas identiques — caractéristiques: la masse s’exprime en kg",
+                  "des édifices plus hauts et plus lumineux grâce à l’arc brisé, la croisée d’ogives et les arcs-boutants",
+                  "l’eau; CO2 le dioxyde de carbone; O2 le dioxygène",
+                  "associé à la construction du tableau périodique au XIXe siècle"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0307",
+        "source": "Le numéro atomique Z correspond au nombre de protons.",
+        "cat": "Culture générale",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "CG-0309",
+        "source": "Une molécule est un assemblage d’atomes.",
+        "cat": "Culture générale",
+        "page": 8
+      }
+    },
+    {
+      "id": "CG-0310",
+      "cat": "Culture générale",
+      "page": 8,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "H2O est l’eau; CO2 le dioxyde de carbone; O2 le dioxygène.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "CG-0310",
+          "chapter": "II. Sciences",
+          "topic": "II. Sciences",
+          "source": "H2O est l’eau; CO2 le dioxyde de carbone; O2 le dioxygène.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à H2O?",
+                "o": [
+                  "l’eau; CO2 le dioxyde de carbone; O2 le dioxygène",
+                  "pas identiques — caractéristiques: la masse s’exprime en kg",
+                  "une onde mécanique — caractéristiques: il ne se propage pas dans le vide",
+                  "pathogènes, beaucoup sont inoffensives ou utiles"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à H2O?",
+                "o": [
+                  "pathogènes, beaucoup sont inoffensives ou utiles",
+                  "une onde mécanique — caractéristiques: il a besoin d’un milieu matériel",
+                  "l’eau; CO2 le dioxyde de carbone; O2 le dioxygène",
+                  "une onde mécanique — caractéristiques: il ne se propage pas dans le vide"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à H2O?",
+                "o": [
+                  "l’eau; CO2 le dioxyde de carbone; O2 le dioxygène",
+                  "une onde électromagnétique et peut se propager dans le vide",
+                  "une onde mécanique — caractéristiques: il a besoin d’un milieu matériel",
+                  "le rapport entre distance parcourue et durée"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à H2O?",
+                "o": [
+                  "pas identiques — caractéristiques: la masse s’exprime en kg",
+                  "interrogée comme culture générale — caractéristiques: vocabulaire du vivant et de l’environnement, accidents et grandes découvertes, notions élémentaires de physique ou de biologie",
+                  "l’eau; CO2 le dioxyde de carbone; O2 le dioxygène",
+                  "une onde électromagnétique et peut se propager dans le vide"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0309",
+        "source": "Une molécule est un assemblage d’atomes.",
+        "cat": "Culture générale",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "CG-0311",
+        "source": "pH < 7: solution acide; pH = 7: neutre; pH > 7: basique (à 25 °C, approximation scolaire).",
+        "cat": "Culture générale",
+        "page": 8
+      }
+    },
+    {
+      "id": "CG-0350",
+      "cat": "Culture générale",
+      "page": 9,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Certaines sont pathogènes, beaucoup sont inoffensives ou utiles.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "CG-0350",
+          "chapter": "II. Sciences",
+          "topic": "II. Sciences",
+          "source": "Certaines sont pathogènes, beaucoup sont inoffensives ou utiles.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Certaines?",
+                "o": [
+                  "pathogènes, beaucoup sont inoffensives ou utiles",
+                  "l’eau; CO2 le dioxyde de carbone; O2 le dioxygène",
+                  "une onde électromagnétique et peut se propager dans le vide",
+                  "une onde mécanique — caractéristiques: il a besoin d’un milieu matériel"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Certaines?",
+                "o": [
+                  "surtout celui d’un candidat cultivé, pas d’un spécialiste",
+                  "pathogènes, beaucoup sont inoffensives ou utiles",
+                  "le rapport entre distance parcourue et durée",
+                  "une onde électromagnétique et peut se propager dans le vide"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Certaines?",
+                "o": [
+                  "pathogènes, beaucoup sont inoffensives ou utiles",
+                  "une onde électromagnétique et peut se propager dans le vide",
+                  "pas identiques — caractéristiques: la masse s’exprime en kg",
+                  "le rapport entre distance parcourue et durée"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0349",
+        "source": "Bactéries: organismes unicellulaires procaryotes.",
+        "cat": "Culture générale",
+        "page": 9
+      },
+      "nextSource": {
+        "id": "CG-0351",
+        "source": "Virus: agents infectieux nécessitant une cellule hôte pour se multiplier.",
+        "cat": "Culture générale",
+        "page": 9
+      }
+    },
+    {
+      "id": "CG-0469",
+      "cat": "Culture générale",
+      "page": 13,
+      "chapter": "III. Économie",
+      "topic": "Économie",
+      "source": "La monnaie fiduciaire comprend billets et pièces; la monnaie scripturale correspond aux dépôts utilisables par moyens de paiement.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "CG-0469",
+          "chapter": "III. Économie",
+          "topic": "Économie",
+          "source": "La monnaie fiduciaire comprend billets et pièces; la monnaie scripturale correspond aux dépôts utilisables par moyens de paiement.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La monnaie fiduciaire?",
+                "o": [
+                  "l’augmentation du PIB en volume, c’est-à-dire corrigé des variations de prix",
+                  "élevé, plus l’inégalité est forte (selon l’échelle utilisée)",
+                  "billets et pièces; la monnaie scripturale correspond aux dépôts utilisables par moyens de paiement",
+                  "le prix d’une monnaie exprimé dans une autre"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La monnaie fiduciaire?",
+                "o": [
+                  "l’augmentation du PIB en volume, c’est-à-dire corrigé des variations de prix",
+                  "le prix d’une monnaie exprimé dans une autre",
+                  "billets et pièces; la monnaie scripturale correspond aux dépôts utilisables par moyens de paiement",
+                  "élevé, plus l’inégalité est forte (selon l’échelle utilisée)"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La monnaie fiduciaire?",
+                "o": [
+                  "billets et pièces; la monnaie scripturale correspond aux dépôts utilisables par moyens de paiement",
+                  "l’augmentation du PIB en volume, c’est-à-dire corrigé des variations de prix",
+                  "élevé, plus l’inégalité est forte (selon l’échelle utilisée)",
+                  "le prix d’une monnaie exprimé dans une autre"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La monnaie fiduciaire?",
+                "o": [
+                  "billets et pièces; la monnaie scripturale correspond aux dépôts utilisables par moyens de paiement",
+                  "l’augmentation du PIB en volume, c’est-à-dire corrigé des variations de prix",
+                  "le prix d’une monnaie exprimé dans une autre",
+                  "élevé, plus l’inégalité est forte (selon l’échelle utilisée)"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0468",
+        "source": "La monnaie remplit trois fonctions classiques: intermédiaire des échanges, unité de compte et réserve de valeur.",
+        "cat": "Culture générale",
+        "page": 13
+      },
+      "nextSource": {
+        "id": "CG-0470",
+        "source": "Culture générale - Contrôleur des douanes | 13",
+        "cat": "Culture générale",
+        "page": 13
+      }
+    },
+    {
+      "id": "CG-0541",
+      "cat": "Culture générale",
+      "page": 16,
+      "chapter": "III. Économie",
+      "topic": "Économie",
+      "source": "IDH: indice de développement humain; combine santé / espérance de vie, éducation et niveau de vie.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "answer_too_broad",
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "CG-0541",
+          "chapter": "III. Économie",
+          "topic": "Économie",
+          "source": "IDH — caractéristiques: indice de développement humain; combine santé / espérance de vie, éducation et niveau de vie.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "answer_too_broad",
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit IDH?",
+                "o": [
+                  "lié à des caractéristiques durables de l’économie, des qualifications ou du marché du travail",
+                  "tend à freiner crédit et demande, ce qui peut réduire les pressions inflationnistes",
+                  "indice de développement humain; combine santé / espérance de vie, éducation et niveau de vie",
+                  "réduire l’extraction de ressources et les déchets par réemploi, réparation, recyclage et écoconception"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit IDH?",
+                "o": [
+                  "la BCE vise une inflation de 2 % à moyen terme",
+                  "indice de développement humain; combine santé / espérance de vie, éducation et niveau de vie",
+                  "lié à des caractéristiques durables de l’économie, des qualifications ou du marché du travail",
+                  "tend à freiner crédit et demande, ce qui peut réduire les pressions inflationnistes"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit IDH?",
+                "o": [
+                  "tend à freiner crédit et demande, ce qui peut réduire les pressions inflationnistes",
+                  "la BCE vise une inflation de 2 % à moyen terme",
+                  "lié à des caractéristiques durables de l’économie, des qualifications ou du marché du travail",
+                  "indice de développement humain; combine santé / espérance de vie, éducation et niveau de vie"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit IDH?",
+                "o": [
+                  "lié à des caractéristiques durables de l’économie, des qualifications ou du marché du travail",
+                  "réduire l’extraction de ressources et les déchets par réemploi, réparation, recyclage et écoconception",
+                  "tend à freiner crédit et demande, ce qui peut réduire les pressions inflationnistes",
+                  "indice de développement humain; combine santé / espérance de vie, éducation et niveau de vie"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0540",
+        "source": "Avantage comparatif: idée selon laquelle des pays peuvent gagner à l’échange en se spécialisant relativement dans les productions où leur coût d’opportunité est plus faible.",
+        "cat": "Culture générale",
+        "page": 16
+      },
+      "nextSource": {
+        "id": "CG-0542",
+        "source": "Coefficient de Gini: mesure d’inégalité, souvent utilisée pour les revenus",
+        "cat": "Culture générale",
+        "page": 16
+      }
+    },
+    {
+      "id": "HIS-0027",
+      "cat": "Histoire",
+      "page": 4,
+      "chapter": "I. Fondements de la civilisation",
+      "topic": "Grèce antique",
+      "source": "J.-C. par les réformes de Clisthène et Périclès: assemblée des citoyens, tirage au sort et ostracisme.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0027",
+          "chapter": "I. Fondements de la civilisation",
+          "topic": "Grèce antique",
+          "source": "Démocratie athénienne — caractéristiques: réformes de Clisthène et Périclès; assemblée des citoyens, tirage au sort et ostracisme.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Démocratie athénienne?",
+                "o": [
+                  "Guerres médiques: victoires grecques contre les Perses à Marathon (-490) et Salamine (-480)",
+                  "compilé ultérieurement dans le Corpus juris civilis par Justinien (VIe siècle)",
+                  "débute il y a environ 2,5 millions d’années avec les premiers outils lithiques",
+                  "réformes de Clisthène et Périclès; assemblée des citoyens, tirage au sort et ostracisme"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Démocratie athénienne?",
+                "o": [
+                  "émergent autour des fleuves (Nil, Tigre et Euphrate, Indus, Fleuve Jaune)",
+                  "réformes de Clisthène et Périclès; assemblée des citoyens, tirage au sort et ostracisme",
+                  "Guerres médiques: victoires grecques contre les Perses à Marathon (-490) et Salamine (-480)",
+                  "débute il y a environ 2,5 millions d’années avec les premiers outils lithiques"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Démocratie athénienne?",
+                "o": [
+                  "mort en -399 pour « corruption de la jeunesse »",
+                  "réformes de Clisthène et Périclès; assemblée des citoyens, tirage au sort et ostracisme",
+                  "Guerres médiques: victoires grecques contre les Perses à Marathon (-490) et Salamine (-480)",
+                  "débute il y a environ 2,5 millions d’années avec les premiers outils lithiques"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Démocratie athénienne?",
+                "o": [
+                  "mort en -399 pour « corruption de la jeunesse »",
+                  "réformes de Clisthène et Périclès; assemblée des citoyens, tirage au sort et ostracisme",
+                  "débute il y a environ 2,5 millions d’années avec les premiers outils lithiques",
+                  "Guerres médiques: victoires grecques contre les Perses à Marathon (-490) et Salamine (-480)"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0026",
+        "source": "Athènes: cité-État de l’Attique.",
+        "cat": "Histoire",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "HIS-0028",
+        "source": "Sparte: régime oligarchique et militariste en Laconie.",
+        "cat": "Histoire",
+        "page": 4
+      }
+    },
+    {
+      "id": "HIS-0028",
+      "cat": "Histoire",
+      "page": 4,
+      "chapter": "I. Fondements de la civilisation",
+      "topic": "Grèce antique",
+      "source": "Sparte: régime oligarchique et militariste en Laconie.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0028",
+          "chapter": "I. Fondements de la civilisation",
+          "topic": "Grèce antique",
+          "source": "Sparte — définition: régime oligarchique et militariste en Laconie.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Que désigne « Sparte »?",
+                "o": [
+                  "fuite de Mahomet de La Mecque à Médine",
+                  "régime oligarchique et militariste en Laconie",
+                  "vote direct des citoyens sur un texte",
+                  "vote parlementaire pouvant renverser le gouvernement"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Sparte »?",
+                "o": [
+                  "vote direct des citoyens sur un texte",
+                  "régime oligarchique et militariste en Laconie",
+                  "vote parlementaire pouvant renverser le gouvernement",
+                  "fuite de Mahomet de La Mecque à Médine"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Sparte »?",
+                "o": [
+                  "régime oligarchique et militariste en Laconie",
+                  "vote parlementaire pouvant renverser le gouvernement",
+                  "fuite de Mahomet de La Mecque à Médine",
+                  "vote direct des citoyens sur un texte"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Sparte »?",
+                "o": [
+                  "fuite de Mahomet de La Mecque à Médine",
+                  "courant intellectuel valorisant l’homme et la culture antique",
+                  "vote parlementaire pouvant renverser le gouvernement",
+                  "régime oligarchique et militariste en Laconie"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0027",
+        "source": "J.-C. par les réformes de Clisthène et Périclès: assemblée des citoyens, tirage au sort et ostracisme.",
+        "cat": "Histoire",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "HIS-0029",
+        "source": "Philosophes et penseurs: Socrate: père de la philosophie morale",
+        "cat": "Histoire",
+        "page": 4
+      }
+    },
+    {
+      "id": "HIS-0031",
+      "cat": "Histoire",
+      "page": 4,
+      "chapter": "I. Fondements de la civilisation",
+      "topic": "I. Fondements de la civilisation",
+      "source": "Platon: élève de Socrate, auteur de la République; fondateur de l’Académie.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0031",
+          "chapter": "I. Fondements de la civilisation",
+          "topic": "I. Fondements de la civilisation",
+          "source": "Platon — caractéristiques: élève de Socrate, auteur de la République; fondateur de l’Académie.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Platon?",
+                "o": [
+                  "élève de Socrate, auteur de la République; fondateur de l’Académie",
+                  "Guerres médiques: victoires grecques contre les Perses à Marathon (-490) et Salamine (-480)",
+                  "débute il y a environ 2,5 millions d’années avec les premiers outils lithiques",
+                  "mort en -399 pour « corruption de la jeunesse »"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Platon?",
+                "o": [
+                  "réformes de Clisthène et Périclès; assemblée des citoyens, tirage au sort et ostracisme",
+                  "Guerres médiques: victoires grecques contre les Perses à Marathon (-490) et Salamine (-480)",
+                  "mort en -399 pour « corruption de la jeunesse »",
+                  "élève de Socrate, auteur de la République; fondateur de l’Académie"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Platon?",
+                "o": [
+                  "Guerres médiques: victoires grecques contre les Perses à Marathon (-490) et Salamine (-480)",
+                  "élève de Socrate, auteur de la République; fondateur de l’Académie",
+                  "déposition du dernier empereur romain d’Occident (Romulus Augustule) par Odoacre",
+                  "mort en -399 pour « corruption de la jeunesse »"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Platon?",
+                "o": [
+                  "élève de Socrate, auteur de la République; fondateur de l’Académie",
+                  "mort en -399 pour « corruption de la jeunesse »",
+                  "réformes de Clisthène et Périclès; assemblée des citoyens, tirage au sort et ostracisme",
+                  "Guerres médiques: victoires grecques contre les Perses à Marathon (-490) et Salamine (-480)"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0030",
+        "source": "Philosophes et penseurs: mort en -399 pour « corruption de la jeunesse ».",
+        "cat": "Histoire",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "HIS-0032",
+        "source": "Aristote: élève de Platon, fondateur du Lycée",
+        "cat": "Histoire",
+        "page": 4
+      }
+    },
+    {
+      "id": "HIS-0041",
+      "cat": "Histoire",
+      "page": 4,
+      "chapter": "I. Fondements de la civilisation",
+      "topic": "Rome antique",
+      "source": "République romaine (−509 – −27): régime mixte avec magistratures (consuls, préteurs), Sénat et assemblées populaires.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0041",
+          "chapter": "I. Fondements de la civilisation",
+          "topic": "Rome antique",
+          "source": "République romaine (−509 — définition: régime mixte avec magistratures (consuls, préteurs), Sénat et assemblées populaires.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à République romaine (−509 — définition?",
+                "o": [
+                  "compilé ultérieurement dans le Corpus juris civilis par Justinien (VIe siècle)",
+                  "régime mixte avec magistratures (consuls, préteurs), Sénat et assemblées populaires",
+                  "il unifie la Gaule romaine et établit la dynastie des Mérovingiens",
+                  "marque la fin de l’Antiquité en Occident"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à République romaine (−509 — définition?",
+                "o": [
+                  "réforme l’administration, l’armée et les finances",
+                  "neveu de César, fonde le Principat",
+                  "régime mixte avec magistratures (consuls, préteurs), Sénat et assemblées populaires",
+                  "diffusion du latin, du droit romain, du réseau routier et des villes (thermes, amphithéâtres)"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à République romaine (−509 — définition?",
+                "o": [
+                  "il unifie la Gaule romaine et établit la dynastie des Mérovingiens",
+                  "diffusion du latin, du droit romain, du réseau routier et des villes (thermes, amphithéâtres)",
+                  "régime mixte avec magistratures (consuls, préteurs), Sénat et assemblées populaires",
+                  "compilé ultérieurement dans le Corpus juris civilis par Justinien (VIe siècle)"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à République romaine (−509 — définition?",
+                "o": [
+                  "réforme l’administration, l’armée et les finances",
+                  "régime mixte avec magistratures (consuls, préteurs), Sénat et assemblées populaires",
+                  "période de Pax romana (Ier – IIe siècle)",
+                  "compilé ultérieurement dans le Corpus juris civilis par Justinien (VIe siècle)"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0040",
+        "source": "Mélanger Platon et Aristote; leurs conceptions de la réalité (monde des Idées versus empirisme) sont opposées.",
+        "cat": "Histoire",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "HIS-0042",
+        "source": "Expansion en Italie puis en Méditerranée; guerres puniques contre Carthage (victoire de Zama, -202).",
+        "cat": "Histoire",
+        "page": 4
+      }
+    },
+    {
+      "id": "HIS-0042",
+      "cat": "Histoire",
+      "page": 4,
+      "chapter": "I. Fondements de la civilisation",
+      "topic": "I. Fondements de la civilisation",
+      "source": "Expansion en Italie puis en Méditerranée; guerres puniques contre Carthage (victoire de Zama, -202).",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "correct_length_gives_clue"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0042-v28-1",
+          "chapter": "I. Fondements de la civilisation",
+          "topic": "I. Fondements de la civilisation",
+          "source": "Expansion romaine — caractéristiques: s’étend d’abord en Italie puis en Méditerranée",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Expansion romaine?",
+                "o": [
+                  "inventions de l’irrigation et de la charrue",
+                  "élève de Platon, fondateur du Lycée",
+                  "s’étend d’abord en Italie puis en Méditerranée",
+                  "conception fondée sur le monde des Idées"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Expansion romaine?",
+                "o": [
+                  "conception fondée sur le monde des Idées",
+                  "inventions de l’irrigation et de la charrue",
+                  "Édit de Milan (313) reconnaît la liberté de culte",
+                  "s’étend d’abord en Italie puis en Méditerranée"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Expansion romaine?",
+                "o": [
+                  "Socrate: père de la philosophie morale",
+                  "inventions de l’irrigation et de la charrue",
+                  "s’étend d’abord en Italie puis en Méditerranée",
+                  "conception fondée sur le monde des Idées"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Expansion romaine?",
+                "o": [
+                  "Socrate: père de la philosophie morale",
+                  "inventions de l’irrigation et de la charrue",
+                  "conception fondée sur le monde des Idées",
+                  "s’étend d’abord en Italie puis en Méditerranée"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "HIS-0042-v28-2",
+          "chapter": "I. Fondements de la civilisation",
+          "topic": "I. Fondements de la civilisation",
+          "source": "Guerres puniques — association: Carthage",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "correct_length_gives_clue"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour Guerres puniques?",
+                "o": [
+                  "influence sur Rome",
+                  "Carthage",
+                  "associations",
+                  "philosophie, théâtre et mathématiques"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour Guerres puniques?",
+                "o": [
+                  "guerre de Hollande",
+                  "Carthage",
+                  "influence sur Rome",
+                  "philosophie, théâtre et mathématiques"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour Guerres puniques?",
+                "o": [
+                  "perestroïka et glasnost",
+                  "influence sur Rome",
+                  "philosophie, théâtre et mathématiques",
+                  "Carthage"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour Guerres puniques?",
+                "o": [
+                  "philosophie, théâtre et mathématiques",
+                  "Renaissance",
+                  "Carthage",
+                  "influence sur Rome"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "HIS-0042-v28-3",
+          "chapter": "I. Fondements de la civilisation",
+          "topic": "I. Fondements de la civilisation",
+          "source": "Bataille de Zama — date: 202 av. J.-C.",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle date est associée à « Bataille de Zama »?",
+                "o": [
+                  "vers 9 000 av. J.-C",
+                  "vers 10 000 av. J.-C",
+                  "622",
+                  "202 av. J.-C"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle date est associée à « Bataille de Zama »?",
+                "o": [
+                  "vers 9 000 av. J.-C",
+                  "622",
+                  "vers 10 000 av. J.-C",
+                  "202 av. J.-C"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle date est associée à « Bataille de Zama »?",
+                "o": [
+                  "vers 10 000 av. J.-C",
+                  "202 av. J.-C",
+                  "vers 9 000 av. J.-C",
+                  "vers 3 000 av. J.-C"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle date est associée à « Bataille de Zama »?",
+                "o": [
+                  "202 av. J.-C",
+                  "vers 3 000 av. J.-C",
+                  "vers 9 000 av. J.-C",
+                  "vers 10 000 av. J.-C"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0041",
+        "source": "République romaine (−509 – −27): régime mixte avec magistratures (consuls, préteurs), Sénat et assemblées populaires.",
+        "cat": "Histoire",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "HIS-0043",
+        "source": "Empire romain (−27 – 476): Auguste devient le premier empereur en -27",
+        "cat": "Histoire",
+        "page": 5
+      }
+    },
+    {
+      "id": "HIS-0069",
+      "cat": "Histoire",
+      "page": 5,
+      "chapter": "I. Fondements de la civilisation",
+      "topic": "Religions monothéistes",
+      "source": "Ne pas confondre Hégire (622) et Hajj; 622 marque la fuite de Mahomet de La Mecque à Médine.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0069-1",
+          "chapter": "I. Fondements de la civilisation",
+          "topic": "Religions monothéistes",
+          "source": "Hégire — date: 622",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle date est associée à « Hégire »?",
+                "o": [
+                  "1453",
+                  "vers 3 000 av. J.-C",
+                  "622",
+                  "476"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle date est associée à « Hégire »?",
+                "o": [
+                  "vers 9 000 av. J.-C",
+                  "1453",
+                  "476",
+                  "622"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle date est associée à « Hégire »?",
+                "o": [
+                  "vers 3 000 av. J.-C",
+                  "622",
+                  "1453",
+                  "476"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle date est associée à « Hégire »?",
+                "o": [
+                  "622",
+                  "vers 3 000 av. J.-C",
+                  "476",
+                  "1453"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "HIS-0069-2",
+          "chapter": "I. Fondements de la civilisation",
+          "topic": "Religions monothéistes",
+          "source": "Hégire — définition: fuite de Mahomet de La Mecque à Médine",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Que désigne « Hégire »?",
+                "o": [
+                  "régime oligarchique et militariste en Laconie",
+                  "vote parlementaire pouvant renverser le gouvernement",
+                  "fuite de Mahomet de La Mecque à Médine",
+                  "courant intellectuel valorisant l’homme et la culture antique"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Hégire »?",
+                "o": [
+                  "vote direct des citoyens sur un texte",
+                  "régime oligarchique et militariste en Laconie",
+                  "fuite de Mahomet de La Mecque à Médine",
+                  "courant intellectuel valorisant l’homme et la culture antique"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Hégire »?",
+                "o": [
+                  "fuite de Mahomet de La Mecque à Médine",
+                  "régime oligarchique et militariste en Laconie",
+                  "vote parlementaire pouvant renverser le gouvernement",
+                  "courant intellectuel valorisant l’homme et la culture antique"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Hégire »?",
+                "o": [
+                  "vote parlementaire pouvant renverser le gouvernement",
+                  "fuite de Mahomet de La Mecque à Médine",
+                  "régime oligarchique et militariste en Laconie",
+                  "courant intellectuel valorisant l’homme et la culture antique"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0068",
+        "source": "Réforme protestante (1517): Martin Luther.",
+        "cat": "Histoire",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "HIS-0070",
+        "source": "Les trois religions sont issues du Proche-Orient mais n’apparaissent pas simultanément.",
+        "cat": "Histoire",
+        "page": 5
+      }
+    },
+    {
+      "id": "HIS-0070",
+      "cat": "Histoire",
+      "page": 5,
+      "chapter": "I. Fondements de la civilisation",
+      "topic": "I. Fondements de la civilisation",
+      "source": "Les trois religions sont issues du Proche-Orient mais n’apparaissent pas simultanément.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0070",
+          "chapter": "I. Fondements de la civilisation",
+          "topic": "I. Fondements de la civilisation",
+          "source": "Les trois religions sont issues du Proche-Orient mais n’apparaissent pas simultanément.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Les trois religions?",
+                "o": [
+                  "élu au suffrage universel direct depuis 1962",
+                  "sacré empereur d’Occident à Rome en 800",
+                  "issues du Proche-Orient mais n’apparaissent pas simultanément",
+                  "lié aux lois fondamentales du royaume"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Les trois religions?",
+                "o": [
+                  "masculin; les femmes obtiennent le droit de vote en 1944",
+                  "issues du Proche-Orient mais n’apparaissent pas simultanément",
+                  "formulée par Montesquieu, pas par Rousseau",
+                  "le conflit le plus meurtrier de l’histoire; la Première Guerre mondiale fait environ 10 millions de morts"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Les trois religions?",
+                "o": [
+                  "issues du Proche-Orient mais n’apparaissent pas simultanément",
+                  "masculin; les femmes obtiennent le droit de vote en 1944",
+                  "de stabiliser le gouvernement et de rendre plus difficile le renversement par l’Assemblée",
+                  "la conformité des lois à la Constitution"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Les trois religions?",
+                "o": [
+                  "au gouvernement d’adopter un texte sans vote sauf si une motion de censure est votée",
+                  "dissoute en 1991, non en 1989",
+                  "issues du Proche-Orient mais n’apparaissent pas simultanément",
+                  "de stabiliser le gouvernement et de rendre plus difficile le renversement par l’Assemblée"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0069",
+        "source": "Ne pas confondre Hégire (622) et Hajj; 622 marque la fuite de Mahomet de La Mecque à Médine.",
+        "cat": "Histoire",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "HIS-0071",
+        "source": "Les dates 70 (destruction du Temple), 380 (christianisme religion d’État) et 622 reviennent souvent.",
+        "cat": "Histoire",
+        "page": 5
+      }
+    },
+    {
+      "id": "HIS-0078",
+      "cat": "Histoire",
+      "page": 6,
+      "chapter": "II. France des origines à la Révolution",
+      "topic": "Rome antique",
+      "source": "Charlemagne (768‐814) étend l’empire sur l’Europe occidentale et est sacré empereur d’Occident à Rome en 800.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0078",
+          "chapter": "II. France des origines à la Révolution",
+          "topic": "Rome antique",
+          "source": "Charlemagne (768‐814) étend l’empire sur l’Europe occidentale et est sacré empereur d’Occident à Rome en 800.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Charlemagne (768‐814) étend l’empire sur l’Europe occidentale et?",
+                "o": [
+                  "formulée par Montesquieu, pas par Rousseau",
+                  "dissoute en 1991, non en 1989",
+                  "Premier consul; met en place la Banque de France (1800), les lycées, les préfets et la monnaie stable",
+                  "sacré empereur d’Occident à Rome en 800"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Charlemagne (768‐814) étend l’empire sur l’Europe occidentale et?",
+                "o": [
+                  "élu au suffrage universel direct depuis 1962",
+                  "sacré empereur d’Occident à Rome en 800",
+                  "au gouvernement d’adopter un texte sans vote sauf si une motion de censure est votée",
+                  "un bien confié en échange de services"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Charlemagne (768‐814) étend l’empire sur l’Europe occidentale et?",
+                "o": [
+                  "adoptée comme hymne en 1795, interdite sous certains régimes, et rétablie ensuite",
+                  "sacré empereur d’Occident à Rome en 800",
+                  "formulée par Montesquieu, pas par Rousseau",
+                  "la conformité des lois à la Constitution"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Charlemagne (768‐814) étend l’empire sur l’Europe occidentale et?",
+                "o": [
+                  "sacré empereur d’Occident à Rome en 800",
+                  "adoptée comme hymne en 1795, interdite sous certains régimes, et rétablie ensuite",
+                  "lié aux lois fondamentales du royaume",
+                  "élu au suffrage universel direct depuis 1962"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0077",
+        "source": "Carolingiens: fondée par Pépin le Bref (751), fils de Charles Martel.",
+        "cat": "Histoire",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "HIS-0079",
+        "source": "Il crée les comtés, capitulaires et soutient les arts carolingiens.",
+        "cat": "Histoire",
+        "page": 6
+      }
+    },
+    {
+      "id": "HIS-0080",
+      "cat": "Histoire",
+      "page": 6,
+      "chapter": "II. France des origines à la Révolution",
+      "topic": "Royaumes francs",
+      "source": "Conséquences: cristallisation d’un royaume franc chrétien, alliance étroite entre pouvoir et Église, origine du futur royaume de France.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0080-1",
+          "chapter": "II. France des origines à la Révolution",
+          "topic": "Royaumes francs",
+          "source": "Royaume franc chrétien — caractéristiques: alliance étroite entre pouvoir et Église",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Royaume franc chrétien?",
+                "o": [
+                  "alliance étroite entre pouvoir et Église",
+                  "conflit politico-social qui divise la France",
+                  "libération de la France en 1944‐1945",
+                  "conflit dynastique entre rois de France et d’Angleterre"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Royaume franc chrétien?",
+                "o": [
+                  "alliance étroite entre pouvoir et Église",
+                  "libération de la France en 1944‐1945",
+                  "crée des comtés et des capitulaires",
+                  "conflit politico-social qui divise la France"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Royaume franc chrétien?",
+                "o": [
+                  "alliance étroite entre pouvoir et Église",
+                  "pouvoir affaibli par les « rois fainéants »",
+                  "conflit politico-social qui divise la France",
+                  "libération de la France en 1944‐1945"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Royaume franc chrétien?",
+                "o": [
+                  "conflit dynastique entre rois de France et d’Angleterre",
+                  "alliance étroite entre pouvoir et Église",
+                  "conflit politico-social qui divise la France",
+                  "libération de la France en 1944‐1945"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "HIS-0080-2",
+          "chapter": "II. France des origines à la Révolution",
+          "topic": "Royaumes francs",
+          "source": "Royaume franc chrétien — repère: origine du futur royaume de France",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Royaume franc chrétien — repère?",
+                "o": [
+                  "libération de la France en 1944‐1945",
+                  "origine du futur royaume de France",
+                  "roi des Francs saliens, baptisé vers 496 à Reims",
+                  "pouvoir affaibli par les « rois fainéants »"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Royaume franc chrétien — repère?",
+                "o": [
+                  "origine du futur royaume de France",
+                  "libération de la France en 1944‐1945",
+                  "alliance étroite entre pouvoir et Église",
+                  "affrontement entre républicains et nationalistes (général Franco)"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Royaume franc chrétien — repère?",
+                "o": [
+                  "crée des comtés et des capitulaires",
+                  "affrontement entre républicains et nationalistes (général Franco)",
+                  "origine du futur royaume de France",
+                  "pouvoir affaibli par les « rois fainéants »"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Royaume franc chrétien — repère?",
+                "o": [
+                  "affrontement entre républicains et nationalistes (général Franco)",
+                  "les maires du palais (notamment Charles Martel) prennent le pouvoir réel",
+                  "défaite française (juin 1940), armistice et installation du régime de Vichy (maréchal Pétain)",
+                  "origine du futur royaume de France"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0079",
+        "source": "Il crée les comtés, capitulaires et soutient les arts carolingiens.",
+        "cat": "Histoire",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "HIS-0081",
+        "source": "Clovis n’est pas baptisé en 800 (date de Charlemagne).",
+        "cat": "Histoire",
+        "page": 6
+      }
+    },
+    {
+      "id": "HIS-0084",
+      "cat": "Histoire",
+      "page": 6,
+      "chapter": "II. France des origines à la Révolution",
+      "topic": "Moyen Âge",
+      "source": "Féodalité: système d’organisation social et politique fondé sur la fidélité entre suzerain et vassal.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0084",
+          "chapter": "II. France des origines à la Révolution",
+          "topic": "Moyen Âge",
+          "source": "Féodalité — définition: système d’organisation social et politique fondé sur la fidélité entre suzerain et vassal.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Féodalité — définition?",
+                "o": [
+                  "importance du Nil et de la crue annuelle",
+                  "système d’organisation social et politique fondé sur la fidélité entre suzerain et vassal",
+                  "réformes de Clisthène et Périclès; assemblée des citoyens, tirage au sort et ostracisme",
+                  "conquiert l’empire perse, diffuse la culture hellénistique jusqu’en Inde"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Féodalité — définition?",
+                "o": [
+                  "importance du Nil et de la crue annuelle",
+                  "domestication des plantes et des animaux, apparition des villages, poterie et tissage",
+                  "regroupement des populations sur des sites permanents, développement des échanges et des premières inégalités sociales",
+                  "système d’organisation social et politique fondé sur la fidélité entre suzerain et vassal"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Féodalité — définition?",
+                "o": [
+                  "Guerres médiques: victoires grecques contre les Perses à Marathon (-490) et Salamine (-480)",
+                  "système d’organisation social et politique fondé sur la fidélité entre suzerain et vassal",
+                  "civilisations unifiées vers -3 150 par le pharaon Narmer",
+                  "importance du Nil et de la crue annuelle"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Féodalité — définition?",
+                "o": [
+                  "conquiert l’empire perse, diffuse la culture hellénistique jusqu’en Inde",
+                  "débute il y a environ 2,5 millions d’années avec les premiers outils lithiques",
+                  "accueille des tombeaux royaux plus récents que les pyramides",
+                  "système d’organisation social et politique fondé sur la fidélité entre suzerain et vassal"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0083",
+        "source": "Les Carolingiens succèdent aux Mérovingiens; la dynastie capétienne débute en 987.",
+        "cat": "Histoire",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "HIS-0085",
+        "source": "Le fief est un bien confié en échange de services.",
+        "cat": "Histoire",
+        "page": 6
+      }
+    },
+    {
+      "id": "HIS-0085",
+      "cat": "Histoire",
+      "page": 6,
+      "chapter": "II. France des origines à la Révolution",
+      "topic": "II. France des origines à la Révolution",
+      "source": "Le fief est un bien confié en échange de services.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0085",
+          "chapter": "II. France des origines à la Révolution",
+          "topic": "II. France des origines à la Révolution",
+          "source": "Le fief est un bien confié en échange de services.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le fief?",
+                "o": [
+                  "un bien confié en échange de services",
+                  "sacré empereur d’Occident à Rome en 800",
+                  "le conflit le plus meurtrier de l’histoire; la Première Guerre mondiale fait environ 10 millions de morts",
+                  "Premier consul; met en place la Banque de France (1800), les lycées, les préfets et la monnaie stable"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le fief?",
+                "o": [
+                  "sacré empereur d’Occident à Rome en 800",
+                  "un bien confié en échange de services",
+                  "élu au suffrage universel direct depuis 1962",
+                  "le conflit le plus meurtrier de l’histoire; la Première Guerre mondiale fait environ 10 millions de morts"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le fief?",
+                "o": [
+                  "un bien confié en échange de services",
+                  "dissoute en 1991, non en 1989",
+                  "au gouvernement d’adopter un texte sans vote sauf si une motion de censure est votée",
+                  "le conflit le plus meurtrier de l’histoire; la Première Guerre mondiale fait environ 10 millions de morts"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le fief?",
+                "o": [
+                  "Premier consul; met en place la Banque de France (1800), les lycées, les préfets et la monnaie stable",
+                  "un bien confié en échange de services",
+                  "dissoute en 1991, non en 1989",
+                  "de stabiliser le gouvernement et de rendre plus difficile le renversement par l’Assemblée"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0084",
+        "source": "Féodalité: système d’organisation social et politique fondé sur la fidélité entre suzerain et vassal.",
+        "cat": "Histoire",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "HIS-0086",
+        "source": "Capétiens: dynastie fondée par Hugues Capet en 987",
+        "cat": "Histoire",
+        "page": 6
+      }
+    },
+    {
+      "id": "HIS-0091",
+      "cat": "Histoire",
+      "page": 6,
+      "chapter": "II. France des origines à la Révolution",
+      "topic": "Moyen Âge",
+      "source": "Conséquences: affirmation de l’autorité royale, affaiblissement de la féodalité, naissance de l’État moderne.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0091-v28-1",
+          "chapter": "II. France des origines à la Révolution",
+          "topic": "Moyen Âge",
+          "source": "Évolution du pouvoir royal au Moyen Âge — caractéristiques: affirmation de l’autorité royale et affaiblissement de la féodalité",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Évolution du pouvoir royal au Moyen Âge?",
+                "o": [
+                  "roi des Francs saliens, baptisé vers 496 à Reims",
+                  "durée de 116 ans avec des trêves",
+                  "le roi reste lié aux lois fondamentales du royaume",
+                  "affirmation de l’autorité royale et affaiblissement de la féodalité"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Évolution du pouvoir royal au Moyen Âge?",
+                "o": [
+                  "auteur de De l’esprit des lois (1748)",
+                  "le roi reste lié aux lois fondamentales du royaume",
+                  "affirmation de l’autorité royale et affaiblissement de la féodalité",
+                  "roi des Francs saliens, baptisé vers 496 à Reims"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Évolution du pouvoir royal au Moyen Âge?",
+                "o": [
+                  "auteur de De l’esprit des lois (1748)",
+                  "le roi reste lié aux lois fondamentales du royaume",
+                  "roi des Francs saliens, baptisé vers 496 à Reims",
+                  "affirmation de l’autorité royale et affaiblissement de la féodalité"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Évolution du pouvoir royal au Moyen Âge?",
+                "o": [
+                  "le roi reste lié aux lois fondamentales du royaume",
+                  "affirmation de l’autorité royale et affaiblissement de la féodalité",
+                  "voyages maritimes sponsorisés par les États européens",
+                  "roi des Francs saliens, baptisé vers 496 à Reims"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "HIS-0091-v28-2",
+          "chapter": "II. France des origines à la Révolution",
+          "topic": "Moyen Âge",
+          "source": "Évolution du pouvoir royal au Moyen Âge — repère: naissance progressive de l’État moderne",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Évolution du pouvoir royal au Moyen Âge — repère?",
+                "o": [
+                  "vers 9 000 av. J.-C",
+                  "céréales (blé, orge) au Proche-Orient",
+                  "conception fondée sur l’empirisme",
+                  "naissance progressive de l’État moderne"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Évolution du pouvoir royal au Moyen Âge — repère?",
+                "o": [
+                  "naissance progressive de l’État moderne",
+                  "influence sur Rome",
+                  "opposition Athènes/Sparte (-431 – -404)",
+                  "vers 9 000 av. J.-C"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Évolution du pouvoir royal au Moyen Âge — repère?",
+                "o": [
+                  "pharaon chef politique et religieux",
+                  "céréales (blé, orge) au Proche-Orient",
+                  "opposition Athènes/Sparte (-431 – -404)",
+                  "naissance progressive de l’État moderne"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Évolution du pouvoir royal au Moyen Âge — repère?",
+                "o": [
+                  "vers 10 000 av. J.-C",
+                  "riz en Asie",
+                  "raisonnement logique et sciences naturelles",
+                  "naissance progressive de l’État moderne"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0090",
+        "source": "Saint Louis (Louis IX): roi capétien (règne 1226‐1270).",
+        "cat": "Histoire",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "HIS-0092",
+        "source": "Penser que la Guerre de Cent Ans dure exactement 100 ans (elle s’étale sur 116 ans avec des trêves).",
+        "cat": "Histoire",
+        "page": 6
+      }
+    },
+    {
+      "id": "HIS-0098",
+      "cat": "Histoire",
+      "page": 7,
+      "chapter": "II. France des origines à la Révolution",
+      "topic": "Renaissance et humanisme",
+      "source": "Humanisme: courant intellectuel valorisant l’homme et la culture antique.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0098",
+          "chapter": "II. France des origines à la Révolution",
+          "topic": "Renaissance et humanisme",
+          "source": "Humanisme — définition: courant intellectuel valorisant l’homme et la culture antique.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Que désigne « Humanisme »?",
+                "o": [
+                  "vote direct des citoyens sur un texte",
+                  "fuite de Mahomet de La Mecque à Médine",
+                  "courant intellectuel valorisant l’homme et la culture antique",
+                  "régime oligarchique et militariste en Laconie"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Humanisme »?",
+                "o": [
+                  "vote direct des citoyens sur un texte",
+                  "fuite de Mahomet de La Mecque à Médine",
+                  "courant intellectuel valorisant l’homme et la culture antique",
+                  "vote parlementaire pouvant renverser le gouvernement"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Humanisme »?",
+                "o": [
+                  "vote parlementaire pouvant renverser le gouvernement",
+                  "vote direct des citoyens sur un texte",
+                  "fuite de Mahomet de La Mecque à Médine",
+                  "courant intellectuel valorisant l’homme et la culture antique"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Humanisme »?",
+                "o": [
+                  "fuite de Mahomet de La Mecque à Médine",
+                  "vote parlementaire pouvant renverser le gouvernement",
+                  "courant intellectuel valorisant l’homme et la culture antique",
+                  "vote direct des citoyens sur un texte"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0097",
+        "source": "Traité de Tordesillas (1494) partage le Nouveau Monde entre l’Espagne et le Portugal.",
+        "cat": "Histoire",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "HIS-0099",
+        "source": "Léonard de Vinci: artiste et ingénieur italien, œuvre à la cour de François Ier",
+        "cat": "Histoire",
+        "page": 7
+      }
+    },
+    {
+      "id": "HIS-0130",
+      "cat": "Histoire",
+      "page": 8,
+      "chapter": "III. Révolution française et Empire",
+      "topic": "Révolution française",
+      "source": "Conséquences: préparent le terreau intellectuel de la Révolution française",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0130",
+          "chapter": "III. Révolution française et Empire",
+          "topic": "Révolution française",
+          "source": "Les Lumières — repère: préparent le terreau intellectuel de la Révolution française",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Les Lumières — repère?",
+                "o": [
+                  "ouverture à la rédaction des cahiers de doléances",
+                  "sous le Comité de salut public dirigé par Robespierre (1793‐1794)",
+                  "convoqués en mai 1789 par Louis XVI pour résoudre la crise",
+                  "préparent le terreau intellectuel de la Révolution française"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Les Lumières — repère?",
+                "o": [
+                  "convoqués en mai 1789 par Louis XVI pour résoudre la crise",
+                  "sous le Comité de salut public dirigé par Robespierre (1793‐1794)",
+                  "préparent le terreau intellectuel de la Révolution française",
+                  "ouverture à la rédaction des cahiers de doléances"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Les Lumières — repère?",
+                "o": [
+                  "convoqués en mai 1789 par Louis XVI pour résoudre la crise",
+                  "ouverture à la rédaction des cahiers de doléances",
+                  "sous le Comité de salut public dirigé par Robespierre (1793‐1794)",
+                  "préparent le terreau intellectuel de la Révolution française"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Les Lumières — repère?",
+                "o": [
+                  "ouverture à la rédaction des cahiers de doléances",
+                  "préparent le terreau intellectuel de la Révolution française",
+                  "convoqués en mai 1789 par Louis XVI pour résoudre la crise",
+                  "sous le Comité de salut public dirigé par Robespierre (1793‐1794)"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0129",
+        "source": "Diderot (1713‐1784): œuvre qui diffuse les savoirs.",
+        "cat": "Histoire",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "HIS-0131",
+        "source": "Conséquences: diffusion des idées républicaines et libérales en Europe et en Amérique.",
+        "cat": "Histoire",
+        "page": 8
+      }
+    },
+    {
+      "id": "HIS-0133",
+      "cat": "Histoire",
+      "page": 8,
+      "chapter": "III. Révolution française et Empire",
+      "topic": "Les Lumières",
+      "source": "Penser que Diderot a écrit seul l’Encyclopédie; il en est le coordonnateur et y contribue avec d’Alembert et une centaine d’auteurs.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0133",
+          "chapter": "III. Révolution française et Empire",
+          "topic": "Les Lumières",
+          "source": "Diderot — rôle: coordonnateur et contributeur de l’Encyclopédie avec d’Alembert et de nombreux auteurs",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Diderot — rôle?",
+                "o": [
+                  "auteur de De l’esprit des lois (1748)",
+                  "coordonnateur et contributeur de l’Encyclopédie avec d’Alembert et de nombreux auteurs",
+                  "Voltaire (1694‐1778): critique de l’intolérance et du fanatisme, auteur de Candide",
+                  "expose la séparation des pouvoirs (législatif, exécutif, judiciaire)"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Diderot — rôle?",
+                "o": [
+                  "expose la séparation des pouvoirs (législatif, exécutif, judiciaire)",
+                  "Voltaire (1694‐1778): critique de l’intolérance et du fanatisme, auteur de Candide",
+                  "auteur de De l’esprit des lois (1748)",
+                  "coordonnateur et contributeur de l’Encyclopédie avec d’Alembert et de nombreux auteurs"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Diderot — rôle?",
+                "o": [
+                  "coordonnateur et contributeur de l’Encyclopédie avec d’Alembert et de nombreux auteurs",
+                  "Voltaire (1694‐1778): critique de l’intolérance et du fanatisme, auteur de Candide",
+                  "auteur de De l’esprit des lois (1748)",
+                  "expose la séparation des pouvoirs (législatif, exécutif, judiciaire)"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Diderot — rôle?",
+                "o": [
+                  "Voltaire (1694‐1778): critique de l’intolérance et du fanatisme, auteur de Candide",
+                  "coordonnateur et contributeur de l’Encyclopédie avec d’Alembert et de nombreux auteurs",
+                  "auteur de De l’esprit des lois (1748)",
+                  "expose la séparation des pouvoirs (législatif, exécutif, judiciaire)"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0132",
+        "source": "Attribuer à Montaigne (Renaissance) un rôle dans les Lumières.",
+        "cat": "Histoire",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "HIS-0134",
+        "source": "La séparation des pouvoirs est formulée par Montesquieu, pas par Rousseau.",
+        "cat": "Histoire",
+        "page": 8
+      }
+    },
+    {
+      "id": "HIS-0134",
+      "cat": "Histoire",
+      "page": 8,
+      "chapter": "II. France des origines à la Révolution",
+      "topic": "Les Lumières",
+      "source": "La séparation des pouvoirs est formulée par Montesquieu, pas par Rousseau.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0134",
+          "chapter": "II. France des origines à la Révolution",
+          "topic": "Les Lumières",
+          "source": "La séparation des pouvoirs est formulée par Montesquieu, pas par Rousseau.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La séparation des pouvoirs?",
+                "o": [
+                  "dissoute en 1991, non en 1989",
+                  "formulée par Montesquieu, pas par Rousseau",
+                  "lié aux lois fondamentales du royaume",
+                  "pas des colonies mais des territoires français"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La séparation des pouvoirs?",
+                "o": [
+                  "un bien confié en échange de services",
+                  "issues du Proche-Orient mais n’apparaissent pas simultanément",
+                  "formulée par Montesquieu, pas par Rousseau",
+                  "masculin; les femmes obtiennent le droit de vote en 1944"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La séparation des pouvoirs?",
+                "o": [
+                  "un bien confié en échange de services",
+                  "au gouvernement d’adopter un texte sans vote sauf si une motion de censure est votée",
+                  "formulée par Montesquieu, pas par Rousseau",
+                  "de stabiliser le gouvernement et de rendre plus difficile le renversement par l’Assemblée"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La séparation des pouvoirs?",
+                "o": [
+                  "un bien confié en échange de services",
+                  "pas des colonies mais des territoires français",
+                  "Premier consul; met en place la Banque de France (1800), les lycées, les préfets et la monnaie stable",
+                  "formulée par Montesquieu, pas par Rousseau"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0133",
+        "source": "Penser que Diderot a écrit seul l’Encyclopédie; il en est le coordonnateur et y contribue avec d’Alembert et une centaine d’auteurs.",
+        "cat": "Histoire",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "HIS-0135",
+        "source": "Société d’ordres: clergé et noblesse bénéficient de privilèges fiscaux",
+        "cat": "Histoire",
+        "page": 8
       }
     }
   ]
