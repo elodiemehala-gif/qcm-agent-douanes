@@ -21,11 +21,29 @@
    return uniq(out);
  }
  function mk(x,H,prompt,a,ds){let d=uniq(ds).filter(v=>norm(v)!==norm(a)&&type(v)===type(a));if(d.length<3)return null;const core=d.slice(0,Math.min(2,d.length)),extra=H.sh(d.slice(core.length,Math.min(9,d.length))).slice(0,3-core.length);d=[...core,...extra];if(d.length<3)d=d.concat(d.slice(d.length,3));const o=H.sh([a,...d.slice(0,3)]);return{kind:'k',cat:x.cat,chapter:x.chapter,topic:x.topicName,prompt:clean(prompt),o,ans:o.findIndex(v=>norm(v)===norm(a)),x,why:clean(x.sourceText||x.text)};}
- function ranked(list,z){const want=type(z.answer),len=wc(z.answer);return uniq(list.map(y=>parse(y.sourceText||y.text)).filter(Boolean).filter(p=>norm(p.field)===norm(z.field)&&type(p.answer)===want).map(p=>p.answer)).sort((a,b)=>Math.abs(wc(a)-len)-Math.abs(wc(b)-len));}
+ function family(field){const f=norm(field);if(/localisation|siege|localise/.test(f))return'place';if(/date|annee|periode|evenement/.test(f))return'date';if(/auteur|artiste|createur|laureat|personne/.test(f))return'person';if(/population|volume|valeur|nombre|taux|pourcentage/.test(f))return'number';if(/role|mission|fonction/.test(f))return'role';if(/definition|sens|concept|principe/.test(f))return'definition';if(/association|repere|symbole|domaine|notion-cle|origine \/ genre/.test(f))return'association';if(/caracteristiques?|statut|lien|obligation/.test(f))return'characteristic';return null;}
+ function ranked(list,z,mode='exact'){
+   const want=type(z.answer),len=wc(z.answer),zf=norm(z.field),fam=family(z.field),strong=/^(?:place|person|year|period|percent|number)$/.test(want);
+   return uniq(list.map(y=>parse(y.sourceText||y.text)).filter(Boolean).filter(p=>{
+     if(type(p.answer)!==want)return false;
+     if(mode==='exact')return norm(p.field)===zf;
+     const pf=family(p.field);
+     if(fam&&pf===fam)return true;
+     return strong;
+   }).map(p=>p.answer)).sort((a,b)=>Math.abs(wc(a)-len)-Math.abs(wc(b)-len));
+ }
  function pool(x,K,z){
-   let a=ranked(K.filter(y=>y.id!==x.id&&y.cat===x.cat&&y.topicName===x.topicName),z);a=uniq(a);
-   if(a.length<3)a=uniq(a.concat(ranked(K.filter(y=>y.id!==x.id&&y.cat===x.cat&&y.chapter===x.chapter),z)));
-   if(a.length<3)a=uniq(a.concat(ranked(K.filter(y=>y.id!==x.id&&y.cat===x.cat),z)));
+   const scopes=[
+     K.filter(y=>y.id!==x.id&&y.cat===x.cat&&y.topicName===x.topicName),
+     K.filter(y=>y.id!==x.id&&y.cat===x.cat&&y.chapter===x.chapter),
+     K.filter(y=>y.id!==x.id&&y.cat===x.cat)
+   ];
+   let a=[];
+   for(const list of scopes){
+     a=uniq(a.concat(ranked(list,z,'exact')));
+     if(a.length<3)a=uniq(a.concat(ranked(list,z,'family')));
+     if(a.length>=3)break;
+   }
    if(a.length<3)a=uniq(a.concat(synthetic(z.answer)));
    return a;
  }
