@@ -1,9 +1,9 @@
 {
   "summary": {
-    "generatedAt": "2026-09-10T08:38:49.598Z",
+    "generatedAt": "2026-09-10T08:42:12.953Z",
     "rawFragments": 2349,
     "sourceFacts": 2203,
-    "enrichedFacts": 2299,
+    "enrichedFacts": 2302,
     "auditedSourceFacts": 2203,
     "categories": [
       "Histoire",
@@ -46,7 +46,7 @@
       "Actualité": {
         "facts": 119,
         "pass": 95,
-        "noQuestion": 2,
+        "noQuestion": 1,
         "flagged": 19,
         "sourceRejected": 0,
         "resolvedNonAtomic": 5,
@@ -54,12 +54,12 @@
       },
       "Organisation et missions": {
         "facts": 95,
-        "pass": 50,
-        "noQuestion": 21,
-        "flagged": 45,
+        "pass": 66,
+        "noQuestion": 0,
+        "flagged": 23,
         "sourceRejected": 0,
-        "resolvedNonAtomic": 0,
-        "remaining": 45
+        "resolvedNonAtomic": 6,
+        "remaining": 23
       },
       "Mathématiques": {
         "facts": 125,
@@ -91,88 +91,22 @@
     },
     "issueCounts": {
       "answer_too_broad": 120,
-      "mixed_semantic_types": 224,
-      "correct_length_gives_clue": 25,
-      "no_question": 158,
+      "mixed_semantic_types": 225,
+      "correct_length_gives_clue": 23,
+      "no_question": 135,
       "option_length_imbalance": 16,
       "answer_not_literal_in_source": 2
     },
-    "fullyCompliant": 1702,
-    "resolvedNonAtomic": 21,
-    "resolvedTotal": 1723,
-    "remaining": 480,
-    "flagged": 480,
-    "noQuestion": 118,
-    "withQuestion": 2064,
+    "fullyCompliant": 1718,
+    "resolvedNonAtomic": 27,
+    "resolvedTotal": 1745,
+    "remaining": 458,
+    "flagged": 458,
+    "noQuestion": 96,
+    "withQuestion": 2080,
     "sourceRejected": 0
   },
   "rows": [
-    {
-      "id": "ACT-0078",
-      "cat": "Actualité",
-      "page": 7,
-      "chapter": "4. Écologie et énergie",
-      "topic": "4. Écologie et énergie",
-      "source": "À partir du 1er septembre 2026, la suspension partielle de la réforme des retraites modifie le calendrier de relèvement de l’âge légal et de la durée d’assurance.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0078",
-          "chapter": "4. Écologie et énergie",
-          "topic": "4. Écologie et énergie",
-          "source": "Suspension partielle de la réforme des retraites à partir du 1er septembre 2026 — rôle: modifie le calendrier de relèvement de l’âge légal et de la durée d’assurance",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0077",
-        "source": "La stratégie repose sur détection, restrictions de mouvements, dépeuplement des foyers et vaccination; une campagne vaccinale 2026 a été lancée.",
-        "cat": "Actualité",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "ACT-0079",
-        "source": "La génération 1968 a désormais un âge légal de 63 ans et 9 mois; l’âge de 64 ans s’applique à partir de la génération 1969.",
-        "cat": "Actualité",
-        "page": 7
-      }
-    },
     {
       "id": "ACT-0094",
       "cat": "Actualité",
@@ -192,7 +126,7 @@
           "id": "ACT-0094",
           "chapter": "5. Santé et société",
           "topic": "5. Santé et société",
-          "source": "Règles principales de nombreux systèmes à haut risque de l’annexe III — repère: application à partir du 2 décembre 2027",
+          "source": "Application des règles principales relatives à de nombreux systèmes à haut risque de l’annexe III — date: 2 décembre 2027",
           "allPass": false,
           "anyQuestion": false,
           "issues": [
@@ -237,1392 +171,6 @@
         "source": "À partir du 11 septembre 2026, les fabricants doivent notamment signaler certaines vulnérabilités activement exploitées et certains incidents graves.",
         "cat": "Actualité",
         "page": 8
-      }
-    },
-    {
-      "id": "ORG-0002",
-      "cat": "Organisation et missions",
-      "page": 1,
-      "chapter": "1-2. Bercy, directions et services",
-      "topic": "1-2. Bercy, directions et services",
-      "source": "Organisation et missions des ministères économiques et financiers",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0002",
-          "chapter": "1-2. Bercy, directions et services",
-          "topic": "1-2. Bercy, directions et services",
-          "source": "Organisation et missions des ministères économiques et financiers",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0001",
-        "source": "Le périmètre comprend aussi l’économie, le budget, la douane, la concurrence, les entreprises, la statistique publique, la dette de l’État et le renseignement financier.",
-        "cat": "Organisation et missions",
-        "page": 1
-      },
-      "nextSource": {
-        "id": "ORG-0003",
-        "source": "Responsable — Lauréat(s): Portefeuille",
-        "cat": "Organisation et missions",
-        "page": 2
-      }
-    },
-    {
-      "id": "ORG-0026",
-      "cat": "Organisation et missions",
-      "page": 3,
-      "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-      "topic": "DGFiP et fiscalité",
-      "source": "Elle réunit des missions fiscales et des missions de gestion publique.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0026",
-          "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-          "topic": "DGFiP et fiscalité",
-          "source": "Elle réunit des missions fiscales et des missions de gestion publique.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0025",
-        "source": "La Direction générale des Finances publiques (DGFiP), créée en 2008, est l’une des principales directions de Bercy.",
-        "cat": "Organisation et missions",
-        "page": 3
-      },
-      "nextSource": {
-        "id": "ORG-0027",
-        "source": "Produire et contrôler la qualité des comptes de l’État.",
-        "cat": "Organisation et missions",
-        "page": 3
-      }
-    },
-    {
-      "id": "ORG-0027",
-      "cat": "Organisation et missions",
-      "page": 3,
-      "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-      "topic": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-      "source": "Produire et contrôler la qualité des comptes de l’État.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0027",
-          "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-          "topic": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-          "source": "Produire et contrôler la qualité des comptes de l’État.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0026",
-        "source": "Elle réunit des missions fiscales et des missions de gestion publique.",
-        "cat": "Organisation et missions",
-        "page": 3
-      },
-      "nextSource": {
-        "id": "ORG-0028",
-        "source": "Participer au paiement et au contrôle des dépenses publiques.",
-        "cat": "Organisation et missions",
-        "page": 3
-      }
-    },
-    {
-      "id": "ORG-0029",
-      "cat": "Organisation et missions",
-      "page": 3,
-      "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-      "topic": "DGFiP et fiscalité",
-      "source": "DGFiP = impôts + recettes publiques + comptes publics + foncier + conseil financier au secteur public.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0029",
-          "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-          "topic": "DGFiP et fiscalité",
-          "source": "DGFiP = impôts + recettes publiques + comptes publics + foncier + conseil financier au secteur public.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0028",
-        "source": "Participer au paiement et au contrôle des dépenses publiques.",
-        "cat": "Organisation et missions",
-        "page": 3
-      },
-      "nextSource": {
-        "id": "ORG-0030",
-        "source": "Le « Trésor public » n’est pas la DG Trésor: les centres des finances publiques relèvent de la DGFiP.",
-        "cat": "Organisation et missions",
-        "page": 3
-      }
-    },
-    {
-      "id": "ORG-0036",
-      "cat": "Organisation et missions",
-      "page": 4,
-      "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-      "topic": "DGCCRF",
-      "source": "La Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF) garantit l’ordre public économique et la confiance entre consommateurs et entreprises.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0036",
-          "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-          "topic": "DGCCRF",
-          "source": "La Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF) garantit l’ordre public économique et la confiance entre consommateurs et entreprises.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0035",
-        "source": "Son domaine distinctif est celui des frontières, des marchandises, des échanges et des droits indirects.",
-        "cat": "Organisation et missions",
-        "page": 4
-      },
-      "nextSource": {
-        "id": "ORG-0037",
-        "source": "Mener des enquêtes et contrôles, prononcer ou proposer des sanctions selon les cas.",
-        "cat": "Organisation et missions",
-        "page": 4
-      }
-    },
-    {
-      "id": "ORG-0037",
-      "cat": "Organisation et missions",
-      "page": 4,
-      "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-      "topic": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-      "source": "Mener des enquêtes et contrôles, prononcer ou proposer des sanctions selon les cas.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0037",
-          "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-          "topic": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-          "source": "Mener des enquêtes et contrôles, prononcer ou proposer des sanctions selon les cas.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0036",
-        "source": "La Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF) garantit l’ordre public économique et la confiance entre consommateurs et entreprises.",
-        "cat": "Organisation et missions",
-        "page": 4
-      },
-      "nextSource": {
-        "id": "ORG-0038",
-        "source": "À ne pas confondre — DGCCRF = consommateurs et concurrence; DGDDI = marchandises et frontières; DGFiP = fiscalité et gestion publique.",
-        "cat": "Organisation et missions",
-        "page": 4
-      }
-    },
-    {
-      "id": "ORG-0039",
-      "cat": "Organisation et missions",
-      "page": 4,
-      "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-      "topic": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-      "source": "Supervise l’Agence France Trésor pour la dette et la trésorerie de l’État.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0039",
-          "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-          "topic": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-          "source": "Supervise l’Agence France Trésor pour la dette et la trésorerie de l’État.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0038",
-        "source": "À ne pas confondre — DGCCRF = consommateurs et concurrence; DGDDI = marchandises et frontières; DGFiP = fiscalité et gestion publique.",
-        "cat": "Organisation et missions",
-        "page": 4
-      },
-      "nextSource": {
-        "id": "ORG-0041",
-        "source": "Cotisation sociale — Définition simplifiée: Prélèvement affecté au financement de la protection sociale.",
-        "cat": "Organisation et missions",
-        "page": 5
-      }
-    },
-    {
-      "id": "ORG-0044",
-      "cat": "Organisation et missions",
-      "page": 5,
-      "chapter": "7. Impôts, TVA et tarif douanier",
-      "topic": "7. Impôts, TVA et tarif douanier",
-      "source": "Réalise notamment le recensement de la population et de nombreuses enquêtes.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0044",
-          "chapter": "7. Impôts, TVA et tarif douanier",
-          "topic": "7. Impôts, TVA et tarif douanier",
-          "source": "Réalise notamment le recensement de la population et de nombreuses enquêtes.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0043",
-        "source": "Exerce et coordonne le contrôle budgétaire.",
-        "cat": "Organisation et missions",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "ORG-0045",
-        "source": "Exerce ses travaux avec indépendance professionnelle.",
-        "cat": "Organisation et missions",
-        "page": 5
-      }
-    },
-    {
-      "id": "ORG-0045",
-      "cat": "Organisation et missions",
-      "page": 5,
-      "chapter": "7. Impôts, TVA et tarif douanier",
-      "topic": "7. Impôts, TVA et tarif douanier",
-      "source": "Exerce ses travaux avec indépendance professionnelle.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0045",
-          "chapter": "7. Impôts, TVA et tarif douanier",
-          "topic": "7. Impôts, TVA et tarif douanier",
-          "source": "Exerce ses travaux avec indépendance professionnelle.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0044",
-        "source": "Réalise notamment le recensement de la population et de nombreuses enquêtes.",
-        "cat": "Organisation et missions",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "ORG-0046",
-        "source": "Gère la dette négociable de l’État au mieux des intérêts du contribuable.",
-        "cat": "Organisation et missions",
-        "page": 5
-      }
-    },
-    {
-      "id": "ORG-0046",
-      "cat": "Organisation et missions",
-      "page": 5,
-      "chapter": "7. Impôts, TVA et tarif douanier",
-      "topic": "7. Impôts, TVA et tarif douanier",
-      "source": "Gère la dette négociable de l’État au mieux des intérêts du contribuable.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0046",
-          "chapter": "7. Impôts, TVA et tarif douanier",
-          "topic": "7. Impôts, TVA et tarif douanier",
-          "source": "Gère la dette négociable de l’État au mieux des intérêts du contribuable.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0045",
-        "source": "Exerce ses travaux avec indépendance professionnelle.",
-        "cat": "Organisation et missions",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "ORG-0047",
-        "source": "TVA signifie « taxe sur la valeur ajoutée ».",
-        "cat": "Organisation et missions",
-        "page": 5
-      }
-    },
-    {
-      "id": "ORG-0047",
-      "cat": "Organisation et missions",
-      "page": 5,
-      "chapter": "7. Impôts, TVA et tarif douanier",
-      "topic": "7. Impôts, TVA et tarif douanier",
-      "source": "TVA signifie « taxe sur la valeur ajoutée ».",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0047",
-          "chapter": "7. Impôts, TVA et tarif douanier",
-          "topic": "7. Impôts, TVA et tarif douanier",
-          "source": "TVA signifie « taxe sur la valeur ajoutée ».",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0046",
-        "source": "Gère la dette négociable de l’État au mieux des intérêts du contribuable.",
-        "cat": "Organisation et missions",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "ORG-0048",
-        "source": "C’est un impôt indirect sur la consommation: le consommateur final en supporte le coût, tandis que les entreprises la collectent et la reversent selon les règles applicables.",
-        "cat": "Organisation et missions",
-        "page": 5
-      }
-    },
-    {
-      "id": "ORG-0051",
-      "cat": "Organisation et missions",
-      "page": 5,
-      "chapter": "7. Impôts, TVA et tarif douanier",
-      "topic": "7. Impôts, TVA et tarif douanier",
-      "source": "TVA à payer: en simplifiant, TVA collectée – TVA déductible.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0051",
-          "chapter": "7. Impôts, TVA et tarif douanier",
-          "topic": "7. Impôts, TVA et tarif douanier",
-          "source": "TVA à payer — caractéristiques: en simplifiant, TVA collectée – TVA déductible.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0050",
-        "source": "TVA déductible: TVA supportée sur des achats ouvrant droit à déduction.",
-        "cat": "Organisation et missions",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "ORG-0052",
-        "source": "Principaux taux métropolitains: 20 %, 10 %, 5,5 % et 2,1 % selon les biens et services.",
-        "cat": "Organisation et missions",
-        "page": 5
-      }
-    },
-    {
-      "id": "ORG-0053",
-      "cat": "Organisation et missions",
-      "page": 5,
-      "chapter": "7. Impôts, TVA et tarif douanier",
-      "topic": "7. Impôts, TVA et tarif douanier",
-      "source": "Question type — « Qu’est-ce que la TVA? » → Taxe sur la valeur ajoutée.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0053",
-          "chapter": "7. Impôts, TVA et tarif douanier",
-          "topic": "7. Impôts, TVA et tarif douanier",
-          "source": "Question type — « Qu’est-ce que la TVA? » → Taxe sur la valeur ajoutée.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0052",
-        "source": "Principaux taux métropolitains: 20 %, 10 %, 5,5 % et 2,1 % selon les biens et services.",
-        "cat": "Organisation et missions",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "ORG-0054",
-        "source": "Question type — Au niveau du sujet test 2026, retenir simplement qu’un tarif douanier correspond à un droit de douane appliqué aux marchandises importées.",
-        "cat": "Organisation et missions",
-        "page": 5
-      }
-    },
-    {
-      "id": "ORG-0054",
-      "cat": "Organisation et missions",
-      "page": 5,
-      "chapter": "7. Impôts, TVA et tarif douanier",
-      "topic": "DGDDI et douane",
-      "source": "Question type — Au niveau du sujet test 2026, retenir simplement qu’un tarif douanier correspond à un droit de douane appliqué aux marchandises importées.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0054",
-          "chapter": "7. Impôts, TVA et tarif douanier",
-          "topic": "DGDDI et douane",
-          "source": "Question type — Au niveau du sujet test 2026, retenir simplement qu’un tarif douanier correspond à un droit de douane appliqué aux marchandises importées.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0053",
-        "source": "Question type — « Qu’est-ce que la TVA? » → Taxe sur la valeur ajoutée.",
-        "cat": "Organisation et missions",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "ORG-0055",
-        "source": "Le contrôle fiscal est l’ensemble des vérifications effectuées par l’administration fiscale pour s’assurer que les contribuables – particuliers ou entreprises – respectent leurs obligations et que leurs déclarations sont exactes.",
-        "cat": "Organisation et missions",
-        "page": 6
-      }
-    },
-    {
-      "id": "ORG-0062",
-      "cat": "Organisation et missions",
-      "page": 6,
-      "chapter": "8-9. Contrôle fiscal, recouvrement et contentieux",
-      "topic": "DGFiP et fiscalité",
-      "source": "Dans un QCM de base, « recouvrement des impôts » = collecte / encaissement des impôts.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0062",
-          "chapter": "8-9. Contrôle fiscal, recouvrement et contentieux",
-          "topic": "DGFiP et fiscalité",
-          "source": "Dans un QCM de base, « recouvrement des impôts » = collecte / encaissement des impôts.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0061",
-        "source": "Le recouvrement est l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt.",
-        "cat": "Organisation et missions",
-        "page": 6
-      },
-      "nextSource": {
-        "id": "ORG-0063",
-        "source": "Recouvrement amiable ou spontané: le contribuable paie dans les délais.",
-        "cat": "Organisation et missions",
-        "page": 6
-      }
-    },
-    {
-      "id": "ORG-0073",
-      "cat": "Organisation et missions",
-      "page": 7,
-      "chapter": "10-11. Comptabilité publique et facturation électronique",
-      "topic": "10-11. Comptabilité publique et facturation électronique",
-      "source": "Depuis le 1er janvier 2023, l’ancien régime spécifique de responsabilité personnelle et pécuniaire des comptables a été remplacé par un régime unifié de responsabilité financière des gestionnaires publics.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0073",
-          "chapter": "10-11. Comptabilité publique et facturation électronique",
-          "topic": "10-11. Comptabilité publique et facturation électronique",
-          "source": "Depuis le 1er janvier 2023, l’ancien régime spécifique de responsabilité personnelle et pécuniaire des comptables a été remplacé par un régime unifié de responsabilité financière des gestionnaires publics.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0072",
-        "source": "Principe de séparation: les fonctions d’ordonnateur et de comptable sont distinctes.",
-        "cat": "Organisation et missions",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "ORG-0074",
-        "source": "Ce n’est pas le comptable qui « réquisitionne l’ordonnateur ».",
-        "cat": "Organisation et missions",
-        "page": 7
-      }
-    },
-    {
-      "id": "ORG-0074",
-      "cat": "Organisation et missions",
-      "page": 7,
-      "chapter": "10-11. Comptabilité publique et facturation électronique",
-      "topic": "Comptabilité publique",
-      "source": "Ce n’est pas le comptable qui « réquisitionne l’ordonnateur ».",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0074",
-          "chapter": "10-11. Comptabilité publique et facturation électronique",
-          "topic": "Comptabilité publique",
-          "source": "Ce n’est pas le comptable qui « réquisitionne l’ordonnateur ».",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0073",
-        "source": "Depuis le 1er janvier 2023, l’ancien régime spécifique de responsabilité personnelle et pécuniaire des comptables a été remplacé par un régime unifié de responsabilité financière des gestionnaires publics.",
-        "cat": "Organisation et missions",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "ORG-0075",
-        "source": "Chaîne classique de la dépense: engagement → liquidation → ordonnancement / ordre de payer paiement.",
-        "cat": "Organisation et missions",
-        "page": 7
-      }
-    },
-    {
-      "id": "ORG-0081",
-      "cat": "Organisation et missions",
-      "page": 7,
-      "chapter": "10-11. Comptabilité publique et facturation électronique",
-      "topic": "10-11. Comptabilité publique et facturation électronique",
-      "source": "Au 1er septembre 2026, l’obligation de réception concerne toutes les entreprises, mais l’obligation d’émission ne concerne pas encore les PME et micro-entreprises: pour elles, l’échéance d’émission est le 1er septembre 2027.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0081",
-          "chapter": "10-11. Comptabilité publique et facturation électronique",
-          "topic": "10-11. Comptabilité publique et facturation électronique",
-          "source": "Au 1er septembre 2026, l’obligation de réception concerne toutes les entreprises, mais l’obligation d’émission ne concerne pas encore les PME et micro-entreprises: pour elles, l’échéance d’émission est le 1er septembre 2027.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0080",
-        "source": "Une facture électronique n’est pas simplement un PDF envoyé par courriel: elle doit respecter le format et le circuit prévus par la réforme.",
-        "cat": "Organisation et missions",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "ORG-0082",
-        "source": "Mot-clé — Obligation: Réponse réflexe",
-        "cat": "Organisation et missions",
-        "page": 8
-      }
-    },
-    {
-      "id": "ORG-0094",
-      "cat": "Organisation et missions",
-      "page": 8,
-      "chapter": "10-11. Comptabilité publique et facturation électronique",
-      "topic": "DGFiP et fiscalité",
-      "source": "La fraude fiscale consiste à se soustraire illégalement à l’impôt, par exemple en dissimulant volontairement des revenus, une activité ou des opérations imposables.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0094",
-          "chapter": "10-11. Comptabilité publique et facturation électronique",
-          "topic": "DGFiP et fiscalité",
-          "source": "La fraude fiscale consiste à se soustraire illégalement à l’impôt, par exemple en dissimulant volontairement des revenus, une activité ou des opérations imposables.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0093",
-        "source": "Facturation électronique 01/09/2027 — Obligation: Émission pour PME et micro-entreprises.",
-        "cat": "Organisation et missions",
-        "page": 8
-      },
-      "nextSource": {
-        "id": "ORG-0095",
-        "source": "Elle se distingue de l’optimisation fiscale licite, qui utilise les règles prévues par la loi.",
-        "cat": "Organisation et missions",
-        "page": 8
-      }
-    },
-    {
-      "id": "ORG-0095",
-      "cat": "Organisation et missions",
-      "page": 8,
-      "chapter": "10-11. Comptabilité publique et facturation électronique",
-      "topic": "DGFiP et fiscalité",
-      "source": "Elle se distingue de l’optimisation fiscale licite, qui utilise les règles prévues par la loi.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0095",
-          "chapter": "10-11. Comptabilité publique et facturation électronique",
-          "topic": "DGFiP et fiscalité",
-          "source": "Elle se distingue de l’optimisation fiscale licite, qui utilise les règles prévues par la loi.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0094",
-        "source": "La fraude fiscale consiste à se soustraire illégalement à l’impôt, par exemple en dissimulant volontairement des revenus, une activité ou des opérations imposables.",
-        "cat": "Organisation et missions",
-        "page": 8
-      },
-      "nextSource": {
-        "id": "ORG-0096",
-        "source": "Tracfin est le service de renseignement financier de Bercy.",
-        "cat": "Organisation et missions",
-        "page": 8
-      }
-    },
-    {
-      "id": "ORG-0097",
-      "cat": "Organisation et missions",
-      "page": 8,
-      "chapter": "10-11. Comptabilité publique et facturation électronique",
-      "topic": "Tracfin et fraude",
-      "source": "Tracfin n’est pas un service auquel les particuliers adressent directement leurs signalements ordinaires.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0097",
-          "chapter": "10-11. Comptabilité publique et facturation électronique",
-          "topic": "Tracfin et fraude",
-          "source": "Tracfin n’est pas un service auquel les particuliers adressent directement leurs signalements ordinaires.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0096",
-        "source": "Tracfin est le service de renseignement financier de Bercy.",
-        "cat": "Organisation et missions",
-        "page": 8
-      },
-      "nextSource": {
-        "id": "MAT-0001",
-        "source": "Diviseur — Obligation: Critère rapide",
-        "cat": "Mathématiques",
-        "page": 2
       }
     },
     {
@@ -11211,113 +9759,6 @@
       }
     },
     {
-      "id": "ORG-0001",
-      "cat": "Organisation et missions",
-      "page": 1,
-      "chapter": "1-2. Bercy, directions et services",
-      "topic": "DGDDI et douane",
-      "source": "Le périmètre comprend aussi l’économie, le budget, la douane, la concurrence, les entreprises, la statistique publique, la dette de l’État et le renseignement financier.",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "mixed_semantic_types",
-        "correct_length_gives_clue"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0001",
-          "chapter": "1-2. Bercy, directions et services",
-          "topic": "DGDDI et douane",
-          "source": "Le périmètre comprend aussi l’économie, le budget, la douane, la concurrence, les entreprises, la statistique publique, la dette de l’État et le renseignement financier.",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "mixed_semantic_types",
-            "correct_length_gives_clue"
-          ],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à Le périmètre?",
-                "o": [
-                  "des personnes aux frontières dans le cadre de ses compétences",
-                  "celui des frontières, des marchandises, des échanges et des droits indirects",
-                  "un droit de douane appliqué aux marchandises importées",
-                  "aussi l’économie, le budget, la douane, la concurrence, les entreprises, la statistique publique, la dette de l’État et le renseignement financier"
-                ],
-                "ans": 3
-              },
-              "issues": [
-                "mixed_semantic_types"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à Le périmètre?",
-                "o": [
-                  "un droit de douane appliqué aux marchandises importées",
-                  "celui des frontières, des marchandises, des échanges et des droits indirects",
-                  "aussi l’économie, le budget, la douane, la concurrence, les entreprises, la statistique publique, la dette de l’État et le renseignement financier",
-                  "la régulation et le contrôle des flux de marchandises"
-                ],
-                "ans": 2
-              },
-              "issues": [
-                "mixed_semantic_types",
-                "correct_length_gives_clue"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à Le périmètre?",
-                "o": [
-                  "un droit de douane appliqué aux marchandises importées",
-                  "aussi l’économie, le budget, la douane, la concurrence, les entreprises, la statistique publique, la dette de l’État et le renseignement financier",
-                  "la régulation et le contrôle des flux de marchandises",
-                  "celui des frontières, des marchandises, des échanges et des droits indirects"
-                ],
-                "ans": 1
-              },
-              "issues": [
-                "mixed_semantic_types",
-                "correct_length_gives_clue"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à Le périmètre?",
-                "o": [
-                  "la régulation et le contrôle des flux de marchandises",
-                  "un droit de douane appliqué aux marchandises importées",
-                  "aussi l’économie, le budget, la douane, la concurrence, les entreprises, la statistique publique, la dette de l’État et le renseignement financier",
-                  "des personnes aux frontières dans le cadre de ses compétences"
-                ],
-                "ans": 2
-              },
-              "issues": [
-                "mixed_semantic_types",
-                "correct_length_gives_clue"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0122",
-        "source": "Calendrier — Les prix Nobel 2026 ne sont pas encore attribués au 31 août 2026: ils sont annoncés en octobre.",
-        "cat": "Actualité",
-        "page": 10
-      },
-      "nextSource": {
-        "id": "ORG-0002",
-        "source": "Organisation et missions des ministères économiques et financiers",
-        "cat": "Organisation et missions",
-        "page": 1
-      }
-    },
-    {
       "id": "ORG-0014",
       "cat": "Organisation et missions",
       "page": 2,
@@ -11355,9 +9796,9 @@
               "q": {
                 "prompt": "Quelle caractéristique correspond à Pour le QCM, l’essentiel?",
                 "o": [
-                  "les éléments relevant de sa responsabilité et réalise matériellement l’encaissement ou le paiement",
+                  "un thème explicitement utilisé dans le sujet test",
                   "pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu",
-                  "vérifie et rectifie; le recouvrement encaisse",
+                  "l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt",
                   "de savoir associer chaque sigle à sa mission principale"
                 ],
                 "ans": 3
@@ -11370,10 +9811,10 @@
               "q": {
                 "prompt": "Quelle caractéristique correspond à Pour le QCM, l’essentiel?",
                 "o": [
+                  "un thème explicitement utilisé dans le sujet test",
                   "les éléments relevant de sa responsabilité et réalise matériellement l’encaissement ou le paiement",
-                  "imposable; liquidation = calculer le montant; recouvrement = encaisser",
                   "de savoir associer chaque sigle à sa mission principale",
-                  "de la comptabilité professionnelle, pouvant être réalisé dans l’entreprise ou selon les modalités prévues par la procédure"
+                  "de cohérence de la situation d’un particulier au regard de ses revenus déclarés"
                 ],
                 "ans": 2
               },
@@ -11387,8 +9828,8 @@
                 "o": [
                   "la régulation et le contrôle des flux de marchandises",
                   "de savoir associer chaque sigle à sa mission principale",
-                  "imposable; liquidation = calculer le montant; recouvrement = encaisser",
-                  "à distance de la comptabilité informatisée d’une entreprise à partir du fichier des écritures comptables (FEC)"
+                  "les éléments relevant de sa responsabilité et réalise matériellement l’encaissement ou le paiement",
+                  "de la comptabilité professionnelle, pouvant être réalisé dans l’entreprise ou selon les modalités prévues par la procédure"
                 ],
                 "ans": 1
               },
@@ -11817,8 +10258,8 @@
               "q": {
                 "prompt": "Quelle caractéristique correspond à La réforme de la facturation électronique entre entreprises?",
                 "o": [
+                  "imposable; liquidation = calculer le montant; recouvrement = encaisser",
                   "l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt",
-                  "vérifie et rectifie; le recouvrement encaisse",
                   "un thème explicitement utilisé dans le sujet test",
                   "de savoir associer chaque sigle à sa mission principale"
                 ],
@@ -11833,9 +10274,9 @@
                 "prompt": "Quelle caractéristique correspond à La réforme de la facturation électronique entre entreprises?",
                 "o": [
                   "un thème explicitement utilisé dans le sujet test",
-                  "le service de renseignement financier de Bercy",
+                  "la qualité des comptes de l’État",
                   "des personnes aux frontières dans le cadre de ses compétences",
-                  "de cohérence de la situation d’un particulier au regard de ses revenus déclarés"
+                  "vérifie et rectifie; le recouvrement encaisse"
                 ],
                 "ans": 0
               },
@@ -11850,17 +10291,10 @@
               ]
             },
             {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à La réforme de la facturation électronique entre entreprises?",
-                "o": [
-                  "un thème explicitement utilisé dans le sujet test",
-                  "les intérêts patrimoniaux de l’État actionnaire dans les entreprises",
-                  "la régulation et le contrôle des flux de marchandises",
-                  "un droit de douane appliqué aux marchandises importées"
-                ],
-                "ans": 0
-              },
-              "issues": []
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
             }
           ]
         }
@@ -11876,99 +10310,6 @@
         "source": "Objectifs: simplifier les échanges, améliorer la connaissance de l’activité économique, faciliter les obligations déclaratives et renforcer la lutte contre la fraude à la TVA.",
         "cat": "Organisation et missions",
         "page": 7
-      }
-    },
-    {
-      "id": "ORG-0096",
-      "cat": "Organisation et missions",
-      "page": 8,
-      "chapter": "10-11. Comptabilité publique et facturation électronique",
-      "topic": "Tracfin et fraude",
-      "source": "Tracfin est le service de renseignement financier de Bercy.",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "mixed_semantic_types",
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0096",
-          "chapter": "10-11. Comptabilité publique et facturation électronique",
-          "topic": "Tracfin et fraude",
-          "source": "Tracfin est le service de renseignement financier de Bercy.",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "mixed_semantic_types",
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à Tracfin?",
-                "o": [
-                  "vérifie et rectifie; le recouvrement encaisse",
-                  "le service de renseignement financier de Bercy",
-                  "pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu",
-                  "l’une des principales directions de Bercy"
-                ],
-                "ans": 1
-              },
-              "issues": [
-                "mixed_semantic_types"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à Tracfin?",
-                "o": [
-                  "imposable; liquidation = calculer le montant; recouvrement = encaisser",
-                  "un thème explicitement utilisé dans le sujet test",
-                  "le service de renseignement financier de Bercy",
-                  "les intérêts patrimoniaux de l’État actionnaire dans les entreprises"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à Tracfin?",
-                "o": [
-                  "le service de renseignement financier de Bercy",
-                  "celui des frontières, des marchandises, des échanges et des droits indirects",
-                  "pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu",
-                  "aussi l’économie, le budget, la douane, la concurrence, les entreprises, la statistique publique, la dette de l’État et le renseignement financier"
-                ],
-                "ans": 0
-              },
-              "issues": [
-                "mixed_semantic_types"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0095",
-        "source": "Elle se distingue de l’optimisation fiscale licite, qui utilise les règles prévues par la loi.",
-        "cat": "Organisation et missions",
-        "page": 8
-      },
-      "nextSource": {
-        "id": "ORG-0097",
-        "source": "Tracfin n’est pas un service auquel les particuliers adressent directement leurs signalements ordinaires.",
-        "cat": "Organisation et missions",
-        "page": 8
       }
     },
     {
@@ -21832,6 +20173,2605 @@
         "source": "Garonne — Auteur: Pyrénées espagnoles",
         "cat": "Géographie",
         "page": 10
+      }
+    },
+    {
+      "id": "GEO-0254",
+      "cat": "Géographie",
+      "page": 10,
+      "chapter": "I.5 Démographie mondiale",
+      "topic": "Fleuves et lacs",
+      "source": "Garonne — Date: Atlantique via l’estuaire de la Gironde",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0254",
+          "chapter": "I.5 Démographie mondiale",
+          "topic": "Fleuves et lacs",
+          "source": "Garonne — date: Atlantique via l’estuaire de la Gironde",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Garonne — date?",
+                "o": [
+                  "Voie vitale pour les échanges de l’Asie orientale et ses importations énergétiques",
+                  "les places peuvent donc évoluer rapidement",
+                  "plus grand lac d’eau douce par superficie",
+                  "Atlantique via l’estuaire de la Gironde"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Garonne — date?",
+                "o": [
+                  "Beauce, châteaux de la Loire, agriculture",
+                  "Suez-mer Rouge, Ormuz, Malacca, Panama, mer de Chine méridionale, mer Noire",
+                  "Atlantique via l’estuaire de la Gironde",
+                  "Industrie, agriculture, estuaire de la Loire"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Garonne — date?",
+                "o": [
+                  "Industrie, agriculture, estuaire de la Loire",
+                  "Voie vitale pour les échanges de l’Asie orientale et ses importations énergétiques",
+                  "Atlantique via l’estuaire de la Gironde",
+                  "Océan Indien ↔ mer de Chine méridionale"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Garonne — date?",
+                "o": [
+                  "Grand lac d’altitude navigable dans les Andes",
+                  "Atlantique via l’estuaire de la Gironde",
+                  "les places peuvent donc évoluer rapidement",
+                  "Voie vitale pour les échanges de l’Asie orientale et ses importations énergétiques"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0253",
+        "source": "Garonne — Auteur: Toulouse, Bordeaux",
+        "cat": "Géographie",
+        "page": 10
+      },
+      "nextSource": {
+        "id": "GEO-0255",
+        "source": "Garonne — Particularités: Conflue avec la Dordogne pour former l’estuaire de la Gironde.",
+        "cat": "Géographie",
+        "page": 10
+      }
+    },
+    {
+      "id": "GEO-0267",
+      "cat": "Géographie",
+      "page": 11,
+      "chapter": "I.6 Économie mondiale et mondialisation",
+      "topic": "Reliefs et déserts",
+      "source": "Montagnard — Localisation: Alpes, Pyrénées, Massif central, Jura, Vosges",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0267",
+          "chapter": "I.6 Économie mondiale et mondialisation",
+          "topic": "Reliefs et déserts",
+          "source": "Montagnard — localisation: Alpes, Pyrénées, Massif central, Jura, Vosges",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Montagnard — localisation?",
+                "o": [
+                  "Alpes, Pyrénées, Massif central, Jura, Vosges",
+                  "grands pôles au Brésil et au Mexique",
+                  "Plus grand pays d’Asie du Sud-Est par la population",
+                  "il faut surtout connaître les grands bassins, les embouchures et les pays traversés"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Montagnard — localisation?",
+                "o": [
+                  "Plus grand pays d’Asie du Sud-Est par la population",
+                  "Alpes, Pyrénées, Massif central, Jura, Vosges",
+                  "Océan Arctique, Russie, Canada, États-Unis, pays nordiques",
+                  "Extrême aridité liée au courant de Humboldt et à l’ombre pluviométrique des Andes"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Montagnard — localisation?",
+                "o": [
+                  "Alpes, Pyrénées, Massif central, Jura, Vosges",
+                  "Océan Arctique, Russie, Canada, États-Unis, pays nordiques",
+                  "Troisième grand pôle démographique et économique parmi les pays très développés",
+                  "Asie du Sud, entre sous-continent indien et plateau tibétain"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Montagnard — localisation?",
+                "o": [
+                  "Asie du Sud, entre sous-continent indien et plateau tibétain",
+                  "Océan Arctique, Russie, Canada, États-Unis, pays nordiques",
+                  "Alpes, Pyrénées, Massif central, Jura, Vosges",
+                  "Plus grande étendue d’eau intérieure fermée"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0266",
+        "source": "La Loire est un fleuve, pas une rivière.",
+        "cat": "Géographie",
+        "page": 10
+      },
+      "nextSource": {
+        "id": "GEO-0268",
+        "source": "Montagnard — Caractéristiques: Température décroissante avec l’altitude",
+        "cat": "Géographie",
+        "page": 11
+      }
+    },
+    {
+      "id": "GEO-0271",
+      "cat": "Géographie",
+      "page": 11,
+      "chapter": "I.4 Climats et biomes",
+      "topic": "Climats et biomes",
+      "source": "Tropical ultramarin — Caractéristiques: Températures élevées",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0271",
+          "chapter": "I.4 Climats et biomes",
+          "topic": "Climats et biomes",
+          "source": "Tropical ultramarin — caractéristiques: Températures élevées",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Tropical ultramarin?",
+                "o": [
+                  "Températures élevées",
+                  "cyclones possibles",
+                  "courant circumpolaire",
+                  "irrigation localement importante"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Tropical ultramarin?",
+                "o": [
+                  "cyclones possibles",
+                  "façade méditerranéenne",
+                  "courant circumpolaire",
+                  "Températures élevées"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Tropical ultramarin?",
+                "o": [
+                  "courant circumpolaire",
+                  "cyclones possibles",
+                  "façade méditerranéenne",
+                  "Températures élevées"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Tropical ultramarin?",
+                "o": [
+                  "Températures élevées",
+                  "courant circumpolaire",
+                  "étagement de la végétation",
+                  "cyclones possibles"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0270",
+        "source": "Tropical ultramarin — Localisation: Antilles, Guyane, Réunion, Mayotte",
+        "cat": "Géographie",
+        "page": 11
+      },
+      "nextSource": {
+        "id": "GEO-0272",
+        "source": "Tropical ultramarin — Caractéristiques: alternance saison humide/sèche selon les territoires",
+        "cat": "Géographie",
+        "page": 11
+      }
+    },
+    {
+      "id": "GEO-0273",
+      "cat": "Géographie",
+      "page": 11,
+      "chapter": "I.4 Climats et biomes",
+      "topic": "Climats et biomes",
+      "source": "Tropical ultramarin — Caractéristiques: cyclones possibles.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0273",
+          "chapter": "I.4 Climats et biomes",
+          "topic": "Climats et biomes",
+          "source": "Tropical ultramarin — caractéristiques: cyclones possibles.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Tropical ultramarin?",
+                "o": [
+                  "Températures élevées",
+                  "façade méditerranéenne",
+                  "courant circumpolaire",
+                  "cyclones possibles"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Tropical ultramarin?",
+                "o": [
+                  "cyclones possibles",
+                  "étagement de la végétation",
+                  "Températures élevées",
+                  "courant circumpolaire"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Tropical ultramarin?",
+                "o": [
+                  "Effet de l’altitude",
+                  "courant circumpolaire",
+                  "Températures élevées",
+                  "cyclones possibles"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Tropical ultramarin?",
+                "o": [
+                  "courant circumpolaire",
+                  "Températures élevées",
+                  "Alpes, Himalaya, Andes",
+                  "cyclones possibles"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0272",
+        "source": "Tropical ultramarin — Caractéristiques: alternance saison humide/sèche selon les territoires",
+        "cat": "Géographie",
+        "page": 11
+      },
+      "nextSource": {
+        "id": "GEO-0274",
+        "source": "Océanique/insulaire du Pacifique — Localisation: Nouvelle-Calédonie, Polynésie selon les îles",
+        "cat": "Géographie",
+        "page": 11
+      }
+    },
+    {
+      "id": "GEO-0275",
+      "cat": "Géographie",
+      "page": 11,
+      "chapter": "I.4 Climats et biomes",
+      "topic": "Climats et biomes",
+      "source": "Océanique/insulaire du Pacifique — Caractéristiques: Variations tropicales et subtropicales",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0275",
+          "chapter": "I.4 Climats et biomes",
+          "topic": "Climats et biomes",
+          "source": "Océanique/insulaire du Pacifique — caractéristiques: Variations tropicales et subtropicales",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Océanique/insulaire du Pacifique?",
+                "o": [
+                  "fruits, légumes, olivier, viticulture",
+                  "irrigation localement importante",
+                  "Variations tropicales et subtropicales",
+                  "étagement de la végétation"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Océanique/insulaire du Pacifique?",
+                "o": [
+                  "Variations tropicales et subtropicales",
+                  "fruits, légumes, olivier, viticulture",
+                  "Alpes, Himalaya, Andes",
+                  "étagement de la végétation"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Océanique/insulaire du Pacifique?",
+                "o": [
+                  "fruits, légumes, olivier, viticulture",
+                  "Variations tropicales et subtropicales",
+                  "étagement de la végétation",
+                  "courant circumpolaire"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Océanique/insulaire du Pacifique?",
+                "o": [
+                  "Alpes, Himalaya, Andes",
+                  "fruits, légumes, olivier, viticulture",
+                  "Variations tropicales et subtropicales",
+                  "étagement de la végétation"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0274",
+        "source": "Océanique/insulaire du Pacifique — Localisation: Nouvelle-Calédonie, Polynésie selon les îles",
+        "cat": "Géographie",
+        "page": 11
+      },
+      "nextSource": {
+        "id": "GEO-0276",
+        "source": "Océanique/insulaire du Pacifique — Caractéristiques: forte influence océanique.",
+        "cat": "Géographie",
+        "page": 11
+      }
+    },
+    {
+      "id": "GEO-0276",
+      "cat": "Géographie",
+      "page": 11,
+      "chapter": "I.4 Climats et biomes",
+      "topic": "Climats et biomes",
+      "source": "Océanique/insulaire du Pacifique — Caractéristiques: forte influence océanique.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0276",
+          "chapter": "I.4 Climats et biomes",
+          "topic": "Climats et biomes",
+          "source": "Océanique/insulaire du Pacifique — caractéristiques: forte influence océanique.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Océanique/insulaire du Pacifique?",
+                "o": [
+                  "irrigation localement importante",
+                  "Effet de l’altitude",
+                  "forte influence océanique",
+                  "Alpes, Himalaya, Andes"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Océanique/insulaire du Pacifique?",
+                "o": [
+                  "Effet de l’altitude",
+                  "Alpes, Himalaya, Andes",
+                  "forte influence océanique",
+                  "Températures élevées"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Océanique/insulaire du Pacifique?",
+                "o": [
+                  "forte influence océanique",
+                  "Températures élevées",
+                  "Alpes, Himalaya, Andes",
+                  "Effet de l’altitude"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Océanique/insulaire du Pacifique?",
+                "o": [
+                  "forte influence océanique",
+                  "Alpes, Himalaya, Andes",
+                  "Effet de l’altitude",
+                  "courant circumpolaire"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0275",
+        "source": "Océanique/insulaire du Pacifique — Caractéristiques: Variations tropicales et subtropicales",
+        "cat": "Géographie",
+        "page": 11
+      },
+      "nextSource": {
+        "id": "GEO-0277",
+        "source": "Ville / aire métropolitaine — Événement: Fonction dominante / repère",
+        "cat": "Géographie",
+        "page": 11
+      }
+    },
+    {
+      "id": "GEO-0278",
+      "cat": "Géographie",
+      "page": 11,
+      "chapter": "I.4 Climats et biomes",
+      "topic": "Climats et biomes",
+      "source": "Marseille-Aix — Événement: Grand port méditerranéen",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0278",
+          "chapter": "I.4 Climats et biomes",
+          "topic": "Climats et biomes",
+          "source": "Marseille-Aix — caractéristiques: Grand port méditerranéen",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Marseille-Aix?",
+                "o": [
+                  "Effet de l’altitude",
+                  "Grand port méditerranéen",
+                  "Alpes, Himalaya, Andes",
+                  "forte influence océanique"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Marseille-Aix?",
+                "o": [
+                  "Alpes, Himalaya, Andes",
+                  "Grand port méditerranéen",
+                  "Effet de l’altitude",
+                  "Variations tropicales et subtropicales"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Marseille-Aix?",
+                "o": [
+                  "Alpes, Himalaya, Andes",
+                  "Grand port méditerranéen",
+                  "Effet de l’altitude",
+                  "irrigation localement importante"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Marseille-Aix?",
+                "o": [
+                  "Effet de l’altitude",
+                  "Alpes, Himalaya, Andes",
+                  "Grand port méditerranéen",
+                  "courant circumpolaire"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0277",
+        "source": "Ville / aire métropolitaine — Événement: Fonction dominante / repère",
+        "cat": "Géographie",
+        "page": 11
+      },
+      "nextSource": {
+        "id": "GEO-0279",
+        "source": "Marseille-Aix — Événement: logistique, industrie, services et tourisme.",
+        "cat": "Géographie",
+        "page": 11
+      }
+    },
+    {
+      "id": "GEO-0293",
+      "cat": "Géographie",
+      "page": 11,
+      "chapter": "I.4 Climats et biomes",
+      "topic": "Climats et biomes",
+      "source": "Nice / Côte d’Azur — Événement: façade méditerranéenne.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0293",
+          "chapter": "I.4 Climats et biomes",
+          "topic": "Climats et biomes",
+          "source": "Nice / Côte d’Azur — caractéristiques: façade méditerranéenne.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Nice / Côte d’Azur?",
+                "o": [
+                  "courant circumpolaire",
+                  "Températures élevées",
+                  "Effet de l’altitude",
+                  "façade méditerranéenne"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Nice / Côte d’Azur?",
+                "o": [
+                  "Températures élevées",
+                  "Alpes, Himalaya, Andes",
+                  "façade méditerranéenne",
+                  "courant circumpolaire"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Nice / Côte d’Azur?",
+                "o": [
+                  "façade méditerranéenne",
+                  "irrigation localement importante",
+                  "Températures élevées",
+                  "courant circumpolaire"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Nice / Côte d’Azur?",
+                "o": [
+                  "façade méditerranéenne",
+                  "courant circumpolaire",
+                  "Effet de l’altitude",
+                  "Températures élevées"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0292",
+        "source": "Nice / Côte d’Azur — Événement: Tourisme, services, technologies",
+        "cat": "Géographie",
+        "page": 11
+      },
+      "nextSource": {
+        "id": "GEO-0294",
+        "source": "Rennes / Montpellier — Événement: Métropoles régionales dynamiques, enseignement supérieur et services.",
+        "cat": "Géographie",
+        "page": 11
+      }
+    },
+    {
+      "id": "GEO-0303",
+      "cat": "Géographie",
+      "page": 11,
+      "chapter": "I.6 Économie mondiale et mondialisation",
+      "topic": "Reliefs et déserts",
+      "source": "La France dispose de la plus grande surface agricole utilisée de l’Union européenne et reste le premier producteur agricole européen en valeur.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0303-v28-1",
+          "chapter": "I.6 Économie mondiale et mondialisation",
+          "topic": "Reliefs et déserts",
+          "source": "France — caractéristiques: dispose de la plus grande surface agricole utilisée de l’Union européenne",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit France?",
+                "o": [
+                  "Troisième grand pôle démographique et économique parmi les pays très développés",
+                  "dispose de la plus grande surface agricole utilisée de l’Union européenne",
+                  "bovins dans l’ouest et le Massif central, productions laitières en Bretagne-Normandie et autres bassins spécialisés",
+                  "céréales du Bassin parisien et du nord, oléagineux, betterave sucrière"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit France?",
+                "o": [
+                  "plus de 80 % du commerce mondial de marchandises en volume passe par mer selon la",
+                  "céréales du Bassin parisien et du nord, oléagineux, betterave sucrière",
+                  "Troisième grand pôle démographique et économique parmi les pays très développés",
+                  "dispose de la plus grande surface agricole utilisée de l’Union européenne"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit France?",
+                "o": [
+                  "dispose de la plus grande surface agricole utilisée de l’Union européenne",
+                  "bovins dans l’ouest et le Massif central, productions laitières en Bretagne-Normandie et autres bassins spécialisés",
+                  "Troisième grand pôle démographique et économique parmi les pays très développés",
+                  "céréales du Bassin parisien et du nord, oléagineux, betterave sucrière"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit France?",
+                "o": [
+                  "dispose de la plus grande surface agricole utilisée de l’Union européenne",
+                  "céréales du Bassin parisien et du nord, oléagineux, betterave sucrière",
+                  "il faut surtout connaître les grands bassins, les embouchures et les pays traversés",
+                  "Troisième grand pôle démographique et économique parmi les pays très développés"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "GEO-0303-v28-2",
+          "chapter": "I.6 Économie mondiale et mondialisation",
+          "topic": "Reliefs et déserts",
+          "source": "France — repère: premier producteur agricole européen en valeur",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à France — repère?",
+                "o": [
+                  "grands pôles au Brésil et au Mexique",
+                  "Asie du Sud, entre sous-continent indien et plateau tibétain",
+                  "premier producteur agricole européen en valeur",
+                  "Extrême aridité liée au courant de Humboldt et à l’ombre pluviométrique des Andes"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à France — repère?",
+                "o": [
+                  "Golfe Persique, Ormuz, mer Rouge, Bab-el- Mandeb, Israël/Palestine, Iran, péninsule Arabique",
+                  "Plus grand pays d’Asie du Sud-Est par la population",
+                  "Grand Victoria, Great Sandy, Simpson, etc",
+                  "premier producteur agricole européen en valeur"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à France — repère?",
+                "o": [
+                  "Plus grande étendue d’eau intérieure fermée",
+                  "collision des plaques indienne et eurasiatique",
+                  "premier producteur agricole européen en valeur",
+                  "Maillon de la route maritime Asie-Europe passant par Suez"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à France — repère?",
+                "o": [
+                  "PIB nominal 2026 (ordre de grandeur)",
+                  "Golfe Persique, Ormuz, mer Rouge, Bab-el- Mandeb, Israël/Palestine, Iran, péninsule Arabique",
+                  "premier producteur agricole européen en valeur",
+                  "Océan Arctique, Russie, Canada, États-Unis, pays nordiques"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0302",
+        "source": "Urbanisation: Paris domine le système urbain mais Lyon, Marseille-Aix, Toulouse, Lille, Bordeaux, Nice, Nantes, Strasbourg, Rennes ou Montpellier structurent de grands pôles régionaux.",
+        "cat": "Géographie",
+        "page": 11
+      },
+      "nextSource": {
+        "id": "GEO-0304",
+        "source": "L’agriculture représente cependant une faible part de la valeur ajoutée totale (environ 1,5 % en 2025).",
+        "cat": "Géographie",
+        "page": 11
+      }
+    },
+    {
+      "id": "GEO-0308",
+      "cat": "Géographie",
+      "page": 11,
+      "chapter": "I.4 Climats et biomes",
+      "topic": "Climats et biomes",
+      "source": "Agriculture méditerranéenne: fruits, légumes, olivier, viticulture",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0308",
+          "chapter": "I.4 Climats et biomes",
+          "topic": "Climats et biomes",
+          "source": "Agriculture méditerranéenne — caractéristiques: fruits, légumes, olivier, viticulture",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Agriculture méditerranéenne?",
+                "o": [
+                  "irrigation localement importante",
+                  "étagement de la végétation",
+                  "Variations tropicales et subtropicales",
+                  "fruits, légumes, olivier, viticulture"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Agriculture méditerranéenne?",
+                "o": [
+                  "fruits, légumes, olivier, viticulture",
+                  "étagement de la végétation",
+                  "Alpes, Himalaya, Andes",
+                  "Variations tropicales et subtropicales"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Agriculture méditerranéenne?",
+                "o": [
+                  "forte influence océanique",
+                  "Variations tropicales et subtropicales",
+                  "fruits, légumes, olivier, viticulture",
+                  "étagement de la végétation"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Agriculture méditerranéenne?",
+                "o": [
+                  "Variations tropicales et subtropicales",
+                  "étagement de la végétation",
+                  "fruits, légumes, olivier, viticulture",
+                  "courant circumpolaire"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0307",
+        "source": "Viticulture: Bordeaux, Bourgogne, Champagne, vallée du Rhône, Loire, Alsace, Languedoc, Provence, etc.",
+        "cat": "Géographie",
+        "page": 11
+      },
+      "nextSource": {
+        "id": "GEO-0309",
+        "source": "Agriculture méditerranéenne: irrigation localement importante.",
+        "cat": "Géographie",
+        "page": 11
+      }
+    },
+    {
+      "id": "GEO-0339",
+      "cat": "Géographie",
+      "page": 12,
+      "chapter": "I.6 Économie mondiale et mondialisation",
+      "topic": "Reliefs et déserts",
+      "source": "Renouvelables: hydraulique dans les massifs, éolien surtout dans le nord et l’ouest ainsi qu’en mer, solaire en forte croissance, particulièrement dans le sud mais pas uniquement.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0339",
+          "chapter": "I.6 Économie mondiale et mondialisation",
+          "topic": "Reliefs et déserts",
+          "source": "Renouvelables — caractéristiques: hydraulique dans les massifs, éolien surtout dans le nord et l’ouest ainsi qu’en mer, solaire en forte croissance, particulièrement dans le sud mais pas uniquement.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Renouvelables?",
+                "o": [
+                  "forte concentration en Asie orientale (Shanghai, Singapour, Ningbo-Zhoushan, Shenzhen), mais aussi grands ports européens (Rotterdam, Anvers-Bruges) et américains",
+                  "forte concentration en Île-de-France, dans les grandes métropoles, les vallées fluviales, les façades littorales et certains espaces frontaliers",
+                  "hydraulique dans les massifs, éolien surtout dans le nord et l’ouest ainsi qu’en mer, solaire en forte croissance, particulièrement dans le sud mais pas uniquement",
+                  "Paris domine le système urbain mais Lyon, Marseille-Aix, Toulouse, Lille, Bordeaux, Nice, Nantes, Strasbourg, Rennes ou Montpellier structurent de grands pôles régionaux"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Renouvelables?",
+                "o": [
+                  "hydraulique dans les massifs, éolien surtout dans le nord et l’ouest ainsi qu’en mer, solaire en forte croissance, particulièrement dans le sud mais pas uniquement",
+                  "la très grande majorité des Français vit dans une aire d’attraction des villes",
+                  "Paris domine le système urbain mais Lyon, Marseille-Aix, Toulouse, Lille, Bordeaux, Nice, Nantes, Strasbourg, Rennes ou Montpellier structurent de grands pôles régionaux",
+                  "forte concentration en Asie orientale (Shanghai, Singapour, Ningbo-Zhoushan, Shenzhen), mais aussi grands ports européens (Rotterdam, Anvers-Bruges) et américains"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Renouvelables?",
+                "o": [
+                  "Paris domine le système urbain mais Lyon, Marseille-Aix, Toulouse, Lille, Bordeaux, Nice, Nantes, Strasbourg, Rennes ou Montpellier structurent de grands pôles régionaux",
+                  "hydraulique dans les massifs, éolien surtout dans le nord et l’ouest ainsi qu’en mer, solaire en forte croissance, particulièrement dans le sud mais pas uniquement",
+                  "la très grande majorité des Français vit dans une aire d’attraction des villes",
+                  "forte concentration en Asie orientale (Shanghai, Singapour, Ningbo-Zhoushan, Shenzhen), mais aussi grands ports européens (Rotterdam, Anvers-Bruges) et américains"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Renouvelables?",
+                "o": [
+                  "forte concentration en Asie orientale (Shanghai, Singapour, Ningbo-Zhoushan, Shenzhen), mais aussi grands ports européens (Rotterdam, Anvers-Bruges) et américains",
+                  "hydraulique dans les massifs, éolien surtout dans le nord et l’ouest ainsi qu’en mer, solaire en forte croissance, particulièrement dans le sud mais pas uniquement",
+                  "Paris domine le système urbain mais Lyon, Marseille-Aix, Toulouse, Lille, Bordeaux, Nice, Nantes, Strasbourg, Rennes ou Montpellier structurent de grands pôles régionaux",
+                  "il faut surtout connaître les grands bassins, les embouchures et les pays traversés"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0338",
+        "source": "Nucléaire: en 2025 le nucléaire a produit 373 TWh, soit 68,1 % de l’électricité française.",
+        "cat": "Géographie",
+        "page": 12
+      },
+      "nextSource": {
+        "id": "GEO-0340",
+        "source": "Services: secteur dominant de l’économie française",
+        "cat": "Géographie",
+        "page": 12
+      }
+    },
+    {
+      "id": "GEO-0342",
+      "cat": "Géographie",
+      "page": 12,
+      "chapter": "I.6 Économie mondiale et mondialisation",
+      "topic": "I.6 Économie mondiale et mondialisation",
+      "source": "Tourisme: 102 millions d’arrivées internationales en 2025 selon Atout France, ce qui maintient la France au premier rang mondial en nombre d’arrivées.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0342",
+          "chapter": "I.6 Économie mondiale et mondialisation",
+          "topic": "I.6 Économie mondiale et mondialisation",
+          "source": "Tourisme — date: 102 millions d’arrivées internationales en 2025 selon Atout France, ce qui maintient la France au premier rang mondial en nombre d’arrivées.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "En quelle année situe-t-on Tourisme — date?",
+                "o": [
+                  "102",
+                  "115",
+                  "127",
+                  "89"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "En quelle année situe-t-on Tourisme — date?",
+                "o": [
+                  "2025",
+                  "115",
+                  "102",
+                  "2026"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "En quelle année situe-t-on Tourisme — date?",
+                "o": [
+                  "127",
+                  "102",
+                  "115",
+                  "2026"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "En quelle année situe-t-on Tourisme — date?",
+                "o": [
+                  "115",
+                  "2025",
+                  "89",
+                  "102"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0341",
+        "source": "Services: finance, commerce, transports, santé, éducation, numérique, services aux entreprises et tourisme.",
+        "cat": "Géographie",
+        "page": 12
+      },
+      "nextSource": {
+        "id": "GEO-0343",
+        "source": "La part du nucléaire dans la production électrique n’est pas « 70 % fixe »: elle évolue chaque année.",
+        "cat": "Géographie",
+        "page": 12
+      }
+    },
+    {
+      "id": "GEO-0344",
+      "cat": "Géographie",
+      "page": 12,
+      "chapter": "I.6 Économie mondiale et mondialisation",
+      "topic": "Reliefs et déserts",
+      "source": "La France reste une grande puissance agricole mais l’agriculture ne représente qu’une petite fraction du PIB/valeur ajoutée.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0344",
+          "chapter": "I.6 Économie mondiale et mondialisation",
+          "topic": "Reliefs et déserts",
+          "source": "La France reste une grande puissance agricole mais l’agriculture ne représente qu’une petite fraction du PIB/valeur ajoutée.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La France?",
+                "o": [
+                  "une grande puissance agricole mais l’agriculture ne représente qu’une petite fraction du PIB/valeur ajoutée",
+                  "située dans l’Indopacifique; la ZEE française est la deuxième au monde, autour de 10,2 millions de km2 selon les données officielles récentes",
+                  "des canaux artificiels; Gibraltar, Ormuz, Malacca et Béring sont des détroits naturels",
+                  "plus de 75 % du commerce international et environ deux tiers de la population mondiale"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La France?",
+                "o": [
+                  "une grande puissance agricole mais l’agriculture ne représente qu’une petite fraction du PIB/valeur ajoutée",
+                  "marqué — population: environ 22 % de la population a 65 ans ou plus",
+                  "située dans l’Indopacifique; la ZEE française est la deuxième au monde, autour de 10,2 millions de km2 selon les données officielles récentes",
+                  "plus de 75 % du commerce international et environ deux tiers de la population mondiale"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La France?",
+                "o": [
+                  "marqué — population: environ 22 % de la population a 65 ans ou plus",
+                  "rangé dans la sous-région « Amérique centrale »",
+                  "une grande puissance agricole mais l’agriculture ne représente qu’une petite fraction du PIB/valeur ajoutée",
+                  "cependant une faible part de la valeur ajoutée totale (environ 1,5 % en 2025)"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La France?",
+                "o": [
+                  "sans ambiguïté le fleuve au plus grand débit",
+                  "devenu légèrement négatif en France pour la première fois depuis la fin de la Seconde Guerre mondiale",
+                  "une grande puissance agricole mais l’agriculture ne représente qu’une petite fraction du PIB/valeur ajoutée",
+                  "rangé dans la sous-région « Amérique centrale »"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0343",
+        "source": "La part du nucléaire dans la production électrique n’est pas « 70 % fixe »: elle évolue chaque année.",
+        "cat": "Géographie",
+        "page": 12
+      },
+      "nextSource": {
+        "id": "GEO-0345",
+        "source": "Toulouse = aéronautique/spatial; Marseille = grand port méditerranéen; Le Havre = premier grand port français de conteneurs.",
+        "cat": "Géographie",
+        "page": 12
+      }
+    },
+    {
+      "id": "GEO-0351",
+      "cat": "Géographie",
+      "page": 12,
+      "chapter": "I.6 Économie mondiale et mondialisation",
+      "topic": "I.6 Économie mondiale et mondialisation",
+      "source": "La réduction de 22 à 13 régions métropolitaines est issue de la loi du 16 janvier 2015 relative à la délimitation des régions; la nouvelle carte est entrée en vigueur le 1er janvier 2016.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0351",
+          "chapter": "I.6 Économie mondiale et mondialisation",
+          "topic": "I.6 Économie mondiale et mondialisation",
+          "source": "La réduction de 22 à 13 régions métropolitaines est issue de la loi du 16 janvier 2015 relative à la délimitation des régions; la nouvelle carte est entrée en vigueur le 1er janvier 2016.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La réduction de 22 à 13 régions métropolitaines?",
+                "o": [
+                  "devenue « Département-Région de Mayotte » au 1er janvier 2026",
+                  "issue de la loi du 16 janvier 2015 relative à la délimitation des régions; la nouvelle carte est entrée en vigueur le 1er janvier 2016",
+                  "devenu légèrement négatif en France pour la première fois depuis la fin de la Seconde Guerre mondiale",
+                  "conservés ici uniquement parce que le cours de géographie initial les associait à l’administration territoriale"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La réduction de 22 à 13 régions métropolitaines?",
+                "o": [
+                  "devenue « Département-Région de Mayotte » au 1er janvier 2026",
+                  "conservés ici uniquement parce que le cours de géographie initial les associait à l’administration territoriale",
+                  "issue de la loi du 16 janvier 2015 relative à la délimitation des régions; la nouvelle carte est entrée en vigueur le 1er janvier 2016",
+                  "cependant une faible part de la valeur ajoutée totale (environ 1,5 % en 2025)"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La réduction de 22 à 13 régions métropolitaines?",
+                "o": [
+                  "située dans l’Indopacifique; la ZEE française est la deuxième au monde, autour de 10,2 millions de km2 selon les données officielles récentes",
+                  "issue de la loi du 16 janvier 2015 relative à la délimitation des régions; la nouvelle carte est entrée en vigueur le 1er janvier 2016",
+                  "cependant une faible part de la valeur ajoutée totale (environ 1,5 % en 2025)",
+                  "devenue « Département-Région de Mayotte » au 1er janvier 2026"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La réduction de 22 à 13 régions métropolitaines?",
+                "o": [
+                  "issue de la loi du 16 janvier 2015 relative à la délimitation des régions; la nouvelle carte est entrée en vigueur le 1er janvier 2016",
+                  "cependant une faible part de la valeur ajoutée totale (environ 1,5 % en 2025)",
+                  "devenue « Département-Région de Mayotte » au 1er janvier 2026",
+                  "devenu légèrement négatif en France pour la première fois depuis la fin de la Seconde Guerre mondiale"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0350",
+        "source": "Axes fluviaux: projets et aménagements liés à la logistique et à la décarbonation.",
+        "cat": "Géographie",
+        "page": 12
+      },
+      "nextSource": {
+        "id": "GEO-0352",
+        "source": "La loi NOTRe du 7 août 2015 a, elle, redéfini la répartition des compétences entre collectivités.",
+        "cat": "Géographie",
+        "page": 12
+      }
+    },
+    {
+      "id": "GEO-0369",
+      "cat": "Géographie",
+      "page": 13,
+      "chapter": "I.6 Économie mondiale et mondialisation",
+      "topic": "I.6 Économie mondiale et mondialisation",
+      "source": "Mayotte — Auteur: Département-Région depuis le 1er janvier 2026, océan Indien",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0369",
+          "chapter": "I.6 Économie mondiale et mondialisation",
+          "topic": "I.6 Économie mondiale et mondialisation",
+          "source": "Mayotte — auteur: Département-Région depuis le 1er janvier 2026, océan Indien",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Mayotte — auteur?",
+                "o": [
+                  "redéfinit la répartition des compétences entre collectivités",
+                  "en 2025, il est devenu légèrement négatif en France pour la première fois depuis la fin de la Seconde Guerre mondiale",
+                  "Département-Région depuis le 1er janvier 2026, océan Indien",
+                  "102 millions d’arrivées internationales en 2025 selon Atout France, ce qui maintient la France au premier rang mondial en nombre d’arrivées"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Mayotte — auteur?",
+                "o": [
+                  "pôles historiques dans le nord, l’est et l’ouest",
+                  "en 2025 le nucléaire a produit 373 TWh, soit 68,1 % de l’électricité française",
+                  "Martinique et Guyane sont des collectivités territoriales uniques",
+                  "Département-Région depuis le 1er janvier 2026, océan Indien"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Mayotte — auteur?",
+                "o": [
+                  "Atoll isolé au large du Mexique",
+                  "référendums en 2018, 2020 et 2021",
+                  "Département-Région depuis le 1er janvier 2026, océan Indien",
+                  "Nouvelle-Calédonie a un statut sui generis"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Mayotte — auteur?",
+                "o": [
+                  "Département-Région depuis le 1er janvier 2026, océan Indien",
+                  "en 2025, il est devenu légèrement négatif en France pour la première fois depuis la fin de la Seconde Guerre mondiale",
+                  "102 millions d’arrivées internationales en 2025 selon Atout France, ce qui maintient la France au premier rang mondial en nombre d’arrivées",
+                  "Orly, Nice, Lyon, Marseille, Toulouse, Bâle-Mulhouse parmi les principaux"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0368",
+        "source": "La Réunion — Particularités: piton de la Fournaise.",
+        "cat": "Géographie",
+        "page": 13
+      },
+      "nextSource": {
+        "id": "GEO-0370",
+        "source": "Mayotte — Date: Mamoudzou",
+        "cat": "Géographie",
+        "page": 13
+      }
+    },
+    {
+      "id": "GEO-0396",
+      "cat": "Géographie",
+      "page": 13,
+      "chapter": "I.6 Économie mondiale et mondialisation",
+      "topic": "I.6 Économie mondiale et mondialisation",
+      "source": "Plus de 90 % de la zone économique exclusive française est située dans l’Indopacifique; la ZEE française est la deuxième au monde, autour de 10,2 millions de km2 selon les données officielles récentes.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0396",
+          "chapter": "I.6 Économie mondiale et mondialisation",
+          "topic": "I.6 Économie mondiale et mondialisation",
+          "source": "Plus de 90 % de la zone économique exclusive française est située dans l’Indopacifique; la ZEE française est la deuxième au monde, autour de 10,2 millions de km2 selon les données officielles récentes.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Plus de 90 % de la zone économique exclusive française?",
+                "o": [
+                  "devenu légèrement négatif en France pour la première fois depuis la fin de la Seconde Guerre mondiale",
+                  "issue de la loi du 16 janvier 2015 relative à la délimitation des régions; la nouvelle carte est entrée en vigueur le 1er janvier 2016",
+                  "devenue « Département-Région de Mayotte » au 1er janvier 2026",
+                  "située dans l’Indopacifique; la ZEE française est la deuxième au monde, autour de 10,2 millions de km2 selon les données officielles récentes"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Plus de 90 % de la zone économique exclusive française?",
+                "o": [
+                  "issue de la loi du 16 janvier 2015 relative à la délimitation des régions; la nouvelle carte est entrée en vigueur le 1er janvier 2016",
+                  "cependant une faible part de la valeur ajoutée totale (environ 1,5 % en 2025)",
+                  "devenu légèrement négatif en France pour la première fois depuis la fin de la Seconde Guerre mondiale",
+                  "située dans l’Indopacifique; la ZEE française est la deuxième au monde, autour de 10,2 millions de km2 selon les données officielles récentes"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Plus de 90 % de la zone économique exclusive française?",
+                "o": [
+                  "cependant une faible part de la valeur ajoutée totale (environ 1,5 % en 2025)",
+                  "conservés ici uniquement parce que le cours de géographie initial les associait à l’administration territoriale",
+                  "située dans l’Indopacifique; la ZEE française est la deuxième au monde, autour de 10,2 millions de km2 selon les données officielles récentes",
+                  "issue de la loi du 16 janvier 2015 relative à la délimitation des régions; la nouvelle carte est entrée en vigueur le 1er janvier 2016"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Plus de 90 % de la zone économique exclusive française?",
+                "o": [
+                  "devenue « Département-Région de Mayotte » au 1er janvier 2026",
+                  "devenu légèrement négatif en France pour la première fois depuis la fin de la Seconde Guerre mondiale",
+                  "située dans l’Indopacifique; la ZEE française est la deuxième au monde, autour de 10,2 millions de km2 selon les données officielles récentes",
+                  "issue de la loi du 16 janvier 2015 relative à la délimitation des régions; la nouvelle carte est entrée en vigueur le 1er janvier 2016"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0395",
+        "source": "Clipperton — Particularités: sans population permanente.",
+        "cat": "Géographie",
+        "page": 13
+      },
+      "nextSource": {
+        "id": "GEO-0397",
+        "source": "DROM/COM ne recouvrent pas tous les statuts: Nouvelle-Calédonie a un statut sui generis",
+        "cat": "Géographie",
+        "page": 13
+      }
+    },
+    {
+      "id": "EMC-0006",
+      "cat": "Enseignement moral et civique",
+      "page": 3,
+      "chapter": "A-B. Valeurs et symboles de la République",
+      "topic": "Valeurs de la République",
+      "source": "La liberté de réunion est une liberté publique fondamentale permettant à un groupe de se réunir pacifiquement et sans armes pour une finalité licite.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "EMC-0006",
+          "chapter": "A-B. Valeurs et symboles de la République",
+          "topic": "Valeurs de la République",
+          "source": "La liberté de réunion est une liberté publique fondamentale permettant à un groupe de se réunir pacifiquement et sans armes pour une finalité licite.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La liberté de réunion?",
+                "o": [
+                  "placés sur un pied d’égalité et soumis au droit commun (associations cultuelles, police des cultes)",
+                  "limité par la liberté d’expression et le droit d’information du public",
+                  "une liberté publique fondamentale permettant à un groupe de se réunir pacifiquement et sans armes pour une finalité licite",
+                  "en France, elle veille au respect de la loi Informatique et libertés (1978 modifiée) et du RGPD"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La liberté de réunion?",
+                "o": [
+                  "une liberté publique fondamentale permettant à un groupe de se réunir pacifiquement et sans armes pour une finalité licite",
+                  "limité par la liberté d’expression et le droit d’information du public",
+                  "notamment les libertés de conscience, de culte, de presse, de réunion, d’association, de circulation et d’entreprendre",
+                  "une « République indivisible, laïque, démocratique et sociale »"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La liberté de réunion?",
+                "o": [
+                  "en France, elle veille au respect de la loi Informatique et libertés (1978 modifiée) et du RGPD",
+                  "garanties à tous les agents publics (droit d’adhérer à un syndicat sans discrimination et de bénéficier de protections pour l’exercice des mandats)",
+                  "une liberté publique fondamentale permettant à un groupe de se réunir pacifiquement et sans armes pour une finalité licite",
+                  "une « République indivisible, laïque, démocratique et sociale »"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La liberté de réunion?",
+                "o": [
+                  "notamment les libertés de conscience, de culte, de presse, de réunion, d’association, de circulation et d’entreprendre",
+                  "placés sur un pied d’égalité et soumis au droit commun (associations cultuelles, police des cultes)",
+                  "une « République indivisible, laïque, démocratique et sociale »",
+                  "une liberté publique fondamentale permettant à un groupe de se réunir pacifiquement et sans armes pour une finalité licite"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "EMC-0005",
+        "source": "Applications: liberté de conscience, de culte, de presse, de réunion, d’association, de circulation, d’entreprendre, etc.",
+        "cat": "Enseignement moral et civique",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "EMC-0007",
+        "source": "A.2 Égalité Principe: égalité en droits de tous les citoyens sans distinction d’origine, de religion ou de sexe.",
+        "cat": "Enseignement moral et civique",
+        "page": 3
+      }
+    },
+    {
+      "id": "EMC-0011",
+      "cat": "Enseignement moral et civique",
+      "page": 3,
+      "chapter": "A-B. Valeurs et symboles de la République",
+      "topic": "A-B. Valeurs et symboles de la République",
+      "source": "Ce principe fonde l’État social (sécurité sociale, services publics, solidarité fiscale) et alimente les politiques de cohésion nationale et de lutte contre la pauvreté.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "EMC-0011-v28-1",
+          "chapter": "A-B. Valeurs et symboles de la République",
+          "topic": "A-B. Valeurs et symboles de la République",
+          "source": "Fraternité — rôle: fonde l’État social",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quel est le rôle principal de Fraternité?",
+                "o": [
+                  "encadre l’utilisation des édifices religieux",
+                  "fonde l’État social",
+                  "gèrent l’exercice des cultes",
+                  "signe les décrets"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quel est le rôle principal de Fraternité?",
+                "o": [
+                  "signe les décrets",
+                  "encadre l’utilisation des édifices religieux",
+                  "garantit la liberté d’association",
+                  "fonde l’État social"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quel est le rôle principal de Fraternité?",
+                "o": [
+                  "encadre l’utilisation des édifices religieux",
+                  "signe les décrets",
+                  "votent la loi",
+                  "fonde l’État social"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quel est le rôle principal de Fraternité?",
+                "o": [
+                  "évaluent les politiques publiques",
+                  "fonde l’État social",
+                  "signe les décrets",
+                  "encadre l’utilisation des édifices religieux"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "EMC-0011-v28-2",
+          "chapter": "A-B. Valeurs et symboles de la République",
+          "topic": "A-B. Valeurs et symboles de la République",
+          "source": "Fraternité — association: sécurité sociale, services publics et solidarité fiscale",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour Fraternité?",
+                "o": [
+                  "diffamation, injure et provocation à la haine",
+                  "urbanisme, action sociale, transports scolaires et développement économique",
+                  "Cour européenne des droits de l’homme à Strasbourg",
+                  "sécurité sociale, services publics et solidarité fiscale"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour Fraternité?",
+                "o": [
+                  "Cour européenne des droits de l’homme à Strasbourg",
+                  "naissance en France et résidence (droit du sol)",
+                  "sécurité sociale, services publics et solidarité fiscale",
+                  "diffamation, injure et provocation à la haine"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour Fraternité?",
+                "o": [
+                  "urbanisme, action sociale, transports scolaires et développement économique",
+                  "sécurité sociale, services publics et solidarité fiscale",
+                  "Cour européenne des droits de l’homme à Strasbourg",
+                  "diffamation, injure et provocation à la haine"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour Fraternité?",
+                "o": [
+                  "Cour européenne des droits de l’homme à Strasbourg",
+                  "diffamation, injure et provocation à la haine",
+                  "naissance en France et résidence (droit du sol)",
+                  "sécurité sociale, services publics et solidarité fiscale"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "EMC-0011-v28-3",
+          "chapter": "A-B. Valeurs et symboles de la République",
+          "topic": "A-B. Valeurs et symboles de la République",
+          "source": "Fraternité — association: politiques de cohésion nationale et de lutte contre la pauvreté",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Fraternité — association?",
+                "o": [
+                  "politiques de cohésion nationale et de lutte contre la pauvreté",
+                  "Hymne national composé par Rouget de Lisle en 1792. Adoptée comme hymne officiel en 1879",
+                  "Ne pas confondre avec les drapeaux bleus à croix blanche (Finlande, Grèce)",
+                  "Attention aux paroles: c’est un chant révolutionnaire, pas un hymne religieux"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Fraternité — association?",
+                "o": [
+                  "sécurité sociale, services publics et solidarité fiscale",
+                  "politiques de cohésion nationale et de lutte contre la pauvreté",
+                  "Attention aux paroles: c’est un chant révolutionnaire, pas un hymne religieux",
+                  "aucun territoire n’est habilité à faire sécession"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Fraternité — association?",
+                "o": [
+                  "sécurité sociale, services publics et solidarité fiscale",
+                  "Ne pas confondre avec les drapeaux bleus à croix blanche (Finlande, Grèce)",
+                  "aucun territoire n’est habilité à faire sécession",
+                  "politiques de cohésion nationale et de lutte contre la pauvreté"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Fraternité — association?",
+                "o": [
+                  "politiques de cohésion nationale et de lutte contre la pauvreté",
+                  "Attention aux paroles: c’est un chant révolutionnaire, pas un hymne religieux",
+                  "fixe les conditions des associations cultuelles",
+                  "aucun territoire n’est habilité à faire sécession"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "EMC-0010",
+        "source": "A.3 Fraternité Sens: solidarité entre citoyens et devoir d’entraide.",
+        "cat": "Enseignement moral et civique",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "EMC-0012",
+        "source": "Illustrations: système de santé universel, assurance chômage, RSA, aide au développement.",
+        "cat": "Enseignement moral et civique",
+        "page": 3
+      }
+    },
+    {
+      "id": "EMC-0015",
+      "cat": "Enseignement moral et civique",
+      "page": 3,
+      "chapter": "A-B. Valeurs et symboles de la République",
+      "topic": "A-B. Valeurs et symboles de la République",
+      "source": "L’État devient neutre et tous les cultes sont traités de manière égale.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "EMC-0015",
+          "chapter": "A-B. Valeurs et symboles de la République",
+          "topic": "A-B. Valeurs et symboles de la République",
+          "source": "L’État devient neutre et tous les cultes sont traités de manière égale.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à L’État?",
+                "o": [
+                  "neutre et tous les cultes sont traités de manière égale",
+                  "responsable devant le Parlement qui peut mettre en jeu sa responsabilité via une motion de censure",
+                  "les couleurs de Paris, le blanc représente la monarchie",
+                  "mutuel (motion de censure, dissolution de l’Assemblée, QPC) et indépendance des magistrats"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à L’État?",
+                "o": [
+                  "reconnus dans le cadre de l’unité de la Nation",
+                  "neutre et tous les cultes sont traités de manière égale",
+                  "garanties à tous les agents publics (droit d’adhérer à un syndicat sans discrimination et de bénéficier de protections pour l’exercice des mandats)",
+                  "une convention du Conseil de l’Europe, tandis que la Charte des droits fondamentaux relève de l’Union européenne"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à L’État?",
+                "o": [
+                  "protégé par le droit de la presse",
+                  "garanties à tous les agents publics (droit d’adhérer à un syndicat sans discrimination et de bénéficier de protections pour l’exercice des mandats)",
+                  "neutre et tous les cultes sont traités de manière égale",
+                  "la plus haute juridiction administrative et conseille le Gouvernement"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à L’État?",
+                "o": [
+                  "une liberté publique fondamentale permettant à un groupe de se réunir pacifiquement et sans armes pour une finalité licite",
+                  "engagée devant l’Assemblée nationale (motion de censure)",
+                  "s’exerce via des questions, des commissions d’enquête et la possibilité de renverser le Gouvernement",
+                  "neutre et tous les cultes sont traités de manière égale"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "EMC-0014",
+        "source": "La loi du 9 décembre 1905 proclame la liberté de conscience et le libre exercice des cultes et pose la séparation des Églises et de l’État: « La République ne reconnaît, ne salarie ni ne subventionne aucun culte ».",
+        "cat": "Enseignement moral et civique",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "EMC-0016",
+        "source": "Compléments: le préambule de la Constitution (1946) réaffirme la laïcité de l’enseignement public.",
+        "cat": "Enseignement moral et civique",
+        "page": 3
+      }
+    },
+    {
+      "id": "EMC-0024",
+      "cat": "Enseignement moral et civique",
+      "page": 4,
+      "chapter": "A-B. Valeurs et symboles de la République",
+      "topic": "A-B. Valeurs et symboles de la République",
+      "source": "Drapeau tricolore — Localisation: adopté définitivement sous la Révolution. Le bleu et le rouge sont les couleurs de Paris, le blanc représente la monarchie.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "EMC-0024",
+          "chapter": "A-B. Valeurs et symboles de la République",
+          "topic": "A-B. Valeurs et symboles de la République",
+          "source": "Drapeau tricolore — localisation: adopté définitivement sous la Révolution. Le bleu et le rouge sont les couleurs de Paris, le blanc représente la monarchie.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Où se situe « Drapeau tricolore »?",
+                "o": [
+                  "Figure allégorique de la République portant le bonnet phrygien. Elle symbolise la liberté et la citoyenneté",
+                  "adopté définitivement sous la Révolution. Le bleu et le rouge sont les couleurs de Paris, le blanc représente la monarchie",
+                  "Hymne national composé par Rouget de Lisle en 1792. Adoptée comme hymne officiel en 1879",
+                  "Gère l’euro et la politique monétaire de la zone euro"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « Drapeau tricolore »?",
+                "o": [
+                  "Hymne national composé par Rouget de Lisle en 1792. Adoptée comme hymne officiel en 1879",
+                  "Figure allégorique de la République portant le bonnet phrygien. Elle symbolise la liberté et la citoyenneté",
+                  "Réunit les chefs d’État ou de gouvernement des États membres, son président et le président de la Commission. Il définit les grandes orientations politiques de l’UE et n’a pas de rôle législatif",
+                  "adopté définitivement sous la Révolution. Le bleu et le rouge sont les couleurs de Paris, le blanc représente la monarchie"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « Drapeau tricolore »?",
+                "o": [
+                  "Figure allégorique de la République portant le bonnet phrygien. Elle symbolise la liberté et la citoyenneté",
+                  "Hymne national composé par Rouget de Lisle en 1792. Adoptée comme hymne officiel en 1879",
+                  "adopté définitivement sous la Révolution. Le bleu et le rouge sont les couleurs de Paris, le blanc représente la monarchie",
+                  "Siège à Luxembourg. Assure le respect du droit de l’Union et interprète les traités. Ses arrêts sont contraignants"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « Drapeau tricolore »?",
+                "o": [
+                  "Siège à Luxembourg. Assure le respect du droit de l’Union et interprète les traités. Ses arrêts sont contraignants",
+                  "adopté définitivement sous la Révolution. Le bleu et le rouge sont les couleurs de Paris, le blanc représente la monarchie",
+                  "Hymne national composé par Rouget de Lisle en 1792. Adoptée comme hymne officiel en 1879",
+                  "Figure allégorique de la République portant le bonnet phrygien. Elle symbolise la liberté et la citoyenneté"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "EMC-0023",
+        "source": "Drapeau tricolore — Localisation: Bleu, blanc, rouge",
+        "cat": "Enseignement moral et civique",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "EMC-0025",
+        "source": "Drapeau tricolore — Caractéristiques: Ne pas confondre avec les drapeaux bleus à croix blanche (Finlande, Grèce).",
+        "cat": "Enseignement moral et civique",
+        "page": 4
+      }
+    },
+    {
+      "id": "EMC-0025",
+      "cat": "Enseignement moral et civique",
+      "page": 4,
+      "chapter": "A-B. Valeurs et symboles de la République",
+      "topic": "A-B. Valeurs et symboles de la République",
+      "source": "Drapeau tricolore — Caractéristiques: Ne pas confondre avec les drapeaux bleus à croix blanche (Finlande, Grèce).",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "option_length_imbalance"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "EMC-0025",
+          "chapter": "A-B. Valeurs et symboles de la République",
+          "topic": "A-B. Valeurs et symboles de la République",
+          "source": "Drapeau tricolore — caractéristiques: Ne pas confondre avec les drapeaux bleus à croix blanche (Finlande, Grèce).",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "option_length_imbalance"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Drapeau tricolore?",
+                "o": [
+                  "Attention aux paroles: c’est un chant révolutionnaire, pas un hymne religieux",
+                  "Différencier Marianne (République) de la Liberté guidant le peuple de Delacroix (1830) qui n’est pas un symbole officiel",
+                  "Ne pas confondre avec les drapeaux bleus à croix blanche (Finlande, Grèce)",
+                  "les politiques d’égalité réelle peuvent créer des dispositifs différenciés (discrimination positive)"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Drapeau tricolore?",
+                "o": [
+                  "Différencier Marianne (République) de la Liberté guidant le peuple de Delacroix (1830) qui n’est pas un symbole officiel",
+                  "Ne pas confondre avec les drapeaux bleus à croix blanche (Finlande, Grèce)",
+                  "les politiques d’égalité réelle peuvent créer des dispositifs différenciés (discrimination positive)",
+                  "Attention aux paroles: c’est un chant révolutionnaire, pas un hymne religieux"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Drapeau tricolore?",
+                "o": [
+                  "Ne pas confondre avec les drapeaux bleus à croix blanche (Finlande, Grèce)",
+                  "la Constitution de 1946 et le préambule de 1958 reconnaissent le droit à la protection de la santé, à la sécurité matérielle, au repos et aux loisirs, à l’instruction, à l’emploi et à la participation à la vie économique",
+                  "Attention aux paroles: c’est un chant révolutionnaire, pas un hymne religieux",
+                  "les politiques d’égalité réelle peuvent créer des dispositifs différenciés (discrimination positive)"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "option_length_imbalance"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Drapeau tricolore?",
+                "o": [
+                  "les politiques d’égalité réelle peuvent créer des dispositifs différenciés (discrimination positive)",
+                  "Attention aux paroles: c’est un chant révolutionnaire, pas un hymne religieux",
+                  "bien qu’inscrite dans la devise, la fraternité est souvent oubliée dans les QCM",
+                  "Ne pas confondre avec les drapeaux bleus à croix blanche (Finlande, Grèce)"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "EMC-0024",
+        "source": "Drapeau tricolore — Localisation: adopté définitivement sous la Révolution. Le bleu et le rouge sont les couleurs de Paris, le blanc représente la monarchie.",
+        "cat": "Enseignement moral et civique",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "EMC-0026",
+        "source": "Marianne — Localisation: Figure allégorique de la République portant le bonnet phrygien. Elle symbolise la liberté et la citoyenneté.",
+        "cat": "Enseignement moral et civique",
+        "page": 4
+      }
+    },
+    {
+      "id": "EMC-0026",
+      "cat": "Enseignement moral et civique",
+      "page": 4,
+      "chapter": "A-B. Valeurs et symboles de la République",
+      "topic": "Valeurs de la République",
+      "source": "Marianne — Localisation: Figure allégorique de la République portant le bonnet phrygien. Elle symbolise la liberté et la citoyenneté.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "EMC-0026",
+          "chapter": "A-B. Valeurs et symboles de la République",
+          "topic": "Valeurs de la République",
+          "source": "Marianne — localisation: Figure allégorique de la République portant le bonnet phrygien. Elle symbolise la liberté et la citoyenneté.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Où se situe « Marianne »?",
+                "o": [
+                  "adopté définitivement sous la Révolution. Le bleu et le rouge sont les couleurs de Paris, le blanc représente la monarchie",
+                  "Hymne national composé par Rouget de Lisle en 1792. Adoptée comme hymne officiel en 1879",
+                  "Organes consultatifs représentant respectivement les collectivités territoriales et les partenaires sociaux",
+                  "Figure allégorique de la République portant le bonnet phrygien. Elle symbolise la liberté et la citoyenneté"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « Marianne »?",
+                "o": [
+                  "Siège à Luxembourg. Assure le respect du droit de l’Union et interprète les traités. Ses arrêts sont contraignants",
+                  "adopté définitivement sous la Révolution. Le bleu et le rouge sont les couleurs de Paris, le blanc représente la monarchie",
+                  "Hymne national composé par Rouget de Lisle en 1792. Adoptée comme hymne officiel en 1879",
+                  "Figure allégorique de la République portant le bonnet phrygien. Elle symbolise la liberté et la citoyenneté"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « Marianne »?",
+                "o": [
+                  "Hymne national composé par Rouget de Lisle en 1792. Adoptée comme hymne officiel en 1879",
+                  "Animal emblématique depuis l’Antiquité (jeu de mots gallus/gallus). Utilisé comme symbole de vigilance et d’orgueil national, notamment en sport",
+                  "adopté définitivement sous la Révolution. Le bleu et le rouge sont les couleurs de Paris, le blanc représente la monarchie",
+                  "Figure allégorique de la République portant le bonnet phrygien. Elle symbolise la liberté et la citoyenneté"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « Marianne »?",
+                "o": [
+                  "Hymne national composé par Rouget de Lisle en 1792. Adoptée comme hymne officiel en 1879",
+                  "Figure allégorique de la République portant le bonnet phrygien. Elle symbolise la liberté et la citoyenneté",
+                  "Gère l’euro et la politique monétaire de la zone euro",
+                  "adopté définitivement sous la Révolution. Le bleu et le rouge sont les couleurs de Paris, le blanc représente la monarchie"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "EMC-0025",
+        "source": "Drapeau tricolore — Caractéristiques: Ne pas confondre avec les drapeaux bleus à croix blanche (Finlande, Grèce).",
+        "cat": "Enseignement moral et civique",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "EMC-0027",
+        "source": "Marianne — Caractéristiques: Différencier Marianne (République) de la Liberté guidant le peuple de Delacroix (1830) qui n’est pas un symbole officiel.",
+        "cat": "Enseignement moral et civique",
+        "page": 4
+      }
+    },
+    {
+      "id": "EMC-0028",
+      "cat": "Enseignement moral et civique",
+      "page": 4,
+      "chapter": "A-B. Valeurs et symboles de la République",
+      "topic": "A-B. Valeurs et symboles de la République",
+      "source": "Marseillaise — Localisation: Hymne national composé par Rouget de Lisle en 1792. Adoptée comme hymne officiel en 1879.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "EMC-0028",
+          "chapter": "A-B. Valeurs et symboles de la République",
+          "topic": "A-B. Valeurs et symboles de la République",
+          "source": "Marseillaise — localisation: Hymne national composé par Rouget de Lisle en 1792. Adoptée comme hymne officiel en 1879.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Où se situe « Marseillaise »?",
+                "o": [
+                  "Gère l’euro et la politique monétaire de la zone euro",
+                  "Figure allégorique de la République portant le bonnet phrygien. Elle symbolise la liberté et la citoyenneté",
+                  "adopté définitivement sous la Révolution. Le bleu et le rouge sont les couleurs de Paris, le blanc représente la monarchie",
+                  "Hymne national composé par Rouget de Lisle en 1792. Adoptée comme hymne officiel en 1879"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « Marseillaise »?",
+                "o": [
+                  "adopté définitivement sous la Révolution. Le bleu et le rouge sont les couleurs de Paris, le blanc représente la monarchie",
+                  "Hymne national composé par Rouget de Lisle en 1792. Adoptée comme hymne officiel en 1879",
+                  "Gère l’euro et la politique monétaire de la zone euro",
+                  "Figure allégorique de la République portant le bonnet phrygien. Elle symbolise la liberté et la citoyenneté"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « Marseillaise »?",
+                "o": [
+                  "Figure allégorique de la République portant le bonnet phrygien. Elle symbolise la liberté et la citoyenneté",
+                  "adopté définitivement sous la Révolution. Le bleu et le rouge sont les couleurs de Paris, le blanc représente la monarchie",
+                  "Hymne national composé par Rouget de Lisle en 1792. Adoptée comme hymne officiel en 1879",
+                  "Gère l’euro et la politique monétaire de la zone euro"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « Marseillaise »?",
+                "o": [
+                  "Figure allégorique de la République portant le bonnet phrygien. Elle symbolise la liberté et la citoyenneté",
+                  "Organe exécutif de l’UE composé de 27 commissaires (un par État membre). Elle propose les textes législatifs, veille à leur application, met en œuvre les politiques et gère le budget. Elle négocie des accords internationaux et représente l’UE dans les organisations internationales",
+                  "adopté définitivement sous la Révolution. Le bleu et le rouge sont les couleurs de Paris, le blanc représente la monarchie",
+                  "Hymne national composé par Rouget de Lisle en 1792. Adoptée comme hymne officiel en 1879"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "EMC-0027",
+        "source": "Marianne — Caractéristiques: Différencier Marianne (République) de la Liberté guidant le peuple de Delacroix (1830) qui n’est pas un symbole officiel.",
+        "cat": "Enseignement moral et civique",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "EMC-0029",
+        "source": "Marseillaise — Caractéristiques: Attention aux paroles: c’est un chant révolutionnaire, pas un hymne religieux.",
+        "cat": "Enseignement moral et civique",
+        "page": 4
+      }
+    },
+    {
+      "id": "EMC-0030",
+      "cat": "Enseignement moral et civique",
+      "page": 4,
+      "chapter": "A-B. Valeurs et symboles de la République",
+      "topic": "A-B. Valeurs et symboles de la République",
+      "source": "Les langues régionales et les particularismes sont reconnus dans le cadre de l’unité de la Nation.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "EMC-0030",
+          "chapter": "A-B. Valeurs et symboles de la République",
+          "topic": "A-B. Valeurs et symboles de la République",
+          "source": "Les langues régionales et les particularismes sont reconnus dans le cadre de l’unité de la Nation.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Les langues régionales et les particularismes?",
+                "o": [
+                  "garanties à tous les agents publics (droit d’adhérer à un syndicat sans discrimination et de bénéficier de protections pour l’exercice des mandats)",
+                  "les couleurs de Paris, le blanc représente la monarchie",
+                  "reconnus dans le cadre de l’unité de la Nation",
+                  "engagée devant l’Assemblée nationale (motion de censure)"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Les langues régionales et les particularismes?",
+                "o": [
+                  "les couleurs de Paris, le blanc représente la monarchie",
+                  "de constitutionnalité des lois, vérification de la régularité des élections nationales et référendums, contrôle des incompatibilités des parlementaires",
+                  "la plus haute juridiction administrative et conseille le Gouvernement",
+                  "reconnus dans le cadre de l’unité de la Nation"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Les langues régionales et les particularismes?",
+                "o": [
+                  "engagée devant l’Assemblée nationale (motion de censure)",
+                  "les collectivités territoriales et a un rôle modérateur",
+                  "reconnus dans le cadre de l’unité de la Nation",
+                  "neutre et tous les cultes sont traités de manière égale"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Les langues régionales et les particularismes?",
+                "o": [
+                  "notamment les libertés de conscience, de culte, de presse, de réunion, d’association, de circulation et d’entreprendre",
+                  "reconnus dans le cadre de l’unité de la Nation",
+                  "les collectivités territoriales et a un rôle modérateur",
+                  "la plus haute juridiction administrative et conseille le Gouvernement"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "EMC-0029",
+        "source": "Marseillaise — Caractéristiques: Attention aux paroles: c’est un chant révolutionnaire, pas un hymne religieux.",
+        "cat": "Enseignement moral et civique",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "EMC-0031",
+        "source": "A.6 Démocratie et République sociale Démocratie: régime fondé sur la souveraineté du peuple qui s’exerce par des représentants élus et par le référendum.",
+        "cat": "Enseignement moral et civique",
+        "page": 4
       }
     }
   ]
