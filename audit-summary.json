@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-10T13:16:17.653Z",
+  "generatedAt": "2026-09-10T13:20:54.662Z",
   "rawFragments": 2349,
   "sourceFacts": 2203,
-  "enrichedFacts": 2500,
+  "enrichedFacts": 2479,
   "auditedSourceFacts": 2203,
   "categories": [
     "Histoire",
@@ -71,12 +71,12 @@
     },
     "Raisonnement logique": {
       "facts": 162,
-      "pass": 104,
+      "pass": 114,
       "noQuestion": 0,
-      "flagged": 57,
+      "flagged": 4,
       "sourceRejected": 0,
-      "resolvedNonAtomic": 1,
-      "remaining": 57
+      "resolvedNonAtomic": 44,
+      "remaining": 4
     },
     "Culture générale": {
       "facts": 613,
@@ -89,19 +89,19 @@
     }
   },
   "issueCounts": {
-    "correct_length_gives_clue": 33,
+    "correct_length_gives_clue": 34,
     "mixed_semantic_types": 143,
-    "no_question": 29,
-    "answer_too_broad": 53,
+    "no_question": 27,
+    "answer_too_broad": 2,
     "answer_not_literal_in_source": 2,
-    "option_length_imbalance": 7
+    "option_length_imbalance": 1
   },
-  "fullyCompliant": 1907,
-  "resolvedNonAtomic": 56,
-  "resolvedTotal": 1963,
-  "remaining": 240,
-  "flagged": 240,
+  "fullyCompliant": 1917,
+  "resolvedNonAtomic": 99,
+  "resolvedTotal": 2016,
+  "remaining": 187,
+  "flagged": 187,
   "noQuestion": 2,
-  "withQuestion": 2145,
+  "withQuestion": 2102,
   "sourceRejected": 0
 }
