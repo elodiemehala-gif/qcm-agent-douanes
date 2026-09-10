@@ -1,9 +1,9 @@
 {
   "summary": {
-    "generatedAt": "2026-09-10T08:15:00.144Z",
+    "generatedAt": "2026-09-10T08:18:02.028Z",
     "rawFragments": 2349,
     "sourceFacts": 2203,
-    "enrichedFacts": 2244,
+    "enrichedFacts": 2247,
     "auditedSourceFacts": 2203,
     "categories": [
       "Histoire",
@@ -18,21 +18,21 @@
     "byCat": {
       "Histoire": {
         "facts": 463,
-        "pass": 398,
-        "noQuestion": 14,
-        "flagged": 62,
+        "pass": 412,
+        "noQuestion": 0,
+        "flagged": 46,
         "sourceRejected": 0,
-        "resolvedNonAtomic": 3,
-        "remaining": 62
+        "resolvedNonAtomic": 5,
+        "remaining": 46
       },
       "Géographie": {
         "facts": 393,
-        "pass": 315,
+        "pass": 317,
         "noQuestion": 24,
-        "flagged": 78,
+        "flagged": 76,
         "sourceRejected": 0,
         "resolvedNonAtomic": 0,
-        "remaining": 78
+        "remaining": 76
       },
       "Enseignement moral et civique": {
         "facts": 233,
@@ -45,21 +45,21 @@
       },
       "Actualité": {
         "facts": 119,
-        "pass": 78,
+        "pass": 81,
         "noQuestion": 29,
-        "flagged": 41,
+        "flagged": 38,
         "sourceRejected": 0,
         "resolvedNonAtomic": 0,
-        "remaining": 41
+        "remaining": 38
       },
       "Organisation et missions": {
         "facts": 95,
-        "pass": 49,
-        "noQuestion": 22,
-        "flagged": 46,
+        "pass": 50,
+        "noQuestion": 21,
+        "flagged": 45,
         "sourceRejected": 0,
         "resolvedNonAtomic": 0,
-        "remaining": 46
+        "remaining": 45
       },
       "Mathématiques": {
         "facts": 125,
@@ -90,947 +90,23 @@
       }
     },
     "issueCounts": {
-      "no_question": 257,
-      "answer_too_broad": 119,
-      "mixed_semantic_types": 205,
+      "answer_too_broad": 120,
+      "mixed_semantic_types": 199,
       "correct_length_gives_clue": 24,
+      "no_question": 239,
       "option_length_imbalance": 16,
       "answer_not_literal_in_source": 2
     },
-    "fullyCompliant": 1625,
-    "resolvedNonAtomic": 10,
-    "resolvedTotal": 1635,
-    "remaining": 568,
-    "flagged": 568,
-    "noQuestion": 223,
-    "withQuestion": 1970,
+    "fullyCompliant": 1645,
+    "resolvedNonAtomic": 12,
+    "resolvedTotal": 1657,
+    "remaining": 546,
+    "flagged": 546,
+    "noQuestion": 208,
+    "withQuestion": 1983,
     "sourceRejected": 0
   },
   "rows": [
-    {
-      "id": "HIS-0015",
-      "cat": "Histoire",
-      "page": 3,
-      "chapter": "I. Fondements de la civilisation",
-      "topic": "Mésopotamie",
-      "source": "Mésopotamie: située entre le Tigre et l’Euphrate (actuel Irak).",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0015",
-          "chapter": "I. Fondements de la civilisation",
-          "topic": "Mésopotamie",
-          "source": "Mésopotamie — localisation: entre le Tigre et l’Euphrate (actuel Irak)",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0014",
-        "source": "Les dates de -10 000 (Néolithique), -3 000 (écriture) et -3,3 millions (Australopithèques) reviennent souvent dans les QCM.",
-        "cat": "Histoire",
-        "page": 3
-      },
-      "nextSource": {
-        "id": "HIS-0016",
-        "source": "Les Sumériens fondent des cités-États (Ur, Uruk) et inventent la première écriture cunéiforme vers -3 300.",
-        "cat": "Histoire",
-        "page": 3
-      }
-    },
-    {
-      "id": "HIS-0243",
-      "cat": "Histoire",
-      "page": 13,
-      "chapter": "VI. France contemporaine",
-      "topic": "VI. France contemporaine",
-      "source": "Détente dans les années 1970; Gorbatchev lance la perestroïka et la glasnost.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0243",
-          "chapter": "VI. France contemporaine",
-          "topic": "VI. France contemporaine",
-          "source": "Détente dans les années 1970; Gorbatchev lance la perestroïka et la glasnost.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0242",
-        "source": "Course à l’espace: Spoutnik (URSS, 1957) puis Apollo 11 (États‐Unis, 1969).",
-        "cat": "Histoire",
-        "page": 13
-      },
-      "nextSource": {
-        "id": "HIS-0244",
-        "source": "Chute du mur de Berlin (9 novembre 1989) et disparition de l’URSS (1991).",
-        "cat": "Histoire",
-        "page": 13
-      }
-    },
-    {
-      "id": "HIS-0273",
-      "cat": "Histoire",
-      "page": 14,
-      "chapter": "VI. France contemporaine",
-      "topic": "VI. France contemporaine",
-      "source": "La dissolution relève de l’article 12.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0273",
-          "chapter": "VI. France contemporaine",
-          "topic": "VI. France contemporaine",
-          "source": "La dissolution relève de l’article 12.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0272",
-        "source": "Penser que l’Article 49‐3 permet de dissoudre l’Assemblée; il engage la responsabilité du gouvernement.",
-        "cat": "Histoire",
-        "page": 14
-      },
-      "nextSource": {
-        "id": "HIS-0274",
-        "source": "Le Conseil constitutionnel n’est pas une chambre du Parlement; il contrôle la constitutionnalité des lois.",
-        "cat": "Histoire",
-        "page": 14
-      }
-    },
-    {
-      "id": "HIS-0288",
-      "cat": "Histoire",
-      "page": 14,
-      "chapter": "VI. France contemporaine",
-      "topic": "VI. France contemporaine",
-      "source": "Vote la loi, contrôle le gouvernement.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0288",
-          "chapter": "VI. France contemporaine",
-          "topic": "VI. France contemporaine",
-          "source": "Vote la loi, contrôle le gouvernement.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0287",
-        "source": "Parlement: bicaméral (Assemblée nationale et Sénat).",
-        "cat": "Histoire",
-        "page": 14
-      },
-      "nextSource": {
-        "id": "HIS-0289",
-        "source": "Conseil constitutionnel: contrôle la conformité des lois à la Constitution.",
-        "cat": "Histoire",
-        "page": 14
-      }
-    },
-    {
-      "id": "HIS-0301",
-      "cat": "Histoire",
-      "page": 15,
-      "chapter": "VII. Présidents et hommes d’État",
-      "topic": "Révolution française",
-      "source": "Le drapeau tricolore ne date pas de 1789 mais de 1794 dans sa forme actuelle.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0301",
-          "chapter": "VII. Présidents et hommes d’État",
-          "topic": "Révolution française",
-          "source": "Le drapeau tricolore ne date pas de 1789 mais de 1794 dans sa forme actuelle.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0300",
-        "source": "Penser que le coq est un symbole officiel; il est symbolique mais pas constitutionnel.",
-        "cat": "Histoire",
-        "page": 15
-      },
-      "nextSource": {
-        "id": "HIS-0302",
-        "source": "La Marseillaise est adoptée comme hymne en 1795, interdite sous certains régimes, et rétablie ensuite.",
-        "cat": "Histoire",
-        "page": 15
-      }
-    },
-    {
-      "id": "HIS-0305",
-      "cat": "Histoire",
-      "page": 15,
-      "chapter": "VII. Présidents et hommes d’État",
-      "topic": "VII. Présidents et hommes d’État",
-      "source": "La loi de 1905 n’est pas la même que celle de 1901 (associations).",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0305",
-          "chapter": "VII. Présidents et hommes d’État",
-          "topic": "VII. Présidents et hommes d’État",
-          "source": "La loi de 1905 n’est pas la même que celle de 1901 (associations).",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0304",
-        "source": "Confondre abolition de l’esclavage (1848) et abolition de la peine de mort (1981).",
-        "cat": "Histoire",
-        "page": 15
-      },
-      "nextSource": {
-        "id": "HIS-0306",
-        "source": "Président — Information 3: Actions et faits marquants",
-        "cat": "Histoire",
-        "page": 16
-      }
-    },
-    {
-      "id": "HIS-0374",
-      "cat": "Histoire",
-      "page": 18,
-      "chapter": "VIII. Révolutions, indépendances et monde contemporain",
-      "topic": "VIII. Révolutions, indépendances et monde contemporain",
-      "source": "sous la conduite de Lénine.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0374",
-          "chapter": "VIII. Révolutions, indépendances et monde contemporain",
-          "topic": "VIII. Révolutions, indépendances et monde contemporain",
-          "source": "sous la conduite de Lénine.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0373",
-        "source": "La guerre d’indépendance s’achève avec le traité de Paris en 1783.",
-        "cat": "Histoire",
-        "page": 18
-      },
-      "nextSource": {
-        "id": "HIS-0375",
-        "source": "URSS: création de l’Union des républiques socialistes soviétiques en 1922.",
-        "cat": "Histoire",
-        "page": 18
-      }
-    },
-    {
-      "id": "HIS-0401",
-      "cat": "Histoire",
-      "page": 19,
-      "chapter": "IX. Culture, arts et littérature",
-      "topic": "IX. Culture, arts et littérature",
-      "source": "du World Trade Center et le Pentagone; 2 977 morts.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0401",
-          "chapter": "IX. Culture, arts et littérature",
-          "topic": "IX. Culture, arts et littérature",
-          "source": "du World Trade Center et le Pentagone; 2 977 morts.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0400",
-        "source": "Les Misérables — Particularités: personnage de Jean Valjean.",
-        "cat": "Histoire",
-        "page": 19
-      },
-      "nextSource": {
-        "id": "HIS-0402",
-        "source": "Les attentats les plus meurtriers de l’histoire provoquent une vague d’émotion et des mesures de sécurité renforcées.",
-        "cat": "Histoire",
-        "page": 19
-      }
-    },
-    {
-      "id": "HIS-0402",
-      "cat": "Histoire",
-      "page": 19,
-      "chapter": "IX. Culture, arts et littérature",
-      "topic": "IX. Culture, arts et littérature",
-      "source": "Les attentats les plus meurtriers de l’histoire provoquent une vague d’émotion et des mesures de sécurité renforcées.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0402",
-          "chapter": "IX. Culture, arts et littérature",
-          "topic": "IX. Culture, arts et littérature",
-          "source": "Les attentats les plus meurtriers de l’histoire provoquent une vague d’émotion et des mesures de sécurité renforcées.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0401",
-        "source": "du World Trade Center et le Pentagone; 2 977 morts.",
-        "cat": "Histoire",
-        "page": 19
-      },
-      "nextSource": {
-        "id": "HIS-0403",
-        "source": "Les États‐Unis lancent la « guerre contre le terrorisme » et interviennent en Afghanistan en octobre 2001.",
-        "cat": "Histoire",
-        "page": 19
-      }
-    },
-    {
-      "id": "HIS-0403",
-      "cat": "Histoire",
-      "page": 19,
-      "chapter": "IX. Culture, arts et littérature",
-      "topic": "IX. Culture, arts et littérature",
-      "source": "Les États‐Unis lancent la « guerre contre le terrorisme » et interviennent en Afghanistan en octobre 2001.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0403",
-          "chapter": "IX. Culture, arts et littérature",
-          "topic": "IX. Culture, arts et littérature",
-          "source": "Les États‐Unis lancent la « guerre contre le terrorisme » et interviennent en Afghanistan en octobre 2001.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0402",
-        "source": "Les attentats les plus meurtriers de l’histoire provoquent une vague d’émotion et des mesures de sécurité renforcées.",
-        "cat": "Histoire",
-        "page": 19
-      },
-      "nextSource": {
-        "id": "HIS-0404",
-        "source": "Crise financière mondiale de 2007‐2008: la crise des subprimes démarre aux États-Unis en juillet",
-        "cat": "Histoire",
-        "page": 19
-      }
-    },
-    {
-      "id": "HIS-0405",
-      "cat": "Histoire",
-      "page": 19,
-      "chapter": "IX. Culture, arts et littérature",
-      "topic": "IX. Culture, arts et littérature",
-      "source": "de l’automne 2008.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0405",
-          "chapter": "IX. Culture, arts et littérature",
-          "topic": "IX. Culture, arts et littérature",
-          "source": "de l’automne 2008.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0404",
-        "source": "Crise financière mondiale de 2007‐2008: la crise des subprimes démarre aux États-Unis en juillet",
-        "cat": "Histoire",
-        "page": 19
-      },
-      "nextSource": {
-        "id": "HIS-0406",
-        "source": "Le krach se diffuse dans le monde en raison de la titrisation et de la défiance interbancaire, entraînant la pire récession depuis 1929.",
-        "cat": "Histoire",
-        "page": 19
-      }
-    },
-    {
-      "id": "HIS-0406",
-      "cat": "Histoire",
-      "page": 19,
-      "chapter": "IX. Culture, arts et littérature",
-      "topic": "IX. Culture, arts et littérature",
-      "source": "Le krach se diffuse dans le monde en raison de la titrisation et de la défiance interbancaire, entraînant la pire récession depuis 1929.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0406",
-          "chapter": "IX. Culture, arts et littérature",
-          "topic": "IX. Culture, arts et littérature",
-          "source": "Le krach se diffuse dans le monde en raison de la titrisation et de la défiance interbancaire, entraînant la pire récession depuis 1929.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0405",
-        "source": "de l’automne 2008.",
-        "cat": "Histoire",
-        "page": 19
-      },
-      "nextSource": {
-        "id": "HIS-0407",
-        "source": "Annexion de la Crimée (2014): la Russie annexe la péninsule ukrainienne de Crimée après un référendum controversé.",
-        "cat": "Histoire",
-        "page": 19
-      }
-    },
-    {
-      "id": "HIS-0408",
-      "cat": "Histoire",
-      "page": 19,
-      "chapter": "IX. Culture, arts et littérature",
-      "topic": "IX. Culture, arts et littérature",
-      "source": "L’ONU condamne cette annexion; les tensions persistent dans l’est de l’Ukraine.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0408",
-          "chapter": "IX. Culture, arts et littérature",
-          "topic": "IX. Culture, arts et littérature",
-          "source": "L’ONU condamne cette annexion; les tensions persistent dans l’est de l’Ukraine.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0407",
-        "source": "Annexion de la Crimée (2014): la Russie annexe la péninsule ukrainienne de Crimée après un référendum controversé.",
-        "cat": "Histoire",
-        "page": 19
-      },
-      "nextSource": {
-        "id": "HIS-0409",
-        "source": "Covid‐19 (2020): pandémie causée par le coronavirus SARS‐CoV‐2",
-        "cat": "Histoire",
-        "page": 19
-      }
-    },
-    {
-      "id": "HIS-0413",
-      "cat": "Histoire",
-      "page": 19,
-      "chapter": "VIII. Révolutions, indépendances et monde contemporain",
-      "topic": "Monde contemporain",
-      "source": "Les attaques du 11 septembre ont lieu aux États-Unis, pas en Europe.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0413",
-          "chapter": "VIII. Révolutions, indépendances et monde contemporain",
-          "topic": "Monde contemporain",
-          "source": "Les attaques du 11 septembre ont lieu aux États-Unis, pas en Europe.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0412",
-        "source": "Penser que la Crimée a été annexée en 2016; l’annexion a lieu en 2014.",
-        "cat": "Histoire",
-        "page": 19
-      },
-      "nextSource": {
-        "id": "HIS-0414",
-        "source": "Victor Hugo (1802‐1885): romancier romantique",
-        "cat": "Histoire",
-        "page": 19
-      }
-    },
     {
       "id": "GEO-0033",
       "cat": "Géographie",
@@ -8091,72 +7167,6 @@
         "source": "Recouvrement amiable ou spontané: le contribuable paie dans les délais.",
         "cat": "Organisation et missions",
         "page": 6
-      }
-    },
-    {
-      "id": "ORG-0070",
-      "cat": "Organisation et missions",
-      "page": 7,
-      "chapter": "10-11. Comptabilité publique et facturation électronique",
-      "topic": "10-11. Comptabilité publique et facturation électronique",
-      "source": "1er septembre 2026 — Obligation: Toutes les entreprises assujetties concernées doivent pouvoir recevoir des factures électroniques. Les grandes entreprises et les ETI doivent également émettre leurs factures électroniquement et transmettre les données prévues.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0070",
-          "chapter": "10-11. Comptabilité publique et facturation électronique",
-          "topic": "10-11. Comptabilité publique et facturation électronique",
-          "source": "1er septembre 2026 — obligation: Toutes les entreprises assujetties concernées doivent pouvoir recevoir des factures électroniques. Les grandes entreprises et les ETI doivent également émettre leurs factures électroniquement et transmettre les données prévues.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0069",
-        "source": "Comptable public — Rôle simplifié: Manie les fonds publics, contrôle les éléments relevant de sa responsabilité et réalise matériellement l’encaissement ou le paiement.",
-        "cat": "Organisation et missions",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "ORG-0071",
-        "source": "1er septembre 2027 — Obligation: Les PME et micro-entreprises doivent à leur tour émettre électroniquement leurs factures et transmettre les données prévues.",
-        "cat": "Organisation et missions",
-        "page": 7
       }
     },
     {
@@ -17464,6 +16474,1469 @@
         "source": "Ordonnateur — Rôle simplifié: Décide et ordonne l’opération: il engage une dépense, constate/liquide la créance ou donne l’ordre de payer/recouvrer selon les procédures.",
         "cat": "Organisation et missions",
         "page": 7
+      }
+    },
+    {
+      "id": "ORG-0078",
+      "cat": "Organisation et missions",
+      "page": 7,
+      "chapter": "10-11. Comptabilité publique et facturation électronique",
+      "topic": "Facturation électronique",
+      "source": "La réforme de la facturation électronique entre entreprises est un thème explicitement utilisé dans le sujet test",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "ORG-0078",
+          "chapter": "10-11. Comptabilité publique et facturation électronique",
+          "topic": "Facturation électronique",
+          "source": "La réforme de la facturation électronique entre entreprises est un thème explicitement utilisé dans le sujet test",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La réforme de la facturation électronique entre entreprises?",
+                "o": [
+                  "l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt",
+                  "vérifie et rectifie; le recouvrement encaisse",
+                  "un thème explicitement utilisé dans le sujet test",
+                  "de savoir associer chaque sigle à sa mission principale"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La réforme de la facturation électronique entre entreprises?",
+                "o": [
+                  "un thème explicitement utilisé dans le sujet test",
+                  "le service de renseignement financier de Bercy",
+                  "des personnes aux frontières dans le cadre de ses compétences",
+                  "de cohérence de la situation d’un particulier au regard de ses revenus déclarés"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La réforme de la facturation électronique entre entreprises?",
+                "o": [
+                  "un thème explicitement utilisé dans le sujet test",
+                  "les intérêts patrimoniaux de l’État actionnaire dans les entreprises",
+                  "la régulation et le contrôle des flux de marchandises",
+                  "un droit de douane appliqué aux marchandises importées"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "ORG-0077",
+        "source": "Ne pas inverser la réquisition: c’est l’ordonnateur qui peut réquisitionner le comptable.",
+        "cat": "Organisation et missions",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "ORG-0079",
+        "source": "Objectifs: simplifier les échanges, améliorer la connaissance de l’activité économique, faciliter les obligations déclaratives et renforcer la lutte contre la fraude à la TVA.",
+        "cat": "Organisation et missions",
+        "page": 7
+      }
+    },
+    {
+      "id": "ORG-0096",
+      "cat": "Organisation et missions",
+      "page": 8,
+      "chapter": "10-11. Comptabilité publique et facturation électronique",
+      "topic": "Tracfin et fraude",
+      "source": "Tracfin est le service de renseignement financier de Bercy.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "ORG-0096",
+          "chapter": "10-11. Comptabilité publique et facturation électronique",
+          "topic": "Tracfin et fraude",
+          "source": "Tracfin est le service de renseignement financier de Bercy.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Tracfin?",
+                "o": [
+                  "vérifie et rectifie; le recouvrement encaisse",
+                  "le service de renseignement financier de Bercy",
+                  "pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu",
+                  "l’une des principales directions de Bercy"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Tracfin?",
+                "o": [
+                  "imposable; liquidation = calculer le montant; recouvrement = encaisser",
+                  "un thème explicitement utilisé dans le sujet test",
+                  "le service de renseignement financier de Bercy",
+                  "les intérêts patrimoniaux de l’État actionnaire dans les entreprises"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Tracfin?",
+                "o": [
+                  "le service de renseignement financier de Bercy",
+                  "celui des frontières, des marchandises, des échanges et des droits indirects",
+                  "pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu",
+                  "aussi l’économie, le budget, la douane, la concurrence, les entreprises, la statistique publique, la dette de l’État et le renseignement financier"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "ORG-0095",
+        "source": "Elle se distingue de l’optimisation fiscale licite, qui utilise les règles prévues par la loi.",
+        "cat": "Organisation et missions",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "ORG-0097",
+        "source": "Tracfin n’est pas un service auquel les particuliers adressent directement leurs signalements ordinaires.",
+        "cat": "Organisation et missions",
+        "page": 8
+      }
+    },
+    {
+      "id": "MAT-0003",
+      "cat": "Mathématiques",
+      "page": 2,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "A.0 Systèmes de numération: décimal et binaire Définition: Le système décimal est en base 10 (chiffres 0 à 9).",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "no_question",
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "MAT-0003",
+          "chapter": "A. Nombres et arithmétique",
+          "topic": "A. Nombres et arithmétique",
+          "source": "Systèmes de numération: décimal et binaire — définition: Le système décimal est en base 10 (chiffres 0 à 9).",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "no_question",
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Systèmes de numération?",
+                "o": [
+                  "décimal et binaire — définition: Le système décimal est en base 10 (chiffres 0 à 9)",
+                  "il peut recevoir un coupon et le remboursement du nominal à l’échéance",
+                  "PPCM = 420 Pièges QCM Confondre PGCD et PPCM",
+                  "(-3)² = 9 mais -3² = -9"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Systèmes de numération?",
+                "o": [
+                  "Un entier a est divisible par b s’il existe un entier k tel que a = bk",
+                  "60 = 2²×3×5 → PGCD = 12",
+                  "Un nombre premier supérieur à 1 n’a que deux diviseurs positifs: 1 et lui-même",
+                  "décimal et binaire — définition: Le système décimal est en base 10 (chiffres 0 à 9)"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "MAT-0001",
+        "source": "Diviseur — Obligation: Critère rapide",
+        "cat": "Mathématiques",
+        "page": 2
+      },
+      "nextSource": {
+        "id": "MAT-0004",
+        "source": "Le système binaire est en base 2 (chiffres 0 et 1).",
+        "cat": "Mathématiques",
+        "page": 2
+      }
+    },
+    {
+      "id": "MAT-0010",
+      "cat": "Mathématiques",
+      "page": 2,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "A.1 Entiers et priorités opératoires Définition: Un entier peut être naturel (0, 1, 2,...) ou relatif (..., -2, -1, 0, 1, 2,...).",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "MAT-0010",
+          "chapter": "A. Nombres et arithmétique",
+          "topic": "A. Nombres et arithmétique",
+          "source": "Entiers et priorités opératoires — définition: Un entier peut être naturel (0, 1, 2,...) ou relatif (..., -2, -1, 0, 1, 2,...).",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Entiers et priorités opératoires — définition?",
+                "o": [
+                  "Chaque part = total / nombre de parts",
+                  "Titre de dette. L’investisseur prête à un émetteur",
+                  "Un entier peut être naturel (0, 1, 2,...) ou relatif (..., -2, -1, 0, 1, 2,...)",
+                  "Pour revenir à la valeur initiale après une variation, on utilise l’inverse du coefficient multiplicateur"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Entiers et priorités opératoires — définition?",
+                "o": [
+                  "Titre de dette. L’investisseur prête à un émetteur",
+                  "Chaque part = total / nombre de parts",
+                  "Parenthèses → puissances → multiplications/divisions → additions/soustractions",
+                  "Un entier peut être naturel (0, 1, 2,...) ou relatif (..., -2, -1, 0, 1, 2,...)"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Entiers et priorités opératoires — définition?",
+                "o": [
+                  "Parenthèses → puissances → multiplications/divisions → additions/soustractions",
+                  "Un entier peut être naturel (0, 1, 2,...) ou relatif (..., -2, -1, 0, 1, 2,...)",
+                  "Un nombre premier supérieur à 1 n’a que deux diviseurs positifs: 1 et lui-même",
+                  "décimal et binaire — définition: Le système décimal est en base 10 (chiffres 0 à 9)"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "MAT-0009",
+        "source": "Le chiffre le plus à droite correspond toujours à 2 0 = 1.",
+        "cat": "Mathématiques",
+        "page": 2
+      },
+      "nextSource": {
+        "id": "MAT-0011",
+        "source": "Priorités: Parenthèses → puissances → multiplications/divisions → additions/soustractions.",
+        "cat": "Mathématiques",
+        "page": 2
+      }
+    },
+    {
+      "id": "MAT-0062",
+      "cat": "Mathématiques",
+      "page": 5,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "B.1 Calcul littéral, monômes, polynômes et identités remarquables Distributivité: a(b+c) = ab + ac (a+b)² = a² + 2ab + b²",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "no_question",
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "MAT-0062",
+          "chapter": "A. Nombres et arithmétique",
+          "topic": "A. Nombres et arithmétique",
+          "source": "Calcul littéral, monômes, polynômes et identités remarquables Distributivité — formule: a(b+c) = ab + ac (a+b)² = a² + 2ab + b²",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "no_question",
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Calcul littéral, monômes, polynômes et identités remarquables Distributivité — formule?",
+                "o": [
+                  "Un entier a est divisible par b s’il existe un entier k tel que a = bk",
+                  "Titre de dette. L’investisseur prête à un émetteur",
+                  "a(b+c) = ab + ac (a+b)² = a² + 2ab + b²",
+                  "Parenthèses → puissances → multiplications/divisions → additions/soustractions"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Calcul littéral, monômes, polynômes et identités remarquables Distributivité — formule?",
+                "o": [
+                  "60 = 2²×3×5 → PGCD = 12",
+                  "a(b+c) = ab + ac (a+b)² = a² + 2ab + b²",
+                  "Pour revenir à la valeur initiale après une variation, on utilise l’inverse du coefficient multiplicateur",
+                  "Parenthèses → puissances → multiplications/divisions → additions/soustractions"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "MAT-0061",
+        "source": "Toujours harmoniser les unités avant d’utiliser ρ = m/V.",
+        "cat": "Mathématiques",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "MAT-0063",
+        "source": "B.1 Calcul littéral, monômes, polynômes et identités remarquables Distributivité: (a-b)² = a² - 2ab + b² (a-b)(a+b) = a² - b² Monôme: Produit d’un nombre et de puissances de variables, par exemple 3x².",
+        "cat": "Mathématiques",
+        "page": 5
+      }
+    },
+    {
+      "id": "MAT-0137",
+      "cat": "Mathématiques",
+      "page": 9,
+      "chapter": "D. Mouvement et problèmes appliqués",
+      "topic": "D. Mouvement et problèmes appliqués",
+      "source": "Pourcentage — Formule: p % de Q = Q×p/100",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "no_question",
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "MAT-0137",
+          "chapter": "D. Mouvement et problèmes appliqués",
+          "topic": "D. Mouvement et problèmes appliqués",
+          "source": "Pourcentage — formule: p % de Q = Q×p/100",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "no_question",
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Pourcentage — formule?",
+                "o": [
+                  "Valeur finale = valeur initiale × coefficient multiplicateur",
+                  "P(non A) = 1 - P(A) Sans remise: Le nombre de cas possibles change après le premier tirage",
+                  "Part = total × coefficient / somme des coefficients",
+                  "p % de Q = Q×p/100"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "MAT-0136",
+        "source": "E.2 Probabilités élémentaires P(A) = nombre de cas favorables / nombre de cas possibles, si les issues sont équiprobables",
+        "cat": "Mathématiques",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "MAT-0138",
+        "source": "Variation — Formule: Valeur finale = valeur initiale × coefficient multiplicateur",
+        "cat": "Mathématiques",
+        "page": 9
+      }
+    },
+    {
+      "id": "MAT-0138",
+      "cat": "Mathématiques",
+      "page": 9,
+      "chapter": "D. Mouvement et problèmes appliqués",
+      "topic": "D. Mouvement et problèmes appliqués",
+      "source": "Variation — Formule: Valeur finale = valeur initiale × coefficient multiplicateur",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "MAT-0138",
+          "chapter": "D. Mouvement et problèmes appliqués",
+          "topic": "D. Mouvement et problèmes appliqués",
+          "source": "Variation — formule: Valeur finale = valeur initiale × coefficient multiplicateur",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Variation — formule?",
+                "o": [
+                  "P(non A) = 1 - P(A) Sans remise: Le nombre de cas possibles change après le premier tirage",
+                  "Valeur finale = valeur initiale × coefficient multiplicateur",
+                  "p % de Q = Q×p/100",
+                  "Part = total × coefficient / somme des coefficients"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Variation — formule?",
+                "o": [
+                  "Valeur finale = valeur initiale × coefficient multiplicateur",
+                  "P(non A) = 1 - P(A) Sans remise: Le nombre de cas possibles change après le premier tirage",
+                  "p % de Q = Q×p/100",
+                  "Part = total × coefficient / somme des coefficients"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Variation — formule?",
+                "o": [
+                  "p % de Q = Q×p/100",
+                  "Part = total × coefficient / somme des coefficients",
+                  "P(non A) = 1 - P(A) Sans remise: Le nombre de cas possibles change après le premier tirage",
+                  "Valeur finale = valeur initiale × coefficient multiplicateur"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "MAT-0137",
+        "source": "Pourcentage — Formule: p % de Q = Q×p/100",
+        "cat": "Mathématiques",
+        "page": 9
+      },
+      "nextSource": {
+        "id": "MAT-0139",
+        "source": "Intérêt simple — Formule: I = C×t×n",
+        "cat": "Mathématiques",
+        "page": 9
+      }
+    },
+    {
+      "id": "MAT-0142",
+      "cat": "Mathématiques",
+      "page": 9,
+      "chapter": "D. Mouvement et problèmes appliqués",
+      "topic": "D. Mouvement et problèmes appliqués",
+      "source": "Partage proportionnel — Formule: Part = total × coefficient / somme des coefficients",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "no_question",
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "MAT-0142",
+          "chapter": "D. Mouvement et problèmes appliqués",
+          "topic": "D. Mouvement et problèmes appliqués",
+          "source": "Partage proportionnel — formule: Part = total × coefficient / somme des coefficients",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "no_question",
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Partage proportionnel — formule?",
+                "o": [
+                  "P(non A) = 1 - P(A) Sans remise: Le nombre de cas possibles change après le premier tirage",
+                  "Part = total × coefficient / somme des coefficients",
+                  "Valeur finale = valeur initiale × coefficient multiplicateur",
+                  "p % de Q = Q×p/100"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Partage proportionnel — formule?",
+                "o": [
+                  "p % de Q = Q×p/100",
+                  "Valeur finale = valeur initiale × coefficient multiplicateur",
+                  "Part = total × coefficient / somme des coefficients",
+                  "P(non A) = 1 - P(A) Sans remise: Le nombre de cas possibles change après le premier tirage"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Partage proportionnel — formule?",
+                "o": [
+                  "P(non A) = 1 - P(A) Sans remise: Le nombre de cas possibles change après le premier tirage",
+                  "somme égale à 3 → (1,2) ou (2,1) → 2/36 = 1/18 Pièges QCM Avec deux dés, il y a 36 couples ordonnés équiprobables",
+                  "Valeur finale = valeur initiale × coefficient multiplicateur",
+                  "Part = total × coefficient / somme des coefficients"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "MAT-0141",
+        "source": "Masse volumique — Formule: ρ = m/V",
+        "cat": "Mathématiques",
+        "page": 9
+      },
+      "nextSource": {
+        "id": "MAT-0143",
+        "source": "Triangle — Formule: A = bh/2",
+        "cat": "Mathématiques",
+        "page": 9
+      }
+    },
+    {
+      "id": "LOG-0139",
+      "cat": "Raisonnement logique",
+      "page": 13,
+      "chapter": "D. Logique organisationnelle",
+      "topic": "D. Logique organisationnelle",
+      "source": "Astuces — Détails: 1. Utiliser vos mains ou un stylo pour imaginer la rotation de l’objet",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "answer_too_broad",
+        "option_length_imbalance"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "LOG-0139",
+          "chapter": "D. Logique organisationnelle",
+          "topic": "D. Logique organisationnelle",
+          "source": "Astuces — caractéristiques: 1. Utiliser vos mains ou un stylo pour imaginer la rotation de l’objet",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "answer_too_broad",
+            "option_length_imbalance"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Astuces?",
+                "o": [
+                  "Les données sont données en nombres de personnes et non en rangs (« 3 personnes derrière » vs « à la 4e place »), ou la file est circulaire",
+                  "1. Utiliser vos mains ou un stylo pour imaginer la rotation de l’objet",
+                  "3. Étudier les angles visibles pour déterminer la hauteur relative",
+                  "Connaître les calendriers (7 jours/semaine, 365 jours/an sauf année bissextile), convertir les durées en jours/heures/minutes, et utiliser des cycles"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Astuces?",
+                "o": [
+                  "Connaître les calendriers (7 jours/semaine, 365 jours/an sauf année bissextile), convertir les durées en jours/heures/minutes, et utiliser des cycles",
+                  "28 ou 29 jours en février). 2. Pour les jours de la semaine, utiliser l’arithmétique mod 7. 3. Tracer une ligne temporelle pour visualiser les étapes",
+                  "3. Étudier les angles visibles pour déterminer la hauteur relative",
+                  "1. Utiliser vos mains ou un stylo pour imaginer la rotation de l’objet"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Astuces?",
+                "o": [
+                  "3. Étudier les angles visibles pour déterminer la hauteur relative",
+                  "Connaître les calendriers (7 jours/semaine, 365 jours/an sauf année bissextile), convertir les durées en jours/heures/minutes, et utiliser des cycles",
+                  "1. Utiliser vos mains ou un stylo pour imaginer la rotation de l’objet",
+                  "28 ou 29 jours en février). 2. Pour les jours de la semaine, utiliser l’arithmétique mod 7. 3. Tracer une ligne temporelle pour visualiser les étapes"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Astuces?",
+                "o": [
+                  "1. Utiliser vos mains ou un stylo pour imaginer la rotation de l’objet",
+                  "1. Utiliser un dessin schématique (des traits ou des numéros). 2. Déduire la position directement: si le nombre total est un multiple de 3 et que deux personnes sont derrière (19e et 28e), la différence donne la position de l’individu au centre. 3. En cas de positions relatives, placer d’abord les extrêmes",
+                  "Connaître les calendriers (7 jours/semaine, 365 jours/an sauf année bissextile), convertir les durées en jours/heures/minutes, et utiliser des cycles",
+                  "3. Étudier les angles visibles pour déterminer la hauteur relative"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "option_length_imbalance",
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "LOG-0137",
+        "source": "Procédé mental — Détails: se souvenir des relations entre les vues.",
+        "cat": "Raisonnement logique",
+        "page": 12
+      },
+      "nextSource": {
+        "id": "LOG-0140",
+        "source": "Astuces — Détails: 2. Tracer un schéma rapide en perspective pour vérifier",
+        "cat": "Raisonnement logique",
+        "page": 13
+      }
+    },
+    {
+      "id": "LOG-0141",
+      "cat": "Raisonnement logique",
+      "page": 13,
+      "chapter": "D. Logique organisationnelle",
+      "topic": "D. Logique organisationnelle",
+      "source": "Astuces — Détails: 3. Étudier les angles visibles pour déterminer la hauteur relative.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "option_length_imbalance",
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "LOG-0141",
+          "chapter": "D. Logique organisationnelle",
+          "topic": "D. Logique organisationnelle",
+          "source": "Astuces — caractéristiques: 3. Étudier les angles visibles pour déterminer la hauteur relative.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "option_length_imbalance",
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Astuces?",
+                "o": [
+                  "Connaître les calendriers (7 jours/semaine, 365 jours/an sauf année bissextile), convertir les durées en jours/heures/minutes, et utiliser des cycles",
+                  "1. Utiliser un dessin schématique (des traits ou des numéros). 2. Déduire la position directement: si le nombre total est un multiple de 3 et que deux personnes sont derrière (19e et 28e), la différence donne la position de l’individu au centre. 3. En cas de positions relatives, placer d’abord les extrêmes",
+                  "3. Étudier les angles visibles pour déterminer la hauteur relative",
+                  "1. Utiliser vos mains ou un stylo pour imaginer la rotation de l’objet"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "option_length_imbalance",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Astuces?",
+                "o": [
+                  "28 ou 29 jours en février). 2. Pour les jours de la semaine, utiliser l’arithmétique mod 7. 3. Tracer une ligne temporelle pour visualiser les étapes",
+                  "Connaître les calendriers (7 jours/semaine, 365 jours/an sauf année bissextile), convertir les durées en jours/heures/minutes, et utiliser des cycles",
+                  "1. Utiliser vos mains ou un stylo pour imaginer la rotation de l’objet",
+                  "3. Étudier les angles visibles pour déterminer la hauteur relative"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Astuces?",
+                "o": [
+                  "Connaître les calendriers (7 jours/semaine, 365 jours/an sauf année bissextile), convertir les durées en jours/heures/minutes, et utiliser des cycles",
+                  "Énoncés indiquant des jours (« mercredi, 13 juin »), des heures (« 08 h 30 »), des durées à ajouter ou soustraire, des cycles (« tous les 3 jours »)",
+                  "1. Utiliser vos mains ou un stylo pour imaginer la rotation de l’objet",
+                  "3. Étudier les angles visibles pour déterminer la hauteur relative"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Astuces?",
+                "o": [
+                  "1. Utiliser vos mains ou un stylo pour imaginer la rotation de l’objet",
+                  "Connaître les calendriers (7 jours/semaine, 365 jours/an sauf année bissextile), convertir les durées en jours/heures/minutes, et utiliser des cycles",
+                  "3. Étudier les angles visibles pour déterminer la hauteur relative",
+                  "Énoncés indiquant des jours (« mercredi, 13 juin »), des heures (« 08 h 30 »), des durées à ajouter ou soustraire, des cycles (« tous les 3 jours »)"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "LOG-0140",
+        "source": "Astuces — Détails: 2. Tracer un schéma rapide en perspective pour vérifier",
+        "cat": "Raisonnement logique",
+        "page": 13
+      },
+      "nextSource": {
+        "id": "LOG-0143",
+        "source": "Variante piège — Détails: L’objet est creux ou l’un des cubes est absent",
+        "cat": "Raisonnement logique",
+        "page": 13
+      }
+    },
+    {
+      "id": "LOG-0152",
+      "cat": "Raisonnement logique",
+      "page": 14,
+      "chapter": "D. Logique organisationnelle",
+      "topic": "D. Logique organisationnelle",
+      "source": "Astuces — Détails: 1. Utiliser un dessin schématique (des traits ou des numéros). 2. Déduire la position directement: si le nombre total est un multiple de 3 et que deux personnes sont derrière (19e et 28e), la différence donne la position de l’individu au centre. 3. En cas de positions relatives, placer d’abord les extrêmes.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "option_length_imbalance",
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "LOG-0152",
+          "chapter": "D. Logique organisationnelle",
+          "topic": "D. Logique organisationnelle",
+          "source": "Astuces — caractéristiques: 1. Utiliser un dessin schématique (des traits ou des numéros). 2. Déduire la position directement: si le nombre total est un multiple de 3 et que deux personnes sont derrière (19e et 28e), la différence donne la position de l’individu au centre. 3. En cas de positions relatives, placer d’abord les extrêmes.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "option_length_imbalance",
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Astuces?",
+                "o": [
+                  "1. Utiliser un dessin schématique (des traits ou des numéros). 2. Déduire la position directement: si le nombre total est un multiple de 3 et que deux personnes sont derrière (19e et 28e), la différence donne la position de l’individu au centre. 3. En cas de positions relatives, placer d’abord les extrêmes",
+                  "Énoncés indiquant des jours (« mercredi, 13 juin »), des heures (« 08 h 30 »), des durées à ajouter ou soustraire, des cycles (« tous les 3 jours »)",
+                  "3. Étudier les angles visibles pour déterminer la hauteur relative",
+                  "Énoncés de type « X personnes sont dans une file, A est devant B et derrière C », « il y a autant de personnes devant que derrière »"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "option_length_imbalance",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Astuces?",
+                "o": [
+                  "Énoncés de type « X personnes sont dans une file, A est devant B et derrière C », « il y a autant de personnes devant que derrière »",
+                  "1. Utiliser un dessin schématique (des traits ou des numéros). 2. Déduire la position directement: si le nombre total est un multiple de 3 et que deux personnes sont derrière (19e et 28e), la différence donne la position de l’individu au centre. 3. En cas de positions relatives, placer d’abord les extrêmes",
+                  "1. Utiliser vos mains ou un stylo pour imaginer la rotation de l’objet",
+                  "Énoncés indiquant des jours (« mercredi, 13 juin »), des heures (« 08 h 30 »), des durées à ajouter ou soustraire, des cycles (« tous les 3 jours »)"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "option_length_imbalance",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Astuces?",
+                "o": [
+                  "Énoncés indiquant des jours (« mercredi, 13 juin »), des heures (« 08 h 30 »), des durées à ajouter ou soustraire, des cycles (« tous les 3 jours »)",
+                  "1. Utiliser vos mains ou un stylo pour imaginer la rotation de l’objet",
+                  "Énoncés de type « X personnes sont dans une file, A est devant B et derrière C », « il y a autant de personnes devant que derrière »",
+                  "1. Utiliser un dessin schématique (des traits ou des numéros). 2. Déduire la position directement: si le nombre total est un multiple de 3 et que deux personnes sont derrière (19e et 28e), la différence donne la position de l’individu au centre. 3. En cas de positions relatives, placer d’abord les extrêmes"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "option_length_imbalance",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Astuces?",
+                "o": [
+                  "3. Étudier les angles visibles pour déterminer la hauteur relative",
+                  "Énoncés indiquant des jours (« mercredi, 13 juin »), des heures (« 08 h 30 »), des durées à ajouter ou soustraire, des cycles (« tous les 3 jours »)",
+                  "Énoncés de type « X personnes sont dans une file, A est devant B et derrière C », « il y a autant de personnes devant que derrière »",
+                  "1. Utiliser un dessin schématique (des traits ou des numéros). 2. Déduire la position directement: si le nombre total est un multiple de 3 et que deux personnes sont derrière (19e et 28e), la différence donne la position de l’individu au centre. 3. En cas de positions relatives, placer d’abord les extrêmes"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "option_length_imbalance",
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "LOG-0151",
+        "source": "L’objectif est de construire rapidement un schéma ou un tableau et d’en déduire la position ou la chronologie correcte.",
+        "cat": "Raisonnement logique",
+        "page": 13
+      },
+      "nextSource": {
+        "id": "LOG-0154",
+        "source": "Variante piège — Détails: Les données sont données en nombres de personnes et non en rangs (« 3 personnes derrière » vs « à la 4e place »), ou la file est circulaire.",
+        "cat": "Raisonnement logique",
+        "page": 14
+      }
+    },
+    {
+      "id": "CG-0004",
+      "cat": "Culture générale",
+      "page": 2,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Art romain — Repères: Ier s. av. J.-C. - Ve s.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "CG-0004",
+          "chapter": "I. Arts",
+          "topic": "I. Arts",
+          "source": "Art romain — repère: Ier s. av. J.-C. - Ve s.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Art romain — repère?",
+                "o": [
+                  "Ier s. av. J.-C. - Ve s",
+                  "dorique (sobre, chapiteau simple), ionique (volutes) et corinthien (feuilles d’acanthe)",
+                  "René Goscinny et Albert Uderzo - France",
+                  "Culture de masse, publicité, objets quotidiens"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Art romain — repère?",
+                "o": [
+                  "Vie quotidienne, société, refus de l’idéalisation",
+                  "Ier s. av. J.-C. - Ve s",
+                  "Pluralité: installation, performance, vidéo, street art",
+                  "récompenses américaines remises par l’Academy of Motion Picture Arts and Sciences"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Art romain — repère?",
+                "o": [
+                  "Vie quotidienne, société, refus de l’idéalisation",
+                  "Ier s. av. J.-C. - Ve s",
+                  "arc, voûte, coupole, aqueducs, thermes et amphithéâtres",
+                  "Le Serment des Horaces, La Mort de Marat et Le Sacre de Napoléon"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Art romain — repère?",
+                "o": [
+                  "Ier s. av. J.-C. - Ve s",
+                  "Pluralité: installation, performance, vidéo, street art",
+                  "Vie quotidienne, société, refus de l’idéalisation",
+                  "arc, voûte, coupole, aqueducs, thermes et amphithéâtres"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0003",
+        "source": "Antiquité grecque — Noms à connaître: Phidias, Praxitèle",
+        "cat": "Culture générale",
+        "page": 2
+      },
+      "nextSource": {
+        "id": "CG-0005",
+        "source": "Art romain — Caractéristiques: Arcs, voûtes, coupoles, monuments publics",
+        "cat": "Culture générale",
+        "page": 2
+      }
+    },
+    {
+      "id": "CG-0087",
+      "cat": "Culture générale",
+      "page": 3,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Le Colisée est un amphithéâtre de Rome; le Panthéon de Rome est célèbre pour sa coupole.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "CG-0087",
+          "chapter": "I. Arts",
+          "topic": "I. Arts",
+          "source": "Le Colisée est un amphithéâtre de Rome; le Panthéon de Rome est célèbre pour sa coupole.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le Colisée?",
+                "o": [
+                  "un amphithéâtre de Rome; le Panthéon de Rome est célèbre pour sa coupole",
+                  "une figure essentielle — caractéristiques: Le Serment des Horaces, La Mort de Marat et Le Sacre de Napoléon",
+                  "un autre édifice, devenu nécropole nationale",
+                  "à distinguer — caractéristiques: dorique (sobre, chapiteau simple), ionique (volutes) et corinthien (feuilles d’acanthe)"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le Colisée?",
+                "o": [
+                  "un amphithéâtre de Rome; le Panthéon de Rome est célèbre pour sa coupole",
+                  "à distinguer — caractéristiques: dorique (sobre, chapiteau simple), ionique (volutes) et corinthien (feuilles d’acanthe)",
+                  "un autre édifice, devenu nécropole nationale",
+                  "une figure essentielle — caractéristiques: Le Serment des Horaces, La Mort de Marat et Le Sacre de Napoléon"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le Colisée?",
+                "o": [
+                  "à distinguer — caractéristiques: dorique (sobre, chapiteau simple), ionique (volutes) et corinthien (feuilles d’acanthe)",
+                  "un amphithéâtre de Rome; le Panthéon de Rome est célèbre pour sa coupole",
+                  "une figure essentielle — caractéristiques: Le Serment des Horaces, La Mort de Marat et Le Sacre de Napoléon",
+                  "un autre édifice, devenu nécropole nationale"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le Colisée?",
+                "o": [
+                  "un autre édifice, devenu nécropole nationale",
+                  "à distinguer — caractéristiques: dorique (sobre, chapiteau simple), ionique (volutes) et corinthien (feuilles d’acanthe)",
+                  "une figure essentielle — caractéristiques: Le Serment des Horaces, La Mort de Marat et Le Sacre de Napoléon",
+                  "un amphithéâtre de Rome; le Panthéon de Rome est célèbre pour sa coupole"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0086",
+        "source": "L’art romain reprend des modèles grecs mais développe fortement l’ingénierie: arc, voûte, coupole, aqueducs, thermes et amphithéâtres.",
+        "cat": "Culture générale",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "CG-0088",
+        "source": "Panthéon = nom générique de certains temples et monument célèbre à Rome; le Panthéon de Paris est un autre édifice, devenu nécropole nationale.",
+        "cat": "Culture générale",
+        "page": 3
+      }
+    },
+    {
+      "id": "CG-0092",
+      "cat": "Culture générale",
+      "page": 3,
+      "chapter": "I. Arts",
+      "topic": "Arts",
+      "source": "Le Bernin est un grand sculpteur et architecte baroque italien.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "option_length_imbalance"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "CG-0092",
+          "chapter": "I. Arts",
+          "topic": "Arts",
+          "source": "Le Bernin est un grand sculpteur et architecte baroque italien.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "option_length_imbalance"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le Bernin?",
+                "o": [
+                  "associé à la construction du tableau périodique au XIXe siècle",
+                  "une onde électromagnétique et peut se propager dans le vide",
+                  "un grand sculpteur et architecte baroque italien",
+                  "une figure essentielle — caractéristiques: Le Serment des Horaces, La Mort de Marat et Le Sacre de Napoléon"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le Bernin?",
+                "o": [
+                  "pas identiques — caractéristiques: la masse s’exprime en kg",
+                  "à distinguer — caractéristiques: dorique (sobre, chapiteau simple), ionique (volutes) et corinthien (feuilles d’acanthe)",
+                  "associé à la théorie de l’évolution par sélection naturelle",
+                  "un grand sculpteur et architecte baroque italien"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le Bernin?",
+                "o": [
+                  "un noyau formé de protons et de neutrons, autour duquel se trouvent des électrons",
+                  "le rapport entre distance parcourue et durée",
+                  "une onde électromagnétique et peut se propager dans le vide",
+                  "un grand sculpteur et architecte baroque italien"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le Bernin?",
+                "o": [
+                  "un amphithéâtre de Rome; le Panthéon de Rome est célèbre pour sa coupole",
+                  "une figure essentielle — caractéristiques: Le Serment des Horaces, La Mort de Marat et Le Sacre de Napoléon",
+                  "un grand sculpteur et architecte baroque italien",
+                  "interrogée comme culture générale — caractéristiques: vocabulaire du vivant et de l’environnement, accidents et grandes découvertes, notions élémentaires de physique ou de biologie"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "option_length_imbalance"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0091",
+        "source": "Le Caravage est célèbre pour son clair-obscur.",
+        "cat": "Culture générale",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "CG-0093",
+        "source": "Jacques-Louis David en est une figure essentielle: Le Serment des Horaces, La Mort de Marat et Le Sacre de Napoléon.",
+        "cat": "Culture générale",
+        "page": 3
+      }
+    },
+    {
+      "id": "CG-0112",
+      "cat": "Culture générale",
+      "page": 4,
+      "chapter": "I. Arts",
+      "topic": "Arts",
+      "source": "Paul Gauguin — Œuvres ou repères: D’où venons-nous? Que sommes- nous? Où allons-nous?",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "answer_too_broad",
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "CG-0112",
+          "chapter": "I. Arts",
+          "topic": "Arts",
+          "source": "Paul Gauguin — repère: D’où venons-nous? Que sommes- nous? Où allons-nous?",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "answer_too_broad",
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Paul Gauguin — repère?",
+                "o": [
+                  "D’où venons-nous? Que sommes- nous? Où allons-nous?",
+                  "Le terme impressionnisme vient du titre de Monet",
+                  "Arcs brisés, ogives, arcs- boutants, vitraux",
+                  "Décomposition géométrique, pluralité des points de vue"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Paul Gauguin — repère?",
+                "o": [
+                  "œuvre dramatique chantée, accompagnée de musique; Mozart, Verdi, Puccini, Wagner sont des noms majeurs",
+                  "D’où venons-nous? Que sommes- nous? Où allons-nous?",
+                  "La Liberté guidant le peuple (1830)",
+                  "Décomposition géométrique, pluralité des points de vue"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Paul Gauguin — repère?",
+                "o": [
+                  "Compositions à lignes noires et couleurs primaires",
+                  "Le terme impressionnisme vient du titre de Monet",
+                  "D’où venons-nous? Que sommes- nous? Où allons-nous?",
+                  "La Liberté guidant le peuple (1830)"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Paul Gauguin — repère?",
+                "o": [
+                  "Recherche personnelle au- delà de l’impressionnisme",
+                  "Le terme impressionnisme vient du titre de Monet",
+                  "D’où venons-nous? Que sommes- nous? Où allons-nous?",
+                  "La Liberté guidant le peuple (1830)"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0111",
+        "source": "Paul Cézanne — Notion-clé: influence sur le cubisme",
+        "cat": "Culture générale",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "CG-0113",
+        "source": "Paul Gauguin — Notion-clé: Couleurs, symbolisme, Tahiti",
+        "cat": "Culture générale",
+        "page": 4
       }
     }
   ]
