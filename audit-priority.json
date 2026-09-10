@@ -1,9 +1,9 @@
 {
   "summary": {
-    "generatedAt": "2026-09-10T08:09:25.997Z",
+    "generatedAt": "2026-09-10T08:15:00.144Z",
     "rawFragments": 2349,
     "sourceFacts": 2203,
-    "enrichedFacts": 2233,
+    "enrichedFacts": 2244,
     "auditedSourceFacts": 2203,
     "categories": [
       "Histoire",
@@ -18,12 +18,12 @@
     "byCat": {
       "Histoire": {
         "facts": 463,
-        "pass": 383,
-        "noQuestion": 32,
-        "flagged": 78,
-        "sourceRejected": 1,
-        "resolvedNonAtomic": 2,
-        "remaining": 78
+        "pass": 398,
+        "noQuestion": 14,
+        "flagged": 62,
+        "sourceRejected": 0,
+        "resolvedNonAtomic": 3,
+        "remaining": 62
       },
       "Géographie": {
         "facts": 393,
@@ -37,11 +37,11 @@
       "Enseignement moral et civique": {
         "facts": 233,
         "pass": 139,
-        "noQuestion": 40,
-        "flagged": 91,
-        "sourceRejected": 1,
-        "resolvedNonAtomic": 3,
-        "remaining": 91
+        "noQuestion": 39,
+        "flagged": 90,
+        "sourceRejected": 0,
+        "resolvedNonAtomic": 4,
+        "remaining": 90
       },
       "Actualité": {
         "facts": 119,
@@ -90,80 +90,23 @@
       }
     },
     "issueCounts": {
-      "no_question": 272,
-      "answer_too_broad": 118,
-      "mixed_semantic_types": 203,
-      "source_rejected_or_removed": 2,
+      "no_question": 257,
+      "answer_too_broad": 119,
+      "mixed_semantic_types": 205,
       "correct_length_gives_clue": 24,
       "option_length_imbalance": 16,
       "answer_not_literal_in_source": 2
     },
-    "fullyCompliant": 1610,
-    "resolvedNonAtomic": 8,
-    "resolvedTotal": 1618,
-    "remaining": 585,
-    "flagged": 585,
-    "noQuestion": 242,
-    "withQuestion": 1953,
-    "sourceRejected": 2
+    "fullyCompliant": 1625,
+    "resolvedNonAtomic": 10,
+    "resolvedTotal": 1635,
+    "remaining": 568,
+    "flagged": 568,
+    "noQuestion": 223,
+    "withQuestion": 1970,
+    "sourceRejected": 0
   },
   "rows": [
-    {
-      "id": "HIS-0091",
-      "cat": "Histoire",
-      "page": 6,
-      "chapter": "II. France des origines à la Révolution",
-      "topic": "Moyen Âge",
-      "source": "Conséquences: affirmation de l’autorité royale, affaiblissement de la féodalité, naissance de l’État moderne.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "sourceResolvedNonAtomic": false,
-      "variants": [],
-      "previousSource": {
-        "id": "HIS-0090",
-        "source": "Saint Louis (Louis IX): roi capétien (règne 1226‐1270).",
-        "cat": "Histoire",
-        "page": 6
-      },
-      "nextSource": {
-        "id": "HIS-0092",
-        "source": "Penser que la Guerre de Cent Ans dure exactement 100 ans (elle s’étale sur 116 ans avec des trêves).",
-        "cat": "Histoire",
-        "page": 6
-      }
-    },
-    {
-      "id": "EMC-0087",
-      "cat": "Enseignement moral et civique",
-      "page": 7,
-      "chapter": "C. Textes fondamentaux",
-      "topic": "Textes fondamentaux",
-      "source": "Le principe de présomption d’innocence et le droit au procès équitable (articles 9 et 16 de la DDHC, art.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "sourceResolvedNonAtomic": false,
-      "variants": [],
-      "previousSource": {
-        "id": "EMC-0086",
-        "source": "D.6 La justice judiciaire Deux ordres: ○ Justice civile: traite des litiges entre particuliers (contrats, famille, succession...). ○ Justice pénale: sanctionne les comportements contraires à la loi (contraventions, délits, crimes) selon une hiérarchie des juridictions (tribunal de police, tribunal correctionnel, cour d’assises).",
-        "cat": "Enseignement moral et civique",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "EMC-0088",
-        "source": "D.7 Les collectivités territoriales Niveaux: communes, départements, régions, collectivités et territoires d’outre‐mer.",
-        "cat": "Enseignement moral et civique",
-        "page": 7
-      }
-    },
     {
       "id": "HIS-0015",
       "cat": "Histoire",
@@ -183,7 +126,7 @@
           "id": "HIS-0015",
           "chapter": "I. Fondements de la civilisation",
           "topic": "Mésopotamie",
-          "source": "Mésopotamie — localisation: située entre le Tigre et l’Euphrate (actuel Irak).",
+          "source": "Mésopotamie — localisation: entre le Tigre et l’Euphrate (actuel Irak)",
           "allPass": false,
           "anyQuestion": false,
           "issues": [
@@ -228,1128 +171,6 @@
         "source": "Les Sumériens fondent des cités-États (Ur, Uruk) et inventent la première écriture cunéiforme vers -3 300.",
         "cat": "Histoire",
         "page": 3
-      }
-    },
-    {
-      "id": "HIS-0042",
-      "cat": "Histoire",
-      "page": 4,
-      "chapter": "I. Fondements de la civilisation",
-      "topic": "I. Fondements de la civilisation",
-      "source": "Expansion en Italie puis en Méditerranée; guerres puniques contre Carthage (victoire de Zama, -202).",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0042",
-          "chapter": "I. Fondements de la civilisation",
-          "topic": "I. Fondements de la civilisation",
-          "source": "Expansion en Italie puis en Méditerranée; guerres puniques contre Carthage (victoire de Zama, -202).",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0041",
-        "source": "République romaine (−509 – −27): régime mixte avec magistratures (consuls, préteurs), Sénat et assemblées populaires.",
-        "cat": "Histoire",
-        "page": 4
-      },
-      "nextSource": {
-        "id": "HIS-0043",
-        "source": "Empire romain (−27 – 476): Auguste devient le premier empereur en -27",
-        "cat": "Histoire",
-        "page": 5
-      }
-    },
-    {
-      "id": "HIS-0058",
-      "cat": "Histoire",
-      "page": 5,
-      "chapter": "I. Fondements de la civilisation",
-      "topic": "Rome antique",
-      "source": "Ne pas assimiler l’Empire romain à un régime chrétien; la christianisation intervient tardivement.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0058",
-          "chapter": "I. Fondements de la civilisation",
-          "topic": "Rome antique",
-          "source": "Ne pas assimiler l’Empire romain à un régime chrétien; la christianisation intervient tardivement.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0057",
-        "source": "Ne pas confondre la date de la chute de Rome (476) avec celle de la fin de l’Empire d’Orient (1453).",
-        "cat": "Histoire",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "HIS-0059",
-        "source": "Judaïsme: religion du peuple juif, fondée sur la Torah (Pentateuque).",
-        "cat": "Histoire",
-        "page": 5
-      }
-    },
-    {
-      "id": "HIS-0071",
-      "cat": "Histoire",
-      "page": 5,
-      "chapter": "I. Fondements de la civilisation",
-      "topic": "Religions monothéistes",
-      "source": "Les dates 70 (destruction du Temple), 380 (christianisme religion d’État) et 622 reviennent souvent.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0071",
-          "chapter": "I. Fondements de la civilisation",
-          "topic": "Religions monothéistes",
-          "source": "Les dates 70 (destruction du Temple), 380 (christianisme religion d’État) et 622 reviennent souvent.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0070",
-        "source": "Les trois religions sont issues du Proche-Orient mais n’apparaissent pas simultanément.",
-        "cat": "Histoire",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "HIS-0072",
-        "source": "Clovis (vers 466‐511): roi des Francs saliens, baptisé vers 496 à Reims",
-        "cat": "Histoire",
-        "page": 6
-      }
-    },
-    {
-      "id": "HIS-0079",
-      "cat": "Histoire",
-      "page": 6,
-      "chapter": "II. France des origines à la Révolution",
-      "topic": "Royaumes francs",
-      "source": "Il crée les comtés, capitulaires et soutient les arts carolingiens.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0079",
-          "chapter": "II. France des origines à la Révolution",
-          "topic": "Royaumes francs",
-          "source": "Il crée les comtés, capitulaires et soutient les arts carolingiens.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0078",
-        "source": "Charlemagne (768‐814) étend l’empire sur l’Europe occidentale et est sacré empereur d’Occident à Rome en 800.",
-        "cat": "Histoire",
-        "page": 6
-      },
-      "nextSource": {
-        "id": "HIS-0080",
-        "source": "Conséquences: cristallisation d’un royaume franc chrétien, alliance étroite entre pouvoir et Église, origine du futur royaume de France.",
-        "cat": "Histoire",
-        "page": 6
-      }
-    },
-    {
-      "id": "HIS-0113",
-      "cat": "Histoire",
-      "page": 7,
-      "chapter": "II. France des origines à la Révolution",
-      "topic": "II. France des origines à la Révolution",
-      "source": "Devise « L’État c’est moi ».",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0113",
-          "chapter": "II. France des origines à la Révolution",
-          "topic": "II. France des origines à la Révolution",
-          "source": "Devise « L’État c’est moi ».",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0112",
-        "source": "Louis XIV (1638‐1715): règne personnel de 1661 à 1715.",
-        "cat": "Histoire",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "HIS-0114",
-        "source": "Abroge l’édit de Nantes (1685).",
-        "cat": "Histoire",
-        "page": 7
-      }
-    },
-    {
-      "id": "HIS-0115",
-      "cat": "Histoire",
-      "page": 7,
-      "chapter": "II. France des origines à la Révolution",
-      "topic": "II. France des origines à la Révolution",
-      "source": "Engage des guerres coûteuses (Hollande, Succession d’Espagne).",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0115",
-          "chapter": "II. France des origines à la Révolution",
-          "topic": "II. France des origines à la Révolution",
-          "source": "Engage des guerres coûteuses (Hollande, Succession d’Espagne).",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0114",
-        "source": "Abroge l’édit de Nantes (1685).",
-        "cat": "Histoire",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "HIS-0116",
-        "source": "Absolutisme: concentration des pouvoirs dans les mains du roi, qui prétend régner de droit divin.",
-        "cat": "Histoire",
-        "page": 7
-      }
-    },
-    {
-      "id": "HIS-0117",
-      "cat": "Histoire",
-      "page": 7,
-      "chapter": "II. France des origines à la Révolution",
-      "topic": "II. France des origines à la Révolution",
-      "source": "Les intendants représentent l’État dans les provinces.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0117",
-          "chapter": "II. France des origines à la Révolution",
-          "topic": "II. France des origines à la Révolution",
-          "source": "Les intendants représentent l’État dans les provinces.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0116",
-        "source": "Absolutisme: concentration des pouvoirs dans les mains du roi, qui prétend régner de droit divin.",
-        "cat": "Histoire",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "HIS-0118",
-        "source": "Conséquences: centralisation de l’administration, essor culturel (classicisme: Molière, Racine, Lully), mais crise financière et désaffection des protestants (révocation de l’édit de Nantes).",
-        "cat": "Histoire",
-        "page": 7
-      }
-    },
-    {
-      "id": "HIS-0120",
-      "cat": "Histoire",
-      "page": 8,
-      "chapter": "II. France des origines à la Révolution",
-      "topic": "Monarchie absolue",
-      "source": "La monarchie absolue ne signifie pas qu’il n’y a aucune loi; le roi est lié aux lois fondamentales du royaume.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0120",
-          "chapter": "II. France des origines à la Révolution",
-          "topic": "Monarchie absolue",
-          "source": "La monarchie absolue ne signifie pas qu’il n’y a aucune loi; le roi est lié aux lois fondamentales du royaume.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0119",
-        "source": "Penser que le château de Versailles a été construit par Louis XIII; c’est Louis XIV qui l’agrandit.",
-        "cat": "Histoire",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "HIS-0121",
-        "source": "Philosophes majeurs: Voltaire (1694‐1778): critique de l’intolérance et du fanatisme, auteur de Candide",
-        "cat": "Histoire",
-        "page": 8
-      }
-    },
-    {
-      "id": "HIS-0143",
-      "cat": "Histoire",
-      "page": 9,
-      "chapter": "III. Révolution française et Empire",
-      "topic": "Révolution française",
-      "source": "Déclaration des droits de l’homme et du citoyen (DDHC) (26 août).",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0143",
-          "chapter": "III. Révolution française et Empire",
-          "topic": "Révolution française",
-          "source": "Déclaration des droits de l’homme et du citoyen (DDHC) (26 août).",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0142",
-        "source": "Penser que la disette de 1788 est la seule cause; la crise est multiple (finances, politique, idées).",
-        "cat": "Histoire",
-        "page": 8
-      },
-      "nextSource": {
-        "id": "HIS-0144",
-        "source": "Monarchie constitutionnelle: constitution de 1791",
-        "cat": "Histoire",
-        "page": 9
-      }
-    },
-    {
-      "id": "HIS-0165",
-      "cat": "Histoire",
-      "page": 9,
-      "chapter": "III. Révolution française et Empire",
-      "topic": "Napoléon et Empire",
-      "source": "Défaite à Waterloo (18 juin 1815) et abdication.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0165",
-          "chapter": "III. Révolution française et Empire",
-          "topic": "Napoléon et Empire",
-          "source": "Défaite à Waterloo (18 juin 1815) et abdication.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0164",
-        "source": "Guerres napoléoniennes: Austerlitz (1805), campagne de Russie (1812).",
-        "cat": "Histoire",
-        "page": 9
-      },
-      "nextSource": {
-        "id": "HIS-0166",
-        "source": "Conséquences: diffusion des idées révolutionnaires en Europe, réorganisation administrative durable, mais pertes humaines.",
-        "cat": "Histoire",
-        "page": 9
-      }
-    },
-    {
-      "id": "HIS-0169",
-      "cat": "Histoire",
-      "page": 9,
-      "chapter": "III. Révolution française et Empire",
-      "topic": "Napoléon et Empire",
-      "source": "Waterloo marque la fin définitive de Napoléon; l’épisode des Cent-Jours dure de mars à juin 1815.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0169",
-          "chapter": "III. Révolution française et Empire",
-          "topic": "Napoléon et Empire",
-          "source": "Waterloo marque la fin définitive de Napoléon; l’épisode des Cent-Jours dure de mars à juin 1815.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0168",
-        "source": "Penser que Napoléon rétablit la monarchie absolue; il instaure un Empire autoritaire, mais conserve certaines conquêtes révolutionnaires.",
-        "cat": "Histoire",
-        "page": 9
-      },
-      "nextSource": {
-        "id": "HIS-0170",
-        "source": "Congrès de Vienne (1814‐1815): réorganise l’Europe après la défaite napoléonienne.",
-        "cat": "Histoire",
-        "page": 10
-      }
-    },
-    {
-      "id": "HIS-0173",
-      "cat": "Histoire",
-      "page": 10,
-      "chapter": "IV. XIXe siècle",
-      "topic": "IV. XIXe siècle",
-      "source": "Les ordonnances de juillet 1830 de Charles X provoquent la révolution dite des « Trois Glorieuses ».",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0173",
-          "chapter": "IV. XIXe siècle",
-          "topic": "IV. XIXe siècle",
-          "source": "Les ordonnances de juillet 1830 de Charles X provoquent la révolution dite des « Trois Glorieuses ».",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0172",
-        "source": "Confondre le retour de Napoléon en 1815 (Cent-Jours) avec la Restauration; cette période est brève et se termine avec Waterloo.",
-        "cat": "Histoire",
-        "page": 10
-      },
-      "nextSource": {
-        "id": "HIS-0174",
-        "source": "Révolution de 1830: « Trois Glorieuses » (27‐29 juillet) entraînent la chute de Charles X.",
-        "cat": "Histoire",
-        "page": 10
-      }
-    },
-    {
-      "id": "HIS-0186",
-      "cat": "Histoire",
-      "page": 11,
-      "chapter": "V. Guerres mondiales et totalitarismes",
-      "topic": "V. Guerres mondiales et totalitarismes",
-      "source": "Elle repose sur les lois constitutionnelles de 1875 qui établissent un régime parlementaire bicaméral (Chambre des députés et Sénat).",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0186",
-          "chapter": "V. Guerres mondiales et totalitarismes",
-          "topic": "V. Guerres mondiales et totalitarismes",
-          "source": "Elle repose sur les lois constitutionnelles de 1875 qui établissent un régime parlementaire bicaméral (Chambre des députés et Sénat).",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0185",
-        "source": "Mise en place: proclamée le 4 septembre 1870 après la défaite de Sedan.",
-        "cat": "Histoire",
-        "page": 11
-      },
-      "nextSource": {
-        "id": "HIS-0187",
-        "source": "École républicaine: lois Jules Ferry (1881‐1882) instaurent l’instruction primaire gratuite, laïque et obligatoire.",
-        "cat": "Histoire",
-        "page": 11
-      }
-    },
-    {
-      "id": "HIS-0202",
-      "cat": "Histoire",
-      "page": 11,
-      "chapter": "V. Guerres mondiales et totalitarismes",
-      "topic": "Première Guerre mondiale",
-      "source": "L’attentat de Sarajevo (28 juin 1914) déclenche la guerre.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0202",
-          "chapter": "V. Guerres mondiales et totalitarismes",
-          "topic": "Première Guerre mondiale",
-          "source": "L’attentat de Sarajevo (28 juin 1914) déclenche la guerre.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0201",
-        "source": "Causes: rivalités coloniales, alliances (Triple Alliance vs Triple Entente), nationalismes et course aux armements.",
-        "cat": "Histoire",
-        "page": 11
-      },
-      "nextSource": {
-        "id": "HIS-0203",
-        "source": "Guerre des tranchées: stabilisation du front occidental.",
-        "cat": "Histoire",
-        "page": 11
-      }
-    },
-    {
-      "id": "HIS-0220",
-      "cat": "Histoire",
-      "page": 12,
-      "chapter": "V. Guerres mondiales et totalitarismes",
-      "topic": "V. Guerres mondiales et totalitarismes",
-      "source": "Les régimes totalitaires diffèrent des dictatures traditionnelles par l’embrigadement idéologique et le parti unique.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0220",
-          "chapter": "V. Guerres mondiales et totalitarismes",
-          "topic": "V. Guerres mondiales et totalitarismes",
-          "source": "Les régimes totalitaires diffèrent des dictatures traditionnelles par l’embrigadement idéologique et le parti unique.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0219",
-        "source": "Croire que la crise de 1929 n’a touché que les États-Unis; elle s’étend rapidement au monde entier.",
-        "cat": "Histoire",
-        "page": 12
-      },
-      "nextSource": {
-        "id": "HIS-0221",
-        "source": "Déclenchement: invasion de la Pologne par l’Allemagne nazie (1er septembre 1939)",
-        "cat": "Histoire",
-        "page": 12
-      }
-    },
-    {
-      "id": "HIS-0229",
-      "cat": "Histoire",
-      "page": 12,
-      "chapter": "V. Guerres mondiales et totalitarismes",
-      "topic": "Seconde Guerre mondiale",
-      "source": "Bombardements d’Hiroshima et Nagasaki (6 et 9 août 1945).",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0229",
-          "chapter": "V. Guerres mondiales et totalitarismes",
-          "topic": "Seconde Guerre mondiale",
-          "source": "Bombardements d’Hiroshima et Nagasaki (6 et 9 août 1945).",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0228",
-        "source": "Débarquement allié: libération de la France en 1944‐1945.",
-        "cat": "Histoire",
-        "page": 12
-      },
-      "nextSource": {
-        "id": "HIS-0230",
-        "source": "Capitulations: Allemagne le 8 mai 1945",
-        "cat": "Histoire",
-        "page": 12
-      }
-    },
-    {
-      "id": "HIS-0235",
-      "cat": "Histoire",
-      "page": 12,
-      "chapter": "V. Guerres mondiales et totalitarismes",
-      "topic": "Première Guerre mondiale",
-      "source": "La Seconde Guerre mondiale est le conflit le plus meurtrier de l’histoire; la Première Guerre mondiale fait environ 10 millions de morts.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0235",
-          "chapter": "V. Guerres mondiales et totalitarismes",
-          "topic": "Première Guerre mondiale",
-          "source": "La Seconde Guerre mondiale est le conflit le plus meurtrier de l’histoire; la Première Guerre mondiale fait environ 10 millions de morts.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0234",
-        "source": "Penser que Pétain est président de la République; il est chef de l’État français de Vichy.",
-        "cat": "Histoire",
-        "page": 12
-      },
-      "nextSource": {
-        "id": "HIS-0236",
-        "source": "Définition: affrontement idéologique et géopolitique entre les États‐Unis et l’URSS, sans confrontation militaire directe entre les deux superpuissances.",
-        "cat": "Histoire",
-        "page": 13
       }
     },
     {
@@ -16033,10 +14854,10 @@
               "q": {
                 "prompt": "Quelle caractéristique correspond à Napoléon?",
                 "o": [
-                  "le conflit le plus meurtrier de l’histoire; la Première Guerre mondiale fait environ 10 millions de morts",
+                  "de stabiliser le gouvernement et de rendre plus difficile le renversement par l’Assemblée",
                   "Premier consul; met en place la Banque de France (1800), les lycées, les préfets et la monnaie stable",
-                  "masculin; les femmes obtiennent le droit de vote en 1944",
-                  "dissoute en 1991, non en 1989"
+                  "le conflit le plus meurtrier de l’histoire; la Première Guerre mondiale fait environ 10 millions de morts",
+                  "pas des colonies mais des territoires français"
                 ],
                 "ans": 1
               },
@@ -16049,14 +14870,15 @@
               "q": {
                 "prompt": "Quelle caractéristique correspond à Napoléon?",
                 "o": [
-                  "adoptée comme hymne en 1795, interdite sous certains régimes, et rétablie ensuite",
-                  "le conflit le plus meurtrier de l’histoire; la Première Guerre mondiale fait environ 10 millions de morts",
+                  "dissoute en 1991, non en 1989",
+                  "de stabiliser le gouvernement et de rendre plus difficile le renversement par l’Assemblée",
                   "Premier consul; met en place la Banque de France (1800), les lycées, les préfets et la monnaie stable",
-                  "au gouvernement d’adopter un texte sans vote sauf si une motion de censure est votée"
+                  "adoptée comme hymne en 1795, interdite sous certains régimes, et rétablie ensuite"
                 ],
                 "ans": 2
               },
               "issues": [
+                "mixed_semantic_types",
                 "answer_too_broad"
               ]
             },
@@ -16086,6 +14908,86 @@
         "source": "Empire (1804‐1815): Napoléon se couronne empereur des Français en 1804.",
         "cat": "Histoire",
         "page": 9
+      }
+    },
+    {
+      "id": "HIS-0235",
+      "cat": "Histoire",
+      "page": 12,
+      "chapter": "V. Guerres mondiales et totalitarismes",
+      "topic": "Première Guerre mondiale",
+      "source": "La Seconde Guerre mondiale est le conflit le plus meurtrier de l’histoire; la Première Guerre mondiale fait environ 10 millions de morts.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "no_question",
+        "mixed_semantic_types",
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0235",
+          "chapter": "V. Guerres mondiales et totalitarismes",
+          "topic": "Première Guerre mondiale",
+          "source": "La Seconde Guerre mondiale est le conflit le plus meurtrier de l’histoire; la Première Guerre mondiale fait environ 10 millions de morts.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "no_question",
+            "mixed_semantic_types",
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La Seconde Guerre mondiale?",
+                "o": [
+                  "issues du Proche-Orient mais n’apparaissent pas simultanément",
+                  "masculin; les femmes obtiennent le droit de vote en 1944",
+                  "au gouvernement d’adopter un texte sans vote sauf si une motion de censure est votée",
+                  "le conflit le plus meurtrier de l’histoire; la Première Guerre mondiale fait environ 10 millions de morts"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0234",
+        "source": "Penser que Pétain est président de la République; il est chef de l’État français de Vichy.",
+        "cat": "Histoire",
+        "page": 12
+      },
+      "nextSource": {
+        "id": "HIS-0236",
+        "source": "Définition: affrontement idéologique et géopolitique entre les États‐Unis et l’URSS, sans confrontation militaire directe entre les deux superpuissances.",
+        "cat": "Histoire",
+        "page": 13
       }
     },
     {
@@ -16484,10 +15386,10 @@
               "q": {
                 "prompt": "Quelle caractéristique correspond à Le suffrage universel instauré en 1848?",
                 "o": [
-                  "pas des colonies mais des territoires français",
+                  "lié aux lois fondamentales du royaume",
                   "sacré empereur d’Occident à Rome en 800",
                   "masculin; les femmes obtiennent le droit de vote en 1944",
-                  "dissoute en 1991, non en 1989"
+                  "pas des colonies mais des territoires français"
                 ],
                 "ans": 2
               },
@@ -16501,9 +15403,9 @@
                 "prompt": "Quelle caractéristique correspond à Le suffrage universel instauré en 1848?",
                 "o": [
                   "masculin; les femmes obtiennent le droit de vote en 1944",
-                  "lié aux lois fondamentales du royaume",
-                  "de stabiliser le gouvernement et de rendre plus difficile le renversement par l’Assemblée",
-                  "dissoute en 1991, non en 1989"
+                  "formulée par Montesquieu, pas par Rousseau",
+                  "élu au suffrage universel direct depuis 1962",
+                  "pas des colonies mais des territoires français"
                 ],
                 "ans": 0
               },
@@ -16516,8 +15418,8 @@
               "q": {
                 "prompt": "Quelle caractéristique correspond à Le suffrage universel instauré en 1848?",
                 "o": [
-                  "formulée par Montesquieu, pas par Rousseau",
-                  "de stabiliser le gouvernement et de rendre plus difficile le renversement par l’Assemblée",
+                  "Premier consul; met en place la Banque de France (1800), les lycées, les préfets et la monnaie stable",
+                  "élu au suffrage universel direct depuis 1962",
                   "masculin; les femmes obtiennent le droit de vote en 1944",
                   "sacré empereur d’Occident à Rome en 800"
                 ],
@@ -16532,10 +15434,10 @@
               "q": {
                 "prompt": "Quelle caractéristique correspond à Le suffrage universel instauré en 1848?",
                 "o": [
-                  "élu au suffrage universel direct depuis 1962",
-                  "formulée par Montesquieu, pas par Rousseau",
+                  "la conformité des lois à la Constitution",
+                  "Premier consul; met en place la Banque de France (1800), les lycées, les préfets et la monnaie stable",
                   "masculin; les femmes obtiennent le droit de vote en 1944",
-                  "dissoute en 1991, non en 1989"
+                  "pas des colonies mais des territoires français"
                 ],
                 "ans": 2
               },
@@ -16558,6 +15460,99 @@
         "source": "Napoléon III: président de la République (1848‐1852) puis empereur (1852‐1870).",
         "cat": "Histoire",
         "page": 10
+      }
+    },
+    {
+      "id": "HIS-0211",
+      "cat": "Histoire",
+      "page": 11,
+      "chapter": "V. Guerres mondiales et totalitarismes",
+      "topic": "Seconde Guerre mondiale",
+      "source": "Conséquences: montée des tensions qui conduiront à la Seconde Guerre mondiale.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0211",
+          "chapter": "V. Guerres mondiales et totalitarismes",
+          "topic": "Seconde Guerre mondiale",
+          "source": "Après la Première Guerre mondiale — repère: montée des tensions conduisant à la Seconde Guerre mondiale",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Après la Première Guerre mondiale — repère?",
+                "o": [
+                  "invasion de la Pologne par l’Allemagne nazie (1er septembre 1939)",
+                  "extermination systématique des Juifs d’Europe (≈6 millions de morts)",
+                  "même personne pendant la Résistance et comme président de la Ve République",
+                  "montée des tensions conduisant à la Seconde Guerre mondiale"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Après la Première Guerre mondiale — repère?",
+                "o": [
+                  "montée des tensions conduisant à la Seconde Guerre mondiale",
+                  "Élection du président au suffrage universel direct (1962), politique de grandeur, sortie du commandement intégré de l’OTAN, réformes constitutionnelles",
+                  "Premier ministre pendant la Seconde Guerre mondiale (1940‐1945)",
+                  "président pendant la Seconde Guerre mondiale"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Après la Première Guerre mondiale — repère?",
+                "o": [
+                  "montée des tensions conduisant à la Seconde Guerre mondiale",
+                  "chef de l’État français de Vichy",
+                  "extermination systématique des Juifs d’Europe (≈6 millions de morts)",
+                  "appel du 18 juin 1940 à Londres"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0210",
+        "source": "Conséquences: bouleversements territoriaux",
+        "cat": "Histoire",
+        "page": 11
+      },
+      "nextSource": {
+        "id": "HIS-0212",
+        "source": "Confondre l’armistice (11 novembre 1918) et le traité de Versailles (28 juin 1919).",
+        "cat": "Histoire",
+        "page": 12
       }
     },
     {
@@ -16791,6 +15786,1684 @@
         "source": "Penser que la Guerre froide s’achève avec la chute du mur en 1989; elle se termine avec la dissolution de l’URSS en 1991.",
         "cat": "Histoire",
         "page": 13
+      }
+    },
+    {
+      "id": "GEO-0077",
+      "cat": "Géographie",
+      "page": 4,
+      "chapter": "I.1 Continents, océans et détroits",
+      "topic": "I.1 Continents, océans et détroits",
+      "source": "Canal de Suez — Repère stratégique: son blocage ou les tensions en mer Rouge entraînent des détours par le cap de Bonne-Espérance.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "correct_length_gives_clue"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0077",
+          "chapter": "I.1 Continents, océans et détroits",
+          "topic": "I.1 Continents, océans et détroits",
+          "source": "Canal de Suez — repère: son blocage ou les tensions en mer Rouge entraînent des détours par le cap de Bonne-Espérance.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "correct_length_gives_clue"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Canal de Suez — repère?",
+                "o": [
+                  "son blocage ou les tensions en mer Rouge entraînent des détours par le cap de Bonne-Espérance",
+                  "Distance angulaire à l’est ou à l’ouest de Greenwich",
+                  "Accès maritime des États riverains de la mer Noire",
+                  "Toujours comprise entre 0° et 180° E/O"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Canal de Suez — repère?",
+                "o": [
+                  "Distance angulaire au nord ou au sud de l’équateur",
+                  "son blocage ou les tensions en mer Rouge entraînent des détours par le cap de Bonne-Espérance",
+                  "régime encadré par la convention de Montreux",
+                  "15° de longitude ≈ 1 heure"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Canal de Suez — repère?",
+                "o": [
+                  "Distance angulaire à l’est ou à l’ouest de Greenwich",
+                  "son blocage ou les tensions en mer Rouge entraînent des détours par le cap de Bonne-Espérance",
+                  "Toujours comprise entre 0° et 180° E/O",
+                  "Seul débouché naturel de la Méditerranée occidentale vers l’Atlantique"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Canal de Suez — repère?",
+                "o": [
+                  "son blocage ou les tensions en mer Rouge entraînent des détours par le cap de Bonne-Espérance",
+                  "Sépare les hémisphères Nord et Sud",
+                  "Seul débouché naturel de la Méditerranée occidentale vers l’Atlantique",
+                  "limites et dénomination peuvent varier selon les institutions"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0076",
+        "source": "Canal de Suez — Repère stratégique: Axe majeur Europe-Asie",
+        "cat": "Géographie",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "GEO-0078",
+        "source": "Les détroits sont des passages maritimes naturels; les canaux sont artificiels.",
+        "cat": "Géographie",
+        "page": 4
+      }
+    },
+    {
+      "id": "GEO-0078",
+      "cat": "Géographie",
+      "page": 4,
+      "chapter": "I.1 Continents, océans et détroits",
+      "topic": "I.1 Continents, océans et détroits",
+      "source": "Les détroits sont des passages maritimes naturels; les canaux sont artificiels.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0078",
+          "chapter": "I.1 Continents, océans et détroits",
+          "topic": "I.1 Continents, océans et détroits",
+          "source": "Les détroits sont des passages maritimes naturels; les canaux sont artificiels.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Les détroits?",
+                "o": [
+                  "devenu légèrement négatif en France pour la première fois depuis la fin de la Seconde Guerre mondiale",
+                  "conservés ici uniquement parce que le cours de géographie initial les associait à l’administration territoriale",
+                  "des passages maritimes naturels; les canaux sont artificiels",
+                  "devenue « Département-Région de Mayotte » au 1er janvier 2026"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Les détroits?",
+                "o": [
+                  "utile mais doit être nuancé par la montée de l’Inde, du Golfe et d’autres économies émergentes",
+                  "une grande puissance agricole mais l’agriculture ne représente qu’une petite fraction du PIB/valeur ajoutée",
+                  "des passages maritimes naturels; les canaux sont artificiels",
+                  "le premier producteur agricole européen en valeur"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Les détroits?",
+                "o": [
+                  "des passages maritimes naturels; les canaux sont artificiels",
+                  "dans une phase de vieillissement, tandis qu’une grande partie de l’Afrique subsaharienne conserve une forte croissance naturelle",
+                  "l’intensification des flux de marchandises, capitaux, informations et personnes",
+                  "le premier producteur agricole européen en valeur"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Les détroits?",
+                "o": [
+                  "des passages maritimes naturels; les canaux sont artificiels",
+                  "l’intensification des flux de marchandises, capitaux, informations et personnes",
+                  "située dans l’Indopacifique; la ZEE française est la deuxième au monde, autour de 10,2 millions de km2 selon les données officielles récentes",
+                  "utile mais doit être nuancé par la montée de l’Inde, du Golfe et d’autres économies émergentes"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0077",
+        "source": "Canal de Suez — Repère stratégique: son blocage ou les tensions en mer Rouge entraînent des détours par le cap de Bonne-Espérance.",
+        "cat": "Géographie",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "GEO-0079",
+        "source": "Ormuz = Iran/Oman, pas Iran/Arabie saoudite ni Iran/Émirats arabes unis.",
+        "cat": "Géographie",
+        "page": 4
+      }
+    },
+    {
+      "id": "GEO-0081",
+      "cat": "Géographie",
+      "page": 4,
+      "chapter": "I.1 Continents, océans et détroits",
+      "topic": "Fleuves et lacs",
+      "source": "Panama et Suez sont des canaux artificiels; Gibraltar, Ormuz, Malacca et Béring sont des détroits naturels.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0081",
+          "chapter": "I.1 Continents, océans et détroits",
+          "topic": "Fleuves et lacs",
+          "source": "Panama et Suez sont des canaux artificiels; Gibraltar, Ormuz, Malacca et Béring sont des détroits naturels.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Panama et Suez?",
+                "o": [
+                  "des canaux artificiels; Gibraltar, Ormuz, Malacca et Béring sont des détroits naturels",
+                  "située dans l’Indopacifique; la ZEE française est la deuxième au monde, autour de 10,2 millions de km2 selon les données officielles récentes",
+                  "le premier producteur agricole européen en valeur",
+                  "sans ambiguïté le fleuve au plus grand débit"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Panama et Suez?",
+                "o": [
+                  "issue de la loi du 16 janvier 2015 relative à la délimitation des régions; la nouvelle carte est entrée en vigueur le 1er janvier 2016",
+                  "des canaux artificiels; Gibraltar, Ormuz, Malacca et Béring sont des détroits naturels",
+                  "rangé dans la sous-région « Amérique centrale »",
+                  "devenue « Département-Région de Mayotte » au 1er janvier 2026"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Panama et Suez?",
+                "o": [
+                  "des canaux artificiels; Gibraltar, Ormuz, Malacca et Béring sont des détroits naturels",
+                  "l’intensification des flux de marchandises, capitaux, informations et personnes",
+                  "une grande puissance agricole mais l’agriculture ne représente qu’une petite fraction du PIB/valeur ajoutée",
+                  "cependant une faible part de la valeur ajoutée totale (environ 1,5 % en 2025)"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Panama et Suez?",
+                "o": [
+                  "cependant une faible part de la valeur ajoutée totale (environ 1,5 % en 2025)",
+                  "des canaux artificiels; Gibraltar, Ormuz, Malacca et Béring sont des détroits naturels",
+                  "des passages maritimes naturels; les canaux sont artificiels",
+                  "utile mais doit être nuancé par la montée de l’Inde, du Golfe et d’autres économies émergentes"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0080",
+        "source": "Bab-el-Mandeb n’est pas une route « alternative » à Suez: il fait partie de l’axe mer Rouge-Suez.",
+        "cat": "Géographie",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "GEO-0082",
+        "source": "Himalaya — Auteur: Asie du Sud, entre sous-continent indien et plateau tibétain",
+        "cat": "Géographie",
+        "page": 5
+      }
+    },
+    {
+      "id": "GEO-0361",
+      "cat": "Géographie",
+      "page": 13,
+      "chapter": "I.6 Économie mondiale et mondialisation",
+      "topic": "I.6 Économie mondiale et mondialisation",
+      "source": "Martinique — Auteur: Collectivité territoriale unique régie par l’art. 73, Caraïbes",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "no_question",
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "GEO-0361",
+          "chapter": "I.6 Économie mondiale et mondialisation",
+          "topic": "I.6 Économie mondiale et mondialisation",
+          "source": "Martinique — auteur: Collectivité territoriale unique régie par l’art. 73, Caraïbes",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "no_question",
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Martinique — auteur?",
+                "o": [
+                  "Orly, Nice, Lyon, Marseille, Toulouse, Bâle-Mulhouse parmi les principaux",
+                  "Département-Région depuis le 1er janvier 2026, océan Indien",
+                  "Nouvelle-Calédonie a un statut sui generis",
+                  "Collectivité territoriale unique régie par l’art. 73, Caraïbes"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "GEO-0360",
+        "source": "Guadeloupe — Particularités: volcan de la Soufrière.",
+        "cat": "Géographie",
+        "page": 13
+      },
+      "nextSource": {
+        "id": "GEO-0362",
+        "source": "Martinique — Date: Fort-de-France",
+        "cat": "Géographie",
+        "page": 13
+      }
+    },
+    {
+      "id": "EMC-0086",
+      "cat": "Enseignement moral et civique",
+      "page": 7,
+      "chapter": "I-J. Justice, Europe et organisations internationales",
+      "topic": "Justice",
+      "source": "D.6 La justice judiciaire Deux ordres: ○ Justice civile: traite des litiges entre particuliers (contrats, famille, succession...). ○ Justice pénale: sanctionne les comportements contraires à la loi (contraventions, délits, crimes) selon une hiérarchie des juridictions (tribunal de police, tribunal correctionnel, cour d’assises).",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "option_length_imbalance",
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "EMC-0086",
+          "chapter": "I-J. Justice, Europe et organisations internationales",
+          "topic": "Justice",
+          "source": "La justice judiciaire Deux ordres — caractéristiques: ○ Justice civile: traite des litiges entre particuliers (contrats, famille, succession...). ○ Justice pénale: sanctionne les comportements contraires à la loi (contraventions, délits, crimes) selon une hiérarchie des juridictions (tribunal de police, tribunal correctionnel, cour d’assises).",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "option_length_imbalance",
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit La justice judiciaire Deux ordres?",
+                "o": [
+                  "tout citoyen majeur dispose du droit de vote et peut se présenter aux élections, sous réserve de conditions (casier judiciaire, âge, nationalité)",
+                  "○ Justice civile: traite des litiges entre particuliers (contrats, famille, succession...). ○ Justice pénale: sanctionne les comportements contraires à la loi (contraventions, délits, crimes) selon une hiérarchie des juridictions (tribunal de police, tribunal correctionnel, cour d’assises)",
+                  "la séparation entre ordres administratif et judiciaire est une spécificité française",
+                  "tribunaux administratifs, cours administratives d’appel, Conseil d’État. ○ Ordre judiciaire: juge les litiges entre particuliers et les infractions pénales"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "option_length_imbalance",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit La justice judiciaire Deux ordres?",
+                "o": [
+                  "la séparation entre ordres administratif et judiciaire est une spécificité française",
+                  "tribunaux administratifs, cours administratives d’appel, Conseil d’État. ○ Ordre judiciaire: juge les litiges entre particuliers et les infractions pénales",
+                  "○ Justice civile: traite des litiges entre particuliers (contrats, famille, succession...). ○ Justice pénale: sanctionne les comportements contraires à la loi (contraventions, délits, crimes) selon une hiérarchie des juridictions (tribunal de police, tribunal correctionnel, cour d’assises)",
+                  "tout citoyen majeur dispose du droit de vote et peut se présenter aux élections, sous réserve de conditions (casier judiciaire, âge, nationalité)"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "option_length_imbalance",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit La justice judiciaire Deux ordres?",
+                "o": [
+                  "tribunaux administratifs, cours administratives d’appel, Conseil d’État. ○ Ordre judiciaire: juge les litiges entre particuliers et les infractions pénales",
+                  "certains citoyens participent aux cours d’assises comme jurés et exercent ainsi une mission de justice",
+                  "tout citoyen majeur dispose du droit de vote et peut se présenter aux élections, sous réserve de conditions (casier judiciaire, âge, nationalité)",
+                  "○ Justice civile: traite des litiges entre particuliers (contrats, famille, succession...). ○ Justice pénale: sanctionne les comportements contraires à la loi (contraventions, délits, crimes) selon une hiérarchie des juridictions (tribunal de police, tribunal correctionnel, cour d’assises)"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit La justice judiciaire Deux ordres?",
+                "o": [
+                  "○ Ordre administratif: juge les litiges entre particuliers et administrations",
+                  "tout citoyen majeur dispose du droit de vote et peut se présenter aux élections, sous réserve de conditions (casier judiciaire, âge, nationalité)",
+                  "○ Justice civile: traite des litiges entre particuliers (contrats, famille, succession...). ○ Justice pénale: sanctionne les comportements contraires à la loi (contraventions, délits, crimes) selon une hiérarchie des juridictions (tribunal de police, tribunal correctionnel, cour d’assises)",
+                  "tribunaux administratifs, cours administratives d’appel, Conseil d’État. ○ Ordre judiciaire: juge les litiges entre particuliers et les infractions pénales"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "option_length_imbalance",
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "EMC-0085",
+        "source": "Organisation: tribunaux administratifs, cours administratives d’appel et Conseil d’État.",
+        "cat": "Enseignement moral et civique",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "EMC-0087",
+        "source": "Le principe de présomption d’innocence et le droit au procès équitable (articles 9 et 16 de la DDHC, art.",
+        "cat": "Enseignement moral et civique",
+        "page": 7
+      }
+    },
+    {
+      "id": "EMC-0107",
+      "cat": "Enseignement moral et civique",
+      "page": 8,
+      "chapter": "C. Textes fondamentaux",
+      "topic": "Textes fondamentaux",
+      "source": "Le principe, théorisé par Montesquieu, est reconnu à l’article 16 de la DDHC.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "no_question",
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "EMC-0107",
+          "chapter": "C. Textes fondamentaux",
+          "topic": "Textes fondamentaux",
+          "source": "Le principe, théorisé par Montesquieu, est reconnu à l’article 16 de la DDHC.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "no_question",
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le principe, théorisé par Montesquieu?",
+                "o": [
+                  "protégé par la loi de 2000 et l’article 9 de la DDHC",
+                  "reconnu à l’article 16 de la DDHC",
+                  "une convention du Conseil de l’Europe, tandis que la Charte des droits fondamentaux relève de l’Union européenne",
+                  "un droit fondamental inscrit dans l’article 8 de la Charte des droits fondamentaux"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "EMC-0106",
+        "source": "E.2 Séparation des pouvoirs Concept: la Constitution répartit les pouvoirs législatif (Parlement), exécutif (Président + Gouvernement) et judiciaire (juridictions).",
+        "cat": "Enseignement moral et civique",
+        "page": 8
+      },
+      "nextSource": {
+        "id": "EMC-0108",
+        "source": "Mécanismes: contrôle mutuel (motion de censure, dissolution de l’Assemblée, QPC) et indépendance des magistrats.",
+        "cat": "Enseignement moral et civique",
+        "page": 8
+      }
+    },
+    {
+      "id": "EMC-0136",
+      "cat": "Enseignement moral et civique",
+      "page": 10,
+      "chapter": "E-F. Principes démocratiques, droits et libertés",
+      "topic": "E-F. Principes démocratiques, droits et libertés",
+      "source": "Droit à la protection des données personnelles: le RGPD de 2016, applicable depuis le 25 mai 2018, établit un cadre juridique unique dans l’UE et renforce les droits des personnes sur leurs données (droit d’accès, de rectification, d’effacement).",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "correct_length_gives_clue",
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "EMC-0136",
+          "chapter": "E-F. Principes démocratiques, droits et libertés",
+          "topic": "E-F. Principes démocratiques, droits et libertés",
+          "source": "Droit à la protection des données personnelles — caractéristiques: le RGPD de 2016, applicable depuis le 25 mai 2018, établit un cadre juridique unique dans l’UE et renforce les droits des personnes sur leurs données (droit d’accès, de rectification, d’effacement).",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "correct_length_gives_clue",
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Droit à la protection des données personnelles?",
+                "o": [
+                  "reconnaissance du rôle des partis politiques, des syndicats et des associations",
+                  "le RGPD de 2016, applicable depuis le 25 mai 2018, établit un cadre juridique unique dans l’UE et renforce les droits des personnes sur leurs données (droit d’accès, de rectification, d’effacement)",
+                  "la Charte de l’environnement reconnaît un droit à vivre dans un environnement équilibré et respectueux de la santé",
+                  "pétitions, consultations publiques, référendums, participation aux conseils municipaux et aux jurys populaires (assises)"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "correct_length_gives_clue",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Droit à la protection des données personnelles?",
+                "o": [
+                  "reconnaissance du rôle des partis politiques, des syndicats et des associations",
+                  "le RGPD de 2016, applicable depuis le 25 mai 2018, établit un cadre juridique unique dans l’UE et renforce les droits des personnes sur leurs données (droit d’accès, de rectification, d’effacement)",
+                  "pétitions, consultations publiques, référendums, participation aux conseils municipaux et aux jurys populaires (assises)",
+                  "soumission de l’État et des citoyens à la loi, hiérarchie des normes (Constitution, lois, règlements)"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "correct_length_gives_clue",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Droit à la protection des données personnelles?",
+                "o": [
+                  "le RGPD de 2016, applicable depuis le 25 mai 2018, établit un cadre juridique unique dans l’UE et renforce les droits des personnes sur leurs données (droit d’accès, de rectification, d’effacement)",
+                  "reconnaissance du rôle des partis politiques, des syndicats et des associations",
+                  "pétitions, consultations publiques, référendums, participation aux conseils municipaux et aux jurys populaires (assises)",
+                  "savoir que le RGPD est un règlement européen de 2016 applicable depuis 2018, qu’il protège les données personnelles et s’appuie sur l’article 8 de la Charte des droits fondamentaux"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "correct_length_gives_clue",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Droit à la protection des données personnelles?",
+                "o": [
+                  "reconnaissance du rôle des partis politiques, des syndicats et des associations",
+                  "le RGPD de 2016, applicable depuis le 25 mai 2018, établit un cadre juridique unique dans l’UE et renforce les droits des personnes sur leurs données (droit d’accès, de rectification, d’effacement)",
+                  "savoir que le RGPD est un règlement européen de 2016 applicable depuis 2018, qu’il protège les données personnelles et s’appuie sur l’article 8 de la Charte des droits fondamentaux",
+                  "pétitions, consultations publiques, référendums, participation aux conseils municipaux et aux jurys populaires (assises)"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "correct_length_gives_clue",
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "EMC-0135",
+        "source": "F.4 Droits collectifs Droit à un environnement sain: la Charte de l’environnement reconnaît un droit à vivre dans un environnement équilibré et respectueux de la santé.",
+        "cat": "Enseignement moral et civique",
+        "page": 10
+      },
+      "nextSource": {
+        "id": "EMC-0137",
+        "source": "Il rappelle que la protection des données est un droit fondamental inscrit dans l’article 8 de la Charte des droits fondamentaux.",
+        "cat": "Enseignement moral et civique",
+        "page": 10
+      }
+    },
+    {
+      "id": "EMC-0187",
+      "cat": "Enseignement moral et civique",
+      "page": 12,
+      "chapter": "C. Textes fondamentaux",
+      "topic": "Textes fondamentaux",
+      "source": "Il est protégé par la loi de 2000 et l’article 9 de la DDHC.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "no_question",
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "EMC-0187",
+          "chapter": "C. Textes fondamentaux",
+          "topic": "Textes fondamentaux",
+          "source": "Il est protégé par la loi de 2000 et l’article 9 de la DDHC.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "no_question",
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Il?",
+                "o": [
+                  "une convention du Conseil de l’Europe, tandis que la Charte des droits fondamentaux relève de l’Union européenne",
+                  "protégé par la loi de 2000 et l’article 9 de la DDHC",
+                  "un règlement européen de 2016 applicable depuis 2018, qu’il protège les données personnelles et s’appuie sur l’article 8 de la Charte des droits fondamentaux",
+                  "un droit fondamental inscrit dans l’article 8 de la Charte des droits fondamentaux"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Il?",
+                "o": [
+                  "protégé par la loi de 2000 et l’article 9 de la DDHC",
+                  "un droit fondamental inscrit dans l’article 8 de la Charte des droits fondamentaux",
+                  "reconnu à l’article 16 de la DDHC",
+                  "une convention du Conseil de l’Europe, tandis que la Charte des droits fondamentaux relève de l’Union européenne"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Il?",
+                "o": [
+                  "une convention du Conseil de l’Europe, tandis que la Charte des droits fondamentaux relève de l’Union européenne",
+                  "reconnu à l’article 16 de la DDHC",
+                  "protégé par la loi de 2000 et l’article 9 de la DDHC",
+                  "un droit fondamental inscrit dans l’article 8 de la Charte des droits fondamentaux"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "EMC-0186",
+        "source": "Présomption d’innocence: ce principe s’applique aussi en matière disciplinaire et médiatique.",
+        "cat": "Enseignement moral et civique",
+        "page": 12
+      },
+      "nextSource": {
+        "id": "EMC-0189",
+        "source": "Parlement européen — Localisation: 720 députés (au 16 juillet 2024) élus au suffrage universel direct tous les cinq ans. Il participe à l’adoption des actes législatifs à égalité avec le Conseil, établit le budget de l’UE et contrôle la Commission (questions, commissions d’enquête). Il élit le président de la Commission.",
+        "cat": "Enseignement moral et civique",
+        "page": 13
+      }
+    },
+    {
+      "id": "EMC-0191",
+      "cat": "Enseignement moral et civique",
+      "page": 13,
+      "chapter": "K-L. Environnement et responsabilités",
+      "topic": "Institutions françaises",
+      "source": "Conseil européen — Localisation: Réunit les chefs d’État ou de gouvernement des États membres, son président et le président de la Commission. Il définit les grandes orientations politiques de l’UE et n’a pas de rôle législatif.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "option_length_imbalance",
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "EMC-0191",
+          "chapter": "K-L. Environnement et responsabilités",
+          "topic": "Institutions françaises",
+          "source": "Conseil européen — localisation: Réunit les chefs d’État ou de gouvernement des États membres, son président et le président de la Commission. Il définit les grandes orientations politiques de l’UE et n’a pas de rôle législatif.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "option_length_imbalance",
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Où se situe « Conseil européen »?",
+                "o": [
+                  "Gère l’euro et la politique monétaire de la zone euro",
+                  "Siège à Luxembourg. Assure le respect du droit de l’Union et interprète les traités. Ses arrêts sont contraignants",
+                  "720 députés (au 16 juillet 2024) élus au suffrage universel direct tous les cinq ans. Il participe à l’adoption des actes législatifs à égalité avec le Conseil, établit le budget de l’UE et contrôle la Commission (questions, commissions d’enquête). Il élit le président de la Commission",
+                  "Réunit les chefs d’État ou de gouvernement des États membres, son président et le président de la Commission. Il définit les grandes orientations politiques de l’UE et n’a pas de rôle législatif"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "option_length_imbalance",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « Conseil européen »?",
+                "o": [
+                  "Siège à Luxembourg. Assure le respect du droit de l’Union et interprète les traités. Ses arrêts sont contraignants",
+                  "Réunit les chefs d’État ou de gouvernement des États membres, son président et le président de la Commission. Il définit les grandes orientations politiques de l’UE et n’a pas de rôle législatif",
+                  "720 députés (au 16 juillet 2024) élus au suffrage universel direct tous les cinq ans. Il participe à l’adoption des actes législatifs à égalité avec le Conseil, établit le budget de l’UE et contrôle la Commission (questions, commissions d’enquête). Il élit le président de la Commission",
+                  "Organes consultatifs représentant respectivement les collectivités territoriales et les partenaires sociaux"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "option_length_imbalance",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « Conseil européen »?",
+                "o": [
+                  "Réunit les chefs d’État ou de gouvernement des États membres, son président et le président de la Commission. Il définit les grandes orientations politiques de l’UE et n’a pas de rôle législatif",
+                  "720 députés (au 16 juillet 2024) élus au suffrage universel direct tous les cinq ans. Il participe à l’adoption des actes législatifs à égalité avec le Conseil, établit le budget de l’UE et contrôle la Commission (questions, commissions d’enquête). Il élit le président de la Commission",
+                  "Organes consultatifs représentant respectivement les collectivités territoriales et les partenaires sociaux",
+                  "Siège à Luxembourg. Assure le respect du droit de l’Union et interprète les traités. Ses arrêts sont contraignants"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "option_length_imbalance",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « Conseil européen »?",
+                "o": [
+                  "720 députés (au 16 juillet 2024) élus au suffrage universel direct tous les cinq ans. Il participe à l’adoption des actes législatifs à égalité avec le Conseil, établit le budget de l’UE et contrôle la Commission (questions, commissions d’enquête). Il élit le président de la Commission",
+                  "Réunit les chefs d’État ou de gouvernement des États membres, son président et le président de la Commission. Il définit les grandes orientations politiques de l’UE et n’a pas de rôle législatif",
+                  "Organes consultatifs représentant respectivement les collectivités territoriales et les partenaires sociaux",
+                  "Siège à Luxembourg. Assure le respect du droit de l’Union et interprète les traités. Ses arrêts sont contraignants"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "option_length_imbalance",
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "EMC-0189",
+        "source": "Parlement européen — Localisation: 720 députés (au 16 juillet 2024) élus au suffrage universel direct tous les cinq ans. Il participe à l’adoption des actes législatifs à égalité avec le Conseil, établit le budget de l’UE et contrôle la Commission (questions, commissions d’enquête). Il élit le président de la Commission.",
+        "cat": "Enseignement moral et civique",
+        "page": 13
+      },
+      "nextSource": {
+        "id": "EMC-0192",
+        "source": "Cour de justice de l’UE (CJUE) — Localisation: Siège à Luxembourg. Assure le respect du droit de l’Union et interprète les traités. Ses arrêts sont contraignants.",
+        "cat": "Enseignement moral et civique",
+        "page": 13
+      }
+    },
+    {
+      "id": "EMC-0207",
+      "cat": "Enseignement moral et civique",
+      "page": 14,
+      "chapter": "K-L. Environnement et responsabilités",
+      "topic": "K-L. Environnement et responsabilités",
+      "source": "Commission européenne: elle seule a l’initiative législative au niveau européen.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "option_length_imbalance"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "EMC-0207",
+          "chapter": "K-L. Environnement et responsabilités",
+          "topic": "K-L. Environnement et responsabilités",
+          "source": "Commission européenne — rôle: elle seule a l’initiative législative au niveau européen.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "option_length_imbalance"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Commission européenne — rôle?",
+                "o": [
+                  "Organes consultatifs représentant respectivement les collectivités territoriales et les partenaires sociaux",
+                  "organisation mondiale fondée en 1945 pour la paix, la sécurité et la coopération",
+                  "seuls les États permanents du Conseil de sécurité de l’ONU disposent d’un droit de veto, pas les États au sein de l’UE",
+                  "elle seule a l’initiative législative au niveau européen"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Commission européenne — rôle?",
+                "o": [
+                  "elle seule a l’initiative législative au niveau européen",
+                  "droit à l’information, à l’accès, à la rectification, à l’effacement (droit à l’oubli), à la limitation du traitement, à la portabilité des données et à l’opposition",
+                  "organisation mondiale fondée en 1945 pour la paix, la sécurité et la coopération",
+                  "institutions financières issues des accords de Bretton Woods (1944) pour financer le développement et stabiliser les monnaies"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "option_length_imbalance"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Commission européenne — rôle?",
+                "o": [
+                  "Gère l’euro et la politique monétaire de la zone euro",
+                  "mise en conformité (registre, analyse d’impact), nomination d’un délégué à la protection des données (DPO) et notification des violations de données dans les 72 heures",
+                  "règlement européen du 27 avril 2016, applicable depuis le 25 mai 2018, qui harmonise la protection des données dans l’UE",
+                  "elle seule a l’initiative législative au niveau européen"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Commission européenne — rôle?",
+                "o": [
+                  "Gère l’euro et la politique monétaire de la zone euro",
+                  "droit à l’information, à l’accès, à la rectification, à l’effacement (droit à l’oubli), à la limitation du traitement, à la portabilité des données et à l’opposition",
+                  "espaces de partage qui posent des enjeux de diffusion de fausses informations",
+                  "elle seule a l’initiative législative au niveau européen"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "option_length_imbalance"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "EMC-0206",
+        "source": "Rôle du Parlement européen: ne pas oublier qu’il partage le budget avec le Conseil et contrôle la Commission.",
+        "cat": "Enseignement moral et civique",
+        "page": 14
+      },
+      "nextSource": {
+        "id": "EMC-0208",
+        "source": "Les États membres et le Parlement peuvent solliciter la Commission mais ne peuvent pas déposer de projets de loi européens.",
+        "cat": "Enseignement moral et civique",
+        "page": 14
+      }
+    },
+    {
+      "id": "EMC-0213",
+      "cat": "Enseignement moral et civique",
+      "page": 14,
+      "chapter": "K-L. Environnement et responsabilités",
+      "topic": "K-L. Environnement et responsabilités",
+      "source": "Obligations des responsables de traitement: mise en conformité (registre, analyse d’impact), nomination d’un délégué à la protection des données (DPO) et notification des violations de données dans les 72 heures.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "EMC-0213",
+          "chapter": "K-L. Environnement et responsabilités",
+          "topic": "K-L. Environnement et responsabilités",
+          "source": "Obligations des responsables de traitement — caractéristiques: mise en conformité (registre, analyse d’impact), nomination d’un délégué à la protection des données (DPO) et notification des violations de données dans les 72 heures.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Obligations des responsables de traitement?",
+                "o": [
+                  "mise en conformité (registre, analyse d’impact), nomination d’un délégué à la protection des données (DPO) et notification des violations de données dans les 72 heures",
+                  "seuls les États permanents du Conseil de sécurité de l’ONU disposent d’un droit de veto, pas les États au sein de l’UE",
+                  "le Conseil de l’Europe n’a aucun pouvoir législatif sur l’UE",
+                  "droit à l’information, à l’accès, à la rectification, à l’effacement (droit à l’oubli), à la limitation du traitement, à la portabilité des données et à l’opposition"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Obligations des responsables de traitement?",
+                "o": [
+                  "organisation mondiale fondée en 1945 pour la paix, la sécurité et la coopération",
+                  "droit à l’information, à l’accès, à la rectification, à l’effacement (droit à l’oubli), à la limitation du traitement, à la portabilité des données et à l’opposition",
+                  "seuls les États permanents du Conseil de sécurité de l’ONU disposent d’un droit de veto, pas les États au sein de l’UE",
+                  "mise en conformité (registre, analyse d’impact), nomination d’un délégué à la protection des données (DPO) et notification des violations de données dans les 72 heures"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Obligations des responsables de traitement?",
+                "o": [
+                  "règlement européen du 27 avril 2016, applicable depuis le 25 mai 2018, qui harmonise la protection des données dans l’UE",
+                  "mise en conformité (registre, analyse d’impact), nomination d’un délégué à la protection des données (DPO) et notification des violations de données dans les 72 heures",
+                  "seuls les États permanents du Conseil de sécurité de l’ONU disposent d’un droit de veto, pas les États au sein de l’UE",
+                  "droit à l’information, à l’accès, à la rectification, à l’effacement (droit à l’oubli), à la limitation du traitement, à la portabilité des données et à l’opposition"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Obligations des responsables de traitement?",
+                "o": [
+                  "droit à l’information, à l’accès, à la rectification, à l’effacement (droit à l’oubli), à la limitation du traitement, à la portabilité des données et à l’opposition",
+                  "le Conseil de l’Europe n’a aucun pouvoir législatif sur l’UE",
+                  "seuls les États permanents du Conseil de sécurité de l’ONU disposent d’un droit de veto, pas les États au sein de l’UE",
+                  "mise en conformité (registre, analyse d’impact), nomination d’un délégué à la protection des données (DPO) et notification des violations de données dans les 72 heures"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "EMC-0212",
+        "source": "Droits des personnes: droit à l’information, à l’accès, à la rectification, à l’effacement (droit à l’oubli), à la limitation du traitement, à la portabilité des données et à l’opposition.",
+        "cat": "Enseignement moral et civique",
+        "page": 14
+      },
+      "nextSource": {
+        "id": "EMC-0214",
+        "source": "Rôle de la CNIL: autorité de contrôle en France, elle veille au respect de la loi Informatique et libertés (1978 modifiée) et du RGPD.",
+        "cat": "Enseignement moral et civique",
+        "page": 14
+      }
+    },
+    {
+      "id": "ORG-0001",
+      "cat": "Organisation et missions",
+      "page": 1,
+      "chapter": "1-2. Bercy, directions et services",
+      "topic": "DGDDI et douane",
+      "source": "Le périmètre comprend aussi l’économie, le budget, la douane, la concurrence, les entreprises, la statistique publique, la dette de l’État et le renseignement financier.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "correct_length_gives_clue"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "ORG-0001",
+          "chapter": "1-2. Bercy, directions et services",
+          "topic": "DGDDI et douane",
+          "source": "Le périmètre comprend aussi l’économie, le budget, la douane, la concurrence, les entreprises, la statistique publique, la dette de l’État et le renseignement financier.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "correct_length_gives_clue"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le périmètre?",
+                "o": [
+                  "des personnes aux frontières dans le cadre de ses compétences",
+                  "celui des frontières, des marchandises, des échanges et des droits indirects",
+                  "un droit de douane appliqué aux marchandises importées",
+                  "aussi l’économie, le budget, la douane, la concurrence, les entreprises, la statistique publique, la dette de l’État et le renseignement financier"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le périmètre?",
+                "o": [
+                  "un droit de douane appliqué aux marchandises importées",
+                  "celui des frontières, des marchandises, des échanges et des droits indirects",
+                  "aussi l’économie, le budget, la douane, la concurrence, les entreprises, la statistique publique, la dette de l’État et le renseignement financier",
+                  "la régulation et le contrôle des flux de marchandises"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le périmètre?",
+                "o": [
+                  "un droit de douane appliqué aux marchandises importées",
+                  "aussi l’économie, le budget, la douane, la concurrence, les entreprises, la statistique publique, la dette de l’État et le renseignement financier",
+                  "la régulation et le contrôle des flux de marchandises",
+                  "celui des frontières, des marchandises, des échanges et des droits indirects"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le périmètre?",
+                "o": [
+                  "la régulation et le contrôle des flux de marchandises",
+                  "un droit de douane appliqué aux marchandises importées",
+                  "aussi l’économie, le budget, la douane, la concurrence, les entreprises, la statistique publique, la dette de l’État et le renseignement financier",
+                  "des personnes aux frontières dans le cadre de ses compétences"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "correct_length_gives_clue"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "ACT-0122",
+        "source": "Calendrier — Les prix Nobel 2026 ne sont pas encore attribués au 31 août 2026: ils sont annoncés en octobre.",
+        "cat": "Actualité",
+        "page": 10
+      },
+      "nextSource": {
+        "id": "ORG-0002",
+        "source": "Organisation et missions des ministères économiques et financiers",
+        "cat": "Organisation et missions",
+        "page": 1
+      }
+    },
+    {
+      "id": "ORG-0014",
+      "cat": "Organisation et missions",
+      "page": 2,
+      "chapter": "1-2. Bercy, directions et services",
+      "topic": "1-2. Bercy, directions et services",
+      "source": "Pour le QCM, l’essentiel est de savoir associer chaque sigle à sa mission principale.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "no_question",
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "ORG-0014",
+          "chapter": "1-2. Bercy, directions et services",
+          "topic": "1-2. Bercy, directions et services",
+          "source": "Pour le QCM, l’essentiel est de savoir associer chaque sigle à sa mission principale.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "no_question",
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Pour le QCM, l’essentiel?",
+                "o": [
+                  "les éléments relevant de sa responsabilité et réalise matériellement l’encaissement ou le paiement",
+                  "pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu",
+                  "vérifie et rectifie; le recouvrement encaisse",
+                  "de savoir associer chaque sigle à sa mission principale"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Pour le QCM, l’essentiel?",
+                "o": [
+                  "les éléments relevant de sa responsabilité et réalise matériellement l’encaissement ou le paiement",
+                  "imposable; liquidation = calculer le montant; recouvrement = encaisser",
+                  "de savoir associer chaque sigle à sa mission principale",
+                  "de la comptabilité professionnelle, pouvant être réalisé dans l’entreprise ou selon les modalités prévues par la procédure"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Pour le QCM, l’essentiel?",
+                "o": [
+                  "la régulation et le contrôle des flux de marchandises",
+                  "de savoir associer chaque sigle à sa mission principale",
+                  "imposable; liquidation = calculer le montant; recouvrement = encaisser",
+                  "à distance de la comptabilité informatisée d’une entreprise à partir du fichier des écritures comptables (FEC)"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "ORG-0013",
+        "source": "Direction du Budget — Mission essentielle: Préparer les lois de finances, suivre l’exécution du budget et contribuer à la soutenabilité des finances publiques.",
+        "cat": "Organisation et missions",
+        "page": 2
+      },
+      "nextSource": {
+        "id": "ORG-0015",
+        "source": "Tracfin — Domaine: Renseignement financier",
+        "cat": "Organisation et missions",
+        "page": 3
+      }
+    },
+    {
+      "id": "ORG-0025",
+      "cat": "Organisation et missions",
+      "page": 3,
+      "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+      "topic": "DGFiP et fiscalité",
+      "source": "La Direction générale des Finances publiques (DGFiP), créée en 2008, est l’une des principales directions de Bercy.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "ORG-0025",
+          "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+          "topic": "DGFiP et fiscalité",
+          "source": "La Direction générale des Finances publiques (DGFiP), créée en 2008, est l’une des principales directions de Bercy.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La Direction générale des Finances publiques (DGFiP), créée en 2008?",
+                "o": [
+                  "l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt",
+                  "l’une des principales directions de Bercy",
+                  "pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu",
+                  "imposable; liquidation = calculer le montant; recouvrement = encaisser"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La Direction générale des Finances publiques (DGFiP), créée en 2008?",
+                "o": [
+                  "pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu",
+                  "l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt",
+                  "l’une des principales directions de Bercy",
+                  "vérifie et rectifie; le recouvrement encaisse"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La Direction générale des Finances publiques (DGFiP), créée en 2008?",
+                "o": [
+                  "vérifie et rectifie; le recouvrement encaisse",
+                  "l’une des principales directions de Bercy",
+                  "pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu",
+                  "imposable; liquidation = calculer le montant; recouvrement = encaisser"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "ORG-0024",
+        "source": "Direction des achats de l’État (DAE): définit et pilote la politique des achats de l’État.",
+        "cat": "Organisation et missions",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "ORG-0026",
+        "source": "Elle réunit des missions fiscales et des missions de gestion publique.",
+        "cat": "Organisation et missions",
+        "page": 3
+      }
+    },
+    {
+      "id": "ORG-0034",
+      "cat": "Organisation et missions",
+      "page": 4,
+      "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+      "topic": "DGFiP et fiscalité",
+      "source": "La DGDDI ne « gère pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "ORG-0034",
+          "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+          "topic": "DGFiP et fiscalité",
+          "source": "La DGDDI ne « gère pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La DGDDI ne «?",
+                "o": [
+                  "l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt",
+                  "fiscal est l’ensemble des vérifications effectuées par l’administration fiscale pour s’assurer que les contribuables – particuliers ou entreprises – respectent leurs obligations et que leurs déclarations sont exactes",
+                  "de cohérence de la situation d’un particulier au regard de ses revenus déclarés",
+                  "pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La DGDDI ne «?",
+                "o": [
+                  "imposable; liquidation = calculer le montant; recouvrement = encaisser",
+                  "pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu",
+                  "l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt",
+                  "l’une des principales directions de Bercy"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à La DGDDI ne «?",
+                "o": [
+                  "l’une des principales directions de Bercy",
+                  "pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu",
+                  "de cohérence de la situation d’un particulier au regard de ses revenus déclarés",
+                  "l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "ORG-0033",
+        "source": "Participer au contrôle des personnes aux frontières dans le cadre de ses compétences.",
+        "cat": "Organisation et missions",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "ORG-0035",
+        "source": "Son domaine distinctif est celui des frontières, des marchandises, des échanges et des droits indirects.",
+        "cat": "Organisation et missions",
+        "page": 4
+      }
+    },
+    {
+      "id": "ORG-0061",
+      "cat": "Organisation et missions",
+      "page": 6,
+      "chapter": "8-9. Contrôle fiscal, recouvrement et contentieux",
+      "topic": "DGFiP et fiscalité",
+      "source": "Le recouvrement est l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "no_question",
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "ORG-0061",
+          "chapter": "8-9. Contrôle fiscal, recouvrement et contentieux",
+          "topic": "DGFiP et fiscalité",
+          "source": "Le recouvrement est l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "no_question",
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le recouvrement?",
+                "o": [
+                  "fiscal est l’ensemble des vérifications effectuées par l’administration fiscale pour s’assurer que les contribuables – particuliers ou entreprises – respectent leurs obligations et que leurs déclarations sont exactes",
+                  "imposable; liquidation = calculer le montant; recouvrement = encaisser",
+                  "l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt",
+                  "pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "ORG-0060",
+        "source": "Le contrôle vérifie et rectifie; le recouvrement encaisse.",
+        "cat": "Organisation et missions",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "ORG-0062",
+        "source": "Dans un QCM de base, « recouvrement des impôts » = collecte / encaissement des impôts.",
+        "cat": "Organisation et missions",
+        "page": 6
+      }
+    },
+    {
+      "id": "ORG-0067",
+      "cat": "Organisation et missions",
+      "page": 6,
+      "chapter": "8-9. Contrôle fiscal, recouvrement et contentieux",
+      "topic": "DGFiP et fiscalité",
+      "source": "Assiette = déterminer ce qui est imposable; liquidation = calculer le montant; recouvrement = encaisser.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "ORG-0067",
+          "chapter": "8-9. Contrôle fiscal, recouvrement et contentieux",
+          "topic": "DGFiP et fiscalité",
+          "source": "Assiette = déterminer ce qui est imposable; liquidation = calculer le montant; recouvrement = encaisser.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Assiette = déterminer ce qui?",
+                "o": [
+                  "l’une des principales directions de Bercy",
+                  "imposable; liquidation = calculer le montant; recouvrement = encaisser",
+                  "vérifie et rectifie; le recouvrement encaisse",
+                  "pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Assiette = déterminer ce qui?",
+                "o": [
+                  "l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt",
+                  "pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu",
+                  "vérifie et rectifie; le recouvrement encaisse",
+                  "imposable; liquidation = calculer le montant; recouvrement = encaisser"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Assiette = déterminer ce qui?",
+                "o": [
+                  "imposable; liquidation = calculer le montant; recouvrement = encaisser",
+                  "fiscal est l’ensemble des vérifications effectuées par l’administration fiscale pour s’assurer que les contribuables – particuliers ou entreprises – respectent leurs obligations et que leurs déclarations sont exactes",
+                  "l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt",
+                  "pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Assiette = déterminer ce qui?",
+                "o": [
+                  "pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu",
+                  "vérifie et rectifie; le recouvrement encaisse",
+                  "imposable; liquidation = calculer le montant; recouvrement = encaisser",
+                  "de cohérence de la situation d’un particulier au regard de ses revenus déclarés"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "ORG-0066",
+        "source": "Contentieux du recouvrement: contestation liée aux actes de poursuite ou aux modalités d’encaissement.",
+        "cat": "Organisation et missions",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "ORG-0068",
+        "source": "Ordonnateur — Rôle simplifié: Décide et ordonne l’opération: il engage une dépense, constate/liquide la créance ou donne l’ordre de payer/recouvrer selon les procédures.",
+        "cat": "Organisation et missions",
+        "page": 7
       }
     }
   ]
