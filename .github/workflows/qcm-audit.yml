@@ -20,7 +20,12 @@ jobs:
           node - <<'NODE'
           const fs = require('fs');
           const report = JSON.parse(fs.readFileSync('audit-report.json','utf8'));
-          const rows = report.rows
+          const indexed = report.rows.map((r,i)=>({
+            ...r,
+            previousSource: i>0 ? {id:report.rows[i-1].id,source:report.rows[i-1].source,cat:report.rows[i-1].cat,page:report.rows[i-1].page} : null,
+            nextSource: i<report.rows.length-1 ? {id:report.rows[i+1].id,source:report.rows[i+1].source,cat:report.rows[i+1].cat,page:report.rows[i+1].page} : null
+          }));
+          const rows = indexed
             .filter(r => !r.allPass)
             .sort((a,b) => {
               const sa = a.sourceRejected ? 0 : (a.anyQuestion ? 2 : 1);
