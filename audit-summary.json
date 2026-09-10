@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-10T13:27:50.827Z",
+  "generatedAt": "2026-09-10T13:32:20.865Z",
   "rawFragments": 2349,
   "sourceFacts": 2203,
-  "enrichedFacts": 2479,
+  "enrichedFacts": 2491,
   "auditedSourceFacts": 2203,
   "categories": [
     "Histoire",
@@ -17,47 +17,47 @@
   "byCat": {
     "Histoire": {
       "facts": 463,
-      "pass": 446,
+      "pass": 449,
       "noQuestion": 0,
-      "flagged": 12,
+      "flagged": 9,
       "sourceRejected": 0,
       "resolvedNonAtomic": 5,
-      "remaining": 12
+      "remaining": 9
     },
     "Géographie": {
       "facts": 393,
-      "pass": 382,
+      "pass": 383,
       "noQuestion": 0,
-      "flagged": 8,
+      "flagged": 7,
       "sourceRejected": 0,
       "resolvedNonAtomic": 3,
-      "remaining": 8
+      "remaining": 7
     },
     "Enseignement moral et civique": {
       "facts": 233,
-      "pass": 217,
+      "pass": 222,
       "noQuestion": 0,
-      "flagged": 11,
+      "flagged": 5,
       "sourceRejected": 0,
-      "resolvedNonAtomic": 5,
-      "remaining": 11
+      "resolvedNonAtomic": 6,
+      "remaining": 5
     },
     "Actualité": {
       "facts": 119,
-      "pass": 107,
+      "pass": 111,
       "noQuestion": 0,
-      "flagged": 7,
+      "flagged": 3,
       "sourceRejected": 0,
       "resolvedNonAtomic": 5,
-      "remaining": 7
+      "remaining": 3
     },
     "Organisation et missions": {
       "facts": 95,
-      "pass": 82,
+      "pass": 80,
       "noQuestion": 0,
       "flagged": 7,
       "sourceRejected": 0,
-      "resolvedNonAtomic": 6,
+      "resolvedNonAtomic": 8,
       "remaining": 7
     },
     "Mathématiques": {
@@ -80,28 +80,27 @@
     },
     "Culture générale": {
       "facts": 613,
-      "pass": 575,
+      "pass": 579,
       "noQuestion": 0,
-      "flagged": 18,
+      "flagged": 12,
       "sourceRejected": 0,
-      "resolvedNonAtomic": 20,
-      "remaining": 18
+      "resolvedNonAtomic": 22,
+      "remaining": 12
     }
   },
   "issueCounts": {
     "correct_length_gives_clue": 34,
-    "mixed_semantic_types": 7,
-    "no_question": 25,
-    "answer_too_broad": 2,
+    "no_question": 11,
+    "mixed_semantic_types": 3,
     "answer_not_literal_in_source": 2,
     "option_length_imbalance": 1
   },
-  "fullyCompliant": 2036,
-  "resolvedNonAtomic": 99,
-  "resolvedTotal": 2135,
-  "remaining": 68,
-  "flagged": 68,
+  "fullyCompliant": 2051,
+  "resolvedNonAtomic": 104,
+  "resolvedTotal": 2155,
+  "remaining": 48,
+  "flagged": 48,
   "noQuestion": 0,
-  "withQuestion": 2104,
+  "withQuestion": 2099,
   "sourceRejected": 0
 }

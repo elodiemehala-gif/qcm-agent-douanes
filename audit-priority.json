@@ -1,9 +1,9 @@
 {
   "summary": {
-    "generatedAt": "2026-09-10T13:27:50.827Z",
+    "generatedAt": "2026-09-10T13:32:20.865Z",
     "rawFragments": 2349,
     "sourceFacts": 2203,
-    "enrichedFacts": 2479,
+    "enrichedFacts": 2491,
     "auditedSourceFacts": 2203,
     "categories": [
       "Histoire",
@@ -18,47 +18,47 @@
     "byCat": {
       "Histoire": {
         "facts": 463,
-        "pass": 446,
+        "pass": 449,
         "noQuestion": 0,
-        "flagged": 12,
+        "flagged": 9,
         "sourceRejected": 0,
         "resolvedNonAtomic": 5,
-        "remaining": 12
+        "remaining": 9
       },
       "Géographie": {
         "facts": 393,
-        "pass": 382,
+        "pass": 383,
         "noQuestion": 0,
-        "flagged": 8,
+        "flagged": 7,
         "sourceRejected": 0,
         "resolvedNonAtomic": 3,
-        "remaining": 8
+        "remaining": 7
       },
       "Enseignement moral et civique": {
         "facts": 233,
-        "pass": 217,
+        "pass": 222,
         "noQuestion": 0,
-        "flagged": 11,
+        "flagged": 5,
         "sourceRejected": 0,
-        "resolvedNonAtomic": 5,
-        "remaining": 11
+        "resolvedNonAtomic": 6,
+        "remaining": 5
       },
       "Actualité": {
         "facts": 119,
-        "pass": 107,
+        "pass": 111,
         "noQuestion": 0,
-        "flagged": 7,
+        "flagged": 3,
         "sourceRejected": 0,
         "resolvedNonAtomic": 5,
-        "remaining": 7
+        "remaining": 3
       },
       "Organisation et missions": {
         "facts": 95,
-        "pass": 82,
+        "pass": 80,
         "noQuestion": 0,
         "flagged": 7,
         "sourceRejected": 0,
-        "resolvedNonAtomic": 6,
+        "resolvedNonAtomic": 8,
         "remaining": 7
       },
       "Mathématiques": {
@@ -81,29 +81,28 @@
       },
       "Culture générale": {
         "facts": 613,
-        "pass": 575,
+        "pass": 579,
         "noQuestion": 0,
-        "flagged": 18,
+        "flagged": 12,
         "sourceRejected": 0,
-        "resolvedNonAtomic": 20,
-        "remaining": 18
+        "resolvedNonAtomic": 22,
+        "remaining": 12
       }
     },
     "issueCounts": {
       "correct_length_gives_clue": 34,
-      "mixed_semantic_types": 7,
-      "no_question": 25,
-      "answer_too_broad": 2,
+      "no_question": 11,
+      "mixed_semantic_types": 3,
       "answer_not_literal_in_source": 2,
       "option_length_imbalance": 1
     },
-    "fullyCompliant": 2036,
-    "resolvedNonAtomic": 99,
-    "resolvedTotal": 2135,
-    "remaining": 68,
-    "flagged": 68,
+    "fullyCompliant": 2051,
+    "resolvedNonAtomic": 104,
+    "resolvedTotal": 2155,
+    "remaining": 48,
+    "flagged": 48,
     "noQuestion": 0,
-    "withQuestion": 2104,
+    "withQuestion": 2099,
     "sourceRejected": 0
   },
   "rows": [
@@ -273,26 +272,351 @@
       }
     },
     {
-      "id": "EMC-0192",
+      "id": "EMC-0198",
       "cat": "Enseignement moral et civique",
       "page": 13,
       "chapter": "K-L. Environnement et responsabilités",
       "topic": "Justice",
-      "source": "Cour de justice de l’UE (CJUE) — Localisation: Siège à Luxembourg. Assure le respect du droit de l’Union et interprète les traités. Ses arrêts sont contraignants.",
+      "source": "Les principaux organes sont l’Assemblée générale (tous les États membres), le Conseil de sécurité (15 membres dont 5 permanents), le Secrétariat général et la Cour internationale de justice.",
       "allPass": false,
       "anyQuestion": true,
       "issues": [
-        "no_question",
-        "correct_length_gives_clue"
+        "mixed_semantic_types",
+        "no_question"
       ],
       "sourceRejected": false,
       "sourceResolvedNonAtomic": false,
       "variants": [
         {
-          "id": "EMC-0192-v28g-1",
+          "id": "EMC-0198-v28i-1",
           "chapter": "K-L. Environnement et responsabilités",
           "topic": "Justice",
-          "source": "CJUE — localisation: à Luxembourg",
+          "source": "ONU — association: Assemblée générale",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour ONU?",
+                "o": [
+                  "cours administratives d’appel",
+                  "Conseil d’État",
+                  "Cour internationale de justice",
+                  "Assemblée générale"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour ONU?",
+                "o": [
+                  "cours administratives d’appel",
+                  "Assemblée générale",
+                  "Conseil d’État",
+                  "Conseil de sécurité"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour ONU?",
+                "o": [
+                  "Conseil d’État",
+                  "Assemblée générale",
+                  "cours administratives d’appel",
+                  "Cour internationale de justice"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour ONU?",
+                "o": [
+                  "cours administratives d’appel",
+                  "Conseil d’État",
+                  "Cour internationale de justice",
+                  "Assemblée générale"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "EMC-0198-v28i-2",
+          "chapter": "K-L. Environnement et responsabilités",
+          "topic": "Justice",
+          "source": "ONU — association: Conseil de sécurité",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour ONU?",
+                "o": [
+                  "Conseil de sécurité",
+                  "Conseil d’État",
+                  "Cour internationale de justice",
+                  "cours administratives d’appel"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour ONU?",
+                "o": [
+                  "Conseil d’État",
+                  "Cour internationale de justice",
+                  "Conseil de sécurité",
+                  "cours administratives d’appel"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour ONU?",
+                "o": [
+                  "Conseil de sécurité",
+                  "Conseil d’État",
+                  "Assemblée générale",
+                  "cours administratives d’appel"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour ONU?",
+                "o": [
+                  "Cour internationale de justice",
+                  "cours administratives d’appel",
+                  "Conseil d’État",
+                  "Conseil de sécurité"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "EMC-0198-v28i-3",
+          "chapter": "K-L. Environnement et responsabilités",
+          "topic": "Justice",
+          "source": "ONU — association: Secrétariat général",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour ONU?",
+                "o": [
+                  "contrats, famille et succession",
+                  "tribunaux administratifs",
+                  "Secrétariat général",
+                  "contraventions, délits et crimes"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour ONU?",
+                "o": [
+                  "contrats, famille et succession",
+                  "Secrétariat général",
+                  "tribunaux administratifs",
+                  "recours pour excès de pouvoir"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour ONU?",
+                "o": [
+                  "Secrétariat général",
+                  "contrats, famille et succession",
+                  "justice civile et justice pénale",
+                  "tribunaux administratifs"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour ONU?",
+                "o": [
+                  "contrats, famille et succession",
+                  "Secrétariat général",
+                  "contraventions, délits et crimes",
+                  "tribunaux administratifs"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "EMC-0198-v28i-4",
+          "chapter": "K-L. Environnement et responsabilités",
+          "topic": "Justice",
+          "source": "ONU — association: Cour internationale de justice",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour ONU?",
+                "o": [
+                  "Conseil de sécurité",
+                  "cours administratives d’appel",
+                  "Conseil d’État",
+                  "Cour internationale de justice"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour ONU?",
+                "o": [
+                  "Conseil d’État",
+                  "cours administratives d’appel",
+                  "Conseil de sécurité",
+                  "Cour internationale de justice"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour ONU?",
+                "o": [
+                  "Cour internationale de justice",
+                  "Assemblée générale",
+                  "cours administratives d’appel",
+                  "Conseil de sécurité"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour ONU?",
+                "o": [
+                  "Cour internationale de justice",
+                  "Conseil de sécurité",
+                  "cours administratives d’appel",
+                  "Assemblée générale"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "EMC-0198-v28i-5",
+          "chapter": "K-L. Environnement et responsabilités",
+          "topic": "Justice",
+          "source": "Conseil de sécurité de l’ONU — nombre: 15",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Conseil de sécurité de l’ONU — nombre?",
+                "o": [
+                  "15",
+                  "1880",
+                  "2016",
+                  "1972"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Conseil de sécurité de l’ONU — nombre?",
+                "o": [
+                  "1792",
+                  "2016",
+                  "1880",
+                  "15"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Conseil de sécurité de l’ONU — nombre?",
+                "o": [
+                  "15",
+                  "2011",
+                  "1990",
+                  "2018"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Conseil de sécurité de l’ONU — nombre?",
+                "o": [
+                  "1792",
+                  "15",
+                  "1990",
+                  "1972"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "EMC-0198-v28i-6",
+          "chapter": "K-L. Environnement et responsabilités",
+          "topic": "Justice",
+          "source": "Membres permanents du Conseil de sécurité de l’ONU — nombre: 5",
           "allPass": false,
           "anyQuestion": false,
           "issues": [
@@ -324,216 +648,17 @@
               ]
             }
           ]
-        },
-        {
-          "id": "EMC-0192-v28g-2",
-          "chapter": "K-L. Environnement et responsabilités",
-          "topic": "Justice",
-          "source": "CJUE — rôle: assure le respect du droit de l’Union",
-          "allPass": true,
-          "anyQuestion": true,
-          "issues": [],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quel est le rôle principal de CJUE?",
-                "o": [
-                  "sanctionne les comportements contraires à la loi",
-                  "définit les grandes orientations politiques de l’Union européenne",
-                  "assure le respect du droit de l’Union",
-                  "elle seule a l’initiative législative au niveau européen"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quel est le rôle principal de CJUE?",
-                "o": [
-                  "elle seule a l’initiative législative au niveau européen",
-                  "sanctionne les comportements contraires à la loi",
-                  "définit les grandes orientations politiques de l’Union européenne",
-                  "assure le respect du droit de l’Union"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quel est le rôle principal de CJUE?",
-                "o": [
-                  "elle seule a l’initiative législative au niveau européen",
-                  "définit les grandes orientations politiques de l’Union européenne",
-                  "assure le respect du droit de l’Union",
-                  "sanctionne les comportements contraires à la loi"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quel est le rôle principal de CJUE?",
-                "o": [
-                  "définit les grandes orientations politiques de l’Union européenne",
-                  "assure le respect du droit de l’Union",
-                  "elle seule a l’initiative législative au niveau européen",
-                  "sanctionne les comportements contraires à la loi"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            }
-          ]
-        },
-        {
-          "id": "EMC-0192-v28g-3",
-          "chapter": "K-L. Environnement et responsabilités",
-          "topic": "Justice",
-          "source": "CJUE — rôle: interprète les traités",
-          "allPass": true,
-          "anyQuestion": true,
-          "issues": [],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quel est le rôle principal de CJUE?",
-                "o": [
-                  "juge les infractions pénales",
-                  "juge les litiges entre particuliers",
-                  "traite les litiges entre particuliers",
-                  "interprète les traités"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quel est le rôle principal de CJUE?",
-                "o": [
-                  "juge les infractions pénales",
-                  "interprète les traités",
-                  "juge les litiges entre particuliers",
-                  "traite les litiges entre particuliers"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quel est le rôle principal de CJUE?",
-                "o": [
-                  "juge les infractions pénales",
-                  "traite les litiges entre particuliers",
-                  "juge les litiges entre particuliers",
-                  "interprète les traités"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quel est le rôle principal de CJUE?",
-                "o": [
-                  "juge les infractions pénales",
-                  "juge les litiges entre particuliers",
-                  "traite les litiges entre particuliers",
-                  "interprète les traités"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            }
-          ]
-        },
-        {
-          "id": "EMC-0192-v28g-4",
-          "chapter": "K-L. Environnement et responsabilités",
-          "topic": "Justice",
-          "source": "Arrêts de la CJUE — caractéristiques: contraignants",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "correct_length_gives_clue"
-          ],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Arrêts de la CJUE?",
-                "o": [
-                  "contraignants",
-                  "plus haute juridiction administrative",
-                  "alliance militaire créée en 1949",
-                  "n’exerce pas de rôle législatif"
-                ],
-                "ans": 0
-              },
-              "issues": [
-                "correct_length_gives_clue"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Arrêts de la CJUE?",
-                "o": [
-                  "coordonne la politique sanitaire internationale",
-                  "alliance militaire créée en 1949",
-                  "plus haute juridiction administrative",
-                  "contraignants"
-                ],
-                "ans": 3
-              },
-              "issues": [
-                "correct_length_gives_clue"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Arrêts de la CJUE?",
-                "o": [
-                  "contraignants",
-                  "alliance militaire créée en 1949",
-                  "n’exerce pas de rôle législatif",
-                  "plus haute juridiction administrative"
-                ],
-                "ans": 0
-              },
-              "issues": [
-                "correct_length_gives_clue"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Arrêts de la CJUE?",
-                "o": [
-                  "plus haute juridiction administrative",
-                  "alliance militaire créée en 1949",
-                  "contraignants",
-                  "n’exerce pas de rôle législatif"
-                ],
-                "ans": 2
-              },
-              "issues": [
-                "correct_length_gives_clue"
-              ]
-            }
-          ]
         }
       ],
       "previousSource": {
-        "id": "EMC-0191",
-        "source": "Conseil européen — Localisation: Réunit les chefs d’État ou de gouvernement des États membres, son président et le président de la Commission. Il définit les grandes orientations politiques de l’UE et n’a pas de rôle législatif.",
+        "id": "EMC-0197",
+        "source": "J.3 ONU et OTAN ONU: organisation mondiale fondée en 1945 pour la paix, la sécurité et la coopération.",
         "cat": "Enseignement moral et civique",
         "page": 13
       },
       "nextSource": {
-        "id": "EMC-0193",
-        "source": "Banque centrale européenne (BCE) — Localisation: Gère l’euro et la politique monétaire de la zone euro.",
+        "id": "EMC-0199",
+        "source": "La France est membre permanent du Conseil de sécurité.",
         "cat": "Enseignement moral et civique",
         "page": 13
       }
@@ -824,169 +949,6 @@
       }
     },
     {
-      "id": "HIS-0091",
-      "cat": "Histoire",
-      "page": 6,
-      "chapter": "II. France des origines à la Révolution",
-      "topic": "Moyen Âge",
-      "source": "Conséquences: affirmation de l’autorité royale, affaiblissement de la féodalité, naissance de l’État moderne.",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "mixed_semantic_types"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0091-v28-1",
-          "chapter": "II. France des origines à la Révolution",
-          "topic": "Moyen Âge",
-          "source": "Évolution du pouvoir royal au Moyen Âge — caractéristiques: affirmation de l’autorité royale et affaiblissement de la féodalité",
-          "allPass": true,
-          "anyQuestion": true,
-          "issues": [],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Évolution du pouvoir royal au Moyen Âge?",
-                "o": [
-                  "roi des Francs saliens, baptisé vers 496 à Reims",
-                  "durée de 116 ans avec des trêves",
-                  "le roi reste lié aux lois fondamentales du royaume",
-                  "affirmation de l’autorité royale et affaiblissement de la féodalité"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Évolution du pouvoir royal au Moyen Âge?",
-                "o": [
-                  "auteur de De l’esprit des lois (1748)",
-                  "le roi reste lié aux lois fondamentales du royaume",
-                  "affirmation de l’autorité royale et affaiblissement de la féodalité",
-                  "roi des Francs saliens, baptisé vers 496 à Reims"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Évolution du pouvoir royal au Moyen Âge?",
-                "o": [
-                  "auteur de De l’esprit des lois (1748)",
-                  "le roi reste lié aux lois fondamentales du royaume",
-                  "roi des Francs saliens, baptisé vers 496 à Reims",
-                  "affirmation de l’autorité royale et affaiblissement de la féodalité"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Évolution du pouvoir royal au Moyen Âge?",
-                "o": [
-                  "le roi reste lié aux lois fondamentales du royaume",
-                  "affirmation de l’autorité royale et affaiblissement de la féodalité",
-                  "voyages maritimes sponsorisés par les États européens",
-                  "roi des Francs saliens, baptisé vers 496 à Reims"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            }
-          ]
-        },
-        {
-          "id": "HIS-0091-v28-2",
-          "chapter": "II. France des origines à la Révolution",
-          "topic": "Moyen Âge",
-          "source": "Évolution du pouvoir royal au Moyen Âge — repère: naissance progressive de l’État moderne",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "mixed_semantic_types"
-          ],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Évolution du pouvoir royal au Moyen Âge — repère?",
-                "o": [
-                  "vers 9 000 av. J.-C",
-                  "céréales (blé, orge) au Proche-Orient",
-                  "conception fondée sur l’empirisme",
-                  "naissance progressive de l’État moderne"
-                ],
-                "ans": 3
-              },
-              "issues": [
-                "mixed_semantic_types"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Évolution du pouvoir royal au Moyen Âge — repère?",
-                "o": [
-                  "naissance progressive de l’État moderne",
-                  "influence sur Rome",
-                  "opposition Athènes/Sparte (-431 – -404)",
-                  "vers 9 000 av. J.-C"
-                ],
-                "ans": 0
-              },
-              "issues": [
-                "mixed_semantic_types"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Évolution du pouvoir royal au Moyen Âge — repère?",
-                "o": [
-                  "pharaon chef politique et religieux",
-                  "céréales (blé, orge) au Proche-Orient",
-                  "opposition Athènes/Sparte (-431 – -404)",
-                  "naissance progressive de l’État moderne"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Évolution du pouvoir royal au Moyen Âge — repère?",
-                "o": [
-                  "vers 10 000 av. J.-C",
-                  "riz en Asie",
-                  "raisonnement logique et sciences naturelles",
-                  "naissance progressive de l’État moderne"
-                ],
-                "ans": 3
-              },
-              "issues": [
-                "mixed_semantic_types"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0090",
-        "source": "Saint Louis (Louis IX): roi capétien (règne 1226‐1270).",
-        "cat": "Histoire",
-        "page": 6
-      },
-      "nextSource": {
-        "id": "HIS-0092",
-        "source": "Penser que la Guerre de Cent Ans dure exactement 100 ans (elle s’étale sur 116 ans avec des trêves).",
-        "cat": "Histoire",
-        "page": 6
-      }
-    },
-    {
       "id": "HIS-0181",
       "cat": "Histoire",
       "page": 10,
@@ -1152,12 +1114,12 @@
       }
     },
     {
-      "id": "HIS-0211",
+      "id": "HIS-0271",
       "cat": "Histoire",
-      "page": 11,
-      "chapter": "V. Guerres mondiales et totalitarismes",
+      "page": 14,
+      "chapter": "VI. France contemporaine",
       "topic": "Seconde Guerre mondiale",
-      "source": "Conséquences: montée des tensions qui conduiront à la Seconde Guerre mondiale.",
+      "source": "Confondre le général de Gaulle (président de la Ve) et son homonyme du temps de la Résistance; c’est la même personne, mais ses fonctions changent.",
       "allPass": false,
       "anyQuestion": true,
       "issues": [
@@ -1167,10 +1129,10 @@
       "sourceResolvedNonAtomic": false,
       "variants": [
         {
-          "id": "HIS-0211",
-          "chapter": "V. Guerres mondiales et totalitarismes",
+          "id": "HIS-0271",
+          "chapter": "VI. France contemporaine",
           "topic": "Seconde Guerre mondiale",
-          "source": "Après la Première Guerre mondiale — repère: montée des tensions conduisant à la Seconde Guerre mondiale",
+          "source": "Charles de Gaulle — repère: même personne pendant la Résistance et comme président de la Ve République",
           "allPass": false,
           "anyQuestion": true,
           "issues": [
@@ -1179,46 +1141,46 @@
           "attempts": [
             {
               "q": {
-                "prompt": "Quelle caractéristique est associée à Après la Première Guerre mondiale — repère?",
+                "prompt": "Quelle caractéristique est associée à Charles de Gaulle — repère?",
                 "o": [
-                  "montée des tensions conduisant à la Seconde Guerre mondiale",
-                  "Premier ministre pendant la Seconde Guerre mondiale (1940‐1945)",
-                  "Élection du président au suffrage universel direct (1962), politique de grandeur, sortie du commandement intégré de l’OTAN, réformes constitutionnelles",
-                  "réforme constitutionnelle de 1962 (élection du président au suffrage universel direct), politique de grandeur (arme nucléaire, indépendance nationale), sortie de l’OTAN (1966)"
+                  "plus de 60 millions de morts",
+                  "extermination systématique des Juifs d’Europe (≈6 millions de morts)",
+                  "appel du 18 juin 1940 à Londres",
+                  "même personne pendant la Résistance et comme président de la Ve République"
                 ],
-                "ans": 0
+                "ans": 3
               },
               "issues": []
             },
             {
               "q": {
-                "prompt": "Quelle caractéristique est associée à Après la Première Guerre mondiale — repère?",
+                "prompt": "Quelle caractéristique est associée à Charles de Gaulle — repère?",
                 "o": [
-                  "Élection du président au suffrage universel direct (1962), politique de grandeur, sortie du commandement intégré de l’OTAN, réformes constitutionnelles",
+                  "chef de l’État français de Vichy",
+                  "extermination systématique des Juifs d’Europe (≈6 millions de morts)",
+                  "même personne pendant la Résistance et comme président de la Ve République",
+                  "invasion de la Pologne par l’Allemagne nazie (1er septembre 1939)"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Charles de Gaulle — repère?",
+                "o": [
+                  "plus de 60 millions de morts",
                   "montée des tensions conduisant à la Seconde Guerre mondiale",
                   "même personne pendant la Résistance et comme président de la Ve République",
                   "élaborée par Michel Debré et voulue par Charles de Gaulle"
                 ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Après la Première Guerre mondiale — repère?",
-                "o": [
-                  "Premier ministre pendant la Seconde Guerre mondiale (1940‐1945)",
-                  "montée des tensions conduisant à la Seconde Guerre mondiale",
-                  "extermination systématique des Juifs d’Europe (≈6 millions de morts)",
-                  "appel du 18 juin 1940 à Londres"
-                ],
-                "ans": 1
+                "ans": 2
               },
               "issues": []
             }
@@ -1226,239 +1188,16 @@
         }
       ],
       "previousSource": {
-        "id": "HIS-0210",
-        "source": "Conséquences: bouleversements territoriaux",
+        "id": "HIS-0270",
+        "source": "Macron (depuis 2017): réformes économiques, crise des gilets jaunes, pandémie de Covid‐19.",
         "cat": "Histoire",
-        "page": 11
+        "page": 14
       },
       "nextSource": {
-        "id": "HIS-0212",
-        "source": "Confondre l’armistice (11 novembre 1918) et le traité de Versailles (28 juin 1919).",
+        "id": "HIS-0272",
+        "source": "Penser que l’Article 49‐3 permet de dissoudre l’Assemblée; il engage la responsabilité du gouvernement.",
         "cat": "Histoire",
-        "page": 12
-      }
-    },
-    {
-      "id": "HIS-0236",
-      "cat": "Histoire",
-      "page": 13,
-      "chapter": "VI. France contemporaine",
-      "topic": "Guerre froide",
-      "source": "Définition: affrontement idéologique et géopolitique entre les États‐Unis et l’URSS, sans confrontation militaire directe entre les deux superpuissances.",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0236",
-          "chapter": "VI. France contemporaine",
-          "topic": "Guerre froide",
-          "source": "Définition — définition: affrontement idéologique et géopolitique entre les États‐Unis et l’URSS, sans confrontation militaire directe entre les deux superpuissances.",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Définition — définition?",
-                "o": [
-                  "affrontement idéologique et géopolitique entre les États‐Unis et l’URSS, sans confrontation militaire directe entre les deux superpuissances",
-                  "Spoutnik (URSS, 1957) puis Apollo 11 (États‐Unis, 1969)",
-                  "montée du fascisme en Italie (Mussolini, 1922), du nazisme en Allemagne (Hitler, 1933) et du stalinisme en URSS (Staline succède à Lénine en 1924)",
-                  "Fin de la séparation entre Allemagne de l’Ouest et de l’Est"
-                ],
-                "ans": 0
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Définition — définition?",
-                "o": [
-                  "Spoutnik (URSS, 1957) puis Apollo 11 (États‐Unis, 1969)",
-                  "instaure un régime totalitaire en URSS",
-                  "Fin de la séparation entre Allemagne de l’Ouest et de l’Est",
-                  "affrontement idéologique et géopolitique entre les États‐Unis et l’URSS, sans confrontation militaire directe entre les deux superpuissances"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0235",
-        "source": "La Seconde Guerre mondiale est le conflit le plus meurtrier de l’histoire; la Première Guerre mondiale fait environ 10 millions de morts.",
-        "cat": "Histoire",
-        "page": 12
-      },
-      "nextSource": {
-        "id": "HIS-0237",
-        "source": "Événements majeurs: Doctrine Truman (1947) et plan Marshall pour la reconstruction de l’Europe occidentale.",
-        "cat": "Histoire",
-        "page": 13
-      }
-    },
-    {
-      "id": "HIS-0245",
-      "cat": "Histoire",
-      "page": 13,
-      "chapter": "VI. France contemporaine",
-      "topic": "Guerre froide",
-      "source": "Confondre OTAN (Organisation du traité de l’Atlantique Nord, 1949) et Pacte de Varsovie (1955).",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0245-1",
-          "chapter": "VI. France contemporaine",
-          "topic": "Guerre froide",
-          "source": "OTAN — date: Organisation du traité de l’Atlantique Nord, 1949",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à OTAN — date?",
-                "o": [
-                  "création de l’Union des républiques socialistes soviétiques en 1922",
-                  "Spoutnik (URSS, 1957) puis Apollo 11 (États‐Unis, 1969)",
-                  "gestion de la crise de Cuba",
-                  "Organisation du traité de l’Atlantique Nord, 1949"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à OTAN — date?",
-                "o": [
-                  "affrontement idéologique et géopolitique entre les États‐Unis et l’URSS, sans confrontation militaire directe entre les deux superpuissances",
-                  "Spoutnik (URSS, 1957) puis Apollo 11 (États‐Unis, 1969)",
-                  "Organisation du traité de l’Atlantique Nord, 1949",
-                  "Fin de la séparation entre Allemagne de l’Ouest et de l’Est"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "HIS-0245-2",
-          "chapter": "VI. France contemporaine",
-          "topic": "Guerre froide",
-          "source": "Pacte de Varsovie — date: 1955",
-          "allPass": true,
-          "anyQuestion": true,
-          "issues": [],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle date est associée à « Pacte de Varsovie »?",
-                "o": [
-                  "1991",
-                  "476",
-                  "1955",
-                  "1789"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle date est associée à « Pacte de Varsovie »?",
-                "o": [
-                  "1991",
-                  "476",
-                  "1955",
-                  "732"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle date est associée à « Pacte de Varsovie »?",
-                "o": [
-                  "1991",
-                  "476",
-                  "1955",
-                  "1815"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle date est associée à « Pacte de Varsovie »?",
-                "o": [
-                  "1991",
-                  "476",
-                  "732",
-                  "1955"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0244",
-        "source": "Chute du mur de Berlin (9 novembre 1989) et disparition de l’URSS (1991).",
-        "cat": "Histoire",
-        "page": 13
-      },
-      "nextSource": {
-        "id": "HIS-0246",
-        "source": "Penser que la Guerre froide s’achève avec la chute du mur en 1989; elle se termine avec la dissolution de l’URSS en 1991.",
-        "cat": "Histoire",
-        "page": 13
+        "page": 14
       }
     },
     {
@@ -2698,67 +2437,52 @@
       }
     },
     {
-      "id": "GEO-0342",
+      "id": "GEO-0334",
       "cat": "Géographie",
       "page": 12,
       "chapter": "I.6 Économie mondiale et mondialisation",
       "topic": "I.6 Économie mondiale et mondialisation",
-      "source": "Tourisme: 102 millions d’arrivées internationales en 2025 selon Atout France, ce qui maintient la France au premier rang mondial en nombre d’arrivées.",
+      "source": "Géographie - QCM Agent DGFiP & Contrôleur des douanes Automobile: pôles historiques dans le nord, l’est et l’ouest",
       "allPass": false,
       "anyQuestion": true,
       "issues": [
-        "mixed_semantic_types"
+        "no_question"
       ],
       "sourceRejected": false,
       "sourceResolvedNonAtomic": false,
       "variants": [
         {
-          "id": "GEO-0342",
+          "id": "GEO-0334",
           "chapter": "I.6 Économie mondiale et mondialisation",
           "topic": "I.6 Économie mondiale et mondialisation",
-          "source": "Tourisme — date: 102 millions d’arrivées internationales en 2025 selon Atout France, ce qui maintient la France au premier rang mondial en nombre d’arrivées.",
+          "source": "Géographie - QCM Agent DGFiP & Contrôleur des douanes Automobile — rôle: pôles historiques dans le nord, l’est et l’ouest",
           "allPass": false,
           "anyQuestion": true,
           "issues": [
-            "mixed_semantic_types"
+            "no_question"
           ],
           "attempts": [
             {
               "q": {
-                "prompt": "En quelle année situe-t-on Tourisme — date?",
+                "prompt": "Quelle caractéristique est associée à Géographie - QCM Agent DGFiP & Contrôleur des douanes Automobile — rôle?",
                 "o": [
-                  "102",
-                  "115",
-                  "127",
-                  "89"
+                  "redéfinit la répartition des compétences entre collectivités",
+                  "référendums en 2018, 2020 et 2021",
+                  "en 2025 le nucléaire a produit 373 TWh, soit 68,1 % de l’électricité française",
+                  "pôles historiques dans le nord, l’est et l’ouest"
                 ],
-                "ans": 0
-              },
-              "issues": [
-                "mixed_semantic_types"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "En quelle année situe-t-on Tourisme — date?",
-                "o": [
-                  "2025",
-                  "115",
-                  "102",
-                  "2026"
-                ],
-                "ans": 2
+                "ans": 3
               },
               "issues": []
             },
             {
               "q": {
-                "prompt": "En quelle année situe-t-on Tourisme — date?",
+                "prompt": "Quelle caractéristique est associée à Géographie - QCM Agent DGFiP & Contrôleur des douanes Automobile — rôle?",
                 "o": [
-                  "127",
-                  "102",
-                  "115",
-                  "2026"
+                  "57 réacteurs EDF en fonctionnement en 2026",
+                  "pôles historiques dans le nord, l’est et l’ouest",
+                  "Orly, Nice, Lyon, Marseille, Toulouse, Bâle-Mulhouse parmi les principaux",
+                  "redéfinit la répartition des compétences entre collectivités"
                 ],
                 "ans": 1
               },
@@ -2766,31 +2490,35 @@
             },
             {
               "q": {
-                "prompt": "En quelle année situe-t-on Tourisme — date?",
+                "prompt": "Quelle caractéristique est associée à Géographie - QCM Agent DGFiP & Contrôleur des douanes Automobile — rôle?",
                 "o": [
-                  "115",
-                  "2025",
-                  "89",
-                  "102"
+                  "référendums en 2018, 2020 et 2021",
+                  "redéfinit la répartition des compétences entre collectivités",
+                  "pôles historiques dans le nord, l’est et l’ouest",
+                  "projets et aménagements liés à la logistique et à la décarbonation"
                 ],
-                "ans": 3
+                "ans": 2
               },
+              "issues": []
+            },
+            {
+              "q": null,
               "issues": [
-                "mixed_semantic_types"
+                "no_question"
               ]
             }
           ]
         }
       ],
       "previousSource": {
-        "id": "GEO-0341",
-        "source": "Services: finance, commerce, transports, santé, éducation, numérique, services aux entreprises et tourisme.",
+        "id": "GEO-0333",
+        "source": "Pays de la Loire — Particularités: Industrie, agriculture, estuaire de la Loire.",
         "cat": "Géographie",
         "page": 12
       },
       "nextSource": {
-        "id": "GEO-0343",
-        "source": "La part du nucléaire dans la production électrique n’est pas « 70 % fixe »: elle évolue chaque année.",
+        "id": "GEO-0335",
+        "source": "Géographie - QCM Agent DGFiP & Contrôleur des douanes Automobile: filière en transition vers l’électrification.",
         "cat": "Géographie",
         "page": 12
       }
@@ -2811,7 +2539,7 @@
       "sourceResolvedNonAtomic": false,
       "variants": [
         {
-          "id": "GEO-0352-v28-1",
+          "id": "GEO-0352-v28i-1",
           "chapter": "I.6 Économie mondiale et mondialisation",
           "topic": "I.6 Économie mondiale et mondialisation",
           "source": "Loi NOTRe — date: 7 août 2015",
@@ -2826,7 +2554,7 @@
                   "1er janvier 2016",
                   "Chef-lieu ou capitale",
                   "7 août 2015",
-                  "Gustavia"
+                  "Saint-Pierre"
                 ],
                 "ans": 2
               },
@@ -2839,7 +2567,7 @@
                   "Chef-lieu ou capitale",
                   "1er janvier 2016",
                   "7 août 2015",
-                  "Saint-Denis"
+                  "Fort-de-France"
                 ],
                 "ans": 2
               },
@@ -2851,7 +2579,7 @@
                 "o": [
                   "Chef-lieu ou capitale",
                   "7 août 2015",
-                  "Marigot",
+                  "Gustavia",
                   "1er janvier 2016"
                 ],
                 "ans": 1
@@ -2864,7 +2592,7 @@
                 "o": [
                   "Chef-lieu ou capitale",
                   "1er janvier 2016",
-                  "Saint-Denis",
+                  "Fort-de-France",
                   "7 août 2015"
                 ],
                 "ans": 3
@@ -2874,7 +2602,7 @@
           ]
         },
         {
-          "id": "GEO-0352-v28-2",
+          "id": "GEO-0352-v28i-2",
           "chapter": "I.6 Économie mondiale et mondialisation",
           "topic": "I.6 Économie mondiale et mondialisation",
           "source": "Loi NOTRe — rôle: redéfinit la répartition des compétences entre collectivités",
@@ -2889,9 +2617,9 @@
                 "prompt": "Quelle caractéristique est associée à Loi NOTRe — rôle?",
                 "o": [
                   "redéfinit la répartition des compétences entre collectivités",
-                  "Martinique et Guyane sont des collectivités territoriales uniques",
-                  "Partage l’île avec Sint Maarten (royaume des Pays-Bas)",
-                  "Orly, Nice, Lyon, Marseille, Toulouse, Bâle-Mulhouse parmi les principaux"
+                  "Orly, Nice, Lyon, Marseille, Toulouse, Bâle-Mulhouse parmi les principaux",
+                  "en 2025, il est devenu légèrement négatif en France pour la première fois depuis la fin de la Seconde Guerre mondiale",
+                  "référendums d’autodétermination en 2018, 2020 et 2021"
                 ],
                 "ans": 0
               },
@@ -2901,12 +2629,12 @@
               "q": {
                 "prompt": "Quelle caractéristique est associée à Loi NOTRe — rôle?",
                 "o": [
-                  "Martinique et Guyane sont des collectivités territoriales uniques",
-                  "redéfinit la répartition des compétences entre collectivités",
                   "Orly, Nice, Lyon, Marseille, Toulouse, Bâle-Mulhouse parmi les principaux",
-                  "pôles historiques dans le nord, l’est et l’ouest"
+                  "Partage l’île avec Sint Maarten (royaume des Pays-Bas)",
+                  "pôles historiques dans le nord, l’est et l’ouest",
+                  "redéfinit la répartition des compétences entre collectivités"
                 ],
-                "ans": 1
+                "ans": 3
               },
               "issues": []
             },
@@ -2914,9 +2642,9 @@
               "q": {
                 "prompt": "Quelle caractéristique est associée à Loi NOTRe — rôle?",
                 "o": [
-                  "projets et aménagements liés à la logistique et à la décarbonation",
+                  "en 2025 le nucléaire a produit 373 TWh, soit 68,1 % de l’électricité française",
+                  "Partage l’île avec Sint Maarten (royaume des Pays-Bas)",
                   "Nouvelle-Calédonie a un statut sui generis",
-                  "Orly, Nice, Lyon, Marseille, Toulouse, Bâle-Mulhouse parmi les principaux",
                   "redéfinit la répartition des compétences entre collectivités"
                 ],
                 "ans": 3
@@ -2941,93 +2669,6 @@
       "nextSource": {
         "id": "GEO-0353",
         "source": "Provence-Alpes-Côte d’Azur — Auteur: Marseille",
-        "cat": "Géographie",
-        "page": 13
-      }
-    },
-    {
-      "id": "GEO-0369",
-      "cat": "Géographie",
-      "page": 13,
-      "chapter": "I.6 Économie mondiale et mondialisation",
-      "topic": "I.6 Économie mondiale et mondialisation",
-      "source": "Mayotte — Auteur: Département-Région depuis le 1er janvier 2026, océan Indien",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0369",
-          "chapter": "I.6 Économie mondiale et mondialisation",
-          "topic": "I.6 Économie mondiale et mondialisation",
-          "source": "Mayotte — auteur: Département-Région depuis le 1er janvier 2026, océan Indien",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Mayotte — auteur?",
-                "o": [
-                  "Martinique et Guyane sont des collectivités territoriales uniques",
-                  "pôles historiques dans le nord, l’est et l’ouest",
-                  "Département-Région depuis le 1er janvier 2026, océan Indien",
-                  "Partage l’île avec Sint Maarten (royaume des Pays-Bas)"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Mayotte — auteur?",
-                "o": [
-                  "projets et aménagements liés à la logistique et à la décarbonation",
-                  "pôles historiques dans le nord, l’est et l’ouest",
-                  "Nouvelle-Calédonie a un statut sui generis",
-                  "Département-Région depuis le 1er janvier 2026, océan Indien"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Mayotte — auteur?",
-                "o": [
-                  "Département-Région depuis le 1er janvier 2026, océan Indien",
-                  "référendums d’autodétermination en 2018, 2020 et 2021",
-                  "Orly, Nice, Lyon, Marseille, Toulouse, Bâle-Mulhouse parmi les principaux",
-                  "102 millions d’arrivées internationales en 2025 selon Atout France, ce qui maintient la France au premier rang mondial en nombre d’arrivées"
-                ],
-                "ans": 0
-              },
-              "issues": []
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0368",
-        "source": "La Réunion — Particularités: piton de la Fournaise.",
-        "cat": "Géographie",
-        "page": 13
-      },
-      "nextSource": {
-        "id": "GEO-0370",
-        "source": "Mayotte — Date: Mamoudzou",
         "cat": "Géographie",
         "page": 13
       }
@@ -3420,11 +3061,11 @@
           "attempts": [
             {
               "q": {
-                "prompt": "Quel chiffre est associé à Mandat des députés — valeur?",
+                "prompt": "Quelle valeur faut-il associer à Mandat des députés?",
                 "o": [
-                  "4 ans",
-                  "4,5 ans",
-                  "1,5 °C",
+                  "5",
+                  "15",
+                  "6 ans",
                   "5 ans"
                 ],
                 "ans": 3
@@ -3433,40 +3074,40 @@
             },
             {
               "q": {
-                "prompt": "Quel chiffre est associé à Mandat des députés — valeur?",
+                "prompt": "Quelle valeur faut-il associer à Mandat des députés?",
                 "o": [
-                  "5,5 ans",
-                  "4,5 ans",
-                  "1,5 °C",
-                  "5 ans"
+                  "6 ans",
+                  "5 ans",
+                  "5",
+                  "15"
                 ],
-                "ans": 3
+                "ans": 1
               },
               "issues": []
             },
             {
               "q": {
-                "prompt": "Quel chiffre est associé à Mandat des députés — valeur?",
+                "prompt": "Quelle valeur faut-il associer à Mandat des députés?",
                 "o": [
+                  "15",
                   "5 ans",
                   "6 ans",
-                  "4,5 ans",
-                  "5,5 ans"
+                  "5"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle valeur faut-il associer à Mandat des députés?",
+                "o": [
+                  "5 ans",
+                  "15",
+                  "5",
+                  "6 ans"
                 ],
                 "ans": 0
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quel chiffre est associé à Mandat des députés — valeur?",
-                "o": [
-                  "6 ans",
-                  "4 ans",
-                  "5 ans",
-                  "1,5 °C"
-                ],
-                "ans": 2
               },
               "issues": []
             }
@@ -3485,10 +3126,36 @@
               "q": {
                 "prompt": "Quelle caractéristique définit Sénat?",
                 "o": [
-                  "sénateurs élus au suffrage indirect",
-                  "le Conseil de l’Europe n’a aucun pouvoir législatif sur l’UE",
                   "conseille le Gouvernement sur les projets de loi et les ordonnances",
+                  "sénateurs élus au suffrage indirect",
+                  "cours administratives d’appel",
                   "Cour internationale de justice"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Sénat?",
+                "o": [
+                  "conseille le Gouvernement sur les projets de loi et les ordonnances",
+                  "sénateurs élus au suffrage indirect",
+                  "Assemblée générale",
+                  "Cour internationale de justice"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Sénat?",
+                "o": [
+                  "sénateurs élus au suffrage indirect",
+                  "cours administratives d’appel",
+                  "Cour internationale de justice",
+                  "conseille le Gouvernement sur les projets de loi et les ordonnances"
                 ],
                 "ans": 0
               },
@@ -3498,38 +3165,12 @@
               "q": {
                 "prompt": "Quelle caractéristique définit Sénat?",
                 "o": [
-                  "le Conseil de l’Europe n’a aucun pouvoir législatif sur l’UE",
-                  "conseille le Gouvernement sur les projets de loi et les ordonnances",
-                  "sénateurs élus au suffrage indirect",
-                  "Conseil d’État"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Sénat?",
-                "o": [
-                  "conseille le Gouvernement sur les projets de loi et les ordonnances",
-                  "sénateurs élus au suffrage indirect",
-                  "le Conseil de l’Europe n’a aucun pouvoir législatif sur l’UE",
-                  "Conseil d’État"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Sénat?",
-                "o": [
-                  "le Conseil de l’Europe n’a aucun pouvoir législatif sur l’UE",
                   "sénateurs élus au suffrage indirect",
                   "conseille le Gouvernement sur les projets de loi et les ordonnances",
-                  "Cour européenne des droits de l’homme à Strasbourg"
+                  "Conseil d’État",
+                  "Cour internationale de justice"
                 ],
-                "ans": 1
+                "ans": 0
               },
               "issues": []
             }
@@ -3548,10 +3189,10 @@
               "q": {
                 "prompt": "Quelle valeur faut-il associer à Mandat des sénateurs?",
                 "o": [
-                  "5",
                   "5 ans",
+                  "15",
                   "6 ans",
-                  "5,4 ans"
+                  "5"
                 ],
                 "ans": 2
               },
@@ -3563,36 +3204,36 @@
                 "o": [
                   "5",
                   "5 ans",
-                  "7,2 ans",
+                  "6 ans",
+                  "15"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle valeur faut-il associer à Mandat des sénateurs?",
+                "o": [
+                  "15",
+                  "5",
+                  "6 ans",
+                  "5 ans"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle valeur faut-il associer à Mandat des sénateurs?",
+                "o": [
+                  "5",
+                  "5 ans",
+                  "15",
                   "6 ans"
                 ],
                 "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle valeur faut-il associer à Mandat des sénateurs?",
-                "o": [
-                  "6 ans",
-                  "5",
-                  "6,6 ans",
-                  "5 ans"
-                ],
-                "ans": 0
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle valeur faut-il associer à Mandat des sénateurs?",
-                "o": [
-                  "5",
-                  "7,2 ans",
-                  "6 ans",
-                  "5 ans"
-                ],
-                "ans": 2
               },
               "issues": []
             }
@@ -3713,964 +3354,302 @@
       }
     },
     {
-      "id": "EMC-0175",
-      "cat": "Enseignement moral et civique",
-      "page": 12,
-      "chapter": "I-J. Justice, Europe et organisations internationales",
-      "topic": "I-J. Justice, Europe et organisations internationales",
-      "source": "Institution — Caractéristiques: Citations",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "correct_length_gives_clue"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "EMC-0175",
-          "chapter": "I-J. Justice, Europe et organisations internationales",
-          "topic": "I-J. Justice, Europe et organisations internationales",
-          "source": "Institution — caractéristiques: Citations",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "correct_length_gives_clue"
-          ],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Institution?",
-                "o": [
-                  "Citations",
-                  "plus haute juridiction administrative",
-                  "n’est pas sanctionnée",
-                  "un commissaire par État membre"
-                ],
-                "ans": 0
-              },
-              "issues": [
-                "correct_length_gives_clue"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Institution?",
-                "o": [
-                  "deviennent propriété publique",
-                  "Citations",
-                  "plus haute juridiction administrative",
-                  "un commissaire par État membre"
-                ],
-                "ans": 1
-              },
-              "issues": [
-                "correct_length_gives_clue"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Institution?",
-                "o": [
-                  "Citations",
-                  "proscrit le prosélytisme",
-                  "plus haute juridiction administrative",
-                  "un commissaire par État membre"
-                ],
-                "ans": 0
-              },
-              "issues": [
-                "correct_length_gives_clue"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Institution?",
-                "o": [
-                  "Citations",
-                  "un commissaire par État membre",
-                  "plus haute juridiction administrative",
-                  "contraignants"
-                ],
-                "ans": 0
-              },
-              "issues": []
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "EMC-0174",
-        "source": "Institution — Localisation: Composition et rôle",
-        "cat": "Enseignement moral et civique",
-        "page": 12
-      },
-      "nextSource": {
-        "id": "EMC-0176",
-        "source": "Commission européenne — Localisation: Organe exécutif de l’UE composé de 27 commissaires (un par État membre). Elle propose les textes législatifs, veille à leur application, met en œuvre les politiques et gère le budget. Elle négocie des accords internationaux et représente l’UE dans les organisations internationales.",
-        "cat": "Enseignement moral et civique",
-        "page": 12
-      }
-    },
-    {
-      "id": "EMC-0181",
-      "cat": "Enseignement moral et civique",
-      "page": 12,
-      "chapter": "I-J. Justice, Europe et organisations internationales",
-      "topic": "I-J. Justice, Europe et organisations internationales",
-      "source": "Les conflits de compétence sont tranchés par le Tribunal des conflits.",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "EMC-0181",
-          "chapter": "I-J. Justice, Europe et organisations internationales",
-          "topic": "I-J. Justice, Europe et organisations internationales",
-          "source": "Les conflits de compétence sont tranchés par le Tribunal des conflits.",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à Les conflits de compétence?",
-                "o": [
-                  "neutre et tous les cultes sont traités de manière égale",
-                  "tranchés par le Tribunal des conflits",
-                  "la base de l’élection des députés, du Président de la République et des représentants européens",
-                  "les collectivités territoriales et a un rôle modérateur"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à Les conflits de compétence?",
-                "o": [
-                  "engagée devant l’Assemblée nationale (motion de censure)",
-                  "tranchés par le Tribunal des conflits",
-                  "la base de l’élection des députés, du Président de la République et des représentants européens",
-                  "reconnu à l’article 16 de la DDHC"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à Les conflits de compétence?",
-                "o": [
-                  "un principe constitutionnel et non un simple choix politique",
-                  "tranchés par le Tribunal des conflits",
-                  "s’exerce via des questions, des commissions d’enquête et la possibilité de renverser le Gouvernement",
-                  "reconnu à l’article 16 de la DDHC"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "EMC-0180",
-        "source": "Dualité: la séparation entre ordres administratif et judiciaire est une spécificité française.",
-        "cat": "Enseignement moral et civique",
-        "page": 12
-      },
-      "nextSource": {
-        "id": "EMC-0182",
-        "source": "I.2 Principes de justice pénale Présomption d’innocence: toute personne est présumée innocente tant que sa culpabilité n’a pas été légalement établie.",
-        "cat": "Enseignement moral et civique",
-        "page": 12
-      }
-    },
-    {
-      "id": "EMC-0193",
-      "cat": "Enseignement moral et civique",
-      "page": 13,
-      "chapter": "K-L. Environnement et responsabilités",
-      "topic": "K-L. Environnement et responsabilités",
-      "source": "Banque centrale européenne (BCE) — Localisation: Gère l’euro et la politique monétaire de la zone euro.",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "EMC-0193",
-          "chapter": "K-L. Environnement et responsabilités",
-          "topic": "K-L. Environnement et responsabilités",
-          "source": "Banque centrale européenne (BCE) — localisation: Gère l’euro et la politique monétaire de la zone euro.",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quel rôle ou quelle fonction est associé à Banque centrale européenne (BCE) — localisation?",
-                "o": [
-                  "Gère l’euro et la politique monétaire de la zone euro",
-                  "règlement européen du 27 avril 2016, applicable depuis le 25 mai 2018, qui harmonise la protection des données dans l’UE",
-                  "institutions financières issues des accords de Bretton Woods (1944) pour financer le développement et stabiliser les monnaies",
-                  "nommer un délégué à la protection des données lorsque requis"
-                ],
-                "ans": 0
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quel rôle ou quelle fonction est associé à Banque centrale européenne (BCE) — localisation?",
-                "o": [
-                  "Gère l’euro et la politique monétaire de la zone euro",
-                  "elle seule a l’initiative législative au niveau européen",
-                  "renforcée par les plateformes et la loi",
-                  "Organes consultatifs représentant respectivement les collectivités territoriales et les partenaires sociaux"
-                ],
-                "ans": 0
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quel rôle ou quelle fonction est associé à Banque centrale européenne (BCE) — localisation?",
-                "o": [
-                  "régule le commerce international et règle les différends commerciaux",
-                  "institutions financières issues des accords de Bretton Woods (1944) pour financer le développement et stabiliser les monnaies",
-                  "tenir un registre et réaliser les analyses d’impact nécessaires",
-                  "Gère l’euro et la politique monétaire de la zone euro"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "EMC-0192",
-        "source": "Cour de justice de l’UE (CJUE) — Localisation: Siège à Luxembourg. Assure le respect du droit de l’Union et interprète les traités. Ses arrêts sont contraignants.",
-        "cat": "Enseignement moral et civique",
-        "page": 13
-      },
-      "nextSource": {
-        "id": "EMC-0194",
-        "source": "Comité européen des régions / Comité économique et social — Localisation: Organes consultatifs représentant respectivement les collectivités territoriales et les partenaires sociaux.",
-        "cat": "Enseignement moral et civique",
-        "page": 13
-      }
-    },
-    {
-      "id": "EMC-0194",
-      "cat": "Enseignement moral et civique",
-      "page": 13,
-      "chapter": "K-L. Environnement et responsabilités",
-      "topic": "K-L. Environnement et responsabilités",
-      "source": "Comité européen des régions / Comité économique et social — Localisation: Organes consultatifs représentant respectivement les collectivités territoriales et les partenaires sociaux.",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "EMC-0194",
-          "chapter": "K-L. Environnement et responsabilités",
-          "topic": "K-L. Environnement et responsabilités",
-          "source": "Comité européen des régions / Comité économique et social — localisation: Organes consultatifs représentant respectivement les collectivités territoriales et les partenaires sociaux.",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Comité européen des régions / Comité économique et social — localisation?",
-                "o": [
-                  "Organes consultatifs représentant respectivement les collectivités territoriales et les partenaires sociaux",
-                  "seuls les États permanents du Conseil de sécurité de l’ONU disposent d’un droit de veto, pas les États au sein de l’UE",
-                  "renforcée par les plateformes et la loi",
-                  "nommer un délégué à la protection des données lorsque requis"
-                ],
-                "ans": 0
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Comité européen des régions / Comité économique et social — localisation?",
-                "o": [
-                  "espaces de partage qui posent des enjeux de diffusion de fausses informations",
-                  "Organes consultatifs représentant respectivement les collectivités territoriales et les partenaires sociaux",
-                  "seuls les États permanents du Conseil de sécurité de l’ONU disposent d’un droit de veto, pas les États au sein de l’UE",
-                  "nommer un délégué à la protection des données lorsque requis"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Comité européen des régions / Comité économique et social — localisation?",
-                "o": [
-                  "institutions financières issues des accords de Bretton Woods (1944) pour financer le développement et stabiliser les monnaies",
-                  "Gère l’euro et la politique monétaire de la zone euro",
-                  "droit à la limitation du traitement",
-                  "Organes consultatifs représentant respectivement les collectivités territoriales et les partenaires sociaux"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "EMC-0193",
-        "source": "Banque centrale européenne (BCE) — Localisation: Gère l’euro et la politique monétaire de la zone euro.",
-        "cat": "Enseignement moral et civique",
-        "page": 13
-      },
-      "nextSource": {
-        "id": "EMC-0195",
-        "source": "J.2 Conseil de l’Europe (à ne pas confondre) Organisation internationale créée en 1949 siégeant à Strasbourg, distincte de l’UE.",
-        "cat": "Enseignement moral et civique",
-        "page": 13
-      }
-    },
-    {
-      "id": "EMC-0196",
-      "cat": "Enseignement moral et civique",
-      "page": 13,
-      "chapter": "K-L. Environnement et responsabilités",
-      "topic": "K-L. Environnement et responsabilités",
-      "source": "Confusion fréquente: le Conseil de l’Europe n’a aucun pouvoir législatif sur l’UE.",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "correct_length_gives_clue"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "EMC-0196",
-          "chapter": "K-L. Environnement et responsabilités",
-          "topic": "K-L. Environnement et responsabilités",
-          "source": "Confusion fréquente — caractéristiques: le Conseil de l’Europe n’a aucun pouvoir législatif sur l’UE.",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "correct_length_gives_clue"
-          ],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Confusion fréquente?",
-                "o": [
-                  "Assemblée générale",
-                  "le Conseil de l’Europe n’a aucun pouvoir législatif sur l’UE",
-                  "Conseil de sécurité",
-                  "Cour internationale de justice"
-                ],
-                "ans": 1
-              },
-              "issues": [
-                "correct_length_gives_clue"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Confusion fréquente?",
-                "o": [
-                  "le Conseil de l’Europe n’a aucun pouvoir législatif sur l’UE",
-                  "Cour internationale de justice",
-                  "Assemblée générale",
-                  "Conseil de sécurité"
-                ],
-                "ans": 0
-              },
-              "issues": [
-                "correct_length_gives_clue"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Confusion fréquente?",
-                "o": [
-                  "Cour internationale de justice",
-                  "Conseil de sécurité",
-                  "le Conseil de l’Europe n’a aucun pouvoir législatif sur l’UE",
-                  "Assemblée générale"
-                ],
-                "ans": 2
-              },
-              "issues": [
-                "correct_length_gives_clue"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Confusion fréquente?",
-                "o": [
-                  "Cour internationale de justice",
-                  "Conseil de sécurité",
-                  "le Conseil de l’Europe n’a aucun pouvoir législatif sur l’UE",
-                  "Assemblée générale"
-                ],
-                "ans": 2
-              },
-              "issues": [
-                "correct_length_gives_clue"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "EMC-0195",
-        "source": "J.2 Conseil de l’Europe (à ne pas confondre) Organisation internationale créée en 1949 siégeant à Strasbourg, distincte de l’UE.",
-        "cat": "Enseignement moral et civique",
-        "page": 13
-      },
-      "nextSource": {
-        "id": "EMC-0197",
-        "source": "J.3 ONU et OTAN ONU: organisation mondiale fondée en 1945 pour la paix, la sécurité et la coopération.",
-        "cat": "Enseignement moral et civique",
-        "page": 13
-      }
-    },
-    {
-      "id": "EMC-0198",
+      "id": "EMC-0192",
       "cat": "Enseignement moral et civique",
       "page": 13,
       "chapter": "K-L. Environnement et responsabilités",
       "topic": "Justice",
-      "source": "Les principaux organes sont l’Assemblée générale (tous les États membres), le Conseil de sécurité (15 membres dont 5 permanents), le Secrétariat général et la Cour internationale de justice.",
+      "source": "Cour de justice de l’UE (CJUE) — Localisation: Siège à Luxembourg. Assure le respect du droit de l’Union et interprète les traités. Ses arrêts sont contraignants.",
       "allPass": false,
       "anyQuestion": true,
       "issues": [
-        "mixed_semantic_types"
+        "correct_length_gives_clue"
       ],
       "sourceRejected": false,
       "sourceResolvedNonAtomic": false,
       "variants": [
         {
-          "id": "EMC-0198-v28-1",
+          "id": "EMC-0192-v28i-1",
           "chapter": "K-L. Environnement et responsabilités",
           "topic": "Justice",
-          "source": "ONU — association: Assemblée générale",
-          "allPass": true,
-          "anyQuestion": true,
-          "issues": [],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour ONU?",
-                "o": [
-                  "Conseil de sécurité",
-                  "Conseil d’État",
-                  "Cour internationale de justice",
-                  "Assemblée générale"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour ONU?",
-                "o": [
-                  "Conseil de sécurité",
-                  "Assemblée générale",
-                  "Conseil d’État",
-                  "cours administratives d’appel"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour ONU?",
-                "o": [
-                  "Conseil d’État",
-                  "Assemblée générale",
-                  "Conseil de sécurité",
-                  "Cour internationale de justice"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour ONU?",
-                "o": [
-                  "Conseil de sécurité",
-                  "Conseil d’État",
-                  "Cour internationale de justice",
-                  "Assemblée générale"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            }
-          ]
-        },
-        {
-          "id": "EMC-0198-v28-2",
-          "chapter": "K-L. Environnement et responsabilités",
-          "topic": "Justice",
-          "source": "ONU — association: Conseil de sécurité",
-          "allPass": true,
-          "anyQuestion": true,
-          "issues": [],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour ONU?",
-                "o": [
-                  "Conseil de sécurité",
-                  "Assemblée générale",
-                  "Conseil d’État",
-                  "cours administratives d’appel"
-                ],
-                "ans": 0
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour ONU?",
-                "o": [
-                  "Assemblée générale",
-                  "Conseil d’État",
-                  "Conseil de sécurité",
-                  "cours administratives d’appel"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour ONU?",
-                "o": [
-                  "Conseil de sécurité",
-                  "Assemblée générale",
-                  "Cour internationale de justice",
-                  "cours administratives d’appel"
-                ],
-                "ans": 0
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour ONU?",
-                "o": [
-                  "Conseil d’État",
-                  "cours administratives d’appel",
-                  "Assemblée générale",
-                  "Conseil de sécurité"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            }
-          ]
-        },
-        {
-          "id": "EMC-0198-v28-3",
-          "chapter": "K-L. Environnement et responsabilités",
-          "topic": "Justice",
-          "source": "ONU — association: Secrétariat général",
-          "allPass": true,
-          "anyQuestion": true,
-          "issues": [],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour ONU?",
-                "o": [
-                  "contrats, famille et succession",
-                  "tribunaux administratifs",
-                  "Secrétariat général",
-                  "contraventions, délits et crimes"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour ONU?",
-                "o": [
-                  "contrats, famille et succession",
-                  "Secrétariat général",
-                  "tribunaux administratifs",
-                  "recours pour excès de pouvoir"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour ONU?",
-                "o": [
-                  "Secrétariat général",
-                  "contrats, famille et succession",
-                  "justice civile et justice pénale",
-                  "tribunaux administratifs"
-                ],
-                "ans": 0
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour ONU?",
-                "o": [
-                  "contrats, famille et succession",
-                  "Secrétariat général",
-                  "contraventions, délits et crimes",
-                  "tribunaux administratifs"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            }
-          ]
-        },
-        {
-          "id": "EMC-0198-v28-4",
-          "chapter": "K-L. Environnement et responsabilités",
-          "topic": "Justice",
-          "source": "ONU — association: Cour internationale de justice",
-          "allPass": true,
-          "anyQuestion": true,
-          "issues": [],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour ONU?",
-                "o": [
-                  "cours administratives d’appel",
-                  "Conseil de sécurité",
-                  "Assemblée générale",
-                  "Cour internationale de justice"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour ONU?",
-                "o": [
-                  "Assemblée générale",
-                  "Conseil de sécurité",
-                  "cours administratives d’appel",
-                  "Cour internationale de justice"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour ONU?",
-                "o": [
-                  "Cour internationale de justice",
-                  "Conseil d’État",
-                  "Conseil de sécurité",
-                  "cours administratives d’appel"
-                ],
-                "ans": 0
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour ONU?",
-                "o": [
-                  "Cour internationale de justice",
-                  "cours administratives d’appel",
-                  "Conseil de sécurité",
-                  "Conseil d’État"
-                ],
-                "ans": 0
-              },
-              "issues": []
-            }
-          ]
-        },
-        {
-          "id": "EMC-0198-v28-5",
-          "chapter": "K-L. Environnement et responsabilités",
-          "topic": "Justice",
-          "source": "Conseil de sécurité de l’ONU — valeur: 15 membres",
+          "source": "CJUE — siège: Luxembourg",
           "allPass": false,
           "anyQuestion": true,
           "issues": [
-            "mixed_semantic_types"
+            "correct_length_gives_clue"
           ],
           "attempts": [
             {
               "q": {
-                "prompt": "Quelle caractéristique est associée à Conseil de sécurité de l’ONU — valeur?",
+                "prompt": "Où se situe « CJUE »?",
                 "o": [
-                  "15 membres",
-                  "traite les litiges entre particuliers",
-                  "juge les infractions pénales",
-                  "Assemblée générale"
+                  "Description et signification",
+                  "Luxembourg",
+                  "Bleu, blanc, rouge",
+                  "Composition et rôle"
                 ],
-                "ans": 0
+                "ans": 1
               },
               "issues": [
-                "mixed_semantic_types"
+                "correct_length_gives_clue"
               ]
             },
             {
               "q": {
-                "prompt": "Quelle caractéristique est associée à Conseil de sécurité de l’ONU — valeur?",
+                "prompt": "Où se situe « CJUE »?",
                 "o": [
-                  "15 membres",
-                  "justice civile et justice pénale",
-                  "Assemblée générale",
-                  "recours pour excès de pouvoir"
-                ],
-                "ans": 0
-              },
-              "issues": [
-                "mixed_semantic_types"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Conseil de sécurité de l’ONU — valeur?",
-                "o": [
-                  "Secrétariat général",
-                  "contraventions, délits et crimes",
-                  "15 membres",
-                  "contrats, famille et succession"
+                  "Description et signification",
+                  "Bleu, blanc, rouge",
+                  "Luxembourg",
+                  "Composition et rôle"
                 ],
                 "ans": 2
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « CJUE »?",
+                "o": [
+                  "Luxembourg",
+                  "Description et signification",
+                  "Bleu, blanc, rouge",
+                  "Composition et rôle"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Où se situe « CJUE »?",
+                "o": [
+                  "Bleu, blanc, rouge",
+                  "Description et signification",
+                  "Luxembourg",
+                  "Composition et rôle"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "EMC-0192-v28i-2",
+          "chapter": "K-L. Environnement et responsabilités",
+          "topic": "Justice",
+          "source": "CJUE — rôle: assure le respect du droit de l’Union européenne",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quel est le rôle principal de CJUE?",
+                "o": [
+                  "conduit la politique monétaire de la zone euro",
+                  "assure le respect du droit de l’Union européenne",
+                  "sanctionne les comportements contraires à la loi",
+                  "elle seule a l’initiative législative au niveau européen"
+                ],
+                "ans": 1
               },
               "issues": []
             },
             {
               "q": {
-                "prompt": "Quelle caractéristique est associée à Conseil de sécurité de l’ONU — valeur?",
+                "prompt": "Quel est le rôle principal de CJUE?",
+                "o": [
+                  "elle seule a l’initiative législative au niveau européen",
+                  "organe consultatif représentant les collectivités territoriales",
+                  "sanctionne les comportements contraires à la loi",
+                  "assure le respect du droit de l’Union européenne"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quel est le rôle principal de CJUE?",
+                "o": [
+                  "sanctionne les comportements contraires à la loi",
+                  "assure le respect du droit de l’Union européenne",
+                  "elle seule a l’initiative législative au niveau européen",
+                  "organe consultatif représentant les collectivités territoriales"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quel est le rôle principal de CJUE?",
+                "o": [
+                  "organe consultatif représentant les partenaires sociaux",
+                  "sanctionne les comportements contraires à la loi",
+                  "assure le respect du droit de l’Union européenne",
+                  "elle seule a l’initiative législative au niveau européen"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "EMC-0192-v28i-3",
+          "chapter": "K-L. Environnement et responsabilités",
+          "topic": "Justice",
+          "source": "CJUE — rôle: interprète les traités",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quel est le rôle principal de CJUE?",
+                "o": [
+                  "juge les infractions pénales",
+                  "juge les litiges entre particuliers",
+                  "traite les litiges entre particuliers",
+                  "interprète les traités"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quel est le rôle principal de CJUE?",
+                "o": [
+                  "juge les infractions pénales",
+                  "interprète les traités",
+                  "juge les litiges entre particuliers",
+                  "traite les litiges entre particuliers"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quel est le rôle principal de CJUE?",
+                "o": [
+                  "juge les infractions pénales",
+                  "traite les litiges entre particuliers",
+                  "juge les litiges entre particuliers",
+                  "interprète les traités"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quel est le rôle principal de CJUE?",
+                "o": [
+                  "juge les infractions pénales",
+                  "juge les litiges entre particuliers",
+                  "traite les litiges entre particuliers",
+                  "interprète les traités"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "EMC-0192-v28i-4",
+          "chapter": "K-L. Environnement et responsabilités",
+          "topic": "Justice",
+          "source": "Arrêts de la CJUE — caractéristiques: contraignants",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "correct_length_gives_clue"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Arrêts de la CJUE?",
                 "o": [
                   "contraignants",
-                  "15 membres",
-                  "juge les litiges entre particuliers",
-                  "juge les infractions pénales"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            }
-          ]
-        },
-        {
-          "id": "EMC-0198-v28-6",
-          "chapter": "K-L. Environnement et responsabilités",
-          "topic": "Justice",
-          "source": "Membres permanents du Conseil de sécurité de l’ONU — valeur: 5",
-          "allPass": true,
-          "anyQuestion": true,
-          "issues": [],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle valeur faut-il associer à Membres permanents du Conseil de sécurité de l’ONU?",
-                "o": [
-                  "5",
-                  "6 ans",
-                  "5 ans",
-                  "4"
+                  "plus haute juridiction administrative",
+                  "alliance militaire créée en 1949",
+                  "n’exerce pas de rôle législatif"
                 ],
                 "ans": 0
               },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle valeur faut-il associer à Membres permanents du Conseil de sécurité de l’ONU?",
-                "o": [
-                  "5",
-                  "4",
-                  "5 ans",
-                  "6 ans"
-                ],
-                "ans": 0
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle valeur faut-il associer à Membres permanents du Conseil de sécurité de l’ONU?",
-                "o": [
-                  "6 ans",
-                  "5",
-                  "5 ans",
-                  "4"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle valeur faut-il associer à Membres permanents du Conseil de sécurité de l’ONU?",
-                "o": [
-                  "4,5",
-                  "6 ans",
-                  "5",
-                  "5 ans"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "EMC-0197",
-        "source": "J.3 ONU et OTAN ONU: organisation mondiale fondée en 1945 pour la paix, la sécurité et la coopération.",
-        "cat": "Enseignement moral et civique",
-        "page": 13
-      },
-      "nextSource": {
-        "id": "EMC-0199",
-        "source": "La France est membre permanent du Conseil de sécurité.",
-        "cat": "Enseignement moral et civique",
-        "page": 13
-      }
-    },
-    {
-      "id": "EMC-0199",
-      "cat": "Enseignement moral et civique",
-      "page": 13,
-      "chapter": "K-L. Environnement et responsabilités",
-      "topic": "K-L. Environnement et responsabilités",
-      "source": "La France est membre permanent du Conseil de sécurité.",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "EMC-0199",
-          "chapter": "K-L. Environnement et responsabilités",
-          "topic": "K-L. Environnement et responsabilités",
-          "source": "La France est membre permanent du Conseil de sécurité.",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à La France?",
-                "o": [
-                  "mutuel (motion de censure, dissolution de l’Assemblée, QPC) et indépendance des magistrats",
-                  "membre permanent du Conseil de sécurité",
-                  "les collectivités territoriales et a un rôle modérateur",
-                  "notamment les libertés de conscience, de culte, de presse, de réunion, d’association, de circulation et d’entreprendre"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": null,
               "issues": [
-                "no_question"
+                "correct_length_gives_clue"
               ]
             },
             {
               "q": {
-                "prompt": "Quelle caractéristique correspond à La France?",
+                "prompt": "Quelle caractéristique définit Arrêts de la CJUE?",
                 "o": [
-                  "protégé par le droit de la presse",
-                  "membre permanent du Conseil de sécurité",
-                  "la base de l’élection des députés, du Président de la République et des représentants européens",
-                  "neutre et tous les cultes sont traités de manière égale"
+                  "coordonne la politique sanitaire internationale",
+                  "alliance militaire créée en 1949",
+                  "plus haute juridiction administrative",
+                  "contraignants"
                 ],
-                "ans": 1
+                "ans": 3
               },
-              "issues": []
+              "issues": [
+                "correct_length_gives_clue"
+              ]
             },
             {
               "q": {
-                "prompt": "Quelle caractéristique correspond à La France?",
+                "prompt": "Quelle caractéristique définit Arrêts de la CJUE?",
                 "o": [
-                  "engagée devant l’Assemblée nationale (motion de censure)",
-                  "neutre et tous les cultes sont traités de manière égale",
-                  "membre permanent du Conseil de sécurité",
-                  "notamment les libertés de conscience, de culte, de presse, de réunion, d’association, de circulation et d’entreprendre"
+                  "contraignants",
+                  "alliance militaire créée en 1949",
+                  "n’exerce pas de rôle législatif",
+                  "plus haute juridiction administrative"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Arrêts de la CJUE?",
+                "o": [
+                  "plus haute juridiction administrative",
+                  "alliance militaire créée en 1949",
+                  "contraignants",
+                  "n’exerce pas de rôle législatif"
                 ],
                 "ans": 2
               },
-              "issues": []
+              "issues": [
+                "correct_length_gives_clue"
+              ]
             }
           ]
         }
       ],
       "previousSource": {
-        "id": "EMC-0198",
-        "source": "Les principaux organes sont l’Assemblée générale (tous les États membres), le Conseil de sécurité (15 membres dont 5 permanents), le Secrétariat général et la Cour internationale de justice.",
+        "id": "EMC-0191",
+        "source": "Conseil européen — Localisation: Réunit les chefs d’État ou de gouvernement des États membres, son président et le président de la Commission. Il définit les grandes orientations politiques de l’UE et n’a pas de rôle législatif.",
         "cat": "Enseignement moral et civique",
         "page": 13
       },
       "nextSource": {
-        "id": "EMC-0200",
-        "source": "OTAN: alliance militaire créée en 1949.",
+        "id": "EMC-0193",
+        "source": "Banque centrale européenne (BCE) — Localisation: Gère l’euro et la politique monétaire de la zone euro.",
         "cat": "Enseignement moral et civique",
         "page": 13
       }
@@ -4685,60 +3664,86 @@
       "allPass": false,
       "anyQuestion": true,
       "issues": [
-        "no_question"
+        "correct_length_gives_clue"
       ],
       "sourceRejected": false,
       "sourceResolvedNonAtomic": false,
       "variants": [
         {
-          "id": "ACT-0048-v28g-1",
+          "id": "ACT-0048-v28i-1",
           "chapter": "3. Actualité internationale",
           "topic": "3. Actualité internationale",
-          "source": "Cessez-le-feu à Gaza soutenu par les États-Unis — repère: en place depuis octobre 2025",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "ACT-0048-v28g-2",
-          "chapter": "3. Actualité internationale",
-          "topic": "3. Actualité internationale",
-          "source": "Gaza en 2026 — caractéristiques: des frappes et incidents armés continuent",
+          "source": "Cessez-le-feu à Gaza soutenu par les États-Unis — date: octobre 2025",
           "allPass": true,
           "anyQuestion": true,
           "issues": [],
           "attempts": [
             {
               "q": {
-                "prompt": "Quelle caractéristique définit Gaza en 2026?",
+                "prompt": "Quelle date est associée à « Cessez-le-feu à Gaza soutenu par les États-Unis »?",
+                "o": [
+                  "1er septembre 2026",
+                  "11 septembre 2026",
+                  "octobre 2025",
+                  "juillet 2026"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle date est associée à « Cessez-le-feu à Gaza soutenu par les États-Unis »?",
+                "o": [
+                  "1er septembre 2026",
+                  "octobre 2025",
+                  "11 septembre 2026",
+                  "juillet 2026"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle date est associée à « Cessez-le-feu à Gaza soutenu par les États-Unis »?",
+                "o": [
+                  "11 septembre 2026",
+                  "1er septembre 2026",
+                  "octobre 2025",
+                  "juillet 2026"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle date est associée à « Cessez-le-feu à Gaza soutenu par les États-Unis »?",
+                "o": [
+                  "juillet 2026",
+                  "11 septembre 2026",
+                  "octobre 2025",
+                  "1er septembre 2026"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "ACT-0048-v28i-2",
+          "chapter": "3. Actualité internationale",
+          "topic": "3. Actualité internationale",
+          "source": "Gaza en 2026 malgré le cessez-le-feu — caractéristiques: des frappes et incidents armés continuent",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Gaza en 2026 malgré le cessez-le-feu?",
                 "o": [
                   "des frappes et incidents armés continuent",
                   "Hausse générale du niveau des prix",
@@ -4751,7 +3756,7 @@
             },
             {
               "q": {
-                "prompt": "Quelle caractéristique définit Gaza en 2026?",
+                "prompt": "Quelle caractéristique définit Gaza en 2026 malgré le cessez-le-feu?",
                 "o": [
                   "peut provoquer des mesures de rétorsion",
                   "le conflit s’est fortement aggravé en 2026",
@@ -4764,7 +3769,7 @@
             },
             {
               "q": {
-                "prompt": "Quelle caractéristique définit Gaza en 2026?",
+                "prompt": "Quelle caractéristique définit Gaza en 2026 malgré le cessez-le-feu?",
                 "o": [
                   "le conflit s’est fortement aggravé en 2026",
                   "des frappes et incidents armés continuent",
@@ -4777,7 +3782,7 @@
             },
             {
               "q": {
-                "prompt": "Quelle caractéristique définit Gaza en 2026?",
+                "prompt": "Quelle caractéristique définit Gaza en 2026 malgré le cessez-le-feu?",
                 "o": [
                   "passage stratégique pour les hydrocarbures mondiaux",
                   "des frappes et incidents armés continuent",
@@ -4791,65 +3796,75 @@
           ]
         },
         {
-          "id": "ACT-0048-v28g-3",
+          "id": "ACT-0048-v28i-3",
           "chapter": "3. Actualité internationale",
           "topic": "3. Actualité internationale",
-          "source": "Cessez-le-feu à Gaza en 2026 — caractéristiques: mise en œuvre fragile",
-          "allPass": true,
+          "source": "Mise en œuvre du cessez-le-feu à Gaza en 2026 — caractéristiques: fragile",
+          "allPass": false,
           "anyQuestion": true,
-          "issues": [],
+          "issues": [
+            "correct_length_gives_clue"
+          ],
           "attempts": [
             {
               "q": {
-                "prompt": "Quelle caractéristique définit Cessez-le-feu à Gaza en 2026?",
+                "prompt": "Quelle caractéristique définit Mise en œuvre du cessez-le-feu à Gaza en 2026?",
                 "o": [
-                  "mise en œuvre fragile",
-                  "2,7 millions de chômeurs",
-                  "renouvelable une fois consécutivement",
+                  "fragile",
+                  "Stagnation au T2",
+                  "Président: António Costa",
                   "n’est pas membre de l’OTAN"
                 ],
                 "ans": 0
               },
-              "issues": []
+              "issues": [
+                "correct_length_gives_clue"
+              ]
             },
             {
               "q": {
-                "prompt": "Quelle caractéristique définit Cessez-le-feu à Gaza en 2026?",
+                "prompt": "Quelle caractéristique définit Mise en œuvre du cessez-le-feu à Gaza en 2026?",
                 "o": [
-                  "2,7 millions de chômeurs",
+                  "Stagnation au T2",
                   "n’est pas membre de l’OTAN",
-                  "mise en œuvre fragile",
-                  "+0,2 point sur le trimestre"
+                  "fragile",
+                  "concerne de nombreuses importations"
                 ],
                 "ans": 2
               },
-              "issues": []
+              "issues": [
+                "correct_length_gives_clue"
+              ]
             },
             {
               "q": {
-                "prompt": "Quelle caractéristique définit Cessez-le-feu à Gaza en 2026?",
+                "prompt": "Quelle caractéristique définit Mise en œuvre du cessez-le-feu à Gaza en 2026?",
                 "o": [
-                  "concerne de nombreuses importations",
-                  "mise en œuvre fragile",
-                  "2,7 millions de chômeurs",
+                  "46 États membres",
+                  "fragile",
+                  "Stagnation au T2",
                   "n’est pas membre de l’OTAN"
                 ],
                 "ans": 1
               },
-              "issues": []
+              "issues": [
+                "correct_length_gives_clue"
+              ]
             },
             {
               "q": {
-                "prompt": "Quelle caractéristique définit Cessez-le-feu à Gaza en 2026?",
+                "prompt": "Quelle caractéristique définit Mise en œuvre du cessez-le-feu à Gaza en 2026?",
                 "o": [
-                  "29 juin 2025 en Savoie",
-                  "mise en œuvre fragile",
+                  "Gérald Darmanin, garde des Sceaux",
+                  "fragile",
                   "n’est pas membre de l’OTAN",
-                  "2,7 millions de chômeurs"
+                  "Stagnation au T2"
                 ],
                 "ans": 1
               },
-              "issues": []
+              "issues": [
+                "correct_length_gives_clue"
+              ]
             }
           ]
         }
@@ -4863,104 +3878,6 @@
       "nextSource": {
         "id": "ACT-0049",
         "source": "Iran / États-Unis: le conflit s’est fortement aggravé en 2026.",
-        "cat": "Actualité",
-        "page": 5
-      }
-    },
-    {
-      "id": "ACT-0053",
-      "cat": "Actualité",
-      "page": 5,
-      "chapter": "3. Actualité internationale",
-      "topic": "3. Actualité internationale",
-      "source": "Le sommet de l’OTAN à Ankara s’est tenu en juillet 2026.",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "mixed_semantic_types"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0053",
-          "chapter": "3. Actualité internationale",
-          "topic": "3. Actualité internationale",
-          "source": "Sommet de l’OTAN à Ankara — date: juillet 2026",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "mixed_semantic_types"
-          ],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Sommet de l’OTAN à Ankara — date?",
-                "o": [
-                  "3,5 % du PIB",
-                  "juillet 2026",
-                  "645 000",
-                  "Union européenne représentée aux travaux"
-                ],
-                "ans": 1
-              },
-              "issues": [
-                "mixed_semantic_types"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Sommet de l’OTAN à Ankara — date?",
-                "o": [
-                  "69,1 millions d’habitants",
-                  "juillet 2026",
-                  "5 % du PIB",
-                  "Union européenne représentée aux travaux"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Sommet de l’OTAN à Ankara — date?",
-                "o": [
-                  "3,5 % du PIB",
-                  "juillet 2026",
-                  "poursuite du soutien à l’Ukraine",
-                  "Union européenne représentée aux travaux"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Sommet de l’OTAN à Ankara — date?",
-                "o": [
-                  "5 % du PIB",
-                  "juillet 2026",
-                  "645 000",
-                  "Union européenne représentée aux travaux"
-                ],
-                "ans": 1
-              },
-              "issues": [
-                "mixed_semantic_types"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0052",
-        "source": "Mark Rutte est secrétaire général de l’OTAN depuis le 1er octobre 2024.",
-        "cat": "Actualité",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "ACT-0054",
-        "source": "Les Alliés ont réaffirmé l’article 5 et la poursuite du soutien à l’Ukraine.",
         "cat": "Actualité",
         "page": 5
       }
@@ -5068,69 +3985,39 @@
       }
     },
     {
-      "id": "ACT-0078",
+      "id": "ACT-0091",
       "cat": "Actualité",
-      "page": 7,
-      "chapter": "4. Écologie et énergie",
-      "topic": "4. Écologie et énergie",
-      "source": "À partir du 1er septembre 2026, la suspension partielle de la réforme des retraites modifie le calendrier de relèvement de l’âge légal et de la durée d’assurance.",
+      "page": 8,
+      "chapter": "5. Santé et société",
+      "topic": "5. Santé et société",
+      "source": "Conseil de l’Europe — Rôle principal: CEDH.",
       "allPass": false,
       "anyQuestion": true,
       "issues": [
-        "mixed_semantic_types"
+        "correct_length_gives_clue"
       ],
       "sourceRejected": false,
       "sourceResolvedNonAtomic": false,
       "variants": [
         {
-          "id": "ACT-0078",
-          "chapter": "4. Écologie et énergie",
-          "topic": "4. Écologie et énergie",
-          "source": "Suspension partielle de la réforme des retraites — date: 1er septembre 2026",
+          "id": "ACT-0091",
+          "chapter": "5. Santé et société",
+          "topic": "5. Santé et société",
+          "source": "Conseil de l’Europe — rôle: CEDH.",
           "allPass": false,
           "anyQuestion": true,
           "issues": [
-            "mixed_semantic_types"
+            "correct_length_gives_clue"
           ],
           "attempts": [
             {
               "q": {
-                "prompt": "Quelle caractéristique est associée à Suspension partielle de la réforme des retraites — date?",
+                "prompt": "Quelle caractéristique est associée à Conseil de l’Europe — rôle?",
                 "o": [
-                  "22 % de la population",
-                  "1er septembre 2026",
-                  "651 000",
-                  "80,3 ans pour les hommes"
-                ],
-                "ans": 1
-              },
-              "issues": [
-                "mixed_semantic_types"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Suspension partielle de la réforme des retraites — date?",
-                "o": [
-                  "651 000",
-                  "85,9 ans pour les femmes",
-                  "1er septembre 2026",
-                  "1,56 enfant par femme"
-                ],
-                "ans": 2
-              },
-              "issues": [
-                "mixed_semantic_types"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Suspension partielle de la réforme des retraites — date?",
-                "o": [
-                  "29 juin 2025 en Savoie",
-                  "1er septembre 2026",
-                  "85,9 ans pour les femmes",
-                  "1,56 enfant par femme"
+                  "Washington",
+                  "CEDH",
+                  "protection des données personnelles",
+                  "cybersécurité des produits numériques"
                 ],
                 "ans": 1
               },
@@ -5138,42 +4025,70 @@
             },
             {
               "q": {
-                "prompt": "Quelle caractéristique est associée à Suspension partielle de la réforme des retraites — date?",
+                "prompt": "Quelle caractéristique est associée à Conseil de l’Europe — rôle?",
                 "o": [
-                  "1er septembre 2026",
-                  "651 000",
-                  "80,3 ans pour les hommes",
-                  "âge légal de 64 ans"
+                  "signaler certaines vulnérabilités activement exploitées",
+                  "Washington",
+                  "encadrement de l’IA",
+                  "CEDH"
                 ],
-                "ans": 0
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Conseil de l’Europe — rôle?",
+                "o": [
+                  "signaler certains incidents graves",
+                  "cybersécurité des produits numériques",
+                  "CEDH",
+                  "11 septembre 2026"
+                ],
+                "ans": 2
               },
               "issues": [
-                "mixed_semantic_types"
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Conseil de l’Europe — rôle?",
+                "o": [
+                  "protection des données personnelles",
+                  "CEDH",
+                  "46 États membres",
+                  "signaler certaines vulnérabilités activement exploitées"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "correct_length_gives_clue"
               ]
             }
           ]
         }
       ],
       "previousSource": {
-        "id": "ACT-0077",
-        "source": "La stratégie repose sur détection, restrictions de mouvements, dépeuplement des foyers et vaccination; une campagne vaccinale 2026 a été lancée.",
+        "id": "ACT-0090",
+        "source": "Conseil de l’Europe — Rôle principal: Droits humains, démocratie, État de droit",
         "cat": "Actualité",
-        "page": 7
+        "page": 8
       },
       "nextSource": {
-        "id": "ACT-0079",
-        "source": "La génération 1968 a désormais un âge légal de 63 ans et 9 mois; l’âge de 64 ans s’applique à partir de la génération 1969.",
+        "id": "ACT-0092",
+        "source": "Conseil de l’Europe — Dirigeant / fait à retenir: 46 États membres",
         "cat": "Actualité",
-        "page": 7
+        "page": 8
       }
     },
     {
-      "id": "ACT-0095",
-      "cat": "Actualité",
-      "page": 8,
-      "chapter": "5. Santé et société",
-      "topic": "5. Santé et société",
-      "source": "À partir du 11 septembre 2026, les fabricants doivent notamment signaler certaines vulnérabilités activement exploitées et certains incidents graves.",
+      "id": "ORG-0014",
+      "cat": "Organisation et missions",
+      "page": 2,
+      "chapter": "1-2. Bercy, directions et services",
+      "topic": "1-2. Bercy, directions et services",
+      "source": "Pour le QCM, l’essentiel est de savoir associer chaque sigle à sa mission principale.",
       "allPass": false,
       "anyQuestion": true,
       "issues": [
@@ -5183,12 +4098,12 @@
       "sourceResolvedNonAtomic": false,
       "variants": [
         {
-          "id": "ACT-0095-v28b-1",
-          "chapter": "5. Santé et société",
-          "topic": "5. Santé et société",
-          "source": "Obligations de signalement des fabricants — repère: à partir du 11 septembre 2026",
+          "id": "ORG-0014",
+          "chapter": "1-2. Bercy, directions et services",
+          "topic": "1-2. Bercy, directions et services",
+          "source": "Pour le QCM, l’essentiel est de savoir associer chaque sigle à sa mission principale.",
           "allPass": false,
-          "anyQuestion": false,
+          "anyQuestion": true,
           "issues": [
             "no_question"
           ],
@@ -5200,42 +4115,13 @@
               ]
             },
             {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "ACT-0095-v28b-2",
-          "chapter": "5. Santé et société",
-          "topic": "5. Santé et société",
-          "source": "Fabricants — obligation: signaler certaines vulnérabilités activement exploitées et certains incidents graves",
-          "allPass": true,
-          "anyQuestion": true,
-          "issues": [],
-          "attempts": [
-            {
               "q": {
-                "prompt": "Quelle obligation concerne Fabricants?",
+                "prompt": "Quelle caractéristique correspond à Pour le QCM, l’essentiel?",
                 "o": [
-                  "le conflit s’est fortement aggravé en 2026",
-                  "Président: Ajay Banga depuis juin 2023",
-                  "ce n’est pas une institution de l’UE",
-                  "signaler certaines vulnérabilités activement exploitées et certains incidents graves"
+                  "de cohérence de la situation d’un particulier au regard de ses revenus déclarés",
+                  "l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt",
+                  "pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu",
+                  "de savoir associer chaque sigle à sa mission principale"
                 ],
                 "ans": 3
               },
@@ -5243,25 +4129,12 @@
             },
             {
               "q": {
-                "prompt": "Quelle obligation concerne Fabricants?",
+                "prompt": "Quelle caractéristique correspond à Pour le QCM, l’essentiel?",
                 "o": [
-                  "Président: Ajay Banga depuis juin 2023",
-                  "adopte une approche fondée sur les niveaux de risque",
-                  "signaler certaines vulnérabilités activement exploitées et certains incidents graves",
-                  "ce n’est pas une institution de l’UE"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle obligation concerne Fabricants?",
-                "o": [
-                  "signaler certaines vulnérabilités activement exploitées et certains incidents graves",
-                  "les grandes entreprises et ETI doivent aussi les émettre",
-                  "Président: Ajay Banga depuis juin 2023",
-                  "ce n’est pas une institution de l’UE"
+                  "de savoir associer chaque sigle à sa mission principale",
+                  "le service de renseignement financier de Bercy",
+                  "celui des frontières, des marchandises, des échanges et des droits indirects",
+                  "l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt"
                 ],
                 "ans": 0
               },
@@ -5269,12 +4142,12 @@
             },
             {
               "q": {
-                "prompt": "Quelle obligation concerne Fabricants?",
+                "prompt": "Quelle caractéristique correspond à Pour le QCM, l’essentiel?",
                 "o": [
-                  "signaler certaines vulnérabilités activement exploitées et certains incidents graves",
-                  "Président: Ajay Banga depuis juin 2023",
-                  "ce n’est pas une institution de l’UE",
-                  "Stock de dette au sens de Maastricht"
+                  "de savoir associer chaque sigle à sa mission principale",
+                  "pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu",
+                  "les éléments relevant de sa responsabilité et réalise matériellement l’encaissement ou le paiement",
+                  "à distance de la comptabilité informatisée d’une entreprise à partir du fichier des écritures comptables (FEC)"
                 ],
                 "ans": 0
               },
@@ -5284,584 +4157,16 @@
         }
       ],
       "previousSource": {
-        "id": "ACT-0094",
-        "source": "Les règles principales relatives à de nombreux systèmes à haut risque de l’annexe III doivent s’appliquer plus tard, à partir du 2 décembre 2027.",
-        "cat": "Actualité",
-        "page": 8
-      },
-      "nextSource": {
-        "id": "ACT-0096",
-        "source": "Ne pas confondre: RGPD = protection des données personnelles",
-        "cat": "Actualité",
-        "page": 8
-      }
-    },
-    {
-      "id": "ACT-0118",
-      "cat": "Actualité",
-      "page": 10,
-      "chapter": "7. Organisations internationales",
-      "topic": "7. Organisations internationales",
-      "source": "Physique — Lauréat(s): John Clarke, Michel H. Devoret et John M. Martinis.",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "answer_too_broad"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0118-v28g-1",
-          "chapter": "7. Organisations internationales",
-          "topic": "7. Organisations internationales",
-          "source": "Physique — lauréat: John Clarke",
-          "allPass": true,
-          "anyQuestion": true,
-          "issues": [],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Physique »?",
-                "o": [
-                  "Fred Ramsdell",
-                  "John Clarke",
-                  "Mary E. Brunkow",
-                  "Shimon Sakaguchi"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Physique »?",
-                "o": [
-                  "Shimon Sakaguchi",
-                  "John Clarke",
-                  "John M. Martinis",
-                  "Fred Ramsdell"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Physique »?",
-                "o": [
-                  "Shimon Sakaguchi",
-                  "Michel H. Devoret",
-                  "Fred Ramsdell",
-                  "John Clarke"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Physique »?",
-                "o": [
-                  "Shimon Sakaguchi",
-                  "John Clarke",
-                  "Fred Ramsdell",
-                  "Michel H. Devoret"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            }
-          ]
-        },
-        {
-          "id": "ACT-0118-v28g-2",
-          "chapter": "7. Organisations internationales",
-          "topic": "7. Organisations internationales",
-          "source": "Physique — lauréat: Michel H. Devoret",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "answer_too_broad"
-          ],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Physique »?",
-                "o": [
-                  "Mary E. Brunkow",
-                  "John M. Martinis",
-                  "Michel H. Devoret",
-                  "John Clarke"
-                ],
-                "ans": 2
-              },
-              "issues": [
-                "answer_too_broad"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Physique »?",
-                "o": [
-                  "John M. Martinis",
-                  "John Clarke",
-                  "Michel H. Devoret",
-                  "Mary E. Brunkow"
-                ],
-                "ans": 2
-              },
-              "issues": [
-                "answer_too_broad"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Physique »?",
-                "o": [
-                  "Michel H. Devoret",
-                  "Mary E. Brunkow",
-                  "John M. Martinis",
-                  "Fred Ramsdell"
-                ],
-                "ans": 0
-              },
-              "issues": [
-                "answer_too_broad"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Physique »?",
-                "o": [
-                  "Michel H. Devoret",
-                  "John M. Martinis",
-                  "Mary E. Brunkow",
-                  "Shimon Sakaguchi"
-                ],
-                "ans": 0
-              },
-              "issues": [
-                "answer_too_broad"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "ACT-0118-v28g-3",
-          "chapter": "7. Organisations internationales",
-          "topic": "7. Organisations internationales",
-          "source": "Physique — lauréat: John M. Martinis",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "answer_too_broad"
-          ],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Physique »?",
-                "o": [
-                  "John M. Martinis",
-                  "Mary E. Brunkow",
-                  "John Clarke",
-                  "Michel H. Devoret"
-                ],
-                "ans": 0
-              },
-              "issues": [
-                "answer_too_broad"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Physique »?",
-                "o": [
-                  "Mary E. Brunkow",
-                  "Fred Ramsdell",
-                  "John M. Martinis",
-                  "Michel H. Devoret"
-                ],
-                "ans": 2
-              },
-              "issues": [
-                "answer_too_broad"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Physique »?",
-                "o": [
-                  "John M. Martinis",
-                  "Michel H. Devoret",
-                  "Fred Ramsdell",
-                  "Mary E. Brunkow"
-                ],
-                "ans": 0
-              },
-              "issues": [
-                "answer_too_broad"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Physique »?",
-                "o": [
-                  "Shimon Sakaguchi",
-                  "Michel H. Devoret",
-                  "John M. Martinis",
-                  "Mary E. Brunkow"
-                ],
-                "ans": 2
-              },
-              "issues": [
-                "answer_too_broad"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0117",
-        "source": "Prix Goncourt 2025 — Lauréat 2026 ou dernier lauréat connu: Laurent Mauvignier pour La Maison vide.",
-        "cat": "Actualité",
-        "page": 10
-      },
-      "nextSource": {
-        "id": "ACT-0119",
-        "source": "Médecine — Lauréat(s): Mary E. Brunkow, Fred Ramsdell et Shimon Sakaguchi.",
-        "cat": "Actualité",
-        "page": 10
-      }
-    },
-    {
-      "id": "ACT-0119",
-      "cat": "Actualité",
-      "page": 10,
-      "chapter": "7. Organisations internationales",
-      "topic": "7. Organisations internationales",
-      "source": "Médecine — Lauréat(s): Mary E. Brunkow, Fred Ramsdell et Shimon Sakaguchi.",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "answer_too_broad"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ACT-0119-v28g-1",
-          "chapter": "7. Organisations internationales",
-          "topic": "7. Organisations internationales",
-          "source": "Médecine — lauréat: Mary E. Brunkow",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "answer_too_broad"
-          ],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Médecine »?",
-                "o": [
-                  "Mary E. Brunkow",
-                  "Fred Ramsdell",
-                  "Michel H. Devoret",
-                  "John M. Martinis"
-                ],
-                "ans": 0
-              },
-              "issues": [
-                "answer_too_broad"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Médecine »?",
-                "o": [
-                  "John M. Martinis",
-                  "Mary E. Brunkow",
-                  "Fred Ramsdell",
-                  "Michel H. Devoret"
-                ],
-                "ans": 1
-              },
-              "issues": [
-                "answer_too_broad"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Médecine »?",
-                "o": [
-                  "John M. Martinis",
-                  "Fred Ramsdell",
-                  "Mary E. Brunkow",
-                  "Michel H. Devoret"
-                ],
-                "ans": 2
-              },
-              "issues": [
-                "answer_too_broad"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Médecine »?",
-                "o": [
-                  "John M. Martinis",
-                  "Mary E. Brunkow",
-                  "Fred Ramsdell",
-                  "Michel H. Devoret"
-                ],
-                "ans": 1
-              },
-              "issues": [
-                "answer_too_broad"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "ACT-0119-v28g-2",
-          "chapter": "7. Organisations internationales",
-          "topic": "7. Organisations internationales",
-          "source": "Médecine — lauréat: Fred Ramsdell",
-          "allPass": true,
-          "anyQuestion": true,
-          "issues": [],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Médecine »?",
-                "o": [
-                  "John Clarke",
-                  "Shimon Sakaguchi",
-                  "Michel H. Devoret",
-                  "Fred Ramsdell"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Médecine »?",
-                "o": [
-                  "Shimon Sakaguchi",
-                  "Michel H. Devoret",
-                  "John Clarke",
-                  "Fred Ramsdell"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Médecine »?",
-                "o": [
-                  "Shimon Sakaguchi",
-                  "John Clarke",
-                  "Fred Ramsdell",
-                  "John M. Martinis"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Médecine »?",
-                "o": [
-                  "Fred Ramsdell",
-                  "John Clarke",
-                  "Shimon Sakaguchi",
-                  "Michel H. Devoret"
-                ],
-                "ans": 0
-              },
-              "issues": []
-            }
-          ]
-        },
-        {
-          "id": "ACT-0119-v28g-3",
-          "chapter": "7. Organisations internationales",
-          "topic": "7. Organisations internationales",
-          "source": "Médecine — lauréat: Shimon Sakaguchi",
-          "allPass": true,
-          "anyQuestion": true,
-          "issues": [],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Médecine »?",
-                "o": [
-                  "John Clarke",
-                  "Shimon Sakaguchi",
-                  "Mary E. Brunkow",
-                  "Fred Ramsdell"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Médecine »?",
-                "o": [
-                  "John M. Martinis",
-                  "John Clarke",
-                  "Shimon Sakaguchi",
-                  "Fred Ramsdell"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Médecine »?",
-                "o": [
-                  "John Clarke",
-                  "Shimon Sakaguchi",
-                  "Fred Ramsdell",
-                  "John M. Martinis"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quel lauréat est associé à « Médecine »?",
-                "o": [
-                  "Shimon Sakaguchi",
-                  "John M. Martinis",
-                  "Fred Ramsdell",
-                  "John Clarke"
-                ],
-                "ans": 0
-              },
-              "issues": []
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ACT-0118",
-        "source": "Physique — Lauréat(s): John Clarke, Michel H. Devoret et John M. Martinis.",
-        "cat": "Actualité",
-        "page": 10
-      },
-      "nextSource": {
-        "id": "ACT-0120",
-        "source": "Littérature — Lauréat(s): László Krasznahorkai.",
-        "cat": "Actualité",
-        "page": 10
-      }
-    },
-    {
-      "id": "ORG-0003",
-      "cat": "Organisation et missions",
-      "page": 2,
-      "chapter": "1-2. Bercy, directions et services",
-      "topic": "1-2. Bercy, directions et services",
-      "source": "Responsable — Lauréat(s): Portefeuille",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "correct_length_gives_clue"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0003",
-          "chapter": "1-2. Bercy, directions et services",
-          "topic": "1-2. Bercy, directions et services",
-          "source": "Responsable — caractéristiques: Portefeuille",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "correct_length_gives_clue"
-          ],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Responsable?",
-                "o": [
-                  "Budget de l’État",
-                  "Portefeuille",
-                  "Industrie – ministre délégué",
-                  "Action et Comptes publics"
-                ],
-                "ans": 1
-              },
-              "issues": [
-                "correct_length_gives_clue"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Responsable?",
-                "o": [
-                  "Énergie – ministre déléguée",
-                  "Portefeuille",
-                  "Action et Comptes publics",
-                  "Budget de l’État"
-                ],
-                "ans": 1
-              },
-              "issues": [
-                "correct_length_gives_clue"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Responsable?",
-                "o": [
-                  "Portefeuille",
-                  "Budget de l’État",
-                  "Industrie – ministre délégué",
-                  "Action et Comptes publics"
-                ],
-                "ans": 0
-              },
-              "issues": [
-                "correct_length_gives_clue"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Responsable?",
-                "o": [
-                  "Action et Comptes publics",
-                  "Industrie – ministre délégué",
-                  "Portefeuille",
-                  "Budget de l’État"
-                ],
-                "ans": 2
-              },
-              "issues": [
-                "correct_length_gives_clue"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0002",
-        "source": "Organisation et missions des ministères économiques et financiers",
-        "cat": "Organisation et missions",
-        "page": 1
-      },
-      "nextSource": {
-        "id": "ORG-0004",
-        "source": "Roland Lescure — Lauréat(s): Économie, Finances et Souveraineté industrielle, énergétique et numérique",
+        "id": "ORG-0013",
+        "source": "Direction du Budget — Mission essentielle: Préparer les lois de finances, suivre l’exécution du budget et contribuer à la soutenabilité des finances publiques.",
         "cat": "Organisation et missions",
         "page": 2
+      },
+      "nextSource": {
+        "id": "ORG-0015",
+        "source": "Tracfin — Domaine: Renseignement financier",
+        "cat": "Organisation et missions",
+        "page": 3
       }
     },
     {
@@ -5880,10 +4185,10 @@
       "sourceResolvedNonAtomic": false,
       "variants": [
         {
-          "id": "ORG-0018-v28f-1",
+          "id": "ORG-0018-v28i-1",
           "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
           "topic": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-          "source": "Direction des affaires juridiques — rôle: conseil juridique",
+          "source": "Direction des affaires juridiques — association: conseil juridique",
           "allPass": false,
           "anyQuestion": false,
           "issues": [
@@ -5917,7 +4222,7 @@
           ]
         },
         {
-          "id": "ORG-0018-v28f-2",
+          "id": "ORG-0018-v28i-2",
           "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
           "topic": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
           "source": "Direction des affaires juridiques — rôle: expertise des textes",
@@ -5980,7 +4285,7 @@
           ]
         },
         {
-          "id": "ORG-0018-v28f-3",
+          "id": "ORG-0018-v28i-3",
           "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
           "topic": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
           "source": "Direction des affaires juridiques — association: commande publique",
@@ -6072,7 +4377,7 @@
       "sourceResolvedNonAtomic": false,
       "variants": [
         {
-          "id": "ORG-0029-v28c-1",
+          "id": "ORG-0029-v28i-1",
           "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
           "topic": "DGFiP et fiscalité",
           "source": "DGFiP — association: impôts et recettes publiques",
@@ -6135,7 +4440,7 @@
           ]
         },
         {
-          "id": "ORG-0029-v28c-2",
+          "id": "ORG-0029-v28i-2",
           "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
           "topic": "DGFiP et fiscalité",
           "source": "DGFiP — association: comptes publics",
@@ -6198,7 +4503,7 @@
           ]
         },
         {
-          "id": "ORG-0029-v28c-3",
+          "id": "ORG-0029-v28i-3",
           "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
           "topic": "DGFiP et fiscalité",
           "source": "DGFiP — association: foncier",
@@ -6261,10 +4566,10 @@
           ]
         },
         {
-          "id": "ORG-0029-v28c-4",
+          "id": "ORG-0029-v28i-4",
           "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
           "topic": "DGFiP et fiscalité",
-          "source": "DGFiP — association: conseil financier au secteur public",
+          "source": "DGFiP — rôle: conseil financier au secteur public",
           "allPass": false,
           "anyQuestion": false,
           "issues": [
@@ -6807,12 +5112,12 @@
       }
     },
     {
-      "id": "ORG-0078",
+      "id": "ORG-0096",
       "cat": "Organisation et missions",
-      "page": 7,
+      "page": 8,
       "chapter": "10-11. Comptabilité publique et facturation électronique",
-      "topic": "Facturation électronique",
-      "source": "La réforme de la facturation électronique entre entreprises est un thème explicitement utilisé dans le sujet test",
+      "topic": "Tracfin et fraude",
+      "source": "Tracfin est le service de renseignement financier de Bercy.",
       "allPass": false,
       "anyQuestion": true,
       "issues": [
@@ -6822,10 +5127,10 @@
       "sourceResolvedNonAtomic": false,
       "variants": [
         {
-          "id": "ORG-0078",
+          "id": "ORG-0096",
           "chapter": "10-11. Comptabilité publique et facturation électronique",
-          "topic": "Facturation électronique",
-          "source": "La réforme de la facturation électronique entre entreprises est un thème explicitement utilisé dans le sujet test",
+          "topic": "Tracfin et fraude",
+          "source": "Tracfin est le service de renseignement financier de Bercy.",
           "allPass": false,
           "anyQuestion": true,
           "issues": [
@@ -6834,14 +5139,40 @@
           "attempts": [
             {
               "q": {
-                "prompt": "Quelle caractéristique correspond à La réforme de la facturation électronique entre entreprises?",
+                "prompt": "Quelle caractéristique correspond à Tracfin?",
                 "o": [
-                  "de cohérence de la situation d’un particulier au regard de ses revenus déclarés",
-                  "de la comptabilité professionnelle, pouvant être réalisé dans l’entreprise ou selon les modalités prévues par la procédure",
-                  "un thème explicitement utilisé dans le sujet test",
-                  "l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt"
+                  "les intérêts patrimoniaux de l’État actionnaire dans les entreprises",
+                  "celui des frontières, des marchandises, des échanges et des droits indirects",
+                  "le service de renseignement financier de Bercy",
+                  "de la comptabilité professionnelle, pouvant être réalisé dans l’entreprise ou selon les modalités prévues par la procédure"
                 ],
                 "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Tracfin?",
+                "o": [
+                  "de savoir associer chaque sigle à sa mission principale",
+                  "pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu",
+                  "les éléments relevant de sa responsabilité et réalise matériellement l’encaissement ou le paiement",
+                  "le service de renseignement financier de Bercy"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Tracfin?",
+                "o": [
+                  "à distance de la comptabilité informatisée d’une entreprise à partir du fichier des écritures comptables (FEC)",
+                  "les éléments relevant de sa responsabilité et réalise matériellement l’encaissement ou le paiement",
+                  "celui des frontières, des marchandises, des échanges et des droits indirects",
+                  "le service de renseignement financier de Bercy"
+                ],
+                "ans": 3
               },
               "issues": []
             },
@@ -6850,47 +5181,21 @@
               "issues": [
                 "no_question"
               ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à La réforme de la facturation électronique entre entreprises?",
-                "o": [
-                  "un thème explicitement utilisé dans le sujet test",
-                  "la régulation et le contrôle des flux de marchandises",
-                  "à distance de la comptabilité informatisée d’une entreprise à partir du fichier des écritures comptables (FEC)",
-                  "de la comptabilité professionnelle, pouvant être réalisé dans l’entreprise ou selon les modalités prévues par la procédure"
-                ],
-                "ans": 0
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à La réforme de la facturation électronique entre entreprises?",
-                "o": [
-                  "des personnes aux frontières dans le cadre de ses compétences",
-                  "les intérêts patrimoniaux de l’État actionnaire dans les entreprises",
-                  "un thème explicitement utilisé dans le sujet test",
-                  "le service de renseignement financier de Bercy"
-                ],
-                "ans": 2
-              },
-              "issues": []
             }
           ]
         }
       ],
       "previousSource": {
-        "id": "ORG-0077",
-        "source": "Ne pas inverser la réquisition: c’est l’ordonnateur qui peut réquisitionner le comptable.",
+        "id": "ORG-0095",
+        "source": "Elle se distingue de l’optimisation fiscale licite, qui utilise les règles prévues par la loi.",
         "cat": "Organisation et missions",
-        "page": 7
+        "page": 8
       },
       "nextSource": {
-        "id": "ORG-0079",
-        "source": "Objectifs: simplifier les échanges, améliorer la connaissance de l’activité économique, faciliter les obligations déclaratives et renforcer la lutte contre la fraude à la TVA.",
+        "id": "ORG-0097",
+        "source": "Tracfin n’est pas un service auquel les particuliers adressent directement leurs signalements ordinaires.",
         "cat": "Organisation et missions",
-        "page": 7
+        "page": 8
       }
     },
     {
@@ -6903,43 +5208,91 @@
       "allPass": false,
       "anyQuestion": true,
       "issues": [
-        "no_question"
+        "correct_length_gives_clue"
       ],
       "sourceRejected": false,
       "sourceResolvedNonAtomic": false,
       "variants": [
         {
-          "id": "MAT-0063",
+          "id": "MAT-0063-v28i-1",
           "chapter": "A. Nombres et arithmétique",
           "topic": "A. Nombres et arithmétique",
-          "source": "Calcul littéral, monômes, polynômes et identités remarquables Distributivité — formule: (a-b)² = a² - 2ab + b² (a-b)(a+b) = a² - b² Monôme: Produit d’un nombre et de puissances de variables, par exemple 3x².",
-          "allPass": false,
+          "source": "Identité remarquable (a-b)² — formule: a² - 2ab + b²",
+          "allPass": true,
           "anyQuestion": true,
-          "issues": [
-            "no_question"
-          ],
+          "issues": [],
           "attempts": [
             {
               "q": {
-                "prompt": "Quelle caractéristique est associée à Calcul littéral, monômes, polynômes et identités remarquables Distributivité — formule?",
+                "prompt": "Quelle formule correspond à Identité remarquable (a-b)²?",
                 "o": [
-                  "Pour revenir à la valeur initiale après une variation, on utilise l’inverse du coefficient multiplicateur",
-                  "Pour une grandeur additive par masse ou volume, calculer la quantité totale de substance puis diviser par la quantité totale du mélange",
-                  "(a-b)² = a² - 2ab + b² (a-b)(a+b) = a² - b² Monôme: Produit d’un nombre et de puissances de variables, par exemple 3x²",
-                  "L’escompte est l’intérêt retranché à une somme payable dans le futur lorsqu’elle est versée avant l’échéance"
+                  "prix d’achat + frais",
+                  "a² - 2ab + b²",
+                  "PGCD(a,b) × PPCM(a,b) = |a×b|",
+                  "√(ab) = √a × √b"
                 ],
-                "ans": 2
+                "ans": 1
               },
               "issues": []
             },
             {
               "q": {
-                "prompt": "Quelle caractéristique est associée à Calcul littéral, monômes, polynômes et identités remarquables Distributivité — formule?",
+                "prompt": "Quelle formule correspond à Identité remarquable (a-b)²?",
                 "o": [
-                  "décimal et binaire — définition: Le système décimal est en base 10 (chiffres 0 à 9)",
-                  "Chaque part = total / nombre de parts",
-                  "Un entier a est divisible par b s’il existe un entier k tel que a = bk",
-                  "(a-b)² = a² - 2ab + b² (a-b)(a+b) = a² - b² Monôme: Produit d’un nombre et de puissances de variables, par exemple 3x²"
+                  "PGCD(a,b) × PPCM(a,b) = |a×b|",
+                  "a² - 2ab + b²",
+                  "√(ab) = √a × √b",
+                  "√(a/b) = √a / √b"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle formule correspond à Identité remarquable (a-b)²?",
+                "o": [
+                  "PGCD(a,b) × PPCM(a,b) = |a×b|",
+                  "a² - 2ab + b²",
+                  "a/b × c/d = ac/bd",
+                  "√(ab) = √a × √b"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle formule correspond à Identité remarquable (a-b)²?",
+                "o": [
+                  "PGCD(a,b) × PPCM(a,b) = |a×b|",
+                  "a² - 2ab + b²",
+                  "√(ab) = √a × √b",
+                  "aᵐ/aⁿ = aᵐ⁻ⁿ"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "MAT-0063-v28i-2",
+          "chapter": "A. Nombres et arithmétique",
+          "topic": "A. Nombres et arithmétique",
+          "source": "Identité remarquable (a-b)(a+b) — formule: a² - b²",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle formule correspond à Identité remarquable (a-b)(a+b)?",
+                "o": [
+                  "aᵐ×aⁿ = aᵐ⁺ⁿ",
+                  "aᵐ/aⁿ = aᵐ⁻ⁿ",
+                  "1 + p/100",
+                  "a² - b²"
                 ],
                 "ans": 3
               },
@@ -6947,22 +5300,174 @@
             },
             {
               "q": {
-                "prompt": "Quelle caractéristique est associée à Calcul littéral, monômes, polynômes et identités remarquables Distributivité — formule?",
+                "prompt": "Quelle formule correspond à Identité remarquable (a-b)(a+b)?",
                 "o": [
-                  "(a-b)² = a² - 2ab + b² (a-b)(a+b) = a² - b² Monôme: Produit d’un nombre et de puissances de variables, par exemple 3x²",
-                  "Un nombre premier supérieur à 1 n’a que deux diviseurs positifs: 1 et lui-même",
-                  "Si une somme S est partagée selon les coefficients a, b et c, alors la part correspondant à a vaut S×a/(a+b+c)",
-                  "Pour une grandeur additive par masse ou volume, calculer la quantité totale de substance puis diviser par la quantité totale du mélange"
+                  "N − E",
+                  "a² - b²",
+                  "aᵐ/aⁿ = aᵐ⁻ⁿ",
+                  "aᵐ×aⁿ = aᵐ⁺ⁿ"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle formule correspond à Identité remarquable (a-b)(a+b)?",
+                "o": [
+                  "aᵐ×aⁿ = aᵐ⁺ⁿ",
+                  "aᵐ/aⁿ = aᵐ⁻ⁿ",
+                  "a² - b²",
+                  "N − E"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle formule correspond à Identité remarquable (a-b)(a+b)?",
+                "o": [
+                  "a² - b²",
+                  "2²×3×7",
+                  "aᵐ×aⁿ = aᵐ⁺ⁿ",
+                  "aᵐ/aⁿ = aᵐ⁻ⁿ"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "MAT-0063-v28i-3",
+          "chapter": "A. Nombres et arithmétique",
+          "topic": "A. Nombres et arithmétique",
+          "source": "Monôme — définition: produit d’un nombre et de puissances de variables",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Que désigne « Monôme »?",
+                "o": [
+                  "Une fraction a/b est définie pour b ≠ 0",
+                  "durée exprimée dans l’unité compatible avec le taux",
+                  "taux par période sous forme décimale",
+                  "produit d’un nombre et de puissances de variables"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Monôme »?",
+                "o": [
+                  "taux par période sous forme décimale",
+                  "produit d’un nombre et de puissances de variables",
+                  "durée exprimée dans l’unité compatible avec le taux",
+                  "Une fraction a/b est définie pour b ≠ 0"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Monôme »?",
+                "o": [
+                  "durée exprimée dans l’unité compatible avec le taux",
+                  "Une fraction a/b est définie pour b ≠ 0",
+                  "produit d’un nombre et de puissances de variables",
+                  "taux par période sous forme décimale"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Que désigne « Monôme »?",
+                "o": [
+                  "produit d’un nombre et de puissances de variables",
+                  "taux par période sous forme décimale",
+                  "Une fraction a/b est définie pour b ≠ 0",
+                  "durée exprimée dans l’unité compatible avec le taux"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "MAT-0063-v28i-4",
+          "chapter": "A. Nombres et arithmétique",
+          "topic": "A. Nombres et arithmétique",
+          "source": "Monôme — exemple: 3x²",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "correct_length_gives_clue"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Monôme — exemple?",
+                "o": [
+                  "3x²",
+                  "aᵐ/aⁿ = aᵐ⁻ⁿ",
+                  "√(a/b) = √a / √b",
+                  "Plus petit multiple commun positif"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Monôme — exemple?",
+                "o": [
+                  "aᵐ/aⁿ = aᵐ⁻ⁿ",
+                  "(aᵐ)ⁿ = aᵐⁿ",
+                  "3x²",
+                  "aᵐ×aⁿ = aᵐ⁺ⁿ"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "correct_length_gives_clue"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Monôme — exemple?",
+                "o": [
+                  "3x²",
+                  "2x - 2y = 12",
+                  "Critère rapide",
+                  "√(a/b) = √a / √b"
                 ],
                 "ans": 0
               },
               "issues": []
             },
             {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Monôme — exemple?",
+                "o": [
+                  "3,5×10³",
+                  "aᵐ×aⁿ = aᵐ⁺ⁿ",
+                  "3x²",
+                  "4,2×10⁻²"
+                ],
+                "ans": 2
+              },
+              "issues": []
             }
           ]
         }
@@ -7482,278 +5987,6 @@
         "source": "Astuces — Détails: 1. Mémoriser la numérotation des lettres (A=1, E=5, J=10, O=15, T=20, Z=26). 2. Pour les analogies, se concentrer sur la relation (profession → outil, pays → capitale). 3. En cas de cycle, appliquer un modulo 26 pour revenir au début.",
         "cat": "Raisonnement logique",
         "page": 17
-      }
-    },
-    {
-      "id": "CG-0087",
-      "cat": "Culture générale",
-      "page": 3,
-      "chapter": "I. Arts",
-      "topic": "I. Arts",
-      "source": "Le Colisée est un amphithéâtre de Rome; le Panthéon de Rome est célèbre pour sa coupole.",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "CG-0087-v28g-1",
-          "chapter": "I. Arts",
-          "topic": "I. Arts",
-          "source": "Colisée — définition: amphithéâtre",
-          "allPass": true,
-          "anyQuestion": true,
-          "issues": [],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Que désigne « Colisée »?",
-                "o": [
-                  "nom générique de certains temples",
-                  "dette",
-                  "amphithéâtre",
-                  "l’énergie se transforme"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Que désigne « Colisée »?",
-                "o": [
-                  "eau",
-                  "dette",
-                  "amphithéâtre",
-                  "nom générique de certains temples"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Que désigne « Colisée »?",
-                "o": [
-                  "dioxygène",
-                  "amphithéâtre",
-                  "nom générique de certains temples",
-                  "dette"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Que désigne « Colisée »?",
-                "o": [
-                  "dioxygène",
-                  "amphithéâtre",
-                  "nom générique de certains temples",
-                  "dette"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            }
-          ]
-        },
-        {
-          "id": "CG-0087-v28g-2",
-          "chapter": "I. Arts",
-          "topic": "I. Arts",
-          "source": "Colisée — localisation: à Rome",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "CG-0087-v28g-3",
-          "chapter": "I. Arts",
-          "topic": "I. Arts",
-          "source": "Panthéon de Rome — association: coupole",
-          "allPass": true,
-          "anyQuestion": true,
-          "issues": [],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour Panthéon de Rome?",
-                "o": [
-                  "mythologie antique",
-                  "Vatican",
-                  "coupole",
-                  "Renaissance"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour Panthéon de Rome?",
-                "o": [
-                  "Vatican",
-                  "Renaissance",
-                  "Sculpture et fresque",
-                  "coupole"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour Panthéon de Rome?",
-                "o": [
-                  "mythologie antique",
-                  "Vatican",
-                  "Renaissance",
-                  "coupole"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour Panthéon de Rome?",
-                "o": [
-                  "Sculpture et fresque",
-                  "Vatican",
-                  "coupole",
-                  "Renaissance"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "CG-0086",
-        "source": "L’art romain reprend des modèles grecs mais développe fortement l’ingénierie: arc, voûte, coupole, aqueducs, thermes et amphithéâtres.",
-        "cat": "Culture générale",
-        "page": 3
-      },
-      "nextSource": {
-        "id": "CG-0088",
-        "source": "Panthéon = nom générique de certains temples et monument célèbre à Rome; le Panthéon de Paris est un autre édifice, devenu nécropole nationale.",
-        "cat": "Culture générale",
-        "page": 3
-      }
-    },
-    {
-      "id": "CG-0090",
-      "cat": "Culture générale",
-      "page": 3,
-      "chapter": "I. Arts",
-      "topic": "Arts",
-      "source": "L’architecture gothique apparaît au XIIe siècle et permet des édifices plus hauts et plus lumineux grâce à l’arc brisé, la croisée d’ogives et les arcs-boutants.",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "CG-0090",
-          "chapter": "I. Arts",
-          "topic": "Arts",
-          "source": "L’architecture gothique apparaît au XIIe siècle et permet des édifices plus hauts et plus lumineux grâce à l’arc brisé, la croisée d’ogives et les arcs-boutants.",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à L’architecture gothique apparaît au XIIe siècle et?",
-                "o": [
-                  "à distinguer — caractéristiques: dorique (sobre, chapiteau simple), ionique (volutes) et corinthien (feuilles d’acanthe)",
-                  "associé à la théorie de l’évolution par sélection naturelle",
-                  "un noyau formé de protons et de neutrons, autour duquel se trouvent des électrons",
-                  "des édifices plus hauts et plus lumineux grâce à l’arc brisé, la croisée d’ogives et les arcs-boutants"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à L’architecture gothique apparaît au XIIe siècle et?",
-                "o": [
-                  "pas identiques — caractéristiques: le poids est une force et s’exprime en newtons",
-                  "des édifices plus hauts et plus lumineux grâce à l’arc brisé, la croisée d’ogives et les arcs-boutants",
-                  "pas identiques — caractéristiques: la masse s’exprime en kg",
-                  "interrogée comme culture générale — caractéristiques: vocabulaire du vivant et de l’environnement, accidents et grandes découvertes, notions élémentaires de physique ou de biologie"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "CG-0089",
-        "source": "Elle utilise l’arc en plein cintre, des murs épais et des ouvertures limitées.",
-        "cat": "Culture générale",
-        "page": 3
-      },
-      "nextSource": {
-        "id": "CG-0091",
-        "source": "Le Caravage est célèbre pour son clair-obscur.",
-        "cat": "Culture générale",
-        "page": 3
       }
     },
     {
@@ -8443,269 +6676,6 @@
       }
     },
     {
-      "id": "CG-0279",
-      "cat": "Culture générale",
-      "page": 7,
-      "chapter": "II. Sciences",
-      "topic": "II. Sciences",
-      "source": "La vitesse est le rapport entre distance parcourue et durée.",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "CG-0279",
-          "chapter": "II. Sciences",
-          "topic": "II. Sciences",
-          "source": "La vitesse est le rapport entre distance parcourue et durée.",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à La vitesse?",
-                "o": [
-                  "pas identiques — caractéristiques: la masse s’exprime en kg",
-                  "le rapport entre distance parcourue et durée",
-                  "une onde mécanique — caractéristiques: il a besoin d’un milieu matériel",
-                  "surtout celui d’un candidat cultivé, pas d’un spécialiste"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à La vitesse?",
-                "o": [
-                  "pas identiques — caractéristiques: la masse s’exprime en kg",
-                  "une onde mécanique — caractéristiques: il a besoin d’un milieu matériel",
-                  "le rapport entre distance parcourue et durée",
-                  "surtout celui d’un candidat cultivé, pas d’un spécialiste"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à La vitesse?",
-                "o": [
-                  "le rapport entre distance parcourue et durée",
-                  "une onde électromagnétique et peut se propager dans le vide",
-                  "pas identiques — caractéristiques: la masse s’exprime en kg",
-                  "surtout celui d’un candidat cultivé, pas d’un spécialiste"
-                ],
-                "ans": 0
-              },
-              "issues": []
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "CG-0278",
-        "source": "Une théorie scientifique n’est pas une simple opinion: elle organise un ensemble d’explications soutenues par des preuves et reste révisable.",
-        "cat": "Culture générale",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "CG-0280",
-        "source": "L’accélération mesure la variation de la vitesse.",
-        "cat": "Culture générale",
-        "page": 7
-      }
-    },
-    {
-      "id": "CG-0314",
-      "cat": "Culture générale",
-      "page": 9,
-      "chapter": "II. Sciences",
-      "topic": "II. Sciences",
-      "source": "Système — Repère: Repères",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "correct_length_gives_clue"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "CG-0314",
-          "chapter": "II. Sciences",
-          "topic": "II. Sciences",
-          "source": "Système — repère: Repères",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "correct_length_gives_clue"
-          ],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Système — repère?",
-                "o": [
-                  "base de la chimie organique",
-                  "Échanges O2 / CO2",
-                  "Repères",
-                  "question 2025"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Système — repère?",
-                "o": [
-                  "trachée, bronches, poumons, alvéoles",
-                  "question 2025",
-                  "isolants: verre, plastique, caoutchouc",
-                  "Repères"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Système — repère?",
-                "o": [
-                  "trachée, bronches, poumons, alvéoles",
-                  "Repères",
-                  "respiration, combustion",
-                  "l’énergie se transforme"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à Système — repère?",
-                "o": [
-                  "Échanges O2 / CO2",
-                  "Culture fan contemporaine",
-                  "Repères",
-                  "l’énergie se transforme"
-                ],
-                "ans": 2
-              },
-              "issues": [
-                "correct_length_gives_clue"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "CG-0313",
-        "source": "Système — Symbole: Fonction principale",
-        "cat": "Culture générale",
-        "page": 9
-      },
-      "nextSource": {
-        "id": "CG-0315",
-        "source": "Respiratoire — Symbole: Échanges O2 / CO2",
-        "cat": "Culture générale",
-        "page": 9
-      }
-    },
-    {
-      "id": "CG-0350",
-      "cat": "Culture générale",
-      "page": 9,
-      "chapter": "II. Sciences",
-      "topic": "II. Sciences",
-      "source": "Certaines sont pathogènes, beaucoup sont inoffensives ou utiles.",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "CG-0350",
-          "chapter": "II. Sciences",
-          "topic": "II. Sciences",
-          "source": "Certaines sont pathogènes, beaucoup sont inoffensives ou utiles.",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à Certaines?",
-                "o": [
-                  "pathogènes, beaucoup sont inoffensives ou utiles",
-                  "pas identiques — caractéristiques: la masse s’exprime en kg",
-                  "une onde électromagnétique et peut se propager dans le vide",
-                  "une onde mécanique — caractéristiques: il ne se propage pas dans le vide"
-                ],
-                "ans": 0
-              },
-              "issues": []
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à Certaines?",
-                "o": [
-                  "le rapport entre distance parcourue et durée",
-                  "surtout celui d’un candidat cultivé, pas d’un spécialiste",
-                  "pathogènes, beaucoup sont inoffensives ou utiles",
-                  "une onde mécanique — caractéristiques: il a besoin d’un milieu matériel"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "CG-0349",
-        "source": "Bactéries: organismes unicellulaires procaryotes.",
-        "cat": "Culture générale",
-        "page": 9
-      },
-      "nextSource": {
-        "id": "CG-0351",
-        "source": "Virus: agents infectieux nécessitant une cellule hôte pour se multiplier.",
-        "cat": "Culture générale",
-        "page": 9
-      }
-    },
-    {
       "id": "CG-0484",
       "cat": "Culture générale",
       "page": 14,
@@ -8715,13 +6685,13 @@
       "allPass": false,
       "anyQuestion": true,
       "issues": [
-        "no_question"
+        "correct_length_gives_clue"
       ],
       "sourceRejected": false,
       "sourceResolvedNonAtomic": false,
       "variants": [
         {
-          "id": "CG-0484-v28e-1",
+          "id": "CG-0484-v28i-1",
           "chapter": "III. Économie",
           "topic": "Économie",
           "source": "BCE — définition: Banque centrale européenne",
@@ -8784,38 +6754,74 @@
           ]
         },
         {
-          "id": "CG-0484-v28e-2",
+          "id": "CG-0484-v28i-2",
           "chapter": "III. Économie",
           "topic": "Économie",
-          "source": "BCE — localisation: à Francfort",
+          "source": "BCE — siège: Francfort",
           "allPass": false,
-          "anyQuestion": false,
+          "anyQuestion": true,
           "issues": [
-            "no_question"
+            "correct_length_gives_clue"
           ],
           "attempts": [
             {
-              "q": null,
+              "q": {
+                "prompt": "Quelle caractéristique est associée à BCE — siège?",
+                "o": [
+                  "coopération entre banques centrales",
+                  "Francfort",
+                  "indice de développement humain",
+                  "utilisé pour mesurer la croissance"
+                ],
+                "ans": 1
+              },
               "issues": [
-                "no_question"
+                "correct_length_gives_clue"
               ]
             },
             {
-              "q": null,
+              "q": {
+                "prompt": "Quelle caractéristique est associée à BCE — siège?",
+                "o": [
+                  "conduisent la politique monétaire",
+                  "Francfort",
+                  "santé et espérance de vie",
+                  "émettent la monnaie centrale"
+                ],
+                "ans": 1
+              },
               "issues": [
-                "no_question"
+                "correct_length_gives_clue"
               ]
             },
             {
-              "q": null,
+              "q": {
+                "prompt": "Quelle caractéristique est associée à BCE — siège?",
+                "o": [
+                  "c’est une désinflation",
+                  "Francfort",
+                  "PIB rapporté à la population",
+                  "billets et pièces"
+                ],
+                "ans": 1
+              },
               "issues": [
-                "no_question"
+                "correct_length_gives_clue"
               ]
             },
             {
-              "q": null,
+              "q": {
+                "prompt": "Quelle caractéristique est associée à BCE — siège?",
+                "o": [
+                  "corrigé de l’évolution des prix",
+                  "émettent la monnaie centrale",
+                  "coopération entre banques centrales",
+                  "Francfort"
+                ],
+                "ans": 3
+              },
               "issues": [
-                "no_question"
+                "correct_length_gives_clue"
               ]
             }
           ]
@@ -9134,93 +7140,6 @@
       "nextSource": {
         "id": "CG-0531",
         "source": "Banque des règlements internationaux — Mission principale: coopération entre banques centrales",
-        "cat": "Culture générale",
-        "page": 16
-      }
-    },
-    {
-      "id": "CG-0533",
-      "cat": "Culture générale",
-      "page": 16,
-      "chapter": "III. Économie",
-      "topic": "Économie",
-      "source": "Le taux de change est le prix d’une monnaie exprimé dans une autre.",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "CG-0533",
-          "chapter": "III. Économie",
-          "topic": "Économie",
-          "source": "Le taux de change est le prix d’une monnaie exprimé dans une autre.",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à Le taux de change?",
-                "o": [
-                  "un phénomène naturel — caractéristiques: certains gaz absorbent et réémettent une partie du rayonnement infrarouge, maintenant une température compatible avec la vie",
-                  "le prix d’une monnaie exprimé dans une autre",
-                  "un grand sculpteur et architecte baroque italien",
-                  "la valeur de la meilleure alternative abandonnée"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à Le taux de change?",
-                "o": [
-                  "le prix d’une monnaie exprimé dans une autre",
-                  "à distinguer — caractéristiques: dorique (sobre, chapiteau simple), ionique (volutes) et corinthien (feuilles d’acanthe)",
-                  "associé à la théorie de l’évolution par sélection naturelle",
-                  "un noyau formé de protons et de neutrons, autour duquel se trouvent des électrons"
-                ],
-                "ans": 0
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique correspond à Le taux de change?",
-                "o": [
-                  "à distinguer — caractéristiques: dorique (sobre, chapiteau simple), ionique (volutes) et corinthien (feuilles d’acanthe)",
-                  "interrogée comme culture générale — caractéristiques: vocabulaire du vivant et de l’environnement, accidents et grandes découvertes, notions élémentaires de physique ou de biologie",
-                  "le prix d’une monnaie exprimé dans une autre",
-                  "pas identiques — caractéristiques: la masse s’exprime en kg"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "CG-0532",
-        "source": "Pour un concours douanier, les droits de douane sont un repère central: ce sont des prélèvements appliqués à certaines marchandises lorsqu’elles franchissent une frontière douanière.",
-        "cat": "Culture générale",
-        "page": 16
-      },
-      "nextSource": {
-        "id": "CG-0534",
-        "source": "Une appréciation signifie qu’une monnaie gagne de la valeur par rapport à une autre; une dépréciation signifie qu’elle en perd.",
         "cat": "Culture générale",
         "page": 16
       }
