@@ -11,6 +11,16 @@
   const brokenEnd=/\b(?:art|av)\.\s*$/i;
   const fields='Définition constitutionnelle|Définition|Principe|Sens|Structure|Rôle du Premier ministre|Rôle|Portée|Niveaux|Concept|Obligation|Mission|Missions|Fonction|Fonctions';
   const genericColon=/^(?:Conséquences|Applications|Compléments|Illustrations|Répartition|Organisation|Composition|Vérification|Particularités|Détails|Repères?)$/i;
+  const NON_ATOMIC={
+    'HIS-0247':'avertissement comparatif sans information autonome exploitable',
+    'HIS-0396':'avertissement comparatif sans information autonome exploitable',
+    'EMC-0002':'fragment absorbé par l’article 11 reconstitué dans l’entrée suivante',
+    'EMC-0048':'fragment éditorial de titre sans fait autonome',
+    'EMC-0049':'fragment éditorial sans fait autonome',
+    'MAT-0075':'ligne de vérification rattachée à l’exercice précédent',
+    'MAT-0076':'ligne de vérification et consigne méthodologique, non fait autonome',
+    'MAT-0135':'avertissement sans définition ni propriété autonome'
+  };
 
   function normalizeHeading(s){
     s=clean(s).replace(/^[A-Z]\.\d+(?:\.\d+)?\s+/,'');
@@ -54,11 +64,11 @@
     if(/formule/.test(f))return'formule';
     if(/role|mission|fonction/.test(f))return'rôle';
     if(/obligation/.test(f))return'obligation';
-    if(/valeur/.test(f))return'valeur';
+    if(/valeur|bilan humain|anciennete/.test(f))return'valeur';
     if(/association/.test(f))return'association';
     if(/repere/.test(f))return'repère';
     if(/notion.?cle/.test(f))return'notion-clé';
-    if(/caracteristique|particularite|details?|a retenir|interpretation qcm|information \d+|priorite concours|statut|lien|regime|portee|cause|mode d.election|action/.test(f))return'caractéristiques';
+    if(/caracteristique|particularite|details?|a retenir|interpretation qcm|information \d+|priorite concours|statut|lien|regime|portee|cause|mode d.election|action|consequence|heritage|influence|repartition|organisation|composition|fondement/.test(f))return'caractéristiques';
     if(/sens|concept|principe/.test(f))return'définition';
     return fieldFor(subject,answer);
   }
@@ -106,26 +116,38 @@
 
   function rewriteById(x){
     const M={
+      'HIS-0014':['Néolithique — date: vers 10 000 av. J.-C.','Apparition de l’écriture — date: vers 3 000 av. J.-C.','Australopithèques — valeur: 3,3 millions d’années'],
       'HIS-0025':['Vallée des Rois — caractéristiques: accueille des tombeaux royaux plus récents que les pyramides'],
+      'HIS-0038':['Civilisation grecque — association: philosophie, théâtre et mathématiques','Athènes — caractéristiques: démocratie directe','Civilisation grecque — association: influence sur Rome'],
       'HIS-0039':['Sparte — caractéristiques: régime oligarchique'],
       'HIS-0040':['Platon — caractéristiques: conception fondée sur le monde des Idées','Aristote — caractéristiques: conception fondée sur l’empirisme'],
       'HIS-0057':['Chute de l’Empire romain d’Occident — date: 476','Chute de l’Empire romain d’Orient — date: 1453'],
       'HIS-0069':['Hégire — date: 622','Hégire — définition: fuite de Mahomet de La Mecque à Médine'],
+      'HIS-0080':['Royaume franc chrétien — caractéristiques: alliance étroite entre pouvoir et Église','Royaume franc chrétien — repère: origine du futur royaume de France'],
       'HIS-0082':['Charles Martel — rôle: maire du palais','Victoire de Poitiers de Charles Martel — date: 732','Charlemagne — caractéristiques: empereur en 800'],
       'HIS-0092':['Guerre de Cent Ans — caractéristiques: durée de 116 ans avec des trêves'],
+      'HIS-0105':['Renaissance — association: diffusion de l’imprimerie autour de 1450','Réforme — caractéristiques: affaiblissement de l’Église romaine','Renaissance — caractéristiques: ouverture au monde'],
+      'HIS-0118':['Monarchie de Louis XIV — caractéristiques: centralisation de l’administration','Classicisme — association: Molière, Racine et Lully','Révocation de l’édit de Nantes — caractéristiques: désaffection des protestants','Règne de Louis XIV — caractéristiques: crise financière'],
       'HIS-0119':['Louis XIV — association: agrandissement du château de Versailles'],
+      'HIS-0130':['Les Lumières — repère: préparent le terreau intellectuel de la Révolution française'],
+      'HIS-0131':['Les Lumières — caractéristiques: diffusion des idées républicaines et libérales en Europe et en Amérique'],
       'HIS-0132':['Montaigne — association: Renaissance'],
       'HIS-0133':['Diderot — rôle: coordonnateur et contributeur de l’Encyclopédie avec d’Alembert et de nombreux auteurs'],
       'HIS-0142':['Crise de 1788 — caractéristiques: causes multiples, financières, politiques et intellectuelles'],
       'HIS-0153':['Proclamation de la République française — date: 1792','Déclaration des droits de l’homme et du citoyen — date: 1789'],
       'HIS-0154':['Terreur — caractéristiques: gouvernement collégial impliquant notamment Saint-Just et Couthon'],
+      'HIS-0166':['Empire napoléonien — caractéristiques: diffusion des idées révolutionnaires en Europe','Administration napoléonienne — repère: réorganisation administrative durable','Campagnes napoléoniennes — caractéristiques: pertes humaines'],
       'HIS-0167':['Code civil — domaine: droit des personnes, des biens et des contrats'],
       'HIS-0168':['Napoléon — caractéristiques: instaure un Empire autoritaire tout en conservant certaines conquêtes révolutionnaires'],
       'HIS-0172':['Cent-Jours — date: 1815','Cent-Jours — repère: se terminent avec Waterloo'],
       'HIS-0192':['Loi de 1905 — caractéristiques: comporte certaines exceptions, notamment en Alsace-Moselle'],
       'HIS-0200':['Loi Le Chapelier — date: 1791','Reconnaissance légale des syndicats — date: 1884'],
+      'HIS-0209':['Première Guerre mondiale — bilan humain: plus de 9 millions de morts'],
+      'HIS-0210':['Première Guerre mondiale — conséquences: bouleversements territoriaux'],
+      'HIS-0211':['Après la Première Guerre mondiale — repère: montée des tensions conduisant à la Seconde Guerre mondiale'],
       'HIS-0213':['Assassinat de François-Ferdinand — rôle: déclenche un système d’alliances déjà tendu'],
       'HIS-0219':['Crise de 1929 — caractéristiques: s’étend rapidement au monde entier'],
+      'HIS-0232':['Seconde Guerre mondiale — bilan humain: plus de 60 millions de morts','Création de l’ONU — date: 1945','Après la Seconde Guerre mondiale — repère: début de la Guerre froide'],
       'HIS-0233':['Appel du 18 juin — date: 18 juin 1940','Capitulation française — date: 22 juin 1940'],
       'HIS-0246':['Fin de la Guerre froide — date: 1991'],
       'HIS-0256':['Création de la Sécurité sociale — date: 1945','Création du régime général de retraite — date: 1946'],
@@ -137,6 +159,12 @@
       'HIS-0372':['Déclaration d’indépendance américaine — auteur: Thomas Jefferson'],
       'HIS-0397':['Invasion du Koweït par l’Irak — date: 1990'],
       'HIS-0412':['Annexion de la Crimée — date: 2014'],
+      'GEO-0297':['Population française — caractéristiques: forte concentration en Île-de-France, dans les grandes métropoles, les vallées fluviales, les façades littorales et certains espaces frontaliers'],
+      'EMC-0005':['Liberté — caractéristiques: comprend notamment les libertés de conscience, de culte, de presse, de réunion, d’association, de circulation et d’entreprendre'],
+      'EMC-0081':['Conseil constitutionnel — composition: neuf membres nommés pour neuf ans','Conseil constitutionnel — composition: trois membres nommés par le Président de la République, trois par le président de l’Assemblée nationale et trois par le président du Sénat','Conseil constitutionnel — composition: anciens Présidents de la République membres de droit'],
+      'EMC-0085':['Justice administrative — organisation: tribunaux administratifs, cours administratives d’appel et Conseil d’État'],
+      'EMC-0102':['Modes de scrutin — caractéristiques: majoritaire à deux tours, proportionnel, uninominal ou de liste'],
+      'EMC-0183':['Procès équitable — définition: droit à un procès public, équitable et dans un délai raisonnable'],
       'ACT-0058':['António Costa — rôle: président du Conseil européen depuis le 1er décembre 2024'],
       'MAT-0014':['-3² — valeur: -9','(-3)² — valeur: 9']
     };
@@ -159,8 +187,12 @@
   S.enrich=function(raw){
     const base=old.call(S,raw),out=[];
     window.QSMART_SOURCE_BASE=base.map(x=>({...x}));
+    window.QSMART_SOURCE_RESOLVED={};
+    const resolve=(x,reason)=>{window.QSMART_SOURCE_RESOLVED[x.id]=reason};
     for(let i=0;i<base.length;i++){
       const x=base[i],s=clean(x.text),n=base[i+1],ns=clean(n&&n.text);
+
+      if(NON_ATOMIC[x.id]){resolve(x,NON_ATOMIC[x.id]);continue;}
 
       if(/\bav\.\s*$/i.test(s)&&/^J\.-C\./i.test(ns)&&sameContext(x,n)){
         const left=clean(s.replace(/\bav\.\s*$/i,''));
@@ -172,11 +204,6 @@
           if(desc)out.push(atom(n,`Révolution agricole néolithique — caractéristiques: ${desc}`,`${n.id}-b`));
           i++;continue;
         }
-      }
-
-      if(/^\d+\)\s+et\s+la\s+liberté d’expression\s*\(art\.\s*$/i.test(s)&&/^11\)\s*:/i.test(ns)&&sameContext(x,n)){
-        out.push(atom(n,rewriteKnown(ns),`${n.id}-article11`));
-        i++;continue;
       }
 
       const byId=rewriteById(x);
