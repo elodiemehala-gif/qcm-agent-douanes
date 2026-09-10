@@ -2,6 +2,7 @@
   const S=window.QSMART;if(!S||!S.enrich)return;
   const old=S.enrich;
   const clean=s=>String(s||'').replace(/[\u00a0\u202f]/g,' ').replace(/\s+/g,' ').replace(/\s+([,.;:!?])/g,'$1').trim();
+  const norm=s=>clean(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[’']/g,"'");
   const sameContext=(a,b)=>a&&b&&a.cat===b.cat&&a.page===b.page;
   const metaStart=/^(?:Penser|Croire|Confondre|Mélanger|Attribuer|Ne pas confondre)\b/i;
   const metaQcm=/\b(?:reviennent souvent dans les QCM|point de QCM|demandée?s? dans les QCM|pré[\s‐-]?admissibilité|articles importants pour les concours)\b/i;
@@ -32,19 +33,46 @@
   }
 
   function fieldFor(term,answer){
-    const t=clean(term).toLowerCase(),a=clean(answer);
-    if(/auteur|écrivain|peintre|compositeur/.test(t))return'auteurs';
+    const t=norm(term),a=norm(answer);
+    if(/auteur|ecrivain|peintre|compositeur/.test(t))return'auteur';
     if(/population|habitants/.test(t))return'population';
     if(/formule|calcul|relation/.test(t))return'formule';
-    if(/rôle|mission|fonction/.test(t))return'rôle';
-    if(/siège|localisation|situé/.test(t)||/^(?:situé(?:e)?|se situe|siège)\b/i.test(a))return'localisation';
-    if(/date|année|période/.test(t)||/^(?:vers|en|à partir de)\s*[~−-]?\s*\d/i.test(a)||/^[−-]?\d{3,4}(?:\s|$)/.test(a))return'date';
-    if(/définition|sens|concept|principe/.test(t)||/^(?:désigne|correspond à|est un|est une|principe|système|régime|courant|capacité)\b/i.test(a))return'définition';
+    if(/role|mission|fonction/.test(t))return'rôle';
+    if(/siege|localisation|situe/.test(t)||/^(?:situee?|se situe|siege)\b/.test(a))return'localisation';
+    if(/date|annee|periode/.test(t)||/^(?:vers|en|a partir de)\s*[~−-]?\s*\d/.test(a)||/^[−-]?\d{3,4}(?:\s|$)/.test(a))return'date';
+    if(/definition|sens|concept|principe/.test(t)||/^(?:designe|correspond a|est un|est une|principe|systeme|regime|courant|capacite)\b/.test(a))return'définition';
     return'caractéristiques';
   }
 
-  function structureSimpleColon(s){
+  function canonicalField(subject,field,answer){
+    const f=norm(field);
+    if(/definition/.test(f))return'définition';
+    if(/population/.test(f))return'population';
+    if(/auteur|artiste|createur/.test(f))return'auteur';
+    if(/localisation|siege|localise/.test(f))return'localisation';
+    if(/date|annee|periode/.test(f))return'date';
+    if(/formule/.test(f))return'formule';
+    if(/role|mission|fonction/.test(f))return'rôle';
+    if(/obligation/.test(f))return'obligation';
+    if(/valeur/.test(f))return'valeur';
+    if(/association/.test(f))return'association';
+    if(/repere/.test(f))return'repère';
+    if(/notion.?cle/.test(f))return'notion-clé';
+    if(/caracteristique|particularite|details?|a retenir|interpretation qcm|information \d+|priorite concours|statut|lien/.test(f))return'caractéristiques';
+    if(/sens|concept|principe/.test(f))return'définition';
+    return fieldFor(subject,answer);
+  }
+
+  function normalizeStructuredField(s){
     s=clean(s);
+    const m=s.match(/^(.+?)\s+[—–]\s+([^:]{1,55})\s*:\s*(.+)$/);
+    if(!m)return s;
+    const subject=clean(m[1]),field=clean(m[2]),answer=clean(m[3]);
+    return `${subject} — ${canonicalField(subject,field,answer)}: ${answer}`;
+  }
+
+  function structureSimpleColon(s){
+    s=normalizeStructuredField(clean(s));
     if(/\s[—–]\s[^:]{1,55}\s*:/.test(s))return s;
     const m=s.match(/^([^:]{2,90})\s*:\s*(.+)$/);
     if(!m)return s;
@@ -91,6 +119,8 @@
 
   S.enrich=function(raw){
     const base=old.call(S,raw),out=[];
+    // Référentiel stable avant nettoyage source : c'est le dénominateur historique (2 203 éléments).
+    window.QSMART_SOURCE_BASE=base.map(x=>({...x}));
     for(let i=0;i<base.length;i++){
       const x=base[i],s=clean(x.text),n=base[i+1],ns=clean(n&&n.text);
 
@@ -101,7 +131,7 @@
         if(m){
           out.push(atom(x,`Néolithique — date: vers ${clean(m[1])} av. J.-C.`,`${x.id}-a`));
           const desc=clean(after.replace(/^révolution agricole\s*:\s*/i,''));
-          if(desc)out.push(atom(x,`Révolution agricole néolithique — caractéristiques: ${desc}`,`${x.id}-b`));
+          if(desc)out.push(atom(n,`Révolution agricole néolithique — caractéristiques: ${desc}`,`${n.id}-b`));
           i++;continue;
         }
       }
