@@ -1,29 +1,6 @@
 {
-  "generatedAt": "2026-09-10T08:50:12.262Z",
-  "count": 1,
-  "byCat": {
-    "Géographie": 1
-  },
-  "rows": [
-    {
-      "id": "GEO-0050",
-      "cat": "Géographie",
-      "page": 4,
-      "chapter": "I.4 Climats et biomes",
-      "topic": "Climats et biomes",
-      "source": "Austral / Antarctique — À retenir pour le QCM: courant circumpolaire",
-      "previousSource": {
-        "id": "GEO-0049",
-        "source": "Austral / Antarctique — À retenir pour le QCM: Entoure l’Antarctique",
-        "cat": "Géographie",
-        "page": 4
-      },
-      "nextSource": {
-        "id": "GEO-0051",
-        "source": "Austral / Antarctique — À retenir pour le QCM: limites et dénomination peuvent varier selon les institutions.",
-        "cat": "Géographie",
-        "page": 4
-      }
-    }
-  ]
+  "generatedAt": "2026-09-10T08:52:44.117Z",
+  "count": 0,
+  "byCat": {},
+  "rows": []
 }

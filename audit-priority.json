@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-09-10T08:50:12.262Z",
+    "generatedAt": "2026-09-10T08:52:44.117Z",
     "rawFragments": 2349,
     "sourceFacts": 2203,
     "enrichedFacts": 2328,
@@ -27,12 +27,12 @@
       },
       "Géographie": {
         "facts": 393,
-        "pass": 347,
-        "noQuestion": 1,
-        "flagged": 43,
+        "pass": 348,
+        "noQuestion": 0,
+        "flagged": 42,
         "sourceRejected": 0,
         "resolvedNonAtomic": 3,
-        "remaining": 43
+        "remaining": 42
       },
       "Enseignement moral et civique": {
         "facts": 233,
@@ -92,87 +92,21 @@
     "issueCounts": {
       "answer_too_broad": 120,
       "mixed_semantic_types": 157,
-      "no_question": 44,
+      "no_question": 43,
       "correct_length_gives_clue": 27,
       "option_length_imbalance": 18,
       "answer_not_literal_in_source": 2
     },
-    "fullyCompliant": 1844,
+    "fullyCompliant": 1845,
     "resolvedNonAtomic": 55,
-    "resolvedTotal": 1899,
-    "remaining": 304,
-    "flagged": 304,
-    "noQuestion": 1,
-    "withQuestion": 2147,
+    "resolvedTotal": 1900,
+    "remaining": 303,
+    "flagged": 303,
+    "noQuestion": 0,
+    "withQuestion": 2148,
     "sourceRejected": 0
   },
   "rows": [
-    {
-      "id": "GEO-0050",
-      "cat": "Géographie",
-      "page": 4,
-      "chapter": "I.4 Climats et biomes",
-      "topic": "Climats et biomes",
-      "source": "Austral / Antarctique — À retenir pour le QCM: courant circumpolaire",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0050",
-          "chapter": "I.4 Climats et biomes",
-          "topic": "Climats et biomes",
-          "source": "Océan Austral / Antarctique — association: courant circumpolaire",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0049",
-        "source": "Austral / Antarctique — À retenir pour le QCM: Entoure l’Antarctique",
-        "cat": "Géographie",
-        "page": 4
-      },
-      "nextSource": {
-        "id": "GEO-0051",
-        "source": "Austral / Antarctique — À retenir pour le QCM: limites et dénomination peuvent varier selon les institutions.",
-        "cat": "Géographie",
-        "page": 4
-      }
-    },
     {
       "id": "HIS-0157",
       "cat": "Histoire",
@@ -27112,6 +27046,106 @@
         "source": "Art contemporain — Caractéristiques: Pluralité: installation, performance, vidéo, street art",
         "cat": "Culture générale",
         "page": 2
+      }
+    },
+    {
+      "id": "CG-0090",
+      "cat": "Culture générale",
+      "page": 3,
+      "chapter": "I. Arts",
+      "topic": "Arts",
+      "source": "L’architecture gothique apparaît au XIIe siècle et permet des édifices plus hauts et plus lumineux grâce à l’arc brisé, la croisée d’ogives et les arcs-boutants.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "CG-0090",
+          "chapter": "I. Arts",
+          "topic": "Arts",
+          "source": "L’architecture gothique apparaît au XIIe siècle et permet des édifices plus hauts et plus lumineux grâce à l’arc brisé, la croisée d’ogives et les arcs-boutants.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à L’architecture gothique apparaît au XIIe siècle et?",
+                "o": [
+                  "des édifices plus hauts et plus lumineux grâce à l’arc brisé, la croisée d’ogives et les arcs-boutants",
+                  "une figure essentielle — caractéristiques: Le Serment des Horaces, La Mort de Marat et Le Sacre de Napoléon",
+                  "interrogée comme culture générale — caractéristiques: vocabulaire du vivant et de l’environnement, accidents et grandes découvertes, notions élémentaires de physique ou de biologie",
+                  "l’eau; CO2 le dioxyde de carbone; O2 le dioxygène"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à L’architecture gothique apparaît au XIIe siècle et?",
+                "o": [
+                  "à distinguer — caractéristiques: dorique (sobre, chapiteau simple), ionique (volutes) et corinthien (feuilles d’acanthe)",
+                  "associé à la construction du tableau périodique au XIXe siècle",
+                  "une onde électromagnétique et peut se propager dans le vide",
+                  "des édifices plus hauts et plus lumineux grâce à l’arc brisé, la croisée d’ogives et les arcs-boutants"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à L’architecture gothique apparaît au XIIe siècle et?",
+                "o": [
+                  "pas identiques — caractéristiques: la masse s’exprime en kg",
+                  "des édifices plus hauts et plus lumineux grâce à l’arc brisé, la croisée d’ogives et les arcs-boutants",
+                  "le rapport entre distance parcourue et durée",
+                  "une figure essentielle — caractéristiques: Le Serment des Horaces, La Mort de Marat et Le Sacre de Napoléon"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à L’architecture gothique apparaît au XIIe siècle et?",
+                "o": [
+                  "l’eau; CO2 le dioxyde de carbone; O2 le dioxygène",
+                  "pas identiques — caractéristiques: la masse s’exprime en kg",
+                  "surtout celui d’un candidat cultivé, pas d’un spécialiste",
+                  "des édifices plus hauts et plus lumineux grâce à l’arc brisé, la croisée d’ogives et les arcs-boutants"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0089",
+        "source": "Elle utilise l’arc en plein cintre, des murs épais et des ouvertures limitées.",
+        "cat": "Culture générale",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "CG-0091",
+        "source": "Le Caravage est célèbre pour son clair-obscur.",
+        "cat": "Culture générale",
+        "page": 3
       }
     }
   ]
