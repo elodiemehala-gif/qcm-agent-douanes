@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-09-10T13:20:54.662Z",
+    "generatedAt": "2026-09-10T13:22:33.529Z",
     "rawFragments": 2349,
     "sourceFacts": 2203,
     "enrichedFacts": 2479,
@@ -19,7 +19,7 @@
       "Histoire": {
         "facts": 463,
         "pass": 430,
-        "noQuestion": 2,
+        "noQuestion": 0,
         "flagged": 28,
         "sourceRejected": 0,
         "resolvedNonAtomic": 5,
@@ -91,8 +91,8 @@
     },
     "issueCounts": {
       "correct_length_gives_clue": 34,
-      "mixed_semantic_types": 143,
-      "no_question": 27,
+      "mixed_semantic_types": 145,
+      "no_question": 25,
       "answer_too_broad": 2,
       "answer_not_literal_in_source": 2,
       "option_length_imbalance": 1
@@ -102,143 +102,11 @@
     "resolvedTotal": 2016,
     "remaining": 187,
     "flagged": 187,
-    "noQuestion": 2,
-    "withQuestion": 2102,
+    "noQuestion": 0,
+    "withQuestion": 2104,
     "sourceRejected": 0
   },
   "rows": [
-    {
-      "id": "HIS-0398",
-      "cat": "Histoire",
-      "page": 19,
-      "chapter": "IX. Culture, arts et littérature",
-      "topic": "IX. Culture, arts et littérature",
-      "source": "Les Misérables — Auteur: Victor Hugo",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0398",
-          "chapter": "IX. Culture, arts et littérature",
-          "topic": "IX. Culture, arts et littérature",
-          "source": "Les Misérables — association: Victor Hugo",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0397",
-        "source": "Penser que l’Irak envahit l’Iran en 1990; c’est le Koweït qui est envahi par l’Irak.",
-        "cat": "Histoire",
-        "page": 18
-      },
-      "nextSource": {
-        "id": "HIS-0399",
-        "source": "Les Misérables — Particularités: Fresque sociale sur la misère et la rédemption",
-        "cat": "Histoire",
-        "page": 19
-      }
-    },
-    {
-      "id": "HIS-0431",
-      "cat": "Histoire",
-      "page": 20,
-      "chapter": "IX. Culture, arts et littérature",
-      "topic": "IX. Culture, arts et littérature",
-      "source": "Notre‐Dame de Paris — Auteur: Victor Hugo",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0431",
-          "chapter": "IX. Culture, arts et littérature",
-          "topic": "IX. Culture, arts et littérature",
-          "source": "Notre-Dame de Paris — association: Victor Hugo",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0430",
-        "source": "Germinal — Particularités: Roman naturaliste sur la condition ouvrière dans les mines du Nord.",
-        "cat": "Histoire",
-        "page": 20
-      },
-      "nextSource": {
-        "id": "HIS-0432",
-        "source": "Notre‐Dame de Paris — Particularités: Roman historique",
-        "cat": "Histoire",
-        "page": 20
-      }
-    },
     {
       "id": "LOG-0033",
       "cat": "Raisonnement logique",
@@ -5164,6 +5032,210 @@
         "source": "Révolution iranienne (1979): renverse le Shah",
         "cat": "Histoire",
         "page": 18
+      }
+    },
+    {
+      "id": "HIS-0398",
+      "cat": "Histoire",
+      "page": 19,
+      "chapter": "IX. Culture, arts et littérature",
+      "topic": "IX. Culture, arts et littérature",
+      "source": "Les Misérables — Auteur: Victor Hugo",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0398",
+          "chapter": "IX. Culture, arts et littérature",
+          "topic": "IX. Culture, arts et littérature",
+          "source": "Les Misérables — association: Victor Hugo",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Qui est l’auteur de « Les Misérables » ?",
+                "o": [
+                  "Honoré de Balzac",
+                  "Émile Zola",
+                  "Gustave Flaubert",
+                  "Victor Hugo"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Qui est l’auteur de « Les Misérables » ?",
+                "o": [
+                  "Émile Zola",
+                  "Gustave Flaubert",
+                  "Victor Hugo",
+                  "Honoré de Balzac"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Qui est l’auteur de « Les Misérables » ?",
+                "o": [
+                  "Émile Zola",
+                  "Victor Hugo",
+                  "Honoré de Balzac",
+                  "Gustave Flaubert"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Qui est l’auteur de « Les Misérables » ?",
+                "o": [
+                  "Honoré de Balzac",
+                  "Victor Hugo",
+                  "Gustave Flaubert",
+                  "Émile Zola"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0397",
+        "source": "Penser que l’Irak envahit l’Iran en 1990; c’est le Koweït qui est envahi par l’Irak.",
+        "cat": "Histoire",
+        "page": 18
+      },
+      "nextSource": {
+        "id": "HIS-0399",
+        "source": "Les Misérables — Particularités: Fresque sociale sur la misère et la rédemption",
+        "cat": "Histoire",
+        "page": 19
+      }
+    },
+    {
+      "id": "HIS-0431",
+      "cat": "Histoire",
+      "page": 20,
+      "chapter": "IX. Culture, arts et littérature",
+      "topic": "IX. Culture, arts et littérature",
+      "source": "Notre‐Dame de Paris — Auteur: Victor Hugo",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0431",
+          "chapter": "IX. Culture, arts et littérature",
+          "topic": "IX. Culture, arts et littérature",
+          "source": "Notre-Dame de Paris — association: Victor Hugo",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Qui est l’auteur de « Notre-Dame de Paris » ?",
+                "o": [
+                  "Honoré de Balzac",
+                  "Victor Hugo",
+                  "Émile Zola",
+                  "Gustave Flaubert"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Qui est l’auteur de « Notre-Dame de Paris » ?",
+                "o": [
+                  "Gustave Flaubert",
+                  "Victor Hugo",
+                  "Honoré de Balzac",
+                  "Émile Zola"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Qui est l’auteur de « Notre-Dame de Paris » ?",
+                "o": [
+                  "Honoré de Balzac",
+                  "Victor Hugo",
+                  "Gustave Flaubert",
+                  "Émile Zola"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Qui est l’auteur de « Notre-Dame de Paris » ?",
+                "o": [
+                  "Gustave Flaubert",
+                  "Émile Zola",
+                  "Honoré de Balzac",
+                  "Victor Hugo"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0430",
+        "source": "Germinal — Particularités: Roman naturaliste sur la condition ouvrière dans les mines du Nord.",
+        "cat": "Histoire",
+        "page": 20
+      },
+      "nextSource": {
+        "id": "HIS-0432",
+        "source": "Notre‐Dame de Paris — Particularités: Roman historique",
+        "cat": "Histoire",
+        "page": 20
       }
     },
     {
