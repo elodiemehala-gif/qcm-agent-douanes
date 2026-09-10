@@ -58,7 +58,7 @@
     if(/association/.test(f))return'association';
     if(/repere/.test(f))return'repère';
     if(/notion.?cle/.test(f))return'notion-clé';
-    if(/caracteristique|particularite|details?|a retenir|interpretation qcm|information \d+|priorite concours|statut|lien/.test(f))return'caractéristiques';
+    if(/caracteristique|particularite|details?|a retenir|interpretation qcm|information \d+|priorite concours|statut|lien|regime|portee|cause|mode d.election|action/.test(f))return'caractéristiques';
     if(/sens|concept|principe/.test(f))return'définition';
     return fieldFor(subject,answer);
   }
@@ -104,6 +104,45 @@
     return null;
   }
 
+  function rewriteById(x){
+    const M={
+      'HIS-0025':['Vallée des Rois — caractéristiques: accueille des tombeaux royaux plus récents que les pyramides'],
+      'HIS-0039':['Sparte — caractéristiques: régime oligarchique'],
+      'HIS-0040':['Platon — caractéristiques: conception fondée sur le monde des Idées','Aristote — caractéristiques: conception fondée sur l’empirisme'],
+      'HIS-0057':['Chute de l’Empire romain d’Occident — date: 476','Chute de l’Empire romain d’Orient — date: 1453'],
+      'HIS-0069':['Hégire — date: 622','Hégire — définition: fuite de Mahomet de La Mecque à Médine'],
+      'HIS-0082':['Charles Martel — rôle: maire du palais','Victoire de Poitiers de Charles Martel — date: 732','Charlemagne — caractéristiques: empereur en 800'],
+      'HIS-0092':['Guerre de Cent Ans — caractéristiques: durée de 116 ans avec des trêves'],
+      'HIS-0119':['Louis XIV — association: agrandissement du château de Versailles'],
+      'HIS-0132':['Montaigne — association: Renaissance'],
+      'HIS-0133':['Diderot — rôle: coordonnateur et contributeur de l’Encyclopédie avec d’Alembert et de nombreux auteurs'],
+      'HIS-0142':['Crise de 1788 — caractéristiques: causes multiples, financières, politiques et intellectuelles'],
+      'HIS-0153':['Proclamation de la République française — date: 1792','Déclaration des droits de l’homme et du citoyen — date: 1789'],
+      'HIS-0154':['Terreur — caractéristiques: gouvernement collégial impliquant notamment Saint-Just et Couthon'],
+      'HIS-0167':['Code civil — domaine: droit des personnes, des biens et des contrats'],
+      'HIS-0168':['Napoléon — caractéristiques: instaure un Empire autoritaire tout en conservant certaines conquêtes révolutionnaires'],
+      'HIS-0172':['Cent-Jours — date: 1815','Cent-Jours — repère: se terminent avec Waterloo'],
+      'HIS-0192':['Loi de 1905 — caractéristiques: comporte certaines exceptions, notamment en Alsace-Moselle'],
+      'HIS-0200':['Loi Le Chapelier — date: 1791','Reconnaissance légale des syndicats — date: 1884'],
+      'HIS-0213':['Assassinat de François-Ferdinand — rôle: déclenche un système d’alliances déjà tendu'],
+      'HIS-0219':['Crise de 1929 — caractéristiques: s’étend rapidement au monde entier'],
+      'HIS-0233':['Appel du 18 juin — date: 18 juin 1940','Capitulation française — date: 22 juin 1940'],
+      'HIS-0246':['Fin de la Guerre froide — date: 1991'],
+      'HIS-0256':['Création de la Sécurité sociale — date: 1945','Création du régime général de retraite — date: 1946'],
+      'HIS-0257':['IVe République — caractéristiques: régime d’assemblée'],
+      'HIS-0271':['Charles de Gaulle — repère: même personne pendant la Résistance et comme président de la Ve République'],
+      'HIS-0272':['Article 49-3 — rôle: engage la responsabilité du gouvernement'],
+      'HIS-0292':['Sénateurs — caractéristiques: élus au suffrage universel indirect par un collège de grands électeurs'],
+      'HIS-0293':['Référendum — définition: vote direct des citoyens sur un texte','Motion de censure — définition: vote parlementaire pouvant renverser le gouvernement'],
+      'HIS-0372':['Déclaration d’indépendance américaine — auteur: Thomas Jefferson'],
+      'HIS-0397':['Invasion du Koweït par l’Irak — date: 1990'],
+      'HIS-0412':['Annexion de la Crimée — date: 2014'],
+      'ACT-0058':['António Costa — rôle: président du Conseil européen depuis le 1er décembre 2024'],
+      'MAT-0014':['-3² — valeur: -9','(-3)² — valeur: 9']
+    };
+    return M[x.id]||null;
+  }
+
   function invalidStandalone(s){
     if(!s)return true;
     if(metaQcm.test(s)||bareContext.test(s))return true;
@@ -119,7 +158,6 @@
 
   S.enrich=function(raw){
     const base=old.call(S,raw),out=[];
-    // Référentiel stable avant nettoyage source : c'est le dénominateur historique (2 203 éléments).
     window.QSMART_SOURCE_BASE=base.map(x=>({...x}));
     for(let i=0;i<base.length;i++){
       const x=base[i],s=clean(x.text),n=base[i+1],ns=clean(n&&n.text);
@@ -139,6 +177,12 @@
       if(/^\d+\)\s+et\s+la\s+liberté d’expression\s*\(art\.\s*$/i.test(s)&&/^11\)\s*:/i.test(ns)&&sameContext(x,n)){
         out.push(atom(n,rewriteKnown(ns),`${n.id}-article11`));
         i++;continue;
+      }
+
+      const byId=rewriteById(x);
+      if(byId){
+        byId.forEach((text,j)=>out.push(atom(x,text,byId.length>1?`${x.id}-${j+1}`:x.id)));
+        continue;
       }
 
       const editorial=rewriteEditorial(s);
