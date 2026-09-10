@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: '20'
       - name: Audit all knowledge facts
-        run: node audit-qcm.mjs
+        run: node audit-run-v28.mjs
       - name: Build priority snapshot
         run: |
           node - <<'NODE'
