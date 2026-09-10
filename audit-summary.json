@@ -1,0 +1,89 @@
+{
+  "generatedAt": "2026-09-10T07:56:27.997Z",
+  "rawFragments": 2349,
+  "sourceFacts": 2203,
+  "enrichedFacts": 2154,
+  "auditedSourceFacts": 2203,
+  "categories": [
+    "Histoire",
+    "Géographie",
+    "Enseignement moral et civique",
+    "Actualité",
+    "Organisation et missions",
+    "Mathématiques",
+    "Raisonnement logique",
+    "Culture générale"
+  ],
+  "byCat": {
+    "Histoire": {
+      "facts": 463,
+      "pass": 353,
+      "noQuestion": 78,
+      "flagged": 110,
+      "sourceRejected": 46
+    },
+    "Géographie": {
+      "facts": 393,
+      "pass": 314,
+      "noQuestion": 25,
+      "flagged": 79,
+      "sourceRejected": 1
+    },
+    "Enseignement moral et civique": {
+      "facts": 233,
+      "pass": 135,
+      "noQuestion": 48,
+      "flagged": 98,
+      "sourceRejected": 9
+    },
+    "Actualité": {
+      "facts": 119,
+      "pass": 76,
+      "noQuestion": 30,
+      "flagged": 43,
+      "sourceRejected": 1
+    },
+    "Organisation et missions": {
+      "facts": 95,
+      "pass": 49,
+      "noQuestion": 22,
+      "flagged": 46,
+      "sourceRejected": 0
+    },
+    "Mathématiques": {
+      "facts": 125,
+      "pass": 61,
+      "noQuestion": 45,
+      "flagged": 64,
+      "sourceRejected": 4
+    },
+    "Raisonnement logique": {
+      "facts": 162,
+      "pass": 104,
+      "noQuestion": 5,
+      "flagged": 58,
+      "sourceRejected": 0
+    },
+    "Culture générale": {
+      "facts": 613,
+      "pass": 480,
+      "noQuestion": 49,
+      "flagged": 133,
+      "sourceRejected": 0
+    }
+  },
+  "issueCounts": {
+    "source_rejected_or_removed": 61,
+    "no_question": 274,
+    "answer_too_broad": 118,
+    "mixed_semantic_types": 192,
+    "correct_length_gives_clue": 23,
+    "option_length_imbalance": 17,
+    "answer_not_literal_in_source": 2
+  },
+  "fullyCompliant": 1572,
+  "flagged": 631,
+  "noQuestion": 302,
+  "withQuestion": 1901,
+  "sourceRejected": 61
+}
