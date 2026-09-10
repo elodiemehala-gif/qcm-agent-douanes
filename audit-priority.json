@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-09-10T08:08:28.856Z",
+    "generatedAt": "2026-09-10T08:09:25.997Z",
     "rawFragments": 2349,
     "sourceFacts": 2203,
     "enrichedFacts": 2233,
@@ -19,74 +19,93 @@
       "Histoire": {
         "facts": 463,
         "pass": 383,
-        "noQuestion": 34,
-        "flagged": 80,
-        "sourceRejected": 3
+        "noQuestion": 32,
+        "flagged": 78,
+        "sourceRejected": 1,
+        "resolvedNonAtomic": 2,
+        "remaining": 78
       },
       "Géographie": {
         "facts": 393,
         "pass": 315,
         "noQuestion": 24,
         "flagged": 78,
-        "sourceRejected": 0
+        "sourceRejected": 0,
+        "resolvedNonAtomic": 0,
+        "remaining": 78
       },
       "Enseignement moral et civique": {
         "facts": 233,
         "pass": 139,
-        "noQuestion": 43,
-        "flagged": 94,
-        "sourceRejected": 4
+        "noQuestion": 40,
+        "flagged": 91,
+        "sourceRejected": 1,
+        "resolvedNonAtomic": 3,
+        "remaining": 91
       },
       "Actualité": {
         "facts": 119,
         "pass": 78,
         "noQuestion": 29,
         "flagged": 41,
-        "sourceRejected": 0
+        "sourceRejected": 0,
+        "resolvedNonAtomic": 0,
+        "remaining": 41
       },
       "Organisation et missions": {
         "facts": 95,
         "pass": 49,
         "noQuestion": 22,
         "flagged": 46,
-        "sourceRejected": 0
+        "sourceRejected": 0,
+        "resolvedNonAtomic": 0,
+        "remaining": 46
       },
       "Mathématiques": {
         "facts": 125,
         "pass": 62,
-        "noQuestion": 44,
-        "flagged": 63,
-        "sourceRejected": 3
+        "noQuestion": 41,
+        "flagged": 60,
+        "sourceRejected": 0,
+        "resolvedNonAtomic": 3,
+        "remaining": 60
       },
       "Raisonnement logique": {
         "facts": 162,
         "pass": 104,
         "noQuestion": 5,
         "flagged": 58,
-        "sourceRejected": 0
+        "sourceRejected": 0,
+        "resolvedNonAtomic": 0,
+        "remaining": 58
       },
       "Culture générale": {
         "facts": 613,
         "pass": 480,
         "noQuestion": 49,
         "flagged": 133,
-        "sourceRejected": 0
+        "sourceRejected": 0,
+        "resolvedNonAtomic": 0,
+        "remaining": 133
       }
     },
     "issueCounts": {
       "no_question": 272,
       "answer_too_broad": 118,
       "mixed_semantic_types": 203,
-      "source_rejected_or_removed": 10,
+      "source_rejected_or_removed": 2,
       "correct_length_gives_clue": 24,
       "option_length_imbalance": 16,
       "answer_not_literal_in_source": 2
     },
     "fullyCompliant": 1610,
-    "flagged": 593,
-    "noQuestion": 250,
+    "resolvedNonAtomic": 8,
+    "resolvedTotal": 1618,
+    "remaining": 585,
+    "flagged": 585,
+    "noQuestion": 242,
     "withQuestion": 1953,
-    "sourceRejected": 10
+    "sourceRejected": 2
   },
   "rows": [
     {
@@ -102,6 +121,7 @@
         "source_rejected_or_removed"
       ],
       "sourceRejected": true,
+      "sourceResolvedNonAtomic": false,
       "variants": [],
       "previousSource": {
         "id": "HIS-0090",
@@ -117,141 +137,6 @@
       }
     },
     {
-      "id": "HIS-0247",
-      "cat": "Histoire",
-      "page": 13,
-      "chapter": "VI. France contemporaine",
-      "topic": "VI. France contemporaine",
-      "source": "Mélanger guerre de Corée et guerre du Vietnam; pays et dates diffèrent.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "HIS-0246",
-        "source": "Penser que la Guerre froide s’achève avec la chute du mur en 1989; elle se termine avec la dissolution de l’URSS en 1991.",
-        "cat": "Histoire",
-        "page": 13
-      },
-      "nextSource": {
-        "id": "HIS-0248",
-        "source": "Contexte: adoptée après la Libération.",
-        "cat": "Histoire",
-        "page": 13
-      }
-    },
-    {
-      "id": "HIS-0396",
-      "cat": "Histoire",
-      "page": 18,
-      "chapter": "VIII. Révolutions, indépendances et monde contemporain",
-      "topic": "VIII. Révolutions, indépendances et monde contemporain",
-      "source": "Mélanger guerres israélo-arabes et crise du canal de Suez; ces événements ont des causes différentes.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "HIS-0395",
-        "source": "Confondre la révolution iranienne (1979) et la crise de Suez (1956).",
-        "cat": "Histoire",
-        "page": 18
-      },
-      "nextSource": {
-        "id": "HIS-0397",
-        "source": "Penser que l’Irak envahit l’Iran en 1990; c’est le Koweït qui est envahi par l’Irak.",
-        "cat": "Histoire",
-        "page": 18
-      }
-    },
-    {
-      "id": "EMC-0002",
-      "cat": "Enseignement moral et civique",
-      "page": 3,
-      "chapter": "A-B. Valeurs et symboles de la République",
-      "topic": "Valeurs de la République",
-      "source": "10) et la liberté d’expression (art.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "EMC-0001",
-        "source": "A.1 Liberté Définition: capacité de chacun à agir et s’exprimer sans contrainte indue, dans le respect de la loi.",
-        "cat": "Enseignement moral et civique",
-        "page": 3
-      },
-      "nextSource": {
-        "id": "EMC-0003",
-        "source": "11): tout citoyen peut « parler, écrire, imprimer librement ».",
-        "cat": "Enseignement moral et civique",
-        "page": 3
-      }
-    },
-    {
-      "id": "EMC-0048",
-      "cat": "Enseignement moral et civique",
-      "page": 5,
-      "chapter": "C. Textes fondamentaux",
-      "topic": "C. Textes fondamentaux",
-      "source": "Articles importants pour les concours: ○ Art.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "EMC-0047",
-        "source": "C.1 DDHC de 1789 Portée: texte fondateur des droits naturels et imprescriptibles.",
-        "cat": "Enseignement moral et civique",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "EMC-0049",
-        "source": "C’est cette définition qui est souvent demandée dans les QCM de pré‐admissibilité. ○ Art.",
-        "cat": "Enseignement moral et civique",
-        "page": 5
-      }
-    },
-    {
-      "id": "EMC-0049",
-      "cat": "Enseignement moral et civique",
-      "page": 5,
-      "chapter": "C. Textes fondamentaux",
-      "topic": "C. Textes fondamentaux",
-      "source": "C’est cette définition qui est souvent demandée dans les QCM de pré‐admissibilité. ○ Art.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "EMC-0048",
-        "source": "Articles importants pour les concours: ○ Art.",
-        "cat": "Enseignement moral et civique",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "EMC-0050",
-        "source": "C.2 Préambule de 1946 et Constitution de 1958 Préambule de 1946: réaffirme les droits proclamés en 1789 et ajoute des droits économiques et sociaux (droit au travail, au repos, à la santé, à l’instruction, à la culture).",
-        "cat": "Enseignement moral et civique",
-        "page": 5
-      }
-    },
-    {
       "id": "EMC-0087",
       "cat": "Enseignement moral et civique",
       "page": 7,
@@ -264,6 +149,7 @@
         "source_rejected_or_removed"
       ],
       "sourceRejected": true,
+      "sourceResolvedNonAtomic": false,
       "variants": [],
       "previousSource": {
         "id": "EMC-0086",
@@ -279,87 +165,6 @@
       }
     },
     {
-      "id": "MAT-0075",
-      "cat": "Mathématiques",
-      "page": 5,
-      "chapter": "A. Nombres et arithmétique",
-      "topic": "A. Nombres et arithmétique",
-      "source": "Vérification: 2×44/7 - 3×13/7 = 49/7 = 7",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "MAT-0074",
-        "source": "La solution correcte est y = 13/7 et x = 44/7.",
-        "cat": "Mathématiques",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "MAT-0076",
-        "source": "Vérification: 44/7 - 5×13/7 = -21/7 = -3 Problèmes: Définir les inconnues, traduire chaque relation en équation, résoudre puis vérifier la cohérence physique du résultat.",
-        "cat": "Mathématiques",
-        "page": 5
-      }
-    },
-    {
-      "id": "MAT-0076",
-      "cat": "Mathématiques",
-      "page": 5,
-      "chapter": "A. Nombres et arithmétique",
-      "topic": "A. Nombres et arithmétique",
-      "source": "Vérification: 44/7 - 5×13/7 = -21/7 = -3 Problèmes: Définir les inconnues, traduire chaque relation en équation, résoudre puis vérifier la cohérence physique du résultat.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "MAT-0075",
-        "source": "Vérification: 2×44/7 - 3×13/7 = 49/7 = 7",
-        "cat": "Mathématiques",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "MAT-0077",
-        "source": "Partage: x + (x+10) + (x+20) = 160 → x = 130/3.",
-        "cat": "Mathématiques",
-        "page": 5
-      }
-    },
-    {
-      "id": "MAT-0135",
-      "cat": "Mathématiques",
-      "page": 8,
-      "chapter": "C. Mesures et géométrie",
-      "topic": "C. Mesures et géométrie",
-      "source": "Ne pas confondre moyenne et médiane.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "MAT-0134",
-        "source": "Pour des données groupées, classe modale = classe de plus grand effectif.",
-        "cat": "Mathématiques",
-        "page": 8
-      },
-      "nextSource": {
-        "id": "MAT-0136",
-        "source": "E.2 Probabilités élémentaires P(A) = nombre de cas favorables / nombre de cas possibles, si les issues sont équiprobables",
-        "cat": "Mathématiques",
-        "page": 8
-      }
-    },
-    {
       "id": "HIS-0015",
       "cat": "Histoire",
       "page": 3,
@@ -372,6 +177,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0015",
@@ -437,6 +243,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0042",
@@ -502,6 +309,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0058",
@@ -567,6 +375,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0071",
@@ -632,6 +441,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0079",
@@ -697,6 +507,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0113",
@@ -762,6 +573,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0115",
@@ -827,6 +639,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0117",
@@ -892,6 +705,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0120",
@@ -957,6 +771,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0143",
@@ -1022,6 +837,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0165",
@@ -1087,6 +903,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0169",
@@ -1152,6 +969,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0173",
@@ -1217,6 +1035,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0186",
@@ -1282,6 +1101,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0202",
@@ -1347,6 +1167,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0220",
@@ -1412,6 +1233,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0229",
@@ -1477,6 +1299,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0235",
@@ -1542,6 +1365,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0243",
@@ -1607,6 +1431,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0273",
@@ -1672,6 +1497,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0288",
@@ -1737,6 +1563,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0301",
@@ -1802,6 +1629,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0305",
@@ -1867,6 +1695,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0374",
@@ -1932,6 +1761,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0401",
@@ -1997,6 +1827,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0402",
@@ -2062,6 +1893,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0403",
@@ -2127,6 +1959,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0405",
@@ -2192,6 +2025,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0406",
@@ -2257,6 +2091,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0408",
@@ -2322,6 +2157,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "HIS-0413",
@@ -2387,6 +2223,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0033",
@@ -2452,6 +2289,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0036",
@@ -2517,6 +2355,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0037",
@@ -2582,6 +2421,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0079",
@@ -2647,6 +2487,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0120",
@@ -2712,6 +2553,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0121",
@@ -2777,6 +2619,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0122",
@@ -2842,6 +2685,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0163",
@@ -2907,6 +2751,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0164",
@@ -2972,6 +2817,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0166",
@@ -3037,6 +2883,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0168",
@@ -3102,6 +2949,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0169",
@@ -3167,6 +3015,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0170",
@@ -3232,6 +3081,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0186",
@@ -3297,6 +3147,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0190",
@@ -3362,6 +3213,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0191",
@@ -3427,6 +3279,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0192",
@@ -3492,6 +3345,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0194",
@@ -3557,6 +3411,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0206",
@@ -3622,6 +3477,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0208",
@@ -3687,6 +3543,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0295",
@@ -3752,6 +3609,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0303",
@@ -3817,6 +3675,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0345",
@@ -3882,6 +3741,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "GEO-0352",
@@ -3947,6 +3807,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0004",
@@ -4012,6 +3873,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0008",
@@ -4077,6 +3939,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0011",
@@ -4142,6 +4005,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0014",
@@ -4207,6 +4071,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0017",
@@ -4272,6 +4137,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0018",
@@ -4337,6 +4203,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0020",
@@ -4402,6 +4269,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0033",
@@ -4467,6 +4335,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0035",
@@ -4532,6 +4401,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0051",
@@ -4597,6 +4467,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0053",
@@ -4662,6 +4533,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0057",
@@ -4727,6 +4599,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0060",
@@ -4792,6 +4665,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0069",
@@ -4857,6 +4731,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0071",
@@ -4922,6 +4797,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0074",
@@ -4987,6 +4863,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0080",
@@ -5052,6 +4929,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0083",
@@ -5117,6 +4995,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0084",
@@ -5182,6 +5061,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0089",
@@ -5247,6 +5127,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0105",
@@ -5312,6 +5193,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0111",
@@ -5377,6 +5259,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0119",
@@ -5442,6 +5325,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0121",
@@ -5507,6 +5391,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0124",
@@ -5572,6 +5457,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0129",
@@ -5637,6 +5523,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0134",
@@ -5702,6 +5589,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0139",
@@ -5767,6 +5655,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0144",
@@ -5832,6 +5721,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0145",
@@ -5897,6 +5787,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0150",
@@ -5962,6 +5853,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0159",
@@ -6027,6 +5919,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0161",
@@ -6092,6 +5985,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0198",
@@ -6157,6 +6051,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0208",
@@ -6222,6 +6117,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0216",
@@ -6287,6 +6183,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0219",
@@ -6352,6 +6249,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0245",
@@ -6417,6 +6315,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "EMC-0250",
@@ -6482,6 +6381,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0006",
@@ -6547,6 +6447,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0012",
@@ -6612,6 +6513,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0015",
@@ -6677,6 +6579,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0016",
@@ -6742,6 +6645,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0037",
@@ -6807,6 +6711,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0038",
@@ -6872,6 +6777,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0039",
@@ -6937,6 +6843,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0041",
@@ -7002,6 +6909,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0042",
@@ -7067,6 +6975,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0044",
@@ -7132,6 +7041,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0046",
@@ -7197,6 +7107,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0053",
@@ -7262,6 +7173,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0054",
@@ -7327,6 +7239,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0056",
@@ -7392,6 +7305,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0057",
@@ -7457,6 +7371,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0061",
@@ -7522,6 +7437,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0063",
@@ -7587,6 +7503,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0066",
@@ -7652,6 +7569,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0067",
@@ -7717,6 +7635,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0068",
@@ -7782,6 +7701,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0076",
@@ -7847,6 +7767,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0077",
@@ -7912,6 +7833,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0078",
@@ -7977,6 +7899,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0079",
@@ -8042,6 +7965,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0081",
@@ -8107,6 +8031,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0082",
@@ -8172,6 +8097,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0083",
@@ -8237,6 +8163,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0094",
@@ -8302,6 +8229,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ACT-0095",
@@ -8367,6 +8295,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0002",
@@ -8432,6 +8361,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0026",
@@ -8497,6 +8427,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0027",
@@ -8562,6 +8493,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0029",
@@ -8627,6 +8559,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0036",
@@ -8692,6 +8625,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0037",
@@ -8757,6 +8691,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0039",
@@ -8822,6 +8757,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0044",
@@ -8887,6 +8823,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0045",
@@ -8952,6 +8889,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0046",
@@ -9017,6 +8955,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0047",
@@ -9082,6 +9021,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0051",
@@ -9147,6 +9087,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0053",
@@ -9212,6 +9153,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0054",
@@ -9277,6 +9219,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0062",
@@ -9342,6 +9285,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0070",
@@ -9407,6 +9351,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0073",
@@ -9472,6 +9417,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0074",
@@ -9537,6 +9483,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0081",
@@ -9602,6 +9549,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0094",
@@ -9667,6 +9615,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0095",
@@ -9732,6 +9681,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "ORG-0097",
@@ -9797,6 +9747,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0004",
@@ -9862,6 +9813,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0008",
@@ -9927,6 +9879,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0009",
@@ -9992,6 +9945,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0018",
@@ -10057,6 +10011,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0020",
@@ -10122,6 +10077,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0021",
@@ -10187,6 +10143,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0022",
@@ -10252,6 +10209,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0027",
@@ -10317,6 +10275,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0028",
@@ -10382,6 +10341,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0037",
@@ -10447,6 +10407,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0040",
@@ -10512,6 +10473,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0041",
@@ -10577,6 +10539,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0044",
@@ -10642,6 +10605,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0047",
@@ -10707,6 +10671,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0048",
@@ -10772,6 +10737,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0049",
@@ -10837,6 +10803,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0050",
@@ -10902,6 +10869,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0060",
@@ -10967,6 +10935,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0061",
@@ -11032,6 +11001,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0079",
@@ -11097,6 +11067,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0088",
@@ -11162,6 +11133,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0097",
@@ -11227,6 +11199,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0099",
@@ -11292,6 +11265,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0101",
@@ -11357,6 +11331,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0102",
@@ -11422,6 +11397,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0103",
@@ -11487,6 +11463,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0105",
@@ -11552,6 +11529,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0108",
@@ -11617,6 +11595,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0110",
@@ -11682,6 +11661,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0118",
@@ -11747,6 +11727,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0120",
@@ -11812,6 +11793,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0122",
@@ -11877,6 +11859,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0125",
@@ -11942,6 +11925,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0126",
@@ -12007,6 +11991,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0128",
@@ -12072,6 +12057,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0130",
@@ -12137,6 +12123,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0131",
@@ -12202,6 +12189,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0132",
@@ -12267,6 +12255,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0134",
@@ -12332,6 +12321,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0136",
@@ -12397,6 +12387,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "MAT-0149",
@@ -12462,6 +12453,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "LOG-0008",
@@ -12527,6 +12519,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "LOG-0009",
@@ -12592,6 +12585,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "LOG-0078",
@@ -12657,6 +12651,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "LOG-0106",
@@ -12722,6 +12717,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "LOG-0192",
@@ -12787,6 +12783,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0052",
@@ -12852,6 +12849,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0088",
@@ -12917,6 +12915,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0089",
@@ -12982,6 +12981,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0094",
@@ -13047,6 +13047,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0156",
@@ -13112,6 +13113,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0215",
@@ -13177,6 +13179,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0216",
@@ -13242,6 +13245,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0229",
@@ -13307,6 +13311,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0248",
@@ -13372,6 +13377,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0264",
@@ -13437,6 +13443,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0270",
@@ -13502,6 +13509,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0274",
@@ -13567,6 +13575,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0275",
@@ -13632,6 +13641,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0280",
@@ -13697,6 +13707,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0286",
@@ -13762,6 +13773,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0289",
@@ -13827,6 +13839,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0306",
@@ -13892,6 +13905,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0312",
@@ -13957,6 +13971,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0335",
@@ -14022,6 +14037,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0336",
@@ -14087,6 +14103,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0340",
@@ -14152,6 +14169,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0342",
@@ -14217,6 +14235,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0343",
@@ -14282,6 +14301,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0354",
@@ -14347,6 +14367,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0381",
@@ -14412,6 +14433,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0382",
@@ -14477,6 +14499,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0389",
@@ -14542,6 +14565,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0415",
@@ -14607,6 +14631,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0426",
@@ -14672,6 +14697,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0433",
@@ -14737,6 +14763,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0437",
@@ -14802,6 +14829,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0444",
@@ -14867,6 +14895,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0459",
@@ -14932,6 +14961,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0463",
@@ -14997,6 +15027,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0464",
@@ -15062,6 +15093,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0470",
@@ -15127,6 +15159,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0482",
@@ -15192,6 +15225,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0483",
@@ -15257,6 +15291,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0484",
@@ -15322,6 +15357,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0485",
@@ -15387,6 +15423,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0495",
@@ -15452,6 +15489,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0500",
@@ -15517,6 +15555,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0527",
@@ -15582,6 +15621,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0528",
@@ -15647,6 +15687,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0534",
@@ -15712,6 +15753,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0545",
@@ -15777,6 +15819,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0576",
@@ -15842,6 +15885,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0594",
@@ -15907,6 +15951,7 @@
         "no_question"
       ],
       "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
       "variants": [
         {
           "id": "CG-0616",
@@ -15953,6 +15998,800 @@
         "page": 19
       },
       "nextSource": null
+    },
+    {
+      "id": "HIS-0157",
+      "cat": "Histoire",
+      "page": 9,
+      "chapter": "III. Révolution française et Empire",
+      "topic": "Royaumes francs",
+      "source": "Napoléon est Premier consul; met en place la Banque de France (1800), les lycées, les préfets et la monnaie stable.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "answer_too_broad",
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0157",
+          "chapter": "III. Révolution française et Empire",
+          "topic": "Royaumes francs",
+          "source": "Napoléon est Premier consul; met en place la Banque de France (1800), les lycées, les préfets et la monnaie stable.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "answer_too_broad",
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Napoléon?",
+                "o": [
+                  "le conflit le plus meurtrier de l’histoire; la Première Guerre mondiale fait environ 10 millions de morts",
+                  "Premier consul; met en place la Banque de France (1800), les lycées, les préfets et la monnaie stable",
+                  "masculin; les femmes obtiennent le droit de vote en 1944",
+                  "dissoute en 1991, non en 1989"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Napoléon?",
+                "o": [
+                  "adoptée comme hymne en 1795, interdite sous certains régimes, et rétablie ensuite",
+                  "le conflit le plus meurtrier de l’histoire; la Première Guerre mondiale fait environ 10 millions de morts",
+                  "Premier consul; met en place la Banque de France (1800), les lycées, les préfets et la monnaie stable",
+                  "au gouvernement d’adopter un texte sans vote sauf si une motion de censure est votée"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0156",
+        "source": "Consulat (1799‐1804): issu du coup d’État du 18 Brumaire (9 novembre 1799).",
+        "cat": "Histoire",
+        "page": 9
+      },
+      "nextSource": {
+        "id": "HIS-0158",
+        "source": "Empire (1804‐1815): Napoléon se couronne empereur des Français en 1804.",
+        "cat": "Histoire",
+        "page": 9
+      }
+    },
+    {
+      "id": "ORG-0055",
+      "cat": "Organisation et missions",
+      "page": 6,
+      "chapter": "8-9. Contrôle fiscal, recouvrement et contentieux",
+      "topic": "DGFiP et fiscalité",
+      "source": "Le contrôle fiscal est l’ensemble des vérifications effectuées par l’administration fiscale pour s’assurer que les contribuables – particuliers ou entreprises – respectent leurs obligations et que leurs déclarations sont exactes.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "answer_too_broad",
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "ORG-0055",
+          "chapter": "8-9. Contrôle fiscal, recouvrement et contentieux",
+          "topic": "DGFiP et fiscalité",
+          "source": "Le contrôle fiscal est l’ensemble des vérifications effectuées par l’administration fiscale pour s’assurer que les contribuables – particuliers ou entreprises – respectent leurs obligations et que leurs déclarations sont exactes.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "answer_too_broad",
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le?",
+                "o": [
+                  "l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt",
+                  "de cohérence de la situation d’un particulier au regard de ses revenus déclarés",
+                  "imposable; liquidation = calculer le montant; recouvrement = encaisser",
+                  "fiscal est l’ensemble des vérifications effectuées par l’administration fiscale pour s’assurer que les contribuables – particuliers ou entreprises – respectent leurs obligations et que leurs déclarations sont exactes"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le?",
+                "o": [
+                  "l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt",
+                  "imposable; liquidation = calculer le montant; recouvrement = encaisser",
+                  "fiscal est l’ensemble des vérifications effectuées par l’administration fiscale pour s’assurer que les contribuables – particuliers ou entreprises – respectent leurs obligations et que leurs déclarations sont exactes",
+                  "de cohérence de la situation d’un particulier au regard de ses revenus déclarés"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "ORG-0054",
+        "source": "Question type — Au niveau du sujet test 2026, retenir simplement qu’un tarif douanier correspond à un droit de douane appliqué aux marchandises importées.",
+        "cat": "Organisation et missions",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "ORG-0056",
+        "source": "Contrôle sur pièces: examen du dossier et des déclarations depuis le service, sans déplacement chez le contribuable.",
+        "cat": "Organisation et missions",
+        "page": 6
+      }
+    },
+    {
+      "id": "ORG-0060",
+      "cat": "Organisation et missions",
+      "page": 6,
+      "chapter": "8-9. Contrôle fiscal, recouvrement et contentieux",
+      "topic": "DGFiP et fiscalité",
+      "source": "Le contrôle vérifie et rectifie; le recouvrement encaisse.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "no_question",
+        "mixed_semantic_types",
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "ORG-0060",
+          "chapter": "8-9. Contrôle fiscal, recouvrement et contentieux",
+          "topic": "DGFiP et fiscalité",
+          "source": "Le contrôle vérifie et rectifie; le recouvrement encaisse.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "no_question",
+            "mixed_semantic_types",
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le?",
+                "o": [
+                  "pas la dette publique » et n’est pas l’administration principale de l’impôt sur le revenu",
+                  "l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt",
+                  "l’une des principales directions de Bercy",
+                  "vérifie et rectifie; le recouvrement encaisse"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "ORG-0059",
+        "source": "Examen contradictoire de la situation fiscale personnelle (ESFP): contrôle de cohérence de la situation d’un particulier au regard de ses revenus déclarés.",
+        "cat": "Organisation et missions",
+        "page": 6
+      },
+      "nextSource": {
+        "id": "ORG-0061",
+        "source": "Le recouvrement est l’ensemble des opérations permettant à l’administration d’obtenir le paiement d’une créance publique, notamment d’un impôt.",
+        "cat": "Organisation et missions",
+        "page": 6
+      }
+    },
+    {
+      "id": "MAT-0046",
+      "cat": "Mathématiques",
+      "page": 4,
+      "chapter": "A. Nombres et arithmétique",
+      "topic": "A. Nombres et arithmétique",
+      "source": "Définition: L’escompte est l’intérêt retranché à une somme payable dans le futur lorsqu’elle est versée avant l’échéance.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "no_question",
+        "mixed_semantic_types",
+        "option_length_imbalance"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "MAT-0046",
+          "chapter": "A. Nombres et arithmétique",
+          "topic": "A. Nombres et arithmétique",
+          "source": "Définition — définition: L’escompte est l’intérêt retranché à une somme payable dans le futur lorsqu’elle est versée avant l’échéance.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "no_question",
+            "mixed_semantic_types",
+            "option_length_imbalance"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Définition — définition?",
+                "o": [
+                  "décimal et binaire — définition: Le système décimal est en base 10 (chiffres 0 à 9)",
+                  "Titre de dette. L’investisseur prête à un émetteur",
+                  "Une fraction a/b est définie pour b ≠ 0",
+                  "L’escompte est l’intérêt retranché à une somme payable dans le futur lorsqu’elle est versée avant l’échéance"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Définition — définition?",
+                "o": [
+                  "Si a/b = c/x, alors x = bc/a (a ≠ 0). p % de Q = Q×p/100 Coefficient multiplicateur: hausse de p % → 1 + p/100",
+                  "Titre de dette. L’investisseur prête à un émetteur",
+                  "Pour revenir à la valeur initiale après une variation, on utilise l’inverse du coefficient multiplicateur",
+                  "L’escompte est l’intérêt retranché à une somme payable dans le futur lorsqu’elle est versée avant l’échéance"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "option_length_imbalance"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Définition — définition?",
+                "o": [
+                  "60 = 2²×3×5 → PGCD = 12",
+                  "Un entier a est divisible par b s’il existe un entier k tel que a = bk",
+                  "Un nombre premier supérieur à 1 n’a que deux diviseurs positifs: 1 et lui-même",
+                  "L’escompte est l’intérêt retranché à une somme payable dans le futur lorsqu’elle est versée avant l’échéance"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "MAT-0044",
+        "source": "I = C×t×n; montant final = C + I C = capital initial, t = taux par période sous forme décimale, n = nombre de périodes.",
+        "cat": "Mathématiques",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "MAT-0047",
+        "source": "Escompte simple E = N×t×n; valeur actuelle = N - E N = valeur nominale, t = taux, n = durée exprimée dans l’unité compatible avec le taux.",
+        "cat": "Mathématiques",
+        "page": 4
+      }
+    },
+    {
+      "id": "CG-0090",
+      "cat": "Culture générale",
+      "page": 3,
+      "chapter": "I. Arts",
+      "topic": "Arts",
+      "source": "L’architecture gothique apparaît au XIIe siècle et permet des édifices plus hauts et plus lumineux grâce à l’arc brisé, la croisée d’ogives et les arcs-boutants.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "no_question",
+        "option_length_imbalance"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "CG-0090",
+          "chapter": "I. Arts",
+          "topic": "Arts",
+          "source": "L’architecture gothique apparaît au XIIe siècle et permet des édifices plus hauts et plus lumineux grâce à l’arc brisé, la croisée d’ogives et les arcs-boutants.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "no_question",
+            "option_length_imbalance"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à L’architecture gothique apparaît au XIIe siècle et?",
+                "o": [
+                  "des édifices plus hauts et plus lumineux grâce à l’arc brisé, la croisée d’ogives et les arcs-boutants",
+                  "un grand sculpteur et architecte baroque italien",
+                  "une figure essentielle — caractéristiques: Le Serment des Horaces, La Mort de Marat et Le Sacre de Napoléon",
+                  "associé à la construction du tableau périodique au XIXe siècle"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à L’architecture gothique apparaît au XIIe siècle et?",
+                "o": [
+                  "à distinguer — caractéristiques: dorique (sobre, chapiteau simple), ionique (volutes) et corinthien (feuilles d’acanthe)",
+                  "un noyau formé de protons et de neutrons, autour duquel se trouvent des électrons",
+                  "une onde mécanique — caractéristiques: il ne se propage pas dans le vide",
+                  "des édifices plus hauts et plus lumineux grâce à l’arc brisé, la croisée d’ogives et les arcs-boutants"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à L’architecture gothique apparaît au XIIe siècle et?",
+                "o": [
+                  "associé à la construction du tableau périodique au XIXe siècle",
+                  "le rapport entre distance parcourue et durée",
+                  "interrogée comme culture générale — caractéristiques: vocabulaire du vivant et de l’environnement, accidents et grandes découvertes, notions élémentaires de physique ou de biologie",
+                  "des édifices plus hauts et plus lumineux grâce à l’arc brisé, la croisée d’ogives et les arcs-boutants"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "option_length_imbalance"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0089",
+        "source": "Elle utilise l’arc en plein cintre, des murs épais et des ouvertures limitées.",
+        "cat": "Culture générale",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "CG-0091",
+        "source": "Le Caravage est célèbre pour son clair-obscur.",
+        "cat": "Culture générale",
+        "page": 3
+      }
+    },
+    {
+      "id": "HIS-0181",
+      "cat": "Histoire",
+      "page": 10,
+      "chapter": "IV. XIXe siècle",
+      "topic": "IV. XIXe siècle",
+      "source": "Le suffrage universel instauré en 1848 est masculin; les femmes obtiennent le droit de vote en 1944.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "mixed_semantic_types",
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0181",
+          "chapter": "IV. XIXe siècle",
+          "topic": "IV. XIXe siècle",
+          "source": "Le suffrage universel instauré en 1848 est masculin; les femmes obtiennent le droit de vote en 1944.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "mixed_semantic_types",
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le suffrage universel instauré en 1848?",
+                "o": [
+                  "pas des colonies mais des territoires français",
+                  "sacré empereur d’Occident à Rome en 800",
+                  "masculin; les femmes obtiennent le droit de vote en 1944",
+                  "dissoute en 1991, non en 1989"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le suffrage universel instauré en 1848?",
+                "o": [
+                  "masculin; les femmes obtiennent le droit de vote en 1944",
+                  "lié aux lois fondamentales du royaume",
+                  "de stabiliser le gouvernement et de rendre plus difficile le renversement par l’Assemblée",
+                  "dissoute en 1991, non en 1989"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le suffrage universel instauré en 1848?",
+                "o": [
+                  "formulée par Montesquieu, pas par Rousseau",
+                  "de stabiliser le gouvernement et de rendre plus difficile le renversement par l’Assemblée",
+                  "masculin; les femmes obtiennent le droit de vote en 1944",
+                  "sacré empereur d’Occident à Rome en 800"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique correspond à Le suffrage universel instauré en 1848?",
+                "o": [
+                  "élu au suffrage universel direct depuis 1962",
+                  "formulée par Montesquieu, pas par Rousseau",
+                  "masculin; les femmes obtiennent le droit de vote en 1944",
+                  "dissoute en 1991, non en 1989"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types",
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0180",
+        "source": "Penser que Louis‐Napoléon Bonaparte est le fils de Napoléon Ier; il est son neveu.",
+        "cat": "Histoire",
+        "page": 10
+      },
+      "nextSource": {
+        "id": "HIS-0182",
+        "source": "Napoléon III: président de la République (1848‐1852) puis empereur (1852‐1870).",
+        "cat": "Histoire",
+        "page": 10
+      }
+    },
+    {
+      "id": "HIS-0236",
+      "cat": "Histoire",
+      "page": 13,
+      "chapter": "VI. France contemporaine",
+      "topic": "Guerre froide",
+      "source": "Définition: affrontement idéologique et géopolitique entre les États‐Unis et l’URSS, sans confrontation militaire directe entre les deux superpuissances.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "no_question",
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0236",
+          "chapter": "VI. France contemporaine",
+          "topic": "Guerre froide",
+          "source": "Définition — définition: affrontement idéologique et géopolitique entre les États‐Unis et l’URSS, sans confrontation militaire directe entre les deux superpuissances.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "no_question",
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Définition — définition?",
+                "o": [
+                  "affrontement idéologique et géopolitique entre les États‐Unis et l’URSS, sans confrontation militaire directe entre les deux superpuissances",
+                  "Spoutnik (URSS, 1957) puis Apollo 11 (États‐Unis, 1969)",
+                  "montée du fascisme en Italie (Mussolini, 1922), du nazisme en Allemagne (Hitler, 1933) et du stalinisme en URSS (Staline succède à Lénine en 1924)",
+                  "Fin de la séparation entre Allemagne de l’Ouest et de l’Est"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Définition — définition?",
+                "o": [
+                  "Spoutnik (URSS, 1957) puis Apollo 11 (États‐Unis, 1969)",
+                  "instaure un régime totalitaire en URSS",
+                  "Fin de la séparation entre Allemagne de l’Ouest et de l’Est",
+                  "affrontement idéologique et géopolitique entre les États‐Unis et l’URSS, sans confrontation militaire directe entre les deux superpuissances"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0235",
+        "source": "La Seconde Guerre mondiale est le conflit le plus meurtrier de l’histoire; la Première Guerre mondiale fait environ 10 millions de morts.",
+        "cat": "Histoire",
+        "page": 12
+      },
+      "nextSource": {
+        "id": "HIS-0237",
+        "source": "Événements majeurs: Doctrine Truman (1947) et plan Marshall pour la reconstruction de l’Europe occidentale.",
+        "cat": "Histoire",
+        "page": 13
+      }
+    },
+    {
+      "id": "HIS-0245",
+      "cat": "Histoire",
+      "page": 13,
+      "chapter": "VI. France contemporaine",
+      "topic": "Guerre froide",
+      "source": "Confondre OTAN (Organisation du traité de l’Atlantique Nord, 1949) et Pacte de Varsovie (1955).",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "no_question",
+        "mixed_semantic_types"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0245-1",
+          "chapter": "VI. France contemporaine",
+          "topic": "Guerre froide",
+          "source": "OTAN — date: Organisation du traité de l’Atlantique Nord, 1949",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "no_question",
+            "mixed_semantic_types"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à OTAN — date?",
+                "o": [
+                  "création de l’Union des républiques socialistes soviétiques en 1922",
+                  "Spoutnik (URSS, 1957) puis Apollo 11 (États‐Unis, 1969)",
+                  "gestion de la crise de Cuba",
+                  "Organisation du traité de l’Atlantique Nord, 1949"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à OTAN — date?",
+                "o": [
+                  "affrontement idéologique et géopolitique entre les États‐Unis et l’URSS, sans confrontation militaire directe entre les deux superpuissances",
+                  "Spoutnik (URSS, 1957) puis Apollo 11 (États‐Unis, 1969)",
+                  "Organisation du traité de l’Atlantique Nord, 1949",
+                  "Fin de la séparation entre Allemagne de l’Ouest et de l’Est"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "mixed_semantic_types"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "HIS-0245-2",
+          "chapter": "VI. France contemporaine",
+          "topic": "Guerre froide",
+          "source": "Pacte de Varsovie — date: 1955",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle date est associée à « Pacte de Varsovie »?",
+                "o": [
+                  "1991",
+                  "476",
+                  "1955",
+                  "1789"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle date est associée à « Pacte de Varsovie »?",
+                "o": [
+                  "1991",
+                  "476",
+                  "1955",
+                  "732"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle date est associée à « Pacte de Varsovie »?",
+                "o": [
+                  "1991",
+                  "476",
+                  "1955",
+                  "1815"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle date est associée à « Pacte de Varsovie »?",
+                "o": [
+                  "1991",
+                  "476",
+                  "732",
+                  "1955"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0244",
+        "source": "Chute du mur de Berlin (9 novembre 1989) et disparition de l’URSS (1991).",
+        "cat": "Histoire",
+        "page": 13
+      },
+      "nextSource": {
+        "id": "HIS-0246",
+        "source": "Penser que la Guerre froide s’achève avec la chute du mur en 1989; elle se termine avec la dissolution de l’URSS en 1991.",
+        "cat": "Histoire",
+        "page": 13
+      }
     }
   ]
 }
