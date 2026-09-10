@@ -15,7 +15,7 @@
 
     if(id==='HIS-0027'&&has(s,'ostracisme'))return q(x,H,'Quelle pratique politique est associée à la démocratie athénienne ?','ostracisme',['clientélisme','césarisme','féodalisme']);
     if(id==='HIS-0181'&&has(s,'masculin'))return q(x,H,'Comment est qualifié le suffrage universel instauré en France en 1848 ?','masculin',['féminin','censitaire','indirect']);
-    if(id==='HIS-0271')return q(x,H,'Que faut-il comprendre à propos du général de Gaulle de la Résistance et du président de la Ve République ?','c’est la même personne',['ce sont deux personnes distinctes','il s’agit de son fils','il s’agit de son frère']);
+    if(id==='HIS-0271')return q(x,H,'Que faut-il comprendre à propos du général de Gaulle de la Résistance et du président de la Ve République ?','même personne',['deux personnes distinctes','son fils','son frère']);
     if(id==='HIS-0307')return q(x,H,'Quelle période est associée à la présidence de Charles de Gaulle dans cette fiche ?','1959‐1969',['1944‐1954','1969‐1979','1981‐1991']);
     if(id==='HIS-0398')return q(x,H,'Qui est l’auteur de « Les Misérables » ?','Victor Hugo',['Émile Zola','Gustave Flaubert','Marcel Proust']);
     if(id==='HIS-0431')return q(x,H,'Qui est l’auteur de « Notre-Dame de Paris » ?','Victor Hugo',['Émile Zola','Gustave Flaubert','Marcel Proust']);
@@ -43,8 +43,8 @@
     if(id==='ACT-0056')return q(x,H,'Quel pays exerce la présidence tournante du Conseil de l’Union européenne du 1er juillet au 31 décembre 2026 ?','Irlande',['Espagne','Italie','Pologne']);
     if(id==='ACT-0091')return q(x,H,'Quelle juridiction est principalement associée au Conseil de l’Europe dans cette fiche ?','CEDH',['CJUE','CPI','CIJ']);
 
-    if(id==='ORG-0018'&&has(s,'conseil juridique'))return q(x,H,'Quelle activité est associée à la Direction des affaires juridiques ?','conseil juridique',['contrôle fiscal','gestion douanière','statistique publique']);
-    if(id==='ORG-0029'&&has(s,'conseil financier'))return q(x,H,'Quel rôle de la DGFiP concerne directement le secteur public ?','conseil financier au secteur public',['contrôle des frontières et marchandises','protection économique des consommateurs','gestion de la dette publique']);
+    if(id==='ORG-0018'&&has(s,'conseil juridique'))return q(x,H,'Quelle activité est associée à la Direction des affaires juridiques ?','conseil juridique',['conseil fiscal','conseil douanier','conseil économique']);
+    if(id==='ORG-0029'&&has(s,'conseil financier'))return q(x,H,'Quel rôle de la DGFiP concerne directement le secteur public ?','conseil financier au secteur public',['conseil financier aux entreprises privées','conseil financier aux particuliers','conseil financier aux associations privées']);
     if(id==='ORG-0038')return q(x,H,'Quelle direction est associée aux marchandises et aux frontières ?','DGDDI',['DGFiP','DGCCRF','Insee']);
     if(id==='ORG-0060'&&has(s,'Recouvrement'))return q(x,H,'Quel verbe résume le rôle du recouvrement dans cette fiche ?','encaisse',['contrôle','calcule','liquide']);
     if(id==='ORG-0067'&&has(s,'Recouvrement'))return q(x,H,'Quel verbe correspond au recouvrement ?','encaisser',['calculer','contrôler','liquider']);
