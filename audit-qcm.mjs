@@ -7,6 +7,7 @@ function load(path){const code=fs.readFileSync(path,'utf8');vm.runInThisContext(
 load('knowledge-engine.js');
 load('chapter-map.js');
 load('qcm-engine-v8.js');
+load('source-hygiene-v27.js');
 load('qcm-quality-guard.js');
 load('pedagogy-v11.js');
 load('formulation-v13.js');
