@@ -1,9 +1,9 @@
 {
   "summary": {
-    "generatedAt": "2026-09-10T08:48:26.365Z",
+    "generatedAt": "2026-09-10T08:50:12.262Z",
     "rawFragments": 2349,
     "sourceFacts": 2203,
-    "enrichedFacts": 2322,
+    "enrichedFacts": 2328,
     "auditedSourceFacts": 2203,
     "categories": [
       "Histoire",
@@ -18,21 +18,21 @@
     "byCat": {
       "Histoire": {
         "facts": 463,
-        "pass": 421,
-        "noQuestion": 3,
-        "flagged": 37,
+        "pass": 423,
+        "noQuestion": 0,
+        "flagged": 35,
         "sourceRejected": 0,
         "resolvedNonAtomic": 5,
-        "remaining": 37
+        "remaining": 35
       },
       "Géographie": {
         "facts": 393,
-        "pass": 346,
-        "noQuestion": 2,
-        "flagged": 44,
+        "pass": 347,
+        "noQuestion": 1,
+        "flagged": 43,
         "sourceRejected": 0,
         "resolvedNonAtomic": 3,
-        "remaining": 44
+        "remaining": 43
       },
       "Enseignement moral et civique": {
         "facts": 233,
@@ -55,7 +55,7 @@
       "Organisation et missions": {
         "facts": 95,
         "pass": 70,
-        "noQuestion": 1,
+        "noQuestion": 0,
         "flagged": 19,
         "sourceRejected": 0,
         "resolvedNonAtomic": 6,
@@ -92,219 +92,21 @@
     "issueCounts": {
       "answer_too_broad": 120,
       "mixed_semantic_types": 157,
-      "correct_length_gives_clue": 29,
-      "no_question": 46,
+      "no_question": 44,
+      "correct_length_gives_clue": 27,
       "option_length_imbalance": 18,
       "answer_not_literal_in_source": 2
     },
-    "fullyCompliant": 1841,
+    "fullyCompliant": 1844,
     "resolvedNonAtomic": 55,
-    "resolvedTotal": 1896,
-    "remaining": 307,
-    "flagged": 307,
-    "noQuestion": 6,
-    "withQuestion": 2142,
+    "resolvedTotal": 1899,
+    "remaining": 304,
+    "flagged": 304,
+    "noQuestion": 1,
+    "withQuestion": 2147,
     "sourceRejected": 0
   },
   "rows": [
-    {
-      "id": "HIS-0098",
-      "cat": "Histoire",
-      "page": 7,
-      "chapter": "II. France des origines à la Révolution",
-      "topic": "Renaissance et humanisme",
-      "source": "Humanisme: courant intellectuel valorisant l’homme et la culture antique.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0098",
-          "chapter": "II. France des origines à la Révolution",
-          "topic": "Renaissance et humanisme",
-          "source": "Humanisme — définition: courant intellectuel valorisant l’homme et la culture antique.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0097",
-        "source": "Traité de Tordesillas (1494) partage le Nouveau Monde entre l’Espagne et le Portugal.",
-        "cat": "Histoire",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "HIS-0099",
-        "source": "Léonard de Vinci: artiste et ingénieur italien, œuvre à la cour de François Ier",
-        "cat": "Histoire",
-        "page": 7
-      }
-    },
-    {
-      "id": "HIS-0154",
-      "cat": "Histoire",
-      "page": 9,
-      "chapter": "III. Révolution française et Empire",
-      "topic": "Révolution française",
-      "source": "Penser que la Terreur est l’œuvre exclusive de Robespierre; c’est un gouvernement collégial (Saint-Just, Couthon, etc.).",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0154",
-          "chapter": "III. Révolution française et Empire",
-          "topic": "Révolution française",
-          "source": "Terreur — caractéristiques: gouvernement collégial impliquant notamment Saint-Just et Couthon",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0153",
-        "source": "Confondre la date de proclamation de la République (1792) avec celle de la Déclaration des droits (1789).",
-        "cat": "Histoire",
-        "page": 9
-      },
-      "nextSource": {
-        "id": "HIS-0155",
-        "source": "Le Directoire précède le Consulat; Napoléon Bonaparte ne devient pas empereur dès 1799.",
-        "cat": "Histoire",
-        "page": 9
-      }
-    },
-    {
-      "id": "HIS-0290",
-      "cat": "Histoire",
-      "page": 14,
-      "chapter": "VI. France contemporaine",
-      "topic": "VI. France contemporaine",
-      "source": "Conseil d’État: conseille le gouvernement et est juge suprême de l’administration.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0290",
-          "chapter": "VI. France contemporaine",
-          "topic": "VI. France contemporaine",
-          "source": "Conseil d’État — caractéristiques: conseille le gouvernement et est juge suprême de l’administration.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0289",
-        "source": "Conseil constitutionnel: contrôle la conformité des lois à la Constitution.",
-        "cat": "Histoire",
-        "page": 14
-      },
-      "nextSource": {
-        "id": "HIS-0291",
-        "source": "Article 49‐3: permet au gouvernement d’adopter un texte sans vote sauf si une motion de censure est votée.",
-        "cat": "Histoire",
-        "page": 14
-      }
-    },
     {
       "id": "GEO-0050",
       "cat": "Géographie",
@@ -324,7 +126,7 @@
           "id": "GEO-0050",
           "chapter": "I.4 Climats et biomes",
           "topic": "Climats et biomes",
-          "source": "Austral / Antarctique — caractéristiques: courant circumpolaire",
+          "source": "Océan Austral / Antarctique — association: courant circumpolaire",
           "allPass": false,
           "anyQuestion": false,
           "issues": [
@@ -369,175 +171,6 @@
         "source": "Austral / Antarctique — À retenir pour le QCM: limites et dénomination peuvent varier selon les institutions.",
         "cat": "Géographie",
         "page": 4
-      }
-    },
-    {
-      "id": "GEO-0122",
-      "cat": "Géographie",
-      "page": 5,
-      "chapter": "I.2 Reliefs, montagnes et déserts",
-      "topic": "Fleuves et lacs",
-      "source": "Un fleuve se jette dans une mer ou un océan; une rivière se jette dans un autre cours d’eau.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "GEO-0122-v28-1",
-          "chapter": "I.2 Reliefs, montagnes et déserts",
-          "topic": "Fleuves et lacs",
-          "source": "Fleuve — définition: cours d’eau qui se jette dans une mer ou un océan",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "GEO-0122-v28-2",
-          "chapter": "I.2 Reliefs, montagnes et déserts",
-          "topic": "Fleuves et lacs",
-          "source": "Rivière — définition: cours d’eau qui se jette dans un autre cours d’eau",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "GEO-0121",
-        "source": "Atacama = façade pacifique d’Amérique du Sud; Gobi = Asie intérieure.",
-        "cat": "Géographie",
-        "page": 5
-      },
-      "nextSource": {
-        "id": "GEO-0123",
-        "source": "Les longueurs peuvent varier selon la méthode de mesure: il faut surtout connaître les grands bassins, les embouchures et les pays traversés.",
-        "cat": "Géographie",
-        "page": 5
-      }
-    },
-    {
-      "id": "ORG-0018",
-      "cat": "Organisation et missions",
-      "page": 3,
-      "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-      "topic": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-      "source": "Direction des affaires juridiques (DAJ): conseil juridique, expertise des textes et commande publique.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0018",
-          "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-          "topic": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-          "source": "Direction des affaires juridiques (DAJ) — caractéristiques: conseil juridique, expertise des textes et commande publique.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0017",
-        "source": "Secrétariat général (SG): fonctions support et pilotage transversal des ministères (RH, immobilier, informatique, sécurité, modernisation).",
-        "cat": "Organisation et missions",
-        "page": 3
-      },
-      "nextSource": {
-        "id": "ORG-0019",
-        "source": "Direction de la législation fiscale (DLF): conçoit les textes fiscaux",
-        "cat": "Organisation et missions",
-        "page": 3
       }
     },
     {
@@ -4029,266 +3662,6 @@
       }
     },
     {
-      "id": "ORG-0029",
-      "cat": "Organisation et missions",
-      "page": 3,
-      "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-      "topic": "DGFiP et fiscalité",
-      "source": "DGFiP = impôts + recettes publiques + comptes publics + foncier + conseil financier au secteur public.",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "correct_length_gives_clue",
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "ORG-0029-v28c-1",
-          "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-          "topic": "DGFiP et fiscalité",
-          "source": "DGFiP — association: impôts et recettes publiques",
-          "allPass": true,
-          "anyQuestion": true,
-          "issues": [],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à DGFiP — association?",
-                "o": [
-                  "collecte ou encaissement des impôts",
-                  "impôts et recettes publiques",
-                  "conçoit les textes fiscaux",
-                  "foncier"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à DGFiP — association?",
-                "o": [
-                  "impôts et recettes publiques",
-                  "comptes publics",
-                  "collecte ou encaissement des impôts",
-                  "conçoit les textes fiscaux"
-                ],
-                "ans": 0
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à DGFiP — association?",
-                "o": [
-                  "collecte ou encaissement des impôts",
-                  "conçoit les textes fiscaux",
-                  "impôts et recettes publiques",
-                  "comptes publics"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à DGFiP — association?",
-                "o": [
-                  "collecte ou encaissement des impôts",
-                  "impôts et recettes publiques",
-                  "foncier",
-                  "conçoit les textes fiscaux"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            }
-          ]
-        },
-        {
-          "id": "ORG-0029-v28c-2",
-          "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-          "topic": "DGFiP et fiscalité",
-          "source": "DGFiP — association: comptes publics",
-          "allPass": true,
-          "anyQuestion": true,
-          "issues": [],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à DGFiP — association?",
-                "o": [
-                  "conçoit les textes fiscaux",
-                  "impôts et recettes publiques",
-                  "collecte ou encaissement des impôts",
-                  "comptes publics"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à DGFiP — association?",
-                "o": [
-                  "impôts et recettes publiques",
-                  "foncier",
-                  "comptes publics",
-                  "collecte ou encaissement des impôts"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à DGFiP — association?",
-                "o": [
-                  "conçoit les textes fiscaux",
-                  "foncier",
-                  "comptes publics",
-                  "collecte ou encaissement des impôts"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à DGFiP — association?",
-                "o": [
-                  "conçoit les textes fiscaux",
-                  "impôts et recettes publiques",
-                  "collecte ou encaissement des impôts",
-                  "comptes publics"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            }
-          ]
-        },
-        {
-          "id": "ORG-0029-v28c-3",
-          "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-          "topic": "DGFiP et fiscalité",
-          "source": "DGFiP — association: foncier",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "correct_length_gives_clue"
-          ],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à DGFiP — association?",
-                "o": [
-                  "collecte ou encaissement des impôts",
-                  "impôts et recettes publiques",
-                  "foncier",
-                  "conçoit les textes fiscaux"
-                ],
-                "ans": 2
-              },
-              "issues": [
-                "correct_length_gives_clue"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à DGFiP — association?",
-                "o": [
-                  "impôts et recettes publiques",
-                  "comptes publics",
-                  "collecte ou encaissement des impôts",
-                  "foncier"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à DGFiP — association?",
-                "o": [
-                  "comptes publics",
-                  "impôts et recettes publiques",
-                  "foncier",
-                  "collecte ou encaissement des impôts"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique est associée à DGFiP — association?",
-                "o": [
-                  "impôts et recettes publiques",
-                  "comptes publics",
-                  "foncier",
-                  "conçoit les textes fiscaux"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            }
-          ]
-        },
-        {
-          "id": "ORG-0029-v28c-4",
-          "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
-          "topic": "DGFiP et fiscalité",
-          "source": "DGFiP — association: conseil financier au secteur public",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "ORG-0028",
-        "source": "Participer au paiement et au contrôle des dépenses publiques.",
-        "cat": "Organisation et missions",
-        "page": 3
-      },
-      "nextSource": {
-        "id": "ORG-0030",
-        "source": "Le « Trésor public » n’est pas la DG Trésor: les centres des finances publiques relèvent de la DGFiP.",
-        "cat": "Organisation et missions",
-        "page": 3
-      }
-    },
-    {
       "id": "ORG-0034",
       "cat": "Organisation et missions",
       "page": 4,
@@ -7328,230 +6701,6 @@
       }
     },
     {
-      "id": "HIS-0042",
-      "cat": "Histoire",
-      "page": 4,
-      "chapter": "I. Fondements de la civilisation",
-      "topic": "I. Fondements de la civilisation",
-      "source": "Expansion en Italie puis en Méditerranée; guerres puniques contre Carthage (victoire de Zama, -202).",
-      "allPass": false,
-      "anyQuestion": true,
-      "issues": [
-        "correct_length_gives_clue"
-      ],
-      "sourceRejected": false,
-      "sourceResolvedNonAtomic": false,
-      "variants": [
-        {
-          "id": "HIS-0042-v28-1",
-          "chapter": "I. Fondements de la civilisation",
-          "topic": "I. Fondements de la civilisation",
-          "source": "Expansion romaine — caractéristiques: s’étend d’abord en Italie puis en Méditerranée",
-          "allPass": true,
-          "anyQuestion": true,
-          "issues": [],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Expansion romaine?",
-                "o": [
-                  "inventions de l’irrigation et de la charrue",
-                  "élève de Platon, fondateur du Lycée",
-                  "s’étend d’abord en Italie puis en Méditerranée",
-                  "conception fondée sur le monde des Idées"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Expansion romaine?",
-                "o": [
-                  "conception fondée sur le monde des Idées",
-                  "inventions de l’irrigation et de la charrue",
-                  "Édit de Milan (313) reconnaît la liberté de culte",
-                  "s’étend d’abord en Italie puis en Méditerranée"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Expansion romaine?",
-                "o": [
-                  "Socrate: père de la philosophie morale",
-                  "inventions de l’irrigation et de la charrue",
-                  "s’étend d’abord en Italie puis en Méditerranée",
-                  "conception fondée sur le monde des Idées"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle caractéristique définit Expansion romaine?",
-                "o": [
-                  "Socrate: père de la philosophie morale",
-                  "inventions de l’irrigation et de la charrue",
-                  "conception fondée sur le monde des Idées",
-                  "s’étend d’abord en Italie puis en Méditerranée"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            }
-          ]
-        },
-        {
-          "id": "HIS-0042-v28-2",
-          "chapter": "I. Fondements de la civilisation",
-          "topic": "I. Fondements de la civilisation",
-          "source": "Guerres puniques — association: Carthage",
-          "allPass": false,
-          "anyQuestion": true,
-          "issues": [
-            "correct_length_gives_clue"
-          ],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour Guerres puniques?",
-                "o": [
-                  "influence sur Rome",
-                  "Carthage",
-                  "associations",
-                  "philosophie, théâtre et mathématiques"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour Guerres puniques?",
-                "o": [
-                  "guerre de Hollande",
-                  "Carthage",
-                  "influence sur Rome",
-                  "philosophie, théâtre et mathématiques"
-                ],
-                "ans": 1
-              },
-              "issues": [
-                "correct_length_gives_clue"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour Guerres puniques?",
-                "o": [
-                  "perestroïka et glasnost",
-                  "influence sur Rome",
-                  "philosophie, théâtre et mathématiques",
-                  "Carthage"
-                ],
-                "ans": 3
-              },
-              "issues": [
-                "correct_length_gives_clue"
-              ]
-            },
-            {
-              "q": {
-                "prompt": "Quelle association faut-il connaître pour Guerres puniques?",
-                "o": [
-                  "philosophie, théâtre et mathématiques",
-                  "Renaissance",
-                  "Carthage",
-                  "influence sur Rome"
-                ],
-                "ans": 2
-              },
-              "issues": []
-            }
-          ]
-        },
-        {
-          "id": "HIS-0042-v28-3",
-          "chapter": "I. Fondements de la civilisation",
-          "topic": "I. Fondements de la civilisation",
-          "source": "Bataille de Zama — date: 202 av. J.-C.",
-          "allPass": true,
-          "anyQuestion": true,
-          "issues": [],
-          "attempts": [
-            {
-              "q": {
-                "prompt": "Quelle date est associée à « Bataille de Zama »?",
-                "o": [
-                  "vers 9 000 av. J.-C",
-                  "vers 10 000 av. J.-C",
-                  "622",
-                  "202 av. J.-C"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle date est associée à « Bataille de Zama »?",
-                "o": [
-                  "vers 9 000 av. J.-C",
-                  "622",
-                  "vers 10 000 av. J.-C",
-                  "202 av. J.-C"
-                ],
-                "ans": 3
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle date est associée à « Bataille de Zama »?",
-                "o": [
-                  "vers 10 000 av. J.-C",
-                  "202 av. J.-C",
-                  "vers 9 000 av. J.-C",
-                  "vers 3 000 av. J.-C"
-                ],
-                "ans": 1
-              },
-              "issues": []
-            },
-            {
-              "q": {
-                "prompt": "Quelle date est associée à « Bataille de Zama »?",
-                "o": [
-                  "202 av. J.-C",
-                  "vers 3 000 av. J.-C",
-                  "vers 9 000 av. J.-C",
-                  "vers 10 000 av. J.-C"
-                ],
-                "ans": 0
-              },
-              "issues": []
-            }
-          ]
-        }
-      ],
-      "previousSource": {
-        "id": "HIS-0041",
-        "source": "République romaine (−509 – −27): régime mixte avec magistratures (consuls, préteurs), Sénat et assemblées populaires.",
-        "cat": "Histoire",
-        "page": 4
-      },
-      "nextSource": {
-        "id": "HIS-0043",
-        "source": "Empire romain (−27 – 476): Auguste devient le premier empereur en -27",
-        "cat": "Histoire",
-        "page": 5
-      }
-    },
-    {
       "id": "HIS-0070",
       "cat": "Histoire",
       "page": 5,
@@ -8584,6 +7733,198 @@
       }
     },
     {
+      "id": "HIS-0154",
+      "cat": "Histoire",
+      "page": 9,
+      "chapter": "III. Révolution française et Empire",
+      "topic": "Révolution française",
+      "source": "Penser que la Terreur est l’œuvre exclusive de Robespierre; c’est un gouvernement collégial (Saint-Just, Couthon, etc.).",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0154-v28f-1",
+          "chapter": "III. Révolution française et Empire",
+          "topic": "Révolution française",
+          "source": "Terreur — caractéristiques: gouvernement collégial",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "HIS-0154-v28f-2",
+          "chapter": "III. Révolution française et Empire",
+          "topic": "Révolution française",
+          "source": "Terreur — association: Saint-Just",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour Terreur?",
+                "o": [
+                  "fin définitive de Napoléon",
+                  "Couthon",
+                  "réorganisation administrative durable",
+                  "Saint-Just"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour Terreur?",
+                "o": [
+                  "Saint-Just",
+                  "fin définitive de Napoléon",
+                  "réorganisation administrative durable",
+                  "Couthon"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour Terreur?",
+                "o": [
+                  "Saint-Just",
+                  "se terminent avec Waterloo",
+                  "Couthon",
+                  "réorganisation administrative durable"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour Terreur?",
+                "o": [
+                  "Saint-Just",
+                  "réorganisation administrative durable",
+                  "fin définitive de Napoléon",
+                  "Couthon"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "HIS-0154-v28f-3",
+          "chapter": "III. Révolution française et Empire",
+          "topic": "Révolution française",
+          "source": "Terreur — association: Couthon",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour Terreur?",
+                "o": [
+                  "Saint-Just",
+                  "se terminent avec Waterloo",
+                  "réorganisation administrative durable",
+                  "Couthon"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour Terreur?",
+                "o": [
+                  "se terminent avec Waterloo",
+                  "Saint-Just",
+                  "réorganisation administrative durable",
+                  "Couthon"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour Terreur?",
+                "o": [
+                  "se terminent avec Waterloo",
+                  "Couthon",
+                  "réorganisation administrative durable",
+                  "Saint-Just"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour Terreur?",
+                "o": [
+                  "Saint-Just",
+                  "réorganisation administrative durable",
+                  "Couthon",
+                  "se terminent avec Waterloo"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0153",
+        "source": "Confondre la date de proclamation de la République (1792) avec celle de la Déclaration des droits (1789).",
+        "cat": "Histoire",
+        "page": 9
+      },
+      "nextSource": {
+        "id": "HIS-0155",
+        "source": "Le Directoire précède le Consulat; Napoléon Bonaparte ne devient pas empereur dès 1799.",
+        "cat": "Histoire",
+        "page": 9
+      }
+    },
+    {
       "id": "HIS-0213",
       "cat": "Histoire",
       "page": 12,
@@ -9089,6 +8430,135 @@
       "nextSource": {
         "id": "HIS-0289",
         "source": "Conseil constitutionnel: contrôle la conformité des lois à la Constitution.",
+        "cat": "Histoire",
+        "page": 14
+      }
+    },
+    {
+      "id": "HIS-0290",
+      "cat": "Histoire",
+      "page": 14,
+      "chapter": "VI. France contemporaine",
+      "topic": "VI. France contemporaine",
+      "source": "Conseil d’État: conseille le gouvernement et est juge suprême de l’administration.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "HIS-0290-v28f-1",
+          "chapter": "VI. France contemporaine",
+          "topic": "VI. France contemporaine",
+          "source": "Conseil d’État — rôle: conseille le gouvernement",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "HIS-0290-v28f-2",
+          "chapter": "VI. France contemporaine",
+          "topic": "VI. France contemporaine",
+          "source": "Conseil d’État — rôle: juge suprême de l’administration",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quel est le rôle principal de Conseil d’État?",
+                "o": [
+                  "maire du palais",
+                  "juge suprême de l’administration",
+                  "provoquent les Trois Glorieuses",
+                  "engage la responsabilité du gouvernement"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quel est le rôle principal de Conseil d’État?",
+                "o": [
+                  "déclenche la Première Guerre mondiale",
+                  "juge suprême de l’administration",
+                  "provoquent les Trois Glorieuses",
+                  "engage la responsabilité du gouvernement"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quel est le rôle principal de Conseil d’État?",
+                "o": [
+                  "juge suprême de l’administration",
+                  "maire du palais",
+                  "provoquent les Trois Glorieuses",
+                  "engage la responsabilité du gouvernement"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quel est le rôle principal de Conseil d’État?",
+                "o": [
+                  "maire du palais",
+                  "provoquent les Trois Glorieuses",
+                  "engage la responsabilité du gouvernement",
+                  "juge suprême de l’administration"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "HIS-0289",
+        "source": "Conseil constitutionnel: contrôle la conformité des lois à la Constitution.",
+        "cat": "Histoire",
+        "page": 14
+      },
+      "nextSource": {
+        "id": "HIS-0291",
+        "source": "Article 49‐3: permet au gouvernement d’adopter un texte sans vote sauf si une motion de censure est votée.",
         "cat": "Histoire",
         "page": 14
       }
@@ -20026,6 +19496,453 @@
       }
     },
     {
+      "id": "ORG-0018",
+      "cat": "Organisation et missions",
+      "page": 3,
+      "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+      "topic": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+      "source": "Direction des affaires juridiques (DAJ): conseil juridique, expertise des textes et commande publique.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "ORG-0018-v28f-1",
+          "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+          "topic": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+          "source": "Direction des affaires juridiques — rôle: conseil juridique",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ORG-0018-v28f-2",
+          "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+          "topic": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+          "source": "Direction des affaires juridiques — rôle: expertise des textes",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Direction des affaires juridiques — rôle?",
+                "o": [
+                  "Portefeuille",
+                  "Budget de l’État",
+                  "Cotisations vieillesse, maladie",
+                  "expertise des textes"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Direction des affaires juridiques — rôle?",
+                "o": [
+                  "expertise des textes",
+                  "Décide / ordonne l’opération",
+                  "impôts et recettes publiques",
+                  "Émission pour PME et micro-entreprises"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Direction des affaires juridiques — rôle?",
+                "o": [
+                  "impôts et recettes publiques",
+                  "taxe sur la valeur ajoutée",
+                  "expertise des textes",
+                  "Portefeuille"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Direction des affaires juridiques — rôle?",
+                "o": [
+                  "Budget de l’État",
+                  "expertise des textes",
+                  "comptes publics",
+                  "Réception pour toutes"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "ORG-0018-v28f-3",
+          "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+          "topic": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+          "source": "Direction des affaires juridiques — association: commande publique",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour Direction des affaires juridiques?",
+                "o": [
+                  "foncier",
+                  "commande publique",
+                  "impôts et recettes publiques",
+                  "comptes publics"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour Direction des affaires juridiques?",
+                "o": [
+                  "impôts et recettes publiques",
+                  "foncier",
+                  "comptes publics",
+                  "commande publique"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour Direction des affaires juridiques?",
+                "o": [
+                  "commande publique",
+                  "comptes publics",
+                  "impôts et recettes publiques",
+                  "foncier"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour Direction des affaires juridiques?",
+                "o": [
+                  "foncier",
+                  "impôts et recettes publiques",
+                  "commande publique",
+                  "comptes publics"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "ORG-0017",
+        "source": "Secrétariat général (SG): fonctions support et pilotage transversal des ministères (RH, immobilier, informatique, sécurité, modernisation).",
+        "cat": "Organisation et missions",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "ORG-0019",
+        "source": "Direction de la législation fiscale (DLF): conçoit les textes fiscaux",
+        "cat": "Organisation et missions",
+        "page": 3
+      }
+    },
+    {
+      "id": "ORG-0029",
+      "cat": "Organisation et missions",
+      "page": 3,
+      "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+      "topic": "DGFiP et fiscalité",
+      "source": "DGFiP = impôts + recettes publiques + comptes publics + foncier + conseil financier au secteur public.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "ORG-0029-v28c-1",
+          "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+          "topic": "DGFiP et fiscalité",
+          "source": "DGFiP — association: impôts et recettes publiques",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour DGFiP?",
+                "o": [
+                  "impôts et recettes publiques",
+                  "commande publique",
+                  "comptes publics",
+                  "foncier"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour DGFiP?",
+                "o": [
+                  "commande publique",
+                  "impôts et recettes publiques",
+                  "comptes publics",
+                  "foncier"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour DGFiP?",
+                "o": [
+                  "commande publique",
+                  "foncier",
+                  "comptes publics",
+                  "impôts et recettes publiques"
+                ],
+                "ans": 3
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour DGFiP?",
+                "o": [
+                  "comptes publics",
+                  "impôts et recettes publiques",
+                  "foncier",
+                  "commande publique"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "ORG-0029-v28c-2",
+          "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+          "topic": "DGFiP et fiscalité",
+          "source": "DGFiP — association: comptes publics",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour DGFiP?",
+                "o": [
+                  "foncier",
+                  "commande publique",
+                  "comptes publics",
+                  "impôts et recettes publiques"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour DGFiP?",
+                "o": [
+                  "foncier",
+                  "comptes publics",
+                  "commande publique",
+                  "impôts et recettes publiques"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour DGFiP?",
+                "o": [
+                  "foncier",
+                  "comptes publics",
+                  "commande publique",
+                  "impôts et recettes publiques"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour DGFiP?",
+                "o": [
+                  "comptes publics",
+                  "foncier",
+                  "impôts et recettes publiques",
+                  "commande publique"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "ORG-0029-v28c-3",
+          "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+          "topic": "DGFiP et fiscalité",
+          "source": "DGFiP — association: foncier",
+          "allPass": true,
+          "anyQuestion": true,
+          "issues": [],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour DGFiP?",
+                "o": [
+                  "commande publique",
+                  "comptes publics",
+                  "foncier",
+                  "impôts et recettes publiques"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour DGFiP?",
+                "o": [
+                  "impôts et recettes publiques",
+                  "comptes publics",
+                  "foncier",
+                  "commande publique"
+                ],
+                "ans": 2
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour DGFiP?",
+                "o": [
+                  "foncier",
+                  "commande publique",
+                  "impôts et recettes publiques",
+                  "comptes publics"
+                ],
+                "ans": 0
+              },
+              "issues": []
+            },
+            {
+              "q": {
+                "prompt": "Quelle association faut-il connaître pour DGFiP?",
+                "o": [
+                  "impôts et recettes publiques",
+                  "foncier",
+                  "comptes publics",
+                  "commande publique"
+                ],
+                "ans": 1
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "id": "ORG-0029-v28c-4",
+          "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+          "topic": "DGFiP et fiscalité",
+          "source": "DGFiP — association: conseil financier au secteur public",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "ORG-0028",
+        "source": "Participer au paiement et au contrôle des dépenses publiques.",
+        "cat": "Organisation et missions",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "ORG-0030",
+        "source": "Le « Trésor public » n’est pas la DG Trésor: les centres des finances publiques relèvent de la DGFiP.",
+        "cat": "Organisation et missions",
+        "page": 3
+      }
+    },
+    {
       "id": "ORG-0032",
       "cat": "Organisation et missions",
       "page": 3,
@@ -26889,6 +26806,312 @@
         "source": "Variante piège — Détails: La contrainte est cachée (il faut au moins un timbre de chaque valeur) ou l’objectif est inversé (nombre minimal de timbres pour atteindre ou dépasser un montant).",
         "cat": "Raisonnement logique",
         "page": 20
+      }
+    },
+    {
+      "id": "LOG-0238",
+      "cat": "Raisonnement logique",
+      "page": 20,
+      "chapter": "F. Logique combinatoire et tableaux de déduction",
+      "topic": "F. Logique combinatoire et tableaux de déduction",
+      "source": "Variante piège — Détails: La contrainte est cachée (il faut au moins un timbre de chaque valeur) ou l’objectif est inversé (nombre minimal de timbres pour atteindre ou dépasser un montant).",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "LOG-0238",
+          "chapter": "F. Logique combinatoire et tableaux de déduction",
+          "topic": "F. Logique combinatoire et tableaux de déduction",
+          "source": "Variante piège — caractéristiques: La contrainte est cachée (il faut au moins un timbre de chaque valeur) ou l’objectif est inversé (nombre minimal de timbres pour atteindre ou dépasser un montant).",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Variante piège?",
+                "o": [
+                  "Problèmes demandant de maximiser ou de minimiser une quantité sous contraintes (répartir des tâches pour minimiser le temps, choisir un itinéraire, optimiser une somme)",
+                  "Formaliser le problème (quantités, contraintes), puis utiliser des méthodes d’optimisation simple (recherche exhaustive, arrangement, heuristique) ou de programmation linéaire simplifiée",
+                  "Des personnages, des objets ou des lieux sont associés à des attributs (couleur, profession, animal). L’énoncé fournit des indices (affirmations, « A n’aime pas... », « B porte du bleu », etc.)",
+                  "La contrainte est cachée (il faut au moins un timbre de chaque valeur) ou l’objectif est inversé (nombre minimal de timbres pour atteindre ou dépasser un montant)"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Variante piège?",
+                "o": [
+                  "Des personnages, des objets ou des lieux sont associés à des attributs (couleur, profession, animal). L’énoncé fournit des indices (affirmations, « A n’aime pas... », « B porte du bleu », etc.)",
+                  "Problèmes demandant de maximiser ou de minimiser une quantité sous contraintes (répartir des tâches pour minimiser le temps, choisir un itinéraire, optimiser une somme)",
+                  "La contrainte est cachée (il faut au moins un timbre de chaque valeur) ou l’objectif est inversé (nombre minimal de timbres pour atteindre ou dépasser un montant)",
+                  "1. Utiliser des symboles clairs (X pour impossible, • pour certain). 2. Après chaque déduction, mettre à jour tout le tableau (effet domino). 3. Commencer par les indices les plus restrictifs (ceux qui excluent plusieurs possibilités)"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Variante piège?",
+                "o": [
+                  "Des personnages, des objets ou des lieux sont associés à des attributs (couleur, profession, animal). L’énoncé fournit des indices (affirmations, « A n’aime pas... », « B porte du bleu », etc.)",
+                  "La contrainte est cachée (il faut au moins un timbre de chaque valeur) ou l’objectif est inversé (nombre minimal de timbres pour atteindre ou dépasser un montant)",
+                  "Problèmes demandant de maximiser ou de minimiser une quantité sous contraintes (répartir des tâches pour minimiser le temps, choisir un itinéraire, optimiser une somme)",
+                  "Formaliser le problème (quantités, contraintes), puis utiliser des méthodes d’optimisation simple (recherche exhaustive, arrangement, heuristique) ou de programmation linéaire simplifiée"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique définit Variante piège?",
+                "o": [
+                  "Utiliser un tableau de déduction (colonnes = attributs, lignes = sujets) pour cocher les impossibilités et confirmer les correspondances",
+                  "Des personnages, des objets ou des lieux sont associés à des attributs (couleur, profession, animal). L’énoncé fournit des indices (affirmations, « A n’aime pas... », « B porte du bleu », etc.)",
+                  "Problèmes demandant de maximiser ou de minimiser une quantité sous contraintes (répartir des tâches pour minimiser le temps, choisir un itinéraire, optimiser une somme)",
+                  "La contrainte est cachée (il faut au moins un timbre de chaque valeur) ou l’objectif est inversé (nombre minimal de timbres pour atteindre ou dépasser un montant)"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "LOG-0236",
+        "source": "Astuces — Détails: 1. Simplifier le problème (diviser en sous‐problèmes). 2. Utiliser des règles heuristiques (sous « greedy algorithm »: prendre d’abord la valeur la plus élevée). 3. Dessiner des diagrammes ou des cartes pour visualiser.",
+        "cat": "Raisonnement logique",
+        "page": 20
+      },
+      "nextSource": {
+        "id": "CG-0001",
+        "source": "Antiquité grecque — Repères: Ve-IVe s. av. J.-C.",
+        "cat": "Culture générale",
+        "page": 2
+      }
+    },
+    {
+      "id": "CG-0001",
+      "cat": "Culture générale",
+      "page": 2,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Antiquité grecque — Repères: Ve-IVe s. av. J.-C.",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "CG-0001",
+          "chapter": "I. Arts",
+          "topic": "I. Arts",
+          "source": "Antiquité grecque — repère: Ve-IVe s. av. J.-C.",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Antiquité grecque — repère?",
+                "o": [
+                  "Ve-IVe s. av. J.-C",
+                  "Warhol, Lichtenstein",
+                  "début XXe",
+                  "Arcs, voûtes, coupoles, monuments publics"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Antiquité grecque — repère?",
+                "o": [
+                  "Perspective, humanisme, redécouverte de l’Antiquité",
+                  "Matisse, Derain",
+                  "Warhol, Lichtenstein",
+                  "Ve-IVe s. av. J.-C"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Antiquité grecque — repère?",
+                "o": [
+                  "XVe-XVIe s",
+                  "Poussin, Versailles",
+                  "Ve-IVe s. av. J.-C",
+                  "Ordre, équilibre, maîtrise, symétrie"
+                ],
+                "ans": 2
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Antiquité grecque — repère?",
+                "o": [
+                  "Ve-IVe s. av. J.-C",
+                  "milieu XIXe",
+                  "Couleurs pures, très libres",
+                  "XVIIe s"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "LOG-0238",
+        "source": "Variante piège — Détails: La contrainte est cachée (il faut au moins un timbre de chaque valeur) ou l’objectif est inversé (nombre minimal de timbres pour atteindre ou dépasser un montant).",
+        "cat": "Raisonnement logique",
+        "page": 20
+      },
+      "nextSource": {
+        "id": "CG-0002",
+        "source": "Antiquité grecque — Caractéristiques: Harmonie, proportions, idéal du corps, temples",
+        "cat": "Culture générale",
+        "page": 2
+      }
+    },
+    {
+      "id": "CG-0048",
+      "cat": "Culture générale",
+      "page": 2,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Art contemporain — Repères: depuis env. 1945",
+      "allPass": false,
+      "anyQuestion": true,
+      "issues": [
+        "answer_too_broad"
+      ],
+      "sourceRejected": false,
+      "sourceResolvedNonAtomic": false,
+      "variants": [
+        {
+          "id": "CG-0048",
+          "chapter": "I. Arts",
+          "topic": "I. Arts",
+          "source": "Art contemporain — repère: depuis env. 1945",
+          "allPass": false,
+          "anyQuestion": true,
+          "issues": [
+            "answer_too_broad"
+          ],
+          "attempts": [
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Art contemporain — repère?",
+                "o": [
+                  "Ve-IVe s. av. J.-C",
+                  "années 1950-1960",
+                  "Arcs, voûtes, coupoles, monuments publics",
+                  "depuis env. 1945"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Art contemporain — repère?",
+                "o": [
+                  "depuis env. 1945",
+                  "XVIIe s",
+                  "années 1950-1960",
+                  "Perspective, humanisme, redécouverte de l’Antiquité"
+                ],
+                "ans": 0
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Art contemporain — repère?",
+                "o": [
+                  "XVe-XVIe s",
+                  "Poussin, Versailles",
+                  "Arcs, voûtes, coupoles, monuments publics",
+                  "depuis env. 1945"
+                ],
+                "ans": 3
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            },
+            {
+              "q": {
+                "prompt": "Quelle caractéristique est associée à Art contemporain — repère?",
+                "o": [
+                  "années 1950-1960",
+                  "depuis env. 1945",
+                  "milieu XIXe",
+                  "Kandinsky, Mondrian, Malevitch"
+                ],
+                "ans": 1
+              },
+              "issues": [
+                "answer_too_broad"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0047",
+        "source": "Pop art — Noms à connaître: Warhol, Lichtenstein",
+        "cat": "Culture générale",
+        "page": 2
+      },
+      "nextSource": {
+        "id": "CG-0049",
+        "source": "Art contemporain — Caractéristiques: Pluralité: installation, performance, vidéo, street art",
+        "cat": "Culture générale",
+        "page": 2
       }
     }
   ]
