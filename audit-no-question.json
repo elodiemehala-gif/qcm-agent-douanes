@@ -1,6 +1,49 @@
 {
-  "generatedAt": "2026-09-10T08:58:32.693Z",
-  "count": 0,
-  "byCat": {},
-  "rows": []
+  "generatedAt": "2026-09-10T13:16:17.653Z",
+  "count": 2,
+  "byCat": {
+    "Histoire": 2
+  },
+  "rows": [
+    {
+      "id": "HIS-0398",
+      "cat": "Histoire",
+      "page": 19,
+      "chapter": "IX. Culture, arts et littérature",
+      "topic": "IX. Culture, arts et littérature",
+      "source": "Les Misérables — Auteur: Victor Hugo",
+      "previousSource": {
+        "id": "HIS-0397",
+        "source": "Penser que l’Irak envahit l’Iran en 1990; c’est le Koweït qui est envahi par l’Irak.",
+        "cat": "Histoire",
+        "page": 18
+      },
+      "nextSource": {
+        "id": "HIS-0399",
+        "source": "Les Misérables — Particularités: Fresque sociale sur la misère et la rédemption",
+        "cat": "Histoire",
+        "page": 19
+      }
+    },
+    {
+      "id": "HIS-0431",
+      "cat": "Histoire",
+      "page": 20,
+      "chapter": "IX. Culture, arts et littérature",
+      "topic": "IX. Culture, arts et littérature",
+      "source": "Notre‐Dame de Paris — Auteur: Victor Hugo",
+      "previousSource": {
+        "id": "HIS-0430",
+        "source": "Germinal — Particularités: Roman naturaliste sur la condition ouvrière dans les mines du Nord.",
+        "cat": "Histoire",
+        "page": 20
+      },
+      "nextSource": {
+        "id": "HIS-0432",
+        "source": "Notre‐Dame de Paris — Particularités: Roman historique",
+        "cat": "Histoire",
+        "page": 20
+      }
+    }
+  ]
 }

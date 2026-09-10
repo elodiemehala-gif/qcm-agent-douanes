@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-10T08:58:32.693Z",
+  "generatedAt": "2026-09-10T13:16:17.653Z",
   "rawFragments": 2349,
   "sourceFacts": 2203,
-  "enrichedFacts": 2328,
+  "enrichedFacts": 2500,
   "auditedSourceFacts": 2203,
   "categories": [
     "Histoire",
@@ -17,57 +17,57 @@
   "byCat": {
     "Histoire": {
       "facts": 463,
-      "pass": 423,
-      "noQuestion": 0,
-      "flagged": 35,
+      "pass": 430,
+      "noQuestion": 2,
+      "flagged": 28,
       "sourceRejected": 0,
       "resolvedNonAtomic": 5,
-      "remaining": 35
+      "remaining": 28
     },
     "Géographie": {
       "facts": 393,
-      "pass": 348,
+      "pass": 356,
       "noQuestion": 0,
-      "flagged": 42,
+      "flagged": 34,
       "sourceRejected": 0,
       "resolvedNonAtomic": 3,
-      "remaining": 42
+      "remaining": 34
     },
     "Enseignement moral et civique": {
       "facts": 233,
-      "pass": 178,
+      "pass": 200,
       "noQuestion": 0,
-      "flagged": 50,
+      "flagged": 28,
       "sourceRejected": 0,
       "resolvedNonAtomic": 5,
-      "remaining": 50
+      "remaining": 28
     },
     "Actualité": {
       "facts": 119,
-      "pass": 96,
+      "pass": 99,
       "noQuestion": 0,
-      "flagged": 18,
+      "flagged": 15,
       "sourceRejected": 0,
       "resolvedNonAtomic": 5,
-      "remaining": 18
+      "remaining": 15
     },
     "Organisation et missions": {
       "facts": 95,
-      "pass": 70,
+      "pass": 72,
       "noQuestion": 0,
-      "flagged": 19,
+      "flagged": 17,
       "sourceRejected": 0,
       "resolvedNonAtomic": 6,
-      "remaining": 19
+      "remaining": 17
     },
     "Mathématiques": {
       "facts": 125,
-      "pass": 97,
+      "pass": 103,
       "noQuestion": 0,
-      "flagged": 18,
+      "flagged": 11,
       "sourceRejected": 0,
-      "resolvedNonAtomic": 10,
-      "remaining": 18
+      "resolvedNonAtomic": 11,
+      "remaining": 11
     },
     "Raisonnement logique": {
       "facts": 162,
@@ -80,28 +80,28 @@
     },
     "Culture générale": {
       "facts": 613,
-      "pass": 529,
+      "pass": 543,
       "noQuestion": 0,
-      "flagged": 64,
+      "flagged": 50,
       "sourceRejected": 0,
       "resolvedNonAtomic": 20,
-      "remaining": 64
+      "remaining": 50
     }
   },
   "issueCounts": {
-    "answer_too_broad": 120,
-    "mixed_semantic_types": 157,
-    "no_question": 43,
-    "correct_length_gives_clue": 27,
-    "option_length_imbalance": 18,
-    "answer_not_literal_in_source": 2
+    "correct_length_gives_clue": 33,
+    "mixed_semantic_types": 143,
+    "no_question": 29,
+    "answer_too_broad": 53,
+    "answer_not_literal_in_source": 2,
+    "option_length_imbalance": 7
   },
-  "fullyCompliant": 1845,
-  "resolvedNonAtomic": 55,
-  "resolvedTotal": 1900,
-  "remaining": 303,
-  "flagged": 303,
-  "noQuestion": 0,
-  "withQuestion": 2148,
+  "fullyCompliant": 1907,
+  "resolvedNonAtomic": 56,
+  "resolvedTotal": 1963,
+  "remaining": 240,
+  "flagged": 240,
+  "noQuestion": 2,
+  "withQuestion": 2145,
   "sourceRejected": 0
 }
