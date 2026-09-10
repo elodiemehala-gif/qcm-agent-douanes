@@ -1,9 +1,9 @@
 {
   "summary": {
-    "generatedAt": "2026-09-10T07:56:27.997Z",
+    "generatedAt": "2026-09-10T08:01:59.466Z",
     "rawFragments": 2349,
     "sourceFacts": 2203,
-    "enrichedFacts": 2154,
+    "enrichedFacts": 2199,
     "auditedSourceFacts": 2203,
     "categories": [
       "Histoire",
@@ -18,10 +18,10 @@
     "byCat": {
       "Histoire": {
         "facts": 463,
-        "pass": 353,
-        "noQuestion": 78,
-        "flagged": 110,
-        "sourceRejected": 46
+        "pass": 376,
+        "noQuestion": 46,
+        "flagged": 87,
+        "sourceRejected": 15
       },
       "Géographie": {
         "facts": 393,
@@ -39,10 +39,10 @@
       },
       "Actualité": {
         "facts": 119,
-        "pass": 76,
-        "noQuestion": 30,
-        "flagged": 43,
-        "sourceRejected": 1
+        "pass": 78,
+        "noQuestion": 29,
+        "flagged": 41,
+        "sourceRejected": 0
       },
       "Organisation et missions": {
         "facts": 95,
@@ -53,10 +53,10 @@
       },
       "Mathématiques": {
         "facts": 125,
-        "pass": 61,
-        "noQuestion": 45,
-        "flagged": 64,
-        "sourceRejected": 4
+        "pass": 62,
+        "noQuestion": 44,
+        "flagged": 63,
+        "sourceRejected": 3
       },
       "Raisonnement logique": {
         "facts": 162,
@@ -74,19 +74,19 @@
       }
     },
     "issueCounts": {
-      "source_rejected_or_removed": 61,
-      "no_question": 274,
+      "source_rejected_or_removed": 28,
+      "no_question": 273,
       "answer_too_broad": 118,
-      "mixed_semantic_types": 192,
-      "correct_length_gives_clue": 23,
+      "mixed_semantic_types": 199,
+      "correct_length_gives_clue": 24,
       "option_length_imbalance": 17,
       "answer_not_literal_in_source": 2
     },
-    "fullyCompliant": 1572,
-    "flagged": 631,
-    "noQuestion": 302,
-    "withQuestion": 1901,
-    "sourceRejected": 61
+    "fullyCompliant": 1598,
+    "flagged": 605,
+    "noQuestion": 268,
+    "withQuestion": 1935,
+    "sourceRejected": 28
   },
   "rows": [
     {
@@ -96,21 +96,6 @@
       "chapter": "I. Fondements de la civilisation",
       "topic": "Préhistoire",
       "source": "Les dates de -10 000 (Néolithique), -3 000 (écriture) et -3,3 millions (Australopithèques) reviennent souvent dans les QCM.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0025",
-      "cat": "Histoire",
-      "page": 4,
-      "chapter": "I. Fondements de la civilisation",
-      "topic": "Égypte antique",
-      "source": "Croire que les pyramides sont les seules tombes royales; la Vallée des Rois accueille des tombeaux plus récents.",
       "allPass": false,
       "anyQuestion": false,
       "issues": [
@@ -135,66 +120,6 @@
       "variants": []
     },
     {
-      "id": "HIS-0039",
-      "cat": "Histoire",
-      "page": 4,
-      "chapter": "I. Fondements de la civilisation",
-      "topic": "I. Fondements de la civilisation",
-      "source": "Penser que Spartiate = démocratie; c’est une oligarchie.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0040",
-      "cat": "Histoire",
-      "page": 4,
-      "chapter": "I. Fondements de la civilisation",
-      "topic": "I. Fondements de la civilisation",
-      "source": "Mélanger Platon et Aristote; leurs conceptions de la réalité (monde des Idées versus empirisme) sont opposées.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0057",
-      "cat": "Histoire",
-      "page": 5,
-      "chapter": "I. Fondements de la civilisation",
-      "topic": "Rome antique",
-      "source": "Ne pas confondre la date de la chute de Rome (476) avec celle de la fin de l’Empire d’Orient (1453).",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0069",
-      "cat": "Histoire",
-      "page": 5,
-      "chapter": "I. Fondements de la civilisation",
-      "topic": "Religions monothéistes",
-      "source": "Ne pas confondre Hégire (622) et Hajj; 622 marque la fuite de Mahomet de La Mecque à Médine.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
       "id": "HIS-0080",
       "cat": "Histoire",
       "page": 6,
@@ -210,42 +135,12 @@
       "variants": []
     },
     {
-      "id": "HIS-0082",
-      "cat": "Histoire",
-      "page": 6,
-      "chapter": "II. France des origines à la Révolution",
-      "topic": "Royaumes francs",
-      "source": "Ne pas confondre Charles Martel (maire du palais, victoire de Poitiers 732) et Charlemagne (empereur 800).",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
       "id": "HIS-0091",
       "cat": "Histoire",
       "page": 6,
       "chapter": "II. France des origines à la Révolution",
       "topic": "Moyen Âge",
       "source": "Conséquences: affirmation de l’autorité royale, affaiblissement de la féodalité, naissance de l’État moderne.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0092",
-      "cat": "Histoire",
-      "page": 6,
-      "chapter": "II. France des origines à la Révolution",
-      "topic": "II. France des origines à la Révolution",
-      "source": "Penser que la Guerre de Cent Ans dure exactement 100 ans (elle s’étale sur 116 ans avec des trêves).",
       "allPass": false,
       "anyQuestion": false,
       "issues": [
@@ -285,21 +180,6 @@
       "variants": []
     },
     {
-      "id": "HIS-0119",
-      "cat": "Histoire",
-      "page": 7,
-      "chapter": "II. France des origines à la Révolution",
-      "topic": "Monarchie absolue",
-      "source": "Penser que le château de Versailles a été construit par Louis XIII; c’est Louis XIV qui l’agrandit.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
       "id": "HIS-0130",
       "cat": "Histoire",
       "page": 8,
@@ -330,162 +210,12 @@
       "variants": []
     },
     {
-      "id": "HIS-0132",
-      "cat": "Histoire",
-      "page": 8,
-      "chapter": "II. France des origines à la Révolution",
-      "topic": "Renaissance et humanisme",
-      "source": "Attribuer à Montaigne (Renaissance) un rôle dans les Lumières.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0133",
-      "cat": "Histoire",
-      "page": 8,
-      "chapter": "III. Révolution française et Empire",
-      "topic": "Les Lumières",
-      "source": "Penser que Diderot a écrit seul l’Encyclopédie; il en est le coordonnateur et y contribue avec d’Alembert et une centaine d’auteurs.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0142",
-      "cat": "Histoire",
-      "page": 8,
-      "chapter": "III. Révolution française et Empire",
-      "topic": "III. Révolution française et Empire",
-      "source": "Penser que la disette de 1788 est la seule cause; la crise est multiple (finances, politique, idées).",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0153",
-      "cat": "Histoire",
-      "page": 9,
-      "chapter": "III. Révolution française et Empire",
-      "topic": "Révolution française",
-      "source": "Confondre la date de proclamation de la République (1792) avec celle de la Déclaration des droits (1789).",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0154",
-      "cat": "Histoire",
-      "page": 9,
-      "chapter": "III. Révolution française et Empire",
-      "topic": "Révolution française",
-      "source": "Penser que la Terreur est l’œuvre exclusive de Robespierre; c’est un gouvernement collégial (Saint-Just, Couthon, etc.).",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
       "id": "HIS-0166",
       "cat": "Histoire",
       "page": 9,
       "chapter": "III. Révolution française et Empire",
       "topic": "III. Révolution française et Empire",
       "source": "Conséquences: diffusion des idées révolutionnaires en Europe, réorganisation administrative durable, mais pertes humaines.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0167",
-      "cat": "Histoire",
-      "page": 9,
-      "chapter": "III. Révolution française et Empire",
-      "topic": "III. Révolution française et Empire",
-      "source": "Confondre Code civil et Code pénal; le Code civil aborde le droit des personnes, des biens et des contrats.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0168",
-      "cat": "Histoire",
-      "page": 9,
-      "chapter": "II. France des origines à la Révolution",
-      "topic": "Monarchie absolue",
-      "source": "Penser que Napoléon rétablit la monarchie absolue; il instaure un Empire autoritaire, mais conserve certaines conquêtes révolutionnaires.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0172",
-      "cat": "Histoire",
-      "page": 10,
-      "chapter": "III. Révolution française et Empire",
-      "topic": "Napoléon et Empire",
-      "source": "Confondre le retour de Napoléon en 1815 (Cent-Jours) avec la Restauration; cette période est brève et se termine avec Waterloo.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0192",
-      "cat": "Histoire",
-      "page": 11,
-      "chapter": "V. Guerres mondiales et totalitarismes",
-      "topic": "V. Guerres mondiales et totalitarismes",
-      "source": "Penser que la loi de 1905 supprime toute subvention aux cultes; elle conserve certaines exceptions (Alsace‐Moselle).",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0200",
-      "cat": "Histoire",
-      "page": 11,
-      "chapter": "V. Guerres mondiales et totalitarismes",
-      "topic": "V. Guerres mondiales et totalitarismes",
-      "source": "Confondre la loi Le Chapelier (1791) qui interdit les organisations ouvrières et la reconnaissance des syndicats (1884).",
       "allPass": false,
       "anyQuestion": false,
       "issues": [
@@ -540,72 +270,12 @@
       "variants": []
     },
     {
-      "id": "HIS-0213",
-      "cat": "Histoire",
-      "page": 12,
-      "chapter": "V. Guerres mondiales et totalitarismes",
-      "topic": "V. Guerres mondiales et totalitarismes",
-      "source": "Penser que la guerre est due uniquement à l’assassinat de François-Ferdinand; cet événement déclenche un système d’alliances déjà tendu.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0219",
-      "cat": "Histoire",
-      "page": 12,
-      "chapter": "V. Guerres mondiales et totalitarismes",
-      "topic": "V. Guerres mondiales et totalitarismes",
-      "source": "Croire que la crise de 1929 n’a touché que les États-Unis; elle s’étend rapidement au monde entier.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
       "id": "HIS-0232",
       "cat": "Histoire",
       "page": 12,
       "chapter": "V. Guerres mondiales et totalitarismes",
       "topic": "Seconde Guerre mondiale",
       "source": "Conséquences: plus de 60 millions de morts, création de l’ONU en 1945, début de la Guerre froide.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0233",
-      "cat": "Histoire",
-      "page": 12,
-      "chapter": "V. Guerres mondiales et totalitarismes",
-      "topic": "Seconde Guerre mondiale",
-      "source": "Confondre l’appel du 18 juin (résistance) et la capitulation française du 22 juin 1940.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0246",
-      "cat": "Histoire",
-      "page": 13,
-      "chapter": "V. Guerres mondiales et totalitarismes",
-      "topic": "Guerre froide",
-      "source": "Penser que la Guerre froide s’achève avec la chute du mur en 1989; elle se termine avec la dissolution de l’URSS en 1991.",
       "allPass": false,
       "anyQuestion": false,
       "issues": [
@@ -630,147 +300,12 @@
       "variants": []
     },
     {
-      "id": "HIS-0256",
-      "cat": "Histoire",
-      "page": 13,
-      "chapter": "V. Guerres mondiales et totalitarismes",
-      "topic": "Seconde Guerre mondiale",
-      "source": "Ne pas confondre la création de la sécurité sociale (1945) et celle du régime général de retraite (1946).",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0257",
-      "cat": "Histoire",
-      "page": 13,
-      "chapter": "VI. France contemporaine",
-      "topic": "VI. France contemporaine",
-      "source": "Penser que la IVe République dispose d’un président fort; c’est un régime d’assemblée.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0271",
-      "cat": "Histoire",
-      "page": 14,
-      "chapter": "VI. France contemporaine",
-      "topic": "Seconde Guerre mondiale",
-      "source": "Confondre le général de Gaulle (président de la Ve) et son homonyme du temps de la Résistance; c’est la même personne, mais ses fonctions changent.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0272",
-      "cat": "Histoire",
-      "page": 14,
-      "chapter": "VI. France contemporaine",
-      "topic": "VI. France contemporaine",
-      "source": "Penser que l’Article 49‐3 permet de dissoudre l’Assemblée; il engage la responsabilité du gouvernement.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0292",
-      "cat": "Histoire",
-      "page": 14,
-      "chapter": "VI. France contemporaine",
-      "topic": "VI. France contemporaine",
-      "source": "Penser que le président nomme les sénateurs; ils sont élus au suffrage universel indirect par un collège de grands électeurs.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0293",
-      "cat": "Histoire",
-      "page": 15,
-      "chapter": "VII. Présidents et hommes d’État",
-      "topic": "VII. Présidents et hommes d’État",
-      "source": "Mélanger référendum (vote direct des citoyens sur un texte) et motion de censure (parlement renverse le gouvernement).",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0372",
-      "cat": "Histoire",
-      "page": 17,
-      "chapter": "VIII. Révolutions, indépendances et monde contemporain",
-      "topic": "VIII. Révolutions, indépendances et monde contemporain",
-      "source": "Penser que George Washington est le rédacteur de la déclaration; c’est Thomas Jefferson.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
       "id": "HIS-0396",
       "cat": "Histoire",
       "page": 18,
       "chapter": "VIII. Révolutions, indépendances et monde contemporain",
       "topic": "VIII. Révolutions, indépendances et monde contemporain",
       "source": "Mélanger guerres israélo-arabes et crise du canal de Suez; ces événements ont des causes différentes.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0397",
-      "cat": "Histoire",
-      "page": 18,
-      "chapter": "VIII. Révolutions, indépendances et monde contemporain",
-      "topic": "Monde contemporain",
-      "source": "Penser que l’Irak envahit l’Iran en 1990; c’est le Koweït qui est envahi par l’Irak.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "HIS-0412",
-      "cat": "Histoire",
-      "page": 19,
-      "chapter": "VIII. Révolutions, indépendances et monde contemporain",
-      "topic": "Monde contemporain",
-      "source": "Penser que la Crimée a été annexée en 2016; l’annexion a lieu en 2014.",
       "allPass": false,
       "anyQuestion": false,
       "issues": [
@@ -921,36 +456,6 @@
       "chapter": "I-J. Justice, Europe et organisations internationales",
       "topic": "I-J. Justice, Europe et organisations internationales",
       "source": "Procès équitable: chacun a droit à un procès public, équitable et dans un délai raisonnable (art.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "ACT-0058",
-      "cat": "Actualité",
-      "page": 5,
-      "chapter": "3. Actualité internationale",
-      "topic": "3. Actualité internationale",
-      "source": "Ne pas confondre la présidence tournante du Conseil de l’UE avec le président du Conseil européen, fonction permanente occupée par António Costa depuis le 1er décembre 2024.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": []
-    },
-    {
-      "id": "MAT-0014",
-      "cat": "Mathématiques",
-      "page": 2,
-      "chapter": "A. Nombres et arithmétique",
-      "topic": "A. Nombres et arithmétique",
-      "source": "Confondre -3² = -(3²) = -9 et (-3)² = 9.",
       "allPass": false,
       "anyQuestion": false,
       "issues": [
@@ -1235,59 +740,6 @@
           "chapter": "II. France des origines à la Révolution",
           "topic": "Royaumes francs",
           "source": "Il crée les comtés, capitulaires et soutient les arts carolingiens.",
-          "allPass": false,
-          "anyQuestion": false,
-          "issues": [
-            "no_question"
-          ],
-          "attempts": [
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            },
-            {
-              "q": null,
-              "issues": [
-                "no_question"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "HIS-0098",
-      "cat": "Histoire",
-      "page": 7,
-      "chapter": "II. France des origines à la Révolution",
-      "topic": "Renaissance et humanisme",
-      "source": "Humanisme: courant intellectuel valorisant l’homme et la culture antique.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "no_question"
-      ],
-      "sourceRejected": false,
-      "variants": [
-        {
-          "id": "HIS-0098",
-          "chapter": "II. France des origines à la Révolution",
-          "topic": "Renaissance et humanisme",
-          "source": "Humanisme — définition: courant intellectuel valorisant l’homme et la culture antique.",
           "allPass": false,
           "anyQuestion": false,
           "issues": [
@@ -10987,6 +10439,1808 @@
           "chapter": "A. Logique mathématique",
           "topic": "A. Logique mathématique",
           "source": "Ce type d’épreuves est très présent dans les concours administratifs.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LOG-0078",
+      "cat": "Raisonnement logique",
+      "page": 7,
+      "chapter": "B. Logique verbale",
+      "topic": "B. Logique verbale",
+      "source": "Les exercices de logique verbale évaluent la capacité à comprendre et à interpréter un langage, à déduire des informations implicites, à manipuler des affirmations et à raisonner sur des relations sémantiques.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "LOG-0078",
+          "chapter": "B. Logique verbale",
+          "topic": "B. Logique verbale",
+          "source": "Les exercices de logique verbale évaluent la capacité à comprendre et à interpréter un langage, à déduire des informations implicites, à manipuler des affirmations et à raisonner sur des relations sémantiques.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LOG-0106",
+      "cat": "Raisonnement logique",
+      "page": 10,
+      "chapter": "C. Logique spatiale",
+      "topic": "C. Logique spatiale",
+      "source": "Les exercices de raisonnement spatial mesurent l’aptitude à visualiser et à manipuler mentalement des objets en deux et trois dimensions.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "LOG-0106",
+          "chapter": "C. Logique spatiale",
+          "topic": "C. Logique spatiale",
+          "source": "Les exercices de raisonnement spatial mesurent l’aptitude à visualiser et à manipuler mentalement des objets en deux et trois dimensions.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LOG-0192",
+      "cat": "Raisonnement logique",
+      "page": 16,
+      "chapter": "E. Suites et structures",
+      "topic": "E. Suites et structures",
+      "source": "Les suites logiques (numériques ou alphabétiques), analogies et matrices permettent d’évaluer la capacité à détecter des régularités, des progressions ou des relations entre des éléments.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "LOG-0192",
+          "chapter": "E. Suites et structures",
+          "topic": "E. Suites et structures",
+          "source": "Les suites logiques (numériques ou alphabétiques), analogies et matrices permettent d’évaluer la capacité à détecter des régularités, des progressions ou des relations entre des éléments.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0052",
+      "cat": "Culture générale",
+      "page": 2,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Culture générale - Contrôleur des douanes | 2",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0052",
+          "chapter": "I. Arts",
+          "topic": "I. Arts",
+          "source": "Culture générale - Contrôleur des douanes | 2",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0088",
+      "cat": "Culture générale",
+      "page": 3,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Panthéon = nom générique de certains temples et monument célèbre à Rome; le Panthéon de Paris est un autre édifice, devenu nécropole nationale.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0088",
+          "chapter": "I. Arts",
+          "topic": "I. Arts",
+          "source": "Panthéon = nom générique de certains temples et monument célèbre à Rome; le Panthéon de Paris est un autre édifice, devenu nécropole nationale.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0089",
+      "cat": "Culture générale",
+      "page": 3,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Elle utilise l’arc en plein cintre, des murs épais et des ouvertures limitées.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0089",
+          "chapter": "I. Arts",
+          "topic": "I. Arts",
+          "source": "Elle utilise l’arc en plein cintre, des murs épais et des ouvertures limitées.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0094",
+      "cat": "Culture générale",
+      "page": 3,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Culture générale - Contrôleur des douanes | 3",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0094",
+          "chapter": "I. Arts",
+          "topic": "I. Arts",
+          "source": "Culture générale - Contrôleur des douanes | 3",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0156",
+      "cat": "Culture générale",
+      "page": 4,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Culture générale - Contrôleur des douanes | 4",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0156",
+          "chapter": "I. Arts",
+          "topic": "I. Arts",
+          "source": "Culture générale - Contrôleur des douanes | 4",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0215",
+      "cat": "Culture générale",
+      "page": 5,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Les Quatre Saisons = Vivaldi.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0215",
+          "chapter": "I. Arts",
+          "topic": "I. Arts",
+          "source": "Les Quatre Saisons = Vivaldi.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0216",
+      "cat": "Culture générale",
+      "page": 5,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Culture générale - Contrôleur des douanes | 5",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0216",
+          "chapter": "I. Arts",
+          "topic": "I. Arts",
+          "source": "Culture générale - Contrôleur des douanes | 5",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0229",
+      "cat": "Culture générale",
+      "page": 6,
+      "chapter": "I. Arts",
+      "topic": "Arts",
+      "source": "Jean-Luc Godard — Œuvres / repères: À bout de souffle",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0229",
+          "chapter": "I. Arts",
+          "topic": "Arts",
+          "source": "Jean-Luc Godard — repère: À bout de souffle",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0248",
+      "cat": "Culture générale",
+      "page": 6,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Les frères Lumière organisent des projections publiques à partir de 1895.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0248",
+          "chapter": "I. Arts",
+          "topic": "I. Arts",
+          "source": "Les frères Lumière organisent des projections publiques à partir de 1895.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0264",
+      "cat": "Culture générale",
+      "page": 6,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Samuel Beckett: En attendant Godot",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0264",
+          "chapter": "I. Arts",
+          "topic": "I. Arts",
+          "source": "Samuel Beckett — caractéristiques: En attendant Godot",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0270",
+      "cat": "Culture générale",
+      "page": 6,
+      "chapter": "I. Arts",
+      "topic": "I. Arts",
+      "source": "Culture générale - Contrôleur des douanes | 6",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0270",
+          "chapter": "I. Arts",
+          "topic": "I. Arts",
+          "source": "Culture générale - Contrôleur des douanes | 6",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0274",
+      "cat": "Culture générale",
+      "page": 7,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Manga = bande dessinée japonaise.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0274",
+          "chapter": "II. Sciences",
+          "topic": "II. Sciences",
+          "source": "Manga = bande dessinée japonaise.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0275",
+      "cat": "Culture générale",
+      "page": 7,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Cosplay = pratique consistant à incarner visuellement un personnage, généralement par costume et accessoires.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0275",
+          "chapter": "II. Sciences",
+          "topic": "II. Sciences",
+          "source": "Cosplay = pratique consistant à incarner visuellement un personnage, généralement par costume et accessoires.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0280",
+      "cat": "Culture générale",
+      "page": 7,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "L’accélération mesure la variation de la vitesse.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0280",
+          "chapter": "II. Sciences",
+          "topic": "II. Sciences",
+          "source": "L’accélération mesure la variation de la vitesse.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0286",
+      "cat": "Culture générale",
+      "page": 7,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Principe de conservation: dans un système isolé, la quantité totale d’énergie se conserve.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0286",
+          "chapter": "II. Sciences",
+          "topic": "II. Sciences",
+          "source": "Principe de conservation — définition: dans un système isolé, la quantité totale d’énergie se conserve.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0289",
+      "cat": "Culture générale",
+      "page": 7,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Culture générale - Contrôleur des douanes | 7",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0289",
+          "chapter": "II. Sciences",
+          "topic": "II. Sciences",
+          "source": "Culture générale - Contrôleur des douanes | 7",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0306",
+      "cat": "Culture générale",
+      "page": 8,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Le proton porte une charge positive, l’électron une charge négative et le neutron est électriquement neutre.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0306",
+          "chapter": "II. Sciences",
+          "topic": "II. Sciences",
+          "source": "Le proton porte une charge positive, l’électron une charge négative et le neutron est électriquement neutre.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0312",
+      "cat": "Culture générale",
+      "page": 8,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Culture générale - Contrôleur des douanes | 8",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0312",
+          "chapter": "II. Sciences",
+          "topic": "II. Sciences",
+          "source": "Culture générale - Contrôleur des douanes | 8",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0335",
+      "cat": "Culture générale",
+      "page": 9,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "ADN = acide désoxyribonucléique; support principal de l’information génétique.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0335",
+          "chapter": "II. Sciences",
+          "topic": "II. Sciences",
+          "source": "ADN = acide désoxyribonucléique; support principal de l’information génétique.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0336",
+      "cat": "Culture générale",
+      "page": 9,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Gène = segment d’ADN contribuant à un caractère ou à la production d’un ARN / d’une protéine.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0336",
+          "chapter": "II. Sciences",
+          "topic": "II. Sciences",
+          "source": "Gène = segment d’ADN contribuant à un caractère ou à la production d’un ARN / d’une protéine.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0340",
+      "cat": "Culture générale",
+      "page": 9,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Watson et Crick ont proposé le modèle de double hélice de l’ADN en 1953, en s’appuyant notamment sur les données expérimentales de Rosalind Franklin et Maurice Wilkins.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0340",
+          "chapter": "II. Sciences",
+          "topic": "II. Sciences",
+          "source": "Watson et Crick ont proposé le modèle de double hélice de l’ADN en 1953, en s’appuyant notamment sur les données expérimentales de Rosalind Franklin et Maurice Wilkins.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0342",
+      "cat": "Culture générale",
+      "page": 9,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Les populations évoluent au fil des générations sous l’effet de variations héréditaires et de différences de succès reproductif.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0342",
+          "chapter": "II. Sciences",
+          "topic": "II. Sciences",
+          "source": "Les populations évoluent au fil des générations sous l’effet de variations héréditaires et de différences de succès reproductif.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0343",
+      "cat": "Culture générale",
+      "page": 9,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "L’évolution ne poursuit pas un objectif prédéterminé.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0343",
+          "chapter": "II. Sciences",
+          "topic": "II. Sciences",
+          "source": "L’évolution ne poursuit pas un objectif prédéterminé.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0354",
+      "cat": "Culture générale",
+      "page": 9,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Culture générale - Contrôleur des douanes | 9",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0354",
+          "chapter": "II. Sciences",
+          "topic": "II. Sciences",
+          "source": "Culture générale - Contrôleur des douanes | 9",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0381",
+      "cat": "Culture générale",
+      "page": 10,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "L’augmentation anthropique de CO2, CH4 et N2O renforce cet effet et contribue au réchauffement climatique.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0381",
+          "chapter": "II. Sciences",
+          "topic": "II. Sciences",
+          "source": "L’augmentation anthropique de CO2, CH4 et N2O renforce cet effet et contribue au réchauffement climatique.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0382",
+      "cat": "Culture générale",
+      "page": 10,
+      "chapter": "II. Sciences",
+      "topic": "Sciences",
+      "source": "Météo = état de l’atmosphère à court terme; climat = statistiques du temps sur une longue période.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0382",
+          "chapter": "II. Sciences",
+          "topic": "Sciences",
+          "source": "Météo = état de l’atmosphère à court terme; climat = statistiques du temps sur une longue période.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0389",
+      "cat": "Culture générale",
+      "page": 10,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Culture générale - Contrôleur des douanes | 10",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0389",
+          "chapter": "II. Sciences",
+          "topic": "II. Sciences",
+          "source": "Culture générale - Contrôleur des douanes | 10",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0415",
+      "cat": "Culture générale",
+      "page": 11,
+      "chapter": "II. Sciences",
+      "topic": "II. Sciences",
+      "source": "Culture générale - Contrôleur des douanes | 11",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0415",
+          "chapter": "II. Sciences",
+          "topic": "II. Sciences",
+          "source": "Culture générale - Contrôleur des douanes | 11",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0426",
+      "cat": "Culture générale",
+      "page": 12,
+      "chapter": "III. Économie",
+      "topic": "Économie",
+      "source": "L'annale 2025 demandait par exemple l'indice principal de la Bourse de Tokyo.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0426",
+          "chapter": "III. Économie",
+          "topic": "Économie",
+          "source": "L'annale 2025 demandait par exemple l'indice principal de la Bourse de Tokyo.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0433",
+      "cat": "Culture générale",
+      "page": 12,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "Valeur ajoutée = valeur de la production - consommations intermédiaires.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0433",
+          "chapter": "III. Économie",
+          "topic": "III. Économie",
+          "source": "Valeur ajoutée = valeur de la production - consommations intermédiaires.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CG-0437",
+      "cat": "Culture générale",
+      "page": 12,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "Le prix d’équilibre correspond au niveau où quantité offerte et quantité demandée coïncident.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0437",
+          "chapter": "III. Économie",
+          "topic": "III. Économie",
+          "source": "Le prix d’équilibre correspond au niveau où quantité offerte et quantité demandée coïncident.",
           "allPass": false,
           "anyQuestion": false,
           "issues": [
