@@ -26,7 +26,7 @@ jobs:
             nextSource: i<report.rows.length-1 ? {id:report.rows[i+1].id,source:report.rows[i+1].source,cat:report.rows[i+1].cat,page:report.rows[i+1].page} : null
           }));
           const rows = indexed
-            .filter(r => !r.allPass)
+            .filter(r => !r.allPass && !r.sourceResolvedNonAtomic)
             .sort((a,b) => {
               const sa = a.sourceRejected ? 0 : (a.anyQuestion ? 2 : 1);
               const sb = b.sourceRejected ? 0 : (b.anyQuestion ? 2 : 1);
