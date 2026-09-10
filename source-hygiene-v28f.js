@@ -7,7 +7,7 @@
     'HIS-0098':['Humanisme — association: valorisation de l’homme','Humanisme — association: culture antique'],
     'HIS-0154':['Terreur — caractéristiques: gouvernement collégial','Terreur — association: Saint-Just','Terreur — association: Couthon'],
     'HIS-0290':['Conseil d’État — rôle: conseille le gouvernement','Conseil d’État — rôle: juge suprême de l’administration'],
-    'GEO-0050':['Océan Austral / Antarctique — association: courant circumpolaire'],
+    'GEO-0050':['Courant circumpolaire antarctique — association: océan Austral'],
     'GEO-0122':['Fleuve — association: mer ou océan','Rivière — association: autre cours d’eau'],
     'ORG-0018':['Direction des affaires juridiques — rôle: conseil juridique','Direction des affaires juridiques — rôle: expertise des textes','Direction des affaires juridiques — association: commande publique']
   };
