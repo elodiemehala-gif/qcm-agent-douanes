@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-10T08:03:19.621Z",
+  "generatedAt": "2026-09-10T08:08:28.856Z",
   "rawFragments": 2349,
   "sourceFacts": 2203,
-  "enrichedFacts": 2199,
+  "enrichedFacts": 2233,
   "auditedSourceFacts": 2203,
   "categories": [
     "Histoire",
@@ -17,24 +17,24 @@
   "byCat": {
     "Histoire": {
       "facts": 463,
-      "pass": 376,
-      "noQuestion": 46,
-      "flagged": 87,
-      "sourceRejected": 15
+      "pass": 383,
+      "noQuestion": 34,
+      "flagged": 80,
+      "sourceRejected": 3
     },
     "Géographie": {
       "facts": 393,
-      "pass": 314,
-      "noQuestion": 25,
-      "flagged": 79,
-      "sourceRejected": 1
+      "pass": 315,
+      "noQuestion": 24,
+      "flagged": 78,
+      "sourceRejected": 0
     },
     "Enseignement moral et civique": {
       "facts": 233,
-      "pass": 135,
-      "noQuestion": 48,
-      "flagged": 98,
-      "sourceRejected": 9
+      "pass": 139,
+      "noQuestion": 43,
+      "flagged": 94,
+      "sourceRejected": 4
     },
     "Actualité": {
       "facts": 119,
@@ -73,17 +73,17 @@
     }
   },
   "issueCounts": {
-    "source_rejected_or_removed": 28,
-    "no_question": 273,
+    "no_question": 272,
     "answer_too_broad": 118,
-    "mixed_semantic_types": 199,
+    "mixed_semantic_types": 203,
+    "source_rejected_or_removed": 10,
     "correct_length_gives_clue": 24,
-    "option_length_imbalance": 17,
+    "option_length_imbalance": 16,
     "answer_not_literal_in_source": 2
   },
-  "fullyCompliant": 1598,
-  "flagged": 605,
-  "noQuestion": 268,
-  "withQuestion": 1935,
-  "sourceRejected": 28
+  "fullyCompliant": 1610,
+  "flagged": 593,
+  "noQuestion": 250,
+  "withQuestion": 1953,
+  "sourceRejected": 10
 }

@@ -1,9 +1,9 @@
 {
   "summary": {
-    "generatedAt": "2026-09-10T08:03:19.621Z",
+    "generatedAt": "2026-09-10T08:08:28.856Z",
     "rawFragments": 2349,
     "sourceFacts": 2203,
-    "enrichedFacts": 2199,
+    "enrichedFacts": 2233,
     "auditedSourceFacts": 2203,
     "categories": [
       "Histoire",
@@ -18,24 +18,24 @@
     "byCat": {
       "Histoire": {
         "facts": 463,
-        "pass": 376,
-        "noQuestion": 46,
-        "flagged": 87,
-        "sourceRejected": 15
+        "pass": 383,
+        "noQuestion": 34,
+        "flagged": 80,
+        "sourceRejected": 3
       },
       "Géographie": {
         "facts": 393,
-        "pass": 314,
-        "noQuestion": 25,
-        "flagged": 79,
-        "sourceRejected": 1
+        "pass": 315,
+        "noQuestion": 24,
+        "flagged": 78,
+        "sourceRejected": 0
       },
       "Enseignement moral et civique": {
         "facts": 233,
-        "pass": 135,
-        "noQuestion": 48,
-        "flagged": 98,
-        "sourceRejected": 9
+        "pass": 139,
+        "noQuestion": 43,
+        "flagged": 94,
+        "sourceRejected": 4
       },
       "Actualité": {
         "facts": 119,
@@ -74,102 +74,21 @@
       }
     },
     "issueCounts": {
-      "source_rejected_or_removed": 28,
-      "no_question": 273,
+      "no_question": 272,
       "answer_too_broad": 118,
-      "mixed_semantic_types": 199,
+      "mixed_semantic_types": 203,
+      "source_rejected_or_removed": 10,
       "correct_length_gives_clue": 24,
-      "option_length_imbalance": 17,
+      "option_length_imbalance": 16,
       "answer_not_literal_in_source": 2
     },
-    "fullyCompliant": 1598,
-    "flagged": 605,
-    "noQuestion": 268,
-    "withQuestion": 1935,
-    "sourceRejected": 28
+    "fullyCompliant": 1610,
+    "flagged": 593,
+    "noQuestion": 250,
+    "withQuestion": 1953,
+    "sourceRejected": 10
   },
   "rows": [
-    {
-      "id": "HIS-0014",
-      "cat": "Histoire",
-      "page": 3,
-      "chapter": "I. Fondements de la civilisation",
-      "topic": "Préhistoire",
-      "source": "Les dates de -10 000 (Néolithique), -3 000 (écriture) et -3,3 millions (Australopithèques) reviennent souvent dans les QCM.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "HIS-0011",
-        "source": "Premières civilisations: émergent autour des fleuves (Nil, Tigre et Euphrate, Indus, Fleuve Jaune).",
-        "cat": "Histoire",
-        "page": 3
-      },
-      "nextSource": {
-        "id": "HIS-0015",
-        "source": "Mésopotamie: située entre le Tigre et l’Euphrate (actuel Irak).",
-        "cat": "Histoire",
-        "page": 3
-      }
-    },
-    {
-      "id": "HIS-0038",
-      "cat": "Histoire",
-      "page": 4,
-      "chapter": "I. Fondements de la civilisation",
-      "topic": "Rome antique",
-      "source": "Conséquences: diffusion de la philosophie, théâtre, mathématiques (Euclide), démocratie directe athénienne, influence sur Rome.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "HIS-0037",
-        "source": "Alexandre le Grand: conquiert l’empire perse, diffuse la culture hellénistique jusqu’en Inde.",
-        "cat": "Histoire",
-        "page": 4
-      },
-      "nextSource": {
-        "id": "HIS-0039",
-        "source": "Penser que Spartiate = démocratie; c’est une oligarchie.",
-        "cat": "Histoire",
-        "page": 4
-      }
-    },
-    {
-      "id": "HIS-0080",
-      "cat": "Histoire",
-      "page": 6,
-      "chapter": "II. France des origines à la Révolution",
-      "topic": "Royaumes francs",
-      "source": "Conséquences: cristallisation d’un royaume franc chrétien, alliance étroite entre pouvoir et Église, origine du futur royaume de France.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "HIS-0079",
-        "source": "Il crée les comtés, capitulaires et soutient les arts carolingiens.",
-        "cat": "Histoire",
-        "page": 6
-      },
-      "nextSource": {
-        "id": "HIS-0081",
-        "source": "Clovis n’est pas baptisé en 800 (date de Charlemagne).",
-        "cat": "Histoire",
-        "page": 6
-      }
-    },
     {
       "id": "HIS-0091",
       "cat": "Histoire",
@@ -195,249 +114,6 @@
         "source": "Penser que la Guerre de Cent Ans dure exactement 100 ans (elle s’étale sur 116 ans avec des trêves).",
         "cat": "Histoire",
         "page": 6
-      }
-    },
-    {
-      "id": "HIS-0105",
-      "cat": "Histoire",
-      "page": 7,
-      "chapter": "II. France des origines à la Révolution",
-      "topic": "Rome antique",
-      "source": "Conséquences: diffusion de l’imprimerie (Gutenberg ~1450), affaiblissement de l’Église romaine (Réforme), ouverture au monde.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "HIS-0104",
-        "source": "Montaigne: illustre la pensée sceptique et humaniste.",
-        "cat": "Histoire",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "HIS-0106",
-        "source": "Penser que l’humanisme est antérieur au Moyen Âge; il est propre à la Renaissance.",
-        "cat": "Histoire",
-        "page": 7
-      }
-    },
-    {
-      "id": "HIS-0118",
-      "cat": "Histoire",
-      "page": 7,
-      "chapter": "IX. Culture, arts et littérature",
-      "topic": "IX. Culture, arts et littérature",
-      "source": "Conséquences: centralisation de l’administration, essor culturel (classicisme: Molière, Racine, Lully), mais crise financière et désaffection des protestants (révocation de l’édit de Nantes).",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "HIS-0117",
-        "source": "Les intendants représentent l’État dans les provinces.",
-        "cat": "Histoire",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "HIS-0119",
-        "source": "Penser que le château de Versailles a été construit par Louis XIII; c’est Louis XIV qui l’agrandit.",
-        "cat": "Histoire",
-        "page": 7
-      }
-    },
-    {
-      "id": "HIS-0130",
-      "cat": "Histoire",
-      "page": 8,
-      "chapter": "III. Révolution française et Empire",
-      "topic": "Révolution française",
-      "source": "Conséquences: préparent le terreau intellectuel de la Révolution française",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "HIS-0129",
-        "source": "Diderot (1713‐1784): œuvre qui diffuse les savoirs.",
-        "cat": "Histoire",
-        "page": 8
-      },
-      "nextSource": {
-        "id": "HIS-0131",
-        "source": "Conséquences: diffusion des idées républicaines et libérales en Europe et en Amérique.",
-        "cat": "Histoire",
-        "page": 8
-      }
-    },
-    {
-      "id": "HIS-0131",
-      "cat": "Histoire",
-      "page": 8,
-      "chapter": "III. Révolution française et Empire",
-      "topic": "III. Révolution française et Empire",
-      "source": "Conséquences: diffusion des idées républicaines et libérales en Europe et en Amérique.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "HIS-0130",
-        "source": "Conséquences: préparent le terreau intellectuel de la Révolution française",
-        "cat": "Histoire",
-        "page": 8
-      },
-      "nextSource": {
-        "id": "HIS-0132",
-        "source": "Attribuer à Montaigne (Renaissance) un rôle dans les Lumières.",
-        "cat": "Histoire",
-        "page": 8
-      }
-    },
-    {
-      "id": "HIS-0166",
-      "cat": "Histoire",
-      "page": 9,
-      "chapter": "III. Révolution française et Empire",
-      "topic": "III. Révolution française et Empire",
-      "source": "Conséquences: diffusion des idées révolutionnaires en Europe, réorganisation administrative durable, mais pertes humaines.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "HIS-0165",
-        "source": "Défaite à Waterloo (18 juin 1815) et abdication.",
-        "cat": "Histoire",
-        "page": 9
-      },
-      "nextSource": {
-        "id": "HIS-0167",
-        "source": "Confondre Code civil et Code pénal; le Code civil aborde le droit des personnes, des biens et des contrats.",
-        "cat": "Histoire",
-        "page": 9
-      }
-    },
-    {
-      "id": "HIS-0209",
-      "cat": "Histoire",
-      "page": 11,
-      "chapter": "V. Guerres mondiales et totalitarismes",
-      "topic": "V. Guerres mondiales et totalitarismes",
-      "source": "Conséquences: plus de 9 millions de morts",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "HIS-0208",
-        "source": "Traité de Versailles (1919): crée la Société des Nations.",
-        "cat": "Histoire",
-        "page": 11
-      },
-      "nextSource": {
-        "id": "HIS-0210",
-        "source": "Conséquences: bouleversements territoriaux",
-        "cat": "Histoire",
-        "page": 11
-      }
-    },
-    {
-      "id": "HIS-0210",
-      "cat": "Histoire",
-      "page": 11,
-      "chapter": "V. Guerres mondiales et totalitarismes",
-      "topic": "V. Guerres mondiales et totalitarismes",
-      "source": "Conséquences: bouleversements territoriaux",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "HIS-0209",
-        "source": "Conséquences: plus de 9 millions de morts",
-        "cat": "Histoire",
-        "page": 11
-      },
-      "nextSource": {
-        "id": "HIS-0211",
-        "source": "Conséquences: montée des tensions qui conduiront à la Seconde Guerre mondiale.",
-        "cat": "Histoire",
-        "page": 11
-      }
-    },
-    {
-      "id": "HIS-0211",
-      "cat": "Histoire",
-      "page": 11,
-      "chapter": "V. Guerres mondiales et totalitarismes",
-      "topic": "Seconde Guerre mondiale",
-      "source": "Conséquences: montée des tensions qui conduiront à la Seconde Guerre mondiale.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "HIS-0210",
-        "source": "Conséquences: bouleversements territoriaux",
-        "cat": "Histoire",
-        "page": 11
-      },
-      "nextSource": {
-        "id": "HIS-0212",
-        "source": "Confondre l’armistice (11 novembre 1918) et le traité de Versailles (28 juin 1919).",
-        "cat": "Histoire",
-        "page": 12
-      }
-    },
-    {
-      "id": "HIS-0232",
-      "cat": "Histoire",
-      "page": 12,
-      "chapter": "V. Guerres mondiales et totalitarismes",
-      "topic": "Seconde Guerre mondiale",
-      "source": "Conséquences: plus de 60 millions de morts, création de l’ONU en 1945, début de la Guerre froide.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "HIS-0231",
-        "source": "Capitulations: Japon le 2 septembre 1945.",
-        "cat": "Histoire",
-        "page": 12
-      },
-      "nextSource": {
-        "id": "HIS-0233",
-        "source": "Confondre l’appel du 18 juin (résistance) et la capitulation française du 22 juin 1940.",
-        "cat": "Histoire",
-        "page": 12
       }
     },
     {
@@ -495,33 +171,6 @@
       }
     },
     {
-      "id": "GEO-0297",
-      "cat": "Géographie",
-      "page": 11,
-      "chapter": "I.6 Économie mondiale et mondialisation",
-      "topic": "Reliefs et déserts",
-      "source": "Répartition: forte concentration en Île-de-France, dans les grandes métropoles, les vallées fluviales, les façades littorales et certains espaces frontaliers.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "GEO-0296",
-        "source": "Le vieillissement de la population est marqué: environ 22 % de la population a 65 ans ou plus.",
-        "cat": "Géographie",
-        "page": 11
-      },
-      "nextSource": {
-        "id": "GEO-0298",
-        "source": "Espaces moins denses: une diagonale de faibles densités s’étend du nord-est vers le centre et le sud-ouest, avec de nombreuses nuances locales.",
-        "cat": "Géographie",
-        "page": 11
-      }
-    },
-    {
       "id": "EMC-0002",
       "cat": "Enseignement moral et civique",
       "page": 3,
@@ -544,33 +193,6 @@
       "nextSource": {
         "id": "EMC-0003",
         "source": "11): tout citoyen peut « parler, écrire, imprimer librement ».",
-        "cat": "Enseignement moral et civique",
-        "page": 3
-      }
-    },
-    {
-      "id": "EMC-0005",
-      "cat": "Enseignement moral et civique",
-      "page": 3,
-      "chapter": "A-B. Valeurs et symboles de la République",
-      "topic": "Valeurs de la République",
-      "source": "Applications: liberté de conscience, de culte, de presse, de réunion, d’association, de circulation, d’entreprendre, etc.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "EMC-0004",
-        "source": "La loi du 29 juillet 1881 garantit la liberté de la presse tout en encadrant les abus.",
-        "cat": "Enseignement moral et civique",
-        "page": 3
-      },
-      "nextSource": {
-        "id": "EMC-0006",
-        "source": "La liberté de réunion est une liberté publique fondamentale permettant à un groupe de se réunir pacifiquement et sans armes pour une finalité licite.",
         "cat": "Enseignement moral et civique",
         "page": 3
       }
@@ -630,60 +252,6 @@
       }
     },
     {
-      "id": "EMC-0081",
-      "cat": "Enseignement moral et civique",
-      "page": 7,
-      "chapter": "D. Institutions françaises",
-      "topic": "Institutions françaises",
-      "source": "Composition: neuf membres nommés pour neuf ans (trois par le Président, trois par le président de l’Assemblée nationale, trois par le président du Sénat) plus les anciens Présidents de la République membres de droit.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "EMC-0080",
-        "source": "Depuis 2008, la QPC (question prioritaire de constitutionnalité) permet aux citoyens de contester la constitutionnalité d’une loi.",
-        "cat": "Enseignement moral et civique",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "EMC-0082",
-        "source": "D.5 Le Conseil d’État et la justice administrative Conseil d’État: plus haute juridiction administrative.",
-        "cat": "Enseignement moral et civique",
-        "page": 7
-      }
-    },
-    {
-      "id": "EMC-0085",
-      "cat": "Enseignement moral et civique",
-      "page": 7,
-      "chapter": "D. Institutions françaises",
-      "topic": "Justice",
-      "source": "Organisation: tribunaux administratifs, cours administratives d’appel et Conseil d’État.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "EMC-0084",
-        "source": "Le contentieux administratif comprend notamment les recours pour excès de pouvoir.",
-        "cat": "Enseignement moral et civique",
-        "page": 7
-      },
-      "nextSource": {
-        "id": "EMC-0086",
-        "source": "D.6 La justice judiciaire Deux ordres: ○ Justice civile: traite des litiges entre particuliers (contrats, famille, succession...). ○ Justice pénale: sanctionne les comportements contraires à la loi (contraventions, délits, crimes) selon une hiérarchie des juridictions (tribunal de police, tribunal correctionnel, cour d’assises).",
-        "cat": "Enseignement moral et civique",
-        "page": 7
-      }
-    },
-    {
       "id": "EMC-0087",
       "cat": "Enseignement moral et civique",
       "page": 7,
@@ -708,60 +276,6 @@
         "source": "D.7 Les collectivités territoriales Niveaux: communes, départements, régions, collectivités et territoires d’outre‐mer.",
         "cat": "Enseignement moral et civique",
         "page": 7
-      }
-    },
-    {
-      "id": "EMC-0102",
-      "cat": "Enseignement moral et civique",
-      "page": 8,
-      "chapter": "D. Institutions françaises",
-      "topic": "D. Institutions françaises",
-      "source": "Le mode de scrutin (majoritaire à deux tours, proportionnel, uninominal ou de liste) est un point de QCM.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "EMC-0101",
-        "source": "Élections: élections présidentielles, législatives, sénatoriales, locales et européennes.",
-        "cat": "Enseignement moral et civique",
-        "page": 8
-      },
-      "nextSource": {
-        "id": "EMC-0103",
-        "source": "Le rôle du Conseil constitutionnel est de veiller à la régularité.",
-        "cat": "Enseignement moral et civique",
-        "page": 8
-      }
-    },
-    {
-      "id": "EMC-0183",
-      "cat": "Enseignement moral et civique",
-      "page": 12,
-      "chapter": "I-J. Justice, Europe et organisations internationales",
-      "topic": "I-J. Justice, Europe et organisations internationales",
-      "source": "Procès équitable: chacun a droit à un procès public, équitable et dans un délai raisonnable (art.",
-      "allPass": false,
-      "anyQuestion": false,
-      "issues": [
-        "source_rejected_or_removed"
-      ],
-      "sourceRejected": true,
-      "variants": [],
-      "previousSource": {
-        "id": "EMC-0182",
-        "source": "I.2 Principes de justice pénale Présomption d’innocence: toute personne est présumée innocente tant que sa culpabilité n’a pas été légalement établie.",
-        "cat": "Enseignement moral et civique",
-        "page": 12
-      },
-      "nextSource": {
-        "id": "EMC-0184",
-        "source": "Hiérarchie des peines: contraventions (tribunal de police), délits (tribunal correctionnel), crimes (cour d’assises).",
-        "cat": "Enseignement moral et civique",
-        "page": 12
       }
     },
     {
@@ -15274,6 +14788,1171 @@
         "cat": "Culture générale",
         "page": 12
       }
+    },
+    {
+      "id": "CG-0444",
+      "cat": "Culture générale",
+      "page": 12,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "Culture générale - Contrôleur des douanes | 12",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0444",
+          "chapter": "III. Économie",
+          "topic": "III. Économie",
+          "source": "Culture générale - Contrôleur des douanes | 12",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0443",
+        "source": "Concurrence: elle peut porter sur les prix, la qualité, l’innovation, la marque.",
+        "cat": "Culture générale",
+        "page": 12
+      },
+      "nextSource": {
+        "id": "CG-0445",
+        "source": "PIB nominal — Définition / piège: calculé aux prix courants",
+        "cat": "Culture générale",
+        "page": 13
+      }
+    },
+    {
+      "id": "CG-0459",
+      "cat": "Culture générale",
+      "page": 13,
+      "chapter": "III. Économie",
+      "topic": "Économie",
+      "source": "Le produit intérieur brut (PIB) mesure la valeur de la production finale réalisée sur un territoire pendant une période donnée.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0459",
+          "chapter": "III. Économie",
+          "topic": "Économie",
+          "source": "Le produit intérieur brut (PIB) mesure la valeur de la production finale réalisée sur un territoire pendant une période donnée.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0458",
+        "source": "Indice des prix à la consommation — Définition / piège: outil statistique de mesure de l’évolution des prix d’un panier de biens et services",
+        "cat": "Culture générale",
+        "page": 13
+      },
+      "nextSource": {
+        "id": "CG-0460",
+        "source": "La croissance économique désigne l’augmentation du PIB en volume, c’est-à-dire corrigé des variations de prix.",
+        "cat": "Culture générale",
+        "page": 13
+      }
+    },
+    {
+      "id": "CG-0463",
+      "cat": "Culture générale",
+      "page": 13,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "La population active regroupe les personnes en emploi et les chômeurs.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0463",
+          "chapter": "III. Économie",
+          "topic": "III. Économie",
+          "source": "La population active regroupe les personnes en emploi et les chômeurs.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0462",
+        "source": "Au sens du Bureau international du travail (BIT), un chômeur est une personne sans emploi, disponible pour travailler et ayant entrepris des démarches actives de recherche ou ayant trouvé un emploi commençant prochainement.",
+        "cat": "Culture générale",
+        "page": 13
+      },
+      "nextSource": {
+        "id": "CG-0464",
+        "source": "Taux de chômage = nombre de chômeurs / population active × 100.",
+        "cat": "Culture générale",
+        "page": 13
+      }
+    },
+    {
+      "id": "CG-0464",
+      "cat": "Culture générale",
+      "page": 13,
+      "chapter": "III. Économie",
+      "topic": "Économie",
+      "source": "Taux de chômage = nombre de chômeurs / population active × 100.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0464",
+          "chapter": "III. Économie",
+          "topic": "Économie",
+          "source": "Taux de chômage = nombre de chômeurs / population active × 100.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0463",
+        "source": "La population active regroupe les personnes en emploi et les chômeurs.",
+        "cat": "Culture générale",
+        "page": 13
+      },
+      "nextSource": {
+        "id": "CG-0465",
+        "source": "Chômage conjoncturel: lié au ralentissement de l’activité.",
+        "cat": "Culture générale",
+        "page": 13
+      }
+    },
+    {
+      "id": "CG-0470",
+      "cat": "Culture générale",
+      "page": 13,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "Culture générale - Contrôleur des douanes | 13",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0470",
+          "chapter": "III. Économie",
+          "topic": "III. Économie",
+          "source": "Culture générale - Contrôleur des douanes | 13",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0469",
+        "source": "La monnaie fiduciaire comprend billets et pièces; la monnaie scripturale correspond aux dépôts utilisables par moyens de paiement.",
+        "cat": "Culture générale",
+        "page": 13
+      },
+      "nextSource": {
+        "id": "CG-0471",
+        "source": "Budgétaire — Acteur principal: État / administrations publiques",
+        "cat": "Culture générale",
+        "page": 14
+      }
+    },
+    {
+      "id": "CG-0482",
+      "cat": "Culture générale",
+      "page": 14,
+      "chapter": "III. Économie",
+      "topic": "Économie",
+      "source": "Dans les économies modernes, les banques commerciales créent une grande partie de la monnaie scripturale lorsqu’elles accordent des crédits, sous contraintes réglementaires et financières.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0482",
+          "chapter": "III. Économie",
+          "topic": "Économie",
+          "source": "Dans les économies modernes, les banques commerciales créent une grande partie de la monnaie scripturale lorsqu’elles accordent des crédits, sous contraintes réglementaires et financières.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0481",
+        "source": "Redistribution — Exemple / définition: transferts et prélèvements modifiant la répartition primaire des revenus",
+        "cat": "Culture générale",
+        "page": 14
+      },
+      "nextSource": {
+        "id": "CG-0483",
+        "source": "Les banques centrales émettent la monnaie centrale et conduisent la politique monétaire.",
+        "cat": "Culture générale",
+        "page": 14
+      }
+    },
+    {
+      "id": "CG-0483",
+      "cat": "Culture générale",
+      "page": 14,
+      "chapter": "III. Économie",
+      "topic": "Économie",
+      "source": "Les banques centrales émettent la monnaie centrale et conduisent la politique monétaire.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0483",
+          "chapter": "III. Économie",
+          "topic": "Économie",
+          "source": "Les banques centrales émettent la monnaie centrale et conduisent la politique monétaire.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0482",
+        "source": "Dans les économies modernes, les banques commerciales créent une grande partie de la monnaie scripturale lorsqu’elles accordent des crédits, sous contraintes réglementaires et financières.",
+        "cat": "Culture générale",
+        "page": 14
+      },
+      "nextSource": {
+        "id": "CG-0484",
+        "source": "BCE = Banque centrale européenne; siège à Francfort.",
+        "cat": "Culture générale",
+        "page": 14
+      }
+    },
+    {
+      "id": "CG-0484",
+      "cat": "Culture générale",
+      "page": 14,
+      "chapter": "III. Économie",
+      "topic": "Économie",
+      "source": "BCE = Banque centrale européenne; siège à Francfort.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0484",
+          "chapter": "III. Économie",
+          "topic": "Économie",
+          "source": "BCE = Banque centrale européenne; siège à Francfort.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0483",
+        "source": "Les banques centrales émettent la monnaie centrale et conduisent la politique monétaire.",
+        "cat": "Culture générale",
+        "page": 14
+      },
+      "nextSource": {
+        "id": "CG-0485",
+        "source": "Elle conduit la politique monétaire de la zone euro avec les banques centrales nationales de l’Eurosystème.",
+        "cat": "Culture générale",
+        "page": 14
+      }
+    },
+    {
+      "id": "CG-0485",
+      "cat": "Culture générale",
+      "page": 14,
+      "chapter": "III. Économie",
+      "topic": "Économie",
+      "source": "Elle conduit la politique monétaire de la zone euro avec les banques centrales nationales de l’Eurosystème.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0485",
+          "chapter": "III. Économie",
+          "topic": "Économie",
+          "source": "Elle conduit la politique monétaire de la zone euro avec les banques centrales nationales de l’Eurosystème.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0484",
+        "source": "BCE = Banque centrale européenne; siège à Francfort.",
+        "cat": "Culture générale",
+        "page": 14
+      },
+      "nextSource": {
+        "id": "CG-0486",
+        "source": "Objectif principal: stabilité des prix",
+        "cat": "Culture générale",
+        "page": 14
+      }
+    },
+    {
+      "id": "CG-0495",
+      "cat": "Culture générale",
+      "page": 14,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "Un budget peut être en déficit une année tout en ayant déjà une dette importante accumulée.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0495",
+          "chapter": "III. Économie",
+          "topic": "III. Économie",
+          "source": "Un budget peut être en déficit une année tout en ayant déjà une dette importante accumulée.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0494",
+        "source": "Dette publique: c’est un stock.",
+        "cat": "Culture générale",
+        "page": 14
+      },
+      "nextSource": {
+        "id": "CG-0496",
+        "source": "Prélèvements obligatoires: impôts et cotisations sociales effectivement reçus par les administrations publiques et institutions européennes selon la définition statistique.",
+        "cat": "Culture générale",
+        "page": 14
+      }
+    },
+    {
+      "id": "CG-0500",
+      "cat": "Culture générale",
+      "page": 14,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "Culture générale - Contrôleur des douanes | 14",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0500",
+          "chapter": "III. Économie",
+          "topic": "III. Économie",
+          "source": "Culture générale - Contrôleur des douanes | 14",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0499",
+        "source": "Coût variable: varie avec la production (matières premières, certaines consommations).",
+        "cat": "Culture générale",
+        "page": 14
+      },
+      "nextSource": {
+        "id": "CG-0501",
+        "source": "Instrument — Rôle principal: Ce que c’est",
+        "cat": "Culture générale",
+        "page": 15
+      }
+    },
+    {
+      "id": "CG-0527",
+      "cat": "Culture générale",
+      "page": 15,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "Obligation = dette.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0527",
+          "chapter": "III. Économie",
+          "topic": "III. Économie",
+          "source": "Obligation = dette.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0526",
+        "source": "Productivité du travail: production rapportée à la quantité de travail utilisée.",
+        "cat": "Culture générale",
+        "page": 15
+      },
+      "nextSource": {
+        "id": "CG-0528",
+        "source": "Culture générale - Contrôleur des douanes | 15",
+        "cat": "Culture générale",
+        "page": 15
+      }
+    },
+    {
+      "id": "CG-0528",
+      "cat": "Culture générale",
+      "page": 15,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "Culture générale - Contrôleur des douanes | 15",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0528",
+          "chapter": "III. Économie",
+          "topic": "III. Économie",
+          "source": "Culture générale - Contrôleur des douanes | 15",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0527",
+        "source": "Obligation = dette.",
+        "cat": "Culture générale",
+        "page": 15
+      },
+      "nextSource": {
+        "id": "CG-0529",
+        "source": "Banque mondiale — Siège / repère: Washington",
+        "cat": "Culture générale",
+        "page": 16
+      }
+    },
+    {
+      "id": "CG-0534",
+      "cat": "Culture générale",
+      "page": 16,
+      "chapter": "III. Économie",
+      "topic": "Économie",
+      "source": "Une appréciation signifie qu’une monnaie gagne de la valeur par rapport à une autre; une dépréciation signifie qu’elle en perd.",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0534",
+          "chapter": "III. Économie",
+          "topic": "Économie",
+          "source": "Une appréciation signifie qu’une monnaie gagne de la valeur par rapport à une autre; une dépréciation signifie qu’elle en perd.",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0533",
+        "source": "Le taux de change est le prix d’une monnaie exprimé dans une autre.",
+        "cat": "Culture générale",
+        "page": 16
+      },
+      "nextSource": {
+        "id": "CG-0535",
+        "source": "Les taux de change dépendent de nombreux facteurs: taux d’intérêt, anticipations, commerce, flux de capitaux, situation politique et économique.",
+        "cat": "Culture générale",
+        "page": 16
+      }
+    },
+    {
+      "id": "CG-0545",
+      "cat": "Culture générale",
+      "page": 16,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "Culture générale - Contrôleur des douanes | 16",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0545",
+          "chapter": "III. Économie",
+          "topic": "III. Économie",
+          "source": "Culture générale - Contrôleur des douanes | 16",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0544",
+        "source": "Pauvreté monétaire: définie par rapport à un seuil de revenu ou de niveau de vie.",
+        "cat": "Culture générale",
+        "page": 16
+      },
+      "nextSource": {
+        "id": "CG-0546",
+        "source": "La Joconde — Association: Léonard de Vinci",
+        "cat": "Culture générale",
+        "page": 17
+      }
+    },
+    {
+      "id": "CG-0576",
+      "cat": "Culture générale",
+      "page": 17,
+      "chapter": "III. Économie",
+      "topic": "III. Économie",
+      "source": "Arts - 40 associations prioritaires Culture générale - Contrôleur des douanes | 17",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0576",
+          "chapter": "III. Économie",
+          "topic": "III. Économie",
+          "source": "Arts - 40 associations prioritaires Culture générale - Contrôleur des douanes | 17",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0575",
+        "source": "Développement durable: satisfaire les besoins présents sans compromettre la capacité des générations futures à satisfaire les leurs, formulation issue du rapport Brundtland.",
+        "cat": "Culture générale",
+        "page": 17
+      },
+      "nextSource": {
+        "id": "CG-0577",
+        "source": "Le Sacre du printemps — Association: Stravinsky",
+        "cat": "Culture générale",
+        "page": 18
+      }
+    },
+    {
+      "id": "CG-0594",
+      "cat": "Culture générale",
+      "page": 18,
+      "chapter": "IV. Fiches express à mémoriser",
+      "topic": "IV. Fiches express à mémoriser",
+      "source": "Sciences - 40 repères prioritaires Culture générale - Contrôleur des douanes | 18",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0594",
+          "chapter": "IV. Fiches express à mémoriser",
+          "topic": "IV. Fiches express à mémoriser",
+          "source": "Sciences - 40 repères prioritaires Culture générale - Contrôleur des douanes | 18",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0593",
+        "source": "Relativité — Association: Einstein",
+        "cat": "Culture générale",
+        "page": 18
+      },
+      "nextSource": {
+        "id": "CG-0595",
+        "source": "Cellule somatique humaine — Association: 46 chromosomes en général",
+        "cat": "Culture générale",
+        "page": 19
+      }
+    },
+    {
+      "id": "CG-0616",
+      "cat": "Culture générale",
+      "page": 19,
+      "chapter": "IV. Fiches express à mémoriser",
+      "topic": "Économie",
+      "source": "Économie - 40 repères prioritaires Culture générale - Contrôleur des douanes | 19",
+      "allPass": false,
+      "anyQuestion": false,
+      "issues": [
+        "no_question"
+      ],
+      "sourceRejected": false,
+      "variants": [
+        {
+          "id": "CG-0616",
+          "chapter": "IV. Fiches express à mémoriser",
+          "topic": "Économie",
+          "source": "Économie - 40 repères prioritaires Culture générale - Contrôleur des douanes | 19",
+          "allPass": false,
+          "anyQuestion": false,
+          "issues": [
+            "no_question"
+          ],
+          "attempts": [
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            },
+            {
+              "q": null,
+              "issues": [
+                "no_question"
+              ]
+            }
+          ]
+        }
+      ],
+      "previousSource": {
+        "id": "CG-0615",
+        "source": "Productivité — Association: production / facteurs utilisés",
+        "cat": "Culture générale",
+        "page": 19
+      },
+      "nextSource": null
     }
   ]
 }
