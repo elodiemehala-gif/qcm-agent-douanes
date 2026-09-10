@@ -1,6 +1,131 @@
 {
-  "generatedAt": "2026-09-10T08:46:32.945Z",
-  "count": 0,
-  "byCat": {},
-  "rows": []
+  "generatedAt": "2026-09-10T08:48:26.365Z",
+  "count": 6,
+  "byCat": {
+    "Histoire": 3,
+    "Géographie": 2,
+    "Organisation et missions": 1
+  },
+  "rows": [
+    {
+      "id": "HIS-0098",
+      "cat": "Histoire",
+      "page": 7,
+      "chapter": "II. France des origines à la Révolution",
+      "topic": "Renaissance et humanisme",
+      "source": "Humanisme: courant intellectuel valorisant l’homme et la culture antique.",
+      "previousSource": {
+        "id": "HIS-0097",
+        "source": "Traité de Tordesillas (1494) partage le Nouveau Monde entre l’Espagne et le Portugal.",
+        "cat": "Histoire",
+        "page": 7
+      },
+      "nextSource": {
+        "id": "HIS-0099",
+        "source": "Léonard de Vinci: artiste et ingénieur italien, œuvre à la cour de François Ier",
+        "cat": "Histoire",
+        "page": 7
+      }
+    },
+    {
+      "id": "HIS-0154",
+      "cat": "Histoire",
+      "page": 9,
+      "chapter": "III. Révolution française et Empire",
+      "topic": "Révolution française",
+      "source": "Penser que la Terreur est l’œuvre exclusive de Robespierre; c’est un gouvernement collégial (Saint-Just, Couthon, etc.).",
+      "previousSource": {
+        "id": "HIS-0153",
+        "source": "Confondre la date de proclamation de la République (1792) avec celle de la Déclaration des droits (1789).",
+        "cat": "Histoire",
+        "page": 9
+      },
+      "nextSource": {
+        "id": "HIS-0155",
+        "source": "Le Directoire précède le Consulat; Napoléon Bonaparte ne devient pas empereur dès 1799.",
+        "cat": "Histoire",
+        "page": 9
+      }
+    },
+    {
+      "id": "HIS-0290",
+      "cat": "Histoire",
+      "page": 14,
+      "chapter": "VI. France contemporaine",
+      "topic": "VI. France contemporaine",
+      "source": "Conseil d’État: conseille le gouvernement et est juge suprême de l’administration.",
+      "previousSource": {
+        "id": "HIS-0289",
+        "source": "Conseil constitutionnel: contrôle la conformité des lois à la Constitution.",
+        "cat": "Histoire",
+        "page": 14
+      },
+      "nextSource": {
+        "id": "HIS-0291",
+        "source": "Article 49‐3: permet au gouvernement d’adopter un texte sans vote sauf si une motion de censure est votée.",
+        "cat": "Histoire",
+        "page": 14
+      }
+    },
+    {
+      "id": "GEO-0050",
+      "cat": "Géographie",
+      "page": 4,
+      "chapter": "I.4 Climats et biomes",
+      "topic": "Climats et biomes",
+      "source": "Austral / Antarctique — À retenir pour le QCM: courant circumpolaire",
+      "previousSource": {
+        "id": "GEO-0049",
+        "source": "Austral / Antarctique — À retenir pour le QCM: Entoure l’Antarctique",
+        "cat": "Géographie",
+        "page": 4
+      },
+      "nextSource": {
+        "id": "GEO-0051",
+        "source": "Austral / Antarctique — À retenir pour le QCM: limites et dénomination peuvent varier selon les institutions.",
+        "cat": "Géographie",
+        "page": 4
+      }
+    },
+    {
+      "id": "GEO-0122",
+      "cat": "Géographie",
+      "page": 5,
+      "chapter": "I.2 Reliefs, montagnes et déserts",
+      "topic": "Fleuves et lacs",
+      "source": "Un fleuve se jette dans une mer ou un océan; une rivière se jette dans un autre cours d’eau.",
+      "previousSource": {
+        "id": "GEO-0121",
+        "source": "Atacama = façade pacifique d’Amérique du Sud; Gobi = Asie intérieure.",
+        "cat": "Géographie",
+        "page": 5
+      },
+      "nextSource": {
+        "id": "GEO-0123",
+        "source": "Les longueurs peuvent varier selon la méthode de mesure: il faut surtout connaître les grands bassins, les embouchures et les pays traversés.",
+        "cat": "Géographie",
+        "page": 5
+      }
+    },
+    {
+      "id": "ORG-0018",
+      "cat": "Organisation et missions",
+      "page": 3,
+      "chapter": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+      "topic": "3-6. DGFiP, DGDDI, DGCCRF et grandes directions",
+      "source": "Direction des affaires juridiques (DAJ): conseil juridique, expertise des textes et commande publique.",
+      "previousSource": {
+        "id": "ORG-0017",
+        "source": "Secrétariat général (SG): fonctions support et pilotage transversal des ministères (RH, immobilier, informatique, sécurité, modernisation).",
+        "cat": "Organisation et missions",
+        "page": 3
+      },
+      "nextSource": {
+        "id": "ORG-0019",
+        "source": "Direction de la législation fiscale (DLF): conçoit les textes fiscaux",
+        "cat": "Organisation et missions",
+        "page": 3
+      }
+    }
+  ]
 }
