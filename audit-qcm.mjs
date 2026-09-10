@@ -20,6 +20,7 @@ const cats=p.c,pref=['HIS','GEO','EMC','ACT','ORG','MAT','LOG','CG'],n=Array(cat
 const raw=p.k.map(([ci,page,text])=>({ci,page,text,cat:cats[ci],id:`${pref[ci]}-${String(++n[ci]).padStart(4,'0')}`}));
 const K=window.QSMART.enrich(raw);
 const sourceBase=window.QSMART_SOURCE_BASE||K;
+const sourceResolved=window.QSMART_SOURCE_RESOLVED||{};
 
 function rng(seed){let x=(seed>>>0)||1;return()=>{x^=x<<13;x^=x>>>17;x^=x<<5;return((x>>>0)%1000000)/1000000}}
 function helper(seed){const R=rng(seed),r=(a,b)=>Math.floor(R()*(b-a+1))+a,pick=a=>a[r(0,a.length-1)],sh=a=>{a=[...a];for(let i=a.length-1;i;i--){const j=r(0,i);[a[i],a[j]]=[a[j],a[i]]}return a};return{r,pick,sh,gcd:(a,b)=>{while(b)[a,b]=[b,a%b];return Math.abs(a)},fmt:n=>String(Math.round(n*100)/100).replace('.',',')}}
@@ -37,10 +38,15 @@ const grouped=new Map();
 for(const x of K){const k=rootId(x.id);if(!grouped.has(k))grouped.set(k,[]);grouped.get(k).push(x)}
 const rows=[];const issueCounts={};const byCat={};
 for(let idx=0;idx<sourceBase.length;idx++){
- const r=sourceBase[idx],xs=grouped.get(rootId(r.id))||[],c=byCat[r.cat]||(byCat[r.cat]={facts:0,pass:0,noQuestion:0,flagged:0,sourceRejected:0});c.facts++;
+ const r=sourceBase[idx],root=rootId(r.id),xs=grouped.get(root)||[],resolvedReason=sourceResolved[r.id]||sourceResolved[root]||null,c=byCat[r.cat]||(byCat[r.cat]={facts:0,pass:0,noQuestion:0,flagged:0,sourceRejected:0,resolvedNonAtomic:0});c.facts++;
+ if(!xs.length&&resolvedReason){
+   c.resolvedNonAtomic++;
+   rows.push({id:r.id,cat:r.cat,page:r.page,chapter:r.chapter||null,topic:r.topicName||null,source:r.sourceText||r.text,allPass:false,anyQuestion:false,issues:[],sourceRejected:false,sourceResolvedNonAtomic:true,resolution:resolvedReason,variants:[]});
+   continue;
+ }
  if(!xs.length){
    const issues=['source_rejected_or_removed'];issueCounts.source_rejected_or_removed=(issueCounts.source_rejected_or_removed||0)+1;c.flagged++;c.noQuestion++;c.sourceRejected++;
-   rows.push({id:r.id,cat:r.cat,page:r.page,chapter:r.chapter||null,topic:r.topicName||null,source:r.sourceText||r.text,allPass:false,anyQuestion:false,issues,sourceRejected:true,variants:[]});
+   rows.push({id:r.id,cat:r.cat,page:r.page,chapter:r.chapter||null,topic:r.topicName||null,source:r.sourceText||r.text,allPass:false,anyQuestion:false,issues,sourceRejected:true,sourceResolvedNonAtomic:false,variants:[]});
    continue;
  }
  const variants=[];let sourceAllPass=true,sourceAnyQuestion=false;const sourceIssues=[];
@@ -56,9 +62,12 @@ for(let idx=0;idx<sourceBase.length;idx++){
  }
  const union=[...new Set(sourceIssues)];for(const z of union)issueCounts[z]=(issueCounts[z]||0)+1;
  if(sourceAllPass)c.pass++;else c.flagged++;if(!sourceAnyQuestion)c.noQuestion++;
- rows.push({id:r.id,cat:r.cat,page:r.page,chapter:variants[0]?.chapter||r.chapter||null,topic:variants[0]?.topic||r.topicName||null,source:r.sourceText||r.text,allPass:sourceAllPass,anyQuestion:sourceAnyQuestion,issues:union,sourceRejected:false,variants});
+ rows.push({id:r.id,cat:r.cat,page:r.page,chapter:variants[0]?.chapter||r.chapter||null,topic:variants[0]?.topic||r.topicName||null,source:r.sourceText||r.text,allPass:sourceAllPass,anyQuestion:sourceAnyQuestion,issues:union,sourceRejected:false,sourceResolvedNonAtomic:false,variants});
 }
-const summary={generatedAt:new Date().toISOString(),rawFragments:raw.length,sourceFacts:sourceBase.length,enrichedFacts:K.length,auditedSourceFacts:rows.length,categories:cats,byCat,issueCounts,fullyCompliant:rows.filter(r=>r.allPass).length,flagged:rows.filter(r=>!r.allPass).length,noQuestion:rows.filter(r=>!r.anyQuestion).length,withQuestion:rows.filter(r=>r.anyQuestion).length,sourceRejected:rows.filter(r=>r.sourceRejected).length};
+for(const c of Object.values(byCat))c.remaining=c.facts-c.pass-c.resolvedNonAtomic;
+const fullyCompliant=rows.filter(r=>r.allPass).length;
+const resolvedNonAtomic=rows.filter(r=>r.sourceResolvedNonAtomic).length;
+const summary={generatedAt:new Date().toISOString(),rawFragments:raw.length,sourceFacts:sourceBase.length,enrichedFacts:K.length,auditedSourceFacts:rows.length,categories:cats,byCat,issueCounts,fullyCompliant,resolvedNonAtomic,resolvedTotal:fullyCompliant+resolvedNonAtomic,remaining:sourceBase.length-fullyCompliant-resolvedNonAtomic,flagged:rows.filter(r=>!r.allPass&&!r.sourceResolvedNonAtomic).length,noQuestion:rows.filter(r=>!r.anyQuestion&&!r.sourceResolvedNonAtomic).length,withQuestion:rows.filter(r=>r.anyQuestion).length,sourceRejected:rows.filter(r=>r.sourceRejected).length};
 fs.writeFileSync('audit-report.json',JSON.stringify({summary,rows},null,2));
 fs.writeFileSync('audit-summary.json',JSON.stringify(summary,null,2));
 console.log(JSON.stringify(summary,null,2));
