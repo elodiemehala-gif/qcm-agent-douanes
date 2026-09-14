@@ -5,6 +5,8 @@
   const params=new URLSearchParams(location.search), wanted=params.get('matiere')||'';
   const PREF={'Histoire':'HIS','Géographie':'GEO','Enseignement moral et civique':'EMC','Actualité':'ACT','Organisation et missions des ministères économiques et financiers':'ORG','Mathématiques':'MAT','Raisonnement logique':'LOG','Culture générale':'CG'};
   let progressCache=null;
+  const canSpeak='speechSynthesis'in window&&'SpeechSynthesisUtterance'in window;
+  const audio={queue:[],index:0,active:false,paused:false,scope:'',scopeLabel:'',rate:1,run:0};
 
   const dataFiles={
     'histoire':'course-histoire.dat',
@@ -107,7 +109,7 @@
   }
 
   function subjectList(){
-    const cards=Object.entries(INDEX).map(([name,m])=>`<a class="course-subject-card" href="cours.html?matiere=${encodeURIComponent(name)}&rev=24"><div class="card"><div class="course-subject-top"><div><b>${esc(m.title)}</b><span>${m.chapters} chapitre${m.chapters>1?'s':''}</span></div><span class="course-open">→</span></div><p>Lire le cours transcrit et structuré</p></div></a>`).join('');
+    const cards=Object.entries(INDEX).map(([name,m])=>`<a class="course-subject-card" href="cours.html?matiere=${encodeURIComponent(name)}&rev=31"><div class="card"><div class="course-subject-top"><div><b>${esc(m.title)}</b><span>${m.chapters} chapitre${m.chapters>1?'s':''}</span></div><span class="course-open">→</span></div><p>Lire le cours transcrit et structuré</p></div></a>`).join('');
     A.innerHTML=`<div class="hero card transcript-hero"><span class="tag">Bibliothèque de cours</span><h1 class="course-title">Cours complets</h1><p class="course-sub">Les cours sont indépendants des QCM : lecture rapide, recherche par mot-clé et navigation par chapitre.</p></div><div class="course-library">${cards}<a class="course-subject-card info-special" href="informatique.html?rev=24"><div class="card"><div class="course-subject-top"><div><b>Informatique / Culture numérique</b><span>10 chapitres</span></div><span class="course-open">→</span></div><p>Ouvrir le cours de culture numérique</p></div></a></div>`;
   }
 
@@ -115,6 +117,94 @@
   const matchSection=(sec,q)=>!q||norm(allText(sec)).includes(norm(q));
   const matchChapter=(ch,q)=>!q||norm(ch.title).includes(norm(q))||(ch.sections||[]).some(sec=>matchSection(sec,q));
   const hilite=(text,q)=>{const safe=esc(text);if(!q)return safe;const needle=esc(q).replace(/[.*+?^${}()|[\]\\]/g,'\\$&');try{return safe.replace(new RegExp(`(${needle})`,'ig'),'<mark>$1</mark>')}catch{return safe}};
+
+  function frenchVoice(){
+    const voices=speechSynthesis.getVoices();
+    return voices.find(v=>/^fr-FR$/i.test(v.lang))||voices.find(v=>/^fr/i.test(v.lang))||null;
+  }
+
+  function updateAudioUI(){
+    const play=document.getElementById('audioPlay'),stop=document.getElementById('audioStop'),status=document.getElementById('audioStatus'),progress=document.getElementById('audioProgress');
+    if(play){
+      play.textContent=audio.active?(audio.paused?'▶ Reprendre':'⏸ Pause'):'▶ Lire';
+      play.setAttribute('aria-label',audio.active?(audio.paused?'Reprendre la lecture audio':'Mettre la lecture audio en pause'):'Commencer la lecture audio');
+    }
+    if(stop)stop.disabled=!audio.active;
+    if(status){
+      if(!canSpeak)status.textContent='La lecture audio n’est pas disponible dans ce navigateur.';
+      else if(audio.active)status.textContent=`${audio.paused?'En pause':'Lecture'} : ${audio.scopeLabel} · passage ${Math.min(audio.index+1,audio.queue.length)} sur ${audio.queue.length}`;
+      else if(audio.queue.length&&audio.index>=audio.queue.length)status.textContent='Lecture terminée.';
+      else status.textContent='Prêt à lire le contenu affiché.';
+    }
+    if(progress){progress.max=Math.max(1,audio.queue.length);progress.value=audio.active?audio.index:audio.queue.length&&audio.index>=audio.queue.length?audio.queue.length:0}
+    document.querySelectorAll('[data-audio-ch]').forEach(button=>{
+      const current=audio.active&&audio.scope===button.dataset.audioCh;
+      button.classList.toggle('playing',current&&!audio.paused);
+      button.textContent=current?(audio.paused?'▶ Reprendre':'⏸ Pause'):'🔊 Écouter ce chapitre';
+    });
+  }
+
+  function stopAudio(reset=true){
+    if(canSpeak)speechSynthesis.cancel();
+    audio.run++;
+    audio.active=false;audio.paused=false;
+    if(reset){audio.queue=[];audio.index=0;audio.scope='';audio.scopeLabel=''}
+    updateAudioUI();
+  }
+
+  function audioQueue(C,chapterId,q){
+    const chapters=(C.chapters||[]).filter(ch=>(!chapterId||ch.id===chapterId)&&matchChapter(ch,q));
+    const queue=[];
+    chapters.forEach(ch=>{
+      queue.push({text:ch.title,label:ch.title});
+      (ch.sections||[]).filter(sec=>!q||matchSection(sec,q)||norm(sec.title).includes(norm(q))).forEach(sec=>{
+        queue.push({text:sec.title,label:ch.title});
+        (sec.body||[]).forEach(text=>queue.push({text,label:ch.title}));
+        if(sec.key?.length){
+          queue.push({text:'À retenir.',label:ch.title});
+          sec.key.forEach(text=>queue.push({text,label:ch.title}));
+        }
+      });
+    });
+    return queue;
+  }
+
+  function speakNext(run){
+    if(run!==audio.run||!audio.active||audio.paused)return;
+    if(audio.index>=audio.queue.length){audio.active=false;audio.paused=false;updateAudioUI();return}
+    const item=audio.queue[audio.index],utterance=new SpeechSynthesisUtterance(item.text);
+    utterance.lang='fr-FR';utterance.rate=audio.rate;utterance.pitch=1;
+    const voice=frenchVoice();if(voice)utterance.voice=voice;
+    utterance.onstart=updateAudioUI;
+    utterance.onend=()=>{if(run!==audio.run||!audio.active)return;audio.index++;updateAudioUI();speakNext(run)};
+    utterance.onerror=event=>{
+      if(run!==audio.run||event.error==='canceled'||event.error==='interrupted')return;
+      audio.active=false;audio.paused=false;updateAudioUI();
+      const status=document.getElementById('audioStatus');if(status)status.textContent='La lecture a été interrompue. Appuie sur Lire pour recommencer.';
+    };
+    speechSynthesis.speak(utterance);
+  }
+
+  function startAudio(C,chapterId,q){
+    if(!canSpeak)return;
+    speechSynthesis.cancel();audio.run++;
+    audio.queue=audioQueue(C,chapterId,q);audio.index=0;audio.active=audio.queue.length>0;audio.paused=false;
+    audio.scope=chapterId||'all';
+    const chapter=(C.chapters||[]).find(ch=>ch.id===chapterId);
+    audio.scopeLabel=chapter?chapter.title:(q?'les résultats affichés':'tout le cours');
+    updateAudioUI();
+    const run=audio.run;setTimeout(()=>speakNext(run),0);
+  }
+
+  function toggleAudio(C,chapterId,q){
+    const scope=chapterId||'all';
+    if(audio.active&&audio.scope===scope){
+      if(audio.paused){speechSynthesis.resume();audio.paused=false;updateAudioUI()}
+      else{speechSynthesis.pause();audio.paused=true;updateAudioUI()}
+      return;
+    }
+    startAudio(C,chapterId,q);
+  }
 
   function sectionHTML(sec,q){
     if(q&&!matchSection(sec,q)&&!norm(sec.title).includes(norm(q)))return'';
@@ -132,13 +222,22 @@
     const render=()=>{
       const chapters=(C.chapters||[]).filter(ch=>(!focus||ch.id===focus)&&matchChapter(ch,query));
       const stat=pr?(pr.exercise?`<div class="course-summary compact"><div class="card"><div class="course-kpi">${pr.rate}%</div><span class="muted small">réussite aux exercices</span></div><div class="card"><div class="course-kpi">${pr.seen}</div><span class="muted small">exercices tentés</span></div><div class="card"><div class="course-kpi">${pr.errors}</div><span class="muted small">erreurs enregistrées</span></div></div>`:`<div class="course-summary compact"><div class="card"><div class="course-kpi">${pr.rate}%</div><span class="muted small">du QCM rencontré</span></div><div class="card"><div class="course-kpi">${pr.mastered}</div><span class="muted small">points maîtrisés</span></div><div class="card"><div class="course-kpi">${pr.errors}</div><span class="muted small">points à revoir</span></div></div>`):'';
-      A.innerHTML=`<div class="hero card transcript-hero"><div class="transcript-title-row"><div><span class="tag">Cours indépendant des QCM</span><h1 class="course-title">${esc(C.title||meta.title)}</h1><p class="course-sub">Transcription propre et structurée du cours pour une consultation rapide.</p></div><a class="btn alt transcript-qcm-link" href="v2.html?rev=24">Retour aux QCM</a></div><label class="course-search"><span>⌕</span><input id="courseSearch" value="${esc(query)}" placeholder="Rechercher une notion, une date, un nom…"></label><div class="course-jump"><button class="chip ${!focus?'on':''}" data-ch="">Tout le cours</button>${(C.chapters||[]).map(ch=>`<button class="chip ${focus===ch.id?'on':''}" data-ch="${esc(ch.id)}">${esc(ch.title.replace(/^(?:[IVX]+\.|[A-M]\.|[A-F]\s*[-–]|[0-9]+\.)\s*/,''))}</button>`).join('')}</div></div>${stat}<div id="courseResults">${chapters.length?chapters.map(ch=>{const sections=(ch.sections||[]).map(sec=>sectionHTML(sec,query)).join('');return `<article class="card real-course-chapter" id="${esc(ch.id)}"><div class="course-chapter-head"><div><span class="course-kicker">Chapitre</span><h2>${hilite(ch.title,query)}</h2></div></div>${sections}</article>`}).join(''):`<div class="card course-empty"><h2>Aucun résultat</h2><p>Essaie un autre mot-clé.</p></div>`}</div><div class="card source-card"><h2>Source du cours</h2><p class="muted">${esc(C.source||meta.source||'')}</p><small>Le contenu est remis en forme pour la lecture. Les QCM restent séparés du cours.</small></div>`;
-      document.querySelectorAll('[data-ch]').forEach(b=>b.onclick=()=>{focus=b.dataset.ch||'';query='';render();scrollTo({top:0,behavior:'smooth'})});
-      const input=document.getElementById('courseSearch');let timer;input.oninput=e=>{query=e.target.value.trim();clearTimeout(timer);timer=setTimeout(render,160)};
+      const audioPanel=`<div class="course-audio" role="region" aria-label="Lecture audio du cours"><div class="course-audio-heading"><div class="course-audio-icon" aria-hidden="true">🔊</div><div><b>Lecture audio</b><span id="audioStatus" aria-live="polite">${canSpeak?'Prêt à lire le contenu affiché.':'La lecture audio n’est pas disponible dans ce navigateur.'}</span></div></div><progress id="audioProgress" max="1" value="0" aria-label="Progression de la lecture audio"></progress><div class="course-audio-controls"><button class="btn course-audio-primary" id="audioPlay" ${canSpeak?'':'disabled'}>▶ Lire</button><button class="btn alt course-audio-stop" id="audioStop" disabled>■ Arrêter</button><label class="course-audio-rate">Vitesse<select id="audioRate" ${canSpeak?'':'disabled'}><option value="0.8">0,8×</option><option value="1" selected>1×</option><option value="1.2">1,2×</option><option value="1.5">1,5×</option><option value="1.8">1,8×</option></select></label></div></div>`;
+      const chapterCards=chapters.length?chapters.map(ch=>{const sections=(ch.sections||[]).map(sec=>sectionHTML(sec,query)).join('');return `<article class="card real-course-chapter" id="${esc(ch.id)}"><div class="course-chapter-head"><div><span class="course-kicker">Chapitre</span><h2>${hilite(ch.title,query)}</h2></div><button class="chapter-audio" data-audio-ch="${esc(ch.id)}" aria-label="Écouter ${esc(ch.title)}">🔊 Écouter ce chapitre</button></div>${sections}</article>`}).join(''):`<div class="card course-empty"><h2>Aucun résultat</h2><p>Essaie un autre mot-clé.</p></div>`;
+      A.innerHTML=`<div class="hero card transcript-hero"><div class="transcript-title-row"><div><span class="tag">Cours indépendant des QCM</span><h1 class="course-title">${esc(C.title||meta.title)}</h1><p class="course-sub">Transcription propre et structurée du cours pour une consultation rapide.</p></div><a class="btn alt transcript-qcm-link" href="v2.html?rev=31">Retour aux QCM</a></div>${audioPanel}<label class="course-search"><span>⌕</span><input id="courseSearch" value="${esc(query)}" placeholder="Rechercher une notion, une date, un nom…"></label><div class="course-jump"><button class="chip ${!focus?'on':''}" data-ch="">Tout le cours</button>${(C.chapters||[]).map(ch=>`<button class="chip ${focus===ch.id?'on':''}" data-ch="${esc(ch.id)}">${esc(ch.title.replace(/^(?:[IVX]+\.|[A-M]\.|[A-F]\s*[-–]|[0-9]+\.)\s*/,''))}</button>`).join('')}</div></div>${stat}<div id="courseResults">${chapterCards}</div><div class="card source-card"><h2>Source du cours</h2><p class="muted">${esc(C.source||meta.source||'')}</p><small>Le contenu est remis en forme pour la lecture. Les QCM restent séparés du cours.</small></div>`;
+      document.querySelectorAll('[data-ch]').forEach(b=>b.onclick=()=>{stopAudio();focus=b.dataset.ch||'';query='';render();scrollTo({top:0,behavior:'smooth'})});
+      document.querySelectorAll('[data-audio-ch]').forEach(b=>b.onclick=()=>toggleAudio(C,b.dataset.audioCh,query));
+      const play=document.getElementById('audioPlay'),stop=document.getElementById('audioStop'),rate=document.getElementById('audioRate');
+      if(play)play.onclick=()=>{const scope=audio.active?(audio.scope==='all'?'':audio.scope):focus;toggleAudio(C,scope,query)};
+      if(stop)stop.onclick=()=>stopAudio();
+      if(rate){rate.value=String(audio.rate);rate.onchange=()=>{audio.rate=Number(rate.value)||1;if(audio.active){speechSynthesis.cancel();audio.run++;audio.paused=false;const run=audio.run;setTimeout(()=>speakNext(run),0);updateAudioUI()}}}
+      const input=document.getElementById('courseSearch');let timer;input.oninput=e=>{stopAudio();query=e.target.value.trim();clearTimeout(timer);timer=setTimeout(render,160)};
+      updateAudioUI();
     };
     render();
   }
 
   try{if(!wanted||!INDEX[wanted])subjectList();else await renderSubject(wanted)}
-  catch(e){A.innerHTML=`<div class="card"><h2>Impossible de charger le cours</h2><p>${esc(e.message||e)}</p><div class="actions"><a class="btn alt" href="cours.html?rev=24">Retour à la bibliothèque</a><a class="btn" href="v2.html?rev=24">Retour aux QCM</a></div></div>`;console.error(e)}
+  catch(e){A.innerHTML=`<div class="card"><h2>Impossible de charger le cours</h2><p>${esc(e.message||e)}</p><div class="actions"><a class="btn alt" href="cours.html?rev=31">Retour à la bibliothèque</a><a class="btn" href="v2.html?rev=31">Retour aux QCM</a></div></div>`;console.error(e)}
+  if(canSpeak)addEventListener('pagehide',()=>speechSynthesis.cancel(),{once:true});
 })();
