@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="2094" viewBox="0 0 760 2094" role="img" aria-labelledby="title desc">
+<title id="title">II. La France des origines à la Révolution</title>
+<desc id="desc">Frise chronologique verticale : Des royaumes francs aux Lumières. Échelle non proportionnelle.</desc>
+<defs>
+<filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#172133" flood-opacity="0.10"/></filter>
+<style>
+.bg{fill:#f4f7fb}.title{font:700 31px Arial,sans-serif;fill:#172133}.subtitle{font:400 18px Arial,sans-serif;fill:#5b6575}.note{font:400 15px Arial,sans-serif;fill:#6b7280}.spine{stroke:#6558d9;stroke-width:5}.dot{fill:#ffffff;stroke:#6558d9;stroke-width:5}.date{font:700 19px Arial,sans-serif;fill:#3f348f}.event{font:600 22px Arial,sans-serif;fill:#172133}.card-a{fill:#ffffff;stroke:#dfe5ef;stroke-width:2}.card-b{fill:#eef1ff;stroke:#d8dcfb;stroke-width:2}
+</style>
+</defs>
+<rect class="bg" width="760" height="2094" rx="30"/>
+<text x="34" y="55" class="title" text-anchor="start">II. La France des origines à la Révolution</text>
+<text x="34" y="91" class="subtitle" text-anchor="start">Des royaumes francs aux Lumières</text>
+<text x="34" y="122" class="note" text-anchor="start">Repères du cours - échelle volontairement non proportionnelle</text>
+<line x1="178" y1="160" x2="178" y2="2040" class="spine"/>
+<rect x="212" y="187" width="514" height="72" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="220" r="10" class="dot"/>
+<text x="151" y="226" class="date" text-anchor="end">vers 496</text>
+<text x="236" y="228" class="event" text-anchor="start">Baptême de Clovis à Reims</text>
+<rect x="212" y="269" width="514" height="90" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="311" r="10" class="dot"/>
+<text x="151" y="317" class="date" text-anchor="end">732</text>
+<text x="236" y="304" class="event" text-anchor="start">Charles Martel remporte la bataille de</text>
+<text x="236" y="333" class="event" text-anchor="start">Poitiers</text>
+<rect x="212" y="369" width="514" height="90" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="411" r="10" class="dot"/>
+<text x="151" y="417" class="date" text-anchor="end">751</text>
+<text x="236" y="404" class="event" text-anchor="start">Pépin le Bref fonde la dynastie</text>
+<text x="236" y="433" class="event" text-anchor="start">carolingienne</text>
+<rect x="212" y="469" width="514" height="90" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="511" r="10" class="dot"/>
+<text x="151" y="517" class="date" text-anchor="end">800</text>
+<text x="236" y="504" class="event" text-anchor="start">Charlemagne est sacré empereur</text>
+<text x="236" y="533" class="event" text-anchor="start">d&#x27;Occident</text>
+<rect x="212" y="569" width="514" height="90" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="611" r="10" class="dot"/>
+<text x="151" y="617" class="date" text-anchor="end">987</text>
+<text x="236" y="604" class="event" text-anchor="start">Hugues Capet inaugure la dynastie</text>
+<text x="236" y="633" class="event" text-anchor="start">capétienne</text>
+<rect x="212" y="669" width="514" height="72" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="702" r="10" class="dot"/>
+<text x="151" y="708" class="date" text-anchor="end">1226-1270</text>
+<text x="236" y="710" class="event" text-anchor="start">Règne de Saint Louis</text>
+<rect x="212" y="751" width="514" height="90" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="793" r="10" class="dot"/>
+<text x="151" y="799" class="date" text-anchor="end">1337-1453</text>
+<text x="236" y="786" class="event" text-anchor="start">Guerre de Cent Ans entre la France et</text>
+<text x="236" y="815" class="event" text-anchor="start">l&#x27;Angleterre</text>
+<rect x="212" y="851" width="514" height="90" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="893" r="10" class="dot"/>
+<text x="151" y="899" class="date" text-anchor="end">1429</text>
+<text x="236" y="886" class="event" text-anchor="start">Jeanne d&#x27;Arc contribue à la levée du</text>
+<text x="236" y="915" class="event" text-anchor="start">siège d&#x27;Orléans</text>
+<rect x="212" y="951" width="514" height="72" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="984" r="10" class="dot"/>
+<text x="151" y="990" class="date" text-anchor="end">vers 1450</text>
+<text x="236" y="992" class="event" text-anchor="start">Diffusion de l&#x27;imprimerie de Gutenberg</text>
+<rect x="212" y="1033" width="514" height="72" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="1066" r="10" class="dot"/>
+<text x="151" y="1072" class="date" text-anchor="end">1492</text>
+<text x="236" y="1074" class="event" text-anchor="start">Christophe Colomb atteint les Antilles</text>
+<rect x="212" y="1115" width="514" height="90" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="1157" r="10" class="dot"/>
+<text x="151" y="1163" class="date" text-anchor="end">1494</text>
+<text x="236" y="1150" class="event" text-anchor="start">Traité de Tordesillas entre l&#x27;Espagne</text>
+<text x="236" y="1179" class="event" text-anchor="start">et le Portugal</text>
+<rect x="212" y="1215" width="514" height="90" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="1257" r="10" class="dot"/>
+<text x="151" y="1263" class="date" text-anchor="end">1498</text>
+<text x="236" y="1250" class="event" text-anchor="start">Vasco de Gama atteint l&#x27;Inde par le</text>
+<text x="236" y="1279" class="event" text-anchor="start">cap de Bonne-Espérance</text>
+<rect x="212" y="1315" width="514" height="90" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="1357" r="10" class="dot"/>
+<text x="151" y="1363" class="date" text-anchor="end">1515</text>
+<text x="236" y="1350" class="event" text-anchor="start">Marignan et début du règne de François</text>
+<text x="236" y="1379" class="event" text-anchor="start">Ier</text>
+<rect x="212" y="1415" width="514" height="90" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="1457" r="10" class="dot"/>
+<text x="151" y="1463" class="date" text-anchor="end">1517</text>
+<text x="236" y="1450" class="event" text-anchor="start">Martin Luther lance la Réforme</text>
+<text x="236" y="1479" class="event" text-anchor="start">protestante</text>
+<rect x="212" y="1515" width="514" height="72" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="1548" r="10" class="dot"/>
+<text x="151" y="1554" class="date" text-anchor="end">1598</text>
+<text x="236" y="1556" class="event" text-anchor="start">Henri IV promulgue l&#x27;édit de Nantes</text>
+<rect x="212" y="1597" width="514" height="72" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="1630" r="10" class="dot"/>
+<text x="151" y="1636" class="date" text-anchor="end">1661</text>
+<text x="236" y="1638" class="event" text-anchor="start">Début du règne personnel de Louis XIV</text>
+<rect x="212" y="1679" width="514" height="72" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="1712" r="10" class="dot"/>
+<text x="151" y="1718" class="date" text-anchor="end">1685</text>
+<text x="236" y="1720" class="event" text-anchor="start">Louis XIV révoque l&#x27;édit de Nantes</text>
+<rect x="212" y="1761" width="514" height="90" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="1803" r="10" class="dot"/>
+<text x="151" y="1809" class="date" text-anchor="end">1748</text>
+<text x="236" y="1796" class="event" text-anchor="start">Montesquieu publie De l&#x27;esprit des</text>
+<text x="236" y="1825" class="event" text-anchor="start">lois</text>
+<rect x="212" y="1861" width="514" height="90" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="1903" r="10" class="dot"/>
+<text x="151" y="1909" class="date" text-anchor="end">1751-1772</text>
+<text x="236" y="1896" class="event" text-anchor="start">Publication de l&#x27;Encyclopédie dirigée</text>
+<text x="236" y="1925" class="event" text-anchor="start">par Diderot</text>
+<rect x="212" y="1961" width="514" height="72" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="1994" r="10" class="dot"/>
+<text x="151" y="2000" class="date" text-anchor="end">1762</text>
+<text x="236" y="2002" class="event" text-anchor="start">Rousseau publie Du contrat social</text>
+</svg>

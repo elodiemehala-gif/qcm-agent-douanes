@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="2425" viewBox="0 0 760 2425" role="img" aria-labelledby="title desc">
+<title id="title">VIII. Révolutions, indépendances et monde contemporain</title>
+<desc id="desc">Frise chronologique verticale : Des indépendances atlantiques aux crises du XXIe siècle. Échelle non proportionnelle.</desc>
+<defs>
+<filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#172133" flood-opacity="0.10"/></filter>
+<style>
+.bg{fill:#f4f7fb}.title{font:700 31px Arial,sans-serif;fill:#172133}.subtitle{font:400 18px Arial,sans-serif;fill:#5b6575}.note{font:400 15px Arial,sans-serif;fill:#6b7280}.spine{stroke:#6558d9;stroke-width:5}.dot{fill:#ffffff;stroke:#6558d9;stroke-width:5}.date{font:700 19px Arial,sans-serif;fill:#3f348f}.event{font:600 22px Arial,sans-serif;fill:#172133}.card-a{fill:#ffffff;stroke:#dfe5ef;stroke-width:2}.card-b{fill:#eef1ff;stroke:#d8dcfb;stroke-width:2}
+</style>
+</defs>
+<rect class="bg" width="760" height="2425" rx="30"/>
+<text x="34" y="55" class="title" text-anchor="start">VIII. Révolutions, indépendances et monde</text>
+<text x="34" y="93" class="title" text-anchor="start">contemporain</text>
+<text x="34" y="129" class="subtitle" text-anchor="start">Des indépendances atlantiques aux crises du XXIe siècle</text>
+<text x="34" y="160" class="note" text-anchor="start">Repères du cours - échelle volontairement non proportionnelle</text>
+<line x1="178" y1="198" x2="178" y2="2371" class="spine"/>
+<rect x="212" y="225" width="514" height="90" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="267" r="10" class="dot"/>
+<text x="151" y="273" class="date" text-anchor="end">1775-1783</text>
+<text x="236" y="260" class="event" text-anchor="start">Guerre d&#x27;indépendance des treize</text>
+<text x="236" y="289" class="event" text-anchor="start">colonies américaines</text>
+<rect x="212" y="325" width="514" height="90" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="367" r="10" class="dot"/>
+<text x="151" y="362" class="date" text-anchor="end">4 juillet</text>
+<text x="151" y="384" class="date" text-anchor="end">1776</text>
+<text x="236" y="360" class="event" text-anchor="start">Déclaration d&#x27;indépendance des</text>
+<text x="236" y="389" class="event" text-anchor="start">États-Unis</text>
+<rect x="212" y="425" width="514" height="72" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="458" r="10" class="dot"/>
+<text x="151" y="464" class="date" text-anchor="end">1787</text>
+<text x="236" y="466" class="event" text-anchor="start">Constitution fédérale américaine</text>
+<rect x="212" y="507" width="514" height="90" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="549" r="10" class="dot"/>
+<text x="151" y="555" class="date" text-anchor="end">1917</text>
+<text x="236" y="542" class="event" text-anchor="start">Révolutions de Février et d&#x27;Octobre en</text>
+<text x="236" y="571" class="event" text-anchor="start">Russie</text>
+<rect x="212" y="607" width="514" height="90" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="649" r="10" class="dot"/>
+<text x="151" y="655" class="date" text-anchor="end">1921</text>
+<text x="236" y="642" class="event" text-anchor="start">Lénine lance la Nouvelle politique</text>
+<text x="236" y="671" class="event" text-anchor="start">économique</text>
+<rect x="212" y="707" width="514" height="72" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="740" r="10" class="dot"/>
+<text x="151" y="746" class="date" text-anchor="end">1922</text>
+<text x="236" y="748" class="event" text-anchor="start">Création de l&#x27;URSS</text>
+<rect x="212" y="789" width="514" height="72" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="822" r="10" class="dot"/>
+<text x="151" y="828" class="date" text-anchor="end">1947</text>
+<text x="236" y="830" class="event" text-anchor="start">Indépendance et partition de l&#x27;Inde</text>
+<rect x="212" y="871" width="514" height="90" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="913" r="10" class="dot"/>
+<text x="151" y="908" class="date" text-anchor="end">14 mai</text>
+<text x="151" y="930" class="date" text-anchor="end">1948</text>
+<text x="236" y="921" class="event" text-anchor="start">Création de l&#x27;État d&#x27;Israël</text>
+<rect x="212" y="971" width="514" height="90" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="1013" r="10" class="dot"/>
+<text x="151" y="1019" class="date" text-anchor="end">1946-1954</text>
+<text x="236" y="1006" class="event" text-anchor="start">Guerre d&#x27;Indochine et accords de</text>
+<text x="236" y="1035" class="event" text-anchor="start">Genève</text>
+<rect x="212" y="1071" width="514" height="72" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="1104" r="10" class="dot"/>
+<text x="151" y="1110" class="date" text-anchor="end">1955</text>
+<text x="236" y="1112" class="event" text-anchor="start">Conférence de Bandoung</text>
+<rect x="212" y="1153" width="514" height="90" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="1195" r="10" class="dot"/>
+<text x="151" y="1201" class="date" text-anchor="end">1956</text>
+<text x="236" y="1188" class="event" text-anchor="start">Indépendances du Maroc et de la</text>
+<text x="236" y="1217" class="event" text-anchor="start">Tunisie ; crise de Suez</text>
+<rect x="212" y="1253" width="514" height="90" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="1295" r="10" class="dot"/>
+<text x="151" y="1301" class="date" text-anchor="end">1960</text>
+<text x="236" y="1288" class="event" text-anchor="start">Année de l&#x27;Afrique : grande vague</text>
+<text x="236" y="1317" class="event" text-anchor="start">d&#x27;indépendances</text>
+<rect x="212" y="1353" width="514" height="90" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="1395" r="10" class="dot"/>
+<text x="151" y="1390" class="date" text-anchor="end">18-19 mars</text>
+<text x="151" y="1412" class="date" text-anchor="end">1962</text>
+<text x="236" y="1388" class="event" text-anchor="start">Accords d&#x27;Évian et cessez-le-feu en</text>
+<text x="236" y="1417" class="event" text-anchor="start">Algérie</text>
+<rect x="212" y="1453" width="514" height="72" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="1486" r="10" class="dot"/>
+<text x="151" y="1492" class="date" text-anchor="end">1967</text>
+<text x="236" y="1494" class="event" text-anchor="start">Guerre des Six Jours</text>
+<rect x="212" y="1535" width="514" height="72" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="1568" r="10" class="dot"/>
+<text x="151" y="1574" class="date" text-anchor="end">1973</text>
+<text x="236" y="1576" class="event" text-anchor="start">Guerre du Kippour</text>
+<rect x="212" y="1617" width="514" height="72" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="1650" r="10" class="dot"/>
+<text x="151" y="1656" class="date" text-anchor="end">1979</text>
+<text x="236" y="1658" class="event" text-anchor="start">Révolution iranienne</text>
+<rect x="212" y="1699" width="514" height="90" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="1741" r="10" class="dot"/>
+<text x="151" y="1747" class="date" text-anchor="end">1990-1991</text>
+<text x="236" y="1734" class="event" text-anchor="start">Première guerre du Golfe après</text>
+<text x="236" y="1763" class="event" text-anchor="start">l&#x27;invasion du Koweït</text>
+<rect x="212" y="1799" width="514" height="72" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="1832" r="10" class="dot"/>
+<text x="151" y="1838" class="date" text-anchor="end">1991</text>
+<text x="236" y="1840" class="event" text-anchor="start">Dissolution de l&#x27;URSS</text>
+<rect x="212" y="1881" width="514" height="119" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="1937" r="10" class="dot"/>
+<text x="151" y="1921" class="date" text-anchor="end">11</text>
+<text x="151" y="1943" class="date" text-anchor="end">septembre</text>
+<text x="151" y="1965" class="date" text-anchor="end">2001</text>
+<text x="236" y="1930" class="event" text-anchor="start">Attentats aux États-Unis et guerre</text>
+<text x="236" y="1959" class="event" text-anchor="start">contre le terrorisme</text>
+<rect x="212" y="2010" width="514" height="90" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="2052" r="10" class="dot"/>
+<text x="151" y="2058" class="date" text-anchor="end">2003</text>
+<text x="236" y="2045" class="event" text-anchor="start">Invasion de l&#x27;Irak par une coalition</text>
+<text x="236" y="2074" class="event" text-anchor="start">menée par les États-Unis</text>
+<rect x="212" y="2110" width="514" height="90" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="2152" r="10" class="dot"/>
+<text x="151" y="2158" class="date" text-anchor="end">2007-2008</text>
+<text x="236" y="2145" class="event" text-anchor="start">Crise des subprimes puis crise</text>
+<text x="236" y="2174" class="event" text-anchor="start">financière mondiale</text>
+<rect x="212" y="2210" width="514" height="72" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="2243" r="10" class="dot"/>
+<text x="151" y="2249" class="date" text-anchor="end">2014</text>
+<text x="236" y="2251" class="event" text-anchor="start">Annexion de la Crimée par la Russie</text>
+<rect x="212" y="2292" width="514" height="72" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="2325" r="10" class="dot"/>
+<text x="151" y="2331" class="date" text-anchor="end">2020</text>
+<text x="236" y="2333" class="event" text-anchor="start">Pandémie mondiale de Covid-19</text>
+</svg>

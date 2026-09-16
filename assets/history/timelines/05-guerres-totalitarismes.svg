@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="2429" viewBox="0 0 760 2429" role="img" aria-labelledby="title desc">
+<title id="title">V. Les guerres mondiales et les totalitarismes</title>
+<desc id="desc">Frise chronologique verticale : De Sarajevo à la disparition de l&#x27;URSS. Échelle non proportionnelle.</desc>
+<defs>
+<filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#172133" flood-opacity="0.10"/></filter>
+<style>
+.bg{fill:#f4f7fb}.title{font:700 31px Arial,sans-serif;fill:#172133}.subtitle{font:400 18px Arial,sans-serif;fill:#5b6575}.note{font:400 15px Arial,sans-serif;fill:#6b7280}.spine{stroke:#6558d9;stroke-width:5}.dot{fill:#ffffff;stroke:#6558d9;stroke-width:5}.date{font:700 19px Arial,sans-serif;fill:#3f348f}.event{font:600 22px Arial,sans-serif;fill:#172133}.card-a{fill:#ffffff;stroke:#dfe5ef;stroke-width:2}.card-b{fill:#eef1ff;stroke:#d8dcfb;stroke-width:2}
+</style>
+</defs>
+<rect class="bg" width="760" height="2429" rx="30"/>
+<text x="34" y="55" class="title" text-anchor="start">V. Les guerres mondiales et les</text>
+<text x="34" y="93" class="title" text-anchor="start">totalitarismes</text>
+<text x="34" y="129" class="subtitle" text-anchor="start">De Sarajevo à la disparition de l&#x27;URSS</text>
+<text x="34" y="160" class="note" text-anchor="start">Repères du cours - échelle volontairement non proportionnelle</text>
+<line x1="178" y1="198" x2="178" y2="2375" class="spine"/>
+<rect x="212" y="225" width="514" height="90" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="267" r="10" class="dot"/>
+<text x="151" y="262" class="date" text-anchor="end">28 juin</text>
+<text x="151" y="284" class="date" text-anchor="end">1914</text>
+<text x="236" y="275" class="event" text-anchor="start">Attentat de Sarajevo</text>
+<rect x="212" y="325" width="514" height="72" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="358" r="10" class="dot"/>
+<text x="151" y="364" class="date" text-anchor="end">1914-1918</text>
+<text x="236" y="366" class="event" text-anchor="start">Première Guerre mondiale</text>
+<rect x="212" y="407" width="514" height="72" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="440" r="10" class="dot"/>
+<text x="151" y="446" class="date" text-anchor="end">1916</text>
+<text x="236" y="448" class="event" text-anchor="start">Batailles de Verdun et de la Somme</text>
+<rect x="212" y="489" width="514" height="119" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="545" r="10" class="dot"/>
+<text x="151" y="529" class="date" text-anchor="end">11</text>
+<text x="151" y="551" class="date" text-anchor="end">novembre</text>
+<text x="151" y="573" class="date" text-anchor="end">1918</text>
+<text x="236" y="553" class="event" text-anchor="start">Armistice de Rethondes</text>
+<rect x="212" y="618" width="514" height="90" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="660" r="10" class="dot"/>
+<text x="151" y="655" class="date" text-anchor="end">28 juin</text>
+<text x="151" y="677" class="date" text-anchor="end">1919</text>
+<text x="236" y="653" class="event" text-anchor="start">Traité de Versailles et création de la</text>
+<text x="236" y="682" class="event" text-anchor="start">SDN</text>
+<rect x="212" y="718" width="514" height="72" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="751" r="10" class="dot"/>
+<text x="151" y="757" class="date" text-anchor="end">1922</text>
+<text x="236" y="759" class="event" text-anchor="start">Mussolini arrive au pouvoir en Italie</text>
+<rect x="212" y="800" width="514" height="72" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="833" r="10" class="dot"/>
+<text x="151" y="839" class="date" text-anchor="end">1929</text>
+<text x="236" y="841" class="event" text-anchor="start">Krach de Wall Street et crise mondiale</text>
+<rect x="212" y="882" width="514" height="72" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="915" r="10" class="dot"/>
+<text x="151" y="921" class="date" text-anchor="end">1933</text>
+<text x="236" y="923" class="event" text-anchor="start">Hitler arrive au pouvoir en Allemagne</text>
+<rect x="212" y="964" width="514" height="72" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="997" r="10" class="dot"/>
+<text x="151" y="1003" class="date" text-anchor="end">1936-1939</text>
+<text x="236" y="1005" class="event" text-anchor="start">Guerre d&#x27;Espagne</text>
+<rect x="212" y="1046" width="514" height="119" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="1102" r="10" class="dot"/>
+<text x="151" y="1086" class="date" text-anchor="end">1er</text>
+<text x="151" y="1108" class="date" text-anchor="end">septembre</text>
+<text x="151" y="1130" class="date" text-anchor="end">1939</text>
+<text x="236" y="1095" class="event" text-anchor="start">Invasion de la Pologne : début de la</text>
+<text x="236" y="1124" class="event" text-anchor="start">Seconde Guerre mondiale</text>
+<rect x="212" y="1175" width="514" height="90" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="1217" r="10" class="dot"/>
+<text x="151" y="1212" class="date" text-anchor="end">18 juin</text>
+<text x="151" y="1234" class="date" text-anchor="end">1940</text>
+<text x="236" y="1225" class="event" text-anchor="start">Appel du général de Gaulle</text>
+<rect x="212" y="1275" width="514" height="90" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="1317" r="10" class="dot"/>
+<text x="151" y="1312" class="date" text-anchor="end">6 juin</text>
+<text x="151" y="1334" class="date" text-anchor="end">1944</text>
+<text x="236" y="1325" class="event" text-anchor="start">Débarquement allié en Normandie</text>
+<rect x="212" y="1375" width="514" height="119" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="1431" r="10" class="dot"/>
+<text x="151" y="1415" class="date" text-anchor="end">8 mai / 2</text>
+<text x="151" y="1437" class="date" text-anchor="end">septembre</text>
+<text x="151" y="1459" class="date" text-anchor="end">1945</text>
+<text x="236" y="1424" class="event" text-anchor="start">Capitulations allemande et japonaise ;</text>
+<text x="236" y="1453" class="event" text-anchor="start">création de l&#x27;ONU</text>
+<rect x="212" y="1504" width="514" height="90" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="1546" r="10" class="dot"/>
+<text x="151" y="1552" class="date" text-anchor="end">1947</text>
+<text x="236" y="1539" class="event" text-anchor="start">Doctrine Truman : début de la Guerre</text>
+<text x="236" y="1568" class="event" text-anchor="start">froide</text>
+<rect x="212" y="1604" width="514" height="72" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="1637" r="10" class="dot"/>
+<text x="151" y="1643" class="date" text-anchor="end">1948-1949</text>
+<text x="236" y="1645" class="event" text-anchor="start">Blocus de Berlin et pont aérien</text>
+<rect x="212" y="1686" width="514" height="72" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="1719" r="10" class="dot"/>
+<text x="151" y="1725" class="date" text-anchor="end">1949</text>
+<text x="236" y="1727" class="event" text-anchor="start">Création de l&#x27;OTAN</text>
+<rect x="212" y="1768" width="514" height="72" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="1801" r="10" class="dot"/>
+<text x="151" y="1807" class="date" text-anchor="end">1950-1953</text>
+<text x="236" y="1809" class="event" text-anchor="start">Guerre de Corée</text>
+<rect x="212" y="1850" width="514" height="72" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="1883" r="10" class="dot"/>
+<text x="151" y="1889" class="date" text-anchor="end">1955</text>
+<text x="236" y="1891" class="event" text-anchor="start">Création du Pacte de Varsovie</text>
+<rect x="212" y="1932" width="514" height="72" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="1965" r="10" class="dot"/>
+<text x="151" y="1971" class="date" text-anchor="end">1962</text>
+<text x="236" y="1973" class="event" text-anchor="start">Crise des missiles de Cuba</text>
+<rect x="212" y="2014" width="514" height="72" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="2047" r="10" class="dot"/>
+<text x="151" y="2053" class="date" text-anchor="end">1969</text>
+<text x="236" y="2055" class="event" text-anchor="start">Apollo 11 : premiers pas sur la Lune</text>
+<rect x="212" y="2096" width="514" height="72" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="2129" r="10" class="dot"/>
+<text x="151" y="2135" class="date" text-anchor="end">1975</text>
+<text x="236" y="2137" class="event" text-anchor="start">Fin de la guerre du Vietnam</text>
+<rect x="212" y="2178" width="514" height="90" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="2220" r="10" class="dot"/>
+<text x="151" y="2215" class="date" text-anchor="end">9 novembre</text>
+<text x="151" y="2237" class="date" text-anchor="end">1989</text>
+<text x="236" y="2228" class="event" text-anchor="start">Chute du mur de Berlin</text>
+<rect x="212" y="2278" width="514" height="90" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="2320" r="10" class="dot"/>
+<text x="151" y="2326" class="date" text-anchor="end">1991</text>
+<text x="236" y="2313" class="event" text-anchor="start">Dissolution de l&#x27;URSS : fin de la</text>
+<text x="236" y="2342" class="event" text-anchor="start">Guerre froide</text>
+</svg>

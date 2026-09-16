@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1506" viewBox="0 0 760 1506" role="img" aria-labelledby="title desc">
+<title id="title">IV. Le XIXe siècle</title>
+<desc id="desc">Frise chronologique verticale : Révolutions politiques et transformations sociales. Échelle non proportionnelle.</desc>
+<defs>
+<filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#172133" flood-opacity="0.10"/></filter>
+<style>
+.bg{fill:#f4f7fb}.title{font:700 31px Arial,sans-serif;fill:#172133}.subtitle{font:400 18px Arial,sans-serif;fill:#5b6575}.note{font:400 15px Arial,sans-serif;fill:#6b7280}.spine{stroke:#6558d9;stroke-width:5}.dot{fill:#ffffff;stroke:#6558d9;stroke-width:5}.date{font:700 19px Arial,sans-serif;fill:#3f348f}.event{font:600 22px Arial,sans-serif;fill:#172133}.card-a{fill:#ffffff;stroke:#dfe5ef;stroke-width:2}.card-b{fill:#eef1ff;stroke:#d8dcfb;stroke-width:2}
+</style>
+</defs>
+<rect class="bg" width="760" height="1506" rx="30"/>
+<text x="34" y="55" class="title" text-anchor="start">IV. Le XIXe siècle</text>
+<text x="34" y="91" class="subtitle" text-anchor="start">Révolutions politiques et transformations sociales</text>
+<text x="34" y="122" class="note" text-anchor="start">Repères du cours - échelle volontairement non proportionnelle</text>
+<line x1="178" y1="160" x2="178" y2="1452" class="spine"/>
+<rect x="212" y="187" width="514" height="119" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="243" r="10" class="dot"/>
+<text x="151" y="227" class="date" text-anchor="end">27-29</text>
+<text x="151" y="249" class="date" text-anchor="end">juillet</text>
+<text x="151" y="271" class="date" text-anchor="end">1830</text>
+<text x="236" y="251" class="event" text-anchor="start">Trois Glorieuses : chute de Charles X</text>
+<rect x="212" y="316" width="514" height="90" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="358" r="10" class="dot"/>
+<text x="151" y="364" class="date" text-anchor="end">1830-1848</text>
+<text x="236" y="351" class="event" text-anchor="start">Monarchie de Juillet sous</text>
+<text x="236" y="380" class="event" text-anchor="start">Louis-Philippe</text>
+<rect x="212" y="416" width="514" height="90" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="458" r="10" class="dot"/>
+<text x="151" y="453" class="date" text-anchor="end">février</text>
+<text x="151" y="475" class="date" text-anchor="end">1848</text>
+<text x="236" y="451" class="event" text-anchor="start">Deuxième République et suffrage</text>
+<text x="236" y="480" class="event" text-anchor="start">universel masculin</text>
+<rect x="212" y="516" width="514" height="90" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="558" r="10" class="dot"/>
+<text x="151" y="564" class="date" text-anchor="end">1848</text>
+<text x="236" y="551" class="event" text-anchor="start">Abolition de l&#x27;esclavage et Manifeste</text>
+<text x="236" y="580" class="event" text-anchor="start">du Parti communiste</text>
+<rect x="212" y="616" width="514" height="90" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="658" r="10" class="dot"/>
+<text x="151" y="653" class="date" text-anchor="end">2 décembre</text>
+<text x="151" y="675" class="date" text-anchor="end">1851</text>
+<text x="236" y="651" class="event" text-anchor="start">Coup d&#x27;État de Louis-Napoléon</text>
+<text x="236" y="680" class="event" text-anchor="start">Bonaparte</text>
+<rect x="212" y="716" width="514" height="72" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="749" r="10" class="dot"/>
+<text x="151" y="755" class="date" text-anchor="end">1852-1870</text>
+<text x="236" y="757" class="event" text-anchor="start">Second Empire de Napoléon III</text>
+<rect x="212" y="798" width="514" height="72" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="831" r="10" class="dot"/>
+<text x="151" y="837" class="date" text-anchor="end">1853-1870</text>
+<text x="236" y="839" class="event" text-anchor="start">Transformation de Paris par Haussmann</text>
+<rect x="212" y="880" width="514" height="119" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="936" r="10" class="dot"/>
+<text x="151" y="920" class="date" text-anchor="end">4</text>
+<text x="151" y="942" class="date" text-anchor="end">septembre</text>
+<text x="151" y="964" class="date" text-anchor="end">1870</text>
+<text x="236" y="929" class="event" text-anchor="start">Proclamation de la Troisième</text>
+<text x="236" y="958" class="event" text-anchor="start">République</text>
+<rect x="212" y="1009" width="514" height="90" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="1051" r="10" class="dot"/>
+<text x="151" y="1057" class="date" text-anchor="end">1875</text>
+<text x="236" y="1044" class="event" text-anchor="start">Lois constitutionnelles du régime</text>
+<text x="236" y="1073" class="event" text-anchor="start">parlementaire</text>
+<rect x="212" y="1109" width="514" height="90" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="1151" r="10" class="dot"/>
+<text x="151" y="1157" class="date" text-anchor="end">1881-1882</text>
+<text x="236" y="1144" class="event" text-anchor="start">Lois Jules Ferry : école gratuite,</text>
+<text x="236" y="1173" class="event" text-anchor="start">laïque et obligatoire</text>
+<rect x="212" y="1209" width="514" height="72" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="1242" r="10" class="dot"/>
+<text x="151" y="1248" class="date" text-anchor="end">1884</text>
+<text x="236" y="1250" class="event" text-anchor="start">Reconnaissance du droit syndical</text>
+<rect x="212" y="1291" width="514" height="72" rx="18" class="card-b" filter="url(#shadow)"/>
+<circle cx="178" cy="1324" r="10" class="dot"/>
+<text x="151" y="1330" class="date" text-anchor="end">1894-1906</text>
+<text x="236" y="1332" class="event" text-anchor="start">Affaire Dreyfus</text>
+<rect x="212" y="1373" width="514" height="72" rx="18" class="card-a" filter="url(#shadow)"/>
+<circle cx="178" cy="1406" r="10" class="dot"/>
+<text x="151" y="1412" class="date" text-anchor="end">1905</text>
+<text x="236" y="1414" class="event" text-anchor="start">Séparation des Églises et de l&#x27;État</text>
+</svg>
