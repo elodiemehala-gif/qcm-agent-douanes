@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="670" viewBox="0 0 1200 670" role="img" aria-labelledby="title desc">
+<title id="title">Superficie des océans</title><desc id="desc">La longueur des barres est proportionnelle à la superficie.</desc>
+
+<style>
+  .bg{fill:#f8fbff}.sea{fill:#dff3fa}.grid{stroke:#b9dbe7;stroke-width:1;opacity:.65}.land{fill:#f2efe7;stroke:#fff;stroke-width:1}
+  .title{font:700 34px system-ui,sans-serif;fill:#172133}.subtitle{font:500 17px system-ui,sans-serif;fill:#526172}
+  .label{font:700 19px system-ui,sans-serif;fill:#155e75;paint-order:stroke;stroke:#fff;stroke-width:5;stroke-linejoin:round}
+  .small{font:600 14px system-ui,sans-serif;fill:#334155}.note{font:500 14px system-ui,sans-serif;fill:#64748b}
+  .legend{fill:#fff;stroke:#d8e1ea;stroke-width:1.5}.marker{fill:#ef476f;stroke:#fff;stroke-width:3}
+  .markerText{font:800 13px system-ui,sans-serif;fill:#fff;text-anchor:middle;dominant-baseline:central}
+</style><rect width="1200" height="670" rx="28" class="bg"/>
+<text x="60" y="48" class="title">Superficie des océans</text><text x="60" y="75" class="subtitle">La longueur des barres est proportionnelle à la superficie.</text><text x="70" y="170" class="small" style="font-size:18px">Pacifique</text>
+<rect x="260" y="145" width="820" height="38" rx="12" fill="#e7eef4"/>
+<rect x="260" y="145" width="820" height="38" rx="12" fill="#155e75"/>
+<text x="1090" y="170" class="small">≈ 165 millions de km²</text><text x="70" y="252" class="small" style="font-size:18px">Atlantique</text>
+<rect x="260" y="227" width="820" height="38" rx="12" fill="#e7eef4"/>
+<rect x="260" y="227" width="526.8" height="38" rx="12" fill="#0e7490"/>
+<text x="798.7878787878788" y="252" class="small">≈ 106 millions de km²</text><text x="70" y="334" class="small" style="font-size:18px">Indien</text>
+<rect x="260" y="309" width="820" height="38" rx="12" fill="#e7eef4"/>
+<rect x="260" y="309" width="350.9" height="38" rx="12" fill="#0891b2"/>
+<text x="622.860606060606" y="334" class="small">≈ 71 millions de km²</text><text x="70" y="416" class="small" style="font-size:18px">Austral</text>
+<rect x="260" y="391" width="820" height="38" rx="12" fill="#e7eef4"/>
+<rect x="260" y="391" width="100.9" height="38" rx="12" fill="#22a3c2"/>
+<text x="372.8848484848485" y="416" class="small">≈ 20 millions de km²</text><text x="70" y="498" class="small" style="font-size:18px">Arctique</text>
+<rect x="260" y="473" width="820" height="38" rx="12" fill="#e7eef4"/>
+<rect x="260" y="473" width="70.1" height="38" rx="12" fill="#7dd3e8"/>
+<text x="342.07272727272726" y="498" class="small">≈ 14 millions de km²</text><rect x="60" y="570" width="1080" height="55" rx="15" class="legend"/><text x="82" y="604" class="subtitle">Ordre à mémoriser : Pacifique → Atlantique → Indien → Austral → Arctique.</text>
+<text x="60" y="646" class="note">Schéma pédagogique — positions et valeurs arrondies pour faciliter la mémorisation.</text>
+</svg>

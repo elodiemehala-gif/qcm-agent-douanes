@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+<title id="title">Répartition approximative de la population mondiale par continent</title>
+<desc id="desc">Sur cent habitants du monde, environ cinquante-neuf vivent en Asie, dix-neuf en Afrique, neuf en Europe, sept en Amérique du Nord, cinq en Amérique du Sud et un en Océanie.</desc>
+<style>
+.bg{fill:#f8fbff}.title{font:700 34px system-ui,sans-serif;fill:#172133}.subtitle{font:500 17px system-ui,sans-serif;fill:#526172}.label{font:700 18px system-ui,sans-serif;fill:#172133}.value{font:800 28px system-ui,sans-serif;fill:#172133}.note{font:500 14px system-ui,sans-serif;fill:#64748b}.card{fill:#fff;stroke:#d8e1ea;stroke-width:1.5}
+</style>
+<rect width="1200" height="700" rx="28" class="bg"/>
+<text x="60" y="52" class="title">Sur 100 habitants dans le monde…</text>
+<text x="60" y="80" class="subtitle">Une représentation simple pour mémoriser les ordres de grandeur.</text>
+<rect x="70" y="125" width="1060" height="74" rx="18" fill="#e7eef4"/>
+<rect x="70" y="125" width="625.4" height="74" rx="18" fill="#155e75"/>
+<rect x="695.4" y="125" width="201.4" height="74" fill="#0e7490"/>
+<rect x="896.8" y="125" width="95.4" height="74" fill="#0891b2"/>
+<rect x="992.2" y="125" width="74.2" height="74" fill="#22a3c2"/>
+<rect x="1066.4" y="125" width="53" height="74" fill="#38b6d1"/>
+<rect x="1119.4" y="125" width="10.6" height="74" rx="5" fill="#7dd3e8"/>
+<text x="382" y="171" text-anchor="middle" style="font:800 24px system-ui,sans-serif;fill:#fff">ASIE ≈ 59</text>
+<text x="796" y="171" text-anchor="middle" style="font:800 20px system-ui,sans-serif;fill:#fff">AFRIQUE ≈ 19</text>
+<g>
+<rect x="70" y="245" width="330" height="115" rx="18" class="card"/><circle cx="112" cy="287" r="16" fill="#155e75"/><text x="142" y="293" class="label">Asie</text><text x="96" y="335" class="value">≈ 59 %</text>
+<rect x="435" y="245" width="330" height="115" rx="18" class="card"/><circle cx="477" cy="287" r="16" fill="#0e7490"/><text x="507" y="293" class="label">Afrique</text><text x="461" y="335" class="value">≈ 19 %</text>
+<rect x="800" y="245" width="330" height="115" rx="18" class="card"/><circle cx="842" cy="287" r="16" fill="#0891b2"/><text x="872" y="293" class="label">Europe</text><text x="826" y="335" class="value">≈ 9 %</text>
+<rect x="70" y="390" width="330" height="115" rx="18" class="card"/><circle cx="112" cy="432" r="16" fill="#22a3c2"/><text x="142" y="438" class="label">Amérique du Nord</text><text x="96" y="480" class="value">≈ 7 %</text>
+<rect x="435" y="390" width="330" height="115" rx="18" class="card"/><circle cx="477" cy="432" r="16" fill="#38b6d1"/><text x="507" y="438" class="label">Amérique du Sud</text><text x="461" y="480" class="value">≈ 5 %</text>
+<rect x="800" y="390" width="330" height="115" rx="18" class="card"/><circle cx="842" cy="432" r="16" fill="#7dd3e8"/><text x="872" y="438" class="label">Océanie</text><text x="826" y="480" class="value">≈ 1 %</text>
+</g>
+<rect x="70" y="545" width="1060" height="80" rx="18" class="card"/>
+<text x="95" y="578" class="label">Image mentale</text>
+<text x="95" y="607" class="subtitle">Près de 3 habitants sur 5 vivent en Asie ; l’Océanie reste très minoritaire.</text>
+<text x="70" y="665" class="note">Parts arrondies : elles donnent un ordre de grandeur, pas un décompte annuel exact.</text>
+</svg>
