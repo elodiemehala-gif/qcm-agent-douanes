@@ -5,12 +5,13 @@
   let chunks=[];for(let i=1;i<=12;i++){const r=await fetch(`bank-${String(i).padStart(2,'0')}.txt`,{cache:'no-store'});if(!r.ok)throw Error('Fichier banque manquant');chunks.push((await r.text()).trim())}
   const unpack=async encoded=>{const bin=atob(encoded.trim()),u=new Uint8Array(bin.length);for(let i=0;i<bin.length;i++)u[i]=bin.charCodeAt(i);const ds=new DecompressionStream('gzip');return JSON.parse(await new Response(new Blob([u]).stream().pipeThrough(ds)).text())};
   const p=await unpack(chunks.join(''));
-  const [hr,gr]=await Promise.all([fetch('history-curated-bank.txt',{cache:'no-store'}),fetch('geography-curated-bank.txt',{cache:'no-store'})]);if(!hr.ok)throw Error('Banque d’histoire manquante');if(!gr.ok)throw Error('Banque de géographie manquante');
+  const [hr,gr,er]=await Promise.all([fetch('history-curated-bank.txt',{cache:'no-store'}),fetch('geography-curated-bank.txt',{cache:'no-store'}),fetch('emc-curated-bank.txt',{cache:'no-store'})]);if(!hr.ok)throw Error('Banque d’histoire manquante');if(!gr.ok)throw Error('Banque de géographie manquante');if(!er.ok)throw Error('Banque d’EMC manquante');
   const cats=p.c,pref=['HIS','GEO','EMC','ACT','ORG','MAT','LOG','CG'],n=Array(8).fill(0);
   const raw=p.k.map(([ci,page,text])=>({ci,page,text,cat:cats[ci],id:`${pref[ci]}-${String(++n[ci]).padStart(4,'0')}`}));
   const curatedHistory=(await unpack(await hr.text())).map(x=>({...x,cat:'Histoire',curated:true,text:x.prompt,sourceText:x.why}));
   const curatedGeography=(await unpack(await gr.text())).map(x=>({...x,cat:'Géographie',curated:true,text:x.prompt,sourceText:x.why}));
-  const K=SMART.enrich(raw.filter(x=>x.cat!=='Histoire'&&x.cat!=='Géographie')).concat(curatedHistory,curatedGeography),EL=['Mathématiques','Raisonnement logique'],MATH='Mathématiques';
+  const curatedEmc=(await unpack(await er.text())).map(x=>({...x,cat:'Enseignement moral et civique',curated:true,text:x.prompt,sourceText:x.why}));
+  const K=SMART.enrich(raw.filter(x=>x.cat!=='Histoire'&&x.cat!=='Géographie'&&x.cat!=='Enseignement moral et civique')).concat(curatedHistory,curatedGeography,curatedEmc),EL=['Mathématiques','Raisonnement logique'],MATH='Mathématiques';
   const LOGMAP={
     'A. Logique mathématique':['Âges'],
     'B. Logique verbale':['Correspondance lettres','Code verbal','Syllogisme'],
