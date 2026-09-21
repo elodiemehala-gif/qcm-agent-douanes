@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>200 questions d’actualité — Relecture</title>
+  <style>
+    :root{color-scheme:light;--ink:#172033;--muted:#667085;--paper:#fff;--bg:#f2f5f9;--line:#d8e0ea;--accent:#204c9f;--accent2:#e9f0ff;--warn:#8a4b08;--warnbg:#fff4df;--ok:#17653b;--okbg:#eaf8f0}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+    header{background:linear-gradient(135deg,#102d66,#2457ad);color:#fff;padding:36px 20px 32px}
+    header>div,main{max-width:980px;margin:auto}h1{margin:0 0 8px;font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.15}header p{margin:0;max-width:760px;color:#e5edff}
+    .notice{margin:22px 0;background:var(--warnbg);border:1px solid #efcf95;border-radius:14px;padding:14px 16px;color:#603509}
+    .controls{position:sticky;top:0;z-index:2;background:rgba(242,245,249,.96);backdrop-filter:blur(8px);padding:12px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr 260px;gap:10px}
+    input,select{width:100%;border:1px solid #b7c2d1;background:#fff;border-radius:10px;padding:11px 12px;font:inherit;color:inherit}
+    .stats{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.pill{background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:7px 12px;color:var(--muted);font-size:.92rem}
+    section{margin:30px 0}.chapter-title{display:flex;align-items:baseline;justify-content:space-between;gap:12px;border-bottom:2px solid #bdcbe0;padding-bottom:8px}.chapter-title h2{margin:0;font-size:1.35rem}.chapter-title span{color:var(--muted);font-size:.9rem}
+    article{background:var(--paper);border:1px solid var(--line);border-radius:15px;margin:14px 0;padding:20px;box-shadow:0 3px 12px rgba(23,32,51,.045)}
+    .meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:9px}.num{font-weight:800;color:var(--accent)}.topic,.volatile{font-size:.78rem;border-radius:999px;padding:3px 8px}.topic{background:var(--accent2);color:#173f86}.volatile{background:var(--warnbg);color:var(--warn);font-weight:700}
+    h3{font-size:1.05rem;margin:0 0 11px}.answers{list-style:none;margin:0;padding:0;display:grid;gap:6px}.answers li{padding:7px 10px;border-radius:8px;background:#f7f9fc}.letter{display:inline-block;width:1.7rem;font-weight:800;color:#536176}
+    details{margin-top:13px;border-top:1px solid var(--line);padding-top:11px}summary{cursor:pointer;color:var(--accent);font-weight:750}.solution{margin:9px 0 0;background:var(--okbg);border-left:4px solid #4fa875;padding:10px 12px;border-radius:6px}.solution strong{color:var(--ok)}
+    .empty{padding:40px;text-align:center;color:var(--muted)}footer{text-align:center;color:var(--muted);padding:35px 16px 55px;font-size:.9rem}
+    @media(max-width:700px){.controls{grid-template-columns:1fr;position:static}article{padding:16px}header{padding-top:28px}.chapter-title{align-items:flex-start;flex-direction:column;gap:2px}}
+    @media print{header{background:#fff;color:#000;padding:0}header p{color:#333}.controls,.notice,.stats{display:none}body{background:#fff}article{break-inside:avoid;box-shadow:none}details[open] summary{display:none}}
+  </style>
+</head>
+<body>
+  <header><div>
+    <h1>200 questions d’actualité</h1>
+    <p>Banque de relecture — actualité arrêtée au 31 août 2026. Les réponses sont volontairement repliées pour permettre une vraie lecture en conditions de QCM.</p>
+  </div></header>
+  <main>
+    <div class="notice"><strong>Important :</strong> les éléments portant le badge « À revérifier » peuvent évoluer. Ils seront contrôlés une dernière fois juste avant l’intégration dans l’application.</div>
+    <div class="controls">
+      <input id="search" type="search" placeholder="Rechercher un mot, un nom ou un numéro…" aria-label="Rechercher une question">
+      <select id="chapter" aria-label="Filtrer par chapitre"><option value="">Tous les chapitres</option></select>
+    </div>
+    <div class="stats" id="stats"></div>
+    <div id="questions"></div>
+  </main>
+  <footer>Page destinée à la validation de la banque avant son intégration dans l’application QCM.</footer>
+  <script src="actualite-200-bank.js"></script>
+  <script>
+    (()=>{
+      const bank=window.QACTUALITE_REVIEW||[], root=document.querySelector('#questions'), select=document.querySelector('#chapter'), search=document.querySelector('#search'), stats=document.querySelector('#stats');
+      const chapters=[...new Set(bank.map(q=>q.chapter))];
+      for(const chapter of chapters){const option=document.createElement('option');option.value=chapter;option.textContent=chapter;select.append(option)}
+      const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+      const normalize=s=>String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+      function render(){
+        const term=normalize(search.value.trim()), selected=select.value;
+        const filtered=bank.filter(q=>(!selected||q.chapter===selected)&&(!term||normalize([q.number,q.topic,q.prompt,...q.o,q.why].join(' ')).includes(term)));
+        const grouped=new Map();for(const q of filtered){if(!grouped.has(q.chapter))grouped.set(q.chapter,[]);grouped.get(q.chapter).push(q)}
+        stats.innerHTML=`<span class="pill"><strong>${filtered.length}</strong> question${filtered.length>1?'s':''} affichée${filtered.length>1?'s':''}</span><span class="pill"><strong>${chapters.length}</strong> chapitres</span><span class="pill"><strong>${bank.filter(q=>q.volatile).length}</strong> éléments à revérifier</span>`;
+        if(!filtered.length){root.innerHTML='<div class="empty">Aucune question ne correspond à ce filtre.</div>';return}
+        root.innerHTML=[...grouped].map(([chapter,items])=>`<section><div class="chapter-title"><h2>${esc(chapter)}</h2><span>${items.length} question${items.length>1?'s':''}</span></div>${items.map(q=>{
+          const answer=String.fromCharCode(65+q.ans);
+          return `<article id="q${q.number}"><div class="meta"><span class="num">Question ${q.number}</span><span class="topic">${esc(q.topic)}</span>${q.volatile?'<span class="volatile">À revérifier</span>':''}</div><h3>${esc(q.prompt)}</h3><ol class="answers">${q.o.map((o,i)=>`<li><span class="letter">${String.fromCharCode(65+i)}.</span>${esc(o)}</li>`).join('')}</ol><details><summary>Voir la réponse et l’explication</summary><div class="solution"><strong>Réponse : ${answer}</strong><br>${esc(q.why)}</div></details></article>`
+        }).join('')}</section>`).join('')
+      }
+      search.addEventListener('input',render);select.addEventListener('change',render);render();
+    })();
+  </script>
+</body>
+</html>
