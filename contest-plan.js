@@ -104,7 +104,7 @@
   };
   const taskHTML=t=>`<div class="contest-task ${taskDone(t.id)?'done':''}"><label><input type="checkbox" data-plan-task="${esc(t.id)}" ${taskDone(t.id)?'checked':''}><span class="contest-check" aria-hidden="true">✓</span><span><small>${esc(t.time)}</small><b>${esc(t.label)}</b></span></label>${t.cat?`<button type="button" class="contest-task-go" data-plan-cat="${esc(t.cat)}">Ouvrir</button>`:''}</div>`;
   const innerHTML=()=>{
-    const today=localDate(),focus=dayForToday(),todayDone=questionsFor(today),displayDone=questionsFor(focus.date),p=pace(),total=questionsTotal(),daysLeft=Math.max(0,Math.ceil((new Date(`${EXAM_DATE}T00:00:00`)-new Date(`${today}T00:00:00`))/86400000));
+    const today=localDate(),focus=dayForToday(),displayDone=questionsFor(focus.date),p=pace(),total=questionsTotal(),active=DAYS.find(d=>d.date===today),canAdd=!!active?.quota,daysLeft=Math.max(0,Math.ceil((new Date(`${EXAM_DATE}T00:00:00`)-new Date(`${today}T00:00:00`))/86400000));
     return`<div class="card contest-plan ${p.kind}">
       <div class="contest-head"><div><span class="contest-kicker">OBJECTIF CONCOURS · 29 SEPTEMBRE</span><h2>${today===EXAM_DATE?'C’est le jour J':daysLeft?`J-${daysLeft} avant l’épreuve`:'Programme intensif'}</h2></div><span class="contest-pace">${esc(p.label)}</span></div>
       <div class="contest-reminder"><span aria-hidden="true">●</span><div><b>Rappel du moment</b><p>${esc(reminder())}</p></div></div>
@@ -115,9 +115,9 @@
       </div>
       ${focus.quota?`<div class="contest-progress"><i style="width:${Math.min(100,Math.round(displayDone/focus.quota*100))}%"></i></div>`:''}
       <p class="contest-pace-detail">${esc(p.detail)}</p>
-      <div class="contest-actions"><button type="button" class="btn" data-plan-toggle>${focus.date===today?'Voir le programme du jour':'Voir le programme'}</button><button type="button" class="btn alt" data-plan-add="10">+10 faites ailleurs</button><button type="button" class="btn alt" data-plan-add="50">+50 sujet blanc</button></div>
+      <div class="contest-actions"><button type="button" class="btn" data-plan-toggle>${focus.date===today?'Voir le programme du jour':'Voir le programme'}</button>${canAdd?'<button type="button" class="btn alt" data-plan-add="10">+10 faites ailleurs</button><button type="button" class="btn alt" data-plan-add="50">+50 sujet blanc</button>':''}</div>
       <div class="contest-days" data-plan-days hidden>${DAYS.map(day=>`<details ${day.date===focus.date?'open':''}><summary><span><b>${esc(day.label)}</b><small>${esc(day.title)}</small></span><span>${questionsFor(day.date)}${day.quota?' / '+day.quota:''}</span></summary><div class="contest-day-body">${day.tasks.map(taskHTML).join('')}</div></details>`).join('')}</div>
-      <p class="contest-footnote">Les sessions terminées dans l’application sont comptées automatiquement. Utilise les boutons +10 ou +50 pour un entraînement fait sur papier ou ailleurs.</p>
+      <p class="contest-footnote">Les sessions terminées dans l’application sont comptées automatiquement.${canAdd?' Utilise les boutons +10 ou +50 pour un entraînement fait sur papier ou ailleurs.':' Le compteur quotidien s’active jeudi 24.'}</p>
     </div>`;
   };
   let expanded=false;
