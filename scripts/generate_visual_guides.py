@@ -234,6 +234,13 @@ GUIDES = [
         ("Repères romans", ["Sainte-Foy de Conques", "Basilique de Vézelay", "Abbayes et églises massives"]),
         ("Repères gothiques", ["Notre-Dame de Paris", "Cathédrales de Chartres et Reims", "Hauteur, lumière, vitraux"]),
     ]),
+    ("arts/chronologie-eglises.svg", "flow", "Chronologie de l’architecture des églises", "Suivre les grandes transformations, des basiliques aux édifices contemporains", "#be185d", [
+        ("IVe–VIe siècles · paléochrétien", ["Plan basilical hérité de Rome", "nef centrale et abside"]),
+        ("XIe–XIIe siècles · roman", ["Arc en plein cintre", "murs épais, petites ouvertures"]),
+        ("XIIe–XVe siècles · gothique", ["Arc brisé et croisées d’ogives", "arcs-boutants, hauteur et vitraux"]),
+        ("XVIe–XVIIIe siècles", ["Renaissance, classicisme et baroque", "Antiquité, ordre puis décor théâtral"]),
+        ("XIXe–XXIe siècles", ["Néo-gothique puis matériaux modernes", "restaurations, béton, verre et formes nouvelles"]),
+    ]),
     ("arts/renaissance-artistes.svg", "cards", "Renaissance : artistes et œuvres", "Associer immédiatement le nom au bon repère", "#be185d", [
         ("Léonard de Vinci", ["La Joconde", "La Cène", "L’Homme de Vitruve"]),
         ("Michel-Ange", ["David et la Pietà", "Plafond de la chapelle Sixtine", "Sculpteur, peintre, architecte"]),
