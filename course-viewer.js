@@ -110,7 +110,7 @@
 
   function subjectList(){
     const cards=Object.entries(INDEX).map(([name,m])=>`<a class="course-subject-card" href="cours.html?matiere=${encodeURIComponent(name)}&rev=31"><div class="card"><div class="course-subject-top"><div><b>${esc(m.title)}</b><span>${m.chapters} chapitre${m.chapters>1?'s':''}</span></div><span class="course-open">→</span></div><p>Lire le cours transcrit et structuré</p></div></a>`).join('');
-    A.innerHTML=`<div class="hero card transcript-hero"><span class="tag">Bibliothèque de cours</span><h1 class="course-title">Cours complets</h1><p class="course-sub">Les cours sont indépendants des QCM : lecture rapide, recherche par mot-clé et navigation par chapitre.</p></div><div class="course-library">${cards}<a class="course-subject-card info-special" href="informatique.html?rev=24"><div class="card"><div class="course-subject-top"><div><b>Informatique / Culture numérique</b><span>10 chapitres</span></div><span class="course-open">→</span></div><p>Ouvrir le cours de culture numérique</p></div></a></div>`;
+    A.innerHTML=`<div class="hero card transcript-hero"><span class="tag">Bibliothèque de cours</span><h1 class="course-title">Cours complets</h1><p class="course-sub">Les cours sont indépendants des QCM : lecture rapide, recherche par mot-clé et navigation par chapitre.</p></div><div class="course-library">${cards}<a class="course-subject-card info-special" href="informatique.html?rev=41"><div class="card"><div class="course-subject-top"><div><b>Informatique / Culture numérique</b><span>10 chapitres</span></div><span class="course-open">→</span></div><p>Ouvrir le cours de culture numérique</p></div></a></div>`;
   }
 
   const allText=sec=>[sec.title,...(sec.body||[]),...(sec.key||[])].join(' ');
