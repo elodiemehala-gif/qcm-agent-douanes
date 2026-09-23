@@ -111,6 +111,7 @@
   const art=[
     img('Grande chronologie des arts','assets/visual-guides/arts/chronologie-arts.svg'),
     img('Églises : roman ou gothique ?','assets/visual-guides/arts/eglises-roman-gothique.svg'),
+    img('Chronologie de l’architecture des églises','assets/visual-guides/arts/chronologie-eglises.svg'),
     img('Renaissance : artistes et œuvres','assets/visual-guides/arts/renaissance-artistes.svg'),
     img('Baroque ou classicisme ?','assets/visual-guides/arts/baroque-classicisme.svg'),
     img('Les mouvements artistiques du XIXe siècle','assets/visual-guides/arts/xixe-mouvements.svg'),
