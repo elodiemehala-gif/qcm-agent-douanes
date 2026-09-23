@@ -1,10 +1,10 @@
 (()=>{
 const app=document.getElementById('app');
 const bank=window.QINFO_BANK;
-const infoStore=()=>JSON.parse(localStorage.getItem('qcm-info-v1')||'{}');
+const infoStore=()=>JSON.parse(localStorage.getItem('qcm-info-v2')||'{}');
 const infoStats=()=>{const P=infoStore(),n=bank?.questions?.length||0;let seen=0,mastered=0,errors=0;(bank?.questions||[]).forEach((_,i)=>{const r=P[`INF-${String(i+1).padStart(3,'0')}`];if(r?.a)seen++;if(r?.s>=2&&r?.c>=2)mastered++;if(r?.w&&r?.s===0)errors++});return{n,seen,mastered,errors,p:n?Math.round(seen*100/n):0}};
-const infoUrl='informatique.html?rev=24';
-function card(){const s=infoStats(),d=document.createElement('div');d.className='card cat info-main-card';d.innerHTML=`<b>Informatique / Culture numérique</b><span class="muted">10 chapitres · ${s.n} QCM pédagogiques · ${s.errors} à revoir</span><div class="bar"><i style="width:${s.p}%"></i></div><span class="tag practice">Nouvelle matière</span><button type="button" class="course-pill compact info-course-pill">📖 <span>Cours</span></button>`;d.addEventListener('click',()=>location.href=infoUrl);d.querySelector('.info-course-pill').addEventListener('click',e=>{e.preventDefault();e.stopPropagation();location.href=infoUrl});return d}
+const infoUrl='informatique.html?rev=41';
+function card(){const s=infoStats(),d=document.createElement('div');d.className='card cat info-main-card';d.innerHTML=`<b>Informatique / Culture numérique</b><span class="muted">10 chapitres · ${s.n} questions validées · ${s.errors} à revoir</span><div class="bar"><i style="width:${s.p}%"></i></div><span class="tag practice">Banque validée</span><button type="button" class="course-pill compact info-course-pill">📖 <span>Cours</span></button>`;d.addEventListener('click',()=>location.href=infoUrl);d.querySelector('.info-course-pill').addEventListener('click',e=>{e.preventDefault();e.stopPropagation();location.href=infoUrl});return d}
 function decorate(){
  const sub=document.querySelector('.brand small');if(sub&&/^8 matières/.test(sub.textContent))sub.textContent=sub.textContent.replace(/^8 matières/,'9 matières');
  const heads=[...app.querySelectorAll('h2')];const mh=heads.find(h=>h.textContent.trim()==='Matières');if(mh){let grid=mh.nextElementSibling;if(grid?.classList.contains('grid')&&!grid.querySelector('.info-main-card'))grid.appendChild(card())}
