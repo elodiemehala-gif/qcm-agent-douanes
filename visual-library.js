@@ -37,12 +37,20 @@
   add('Géographie',WORLD,'Organisations internationales',[
     img('Chronologie et nature des organisations internationales','assets/geography/organisations-internationales-chronologie.svg')
   ]);
+  const internationalCompare=[
+    img('ONU, OTAN, UE, G7, G20 ou BRICS ?','assets/visual-guides/institutions/organisations-comparatif-politique.svg','Nature, membres, mission et moyen mnémotechnique'),
+    img('FMI, Banque mondiale, OMC… qui fait quoi ?','assets/visual-guides/institutions/organisations-comparatif-economie.svg','Finance, commerce, santé, pétrole et monnaie : les distinguer'),
+    img('G7 : de 1975 à 2026','assets/visual-guides/institutions/g7-chronologie.svg','Du G6 de Rambouillet au sommet d’Évian 2026')
+  ];
+  add('Géographie',WORLD,'Organisations internationales : les distinguer',internationalCompare);
   add('Actualité',['3. Actualité internationale','7. Organisations internationales'],'Organisations internationales',[
     img('Chronologie et nature des organisations internationales','assets/geography/organisations-internationales-chronologie.svg')
   ]);
+  add('Actualité',['Spécial actualité 2025–2026','2. Économie et finances','3. Actualité internationale','7. Organisations internationales'],'Organisations internationales : les distinguer',internationalCompare);
   add('Enseignement moral et civique','J. Europe et organisations internationales','Organisations internationales',[
     img('Chronologie et nature des organisations internationales','assets/geography/organisations-internationales-chronologie.svg')
   ]);
+  add('Enseignement moral et civique','J. Europe et organisations internationales','Organisations internationales : les distinguer',internationalCompare);
   add('Géographie',FRANCE,'France physique',[
     img('Reliefs et points culminants de la France','assets/geography/reliefs-france.svg'),
     img('Fleuves de France','assets/geography/fleuves-france.svg'),
@@ -97,6 +105,9 @@
   add('Organisation et missions',['1. Les ministères économiques et financiers','2. Les grandes directions et services à connaître','6. DG Trésor, Direction du Budget, Insee et AFT'],'Bercy : directions et missions',[
     img('Bercy : qui fait quoi ?','assets/visual-guides/institutions/bercy-directions.svg'),
     img('DGFiP, DGDDI ou DGCCRF ?','assets/visual-guides/institutions/dgfip-dgddi-dgccrf.svg')
+  ]);
+  add('Organisation et missions',['1. Les ministères économiques et financiers','2. Les grandes directions et services à connaître','3. La DGFiP : fiscalité et gestion publique','4. La DGDDI : douane, frontières et marchandises','5. La DGCCRF : concurrence, consommation et fraudes','6. DG Trésor, Direction du Budget, Insee et AFT','12. Fraude, blanchiment et Tracfin','13. Fiche express et pièges classiques'],'Chronologie des administrations',[
+    img('Bercy : dates de création et grandes transformations','assets/visual-guides/institutions/bercy-chronologie.svg','DGDDI, Insee, DGCCRF, Tracfin, AFT, DG Trésor et DGFiP')
   ]);
   add('Organisation et missions',['3. La DGFiP : fiscalité et gestion publique','4. La DGDDI : douane, frontières et marchandises','5. La DGCCRF : concurrence, consommation et fraudes'],'Comparer les grandes directions',[
     img('DGFiP, DGDDI ou DGCCRF ?','assets/visual-guides/institutions/dgfip-dgddi-dgccrf.svg')
