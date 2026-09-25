@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1910" viewBox="0 0 1200 1910" role="img" aria-labelledby="title desc">
+  <title id="title">G7 : de 1975 à 2026</title><desc id="desc">Frise des étapes majeures du G7, de sa naissance comme G6 en 1975 au sommet d'Évian en 2026.</desc>
+  <defs><filter id="s" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#172133" flood-opacity=".11"/></filter></defs>
+  <style>.bg{fill:#f7f8fc}.title{font:850 44px Inter,Arial,sans-serif;fill:#172133}.sub{font:520 22px Inter,Arial,sans-serif;fill:#516079}.line{stroke:#cfd7e6;stroke-width:8;stroke-linecap:round}.card{fill:#fff;stroke:#dfe4ef;stroke-width:2;filter:url(#s)}.year{font:850 25px Inter,Arial,sans-serif;fill:#172133;text-anchor:end}.name{font:820 27px Inter,Arial,sans-serif;fill:#172133}.body{font:520 19px Inter,Arial,sans-serif;fill:#334155}.strong{font:750 19px Inter,Arial,sans-serif;fill:#26344d}.tag{font:800 13px Inter,Arial,sans-serif;text-anchor:middle;dominant-baseline:middle}.small{font:500 15px Inter,Arial,sans-serif;fill:#667085}</style>
+  <rect width="1200" height="1910" rx="32" class="bg"/><rect x="0" y="0" width="18" height="1910" rx="9" fill="#2563eb"/>
+  <text x="60" y="78" class="title">G7 : comment le groupe a évolué</text><text x="60" y="118" class="sub">Un forum informel, pas une organisation mondiale ni une alliance militaire</text>
+  <rect x="60" y="150" width="1080" height="86" rx="20" fill="#e8f0ff"/><text x="84" y="184" class="strong">Nature : concertation politique et économique entre sept démocraties industrialisées</text><text x="84" y="214" class="body">Aucun traité fondateur · aucun secrétariat permanent · présidence tournante chaque année</text>
+  <line x1="174" y1="285" x2="174" y2="1625" class="line"/>
+
+  <text x="132" y="340" class="year">1975</text><circle cx="174" cy="333" r="16" fill="#2563eb"/><rect x="222" y="280" width="918" height="118" rx="22" class="card"/><text x="250" y="324" class="name">Rambouillet : naissance du G6</text><text x="250" y="360" class="body">France, Allemagne de l’Ouest, Italie, Japon, Royaume-Uni et États-Unis.</text><text x="250" y="386" class="strong">But initial : coordonner les réponses aux crises économiques.</text>
+
+  <text x="132" y="500" class="year">1976</text><circle cx="174" cy="493" r="16" fill="#2563eb"/><rect x="222" y="440" width="918" height="104" rx="22" class="card"/><text x="250" y="484" class="name">Le Canada entre : le G6 devient G7</text><text x="250" y="520" class="body">Les sept États membres actuels sont désormais réunis.</text>
+
+  <text x="132" y="650" class="year">1977</text><circle cx="174" cy="643" r="16" fill="#2563eb"/><rect x="222" y="590" width="918" height="104" rx="22" class="card"/><text x="250" y="634" class="name">La Communauté européenne participe</text><text x="250" y="670" class="body">L’Union européenne participe encore aujourd’hui, sans devenir un « huitième État ».</text>
+
+  <text x="132" y="800" class="year">1981</text><circle cx="174" cy="793" r="16" fill="#2563eb"/><rect x="222" y="740" width="918" height="104" rx="22" class="card"/><text x="250" y="784" class="name">L’Europe participe à toutes les sessions</text><text x="250" y="820" class="body">À partir du sommet d’Ottawa, sa présence couvre l’ensemble des travaux.</text>
+
+  <text x="132" y="950" class="year">1997–98</text><circle cx="174" cy="943" r="16" fill="#2563eb"/><rect x="222" y="890" width="918" height="104" rx="22" class="card"/><text x="250" y="934" class="name">Intégration de la Russie : passage au G8</text><text x="250" y="970" class="body">Le format politique s’élargit, mais le G7 financier continue d’exister.</text>
+
+  <text x="132" y="1100" class="year">2003</text><circle cx="174" cy="1093" r="16" fill="#2563eb"/><rect x="222" y="1040" width="918" height="104" rx="22" class="card"/><text x="250" y="1084" class="name">Sommet du G8 à Évian</text><text x="250" y="1120" class="body">La France accueille le groupe en Haute-Savoie.</text>
+
+  <text x="132" y="1250" class="year">2014</text><circle cx="174" cy="1243" r="16" fill="#d24b60"/><rect x="222" y="1190" width="918" height="118" rx="22" class="card"/><text x="250" y="1234" class="name">La Russie est suspendue : retour au G7</text><text x="250" y="1270" class="body">Après l’annexion de la Crimée, les sept autres États cessent le format G8.</text><text x="250" y="1296" class="strong">Depuis 2014, la Russie n’est pas membre du G7.</text>
+
+  <text x="132" y="1410" class="year">2019</text><circle cx="174" cy="1403" r="16" fill="#2563eb"/><rect x="222" y="1350" width="918" height="104" rx="22" class="card"/><text x="250" y="1394" class="name">Présidence française : sommet de Biarritz</text><text x="250" y="1430" class="body">La France accueille de nouveau les dirigeants du G7.</text>
+
+  <text x="132" y="1560" class="year">2025</text><circle cx="174" cy="1553" r="16" fill="#2563eb"/><rect x="222" y="1500" width="918" height="104" rx="22" class="card"/><text x="250" y="1544" class="name">Kananaskis, Canada</text><text x="250" y="1580" class="body">Sommet des dirigeants du 15 au 17 juin 2025, sous présidence canadienne.</text>
+
+  <text x="132" y="1710" class="year">2026</text><circle cx="174" cy="1703" r="16" fill="#7c3aed"/><rect x="222" y="1650" width="918" height="118" rx="22" class="card"/><text x="250" y="1694" class="name">Évian, France</text><text x="250" y="1730" class="body">Sommet du 15 au 17 juin 2026, sous présidence française.</text><text x="250" y="1756" class="strong">Membres : Allemagne, Canada, États-Unis, France, Italie, Japon, Royaume-Uni.</text>
+
+  <rect x="60" y="1810" width="1080" height="58" rx="18" fill="#eee9ff"/><text x="86" y="1846" class="strong">Mémo : G7 = petit forum politique · G20 = forum économique élargi · ONU = organisation quasi universelle</text>
+  <text x="60" y="1890" class="small">Sources : Conseil européen, présidences officielles du G7 et Élysée · vérifié en septembre 2026.</text>
+</svg>
