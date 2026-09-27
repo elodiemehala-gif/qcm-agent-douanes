@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1910" viewBox="0 0 1200 1910" role="img" aria-labelledby="title desc">
+  <title id="title">Actualité 2026 : les 100 questions dans l’ordre chronologique</title>
+  <desc id="desc">Frise chronologique des événements de 2026 couverts par la banque spéciale de 100 questions d’actualité 2025-2026.</desc>
+  <defs><filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#172133" flood-opacity=".10"/></filter></defs>
+  <style>
+    .bg{fill:#f7f8fc}.title{font:850 43px Inter,Arial,sans-serif;fill:#172133}.sub{font:520 21px Inter,Arial,sans-serif;fill:#526077}.line{stroke:#cfd7e6;stroke-width:8;stroke-linecap:round}.card{fill:#fff;stroke:#dfe4ef;stroke-width:2;filter:url(#shadow)}.month{font:850 25px Inter,Arial,sans-serif;fill:#172133;text-anchor:end}.event{font:760 21px Inter,Arial,sans-serif;fill:#1f2937}.detail{font:510 18px Inter,Arial,sans-serif;fill:#475569}.q{font:800 15px Inter,Arial,sans-serif;fill:#fff;text-anchor:middle;dominant-baseline:middle}.legend{font:700 16px Inter,Arial,sans-serif;fill:#334155}.small{font:500 15px Inter,Arial,sans-serif;fill:#667085}.memo{font:750 19px Inter,Arial,sans-serif;fill:#26344d}
+  </style>
+  <rect width="1200" height="1910" rx="32" class="bg"/><rect width="18" height="1910" rx="9" fill="#7c3aed"/>
+  <text x="60" y="76" class="title">Actualité 2026 · tous les repères à remettre dans l’ordre</text>
+  <text x="60" y="116" class="sub">Deuxième panneau de la frise des 100 questions · événements classés de janvier à juillet</text>
+  <rect x="60" y="148" width="1080" height="92" rx="20" fill="#eee9ff"/>
+  <circle cx="93" cy="180" r="9" fill="#2563eb"/><text x="111" y="186" class="legend">France &amp; Europe</text>
+  <circle cx="286" cy="180" r="9" fill="#7c3aed"/><text x="304" y="186" class="legend">Monde</text>
+  <circle cx="414" cy="180" r="9" fill="#0f9f8f"/><text x="432" y="186" class="legend">Sciences</text>
+  <circle cx="572" cy="180" r="9" fill="#e97718"/><text x="590" y="186" class="legend">Culture</text>
+  <circle cx="705" cy="180" r="9" fill="#18864b"/><text x="723" y="186" class="legend">Sport</text>
+  <text x="88" y="219" class="detail">Les deux panneaux 2025 et 2026 couvrent ensemble les questions Q1 à Q100.</text>
+  <line x1="178" y1="292" x2="178" y2="1710" class="line"/>
+
+  <text x="136" y="355" class="month">JANV.</text><circle cx="178" cy="347" r="15" fill="#2563eb"/>
+  <rect x="222" y="300" width="918" height="122" rx="22" class="card"/>
+  <circle cx="252" cy="344" r="8" fill="#2563eb"/><text x="276" y="351" class="event">1er janvier · la Bulgarie adopte l’euro</text><text x="276" y="379" class="detail">L’euro remplace le lev bulgare.</text><rect x="1004" y="326" width="101" height="31" rx="15" fill="#2563eb"/><text x="1054" y="342" class="q">Q12–13</text>
+
+  <text x="136" y="515" class="month">FÉVR.</text><circle cx="178" cy="507" r="15" fill="#18864b"/>
+  <rect x="222" y="460" width="918" height="220" rx="22" class="card"/>
+  <circle cx="252" cy="504" r="8" fill="#18864b"/><text x="276" y="511" class="event">6–22 février · Jeux olympiques d’hiver Milano Cortina</text><text x="276" y="539" class="detail">France : 23 médailles, dont 8 en or, et sixième place au tableau.</text><rect x="1004" y="486" width="101" height="31" rx="15" fill="#18864b"/><text x="1054" y="502" class="q">Q100</text>
+  <circle cx="252" cy="593" r="8" fill="#0f9f8f"/><text x="276" y="600" class="event">13–14 février · Sophie Adenot rejoint l’ISS</text><text x="276" y="628" class="detail">Mission εpsilon · Crew-12 · capsule Dragon Freedom · amarrage le 14.</text><rect x="1004" y="575" width="101" height="31" rx="15" fill="#0f9f8f"/><text x="1054" y="591" class="q">Q41–45</text>
+
+  <text x="136" y="775" class="month">MARS</text><circle cx="178" cy="767" r="15" fill="#e97718"/>
+  <rect x="222" y="720" width="918" height="220" rx="22" class="card"/>
+  <circle cx="252" cy="764" r="8" fill="#e97718"/><text x="276" y="771" class="event">15 mars · Oscars : Michael B. Jordan et KPop Demon Hunters</text><text x="276" y="799" class="detail">Meilleur acteur pour Sinners · meilleur film d’animation.</text><rect x="1004" y="746" width="101" height="31" rx="15" fill="#e97718"/><text x="1054" y="762" class="q">Q73–74</text>
+  <circle cx="252" cy="853" r="8" fill="#e97718"/><text x="276" y="860" class="event">18 mars · César des lycéens à Dossier 137</text><text x="276" y="888" class="detail">Film de Dominik Moll récompensé lors de l’édition 2026.</text><rect x="1004" y="835" width="101" height="31" rx="15" fill="#e97718"/><text x="1054" y="851" class="q">Q76</text>
+
+  <text x="136" y="1035" class="month">MAI</text><circle cx="178" cy="1027" r="15" fill="#e97718"/>
+  <rect x="222" y="980" width="918" height="220" rx="22" class="card"/>
+  <circle cx="252" cy="1024" r="8" fill="#e97718"/><text x="276" y="1031" class="event">16 mai · Eurovision : DARA gagne pour la Bulgarie</text><text x="276" y="1059" class="detail">Première victoire bulgare, obtenue à Vienne avec Bangaranga.</text><rect x="1004" y="1006" width="101" height="31" rx="15" fill="#e97718"/><text x="1054" y="1022" class="q">Q78</text>
+  <circle cx="252" cy="1113" r="8" fill="#e97718"/><text x="276" y="1120" class="event">23 mai · Palme d’or à FJORD de Cristian Mungiu</text><text x="276" y="1148" class="detail">Film récompensé lors de la 79e édition du Festival de Cannes.</text><rect x="1004" y="1095" width="101" height="31" rx="15" fill="#e97718"/><text x="1054" y="1111" class="q">Q68–69</text>
+
+  <text x="136" y="1295" class="month">JUIN</text><circle cx="178" cy="1287" r="15" fill="#7c3aed"/>
+  <rect x="222" y="1240" width="918" height="122" rx="22" class="card"/>
+  <circle cx="252" cy="1284" r="8" fill="#7c3aed"/><text x="276" y="1291" class="event">15–17 juin · sommet du G7 à Évian-les-Bains</text><text x="276" y="1319" class="detail">Sommet organisé sous la présidence française du G7.</text><rect x="1004" y="1266" width="101" height="31" rx="15" fill="#7c3aed"/><text x="1054" y="1282" class="q">Q18–20</text>
+
+  <text x="136" y="1455" class="month">JUIL.</text><circle cx="178" cy="1447" r="15" fill="#7c3aed"/>
+  <rect x="222" y="1400" width="918" height="300" rx="22" class="card"/>
+  <circle cx="252" cy="1444" r="8" fill="#7c3aed"/><text x="276" y="1451" class="event">7–8 juillet · sommet de l’OTAN à Ankara</text><text x="276" y="1479" class="detail">La Turquie accueille les chefs d’État et de gouvernement de l’Alliance.</text><rect x="1004" y="1426" width="101" height="31" rx="15" fill="#7c3aed"/><text x="1054" y="1442" class="q">Q35</text>
+  <circle cx="252" cy="1533" r="8" fill="#18864b"/><text x="276" y="1540" class="event">11 juillet · Linda Nosková remporte Wimbledon</text><text x="276" y="1568" class="detail">La joueuse tchèque gagne le simple dames.</text><rect x="1004" y="1515" width="101" height="31" rx="15" fill="#18864b"/><text x="1054" y="1531" class="q">Q95</text>
+  <circle cx="252" cy="1622" r="8" fill="#18864b"/><text x="276" y="1629" class="event">19 juillet · l’Espagne remporte la Coupe du monde</text><text x="276" y="1657" class="detail">1–0 après prolongation contre l’Argentine · Mbappé Soulier d’or.</text><rect x="1004" y="1604" width="101" height="31" rx="15" fill="#18864b"/><text x="1054" y="1620" class="q">Q89–92</text>
+
+  <rect x="60" y="1760" width="1080" height="82" rx="20" fill="#eee9ff"/>
+  <text x="86" y="1793" class="memo">Mémo 2026 : euro → JO &amp; espace → récompenses → G7 → OTAN &amp; sport.</text>
+  <text x="86" y="1822" class="detail">La frise s’arrête en juillet car les 100 questions validées ne couvrent pas d’événement ultérieur.</text>
+  <text x="60" y="1880" class="small">Sources officielles associées aux questions · banque vérifiée en septembre 2026.</text>
+</svg>
