@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="3700" viewBox="0 0 1200 3700" role="img" aria-labelledby="title desc">
+  <title id="title">Actualité 2025 : les 100 questions dans l’ordre chronologique</title>
+  <desc id="desc">Frise chronologique des événements de 2025 couverts par la banque spéciale de 100 questions d’actualité 2025-2026.</desc>
+  <defs><filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#172133" flood-opacity=".10"/></filter></defs>
+  <style>
+    .bg{fill:#f7f8fc}.title{font:850 43px Inter,Arial,sans-serif;fill:#172133}.sub{font:520 21px Inter,Arial,sans-serif;fill:#526077}.line{stroke:#cfd7e6;stroke-width:8;stroke-linecap:round}.card{fill:#fff;stroke:#dfe4ef;stroke-width:2;filter:url(#shadow)}.month{font:850 25px Inter,Arial,sans-serif;fill:#172133;text-anchor:end}.event{font:760 21px Inter,Arial,sans-serif;fill:#1f2937}.detail{font:510 18px Inter,Arial,sans-serif;fill:#475569}.q{font:800 15px Inter,Arial,sans-serif;fill:#fff;text-anchor:middle;dominant-baseline:middle}.legend{font:700 16px Inter,Arial,sans-serif;fill:#334155}.small{font:500 15px Inter,Arial,sans-serif;fill:#667085}.memo{font:750 19px Inter,Arial,sans-serif;fill:#26344d}
+  </style>
+  <rect width="1200" height="3700" rx="32" class="bg"/><rect width="18" height="3700" rx="9" fill="#2563eb"/>
+  <text x="60" y="76" class="title">Actualité 2025 · tous les repères à remettre dans l’ordre</text>
+  <text x="60" y="116" class="sub">Les faits des 100 QCM sont regroupés par événement — les numéros permettent de retrouver les questions</text>
+  <rect x="60" y="148" width="1080" height="92" rx="20" fill="#e8f0ff"/>
+  <circle cx="93" cy="180" r="9" fill="#2563eb"/><text x="111" y="186" class="legend">France &amp; Europe</text>
+  <circle cx="286" cy="180" r="9" fill="#7c3aed"/><text x="304" y="186" class="legend">Monde</text>
+  <circle cx="414" cy="180" r="9" fill="#0f9f8f"/><text x="432" y="186" class="legend">Sciences</text>
+  <circle cx="572" cy="180" r="9" fill="#e97718"/><text x="590" y="186" class="legend">Culture</text>
+  <circle cx="705" cy="180" r="9" fill="#18864b"/><text x="723" y="186" class="legend">Sport</text>
+  <text x="88" y="219" class="detail">Une ligne = un fait à mémoriser, même lorsque plusieurs questions l’explorent.</text>
+  <line x1="178" y1="292" x2="178" y2="3500" class="line"/>
+
+  <text x="136" y="350" class="month">JANV.</text><circle cx="178" cy="342" r="15" fill="#2563eb"/>
+  <rect x="222" y="282" width="918" height="225" rx="22" class="card"/>
+  <circle cx="252" cy="326" r="8" fill="#2563eb"/><text x="276" y="333" class="event">1er janvier · Bulgarie et Roumanie pleinement dans Schengen</text><text x="276" y="361" class="detail">Fin des contrôles de personnes aux frontières terrestres intérieures.</text><rect x="1004" y="308" width="101" height="31" rx="15" fill="#2563eb"/><text x="1054" y="324" class="q">Q14–15</text>
+  <circle cx="252" cy="401" r="8" fill="#7c3aed"/><text x="276" y="408" class="event">20 janvier · Donald Trump devient le 47e président des États-Unis</text><text x="276" y="436" class="detail">Second mandat non consécutif après avoir été le 45e président.</text><rect x="1004" y="383" width="101" height="31" rx="15" fill="#7c3aed"/><text x="1054" y="399" class="q">Q21–22</text>
+  <circle cx="252" cy="476" r="8" fill="#18864b"/><text x="276" y="483" class="event">Open d’Australie · Sinner et Madison Keys vainqueurs</text><rect x="1004" y="458" width="101" height="31" rx="15" fill="#18864b"/><text x="1054" y="474" class="q">Q99</text>
+
+  <text x="136" y="585" class="month">FÉVR.</text><circle cx="178" cy="577" r="15" fill="#2563eb"/>
+  <rect x="222" y="532" width="918" height="166" rx="22" class="card"/>
+  <circle cx="252" cy="576" r="8" fill="#2563eb"/><text x="276" y="583" class="event">10–11 février · Sommet pour l’action sur l’IA à Paris</text><text x="276" y="611" class="detail">Grand Palais · plus de 100 pays · plus de 109 Md€ d’investissements annoncés.</text><rect x="1004" y="558" width="101" height="31" rx="15" fill="#2563eb"/><text x="1054" y="574" class="q">Q1–5</text>
+  <circle cx="252" cy="657" r="8" fill="#e97718"/><text x="276" y="664" class="event">28 février · Emilia Pérez reçoit le César du meilleur film</text><rect x="1004" y="639" width="101" height="31" rx="15" fill="#e97718"/><text x="1054" y="655" class="q">Q75</text>
+
+  <text x="136" y="790" class="month">MARS</text><circle cx="178" cy="782" r="15" fill="#0f9f8f"/>
+  <rect x="222" y="730" width="918" height="425" rx="22" class="card"/>
+  <circle cx="252" cy="774" r="8" fill="#0f9f8f"/><text x="276" y="781" class="event">2 mars · Blue Ghost réussit son alunissage dans Mare Crisium</text><rect x="1004" y="756" width="101" height="31" rx="15" fill="#0f9f8f"/><text x="1054" y="772" class="q">Q46–47</text>
+  <circle cx="252" cy="832" r="8" fill="#e97718"/><text x="276" y="839" class="event">2 mars · Oscars : Anora, Adrien Brody et Mikey Madison</text><rect x="1004" y="814" width="101" height="31" rx="15" fill="#e97718"/><text x="1054" y="830" class="q">Q70–72</text>
+  <circle cx="252" cy="890" r="8" fill="#0f9f8f"/><text x="276" y="897" class="event">11 mars · lancement conjoint des missions SPHEREx et PUNCH</text><text x="276" y="925" class="detail">SPHEREx observe l’Univers ; PUNCH étudie le Soleil et le vent solaire.</text><rect x="1004" y="872" width="101" height="31" rx="15" fill="#0f9f8f"/><text x="1054" y="888" class="q">Q54–55</text>
+  <circle cx="252" cy="969" r="8" fill="#7c3aed"/><text x="276" y="976" class="event">14 mars · Mark Carney devient Premier ministre du Canada</text><text x="276" y="1004" class="detail">Il est le 24e chef du gouvernement canadien.</text><rect x="1004" y="951" width="101" height="31" rx="15" fill="#7c3aed"/><text x="1054" y="967" class="q">Q29–30</text>
+  <circle cx="252" cy="1048" r="8" fill="#0f9f8f"/><text x="276" y="1055" class="event">18 mars · retour de Suni Williams et Butch Wilmore</text><text x="276" y="1083" class="detail">Crew-9 les ramène après 286 jours dans l’espace.</text><rect x="1004" y="1030" width="101" height="31" rx="15" fill="#0f9f8f"/><text x="1054" y="1046" class="q">Q52–53</text>
+  <circle cx="252" cy="1127" r="8" fill="#0f9f8f"/><text x="276" y="1134" class="event">19 mars · premier grand lot de données d’Euclid</text><text x="276" y="1162" class="detail">Environ 26 millions de galaxies déjà recensées.</text><rect x="1004" y="1109" width="101" height="31" rx="15" fill="#0f9f8f"/><text x="1054" y="1125" class="q">Q59–60</text>
+
+  <text x="136" y="1245" class="month">AVRIL</text><circle cx="178" cy="1237" r="15" fill="#7c3aed"/>
+  <rect x="222" y="1193" width="918" height="112" rx="22" class="card"/>
+  <circle cx="252" cy="1237" r="8" fill="#7c3aed"/><text x="276" y="1244" class="event">21 avril · mort du pape François à 88 ans</text><text x="276" y="1272" class="detail">Décès au Vatican, le lundi de Pâques.</text><rect x="1004" y="1219" width="101" height="31" rx="15" fill="#7c3aed"/><text x="1054" y="1235" class="q">Q23–24</text>
+
+  <text x="136" y="1390" class="month">MAI</text><circle cx="178" cy="1382" r="15" fill="#7c3aed"/>
+  <rect x="222" y="1335" width="918" height="448" rx="22" class="card"/>
+  <circle cx="252" cy="1379" r="8" fill="#7c3aed"/><text x="276" y="1386" class="event">6 mai · Friedrich Merz devient chancelier allemand</text><rect x="1004" y="1361" width="101" height="31" rx="15" fill="#7c3aed"/><text x="1054" y="1377" class="q">Q28</text>
+  <circle cx="252" cy="1437" r="8" fill="#7c3aed"/><text x="276" y="1444" class="event">8 mai · Robert Francis Prevost est élu pape Léon XIV</text><text x="276" y="1472" class="detail">Premier pape issu de l’ordre de Saint-Augustin.</text><rect x="1004" y="1419" width="101" height="31" rx="15" fill="#7c3aed"/><text x="1054" y="1435" class="q">Q25–27</text>
+  <circle cx="252" cy="1516" r="8" fill="#e97718"/><text x="276" y="1523" class="event">17 mai · Eurovision : JJ gagne pour l’Autriche</text><text x="276" y="1551" class="detail">Victoire à Bâle avec Wasted Love.</text><rect x="1004" y="1498" width="101" height="31" rx="15" fill="#e97718"/><text x="1054" y="1514" class="q">Q77</text>
+  <circle cx="252" cy="1595" r="8" fill="#2563eb"/><text x="276" y="1602" class="event">20 mai · adoption de l’Accord de l’OMS sur les pandémies</text><text x="276" y="1630" class="detail">Accord adopté par l’Assemblée mondiale de la Santé.</text><rect x="1004" y="1577" width="101" height="31" rx="15" fill="#2563eb"/><text x="1054" y="1593" class="q">Q16–17</text>
+  <circle cx="252" cy="1674" r="8" fill="#e97718"/><text x="276" y="1681" class="event">24 mai · Palme d’or à Un simple accident de Jafar Panahi</text><rect x="1004" y="1656" width="101" height="31" rx="15" fill="#e97718"/><text x="1054" y="1672" class="q">Q66–67</text>
+  <circle cx="252" cy="1732" r="8" fill="#18864b"/><text x="276" y="1739" class="event">31 mai · le PSG remporte sa première Ligue des champions</text><text x="276" y="1767" class="detail">Victoire historique 5–0 contre l’Inter à Munich ; Désiré Doué homme du match.</text><rect x="1004" y="1714" width="101" height="31" rx="15" fill="#18864b"/><text x="1054" y="1730" class="q">Q81–85</text>
+
+  <text x="136" y="1880" class="month">JUIN</text><circle cx="178" cy="1872" r="15" fill="#18864b"/>
+  <rect x="222" y="1820" width="918" height="415" rx="22" class="card"/>
+  <circle cx="252" cy="1864" r="8" fill="#18864b"/><text x="276" y="1871" class="event">7–8 juin · Roland-Garros : Coco Gauff et Carlos Alcaraz</text><rect x="1004" y="1846" width="101" height="31" rx="15" fill="#18864b"/><text x="1054" y="1862" class="q">Q97</text>
+  <circle cx="252" cy="1922" r="8" fill="#2563eb"/><text x="276" y="1929" class="event">9–13 juin · Conférence de l’ONU sur l’océan à Nice</text><text x="276" y="1957" class="detail">France et Costa Rica · déclaration adoptée par plus de 170 pays.</text><rect x="1004" y="1904" width="101" height="31" rx="15" fill="#2563eb"/><text x="1054" y="1920" class="q">Q6–9</text>
+  <circle cx="252" cy="2001" r="8" fill="#7c3aed"/><text x="276" y="2008" class="event">15–17 juin · sommet du G7 à Kananaskis, Canada</text><rect x="1004" y="1983" width="101" height="31" rx="15" fill="#7c3aed"/><text x="1054" y="1999" class="q">Q40</text>
+  <circle cx="252" cy="2059" r="8" fill="#0f9f8f"/><text x="276" y="2066" class="event">23 juin · premières images de l’observatoire Vera C. Rubin</text><text x="276" y="2094" class="detail">Début d’une cartographie répétée du ciel prévue sur dix ans.</text><rect x="1004" y="2041" width="101" height="31" rx="15" fill="#0f9f8f"/><text x="1054" y="2057" class="q">Q50–51</text>
+  <circle cx="252" cy="2138" r="8" fill="#7c3aed"/><text x="276" y="2145" class="event">25 juin · sommet de l’OTAN à La Haye</text><text x="276" y="2173" class="detail">Objectif : 5 % du PIB d’ici 2035, dont 3,5 % pour la défense de base.</text><rect x="1004" y="2120" width="101" height="31" rx="15" fill="#7c3aed"/><text x="1054" y="2136" class="q">Q31–34</text>
+
+  <text x="136" y="2330" class="month">JUIL.</text><circle cx="178" cy="2322" r="15" fill="#0f9f8f"/>
+  <rect x="222" y="2270" width="918" height="510" rx="22" class="card"/>
+  <circle cx="252" cy="2314" r="8" fill="#0f9f8f"/><text x="276" y="2321" class="event">1er juillet · signalement de la comète interstellaire 3I/ATLAS</text><text x="276" y="2349" class="detail">Troisième objet interstellaire identifié dans le Système solaire.</text><rect x="1004" y="2296" width="101" height="31" rx="15" fill="#0f9f8f"/><text x="1054" y="2312" class="q">Q48–49</text>
+  <circle cx="252" cy="2393" r="8" fill="#7c3aed"/><text x="276" y="2400" class="event">6–7 juillet · sommet des BRICS à Rio de Janeiro</text><text x="276" y="2428" class="detail">Sommet organisé sous présidence brésilienne.</text><rect x="1004" y="2375" width="101" height="31" rx="15" fill="#7c3aed"/><text x="1054" y="2391" class="q">Q38–39</text>
+  <circle cx="252" cy="2472" r="8" fill="#18864b"/><text x="276" y="2479" class="event">12–13 juillet · Wimbledon : Świątek et Sinner</text><text x="276" y="2507" class="detail">Premier titre à Wimbledon pour chacun.</text><rect x="1004" y="2454" width="101" height="31" rx="15" fill="#18864b"/><text x="1054" y="2470" class="q">Q98</text>
+  <circle cx="252" cy="2551" r="8" fill="#18864b"/><text x="276" y="2558" class="event">13 juillet · Chelsea remporte la Coupe du monde des clubs</text><text x="276" y="2586" class="detail">Victoire 3–0 contre le PSG au MetLife Stadium.</text><rect x="1004" y="2533" width="101" height="31" rx="15" fill="#18864b"/><text x="1054" y="2549" class="q">Q86–88</text>
+  <circle cx="252" cy="2630" r="8" fill="#18864b"/><text x="276" y="2637" class="event">27 juillet · Tadej Pogačar gagne son quatrième Tour de France</text><rect x="1004" y="2612" width="101" height="31" rx="15" fill="#18864b"/><text x="1054" y="2628" class="q">Q93</text>
+  <circle cx="252" cy="2688" r="8" fill="#0f9f8f"/><text x="276" y="2695" class="event">30 juillet · lancement du satellite NASA–ISRO NISAR</text><text x="276" y="2723" class="detail">Observation des terres, eaux, végétation, glaces et risques naturels.</text><rect x="1004" y="2670" width="101" height="31" rx="15" fill="#0f9f8f"/><text x="1054" y="2686" class="q">Q56–58</text>
+
+  <text x="136" y="2875" class="month">AOÛT</text><circle cx="178" cy="2867" r="15" fill="#18864b"/>
+  <rect x="222" y="2823" width="918" height="112" rx="22" class="card"/>
+  <circle cx="252" cy="2867" r="8" fill="#18864b"/><text x="276" y="2874" class="event">3 août · Pauline Ferrand-Prévot gagne le Tour de France Femmes</text><text x="276" y="2902" class="detail">Victoire française dès sa première participation.</text><rect x="1004" y="2849" width="101" height="31" rx="15" fill="#18864b"/><text x="1054" y="2865" class="q">Q94</text>
+
+  <text x="136" y="3025" class="month">OCT.</text><circle cx="178" cy="3017" r="15" fill="#e97718"/>
+  <rect x="222" y="2973" width="918" height="188" rx="22" class="card"/>
+  <circle cx="252" cy="3017" r="8" fill="#e97718"/><text x="276" y="3024" class="event">8–9 octobre · prix Nobel de chimie et de littérature</text><text x="276" y="3052" class="detail">Kitagawa, Robson et Yaghi · László Krasznahorkai.</text><rect x="1004" y="2999" width="101" height="31" rx="15" fill="#e97718"/><text x="1054" y="3015" class="q">Q79–80</text>
+  <circle cx="252" cy="3096" r="8" fill="#2563eb"/><text x="276" y="3103" class="event">9 octobre · Robert Badinter entre au Panthéon</text><text x="276" y="3131" class="detail">Figure majeure de l’abolition de la peine de mort.</text><rect x="1004" y="3078" width="101" height="31" rx="15" fill="#2563eb"/><text x="1054" y="3094" class="q">Q10–11</text>
+
+  <text x="136" y="3255" class="month">NOV.</text><circle cx="178" cy="3247" r="15" fill="#e97718"/>
+  <rect x="222" y="3203" width="918" height="265" rx="22" class="card"/>
+  <circle cx="252" cy="3247" r="8" fill="#e97718"/><text x="276" y="3254" class="event">4 novembre · prix Goncourt à Laurent Mauvignier</text><text x="276" y="3282" class="detail">La Maison vide remporte le 123e prix Goncourt.</text><rect x="1004" y="3229" width="101" height="31" rx="15" fill="#e97718"/><text x="1054" y="3245" class="q">Q61–63</text>
+  <circle cx="252" cy="3326" r="8" fill="#7c3aed"/><text x="276" y="3333" class="event">10–25 novembre · COP30 à Belém, au Brésil</text><rect x="1004" y="3308" width="101" height="31" rx="15" fill="#7c3aed"/><text x="1054" y="3324" class="q">Q36–37</text>
+  <circle cx="252" cy="3384" r="8" fill="#e97718"/><text x="276" y="3391" class="event">27 novembre · Goncourt des lycéens à Nathacha Appanah</text><text x="276" y="3419" class="detail">La nuit au cœur est récompensé.</text><rect x="1004" y="3366" width="101" height="31" rx="15" fill="#e97718"/><text x="1054" y="3382" class="q">Q64–65</text>
+
+  <text x="136" y="3560" class="month">DÉC.</text><circle cx="178" cy="3552" r="15" fill="#18864b"/>
+  <rect x="222" y="3508" width="918" height="112" rx="22" class="card"/>
+  <circle cx="252" cy="3552" r="8" fill="#18864b"/><text x="276" y="3559" class="event">7 décembre · Lando Norris devient champion du monde de F1</text><text x="276" y="3587" class="detail">Premier titre, obtenu à l’issue du Grand Prix d’Abou Dhabi.</text><rect x="1004" y="3534" width="101" height="31" rx="15" fill="#18864b"/><text x="1054" y="3550" class="q">Q96</text>
+
+  <rect x="60" y="3640" width="1080" height="42" rx="16" fill="#e8f0ff"/><text x="86" y="3668" class="memo">Méthode : mémorise d’abord les mois, puis les dates exactes signalées dans les QCM.</text>
+  <text x="60" y="3695" class="small">Sources officielles associées aux questions · banque vérifiée en septembre 2026.</text>
+</svg>
