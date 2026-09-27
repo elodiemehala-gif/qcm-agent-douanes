@@ -47,6 +47,10 @@
     img('Chronologie et nature des organisations internationales','assets/geography/organisations-internationales-chronologie.svg')
   ]);
   add('Actualité',['Spécial actualité 2025–2026','2. Économie et finances','3. Actualité internationale','7. Organisations internationales'],'Organisations internationales : les distinguer',internationalCompare);
+  add('Actualité','Spécial actualité 2025–2026','Frise des 100 questions d’actualité',[
+    img('Actualité 2025 : tous les repères','assets/visual-guides/institutions/actualite-2025-chronologie.svg','Les événements de 2025 classés par mois, avec les numéros des questions'),
+    img('Actualité 2026 : tous les repères','assets/visual-guides/institutions/actualite-2026-chronologie.svg','Les événements de 2026 classés par mois, avec les numéros des questions')
+  ]);
   add('Enseignement moral et civique','J. Europe et organisations internationales','Organisations internationales',[
     img('Chronologie et nature des organisations internationales','assets/geography/organisations-internationales-chronologie.svg')
   ]);
